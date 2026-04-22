@@ -51,7 +51,9 @@ class SSHConfig:
     user: str
     port: int = 22
     key: str | None = None
-    win_share: str = "Z:"   # Windows drive-bokstav hvor shared folder er mounted
+    # Staging-mappe på Windows hvor XML-filer lastes opp for MS Project-operasjoner.
+    # Opprettes automatisk. Default: C:\Users\<user>\Documents\log650-staging
+    win_staging: str | None = None
 
     @classmethod
     def load(cls) -> "SSHConfig | None":
@@ -64,7 +66,7 @@ class SSHConfig:
                 user=user,
                 port=int(os.environ.get("MSPROJECT_SSH_PORT", "22")),
                 key=os.environ.get("MSPROJECT_SSH_KEY"),
-                win_share=os.environ.get("MSPROJECT_WIN_SHARE", "Z:"),
+                win_staging=os.environ.get("MSPROJECT_WIN_STAGING"),
             )
         # 2. Config-fil
         if CONFIG_FILE.exists():
@@ -74,7 +76,7 @@ class SSHConfig:
                 user=data["user"],
                 port=int(data.get("port", 22)),
                 key=data.get("key"),
-                win_share=data.get("winShare", "Z:"),
+                win_staging=data.get("winStaging"),
             )
         return None
 
@@ -88,6 +90,19 @@ class SSHConfig:
         args.append(f"{self.user}@{self.host}")
         return args
 
+    def scp_args(self) -> list[str]:
+        args = ["scp", "-P", str(self.port),
+                "-o", "ConnectTimeout=5",
+                "-o", "StrictHostKeyChecking=accept-new",
+                "-o", "BatchMode=yes"]
+        if self.key:
+            args += ["-i", os.path.expanduser(self.key)]
+        return args
+
+    def staging_path(self) -> str:
+        """Returnér Windows staging-mappen (default under Documents)."""
+        return self.win_staging or f"C:\\Users\\{self.user}\\Documents\\log650-staging"
+
 
 def run_ssh(cfg: SSHConfig, remote_cmd: str, timeout: int = 60) -> subprocess.CompletedProcess:
     """Kjør en kommando via SSH mot Windows-VMen."""
@@ -97,10 +112,21 @@ def run_ssh(cfg: SSHConfig, remote_cmd: str, timeout: int = 60) -> subprocess.Co
 
 def run_powershell(cfg: SSHConfig, ps_script: str, timeout: int = 120) -> subprocess.CompletedProcess:
     """Kjør et PowerShell-script på Windows-siden."""
+    # Prepend: silence progress, stop on error, og rydd eventuelle zombie MS Project-prosesser
+    prefix = (
+        "$ProgressPreference='SilentlyContinue'; "
+        "$ErrorActionPreference='Stop'; "
+        "Get-Process WINPROJ -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue; "
+        "Start-Sleep -Milliseconds 200; "
+    )
+    full = prefix + ps_script
     # Encode som base64 for å unngå quoting-helvete
     import base64
-    encoded = base64.b64encode(ps_script.encode("utf-16-le")).decode("ascii")
-    return run_ssh(cfg, f"powershell -EncodedCommand {encoded}", timeout=timeout)
+    encoded = base64.b64encode(full.encode("utf-16-le")).decode("ascii")
+    # -NonInteractive + -NoProfile + -OutputFormat Text gir ren JSON uten CLIXML
+    remote = (f"powershell.exe -NonInteractive -NoProfile -OutputFormat Text "
+              f"-ExecutionPolicy Bypass -EncodedCommand {encoded}")
+    return run_ssh(cfg, remote, timeout=timeout)
 
 
 # =====================================================================
@@ -114,15 +140,15 @@ $result['user'] = $env:USERNAME
 $result['osVersion'] = (Get-CimInstance Win32_OperatingSystem).Version
 $result['powerShellVersion'] = $PSVersionTable.PSVersion.ToString()
 
-# Sjekk shared folder
-$share = 'Z:\'
-if (Test-Path $share) {
-    $result['shareAccessible'] = $true
-    $result['shareFiles'] = (Get-ChildItem $share -Filter '*.xml' -ErrorAction SilentlyContinue |
-                             Select-Object -ExpandProperty Name) -join ','
-} else {
-    $result['shareAccessible'] = $false
+# Sørg for at staging-mappen finnes
+$staging = '__STAGING__'
+if (-not (Test-Path $staging)) {
+    New-Item -ItemType Directory -Force -Path $staging | Out-Null
 }
+$result['stagingDir'] = $staging
+$result['stagingExists'] = (Test-Path $staging)
+$result['stagingFiles'] = (Get-ChildItem $staging -Filter '*.xml' -ErrorAction SilentlyContinue |
+                           Select-Object -ExpandProperty Name) -join ','
 
 # Sjekk MS Project
 try {
@@ -155,34 +181,47 @@ if (-not (Test-Path $FilePath)) {
     exit 1
 }
 
+# Lagre til midlertidig fil for å unngå overskrive-dialog
+$tmpPath = $FilePath + '.normalized.xml'
+if (Test-Path $tmpPath) { Remove-Item $tmpPath -Force }
+
+$app = $null
 try {
     $app = New-Object -ComObject MSProject.Application
     $app.Visible = $false
     $app.DisplayAlerts = $false
+    # pjDoNotSaveChanges = 0
+    # pjXML = 12 (MSPDI XML format)
 
-    # Åpne fila
-    $app.FileOpenEx($FilePath, $false)
+    $app.FileOpenEx($FilePath, $false) | Out-Null
     $proj = $app.ActiveProject
     $result['tasksLoaded'] = $proj.Tasks.Count
     $result['projectName'] = $proj.Name
 
-    # Lagre som MSPDI XML (overskriver)
-    $app.FileSaveAs($FilePath, 'xml')
+    # FileSaveAs med pjXML (12) til ny sti — ingen overskrivings-prompt
+    $app.FileSaveAs($tmpPath, 12) | Out-Null
 
-    # Lukk uten ytterligere prompts
-    $proj.ClearBaseline()  # no-op, bare for å unngå dialog
-    $app.FileClose(0)  # 0 = pjDoNotSave (vi har allerede lagret)
+    $app.FileCloseEx(0) | Out-Null
     $app.Quit()
-
     [System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null
+    $app = $null
     [GC]::Collect()
     [GC]::WaitForPendingFinalizers()
 
-    $result['success'] = $true
+    # Bytt ut original med normalisert
+    if (Test-Path $tmpPath) {
+        Move-Item -Path $tmpPath -Destination $FilePath -Force
+        $result['success'] = $true
+    } else {
+        $result['success'] = $false
+        $result['error'] = "Normalisert fil ble ikke skrevet"
+    }
 } catch {
     $result['success'] = $false
     $result['error'] = $_.Exception.Message
-    try { $app.Quit() } catch {}
+    if ($app) { try { $app.Quit() } catch {} }
+    # Hvis hengt, drep WINPROJ
+    Get-Process WINPROJ -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
 }
 
 $result | ConvertTo-Json
@@ -207,7 +246,7 @@ try {
     $app.Visible = $false
     $app.DisplayAlerts = $false
 
-    $app.FileOpenEx($FilePath, $true)  # read-only
+    $app.FileOpenEx($FilePath, $true) | Out-Null  # read-only
     $proj = $app.ActiveProject
     $result['tasks'] = $proj.Tasks.Count
     $result['resources'] = $proj.Resources.Count
@@ -215,7 +254,7 @@ try {
     $result['startDate'] = $proj.ProjectStart.ToString('yyyy-MM-dd')
     $result['finishDate'] = $proj.ProjectFinish.ToString('yyyy-MM-dd')
 
-    $app.FileClose(0)
+    $app.FileClose(0) | Out-Null
     $app.Quit()
     [System.Runtime.InteropServices.Marshal]::ReleaseComObject($app) | Out-Null
     [GC]::Collect()
@@ -231,31 +270,79 @@ $result | ConvertTo-Json
 """
 
 
+def _parse_json_tolerant(text: str) -> dict:
+    """Finn JSON-objekt i output som kan ha støy før/etter (PowerShell bool-output etc)."""
+    text = text.strip()
+    if not text:
+        return {"success": False, "error": "Tom output fra PowerShell"}
+    # Finn første '{' og siste '}' for å ekstrahere JSON-blokken
+    start = text.find("{")
+    end = text.rfind("}")
+    if start >= 0 and end > start:
+        try:
+            return json.loads(text[start:end + 1])
+        except json.JSONDecodeError:
+            pass
+    return {"success": False, "error": "JSON-parse feilet", "raw": text[:500]}
+
+
 # =====================================================================
-# STI-KONVERTERING
+# SCP FILOVERFØRING
 # =====================================================================
-def to_windows_path(cfg: SSHConfig, mac_path: Path) -> str:
+def upload(cfg: SSHConfig, local_path: Path, remote_name: str | None = None) -> str:
     """
-    Konverter mac-sti (f.eks. /Volumes/.../004 data/foo.xml) til Windows-sti
-    relativt til shared folder (f.eks. Z:\\foo.xml).
+    Last opp en lokal fil til staging-mappen på Windows. Returnerer Windows-stien.
+    Oppretter staging-mappen hvis den ikke finnes.
     """
-    mac_path = mac_path.resolve()
-    share_root = REPO_ROOT / "004 data"
-    try:
-        rel = mac_path.relative_to(share_root)
-    except ValueError:
-        raise ValueError(
-            f"Filen må ligge under {share_root} for at VirtioFS-mappingen skal gjelde. "
-            f"Fikk: {mac_path}"
-        )
-    return cfg.win_share + "\\" + str(rel).replace("/", "\\")
+    local_path = local_path.resolve()
+    if not local_path.exists():
+        raise FileNotFoundError(local_path)
+    staging = cfg.staging_path()
+    name = remote_name or local_path.name
+    win_path = f"{staging}\\{name}"
+
+    # Sørg for at staging-mappen finnes
+    mk = run_ssh(cfg, f'if not exist "{staging}" mkdir "{staging}"', timeout=10)
+    # Bruk PowerShell for robusthet (default shell er PowerShell)
+    mk_ps = run_powershell(
+        cfg,
+        f"if (-not (Test-Path '{staging}')) {{ New-Item -ItemType Directory -Force -Path '{staging}' | Out-Null }}",
+        timeout=10,
+    )
+
+    # Windows-sti med framslash er OK i scp-destinasjonen, men bruk SCP-kompatibel form
+    # Vi bruker POSIX-lignende sti i scp-kommandoen og PowerShell konverterer
+    scp_dest = f"{cfg.user}@{cfg.host}:"
+    # Bruk en remote filnavn som er enklere for scp — skriv til Documents-området
+    # Formatet for scp til Windows OpenSSH: user@host:'C:/Users/foo/file.xml'
+    remote_scp_path = win_path.replace("\\", "/")
+    cmd = cfg.scp_args() + [str(local_path), f"{scp_dest}{remote_scp_path}"]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+    if r.returncode != 0:
+        raise RuntimeError(f"SCP upload feilet: {r.stderr.strip()}")
+    return win_path
+
+
+def download(cfg: SSHConfig, remote_win_path: str, local_path: Path) -> None:
+    """Last ned en fil fra Windows til Mac."""
+    local_path = local_path.resolve()
+    remote_scp_path = remote_win_path.replace("\\", "/")
+    cmd = cfg.scp_args() + [
+        f"{cfg.user}@{cfg.host}:{remote_scp_path}",
+        str(local_path),
+    ]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+    if r.returncode != 0:
+        raise RuntimeError(f"SCP download feilet: {r.stderr.strip()}")
 
 
 # =====================================================================
 # HØYNIVÅ API
 # =====================================================================
 def check(cfg: SSHConfig) -> dict:
-    result = run_powershell(cfg, PS_CHECK, timeout=30)
+    # Interpolér staging-path i scriptet
+    script = PS_CHECK.replace("__STAGING__", cfg.staging_path())
+    result = run_powershell(cfg, script, timeout=30)
     if result.returncode != 0:
         return {"error": f"SSH/PowerShell feilet: {result.stderr.strip()}"}
     try:
@@ -264,36 +351,63 @@ def check(cfg: SSHConfig) -> dict:
         return {"error": "Kunne ikke parse PowerShell-output", "raw": result.stdout}
 
 
-def normalize(cfg: SSHConfig, xml_path: Path) -> dict:
-    win_path = to_windows_path(cfg, xml_path)
-    script = f"{PS_NORMALIZE}\n\n. {{ param($p) Invoke-Expression ... }}"
-    # Enklere: interpolér param direkte
-    wrapped = PS_NORMALIZE.replace(
+def _wrap_with_filepath(ps: str, win_path: str) -> str:
+    """Bytt param-blokken i PS_VERIFY/PS_NORMALIZE med eksplisitt $FilePath-tilordning."""
+    return ps.replace(
         "param(\n    [Parameter(Mandatory=$true)][string]$FilePath\n)",
         f'$FilePath = "{win_path}"'
     )
-    result = run_powershell(cfg, wrapped, timeout=120)
+
+
+def normalize(cfg: SSHConfig, xml_path: Path) -> dict:
+    """
+    Last opp XML til Windows, la MS Project åpne og re-lagre den,
+    og last resultatet tilbake til samme lokale fil.
+    """
+    # 1. Last opp til staging
+    win_path = upload(cfg, xml_path)
+
+    # 2. Kjør MS Project normalize på staging-fila
+    wrapped = _wrap_with_filepath(PS_NORMALIZE, win_path)
+    result = run_powershell(cfg, wrapped, timeout=180)
     if result.returncode != 0:
-        return {"success": False, "error": result.stderr.strip()}
+        return {"success": False, "error": result.stderr.strip() or result.stdout.strip()}
+
     try:
-        return json.loads(result.stdout)
+        info = json.loads(result.stdout)
     except json.JSONDecodeError:
         return {"success": False, "error": "JSON-parse feilet", "raw": result.stdout}
+
+    if not info.get("success"):
+        return info
+
+    # 3. Last ned normalisert fil tilbake
+    try:
+        download(cfg, win_path, xml_path)
+        info["downloadedTo"] = str(xml_path)
+    except Exception as e:
+        info["downloadError"] = str(e)
+        info["success"] = False
+    return info
 
 
 def verify(cfg: SSHConfig, xml_path: Path) -> dict:
-    win_path = to_windows_path(cfg, xml_path)
-    wrapped = PS_VERIFY.replace(
-        "param(\n    [Parameter(Mandatory=$true)][string]$FilePath\n)",
-        f'$FilePath = "{win_path}"'
-    )
-    result = run_powershell(cfg, wrapped, timeout=60)
+    """Last opp XML og bekreft at MS Project kan åpne den (read-only)."""
+    win_path = upload(cfg, xml_path)
+    wrapped = _wrap_with_filepath(PS_VERIFY, win_path)
+    result = run_powershell(cfg, wrapped, timeout=120)
     if result.returncode != 0:
-        return {"success": False, "error": result.stderr.strip()}
-    try:
-        return json.loads(result.stdout)
-    except json.JSONDecodeError:
-        return {"success": False, "error": "JSON-parse feilet", "raw": result.stdout}
+        return {"success": False, "error": result.stderr.strip() or result.stdout.strip()}
+    return _parse_json_tolerant(result.stdout)
+
+
+def fetch(cfg: SSHConfig, remote_name: str, local_path: Path) -> None:
+    """
+    Hent en fil fra Windows-staging til lokal sti. Nyttig når PM har lagret
+    XML i staging-mappa og du vil diffe den.
+    """
+    staging = cfg.staging_path()
+    download(cfg, f"{staging}\\{remote_name}", local_path)
 
 
 # =====================================================================
@@ -304,17 +418,18 @@ def cmd_check(args) -> int:
     if not cfg:
         print("Ingen SSH-konfig. Se --help for hvordan sette den opp.", file=sys.stderr)
         return 2
-    print(f"SSH-config: {cfg.user}@{cfg.host}:{cfg.port} (winShare={cfg.win_share})")
+    print(f"SSH-config: {cfg.user}@{cfg.host}:{cfg.port}")
+    print(f"Staging:    {cfg.staging_path()}")
     info = check(cfg)
     if "error" in info:
         print(f"✗ {info['error']}", file=sys.stderr)
         return 1
     print(f"✓ Tilkobling OK — Windows {info.get('osVersion')} som {info.get('user')}")
-    print(f"  Shared folder {cfg.win_share} tilgjengelig: {info.get('shareAccessible')}")
+    print(f"  Staging-mappe klar: {info.get('stagingExists')}")
     print(f"  MS Project: {info.get('msProjectAvailable')} "
           f"(versjon {info.get('msProjectVersion', '?')})")
-    if info.get("shareFiles"):
-        print(f"  XML-filer i share: {info['shareFiles']}")
+    if info.get("stagingFiles"):
+        print(f"  XML-filer i staging: {info['stagingFiles']}")
     return 0
 
 
