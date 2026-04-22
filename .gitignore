@@ -1,2 +1,15 @@
 .DS_Store
 015 Prosjektinformasjon/
+
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# MS Project integration
+# XML regenereres deterministisk fra JSON (core/wbs/schedule). Kilder + mapping er autoritative.
+004 data/LOG650_G22_from_json.xml
+# Backup-filer fra apply_diff.py
+*.bak
