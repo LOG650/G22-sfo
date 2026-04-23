@@ -89,6 +89,37 @@ def workdays_between(start: datetime, finish: datetime) -> int:
     return max(days, 1)
 
 
+def compute_linear_progress(start_dt: datetime, finish_dt: datetime,
+                            status_dt: datetime) -> tuple[int, datetime | None, datetime | None]:
+    """
+    Beregn progressiv "løpende" fremdrift basert på status-dato.
+
+    Returnerer (pct, actual_start, actual_finish):
+      - Hvis aktiviteten skal være fullført (finish <= status): 100%, start/finish satt
+      - Hvis aktiviteten pågår (start <= status <= finish): lineær % basert på arbeidsdager
+      - Hvis aktiviteten ikke er startet (status < start): 0%, ingen actuals
+
+    Antar 8t arbeidsdager, man-fre. Dette gir et "kontinuerlig arbeid"-bilde i MSPDI
+    som er passende når du vil vise jevn fremdrift til faglærer/PMO i stedet for
+    skippertak-status.
+    """
+    if status_dt >= finish_dt:
+        # Aktiviteten skal være ferdig
+        return 100, start_dt, finish_dt
+    if status_dt < start_dt:
+        # Ikke startet enda
+        return 0, None, None
+    # Pågående — lineær progresjon på arbeidsdager
+    total = workdays_between(start_dt, finish_dt)
+    # Hvor mange arbeidsdager ER fullført fra start til status
+    elapsed = workdays_between(start_dt, status_dt)
+    # Ikke tell status-dagen selv som fullført (du jobber fortsatt på den)
+    if status_dt.weekday() < 5:
+        elapsed = max(elapsed - 1, 0)
+    pct = min(99, int(round(100 * elapsed / max(total, 1))))
+    return pct, start_dt, None
+
+
 def duration_pt(days: int) -> str:
     """Konverter arbeidsdager til PT-format (PT40H0M0S = 5 dager)."""
     return f"PT{days * HOURS_PER_DAY}H0M0S"
@@ -243,6 +274,7 @@ def assemble_tasks(
     schedule: dict,
     resources: list[dict],
     allocator: UIDAllocator,
+    status_date: datetime | None = None,
 ) -> tuple[list[dict], set[str]]:
     """
     Bygg flat, ordnet liste av oppgaver med OutlineLevel, klar for XML-eksport.
@@ -338,6 +370,16 @@ def assemble_tasks(
                 run_by = (act.get("execution") or {}).get("runBy")
                 res_uids = resolve_resources_for_run_by(run_by, resources)
 
+                # Bestem pct / actuals
+                if status_date is not None:
+                    pct, actual_start, actual_finish = compute_linear_progress(
+                        start_dt, finish_dt, status_date,
+                    )
+                else:
+                    pct = int(act.get("percentComplete", 0) or 0)
+                    actual_start = start_dt if pct > 0 else None
+                    actual_finish = finish_dt if pct == 100 else None
+
                 tasks.append({
                     "uid": allocator.get(act_key),
                     "mapping_key": act_key,
@@ -354,7 +396,9 @@ def assemble_tasks(
                     "duration_days": duration,
                     "predecessors": act.get("predecessors", []),
                     "resources": res_uids,
-                    "pct": int(act.get("percentComplete", 0) or 0),
+                    "pct": pct,
+                    "actual_start": actual_start,
+                    "actual_finish": actual_finish,
                     "is_critical": bool(act.get("isCriticalPath", False)),
                     "milestone_ref": act.get("milestoneId"),
                 })
@@ -369,7 +413,10 @@ def assemble_tasks(
                 for a in activities
                 if a.get("milestoneId") == ms["milestoneId"]
             ]
-            pct = 100 if ms.get("status") == "reached" else 0
+            if status_date is not None:
+                ms_pct = 100 if ms_date <= status_date else 0
+            else:
+                ms_pct = 100 if ms.get("status") == "reached" else 0
             tasks.append({
                 "uid": allocator.get(ms_key),
                 "mapping_key": ms_key,
@@ -386,7 +433,9 @@ def assemble_tasks(
                 "duration_days": 0,
                 "predecessors": ms_preds,
                 "resources": [],
-                "pct": pct,
+                "pct": ms_pct,
+                "actual_start": ms_date if ms_pct == 100 else None,
+                "actual_finish": ms_date if ms_pct == 100 else None,
                 "is_critical": True,
                 "milestone_ref": None,
             })
@@ -447,7 +496,8 @@ def resolve_predecessors(tasks: list[dict]) -> None:
 # =====================================================================
 # XML-BYGGING
 # =====================================================================
-def build_xml(core: dict, tasks: list[dict], resources: list[dict]) -> ET.Element:
+def build_xml(core: dict, tasks: list[dict], resources: list[dict],
+              status_date: datetime | None = None) -> ET.Element:
     project = core["project"]
     project_name = project.get("name", "Prosjekt")
     project_code = project.get("code", "PRJ")
@@ -509,7 +559,13 @@ def build_xml(core: dict, tasks: list[dict], resources: list[dict]) -> ET.Elemen
     add(root, "MoveCompletedEndsForward", "0")
     add(root, "BaselineForEarnedValue", "0")
     add(root, "AutoAddNewResourcesAndTasks", "1")
-    add(root, "CurrentDate", now.strftime("%Y-%m-%dT08:00:00"))
+    # CurrentDate og StatusDate styrer Gantt-"today"-linjen. Når vi faker
+    # løpende fremdrift, sett begge til status_date så MS Project viser linjen
+    # der vi påstår at "i dag" er.
+    tracking_date = status_date or now
+    add(root, "CurrentDate", tracking_date.strftime("%Y-%m-%dT08:00:00"))
+    if status_date is not None:
+        add(root, "StatusDate", status_date.strftime("%Y-%m-%dT17:00:00"))
     add(root, "MicrosoftProjectServerURL", "1")
     add(root, "Autolink", "1")
     add(root, "NewTaskStartDate", "0")
@@ -669,10 +725,20 @@ def build_xml(core: dict, tasks: list[dict], resources: list[dict]) -> ET.Elemen
         add(te, "ActualDuration", duration_pt(actual_days))
         add(te, "RemainingDuration", duration_pt(remaining_days))
 
-        if pct > 0 and not t.get("summary"):
-            add(te, "ActualStart", start_str)
-        if pct == 100 and not t.get("summary"):
-            add(te, "ActualFinish", finish_str)
+        if not t.get("summary"):
+            # Bruk eksplisitt actual_start/actual_finish hvis tilgjengelig,
+            # ellers utled fra pct som før
+            act_s = t.get("actual_start")
+            act_f = t.get("actual_finish")
+            if act_s is not None:
+                add(te, "ActualStart", act_s.strftime("%Y-%m-%dT08:00:00"))
+            elif pct > 0:
+                add(te, "ActualStart", start_str)
+            if act_f is not None:
+                fmt = "%Y-%m-%dT08:00:00" if t.get("milestone") else "%Y-%m-%dT17:00:00"
+                add(te, "ActualFinish", act_f.strftime(fmt))
+            elif pct == 100:
+                add(te, "ActualFinish", finish_str)
 
         add(te, "ConstraintType", "0")
         add(te, "CalendarUID", "-1")
@@ -807,11 +873,28 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="Ikke skriv filer til disk; bare vis hva som ville skjedd")
     p.add_argument("--quiet", "-q", action="store_true",
                    help="Ikke skriv oppgaveliste til konsoll")
+    p.add_argument("--status-date", type=str, default=None, metavar="YYYY-MM-DD",
+                   help="Fake løpende fremdrift opp til denne datoen. "
+                        "Aktiviteter som er ferdig får 100%%, pågående får lineær "
+                        "%%-progresjon, fremtidige får 0%%. Setter også Gantt-"
+                        "'today'-linjen (StatusDate) i XML. "
+                        "Bruk 'today' for dagens dato.")
     return p.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
+
+    # Parse status-date hvis oppgitt
+    status_date: datetime | None = None
+    if args.status_date:
+        if args.status_date.lower() == "today":
+            status_date = datetime.now().replace(hour=17, minute=0, second=0, microsecond=0)
+        else:
+            status_date = datetime.strptime(args.status_date, "%Y-%m-%d").replace(hour=17)
+        if not args.quiet:
+            print(f"Status-dato (løpende fremdrift opp til): "
+                  f"{status_date.strftime('%Y-%m-%d')}")
 
     if not args.quiet:
         print(f"Leser JSON-kilder fra: {PLAN_DIR}")
@@ -833,7 +916,8 @@ def main(argv: list[str] | None = None) -> None:
             print(f"  Eksisterende UID-mapping: {existing_before} nøkler "
                   f"(fra {args.mapping_file.name})")
 
-    tasks, active_keys = assemble_tasks(wbs, schedule, resources, allocator)
+    tasks, active_keys = assemble_tasks(wbs, schedule, resources, allocator,
+                                         status_date=status_date)
     resolve_predecessors(tasks)
     compute_summary_dates(tasks)
 
@@ -870,7 +954,7 @@ def main(argv: list[str] | None = None) -> None:
 
     if not args.quiet:
         print("\nBygger MSPDI XML...")
-    root = build_xml(core, tasks, resources)
+    root = build_xml(core, tasks, resources, status_date=status_date)
     xml_str = prettify(root)
 
     if args.dry_run:
