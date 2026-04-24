@@ -189,6 +189,75 @@ Datagrunnlaget består av to sammenslåtte kilder fra Coop Extra X: et ukentlig 
 
 ## 6 Modellering
 
+Reallokeringsproblemet formuleres som en lineær programmeringsmodell (LP) der målet er å fordele et fast antall hylleplasser mellom produktene i kategorien slik at forventet samlet salg maksimeres innenfor produktspesifikke etterspørselsgrenser. Formuleringen er deterministisk og periodegjennomsnittlig: en enkelt «typisk uke» representerer perioden uke 06–15 2026.
+
+### 6.1 Mengder og indekser
+
+| Symbol | Beskrivelse |
+|---|---|
+| $P$ | Mengde av produkter (SKUer) i kategorien, $i \in P$, $\lvert P \rvert = 8$ |
+
+### 6.2 Parametere
+
+| Symbol | Enhet | Beskrivelse | Verdi / kilde |
+|---|---|---|---|
+| $T$ | frontfacings | Total hyllekapasitet i kategorien, konstant i perioden | 486 (Tabell 5.2.1) |
+| $c_i$ | frontfacings | Nåværende allokering av hylleplass til produkt $i$ | Tabell 5.2.1 |
+| $\bar s_i$ | enheter/uke | Gjennomsnittlig observert ukesalg for produkt $i$ | Tabell 5.2.1 |
+| $\rho_i$ | enheter/facing/uke | Produktivitet per frontfacing, $\rho_i = \bar s_i / c_i$ | Utledet |
+| $d_i$ | enheter/uke | Estimert øvre grense for ukentlig etterspørsel | §6.4 |
+| $x_i^{\min}$ | frontfacings | Minimum antall frontfacings for å beholde produktet i sortimentet | 1 (antakelse) |
+
+### 6.3 Beslutningsvariabler
+
+$$
+x_i \in \mathbb{Z}_{\ge 0}, \quad y_i \in \mathbb{R}_{\ge 0}, \quad \forall i \in P
+$$
+
+der $x_i$ er antall frontfacings som tildeles produkt $i$ i den omallokerte hylleplanen, og $y_i$ er forventet realisert salg i enheter per uke.
+
+### 6.4 Etterspørselsantagelse
+
+For produkter med observert utnyttelse under 1,0 legges det til grunn at målt ukesalg svarer til etterspørselen ($d_i = \bar s_i$). For produkter der observert salg overstiger kapasiteten, er salget begrenset av hylle og ikke av etterspørsel; den sanne etterspørselen er høyere enn observert salg, men er ikke direkte målbar. I hovedscenariet brukes $d_i = 2\bar s_i$, en antakelse som reflekterer at out-of-stock-situasjoner er observert i flere uker for disse produktene. Alternative verdier prøves i sensitivitetsanalysen (§7.2).
+
+### 6.5 Målfunksjon
+
+Modellen maksimerer total forventet salg per uke:
+
+$$
+\max \sum_{i \in P} y_i
+$$
+
+### 6.6 Restriksjoner
+
+**R1 — Total hyllekapasitet.** All tilgjengelig hylleplass disponeres:
+
+$$
+\sum_{i \in P} x_i = T
+$$
+
+**R2 — Salgsrealisasjon begrenses av hyllekapasitet.** Forventet salg kan ikke overstige det antall enheter som frontfacings-tildelingen kan omsette:
+
+$$
+y_i \le \rho_i \, x_i, \quad \forall i \in P
+$$
+
+**R3 — Salgsrealisasjon begrenses av etterspørsel.** Forventet salg kan ikke overstige estimert etterspørsel:
+
+$$
+y_i \le d_i, \quad \forall i \in P
+$$
+
+**R4 — Minimum sortimentsgaranti.** Hvert produkt må ha minst $x_i^{\min}$ frontfacings for å beholde sortimentet intakt:
+
+$$
+x_i \ge x_i^{\min}, \quad \forall i \in P
+$$
+
+### 6.7 Oppsummering
+
+Modellen består av $\lvert P \rvert = 8$ heltalls-beslutningsvariabler, $\lvert P \rvert = 8$ kontinuerlige variable, og $3\lvert P \rvert + 1 = 25$ lineære restriksjoner. Den lar seg løse med CBC-solveren som følger med PuLP, og optimum oppnås på under ett sekund for det aktuelle datasettet. Beregningene er implementert i `006 analysis/aktiviteter/3_4_data_metode_og_modellering/scripts/03_lp_modell.py`.
+
 ---
 
 ## 7 Analyse og resultater
