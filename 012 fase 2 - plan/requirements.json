@@ -1,0 +1,186 @@
+{
+    "schema": {
+        "name": "pm.requirements",
+        "version": "1.0.0",
+        "standard": "ISO/IEC/IEEE 29148",
+        "description": "Krav for LOG650 G22-prosjektet om hylleallokering (Space Management) i dagligvarebutikk."
+    },
+    "requirementsSet": {
+        "requirementsSetId": "REQSET-LOG650-G22",
+        "projectId": "PRJ-LOG650-G22",
+        "name": "Space Management G22 - kravsett",
+        "version": "1.0",
+        "status": "approved",
+        "baselineDate": "2026-03-09",
+        "approvedBy": "COURSE-LOG650",
+        "audit": {
+            "createdAt": "2026-03-09T12:00:00Z",
+            "createdBy": "sebastian",
+            "updatedAt": "2026-03-14T12:00:00Z",
+            "updatedBy": "sebastian"
+        },
+        "stakeholderNeeds": [
+            {
+                "needId": "SN-001",
+                "stakeholderId": "STK-002",
+                "description": "Prosjektet må levere en kvantitativ analyse som tilfredsstiller kravene i LOG650."
+            },
+            {
+                "needId": "SN-002",
+                "stakeholderId": "STK-001",
+                "description": "Gruppen trenger en modell som identifiserer mismatch mellom hyllekapasitet og etterspørsel og foreslår reallokering."
+            },
+            {
+                "needId": "SN-003",
+                "stakeholderId": "STK-004",
+                "description": "Coop Extra X kan bruke resultatene til å vurdere reallokering av hylleplass i utvalgt varekategori."
+            }
+        ],
+        "requirements": [
+            {
+                "requirementId": "K1",
+                "type": "data",
+                "category": "data",
+                "name": "Historiske salgsdata og hylleplassdata",
+                "statement": "Modellen skal ta inn historiske salgsdata (ukentlig) og hylleplassdata per produkt.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-002",
+                "wbsItemId": "WBS-1.3.3",
+                "taskIds": ["3.3.3", "3.3.4"],
+                "verification": {
+                    "method": "review",
+                    "criteria": "Datasett med ukentlige salgsdata og hylleplassdata per produkt er dokumentert og tilgjengelig for analyse."
+                }
+            },
+            {
+                "requirementId": "K2",
+                "type": "functional",
+                "category": "analyse",
+                "name": "Identifisere mismatch",
+                "statement": "Modellen skal identifisere produkter med mismatch mellom etterspørsel og hyllekapasitet.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-002",
+                "wbsItemId": "WBS-1.3.4",
+                "taskIds": ["3.4.2"],
+                "verification": {
+                    "method": "analyse",
+                    "criteria": "Rapporten viser hvilke produkter som er over- eller underallokert relativt til etterspørsel."
+                }
+            },
+            {
+                "requirementId": "K3",
+                "type": "functional",
+                "category": "optimalisering",
+                "name": "Foreslå reallokering",
+                "statement": "Modellen skal foreslå reallokering av hylleplass innen fast total kapasitet.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-002",
+                "wbsItemId": "WBS-1.3.4",
+                "taskIds": ["3.4.3", "3.4.4", "3.4.5"],
+                "verification": {
+                    "method": "analyse",
+                    "criteria": "LP-modellen produserer en foreslått allokering som overholder total kapasitetsrestriksjon."
+                }
+            },
+            {
+                "requirementId": "K4",
+                "type": "functional",
+                "category": "optimalisering",
+                "name": "Maksimere omsetning",
+                "statement": "Målfunksjonen skal maksimere forventet total omsetning gitt fast hyllekapasitet.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-002",
+                "wbsItemId": "WBS-1.3.4",
+                "taskIds": ["3.4.3"],
+                "verification": {
+                    "method": "analyse",
+                    "criteria": "Målfunksjonen er formulert som maks total omsetning og dokumentert i modelleringskapittel."
+                }
+            },
+            {
+                "requirementId": "K5",
+                "type": "functional",
+                "category": "analyse",
+                "name": "Sekundære indikatorer",
+                "statement": "Sekundære indikatorer: kapasitetsmismatch og risiko for tomme hyller.",
+                "priority": "should-have",
+                "status": "approved",
+                "source": "SN-003",
+                "wbsItemId": "WBS-1.3.5",
+                "taskIds": ["3.5.1"],
+                "verification": {
+                    "method": "analyse",
+                    "criteria": "Rapporten inkluderer beregninger av kapasitetsmismatch og stockout-risiko per produkt."
+                }
+            },
+            {
+                "requirementId": "K6",
+                "type": "model",
+                "category": "modell",
+                "name": "Beslutningsvariabler",
+                "statement": "Beslutningsvariabler: tildelt hylleplass per produkt (facings/hyllemeter).",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-002",
+                "wbsItemId": "WBS-1.3.4",
+                "taskIds": ["3.4.3"],
+                "verification": {
+                    "method": "review",
+                    "criteria": "Beslutningsvariabler x_i er definert i modelleringskapittel med symboltabell."
+                }
+            },
+            {
+                "requirementId": "K7",
+                "type": "technical",
+                "category": "implementering",
+                "name": "Python-implementering",
+                "statement": "Modellen skal implementeres i Python (pandas, PuLP/scipy, matplotlib).",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-001",
+                "wbsItemId": "WBS-1.3.4",
+                "taskIds": ["3.4.4"],
+                "verification": {
+                    "method": "test",
+                    "criteria": "Python-kode kjører og produserer resultater. Kode er vedlagt som vedlegg."
+                }
+            },
+            {
+                "requirementId": "K8",
+                "type": "quality",
+                "category": "validering",
+                "name": "Sensitivitetsanalyse",
+                "statement": "Resultater skal valideres gjennom sensitivitetsanalyse.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-001",
+                "wbsItemId": "WBS-1.3.5",
+                "taskIds": ["3.5.2"],
+                "verification": {
+                    "method": "analyse",
+                    "criteria": "Rapporten inneholder sensitivitetsanalyse med variasjon av nøkkelparametere og vurdering av robusthet."
+                }
+            },
+            {
+                "requirementId": "K9",
+                "type": "ethics",
+                "category": "etikk",
+                "name": "Anonymisering av data",
+                "statement": "Data skal anonymiseres i rapport og presentasjoner.",
+                "priority": "must-have",
+                "status": "approved",
+                "source": "SN-003",
+                "wbsItemId": "WBS-1.4.2",
+                "taskIds": ["4.3"],
+                "verification": {
+                    "method": "review",
+                    "criteria": "Ingen identifiserbare forretningsdata fra Coop Extra X fremkommer i rapport eller presentasjon uten samtykke."
+                }
+            }
+        ]
+    }
+}

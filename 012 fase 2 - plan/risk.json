@@ -1,0 +1,448 @@
+{
+    "schema": {
+        "name": "pm.risk",
+        "version": "1.0.0",
+        "standard": "ISO 31000 / PMI PMBOK Risk Management",
+        "description": "Risikoregister for LOG650 G22-prosjektet om hylleallokering (Space Management) i dagligvarebutikk."
+    },
+    "riskRegister": {
+        "registerId": "RSK-LOG650-G22",
+        "projectId": "PRJ-LOG650-G22",
+        "name": "Space Management G22 - risikoregister",
+        "version": "1.0",
+        "status": "active",
+        "statusDate": "2026-03-14",
+        "audit": {
+            "createdAt": "2026-03-09T12:00:00Z",
+            "createdBy": "sebastian",
+            "updatedAt": "2026-03-14T12:00:00Z",
+            "updatedBy": "sebastian"
+        },
+        "scoringModel": {
+            "scale": [
+                {
+                    "value": 1,
+                    "probabilityLabel": "Sjelden",
+                    "probabilityRange": "< 10%"
+                },
+                {
+                    "value": 2,
+                    "probabilityLabel": "Lite sannsynlig",
+                    "probabilityRange": "10-29%"
+                },
+                {
+                    "value": 3,
+                    "probabilityLabel": "Mulig",
+                    "probabilityRange": "30-59%"
+                },
+                {
+                    "value": 4,
+                    "probabilityLabel": "Sannsynlig",
+                    "probabilityRange": "60-79%"
+                },
+                {
+                    "value": 5,
+                    "probabilityLabel": "Svært sannsynlig",
+                    "probabilityRange": ">= 80%"
+                }
+            ],
+            "thresholds": {
+                "low": {
+                    "min": 1,
+                    "max": 5,
+                    "color": "green"
+                },
+                "medium": {
+                    "min": 6,
+                    "max": 11,
+                    "color": "amber"
+                },
+                "high": {
+                    "min": 12,
+                    "max": 25,
+                    "color": "red"
+                }
+            }
+        },
+        "categories": [
+            {
+                "categoryId": "CAT-DAT",
+                "name": "Data",
+                "description": "Risiko knyttet til datatilgang og datakvalitet"
+            },
+            {
+                "categoryId": "CAT-MET",
+                "name": "Metode",
+                "description": "Risiko knyttet til modellvalg og analysemetode"
+            },
+            {
+                "categoryId": "CAT-SCH",
+                "name": "Fremdrift",
+                "description": "Risiko knyttet til tidsplan og frister"
+            },
+            {
+                "categoryId": "CAT-TEAM",
+                "name": "Team",
+                "description": "Risiko knyttet til samarbeid og kapasitet"
+            },
+            {
+                "categoryId": "CAT-QUAL",
+                "name": "Kvalitet",
+                "description": "Risiko knyttet til kvalitet på leveranser"
+            }
+        ],
+        "risks": [
+            {
+                "riskId": "R1",
+                "title": "Manglende/forsinket datatilgang fra Coop Extra X",
+                "description": "Coop Extra X leverer ikke data i tide, eller nekter datatilgang. Dette forsinker hele den kritiske linjen fra datainnhenting til modellering.",
+                "categoryId": "CAT-DAT",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Oliver Matre Hille",
+                "reviewDate": "2026-03-22",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3.3", "WBS-1.3.4"],
+                    "activityIds": ["ACT-3.3.1", "ACT-3.3.2", "ACT-3.3.3"],
+                    "milestoneIds": ["M2"]
+                },
+                "inherentRisk": {
+                    "probability": 3,
+                    "impact": 5,
+                    "score": 15,
+                    "band": "high",
+                    "rationale": "Ekstern avhengighet til bedrift som ikke er forpliktet. Forsinkelser i datatilgang forsinker hele prosjektet."
+                },
+                "residualRisk": {
+                    "probability": 2,
+                    "impact": 3,
+                    "score": 6,
+                    "band": "medium",
+                    "rationale": "Syntetisk data som fallback reduserer konsekvensen dersom tiltak iverksettes tidlig."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R1-A",
+                            "type": "mitigation",
+                            "description": "Ta kontakt umiddelbart (uke 11). Følge opp ukentlig. Ha taushetserklæring klar.",
+                            "owner": "Oliver Matre Hille",
+                            "dueDate": "2026-03-15",
+                            "status": "not-started"
+                        },
+                        {
+                            "planId": "RSP-R1-B",
+                            "type": "contingency",
+                            "description": "Bruke simulerte/syntetiske data basert på realistiske parametere fra tilgjengelige datasett.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-03-29",
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            },
+            {
+                "riskId": "R2",
+                "title": "Datakvalitet utilstrekkelig (manglende verdier, inkonsistens)",
+                "description": "Data fra Coop Extra X kan ha manglende verdier, inkonsistente formater eller utilstrekkelig dekning for analyseperioden.",
+                "categoryId": "CAT-DAT",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "reviewDate": "2026-04-05",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3.3"],
+                    "activityIds": ["ACT-3.3.4"],
+                    "milestoneIds": []
+                },
+                "inherentRisk": {
+                    "probability": 3,
+                    "impact": 3,
+                    "score": 9,
+                    "band": "medium",
+                    "rationale": "Vanlig problem med bedriftsdata. 2 uker er satt av til datarensing."
+                },
+                "residualRisk": {
+                    "probability": 2,
+                    "impact": 2,
+                    "score": 4,
+                    "band": "low",
+                    "rationale": "Tidlig avklaring av dataformat og avgrensning til produkter med komplett data reduserer risikoen."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R2-A",
+                            "type": "mitigation",
+                            "description": "Avklare dataformat tidlig. Sette av 2 uker til datarensing.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-03-22",
+                            "status": "not-started"
+                        },
+                        {
+                            "planId": "RSP-R2-B",
+                            "type": "contingency",
+                            "description": "Avgrense til produkter/perioder med komplett data. Supplere med realistiske antagelser.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-04-05",
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            },
+            {
+                "riskId": "R3",
+                "title": "Optimaliseringsmodell for kompleks for tidsrammen",
+                "description": "LP-modellen kan vise seg å kreve mer kompleksitet (f.eks. MIP) enn tidsrammen tillater.",
+                "categoryId": "CAT-MET",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "reviewDate": "2026-04-12",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3.4"],
+                    "activityIds": ["ACT-3.4.3", "ACT-3.4.4"],
+                    "milestoneIds": []
+                },
+                "inherentRisk": {
+                    "probability": 2,
+                    "impact": 3,
+                    "score": 6,
+                    "band": "medium",
+                    "rationale": "LP er velprøvd, men formuleringsproblemer kan oppstå."
+                },
+                "residualRisk": {
+                    "probability": 1,
+                    "impact": 2,
+                    "score": 2,
+                    "band": "low",
+                    "rationale": "Start med enkel LP og utvid gradvis. God modell er ikke nødvendigvis komplisert."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R3-A",
+                            "type": "mitigation",
+                            "description": "Start med enkel LP-modell, utvid gradvis. «God modell ≠ komplisert modell.»",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-04-12",
+                            "status": "not-started"
+                        },
+                        {
+                            "planId": "RSP-R3-B",
+                            "type": "contingency",
+                            "description": "Levere enklere, men komplett modell fremfor avansert, ufullstendig.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-04-19",
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            },
+            {
+                "riskId": "R4",
+                "title": "Gruppemedlem utilgjengelig (sykdom)",
+                "description": "Et gruppemedlem kan bli utilgjengelig pga. sykdom eller andre uforutsette hendelser.",
+                "categoryId": "CAT-TEAM",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Alle",
+                "reviewDate": "2026-04-27",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3", "WBS-1.4"],
+                    "activityIds": [],
+                    "milestoneIds": ["M2", "M3"]
+                },
+                "inherentRisk": {
+                    "probability": 2,
+                    "impact": 3,
+                    "score": 6,
+                    "band": "medium",
+                    "rationale": "Alltid en risiko i gruppeprosjekter. 3-personsgruppe har liten buffer."
+                },
+                "residualRisk": {
+                    "probability": 2,
+                    "impact": 2,
+                    "score": 4,
+                    "band": "low",
+                    "rationale": "Alle har oversikt over hele prosjektet. Kode og docs deles via GitHub."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R4-A",
+                            "type": "mitigation",
+                            "description": "Alle har oversikt over hele prosjektet. Kode og docs deles via GitHub.",
+                            "owner": "Alle",
+                            "dueDate": "2026-03-09",
+                            "status": "in-progress"
+                        },
+                        {
+                            "planId": "RSP-R4-B",
+                            "type": "contingency",
+                            "description": "Omfordele oppgaver. Justere omfang om nødvendig.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": null,
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            },
+            {
+                "riskId": "R5",
+                "title": "Tidspress mot slutten av semesteret",
+                "description": "Arbeidsmengde kan hope seg opp mot slutten pga. andre fag, forsinkelser eller undervurdering av arbeidsmengde.",
+                "categoryId": "CAT-SCH",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "reviewDate": "2026-04-27",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3", "WBS-1.4"],
+                    "activityIds": ["ACT-3.7", "ACT-4.3", "ACT-4.5", "ACT-4.6"],
+                    "milestoneIds": ["M2", "M3"]
+                },
+                "inherentRisk": {
+                    "probability": 3,
+                    "impact": 3,
+                    "score": 9,
+                    "band": "medium",
+                    "rationale": "Vanlig i studentprosjekter. Semestersluttpress er kjent faktor."
+                },
+                "residualRisk": {
+                    "probability": 2,
+                    "impact": 2,
+                    "score": 4,
+                    "band": "low",
+                    "rationale": "Jevn innsats, tidlig rapportskriving og Gantt-oppfølging reduserer risikoen."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R5-A",
+                            "type": "mitigation",
+                            "description": "Jevn innsats. Starte rapportskriving tidlig (fase 2). Følge Gantt.",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": "2026-03-09",
+                            "status": "in-progress"
+                        },
+                        {
+                            "planId": "RSP-R5-B",
+                            "type": "contingency",
+                            "description": "Prioritere kjerneleveranser (modell + rapport). Droppe «nice-to-have».",
+                            "owner": "Sebastian Vambheim Thunestvedt",
+                            "dueDate": null,
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            },
+            {
+                "riskId": "R6",
+                "title": "Peer-to-peer review avdekker vesentlige mangler",
+                "description": "Peer review kan avdekke strukturelle eller faglige mangler som krever omfattende revisjon sent i prosjektet.",
+                "categoryId": "CAT-QUAL",
+                "status": "open",
+                "raisedBy": "Prosjektgruppe G22",
+                "raisedDate": "2026-03-08",
+                "owner": "Frida Berge-Robertson",
+                "reviewDate": "2026-04-27",
+                "traceability": {
+                    "wbsItemIds": ["WBS-1.3.7", "WBS-1.4.2"],
+                    "activityIds": ["ACT-3.8", "ACT-4.3"],
+                    "milestoneIds": ["M2"]
+                },
+                "inherentRisk": {
+                    "probability": 2,
+                    "impact": 3,
+                    "score": 6,
+                    "band": "medium",
+                    "rationale": "Peer review er designet for å avdekke mangler. Store mangler sent gir tidsnød."
+                },
+                "residualRisk": {
+                    "probability": 1,
+                    "impact": 2,
+                    "score": 2,
+                    "band": "low",
+                    "rationale": "Solid utkast ved å følge rapportstrukturen konsekvent. Revisjonsbuffer (uke 19) etter review."
+                },
+                "responsePlan": {
+                    "strategy": "mitigate",
+                    "plans": [
+                        {
+                            "planId": "RSP-R6-A",
+                            "type": "mitigation",
+                            "description": "Levere solid utkast ved å følge rapportstrukturen konsekvent.",
+                            "owner": "Frida Berge-Robertson",
+                            "dueDate": "2026-04-24",
+                            "status": "not-started"
+                        },
+                        {
+                            "planId": "RSP-R6-B",
+                            "type": "contingency",
+                            "description": "Revisjonsbuffer (uke 19) etter review. Fokuser på kritiske punkter.",
+                            "owner": "Alle",
+                            "dueDate": "2026-05-04",
+                            "status": "not-started"
+                        }
+                    ]
+                },
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                }
+            }
+        ],
+        "summary": {
+            "totalRisks": 6,
+            "byBand": {
+                "critical": 0,
+                "high": 1,
+                "medium": 4,
+                "low": 1
+            },
+            "byCategory": {
+                "CAT-DAT": 2,
+                "CAT-MET": 1,
+                "CAT-SCH": 1,
+                "CAT-TEAM": 1,
+                "CAT-QUAL": 1
+            },
+            "topRisks": [
+                "R1",
+                "R2",
+                "R5"
+            ]
+        }
+    }
+}
