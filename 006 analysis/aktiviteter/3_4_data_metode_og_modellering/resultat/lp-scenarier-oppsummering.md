@@ -1,12 +1,12 @@
 # LP-scenarier — oppsummering (anonymisert)
 
-Baseline observert total ukesalg: **946.0** enheter.
+Baseline observert total ukesalg: **2080.2** enheter.
 
 | Scenario | Beskrivelse | LP-salg | Gevinst | Gev % |
 |---|---|---:|---:|---:|
-| S1 Baseline | Minimum 1 facing per produkt, etterspørsel for underkapasiterte antas 2× mean. | 1541.0 | +595.0 | +62.9% |
-| S2 Realistisk | Minimum 25% av dagens allokering, etterspørsel for underkapasiterte antas 2× mean. Hovedanbefaling. | 1524.1 | +578.1 | +61.1% |
-| S3 Konservativ | Minimum 50% av dagens allokering, etterspørsel for underkapasiterte antas 1.5× mean. | 1242.9 | +296.8 | +31.4% |
+| S1 Baseline | Minimum 1 facing per produkt, etterspørsel for underkapasiterte antas 2× mean. | 3341.5 | +1261.3 | +60.6% |
+| S2 Realistisk | Minimum 25% av dagens allokering, etterspørsel for underkapasiterte antas 2× mean. Hovedanbefaling. | 3265.1 | +1184.9 | +57.0% |
+| S3 Konservativ | Minimum 50% av dagens allokering, etterspørsel for underkapasiterte antas 1.5× mean. | 2708.5 | +628.4 | +30.2% |
 
 ## Tolkning
 

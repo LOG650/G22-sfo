@@ -20,7 +20,8 @@ from pathlib import Path
 import pandas as pd
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-RAW_CSV = REPO_ROOT / "004 data" / "Data 10 uker.csv"
+# Utvidet CCEP-datasett (35 SKUer, én butikk, uke 06-15 2026)
+RAW_CSV = REPO_ROOT / "004 data" / "Salgsdata u6-15 26.csv"
 RESULT_DIR = Path(__file__).resolve().parents[1] / "resultat"
 INTERN_DIR = RESULT_DIR / "intern"
 
@@ -36,17 +37,45 @@ def load_raw(path: Path) -> pd.DataFrame:
 
 
 def clean(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Rens + beregn fysisk hyllekapasitet.
+
+    Merk: Kolonnen 'Kapasitet MAX' i råfila er en gjennomstrømnings-metrikk
+    (= Ant_solgt × dybde + sekundær_plassering) og IKKE statisk hyllekapasitet.
+    Fysisk kapasitet beregnes derfor som Facings × dybde (+ sekundær der relevant).
+    """
     df = df.copy()
     df["UkeNr"] = df["UkeNr"].astype(int)
     df["År"] = df["År"].astype(int)
     df["Ant_solgt"] = df["Ant solgt"].astype(int)
-    df["Kapasitet"] = df["Kapasitet flasker"].astype(int)
+
+    # Ny skjema-tolkning
+    df["Dybde"] = pd.to_numeric(df["dybde (antall flasker) MAX"],
+                                 errors="coerce").fillna(0).astype(int)
+    df["Facings"] = pd.to_numeric(df["Facings MAX"],
+                                   errors="coerce").fillna(0).astype(int)
+    df["Sekundaer"] = pd.to_numeric(df["Sekundær plassering antall salgsenheter"],
+                                     errors="coerce").fillna(0).astype(int)
+
+    # Fysisk kapasitet = facings × dybde (uten sekundær — sekundær er oftest kampanje)
+    df["Kapasitet"] = df["Facings"] * df["Dybde"]
+
     df = df.rename(columns={"Vare": "Produkt"})
+
+    # Fjern SKUer uten hylleplass (Facings=0 → ikke i nåværende planogram)
+    valid = df["Kapasitet"] > 0
+    dropped = df[~valid]["Produkt"].unique()
+    if len(dropped) > 0:
+        print(f"Forkaster {len(dropped)} SKU(er) uten hylleplass: {list(dropped)}")
+    df = df[valid]
+
     assert df["Kjede"].nunique() == 1
     assert df["Butikk"].nunique() == 1
-    return df[["År", "UkeNr", "Produkt", "Ant_solgt", "Kapasitet"]].sort_values(
-        ["Produkt", "UkeNr"]
-    ).reset_index(drop=True)
+
+    return df[[
+        "År", "UkeNr", "Produkt", "Ant_solgt",
+        "Facings", "Dybde", "Sekundaer", "Kapasitet",
+    ]].sort_values(["Produkt", "UkeNr"]).reset_index(drop=True)
 
 
 def sanity_report(df: pd.DataFrame, anonymize: bool, anon: Anonymizer | None) -> str:
