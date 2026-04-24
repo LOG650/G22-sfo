@@ -4,7 +4,7 @@
         "version": "1.0.0",
         "description": "Stabil mapping fra JSON-ID-er til MS Project UIDs. Oppdateres av generate_msproject_from_json.py."
     },
-    "lastSync": "2026-04-24T19:20:10Z",
+    "lastSync": "2026-04-24T19:28:34Z",
     "nextUid": 57,
     "stats": {
         "total": 56,
@@ -73,13 +73,6 @@
     "orphans": [],
     "history": [
         {
-            "syncedAt": "2026-04-22T22:56:27Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
             "syncedAt": "2026-04-22T22:57:04Z",
             "reused": 56,
             "new": 0,
@@ -137,6 +130,13 @@
         },
         {
             "syncedAt": "2026-04-24T19:20:10Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T19:28:34Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
