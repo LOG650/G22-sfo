@@ -147,6 +147,25 @@ Salgsdata og kapasitetsdata er stilt til rådighet av butikkens driftsansvarlige
 
 ### 5.1 Metode
 
+Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én avgrenset varekategori i én dagligvarebutikk undersøkes dybdemessig ved hjelp av numerisk modellering av empiriske salgsdata. Valget av case-studie er begrunnet i problemstillingens karakter — vi ønsker å undersøke om datadrevet reallokering av hylleplass gir kvantifiserbar effekt i en konkret driftssammenheng, ikke å etablere allmenngyldige sammenhenger. Den kvantitative metoden kommer inn ved at analysen er numerisk, deterministisk og reproduserbar.
+
+**Metodisk struktur.** Analysen gjennomføres i fire sekvensielle trinn som også gjenspeiles i rapportstrukturen:
+
+1. **Deskriptiv analyse (§7.1, §5.2):** produktvise nøkkeltall (gjennomsnitt, standardavvik, variasjonskoeffisient, min/maks) samt utnyttelsesgrad (salg / hyllekapasitet). Dette gir et kvantitativt bilde av *mismatchen* som problemstillingen spør om.
+2. **ABC-klassifisering:** Pareto-fordeling av totalsalget identifiserer hvilke produkter som står for 80 %, 95 % og 100 % av omsetningen. Klassifiseringen brukes både analytisk og som grunnlag for pseudonymiseringen (§5.2).
+3. **Optimaliseringsmodell (§6):** en deterministisk lineær programmeringsmodell (LP) formuleres og løses for å finne den omfordeling av eksisterende hylleplass som maksimerer forventet ukentlig salg innenfor minimums-sortimentsgaranti.
+4. **Sensitivitetsanalyse (§7.3):** LP-en kjøres over et rutenett av verdier for de to mest usikre parameterne (etterspørselsantakelsen `overserve_factor` og minimums-andel `x_min_fraction`) for å undersøke hvor robust resultatet er mot modellantagelser.
+
+**Valg av LP som optimaliseringsmetode.** Hylleallokering er et klassisk *space management*-problem i Operations Research og kan angripes med flere metodiske tilnærminger: heuristikker (f.eks. proporsjonal til salg), simulering, blandet-heltalls programmering (MILP) eller — som her — lineær programmering med heltallskrav på facings-variablene. LP er valgt fordi (i) problemstørrelsen (8 produkter, 486 facings) er håndterbar, (ii) modellen er deterministisk på en periode noe som forenkler tolkningen, (iii) løsningen gir et klart optimum mot en veldefinert målfunksjon, og (iv) sensitivitetsanalysen er rett frem for en LP. Alternative tilnærminger — stokastisk programmering, simulering med flere perioder, eller dynamisk allokering — ville krevd rikere data enn de ti ukene vi disponerer.
+
+**Datainnsamling.** Datagrunnlaget er sekundærdata hentet fra butikkens kassesystem (ukentlig salg per SKU) og gjeldende planogram (antall frontfacings per SKU). Se §5.2 for detaljer om omfang, kvalitet og behandling. Data ble mottatt fra butikkens driftsansvarlige etter signert taushetserklæring og oppbevares lokalt i prosjektets arbeidsrepository utenfor offentlig versjonskontroll.
+
+**Implementering og reproduserbarhet.** All analyse er implementert i Python 3.12. Modellene bruker biblioteket PuLP med CBC-solver for lineær programmering, og pandas for datamanipulasjon. Kode og genererte figurer/tabeller versjoneres i prosjektets Git-repository; pseudonymiserte versjoner av resultatene inngår i repoet, mens filer med ekte produktnavn holdes lokalt i en `intern/`-underfolder som er ekskludert fra versjonering. Hele kjøringen (datarensing → deskriptiv analyse → LP → sensitivitet) kan reproduseres med tre kommandoer slik det dokumenteres i `006 analysis/README.md`. Anonymiseringsmodulen `anonymisering.py` sikrer at produkter i alle genererte artefakter har samme pseudonymer på tvers av scripts.
+
+**Kvalitetssikring.** Intern kvalitetssikring skjer i henhold til prosjektplanens §7.6: hver analyse-artefakt genereres deterministisk fra rådata og sanity-sjekkes mot intuisjon (f.eks. at ABC-summen blir 100 %, at LP-status er "Optimal", og at summen av allokerte facings tilsvarer total kapasitet). Peer-to-peer review planlegges i henhold til slagplanen for fase 3. Formelle akademiske krav følger SKRIVING-kompendiet (Kap. 3), herunder APA 7-referansestil for bibliografien i §10.
+
+**Etiske hensyn.** Studien behandler ikke personopplysninger og faller utenfor personopplysningsloven og helseforskningsloven (se egenerklæringen foran i rapporten). Konfidensialitet overfor Coop Extra X er ivaretatt gjennom taushetserklæring og pseudonymisering av produktnavn i alle offentlig tilgjengelige artefakter.
+
 ### 5.2 Data
 
 Datagrunnlaget består av to sammenslåtte kilder fra Coop Extra X: et ukentlig salgsuttrekk fra butikkens kassesystem og en kapasitetsoversikt per SKU hentet fra planogrammet som var gjeldende gjennom hele observasjonsperioden.
@@ -395,6 +414,20 @@ Analysen peker på reell omfordelingsgevinst som er robust mot rimelige variasjo
 ---
 
 ## 9 Konklusjon
+
+Problemstillingen spurte hvordan en datadrevet tilnærming kan identifisere produkter som er underallokert i hylleplass relativt til observerte salgsdata, og hva det estimerte potensialet for forbedring ved reallokering av eksisterende hyllekapasitet er innen en avgrenset varekategori i Coop Extra X.
+
+Svaret, basert på ti uker ukentlige salgsdata for åtte SKUer i en gitt kategori, er:
+
+- **Underallokeringen er identifiserbar gjennom et enkelt utnyttelsesmål** (gjennomsnittlig ukesalg dividert på antall frontfacings). To produkter (A1, A2) har utnyttelsesgrad 6,6× og 9,1× og er dermed tydelig underkapasiterte; fire produkter har utnyttelse under 0,9 og er overkapasiterte. Samme mål kombinert med en ABC-klassifisering avgrenser hvilke SKUer som er de mest relevante kandidatene for reallokering oppover.
+- **Forbedringspotensialet er substansielt.** En deterministisk LP-modell som omfordeler de 486 frontfacings innen kategorien gir mellom +31 % og +63 % i forventet ukesalg, avhengig av antagelser om skjult etterspørsel og minimums-sortimentsgaranti. Hovedanbefalingen (S2 Realistisk) ligger på +61 % med intakt sortiment og et gulv på 25 % av dagens allokering for hvert produkt.
+- **Gevinsten er robust.** Sensitivitetsanalysen viser at selv ved konservative antagelser (1,25× etterspørsel i stedet for 2× for underkapasiterte produkter) er LP-salget 16 % over observert baseline. Resultatet er også nærmest flatt mot minimums-sortimentsparameteren opp til 0,40, slik at modellen gir operasjonelt spillerom uten vesentlig gevinstap.
+
+**Praktiske implikasjoner.** Siden omfordelingen skjer innenfor eksisterende hyllekapasitet kommer gevinsten uten investeringskostnad. Hovedanbefalingen forutsetter imidlertid en betydelig nedskalering av én konvensjonelt høy-allokert B-vare og bør derfor fases inn gradvis, med måling av faktisk salg etter omleggingen. Dette gir også grunnlag for å empirisk estimere den space-elastisiteten modellen i dag må anta lineær.
+
+**Forslag til videre forskning.** Tre naturlige utvidelser er identifisert: (i) *stokastisk reformulering* som eksplisitt håndterer variasjon i ukesalg og gir service-level-garantier i stedet for harde kapasitetsgrenser; (ii) *økonomisk vekting* der målfunksjonen maksimerer dekningsbidrag fremfor enheter, betinget av at marginoppgaver kan innhentes fra kjeden; (iii) *empirisk estimering av space-elastisitet* gjennom et kontrollert forsøk med variert facings-allokering over flere uker for et utvalg produkter. Replikasjon på tvers av butikker og kategorier vil også styrke grunnlaget for generalisering.
+
+Studien demonstrerer at en konseptuelt enkel LP-modell, matet med to typer data som butikkjeder allerede besitter (ukesalg og planogram), er tilstrekkelig for å identifisere kvantifiserbare omfordelingspotensialer. Modellens verdi ligger ikke i presisjonen av det estimerte prosentløftet, men i at den gjør det gjeldende planogrammet målbart mot en datadrevet referanse.
 
 ---
 
