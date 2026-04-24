@@ -17,3 +17,9 @@ __pycache__/
 # Konfidensielle data fra Coop Extra X (under taushetserklæring)
 004 data/Data 10 uker.csv
 004 data/Space_Planogram_Kapasitet.jpg
+
+# Analyse med ekte produktnavn — kun lokalt (intern/ = NDA)
+# Anonymiserte versjoner (pseudonymer A1, B2, C3 osv.) committes fra top-level
+# resultat/ og figurer/, men intern/ ekskluderes via pattern under.
+006 analysis/aktiviteter/*/resultat/intern/
+006 analysis/aktiviteter/*/figurer/intern/
