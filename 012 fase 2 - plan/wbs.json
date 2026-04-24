@@ -1,0 +1,384 @@
+{
+    "schema": {
+        "name": "pm.wbs",
+        "version": "1.0.0",
+        "standard": "PMI Practice Standard for Work Breakdown Structures",
+        "description": "Arbeidsnedbrytningsstruktur for LOG650 G22-prosjektet om hylleallokering (Space Management) i dagligvarebutikk."
+    },
+    "wbs": {
+        "wbsId": "WBS-LOG650-G22",
+        "projectId": "PRJ-LOG650-G22",
+        "name": "Space Management G22 - WBS",
+        "version": "1.0",
+        "status": "baselined",
+        "baselineDate": "2026-03-09",
+        "approvedBy": "COURSE-LOG650",
+        "audit": {
+            "createdAt": "2026-03-09T12:00:00Z",
+            "createdBy": "sebastian",
+            "updatedAt": "2026-03-14T12:00:00Z",
+            "updatedBy": "sebastian"
+        },
+        "codingScheme": "numeric",
+        "levelDefinitions": [
+            {
+                "level": 1,
+                "description": "Prosjekt"
+            },
+            {
+                "level": 2,
+                "description": "Fase eller hovedleveranse"
+            },
+            {
+                "level": 3,
+                "description": "Delleveranse"
+            },
+            {
+                "level": 4,
+                "description": "Arbeidspakke"
+            }
+        ],
+        "items": [
+            {
+                "wbsItemId": "WBS-1",
+                "code": "1",
+                "level": 1,
+                "parentId": null,
+                "name": "Datadrevet hylleallokering (Space Management)",
+                "type": "project",
+                "description": "Komplett LOG650-prosjekt fra proposal til ferdig rapport, kode og presentasjon.",
+                "owner": "Prosjektgruppe G22",
+                "status": "in-progress",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": []
+            },
+            {
+                "wbsItemId": "WBS-1.1",
+                "code": "1.1",
+                "level": 2,
+                "parentId": "WBS-1",
+                "name": "Fase 1 - initiering",
+                "type": "deliverable",
+                "description": "Definere område, problemstilling, mål, metodevalg og avgrensning. Levere proposal.",
+                "owner": "Prosjektgruppe G22",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-1.1"]
+            },
+            {
+                "wbsItemId": "WBS-1.1.1",
+                "code": "1.1.1",
+                "level": 3,
+                "parentId": "WBS-1.1",
+                "name": "Proposal",
+                "type": "work-package",
+                "description": "Utarbeide og levere prosjektbeskrivelse: område, problemstilling, mål, metodevalg, avgrensning.",
+                "owner": "Prosjektgruppe G22",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-1.1"]
+            },
+            {
+                "wbsItemId": "WBS-1.2",
+                "code": "1.2",
+                "level": 2,
+                "parentId": "WBS-1",
+                "name": "Fase 2 - planlegging",
+                "type": "deliverable",
+                "description": "Prosjektstyringsplan, WBS, Gantt, risikoanalyse, litteratursøk, rapportskjelett.",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.1", "ACT-2.2", "ACT-2.3", "ACT-2.4", "ACT-2.5"]
+            },
+            {
+                "wbsItemId": "WBS-1.2.1",
+                "code": "1.2.1",
+                "level": 3,
+                "parentId": "WBS-1.2",
+                "name": "Prosjektplan",
+                "type": "work-package",
+                "description": "Utarbeide prosjektstyringsplan med krav, scope, tidsplan, risiko, kommunikasjon og kvalitet.",
+                "owner": "Alle",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.1"]
+            },
+            {
+                "wbsItemId": "WBS-1.2.2",
+                "code": "1.2.2",
+                "level": 3,
+                "parentId": "WBS-1.2",
+                "name": "WBS og Gantt-diagram (MS Project)",
+                "type": "work-package",
+                "description": "Opprette WBS og Gantt i MS Project med referanseplan/baseline.",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.2"]
+            },
+            {
+                "wbsItemId": "WBS-1.2.3",
+                "code": "1.2.3",
+                "level": 3,
+                "parentId": "WBS-1.2",
+                "name": "Risikoanalyse",
+                "type": "work-package",
+                "description": "Identifisere og vurdere prosjektrisiko med S*K-scoring.",
+                "owner": "Frida Berge-Robertson",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.3"]
+            },
+            {
+                "wbsItemId": "WBS-1.2.4",
+                "code": "1.2.4",
+                "level": 3,
+                "parentId": "WBS-1.2",
+                "name": "Litteratursøk — identifisere referanser",
+                "type": "work-package",
+                "description": "Gjennomføre strategiske litteratursøk og identifisere nøkkelreferanser.",
+                "owner": "Oliver Matre Hille, Frida Berge-Robertson",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.4"]
+            },
+            {
+                "wbsItemId": "WBS-1.2.5",
+                "code": "1.2.5",
+                "level": 3,
+                "parentId": "WBS-1.2",
+                "name": "Rapportskjelett i Word-mal",
+                "type": "work-package",
+                "description": "Opprette rapportstruktur i LOG650 Word-malen.",
+                "owner": "Sebastian Vambheim Thunestvedt",
+                "status": "done",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-09T12:00:00Z"
+                },
+                "activityIds": ["ACT-2.5"]
+            },
+            {
+                "wbsItemId": "WBS-1.3",
+                "code": "1.3",
+                "level": 2,
+                "parentId": "WBS-1",
+                "name": "Fase 3 - gjennomføring",
+                "type": "deliverable",
+                "description": "Innledning, teori, datainnsamling, modellering, analyse, resultater, diskusjon, hovedutkast og peer review.",
+                "owner": "Prosjektgruppe G22",
+                "status": "in-progress",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.1", "ACT-3.2.1", "ACT-3.2.3", "ACT-3.3.1", "ACT-3.3.2", "ACT-3.3.3", "ACT-3.3.4", "ACT-3.3.5", "ACT-3.4.1", "ACT-3.4.2", "ACT-3.4.3", "ACT-3.4.4", "ACT-3.4.5", "ACT-3.4.6", "ACT-3.5.1", "ACT-3.5.2", "ACT-3.5.4", "ACT-3.6", "ACT-3.7", "ACT-3.8"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.1",
+                "code": "1.3.1",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Innledning og problemstilling",
+                "type": "work-package",
+                "description": "Skrive første utkast av innledning og problemstilling.",
+                "owner": "Frida Berge-Robertson",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.1"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.2",
+                "code": "1.3.2",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Teori og litteratursøk",
+                "type": "work-package",
+                "description": "Lese referanser og skrive teorikapittel om space elasticity, LP-teori, etterspørselsmodellering.",
+                "owner": "Frida Berge-Robertson, Oliver Matre Hille",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.2.1", "ACT-3.2.3"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.3",
+                "code": "1.3.3",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Casebeskrivelse og datainnsamling",
+                "type": "work-package",
+                "description": "Avklare datatilgang, signere taushetserklæring, innhente og rense data, skrive casebeskrivelse.",
+                "owner": "Oliver Matre Hille, Sebastian Vambheim Thunestvedt",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.3.1", "ACT-3.3.2", "ACT-3.3.3", "ACT-3.3.4", "ACT-3.3.5"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.4",
+                "code": "1.3.4",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Data/metode og modellering",
+                "type": "work-package",
+                "description": "Metodevalg, statistiske tester, deskriptiv analyse, LP-modell formulering og implementering.",
+                "owner": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.4.1", "ACT-3.4.2", "ACT-3.4.3", "ACT-3.4.4", "ACT-3.4.5", "ACT-3.4.6"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.5",
+                "code": "1.3.5",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Analyse og resultater",
+                "type": "work-package",
+                "description": "Presentere resultater, sensitivitetsanalyse, sammenligning nåværende vs. foreslått allokering.",
+                "owner": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.5.1", "ACT-3.5.2", "ACT-3.5.4"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.6",
+                "code": "1.3.6",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Diskusjon",
+                "type": "work-package",
+                "description": "Tolke funn, vurdere implikasjoner, diskutere styrker/svakheter.",
+                "owner": "Alle",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.6"]
+            },
+            {
+                "wbsItemId": "WBS-1.3.7",
+                "code": "1.3.7",
+                "level": 3,
+                "parentId": "WBS-1.3",
+                "name": "Hovedutkast og peer review",
+                "type": "work-package",
+                "description": "Samle alle kapitler til hovedutkast og gjennomføre peer-to-peer review.",
+                "owner": "Alle",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-3.7", "ACT-3.8"]
+            },
+            {
+                "wbsItemId": "WBS-1.4",
+                "code": "1.4",
+                "level": 2,
+                "parentId": "WBS-1",
+                "name": "Fase 4 - avslutning",
+                "type": "deliverable",
+                "description": "Konklusjon, ferdigstilling, kvalitetssikring, Python-kode, presentasjon og muntlig eksamen.",
+                "owner": "Prosjektgruppe G22",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-4.1", "ACT-4.2", "ACT-4.3", "ACT-4.4", "ACT-4.5", "ACT-4.6"]
+            },
+            {
+                "wbsItemId": "WBS-1.4.1",
+                "code": "1.4.1",
+                "level": 3,
+                "parentId": "WBS-1.4",
+                "name": "Konklusjon og innledning ferdigstilt",
+                "type": "work-package",
+                "description": "Skrive konklusjon og ferdigstille innledning (skrives til slutt).",
+                "owner": "Alle, Frida Berge-Robertson",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-4.1", "ACT-4.2"]
+            },
+            {
+                "wbsItemId": "WBS-1.4.2",
+                "code": "1.4.2",
+                "level": 3,
+                "parentId": "WBS-1.4",
+                "name": "Kvalitetssikring og sluttleveranse",
+                "type": "work-package",
+                "description": "Grovredigering, språk, finjustering, korrektur, referanseliste, figursjekk, kode-dokumentasjon.",
+                "owner": "Alle",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-4.3", "ACT-4.4"]
+            },
+            {
+                "wbsItemId": "WBS-1.4.3",
+                "code": "1.4.3",
+                "level": 3,
+                "parentId": "WBS-1.4",
+                "name": "Presentasjon og muntlig eksamen",
+                "type": "work-package",
+                "description": "Forberede og gjennomføre muntlig presentasjon.",
+                "owner": "Alle",
+                "status": "not-started",
+                "audit": {
+                    "createdAt": "2026-03-09T12:00:00Z",
+                    "updatedAt": "2026-03-14T12:00:00Z"
+                },
+                "activityIds": ["ACT-4.5", "ACT-4.6"]
+            }
+        ],
+        "taskMigration": {
+            "migratedAt": "2026-03-14T12:00:00Z",
+            "note": "WBS generert fra prosjektplan seksjon 2.3 for G22 Space Management-prosjektet."
+        }
+    }
+}
