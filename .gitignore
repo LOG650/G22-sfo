@@ -13,3 +13,7 @@ __pycache__/
 004 data/LOG650_G22_from_json.xml
 # Backup-filer fra apply_diff.py
 *.bak
+
+# Konfidensielle data fra Coop Extra X (under taushetserklæring)
+004 data/Data 10 uker.csv
+004 data/Space_Planogram_Kapasitet.jpg
