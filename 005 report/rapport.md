@@ -352,6 +352,46 @@ Resultatene gir to tydelige innsikter:
 
 ## 8 Diskusjon
 
+Dette kapitlet tolker funnene fra §7 mot det teoretiske rammeverket som introduseres i §3, vurderer styrker og svakheter ved modell og data, og drøfter praktiske implikasjoner for butikken. Vi presenterer ingen nye analyser her; alle tall er hentet fra §7.
+
+### 8.1 Tolkning i lys av teori
+
+**Reallokering følger space-elasticity-intuisjonen.** Det sentrale teoretiske bidraget fra Curhan og videre arbeid omkring space elasticity er at salg per produkt øker med tildelt hylleplass inntil etterspørselen er mettet, med avtakende marginalavkastning. Modellen vår antar en forenklet, lineær produktivitetsfunksjon $\rho_i \cdot x_i$, men lander likevel på en anbefaling som rimer med denne intuisjonen: de to A-produktene med høyest observert produktivitet per facing (§5.2, Tabell 5.2.1) er også de som tildeles mest ny plass. Resultatet er konsistent med det teoretisk forventede — hylleplass skal flyttes dit den marginale salgsavkastningen er høyest.
+
+**Gevinsten kommer fra omfordeling, ikke fra eliminering.** Scenario-sammenlikningen (§7.1) viser at S2 fanger 97 % av S1-gevinsten selv om S2 beholder alle åtte SKUer på minst 25 % av dagens facings. Dette peker på at problemet ikke primært er *sortimentsbredde* men *sortimentsvekting*: hylleplanen reflekterer ikke den observerte etterspørselsfordelingen. Det rimer med funn fra retail-litteraturen om at etablerte planogrammer ofte har inertia; frontfacings reflekterer historiske avtaler eller konvensjoner snarere enn aktuell etterspørsel.
+
+**A-klasseproduktenes dobling av plass har en grense.** Både A1 og A2 ender i S2 og S1 med presis det antall facings som metter deres antatte etterspørsel ($x_i = d_i / \rho_i$). Uten en overserve_factor som overstiger 1 ville de ikke fått økt plass. Det betyr at anbefalingen står og faller med at den observerte etterspørselen er undervurdert; dette adresseres eksplisitt i §8.2.
+
+### 8.2 Begrensninger og usikkerhet
+
+**B1. Deterministisk og periodegjennomsnittlig modell.** Modellen behandler uken som én beslutningsperiode og bruker gjennomsnittlig ukesalg som parameter. Reell drift er stokastisk: etterspørsel varierer fra uke til uke (Tabell 5.2.1 viser CoV mellom 0,10 og 0,49 per produkt) og innen uke mellom dager og tider. En stokastisk reformulering — med etterspørsel som tilfeldig variabel og service-level-restriksjoner i stedet for harde kapasitetsgrenser — ville gitt et mer realistisk bilde av sannsynligheten for at hyllen går tom. Denne forenklingen er akseptabel for et konseptbevis, men bør flagges før anbefalingen tas i bruk.
+
+**B2. Lineær produktivitet.** Antagelsen $y_i \le \rho_i \, x_i$ sier at hver ekstra facing gir samme antall solgte enheter som den første. I praksis er det sannsynlig at space-elastisiteten er avtagende — den tiende facingen gir mindre salg enn den første. Uten eksperimentelle data (variasjon i kapasitet over tid) kan vi ikke estimere elastisiteten empirisk i dette prosjektet. Konsekvensen er at modellens gevinst antagelig er et *øvre* estimat; den reelle løftet fra doblet plass er trolig lavere enn 100 %.
+
+**B3. Skjult etterspørsel og out-of-stock.** For produkter med observert utnyttelse > 1 er det sanne etterspørselsnivået ikke direkte målbart: ethvert salg som skulle skjedd etter at hyllen ble tom og før neste etterfylling er usynlig i dataene. I hovedscenariet antas etterspørselen å være 2× observert salg, en størrelsesorden som reflekterer erfaringstall fra retail, men som ikke er empirisk forankret i dette datasettet. Sensitivitetsanalysen (§7.3) demper risikoen noe ved å vise at selv 1,25× gir meningsfull gevinst, men tallet er fortsatt en antakelse.
+
+**B4. Én butikk, 10 uker.** Datasettet omfatter én fysisk butikk og en periode på ti uker (uke 06–15 2026). Sesongvariasjoner, kampanjeuker eller eksterne hendelser kan ha påvirket datagrunnlaget uten at vi kan korrigere for det. POWERADE-observasjonen i uke 15 (412 enheter, mer enn dobbelt av gjennomsnittet for produktet) ble ikke fjernet som avviker fordi vi ikke har grunnlag for å hevde at den er en målefeil — det er sannsynligvis en kampanjeuke eller en uventet etterspørselspulje. En replikasjon på flere butikker og over lengre periode ville styrket grunnlaget for generalisering.
+
+**B5. Manglende økonomiske vektinger.** Målfunksjonen maksimerer samlet solgte *enheter*, ikke omsetning eller bruttomargin. Hvis produktene har ulike marginer per enhet, ville en profittmaksimerende variant gitt andre anbefalinger — spesielt for A-klasse-produkter med energi-positionering som potensielt har høyere marginer enn bulk-brus. Datafeltene vi disponerer inkluderer ikke priser eller marginer, så prosjektet kan ikke si noe empirisk om hvorvidt enhet-maksimering er en god proxy for marginmaksimering.
+
+**B6. Ingen kryssalgseffekter eller kannibaliserings-modellering.** Modellen behandler hvert produkt uavhengig. I praksis kan reduksjon av B2 (en Coca Cola-variant) flytte salg over til B1 (en annen Coca Cola-variant) — kannibalisering som ikke er modellert. Tilsvarende kan en kraftig økning i A1 (Monster) fortrenge salg i mindre energidrikker. Kvantifisering av slike effekter krever paneldata og utgår for dette prosjektet.
+
+### 8.3 Implikasjoner for Coop Extra X
+
+Tatt sammen tyder analysen på at det finnes en betydelig uutnyttet omsetningsmulighet i den valgte kategorien hos Coop Extra X. Selv med konservative antakelser og en minimums-sortimentsgaranti som beholder hele nåværende sortiment, indikerer S3-scenariet en gevinst på ca. 31 % flere enheter solgt per uke. Siden modellen opererer med *faste* totalkapasitet, kommer denne gevinsten uten investeringskostnad i utvidet hylle — kun som omfordeling innenfor eksisterende rammer.
+
+**Hovedanbefalingen S2** (+61 %) inkluderer en kraftig økning for A-produktene og en tilsvarende reduksjon for overkapasiterte B- og C-produkter. For at anbefalingen skal være operasjonelt gjennomførbar, bør den fases inn gradvis og kombineres med overvåking av faktisk salg etter omleggingen. Butikken kan starte med en delvis implementering (f.eks. halve omfordelingen), måle effekten i noen uker, og deretter justere basert på observert respons. Dette gir et naturlig grunnlag for å empirisk estimere den space-elastisiteten modellen i dag må anta.
+
+**Reduksjonen av B2** er det mest politisk sensitive elementet i anbefalingen. Siden B2 er en kjente-merkevare med sterk konvensjonell plass, vil en reduksjon fra 168 til 42 facings kreve avklaring med kjedeledelse og leverandør før den kan settes i verk. Det er mulig at den kontraktuelle minsteplasseringen for B2 er høyere enn 25 %, i så fall må modellen re-kjøres med en skreddersydd $x_{B2}^{\min}$.
+
+### 8.4 Generaliserbarhet
+
+Resultatene gjelder spesifikt for den valgte kategorien i den spesifikke butikken i den observerte perioden. De metodiske funnene — at en enkel deterministisk LP med minimums-sortimentsgaranti identifiserer meningsfulle omfordelingspotensialer, og at gevinsten i stor grad drives av A-klassen — har bredere overføringsverdi. Metodens styrke er nettopp at den krever lite data (ukessalg og kapasitet) og er rask å formulere og kjøre. Den kan derfor rulles ut som en innledende screening på tvers av butikker og kategorier før mer datakrevende analyser iverksettes.
+
+### 8.5 Oppsummering av diskusjonen
+
+Analysen peker på reell omfordelingsgevinst som er robust mot rimelige variasjoner i antagelsene. Modellens nøkkelbegrensning er den antatt lineære produktivitetsfunksjonen og fraværet av økonomiske vektinger; begge svakhetene forsterker poenget om at den kvantifiserte gevinsten bør tolkes som en retning og et størrelsesorden-estimat, ikke en presis prognose. Den operasjonelle implikasjonen — at hylleplanen i dag er tydelig ute av takt med observert etterspørsel for denne kategorien — står uavhengig av modellens svakheter.
+
 ---
 
 ## 9 Konklusjon
