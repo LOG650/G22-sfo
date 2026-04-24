@@ -98,23 +98,131 @@ Kan oppgaven publiseres når båndleggingsperioden er over? ja / nei
 
 ## 1 Innledning
 
+Hylleplass er en av de mest knappe og verdifulle ressursene i dagligvarehandelen. Hver butikk disponerer en gitt mengde frontfacings som skal fordeles mellom et stort antall SKUer, og fordelingen — planogrammet — har direkte innvirkning på hvilke produkter kundene møter og hvor ofte de går tom. I en bransje med lave marginer representerer riktig utnyttelse av hylleplass en av de få kostnadsfrie spakene for å løfte omsetning: investeringen er alt gjort; det som gjenstår er å plassere de tilgjengelige facings der etterspørselen faktisk er.
+
+Til tross for at kategorien er velstudert i operasjonsforskningen, viser bransjeobservasjoner at planogrammer ofte er historisk betingede og sjelden re-optimaliseres mot aktuelle salgsdata. Dette etterlater et gap mellom *hylleplanen* (hva planogrammet sier) og *etterspørselen* (hva kundene faktisk kjøper). I butikker der dette gapet er stort, vil reallokering av eksisterende plass — uten investering — kunne gi målbar gevinst.
+
+Dette prosjektet undersøker hvor stort dette gapet er i en konkret kontekst, og hvilket forbedringspotensial en datadrevet reallokering kan gi.
+
 ### 1.1 Problemstilling
 
 *Hvordan kan en datadrevet tilnærming identifisere produkter som er underallokert i hylleplass relativt til observerte salgsdata, og hva er det estimerte potensialet for forbedring ved reallokering av eksisterende hyllekapasitet innen en avgrenset varekategori i Coop Extra X?*
 
-### 1.2 Delproblemer (valgfri)
+### 1.2 Avgrensinger
 
-### 1.3 Avgrensinger
+- **Én butikk.** Analysen er gjort i én bestemt Coop Extra-enhet og representerer denne butikkens salg og hylleplan i observasjonsperioden.
+- **Én varekategori.** Kullsyreholdige leskedrikker i plastflasker (0.5 L, 1.5 L) samt én boks-variant. 8 SKUer totalt.
+- **Ti uker.** Uke 06 til og med uke 15 i 2026. Perioden dekker sen vinter og tidlig vår og inkluderer ingen dokumenterte ekstreme hendelser (jul, påske, langvarig kampanje).
+- **Eksisterende hyllekapasitet.** Analysen ser utelukkende på reallokering innenfor dagens fysiske ramme på 486 frontfacings. Utvidelse av hyllen eller endring av sortimentssammensetningen ligger utenfor omfanget.
+- **Ingen økonomisk vekting.** Gevinsten måles i antall solgte enheter per uke, ikke i omsetning eller dekningsbidrag. Margintall er ikke tilgjengelige i datasettet.
+- **Kvantitativ, ikke kvalitativ.** Prosjektet gjør ingen intervjuer, kundeobservasjoner eller leverandørsamtaler. Alle tolkninger er basert på observerte salgs- og kapasitetsdata.
 
-### 1.4 Antagelser
+### 1.3 Antagelser
+
+Analysen hviler på fire hovedantagelser som drøftes kritisk i §8:
+
+1. **Observert ukesalg er representativt for den aktuelle periodens etterspørsel** for produkter som ikke går tomme. For produkter med utnyttelsesgrad ≥ 1 (hyllen tømmes før neste etterfylling) er observert salg et *nedre* anslag for reell etterspørsel.
+2. **Hvert ekstra frontfacing gir samme produktivitet (lineær space-elastisitet).** Reell elastisitet er sannsynligvis avtakende, noe som gjør modellens gevinstanslag til et øvre estimat.
+3. **Kjedens minstekrav til frontfacings per produkt er enten 1 eller en fast andel av dagens allokering (25 % i hovedscenariet, 50 % i det konservative).** Eksplisitte avtaler om minsteallokering per SKU er ikke tilgjengelige.
+4. **Ingen kryssalgseffekter eller kannibalisering.** Modellen behandler hvert produkt uavhengig. Mulige interaksjoner diskuteres i §8.
+
+---
 
 ---
 
 ## 2 Litteratur
 
+Litteraturen som støtter opp om dette prosjektet dekker tre sammenkoblede felt: (i) optimaliseringsmodeller for hylleplass (*shelf space allocation problem*, SSAP) innen operasjonsforskning, (ii) etterspørselsprognoser og out-of-stock-problematikk i dagligvare, og (iii) nyere anvendelser av kunstig intelligens og maskinsyn i retail space management. Søkeord og fullstendig kildeliste er dokumentert i prosjektplanen.
+
+### 2.1 SSAP — operasjonsforskningstradisjonen
+
+Det formelle SSAP ble etablert som et lineær- og heltallsprogrammeringsproblem på 1970-tallet (Curhan, 1972) og er siden videreutviklet for å håndtere heterogene hyllestørrelser, stokastisk etterspørsel, sortimentsbeslutninger og tverrsortiments-effekter. Bouzembrak m.fl. (2025) gir den ferskeste oversikten over feltet og plasserer de ulike modellfamiliene i forhold til hverandre; deres syntese brukes som strukturelt rammeverk for dette litteraturkapitlet.
+
+Düsterhöft, Hübner & Schaal (2021) presenterer en eksakt optimaliseringsformulering med dekomponeringsheuristikk som håndterer realistiske hyllekonfigurasjoner. Deres formulering ligner modellen som anvendes her (§6), men er utvidet til å inkludere flere hyller og kryss-elastisiteter. Hübner, Schäfer & Schaal (2020) går videre og integrerer sortiments- og hylleplassvalg med stokastisk etterspørsel og eksplisitt space-elastisitet. Sammenlignet med disse er modellen i dette prosjektet bevisst forenklet — deterministisk, én hylle, lineær produktivitet — for å være reproduserbar med det begrensede datasettet vi disponerer.
+
+Mishra (2023) går den heuristiske veien og foreslår seks enkle allokeringsregler (proporsjonal til salg, proporsjonal til margin, ABC-basert osv.). Disse er ikke optimalitetsgarantert men lette å forklare til praktikere. Vår LP-tilnærming kan betraktes som et steg opp i kompleksitet sammenlignet med disse heuristikkene, men et steg ned sammenlignet med Düsterhöft m.fl. og Hübner m.fl.
+
+### 2.2 Etterspørsel og out-of-stock
+
+Gholami & Bhakoo (2025) dokumenterer hvor store stockout-problemene kan være i praksis og viser at maskinlæringsbasert prediksjon reduserer problemet betydelig. Deres empiri (1.6M+ SKUer fra en stor retailer) bekrefter at utnyttelsesgrad rundt eller over 1 ikke er uvanlig for A-produkter og representerer en reell tapt omsetning. Dette er premisset for etterspørselsantakelsen (overserve_factor > 1) vi bruker i §6.
+
+Gustriansyah m.fl. (2022) sammenligner prognose-modeller for salgsdata og finner at hybride maskinlæringsmodeller (kombinasjoner av XGBoost, Random Forest og lineær regresjon) overgår enkeltmodeller. For dette prosjektet — med kun ti uker data per produkt — er avansert prognose ikke meningsfullt; vi bruker periodegjennomsnitt som punktestimat. Men litteraturen peker på en naturlig utvidelse: erstatte det statiske $\bar s_i$ med en prognose når flere datapunkter er tilgjengelige.
+
+Usama m.fl. (2024) rapporterer konkrete effekttall fra AI-basert etterspørselsprognose i dagligvare — 23,7 % bedre prognose og 24,3 % færre stockouts — og gir dermed et grovt sammenligningsgrunnlag for omfanget av forbedringer som er oppnåelige med datadrevne tilnærminger i sektoren.
+
+### 2.3 AI og automatisert planogramovervåking
+
+Klement & Hübner (2023) gir et helhetlig rammeverk som kobler sortimentsvalg, hylleallokering og påfylling som tre samhørige beslutningslag. Rammeverket er nyttig for å plassere dette prosjektet — som opererer rent på hylleallokerings-laget — innenfor en større beslutningsarkitektur. Det underbygger også §8-diskusjonen om fasering: hvis påfyllingen ikke henger med, kan selv en optimal allokering føre til mer out-of-stock.
+
+Santos m.fl. (2024) og Hsu m.fl. (2025) beskriver henholdsvis deep learning- og computer vision-systemer for automatisert planogramovervåking i hele butikkjeder. Disse arbeidene representerer fremtiden for datainnhenting i feltet: istedenfor statiske planogrammer rapportert fra kjedekontor, får man sanntidsvisninger av hvordan hyllen faktisk ser ut. For dette prosjektet gir dette en metodisk forventning: den typen analyse vi gjør her, vil om noen år kunne kjøres på kontinuerlig oppdaterte data snarere enn tiukers eksport.
+
+### 2.4 Syntese mot problemstilling
+
+Litteraturen understøtter tre premisser som problemstillingen hviler på: (1) mismatch mellom hyllekapasitet og etterspørsel er et veldokumentert fenomen i dagligvare; (2) LP-baserte modeller er anerkjent som et adekvat verktøy for å adressere det; (3) gevinstanslagene på 20–60 % som rapporteres i den nyere empiriske litteraturen er i størrelsesorden sammenlignbare med dem prosjektets egne resultater peker på. Samtidig viser metastudiene (særlig Bouzembrak m.fl., 2025) at de mest sofistikerte modellene krever data — kryss-elastisitet, margin per enhet, flerukers variasjon — som i praksis sjelden er tilgjengelig for et avgrenset studentprosjekt. Dette legitimerer vårt valg av en enklere, men fullstendig dokumentert og reproduserbar LP-tilnærming.
+
 ---
 
 ## 3 Teori
+
+Teorikapitlet etablerer de tre byggesteinene som modellen og analysen hviler på: (i) begrepet *space elasticity* som beskriver forholdet mellom hylleplass og salg, (ii) lineær programmering som optimaliseringsverktøy, og (iii) ABC-klassifisering som struktureringsprinsipp for sortimenter med ulik kommersiell betydning.
+
+### 3.1 Space elasticity
+
+*Space elasticity* (hylleelastisitet) er den marginale endringen i salg som følger av en endring i antall frontfacings. Begrepet ble tidlig formalisert av Curhan (1972) som en produktspesifikk elastisitetskoeffisient $\beta_i$, slik at salg per uke tilnærmet følger en potensfunksjon:
+
+$$
+s_i(x_i) = \alpha_i \cdot x_i^{\beta_i}, \quad \beta_i \in (0, 1]
+$$
+
+der $\alpha_i$ er en skaleringsfaktor og $\beta_i < 1$ uttrykker *avtakende* marginalavkastning — den tiende facing gir mindre inkrementelt salg enn den første. Empiriske estimater av $\beta_i$ varierer typisk mellom 0,1 og 0,3 i den eldre litteraturen, men nyere funn (Hübner, Schäfer & Schaal, 2020) antyder at elastisiteten kan være tilnærmet lineær ($\beta_i \approx 1$) for produkter som i utgangspunktet er kraftig underdimensjonerte, og tilnærmet null for produkter som allerede mettet etterspørselen.
+
+For den LP-modellen som brukes i dette prosjektet (§6) forenkles space elasticity til en *lineær* produktivitetsfunksjon:
+
+$$
+s_i(x_i) = \rho_i \cdot x_i
+$$
+
+opp til et etterspørselstak $d_i$. Dette tilsvarer å anta $\beta_i = 1$ i Curhan-formuleringen, som er en *øvre grense* for elastisiteten og dermed et *optimistisk* scenario i gevinstanslag. Valget er begrunnet i mangelen på data som kan estimere $\beta_i$ empirisk (ti uker uten kapasitetsvariasjon gir ingen identifikasjon av elastisitetskurven). Konsekvensene drøftes i §8.2.
+
+### 3.2 Lineær programmering som optimaliseringsverktøy
+
+Lineær programmering (LP) løser problemer på formen
+
+$$
+\max \; \mathbf{c}^\top \mathbf{z} \quad \text{under} \quad \mathbf{A}\mathbf{z} \le \mathbf{b}, \quad \mathbf{z} \ge \mathbf{0}
+$$
+
+der målfunksjonen og alle restriksjoner er lineære i beslutningsvariablene. Simplex-algoritmen (Dantzig, 1947) og senere interior-point-metoder løser slike problemer effektivt opp til store dimensjoner. Når heltalls-restriksjoner pålegges (som her: frontfacings må være heltall), får man *heltalls lineær programmering* (ILP), som generelt er NP-hardt men i praksis håndterlig for små dimensjoner med branch-and-bound-solvere som CBC.
+
+Tre egenskaper gjør LP/ILP særlig egnet for hylleallokeringsproblemet i denne studien:
+
+1. **Garantert globalt optimum** for den formulerte målfunksjonen under gitte restriksjoner — i motsetning til heuristikker som gir "gode nok" løsninger uten optimalitetsgaranti.
+2. **Transparent og tolkbar struktur.** Hver restriksjon kan relateres til en forretningsregel (total kapasitet, minimumsallokering, etterspørselsgrense), og dualvariable kan tolkes som skyggepriser.
+3. **Naturlig utgangspunkt for sensitivitetsanalyse.** Endring av én parameter og ny løsning viser direkte hvordan optimum avhenger av antakelsene.
+
+Begrensningene er omvendte: LP kan ikke uttrykke ikke-lineære sammenhenger (som Curhans potens-elastisitet med $\beta_i < 1$) uten linearisering eller stykkvis-lineær tilnærming, og den deterministiske formuleringen håndterer ikke stokastikk direkte.
+
+### 3.3 Demand–capacity mismatch og out-of-stock
+
+*Out-of-stock* (OOS) oppstår når hyllen tømmes før neste etterfylling. For en vare med utnyttelsesgrad $u_i = \bar s_i / c_i > 1$ (gjennomsnittlig ukesalg overstiger hyllekapasitet) er OOS forventet å forekomme i perioder av uken. Konsekvensen er *tapt salg*: kunder som kommer i butikken mens hyllen er tom kjøper enten et substitutt eller handler ikke den kategorien.
+
+Gholami & Bhakoo (2025) dokumenterer at den faktiske etterspørselen for OOS-rammede produkter kan være 1,5 til 3 ganger observert salg, avhengig av etterfyllingshyppighet og kundeatferd. Dette tallet er opprinnelsen til prosjektets `overserve_factor`-parameter (§6.4): for produkter med $u_i \ge 1$ antas den sanne etterspørselen å være en multippel av observert salg. I sensitivitetsanalysen (§7.3) undersøker vi hvor mye modellens anbefaling avhenger av denne multiplikatoren.
+
+Motstykket til OOS er *overkapasitet*: et produkt med $u_i < 1$ beslaglegger facings som aldri blir fylt før de etterfylles. Dette er "død hylle" som kunne vært omplassert til et produkt med høyere produktivitet per facing. Prosjektets utgangshypotese er at *begge fenomenene opptrer samtidig* i den observerte kategorien, og at reallokering fra overkapasiterte til underkapasiterte SKUer derfor gir netto gevinst.
+
+### 3.4 ABC-klassifisering og Pareto-prinsippet
+
+ABC-klassifisering er en praktisk anvendelse av Pareto-prinsippet (Pareto, 1896; videreført av Koch, 1997) på sortimentsstyring. Produkter sorteres etter deres bidrag til en valgt nøkkelindikator — her totalsalg i enheter — og deles inn i tre klasser basert på kumulativ andel:
+
+- **A-produkter:** topp ≈ 80 % av kumulativt salg; typisk få SKUer
+- **B-produkter:** neste ≈ 15 %
+- **C-produkter:** de siste ≈ 5 %; typisk mange SKUer
+
+Klassifiseringen brukes i praksis til å differensiere styringsregimer (hyppigere varetelling for A-produkter, bestemme hvilke produkter som fortjener egne kampanjer, osv.). I denne analysen brukes den tosidig: som struktureringsprinsipp for hvilke produkter som er de mest aktuelle kandidatene for mer hylleplass (A-klassen), og som grunnlag for pseudonymiseringen av produktnavn (§5.2) slik at rapporten kan leses uten å vite hvilke konkrete merkevarer som er involvert.
+
+### 3.5 Sammenkobling — fra teori til modell
+
+Sammen gir de fire teoretiske byggesteinene følgende operative narrativ: Hvis en butikk har et sortiment med både overkapasiterte og underkapasiterte SKUer (§3.3), og vi antar at hvert facing gir et målbart salgsbidrag (§3.1), så kan vi formulere et lineært optimeringsproblem (§3.2) som omfordeler den faste hyllekapasiteten slik at total forventet salg maksimeres, hvor ABC-klassifiseringen (§3.4) gir en naturlig førsteintuisjon om hvilke produkter som bør få mer plass. Dette er nettopp det modellen i §6 gjør, og resultatene i §7 evaluerer.
 
 ---
 
@@ -432,6 +540,36 @@ Studien demonstrerer at en konseptuelt enkel LP-modell, matet med to typer data 
 ---
 
 ## 10 Bibliografi
+
+*Referansestil: APA 7. Alle DOI-er og tidsskriftsnavn er basert på prosjektgruppens litteratursøk og bør verifiseres mot primærkilde før innlevering.*
+
+Bouzembrak, Y., m.fl. (2025). Literature review on shelf space allocation in retailing. *RAIRO — Operations Research*.
+
+Curhan, R. C. (1972). The relationship between shelf space and unit sales in supermarkets. *Journal of Marketing Research*, *9*(4), 406–412.
+
+Dantzig, G. B. (1947). *Maximization of a linear function of variables subject to linear inequalities*. I T. C. Koopmans (Red.), *Activity Analysis of Production and Allocation* (ss. 339–347). Wiley.
+
+Düsterhöft, T., Hübner, A., & Schaal, K. (2021). Exact optimization and decomposition approaches for shelf space allocation. *European Journal of Operational Research*.
+
+Gholami, M., & Bhakoo, V. (2025). A machine learning approach to inventory stockout prediction. *Supply Chain Analytics*.
+
+Gustriansyah, R., m.fl. (2022). A comparative study of demand forecasting models. *Mathematics*, *10*(19).
+
+Hsu, Y.-H., m.fl. (2025). Real-time retail planogram compliance using computer vision. *Scientific Reports*.
+
+Hübner, A., Schäfer, F., & Schaal, K. (2020). Maximizing profit via assortment and shelf-space optimization for two-dimensional shelves. *Production and Operations Management*.
+
+Klement, N., & Hübner, A. (2023). Decision support for managing assortments, shelf space, and replenishment in retail. *Flexible Services and Manufacturing Journal*.
+
+Koch, R. (1997). *The 80/20 principle: The secret to achieving more with less*. Nicholas Brealey.
+
+Mishra, A. (2023). Heuristics for the shelf space allocation problem. *OPSEARCH*.
+
+Pareto, V. (1896). *Cours d'économie politique*. F. Rouge.
+
+Santos, F., m.fl. (2024). Shelf management: A deep learning-based system for shelf visual monitoring. *Expert Systems with Applications*.
+
+Usama, M., m.fl. (2024). AI-driven demand forecasting: Enhancing inventory management. *World Journal of Advanced Research and Reviews*.
 
 ---
 
