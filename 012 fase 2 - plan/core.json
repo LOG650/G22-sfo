@@ -23,11 +23,13 @@
             },
             "projectManager": {
                 "partyId": "TEAM-G22-SVT",
-                "name": "Sebastian Vambheim Thunestvedt"
+                "name": "Sebastian",
+                "fullName": "Sebastian Vambheim Thunestvedt"
             },
             "technicalLead": {
                 "partyId": "TEAM-G22-SVT",
-                "name": "Sebastian Vambheim Thunestvedt"
+                "name": "Sebastian",
+                "fullName": "Sebastian Vambheim Thunestvedt"
             },
             "ownerOrganization": "Høgskolen i Molde",
             "executingOrganization": "Studentgruppe G22"
@@ -35,24 +37,27 @@
         "team": [
             {
                 "partyId": "TEAM-G22-SVT",
-                "name": "Sebastian Vambheim Thunestvedt",
+                "name": "Sebastian",
                 "role": "Prosjektleder / utvikler",
-                "responsibility": "Prosjektstyring, Python-implementering, MS Project"
+                "responsibility": "Prosjektstyring, Python-implementering, MS Project",
+                "fullName": "Sebastian Vambheim Thunestvedt"
             },
             {
                 "partyId": "TEAM-G22-FBR",
-                "name": "Frida Berge-Robertson",
+                "name": "Frida",
                 "role": "Analytiker / forfatter",
-                "responsibility": "Dataanalyse, litteratursøk, teorikapittel, rapportskriving"
+                "responsibility": "Dataanalyse, litteratursøk, teorikapittel, rapportskriving",
+                "fullName": "Frida Berge-Robertson"
             },
             {
                 "partyId": "TEAM-G22-OMH",
-                "name": "Oliver Matre Hille",
+                "name": "Oliver",
                 "role": "GitHub / analytiker (frafall)",
                 "responsibility": "Litteratursøk, casebeskrivelse, validering",
                 "leftAt": "2026-04-24",
                 "activeThrough": "2026-03-31",
-                "note": "Trakk seg fra prosjektet 2026-04-24. Beholdes i team-listen for at MS Project skal vise historisk tildeling frem til 2026-03-31. Post-31.03-aktiviteter er omfordelt til Sebastian og Frida."
+                "note": "Trakk seg fra prosjektet 2026-04-24. Beholdes i team-listen for at MS Project skal vise historisk tildeling frem til 2026-03-31. Post-31.03-aktiviteter er omfordelt til Sebastian og Frida.",
+                "fullName": "Oliver Matre Hille"
             }
         ],
         "objectives": [

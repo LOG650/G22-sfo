@@ -70,9 +70,17 @@ Kan oppgaven publiseres når båndleggingsperioden er over? [TBD]
 
 ## Sammendrag
 
+Rapporten undersøker om en datadrevet reallokering av eksisterende hyllekapasitet kan gi kvantifiserbar forbedring i forventet salg innen én varekategori hos en Coop Extra-butikk. Basert på ti uker med ukentlige salgsdata (uke 06–15, 2026) for åtte SKUer og totalt 486 frontfacings, dokumenterer studien en tydelig mismatch mellom hylleplan og etterspørsel: to A-klasseprodukter dekker 64 % av salget men disponerer bare 17 % av hyllen, mens fire overkapasiterte produkter har vedvarende lav utnyttelse. En deterministisk lineær programmeringsmodell (LP) implementert i Python med PuLP omfordeler facings innenfor faste totalrammer for å maksimere forventet ukesalg. Modellen kjøres i tre scenarier som spenner fra uregulert optimum til konservativ praksis. Hovedanbefalingen — som beholder alle åtte SKUer med et minimum på 25 % av dagens allokering — gir +61 % forventet ukesalg sammenlignet med observert baseline. En sensitivitetsanalyse viser at gevinsten er robust: selv med en konservativ antakelse om skjult etterspørsel (1,25× i stedet for 2,0×) gir modellen fortsatt +16 %. Resultatet er operasjonelt meningsfullt siden omfordelingen skjer uten investeringskostnad, men må implementeres gradvis med måling av faktisk salg for å empirisk forankre den space-elastisiteten modellen i dag må anta lineær.
+
+**Nøkkelord:** hylleallokering, space management, lineær programmering, retail, dagligvare, datadrevet beslutningsstøtte.
+
 ---
 
 ## Abstract
+
+This report investigates whether a data-driven reallocation of existing shelf capacity can yield a quantifiable improvement in expected sales within a single product category at a Coop Extra grocery store. Using ten weeks of weekly sales data (weeks 06–15, 2026) for eight SKUs and 486 total frontfacings, the study documents a clear mismatch between planogram and demand: two A-class products account for 64 % of sales but hold only 17 % of shelf space, while four over-capacitated products display consistently low utilization. A deterministic linear programming model (LP) implemented in Python with PuLP reallocates frontfacings within fixed total capacity to maximize expected weekly sales. The model is solved under three scenarios spanning from unconstrained optimum to conservative practice. The main recommendation — which preserves all eight SKUs with a floor of 25 % of current allocation — yields +61 % expected weekly sales versus the observed baseline. A sensitivity analysis shows the result is robust: even under a conservative hidden-demand assumption (1.25× rather than 2.0×) the model still delivers +16 %. The finding is operationally meaningful because the reallocation requires no capital investment, but should be phased in with measurement of realized sales to empirically ground the linear space-elasticity assumption the model currently relies on.
+
+**Keywords:** shelf allocation, space management, linear programming, retail, grocery, data-driven decision support.
 
 ---
 
@@ -272,7 +280,7 @@ Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én avgren
 
 **Implementering og reproduserbarhet.** All analyse er implementert i Python 3.12. Modellene bruker biblioteket PuLP med CBC-solver for lineær programmering, og pandas for datamanipulasjon. Kode og genererte figurer/tabeller versjoneres i prosjektets Git-repository; pseudonymiserte versjoner av resultatene inngår i repoet, mens filer med ekte produktnavn holdes lokalt i en `intern/`-underfolder som er ekskludert fra versjonering. Hele kjøringen (datarensing → deskriptiv analyse → LP → sensitivitet) kan reproduseres med tre kommandoer slik det dokumenteres i `006 analysis/README.md`. Anonymiseringsmodulen `anonymisering.py` sikrer at produkter i alle genererte artefakter har samme pseudonymer på tvers av scripts.
 
-**Kvalitetssikring.** Intern kvalitetssikring skjer i henhold til prosjektplanens §7.6: hver analyse-artefakt genereres deterministisk fra rådata og sanity-sjekkes mot intuisjon (f.eks. at ABC-summen blir 100 %, at LP-status er "Optimal", og at summen av allokerte facings tilsvarer total kapasitet). Peer-to-peer review planlegges i henhold til slagplanen for fase 3. Formelle akademiske krav følger SKRIVING-kompendiet (Kap. 3), herunder APA 7-referansestil for bibliografien i §10.
+**Kvalitetssikring.** Intern kvalitetssikring skjer i henhold til prosjektplanen: hver analyse-artefakt genereres deterministisk fra rådata og sanity-sjekkes mot intuisjon (f.eks. at ABC-summen blir 100 %, at LP-status er "Optimal", og at summen av allokerte facings tilsvarer total kapasitet). Peer-to-peer review planlegges i henhold til slagplanen for fase 3. Formelle akademiske krav følger SKRIVING-kompendiet (Kap. 3), herunder APA 7-referansestil for bibliografien i §10.
 
 **Etiske hensyn.** Studien behandler ikke personopplysninger og faller utenfor personopplysningsloven og helseforskningsloven (se egenerklæringen foran i rapporten). Konfidensialitet overfor Coop Extra X er ivaretatt gjennom taushetserklæring og pseudonymisering av produktnavn i alle offentlig tilgjengelige artefakter.
 
@@ -499,7 +507,7 @@ Dette kapitlet tolker funnene fra §7 mot det teoretiske rammeverket som introdu
 
 **B3. Skjult etterspørsel og out-of-stock.** For produkter med observert utnyttelse > 1 er det sanne etterspørselsnivået ikke direkte målbart: ethvert salg som skulle skjedd etter at hyllen ble tom og før neste etterfylling er usynlig i dataene. I hovedscenariet antas etterspørselen å være 2× observert salg, en størrelsesorden som reflekterer erfaringstall fra retail, men som ikke er empirisk forankret i dette datasettet. Sensitivitetsanalysen (§7.3) demper risikoen noe ved å vise at selv 1,25× gir meningsfull gevinst, men tallet er fortsatt en antakelse.
 
-**B4. Én butikk, 10 uker.** Datasettet omfatter én fysisk butikk og en periode på ti uker (uke 06–15 2026). Sesongvariasjoner, kampanjeuker eller eksterne hendelser kan ha påvirket datagrunnlaget uten at vi kan korrigere for det. POWERADE-observasjonen i uke 15 (412 enheter, mer enn dobbelt av gjennomsnittet for produktet) ble ikke fjernet som avviker fordi vi ikke har grunnlag for å hevde at den er en målefeil — det er sannsynligvis en kampanjeuke eller en uventet etterspørselspulje. En replikasjon på flere butikker og over lengre periode ville styrket grunnlaget for generalisering.
+**B4. Én butikk, 10 uker.** Datasettet omfatter én fysisk butikk og en periode på ti uker (uke 06–15 2026). Sesongvariasjoner, kampanjeuker eller eksterne hendelser kan ha påvirket datagrunnlaget uten at vi kan korrigere for det. Spesielt A2-observasjonen i uke 15 (412 enheter, mer enn dobbelt av gjennomsnittet for produktet) ble ikke fjernet som avviker fordi vi ikke har grunnlag for å hevde at den er en målefeil — det er sannsynligvis en kampanjeuke eller en uventet etterspørselspulje. En replikasjon på flere butikker og over lengre periode ville styrket grunnlaget for generalisering.
 
 **B5. Manglende økonomiske vektinger.** Målfunksjonen maksimerer samlet solgte *enheter*, ikke omsetning eller bruttomargin. Hvis produktene har ulike marginer per enhet, ville en profittmaksimerende variant gitt andre anbefalinger — spesielt for A-klasse-produkter med energi-positionering som potensielt har høyere marginer enn bulk-brus. Datafeltene vi disponerer inkluderer ikke priser eller marginer, så prosjektet kan ikke si noe empirisk om hvorvidt enhet-maksimering er en god proxy for marginmaksimering.
 
@@ -576,3 +584,19 @@ Usama, M., m.fl. (2024). AI-driven demand forecasting: Enhancing inventory manag
 ---
 
 ## 11 Vedlegg
+
+**Vedlegg A — Python-kode.** Analysekode er versjonert i prosjektets Git-repository under `006 analysis/`. Kjøringen består av fire scripts som produserer alle tabeller og figurer i denne rapporten:
+
+- `aktiviteter/3_3_casebeskrivelse_og_datainnsamling/scripts/01_datarensing.py`
+- `aktiviteter/3_4_data_metode_og_modellering/scripts/02_deskriptiv_og_abc.py`
+- `aktiviteter/3_4_data_metode_og_modellering/scripts/03_lp_modell.py`
+- `aktiviteter/3_5_analyse_og_resultater/scripts/04_sensitivitet.py`
+
+Avhengigheter er definert i `006 analysis/pyproject.toml`. Hele pipelinen reproduseres med `uv sync` etterfulgt av de fire kommandolinjene dokumentert i `006 analysis/README.md`.
+
+**Vedlegg B — Pseudonymregister.** Koblingen mellom pseudonymer (A1, A2, B1, B2, C1–C4) og reelle produktnavn er oppbevart lokalt i `006 analysis/aktiviteter/3_3_casebeskrivelse_og_datainnsamling/resultat/intern/navneregister.csv`. Denne filen er unntatt versjonering og deles ikke utenfor prosjektgruppen, i henhold til taushetserklæringen med Coop Extra X.
+
+**Vedlegg C — Taushetserklæring.** Underskrevet taushetserklæring mellom prosjektgruppen og Coop Extra X er arkivert utenfor dette repoet i henhold til kjedens instruks. Mal er tilgjengelig i `000 templates/Taushetsærklæring.docx`.
+
+**Vedlegg D — Rådata.** Rådata som ligger til grunn for analysen, `Data 10 uker.csv`, oppbevares lokalt i `004 data/` og er unntatt versjonering. Alle avledede datasett med reelle produktnavn oppbevares tilsvarende under `intern/`-underfoldere som er ekskludert i `.gitignore`.
+
