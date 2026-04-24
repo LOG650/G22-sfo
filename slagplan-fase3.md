@@ -11,7 +11,7 @@
 
 - **Innleveringsdato:** 2026-05-31 (M3)
 - **Gjenstående tid:** 5 uker og 1 helg
-- **Opprinnelig M2:** 2026-04-27 (utkast + peer review) — **utsatt til 2026-05-10**
+- **Ny hard deadline for hovedutkast:** 2026-04-30 kl 23:59 — rapporten skal være lesbar for peer-review-partneren. Dette overstyrer den tidligere utsettelsen til 2026-05-10.
 - **Opprinnelig skippertaks-risiko:** Prosjektet har ligget etter plan. Fase 3 aktiviteter er ikke påbegynt i praksis.
 
 ## 2. Relevant kvantitativ metode
