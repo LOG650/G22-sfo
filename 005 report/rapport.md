@@ -70,7 +70,7 @@ Kan oppgaven publiseres når båndleggingsperioden er over? [TBD]
 
 ## Sammendrag
 
-Rapporten undersøker om en datadrevet reallokering av eksisterende hyllekapasitet kan gi kvantifiserbar forbedring i forventet salg innen én varekategori hos en Coop Extra-butikk. Basert på ti uker med ukentlige salgsdata (uke 06–15, 2026) for åtte SKUer og totalt 486 frontfacings, dokumenterer studien en tydelig mismatch mellom hylleplan og etterspørsel: to A-klasseprodukter dekker 64 % av salget men disponerer bare 17 % av hyllen, mens fire overkapasiterte produkter har vedvarende lav utnyttelse. En deterministisk lineær programmeringsmodell (LP) implementert i Python med PuLP omfordeler facings innenfor faste totalrammer for å maksimere forventet ukesalg. Modellen kjøres i tre scenarier som spenner fra uregulert optimum til konservativ praksis. Hovedanbefalingen — som beholder alle åtte SKUer med et minimum på 25 % av dagens allokering — gir +61 % forventet ukesalg sammenlignet med observert baseline. En sensitivitetsanalyse viser at gevinsten er robust: selv med en konservativ antakelse om skjult etterspørsel (1,25× i stedet for 2,0×) gir modellen fortsatt +16 %. Resultatet er operasjonelt meningsfullt siden omfordelingen skjer uten investeringskostnad, men må implementeres gradvis med måling av faktisk salg for å empirisk forankre den space-elastisiteten modellen i dag må anta lineær.
+Rapporten undersøker hvordan en dagligvareleverandør kan bruke ukentlige sell-out-data fra en kjede-butikk som beslutningsstøtte i forhandlinger om hylleplass, og kvantifiserer reallokeringsgevinsten som kan dokumenteres overfor kjeden innen leverandørens egen portefølje hos Coop Extra X. Perspektivet er leverandørens; data på konkurrerende produkter inngår ikke, hvilket speiler den informasjons­asymmetri som kjennetegner reelle leverandør-kjede-forhandlinger. Basert på ukentlige sell-out-data for leverandørens SKUer over ti uker (uke 06–15, 2026), formuleres en deterministisk lineær programmerings­modell (LP) implementert i Python med PuLP. Modellen omfordeler den kontraktuelle hylleallokeringen leverandøren har hos butikken slik at forventet samlet sell-out maksimeres, under forutsetning av produktspesifikke minimums­gulv som reflekterer sortimentsgarantier. Analysen avdekker en tydelig mismatch mellom hyllefordeling og etterspørsel: to A-klasse­produkter står for 64 % av salget men har bare 17 % av porteføljens hylleplass, mens fire overkapasiterte produkter har vedvarende lav utnyttelse. Modellen kjøres i tre scenarier som spenner fra uregulert optimum til konservativ praksis. Hovedanbefalingen — som beholder alle porteføljens SKUer med et gulv på 25 % av dagens allokering — gir +61 % forventet ukentlig sell-out innen porteføljen sammenlignet med observert baseline. En sensitivitetsanalyse viser at gevinsten er robust mot de sentrale parameterantakelsene. Resultatet er operasjonelt meningsfullt i en forhandlings­kontekst siden det dokumenterer et kvantifisert reallokerings­potensial innen leverandørens egen portefølje — et utgangspunkt for kategoridialog med kjeden som krever verken investering eller utvidelse av leverandørens totale hylleallokering.
 
 **Nøkkelord:** hylleallokering, space management, lineær programmering, retail, dagligvare, datadrevet beslutningsstøtte.
 
@@ -78,7 +78,7 @@ Rapporten undersøker om en datadrevet reallokering av eksisterende hyllekapasit
 
 ## Abstract
 
-This report investigates whether a data-driven reallocation of existing shelf capacity can yield a quantifiable improvement in expected sales within a single product category at a Coop Extra grocery store. Using ten weeks of weekly sales data (weeks 06–15, 2026) for eight SKUs and 486 total frontfacings, the study documents a clear mismatch between planogram and demand: two A-class products account for 64 % of sales but hold only 17 % of shelf space, while four over-capacitated products display consistently low utilization. A deterministic linear programming model (LP) implemented in Python with PuLP reallocates frontfacings within fixed total capacity to maximize expected weekly sales. The model is solved under three scenarios spanning from unconstrained optimum to conservative practice. The main recommendation — which preserves all eight SKUs with a floor of 25 % of current allocation — yields +61 % expected weekly sales versus the observed baseline. A sensitivity analysis shows the result is robust: even under a conservative hidden-demand assumption (1.25× rather than 2.0×) the model still delivers +16 %. The finding is operationally meaningful because the reallocation requires no capital investment, but should be phased in with measurement of realized sales to empirically ground the linear space-elasticity assumption the model currently relies on.
+This report examines how a grocery supplier can use weekly sell-out data from a chain store as decision support in shelf-space negotiations, and quantifies the reallocation gain that can be documented towards the chain within the supplier's own portfolio at a Coop Extra store. The perspective is the supplier's; competing products are not included in the dataset — mirroring the information asymmetry typical of real supplier–retailer negotiations. Using ten weeks of weekly sell-out data for the supplier's SKUs (weeks 06–15, 2026), a deterministic linear programming model (LP) implemented in Python with PuLP reallocates the shelf allocation the supplier holds at the store to maximize expected total sell-out, subject to minimum-floor constraints reflecting assortment commitments. The analysis surfaces a clear mismatch between shelf and demand: two A-class products account for 64 % of sales but hold only 17 % of the portfolio's shelf units, while four over-capacitated products show persistently low utilization. The model is solved under three scenarios ranging from an unconstrained optimum to conservative practice. The main recommendation — which preserves all portfolio SKUs with a floor of 25 % of current allocation — yields +61 % expected weekly sell-out within the portfolio compared to the observed baseline. A sensitivity analysis shows the result is robust to the key parameter assumptions. The finding is operationally meaningful in a negotiation context because it documents a quantified reallocation potential within the supplier's own portfolio — a starting point for category dialogue with the chain that requires neither capital investment nor expansion of the supplier's total shelf allocation.
 
 **Keywords:** shelf allocation, space management, linear programming, retail, grocery, data-driven decision support.
 
@@ -108,33 +108,33 @@ This report investigates whether a data-driven reallocation of existing shelf ca
 
 ## 1 Innledning
 
-Hylleplass er en av de mest knappe og verdifulle ressursene i dagligvarehandelen. Hver butikk disponerer en gitt mengde frontfacings som skal fordeles mellom et stort antall SKUer, og fordelingen — planogrammet — har direkte innvirkning på hvilke produkter kundene møter og hvor ofte de går tom. I en bransje med lave marginer representerer riktig utnyttelse av hylleplass en av de få kostnadsfrie spakene for å løfte omsetning: investeringen er alt gjort; det som gjenstår er å plassere de tilgjengelige facings der etterspørselen faktisk er.
+Hylleplass i dagligvarebutikken er en knapp ressurs og en kontraktuell størrelse. Leverandørens andel av kjedens hylleplass er resultat av forhandlinger som gjennomføres i kategoribesøk og Joint Business Planning (JBP)-møter, der leverandøren argumenterer for at deres SKU-portefølje fortjener en gitt kontraktuell allokering. I disse møtene brukes rutinemessig salgs- og lagerdata som underlag, men **kvantifiserte reallokerings­forslag innen leverandørens egen portefølje** baseres ofte på erfaringsbasert skjønn snarere enn eksplisitt matematisk modellering. Dette prosjektet utvikler en enkel, reproduserbar modell for nettopp dette — et beslutningsstøtte­verktøy en leverandør kan bruke for å gå inn i hylledialogen med kjeden med en tallfestet argumentasjon.
 
-Til tross for at kategorien er velstudert i operasjonsforskningen, viser bransjeobservasjoner at planogrammer ofte er historisk betingede og sjelden re-optimaliseres mot aktuelle salgsdata. Dette etterlater et gap mellom *hylleplanen* (hva planogrammet sier) og *etterspørselen* (hva kundene faktisk kjøper). I butikker der dette gapet er stort, vil reallokering av eksisterende plass — uten investering — kunne gi målbar gevinst.
+Motivasjonen er konkret: en leverandør har innsyn i egne SKUers **sell-out** (faktisk registrert kundekjøp i kassen, per butikk og uke), men ikke i konkurrentenes tilsvarende tall. Leverandøren har kontraktuell kjennskap til egen hyllekapasitet hos kjeden, men ikke detaljerte planogram­data for øvrige merkevarer. Denne informasjons­asymmetrien er den naturlige skoperings­grensen for analyser av leverandørens type: modellen som bygges må kunne gi verdi basert på *den data leverandøren realistisk disponerer*.
 
-Dette prosjektet undersøker hvor stort dette gapet er i en konkret kontekst, og hvilket forbedringspotensial en datadrevet reallokering kan gi.
+Forskjellen mellom leverandørens hylleplan og det faktiske salget — *mismatchen* mellom hvor kunden kjøper og hvor leverandøren har fått plass — er det sentrale fenomenet som modellen skal kvantifisere og argumentere for å korrigere.
 
 ### 1.1 Problemstilling
 
-*Hvordan kan en datadrevet tilnærming identifisere produkter som er underallokert i hylleplass relativt til observerte salgsdata, og hva er det estimerte potensialet for forbedring ved reallokering av eksisterende hyllekapasitet innen en avgrenset varekategori i Coop Extra X?*
+*Hvordan kan en dagligvareleverandør bruke ukentlige sell-out-data fra en kjede-butikk som beslutningsstøtte i forhandlinger om hylleplass, og hvilket salgspotensial kan dokumenteres ved reallokering innenfor leverandørens egen portefølje hos Coop Extra X?*
 
 ### 1.2 Avgrensinger
 
-- **Én butikk.** Analysen er gjort i én bestemt Coop Extra-enhet og representerer denne butikkens salg og hylleplan i observasjonsperioden.
-- **Én varekategori.** Kullsyreholdige leskedrikker i plastflasker (0.5 L, 1.5 L) samt én boks-variant. 8 SKUer totalt.
+- **Én butikk.** Analysen er gjort på sell-out-data fra én konkret Coop Extra-enhet og representerer denne butikkens situasjon i observasjonsperioden.
+- **Én leverandørs portefølje, ikke hele kategorien.** Datasettet dekker SKUer som distribueres av den aktuelle leverandøren hos butikken. Andre leverandørers produkter i samme kategori inngår ikke, hvilket speiler det realistiske informasjons­bildet leverandøren selv har tilgang til.
 - **Ti uker.** Uke 06 til og med uke 15 i 2026. Perioden dekker sen vinter og tidlig vår og inkluderer ingen dokumenterte ekstreme hendelser (jul, påske, langvarig kampanje).
-- **Eksisterende hyllekapasitet.** Analysen ser utelukkende på reallokering innenfor dagens fysiske ramme på 486 frontfacings. Utvidelse av hyllen eller endring av sortimentssammensetningen ligger utenfor omfanget.
-- **Ingen økonomisk vekting.** Gevinsten måles i antall solgte enheter per uke, ikke i omsetning eller dekningsbidrag. Margintall er ikke tilgjengelige i datasettet.
-- **Kvantitativ, ikke kvalitativ.** Prosjektet gjør ingen intervjuer, kundeobservasjoner eller leverandørsamtaler. Alle tolkninger er basert på observerte salgs- og kapasitetsdata.
+- **Kontraktuell hyllekapasitet som fast ramme.** Analysen omfordeler innenfor leverandørens nåværende samlede hylleallokering hos butikken. Forhandling om *utvidelse* av leverandørens totalallokering er et separat — og mer krevende — argumentasjons­løp som ligger utenfor omfanget.
+- **Ingen økonomisk vekting.** Salgspotensialet måles i antall solgte enheter per uke, ikke i omsetning eller dekningsbidrag. Margintall og priser er ikke inkludert i det tilgjengelige datasettet.
+- **Kvantitativ, ikke kvalitativ.** Prosjektet gjør ingen intervjuer med kategori­ansvarlige, butikk­sjefer eller forhandlings­parter. Alle tolkninger er basert på observerte sell-out- og kapasitets­data.
 
 ### 1.3 Antagelser
 
 Analysen hviler på fire hovedantagelser som drøftes kritisk i §8:
 
-1. **Observert ukesalg er representativt for den aktuelle periodens etterspørsel** for produkter som ikke går tomme. For produkter med utnyttelsesgrad ≥ 1 (hyllen tømmes før neste etterfylling) er observert salg et *nedre* anslag for reell etterspørsel.
-2. **Hvert ekstra frontfacing gir samme produktivitet (lineær space-elastisitet).** Reell elastisitet er sannsynligvis avtakende, noe som gjør modellens gevinstanslag til et øvre estimat.
-3. **Kjedens minstekrav til frontfacings per produkt er enten 1 eller en fast andel av dagens allokering (25 % i hovedscenariet, 50 % i det konservative).** Eksplisitte avtaler om minsteallokering per SKU er ikke tilgjengelige.
-4. **Ingen kryssalgseffekter eller kannibalisering.** Modellen behandler hvert produkt uavhengig. Mulige interaksjoner diskuteres i §8.
+1. **Observert ukentlig sell-out er representativt for den aktuelle periodens etterspørsel** for produkter som ikke går tomme. For produkter med utnyttelsesgrad ≥ 1 (hyllen tømmes før neste etterfylling) er observert salg et *nedre* anslag for reell etterspørsel.
+2. **Hvert ekstra enhet hylleplass gir samme produktivitet (lineær space-elastisitet).** Reell elastisitet er sannsynligvis avtakende, noe som gjør modellens gevinst­anslag til et øvre estimat.
+3. **Leverandørens minstekrav til hylleplass per SKU er enten 1 enhet eller en fast andel av dagens allokering (25 % i hovedscenariet, 50 % i det konservative).** Eksplisitte kontraktsgulv per SKU er ikke tilgjengelige i dette prosjektet.
+4. **Ingen kryssalgseffekter eller kannibalisering innen porteføljen.** Modellen behandler hvert produkt uavhengig. Mulige interaksjoner diskuteres i §8.
 
 ---
 
@@ -160,15 +160,21 @@ Gustriansyah m.fl. (2022) sammenligner prognose-modeller for salgsdata og finner
 
 Usama m.fl. (2024) rapporterer konkrete effekttall fra AI-basert etterspørselsprognose i dagligvare — 23,7 % bedre prognose og 24,3 % færre stockouts — og gir dermed et grovt sammenligningsgrunnlag for omfanget av forbedringer som er oppnåelige med datadrevne tilnærminger i sektoren.
 
-### 2.3 AI og automatisert planogramovervåking
+### 2.3 Category management og leverandør-kjede-forhandlinger
+
+Utover den rene optimaliseringslitteraturen finnes et omfattende arbeidsfelt rundt *category management* og samarbeidsmønstre mellom kjede og leverandør. Klement & Hübner (2023) påpeker at sortiments-, hylle- og påfyllings­beslutninger i praksis fattes i dialog mellom kategori­ansvarlige hos kjeden og såkalte *category captains* på leverandørsiden — leverandører som får forsterket rolle i å foreslå og begrunne planogram-endringer basert på data de selv eier. Bouzembrak m.fl. (2025) nevner i sin oversikt at modellbaserte forslag i slike forhandlinger typisk er underutnyttet sammenlignet med hva tilgjengelig litteratur muliggjør, og løfter frem beslutningsstøtte for leverandør-sidens posisjonering som et område hvor praksis henger etter teori.
+
+Dette prosjektet plasserer seg tydelig i dette gapet: i stedet for å optimalisere butikkens totale kategorihylle (en kjede-beslutning som krever kryssleverandør-data), optimaliserer det *leverandørens egen portefølje innenfor den kontraktuelle hyllen leverandøren allerede disponerer*. Perspektivet matcher den realistiske informasjons­situasjonen for en leverandør og gir et verktøy som kan brukes i forhandlings- og kategorimøter.
+
+### 2.4 AI og automatisert planogramovervåking
 
 Klement & Hübner (2023) gir et helhetlig rammeverk som kobler sortimentsvalg, hylleallokering og påfylling som tre samhørige beslutningslag. Rammeverket er nyttig for å plassere dette prosjektet — som opererer rent på hylleallokerings-laget — innenfor en større beslutningsarkitektur. Det underbygger også §8-diskusjonen om fasering: hvis påfyllingen ikke henger med, kan selv en optimal allokering føre til mer out-of-stock.
 
 Santos m.fl. (2024) og Hsu m.fl. (2025) beskriver henholdsvis deep learning- og computer vision-systemer for automatisert planogramovervåking i hele butikkjeder. Disse arbeidene representerer fremtiden for datainnhenting i feltet: istedenfor statiske planogrammer rapportert fra kjedekontor, får man sanntidsvisninger av hvordan hyllen faktisk ser ut. For dette prosjektet gir dette en metodisk forventning: den typen analyse vi gjør her, vil om noen år kunne kjøres på kontinuerlig oppdaterte data snarere enn tiukers eksport.
 
-### 2.4 Syntese mot problemstilling
+### 2.5 Syntese mot problemstilling
 
-Litteraturen understøtter tre premisser som problemstillingen hviler på: (1) mismatch mellom hyllekapasitet og etterspørsel er et veldokumentert fenomen i dagligvare; (2) LP-baserte modeller er anerkjent som et adekvat verktøy for å adressere det; (3) gevinstanslagene på 20–60 % som rapporteres i den nyere empiriske litteraturen er i størrelsesorden sammenlignbare med dem prosjektets egne resultater peker på. Samtidig viser metastudiene (særlig Bouzembrak m.fl., 2025) at de mest sofistikerte modellene krever data — kryss-elastisitet, margin per enhet, flerukers variasjon — som i praksis sjelden er tilgjengelig for et avgrenset studentprosjekt. Dette legitimerer vårt valg av en enklere, men fullstendig dokumentert og reproduserbar LP-tilnærming.
+Litteraturen understøtter fire premisser som problemstillingen hviler på: (1) mismatch mellom hyllekapasitet og etterspørsel er et veldokumentert fenomen i dagligvare; (2) LP-baserte modeller er anerkjent som et adekvat verktøy for å adressere det; (3) gevinstanslagene på 20–60 % som rapporteres i den nyere empiriske litteraturen er i størrelses­orden sammenlignbare med dem prosjektets egne resultater peker på; og (4) leverandørens rolle som category captain er et veletablert, men i dette prosjektets bruk­tilfelle underutnyttet, beslutnings­miljø. Samtidig viser metastudiene (særlig Bouzembrak m.fl., 2025) at de mest sofistikerte modellene krever data — kryss-elastisitet, margin per enhet, fleruker­svariasjon — som i praksis sjelden er tilgjengelig for et avgrenset studentprosjekt. Dette legitimerer vårt valg av en enklere, men fullstendig dokumentert og reproduserbar LP-tilnærming anvendt på *den datatypen en leverandør realistisk disponerer*.
 
 ---
 
@@ -238,26 +244,30 @@ Sammen gir de fire teoretiske byggesteinene følgende operative narrativ: Hvis e
 
 ## 4 Casebeskrivelse
 
-Case-studien er gjennomført hos *Coop Extra X*, en dagligvarebutikk som opererer under lavpriskonseptet Coop Extra i Norge. Butikken er del av et filialnett og har et utvalg som i store trekk er felles for kjeden, men med lokale tilpasninger i omfang og frontfacings per SKU. Av hensyn til taushetserklæring inngått mellom prosjektgruppen og butikken er hverken butikkens geografiske lokasjon eller faktiske produktnavn gjengitt i rapporten; alle produkter er omtalt med pseudonymer (se §5.2).
+Case-studien tar utgangspunkt i leverandørens perspektiv. Leverandøren er en stor, global produsent av kullsyreholdige leskedrikker med et bredt porteføljetilbud og en etablert kontraktuell hylleallokering hos Coop-kjeden i Norge. Analyse­enheten er leverandørens portefølje slik den er representert hos én konkret Coop Extra-butikk ("Coop Extra X"). Av hensyn til taushetserklæring inngått mellom prosjektgruppen og butikken/leverandøren er hverken butikkens geografiske lokasjon, leverandørens navn eller faktiske produktnavn gjengitt i rapporten; alle produkter er omtalt med pseudonymer (se §5.2).
 
-### 4.1 Valgt varekategori
+### 4.1 Leverandørens portefølje som analyse-enhet
 
-Analysen er avgrenset til én varekategori: **kullsyreholdige leskedrikker i plastflasker (0.5 L og 1.5 L) samt én boks-variant**. Kategorien er valgt fordi den
+Case-studien ser på leverandørens SKU-portefølje slik den finnes i butikkens sortiment i observasjonsperioden. Porteføljen dekker kullsyreholdige leskedrikker i plastflasker (0.5 L og 1.5 L), energidrikk i boks, og en idrettsdrikk. Konkurrerende merkevarer fra andre leverandører er *ikke* inkludert — verken i sell-out-data eller i kapasitets­oversikten — i tråd med den informasjons­asymmetrien en leverandør realistisk arbeider under.
 
-- har et håndterbart antall SKUer (8 stk) — stort nok til at reallokering er meningsfullt, lite nok til å modellere eksplisitt,
-- representerer både bestselgere og långjengere med ulik omsetningshastighet,
-- har en tydelig fysisk hyllebegrensning: seksjonen er avgrenset, og totalkapasiteten er kjent og konstant gjennom observasjonsperioden,
-- skal ha en observert mismatch mellom kapasitet og etterspørsel som er stor nok til at omallokering potensielt gir utslag på omsetning.
+Porteføljen valg gjenspeiler den datatypen leverandøren disponerer i sin forhandlings­forberedelse: sell-out per uke for egne SKUer, samt nåværende kontraktuell hylleallokering per SKU hos butikken. Det leverandøren *ikke* har innsyn i — konkurrenters salg, konkurrenters hylleplass, kundesegmentering utover kjedens aggregater — er også det modellen ikke forutsetter å kjenne.
 
-### 4.2 Fysiske rammebetingelser
+### 4.2 Hyllekontrakt og rammebetingelser
 
-Hyllekapasitet er målt i antall *frontfacings* (fronteksponerte enheter) per SKU. Total tilgjengelig kapasitet i kategorien er **486 enheter fordelt på 8 produkter**. Butikken har i observasjonsperioden holdt denne fordelingen konstant, hvilket betyr at variasjon i salg ikke kan forklares av endringer i hylleplass.
+Leverandørens *hylle-allokering* hos butikken er et kontraktuelt tall: antall hylleenheter (frontfacings × dybde × antall hyller) fordelt mellom leverandørens SKUer i butikkens planogram. Analyseperioden har holdt denne fordelingen konstant, hvilket betyr at variasjon i salg ikke kan forklares av endringer i hylleplass. Reallokering innenfor leverandørens kontraktuelle ramme krever dialog med butikken/kjeden men vanligvis ikke reforhandling av kontrakten — og representerer derfor en relativt lav-friksjons endring sammenlignet med å argumentere for utvidelse av totalrammen.
+
+**Samlet hylleallokering som leverandøren disponerer hos Coop Extra X i observasjons­perioden: [TBD når nytt datasett er innhentet; pilot-beregninger i §7 er basert på et tidligere utsnitt av porteføljen og skal oppdateres.]**
 
 Etterfylling skjer fra baklager hver dag eller annenhver dag, så observert *salg per uke* er rimelig proxy for *reell etterspørsel* så lenge hyllen ikke går tom. For produkter med utnyttelsesgrad nær eller over 1,0 er tapt salg pga. utsolgt hylle (out-of-stock) en relevant kilde til undervurdert etterspørsel. Dette diskuteres i §8.
 
-### 4.3 Dataeier og tilgang
+### 4.3 Dataeiere og tilgang
 
-Salgsdata og kapasitetsdata er stilt til rådighet av butikkens driftsansvarlige etter signert taushetserklæring mellom prosjektgruppen og Coop Extra X (2026-02). Studentene er ikke ansatt eller engasjert av Coop og har ingen øvrig kommersiell relasjon til kjeden.
+Analysen bygger på to datakilder som reflekterer de to partene i den operasjonelle kategorihåndteringen:
+
+1. **Sell-out-data per uke og SKU** — hentet fra butikkens POS-system via butikkens driftsansvarlige, eller alternativt via leverandørens egne sell-out-rapporter fra kjeden. Begge kildene speiler de samme kundetransaksjonene i butikken.
+2. **Kontraktuell hylleallokering per SKU** — hentet fra leverandøren basert på gjeldende planogramavtale med Coop.
+
+Data er stilt til rådighet etter signert taushetserklæring mellom prosjektgruppen og den aktuelle leverandøren/butikken (2026-02). Studentene er ikke ansatt eller engasjert av verken Coop eller leverandøren og har ingen øvrig kommersiell relasjon til partene.
 
 ---
 
@@ -265,7 +275,7 @@ Salgsdata og kapasitetsdata er stilt til rådighet av butikkens driftsansvarlige
 
 ### 5.1 Metode
 
-Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én avgrenset varekategori i én dagligvarebutikk undersøkes dybdemessig ved hjelp av numerisk modellering av empiriske salgsdata. Valget av case-studie er begrunnet i problemstillingens karakter — vi ønsker å undersøke om datadrevet reallokering av hylleplass gir kvantifiserbar effekt i en konkret driftssammenheng, ikke å etablere allmenngyldige sammenhenger. Den kvantitative metoden kommer inn ved at analysen er numerisk, deterministisk og reproduserbar.
+Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én leverandørs portefølje i én Coop Extra-butikk undersøkes dybdemessig ved hjelp av numerisk modellering av empiriske sell-out-data. Valget av case-studie er begrunnet i problemstillingens karakter — vi ønsker å undersøke om en datadrevet reallokerings­analyse kan fungere som operativ beslutningsstøtte i en leverandør-forhandlings­kontekst, ikke å etablere allmenngyldige sammenhenger. Den kvantitative metoden kommer inn ved at analysen er numerisk, deterministisk og reproduserbar.
 
 **Metodisk struktur.** Analysen gjennomføres i fire sekvensielle trinn som også gjenspeiles i rapportstrukturen:
 
@@ -286,7 +296,9 @@ Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én avgren
 
 ### 5.2 Data
 
-Datagrunnlaget består av to sammenslåtte kilder fra Coop Extra X: et ukentlig salgsuttrekk fra butikkens kassesystem og en kapasitetsoversikt per SKU hentet fra planogrammet som var gjeldende gjennom hele observasjonsperioden.
+Datagrunnlaget består av to sammenslåtte kilder: **ukentlig sell-out per SKU** (kundekjøp registrert i butikkens POS-system) og **kontraktuell hylleallokering per SKU** (antall enheter tildelt SKU i leverandørens del av planogrammet). Begge kilder dekker *leverandørens portefølje* hos Coop Extra X i observasjons­perioden; konkurrerende SKUer fra andre leverandører er ikke inkludert, i tråd med scope definert i §1.2.
+
+Pilot-analysen som ligger til grunn for §7 ble gjennomført på et utsnitt av porteføljen (åtte SKUer) før det utvidede datasettet for hele porteføljen var innhentet. Den endelige rapporten vil oppdateres når full porteføljedata foreligger; §7-resultatene er da å forstå som pilot og skal re-kjøres på utvidet datasett før innlevering 31.05.2026.
 
 **Omfang**
 
@@ -326,19 +338,19 @@ Datagrunnlaget består av to sammenslåtte kilder fra Coop Extra X: et ukentlig 
 
 ## 6 Modellering
 
-Reallokeringsproblemet formuleres som en lineær programmeringsmodell (LP) der målet er å fordele et fast antall hylleplasser mellom produktene i kategorien slik at forventet samlet salg maksimeres innenfor produktspesifikke etterspørselsgrenser. Formuleringen er deterministisk og periodegjennomsnittlig: en enkelt «typisk uke» representerer perioden uke 06–15 2026.
+Reallokerings­problemet formuleres som en lineær programmerings­modell (LP) der målet er å fordele leverandørens *kontraktuelle hylleallokering* mellom egne SKUer slik at forventet samlet sell-out maksimeres innenfor produktspesifikke etterspørsels­grenser og sortiments­gulv. Modellen omfordeler utelukkende innen leverandørens portefølje; SKUer fra andre leverandører inngår hverken i målfunksjonen eller i kapasitets­restriksjonen. Formuleringen er deterministisk og periode­gjennomsnittlig: en enkelt «typisk uke» representerer perioden uke 06–15 2026.
 
 ### 6.1 Mengder og indekser
 
 | Symbol | Beskrivelse |
 |---|---|
-| $P$ | Mengde av produkter (SKUer) i kategorien, $i \in P$, $\lvert P \rvert = 8$ |
+| $P$ | Mengde av leverandørens SKUer i butikkens sortiment, $i \in P$. Andre leverandørers SKUer inngår ikke i $P$. Pilot-analysen (§7) bruker $\lvert P \rvert = 8$; full portefølje­analyse oppdateres når utvidet datasett er innhentet. |
 
 ### 6.2 Parametere
 
 | Symbol | Enhet | Beskrivelse | Verdi / kilde |
 |---|---|---|---|
-| $T$ | frontfacings | Total hyllekapasitet i kategorien, konstant i perioden | 486 (Tabell 5.2.1) |
+| $T$ | enheter | Leverandørens samlede kontraktuelle hylleallokering hos butikken, konstant i perioden. Dekker *ikke* kategoriens totale hylleplass. | 486 (pilot) / [TBD full portefølje] |
 | $c_i$ | frontfacings | Nåværende allokering av hylleplass til produkt $i$ | Tabell 5.2.1 |
 | $\bar s_i$ | enheter/uke | Gjennomsnittlig observert ukesalg for produkt $i$ | Tabell 5.2.1 |
 | $\rho_i$ | enheter/facing/uke | Produktivitet per frontfacing, $\rho_i = \bar s_i / c_i$ | Utledet |
@@ -355,7 +367,7 @@ der $x_i$ er antall frontfacings som tildeles produkt $i$ i den omallokerte hyll
 
 ### 6.4 Etterspørselsantagelse
 
-For produkter med observert utnyttelse under 1,0 legges det til grunn at målt ukesalg svarer til etterspørselen ($d_i = \bar s_i$). For produkter der observert salg overstiger kapasiteten, er salget begrenset av hylle og ikke av etterspørsel; den sanne etterspørselen er høyere enn observert salg, men er ikke direkte målbar. I hovedscenariet brukes $d_i = 2\bar s_i$, en antakelse som reflekterer at out-of-stock-situasjoner er observert i flere uker for disse produktene. Alternative verdier prøves i sensitivitetsanalysen (§7.2).
+For SKUer med observert utnyttelse under 1,0 legges det til grunn at målt ukentlig sell-out svarer til etterspørselen ($d_i = \bar s_i$). For SKUer der observert sell-out overstiger hylleallokering, er salget begrenset av hylle og ikke av etterspørsel; den sanne etterspørselen er høyere enn observert sell-out men er ikke direkte målbar. I hovedscenariet brukes $d_i = 2\bar s_i$, en antakelse som reflekterer at out-of-stock-situasjoner er observert i flere uker for disse produktene. Alternative verdier prøves i sensitivitetsanalysen (§7.3).
 
 ### 6.5 Målfunksjon
 
@@ -367,7 +379,7 @@ $$
 
 ### 6.6 Restriksjoner
 
-**R1 — Total hyllekapasitet.** All tilgjengelig hylleplass disponeres:
+**R1 — Leverandørens kontraktuelle hylleramme.** Omfordelingen skjer innenfor den hylleallokering leverandøren allerede disponerer, uten netto endring mot resten av kategorien. Leverandøren forhandler altså ikke om mer plass i denne modellen; den reallokerer det som er:
 
 $$
 \sum_{i \in P} x_i = T
@@ -399,11 +411,11 @@ Modellen består av $\lvert P \rvert = 8$ heltalls-beslutningsvariabler, $\lvert
 
 ## 7 Analyse og resultater
 
-Kapitlet presenterer resultatene av LP-modellen fra §6 anvendt på det rensede datasettet fra §5.2. Analysen er strukturert i tre deler: (i) en sammenligning av tre allokeringsscenarier som spenner fra matematisk optimum til konservativ praksis, (ii) en detaljert gjennomgang av hovedanbefalingen på produktnivå, og (iii) en sensitivitetsanalyse av de to viktigste modellparameterne.
+Kapitlet presenterer resultatene av LP-modellen fra §6 anvendt på **pilot-datasettet** fra §5.2 — åtte av leverandørens SKUer hvor data var tilgjengelig tidlig i prosjektet. Resultatene skal oppdateres på utvidet portefølje­datasett før endelig innlevering (se §5.2). Analysen er strukturert i tre deler: (i) en sammenligning av tre allokerings­scenarier som spenner fra matematisk optimum til konservativ praksis, (ii) en detaljert gjennomgang av hovedanbefalingen på produktnivå, og (iii) en sensitivitets­analyse av de to viktigste modell­parameterne.
 
-### 7.1 Scenariesammenligning
+### 7.1 Scenariesammenligning (pilot)
 
-Tre scenarier ble kjørt med samme underliggende LP, men med ulike verdier for etterspørselsantagelsen i §6.4 og minimums-sortimentet i R4. Tabell 7.1 oppsummerer forutsetninger og resultat.
+Tre scenarier ble kjørt med samme underliggende LP, men med ulike verdier for etterspørsels­antagelsen i §6.4 og minimums-sortimentet i R4. Tabell 7.1 oppsummerer forutsetninger og resultat. Alle tall gjelder *innen leverandørens pilot-portefølje* (åtte SKUer) og vil oppdateres når utvidet portefølje­datasett er tilgjengelig.
 
 **Tabell 7.1 LP-scenarier og oppnådd forventet ukesalg**
 
@@ -513,13 +525,19 @@ Dette kapitlet tolker funnene fra §7 mot det teoretiske rammeverket som introdu
 
 **B6. Ingen kryssalgseffekter eller kannibaliserings-modellering.** Modellen behandler hvert produkt uavhengig. I praksis kan reduksjon av B2 (en Coca Cola-variant) flytte salg over til B1 (en annen Coca Cola-variant) — kannibalisering som ikke er modellert. Tilsvarende kan en kraftig økning i A1 (Monster) fortrenge salg i mindre energidrikker. Kvantifisering av slike effekter krever paneldata og utgår for dette prosjektet.
 
-### 8.3 Implikasjoner for Coop Extra X
+### 8.3 Implikasjoner for leverandørens forhandlings­posisjon
 
-Tatt sammen tyder analysen på at det finnes en betydelig uutnyttet omsetningsmulighet i den valgte kategorien hos Coop Extra X. Selv med konservative antakelser og en minimums-sortimentsgaranti som beholder hele nåværende sortiment, indikerer S3-scenariet en gevinst på ca. 31 % flere enheter solgt per uke. Siden modellen opererer med *faste* totalkapasitet, kommer denne gevinsten uten investeringskostnad i utvidet hylle — kun som omfordeling innenfor eksisterende rammer.
+Sett fra leverandørens perspektiv er hovedfunnet at egen portefølje sannsynligvis ikke står optimalt allokert innenfor den hyllerammen leverandøren allerede disponerer. S3 (konservativ) indikerer minst +31 % ukentlig sell-out bare ved intern omfordeling, og hovedanbefalingen S2 gir +61 %. Dette er et tall leverandøren kan bringe med seg inn i neste kategori­besøk som dokumentert grunnlag for å endre planogrammet.
 
-**Hovedanbefalingen S2** (+61 %) inkluderer en kraftig økning for A-produktene og en tilsvarende reduksjon for overkapasiterte B- og C-produkter. For at anbefalingen skal være operasjonelt gjennomførbar, bør den fases inn gradvis og kombineres med overvåking av faktisk salg etter omleggingen. Butikken kan starte med en delvis implementering (f.eks. halve omfordelingen), måle effekten i noen uker, og deretter justere basert på observert respons. Dette gir et naturlig grunnlag for å empirisk estimere den space-elastisiteten modellen i dag må anta.
+**Hva anbefalingen gir leverandøren konkret:**
 
-**Reduksjonen av B2** er det mest politisk sensitive elementet i anbefalingen. Siden B2 er en kjente-merkevare med sterk konvensjonell plass, vil en reduksjon fra 168 til 42 facings kreve avklaring med kjedeledelse og leverandør før den kan settes i verk. Det er mulig at den kontraktuelle minsteplasseringen for B2 er høyere enn 25 %, i så fall må modellen re-kjøres med en skreddersydd $x_{B2}^{\min}$.
+- **Et kvantitativt argument i JBP.** I stedet for å si "vi bør ha mer plass til A2" basert på magefølelse, kan leverandøren presentere "modellen estimerer +X % sell-out per uke hvis A2 får 2× plass på bekostning av B2".
+- **En strukturert prioriterings­liste.** Modellen identifiserer hvilke SKUer som er over- og underallokerte, og i hvilken størrelsesorden. Dette gir category managers en konkret rekkefølge for endringer, ikke en ubestemmelig "optimaliser alt".
+- **En metode som skalerer.** Samme modell kan kjøres på flere butikker når data er tilgjengelig. Gevinsten kan sammenlignes på tvers og brukes til å velge hvor leverandøren bør fokusere.
+
+**Operasjonelle forbehold.** For at anbefalingen skal være gjennomførbar i dialog med kjeden bør den fases inn gradvis og kombineres med overvåking av sell-out etter omleggingen. Leverandøren kan foreslå en delvis implementering (f.eks. halve omfordelingen) i to–fire uker, måle effekten, og deretter justere basert på observert respons. Dette gir også et naturlig grunnlag for å empirisk estimere space-elastisiteten som modellen i dag antar lineær — en elastisitets­estimasjon som i seg selv er forhandlings­verdifull for leverandøren.
+
+**Sortiments­reduksjon er det mest politisk sensitive elementet.** Anbefalingen inkluderer betydelige reduksjoner for flere SKUer (ned mot 25 % av dagens plass). Kjeden kan ha interesse i å beholde høyere minimumsplassering av hensyn til kundetilgjengelighet, og leverandørens egne kontrakts­forpliktelser kan ha tilsvarende gulv. Når disse er kjent, skal modellen re-kjøres med skreddersydde $x_i^{\min}$-verdier per SKU.
 
 ### 8.4 Generaliserbarhet
 
@@ -533,19 +551,20 @@ Analysen peker på reell omfordelingsgevinst som er robust mot rimelige variasjo
 
 ## 9 Konklusjon
 
-Problemstillingen spurte hvordan en datadrevet tilnærming kan identifisere produkter som er underallokert i hylleplass relativt til observerte salgsdata, og hva det estimerte potensialet for forbedring ved reallokering av eksisterende hyllekapasitet er innen en avgrenset varekategori i Coop Extra X.
+Problemstillingen spurte hvordan en dagligvare­leverandør kan bruke ukentlige sell-out-data fra en kjede-butikk som beslutningsstøtte i forhandlinger om hylleplass, og hvilket salgspotensial som kan dokumenteres ved reallokering innenfor leverandørens egen portefølje hos Coop Extra X.
 
-Svaret, basert på ti uker ukentlige salgsdata for åtte SKUer i en gitt kategori, er:
+Svaret, basert på pilot-analysen av åtte SKUer i leverandørens portefølje, er:
 
-- **Underallokeringen er identifiserbar gjennom et enkelt utnyttelsesmål** (gjennomsnittlig ukesalg dividert på antall frontfacings). To produkter (A1, A2) har utnyttelsesgrad 6,6× og 9,1× og er dermed tydelig underkapasiterte; fire produkter har utnyttelse under 0,9 og er overkapasiterte. Samme mål kombinert med en ABC-klassifisering avgrenser hvilke SKUer som er de mest relevante kandidatene for reallokering oppover.
-- **Forbedringspotensialet er substansielt.** En deterministisk LP-modell som omfordeler de 486 frontfacings innen kategorien gir mellom +31 % og +63 % i forventet ukesalg, avhengig av antagelser om skjult etterspørsel og minimums-sortimentsgaranti. Hovedanbefalingen (S2 Realistisk) ligger på +61 % med intakt sortiment og et gulv på 25 % av dagens allokering for hvert produkt.
-- **Gevinsten er robust.** Sensitivitetsanalysen viser at selv ved konservative antagelser (1,25× etterspørsel i stedet for 2× for underkapasiterte produkter) er LP-salget 16 % over observert baseline. Resultatet er også nærmest flatt mot minimums-sortimentsparameteren opp til 0,40, slik at modellen gir operasjonelt spillerom uten vesentlig gevinstap.
+- **Under- og overallokerte SKUer kan identifiseres rutinemessig** gjennom et enkelt utnyttelsesmål (gjennomsnittlig ukentlig sell-out dividert på hylleallokering) kombinert med en ABC-klassifisering. I pilot­dataene peker modellen på to klart underallokerte A-klasse­produkter og fire overallokerte B/C-klasse­produkter.
+- **Reallokerings­potensialet innen leverandørens portefølje er betydelig.** En deterministisk LP-modell som omfordeler leverandørens kontraktuelle hylleramme gir mellom +31 % og +63 % i forventet ukentlig sell-out — avhengig av antagelser om skjult etterspørsel og sortiments­gulv. Hovedanbefalingen (S2 Realistisk) gir +61 % med intakt sortiment og et gulv på 25 % av dagens allokering per SKU.
+- **Gevinsten er robust.** Sensitivitets­analysen viser at selv ved konservative antagelser (1,25× skjult etterspørsel) ligger LP-salget 16 % over observert baseline. Resultatet er også nærmest flatt mot minimums-sortimentsparameteren opp til 0,40, noe som gir leverandøren operasjonelt spillerom for å forhandle om strengere sortiments­gulv uten å miste vesentlig av argumentet.
+- **Scope gir metoden naturlig skalerbarhet.** Siden modellen bare krever data leverandøren allerede disponerer — sell-out per SKU og egen hylleallokering — kan samme analyse kjøres på flere butikker, tidsperioder og porteføljer uten å forutsette kategoriovergripende informasjon.
 
-**Praktiske implikasjoner.** Siden omfordelingen skjer innenfor eksisterende hyllekapasitet kommer gevinsten uten investeringskostnad. Hovedanbefalingen forutsetter imidlertid en betydelig nedskalering av én konvensjonelt høy-allokert B-vare og bør derfor fases inn gradvis, med måling av faktisk salg etter omleggingen. Dette gir også grunnlag for å empirisk estimere den space-elastisiteten modellen i dag må anta lineær.
+**Praktiske implikasjoner.** Metoden gir leverandøren et kvantitativt argument som kan brukes direkte i JBP- og kategori­besøk. I stedet for å argumentere for "mer plass" generelt, dokumenterer leverandøren et konkret reallokerings­forslag innenfor eksisterende hylleramme. Siden forslaget ikke krever utvidet plass, senker det forhandlings­friksjonen og øker sannsynligheten for at kjeden aksepterer endringen — i det minste som en delvis utrulling med oppfølgende måling.
 
-**Forslag til videre forskning.** Tre naturlige utvidelser er identifisert: (i) *stokastisk reformulering* som eksplisitt håndterer variasjon i ukesalg og gir service-level-garantier i stedet for harde kapasitetsgrenser; (ii) *økonomisk vekting* der målfunksjonen maksimerer dekningsbidrag fremfor enheter, betinget av at marginoppgaver kan innhentes fra kjeden; (iii) *empirisk estimering av space-elastisitet* gjennom et kontrollert forsøk med variert facings-allokering over flere uker for et utvalg produkter. Replikasjon på tvers av butikker og kategorier vil også styrke grunnlaget for generalisering.
+**Forslag til videre forskning.** Tre naturlige utvidelser er identifisert: (i) *stokastisk reformulering* som eksplisitt håndterer variasjon i sell-out og gir service-level-garantier i stedet for harde kapasitets­grenser; (ii) *økonomisk vekting* der målfunksjonen maksimerer dekningsbidrag fremfor enheter, betinget av at margintall kan innhentes fra leverandørens egne systemer; (iii) *empirisk estimering av space-elastisitet* gjennom et kontrollert forsøk hos leverandørens butikker, der forslag fra modellen implementeres på noen butikker og sell-out-responsen måles mot kontrollbutikker. Replikasjon på tvers av butikker og kategorier vil også styrke grunnlaget for generalisering.
 
-Studien demonstrerer at en konseptuelt enkel LP-modell, matet med to typer data som butikkjeder allerede besitter (ukesalg og planogram), er tilstrekkelig for å identifisere kvantifiserbare omfordelingspotensialer. Modellens verdi ligger ikke i presisjonen av det estimerte prosentløftet, men i at den gjør det gjeldende planogrammet målbart mot en datadrevet referanse.
+Studien demonstrerer at en konseptuelt enkel LP-modell, matet med den datatypen en leverandør realistisk disponerer (sell-out og egen hylleallokering), er tilstrekkelig for å identifisere kvantifiserbare reallokerings­potensialer. Modellens verdi ligger ikke i presisjonen av det estimerte prosent­løftet, men i at den gjør leverandørens kontraktuelle hylle­situasjon målbar mot egen sell-out — et utgangspunkt for kategori­dialog som i dag ofte mangler tallfestet underlag.
 
 ---
 
