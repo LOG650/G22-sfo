@@ -1,0 +1,1411 @@
+{
+    "schema": {
+        "name": "pm.schedule",
+        "version": "1.0.0",
+        "standard": "PMI Practice Standard for Scheduling",
+        "description": "Fremdriftsplan for LOG650 G22-prosjektet om hylleallokering (Space Management) i dagligvarebutikk."
+    },
+    "schedule": {
+        "scheduleId": "SCH-LOG650-G22",
+        "projectId": "PRJ-LOG650-G22",
+        "wbsId": "WBS-LOG650-G22",
+        "name": "Space Management G22 - hovedplan",
+        "version": "1.0",
+        "status": "in-progress",
+        "baselineDate": "2026-03-09",
+        "approvedBy": "COURSE-LOG650",
+        "calendarId": "CAL-LOG650-G22",
+        "audit": {
+            "createdAt": "2026-03-09T12:00:00Z",
+            "createdBy": "sebastian",
+            "updatedAt": "2026-04-24T17:17:11Z",
+            "updatedBy": "team-endring (Oliver frafall 2026-04-24)"
+        },
+        "calendars": [
+            {
+                "calendarId": "CAL-LOG650-G22",
+                "name": "LOG650 G22 prosjektkalender",
+                "description": "Arbeid foregår mellom kurssamlinger og i gruppens egen arbeidstid. Møter 2x per uke (mandag og torsdag).",
+                "workingDays": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday",
+                    "friday"
+                ],
+                "hoursPerDay": null,
+                "durationUnit": "calendar-days",
+                "exceptions": []
+            }
+        ],
+        "milestones": [
+            {
+                "milestoneId": "M0",
+                "name": "Godkjent proposal",
+                "date": "2026-02-09",
+                "status": "reached",
+                "description": "Proposal ferdigstilt og godkjent. Område, problemstilling, mål, metodevalg og avgrensning definert."
+            },
+            {
+                "milestoneId": "M1",
+                "name": "Godkjent prosjektplan + Gantt",
+                "date": "2026-03-09",
+                "status": "reached",
+                "description": "Prosjektstyringsplan, WBS, Gantt-diagram, risikoanalyse, litteratursøk og rapportskjelett ferdigstilt."
+            },
+            {
+                "milestoneId": "M2",
+                "name": "Godkjent hovedutkast + peer review",
+                "date": "2026-04-27",
+                "status": "not-reached",
+                "description": "Alle rapportkapitler samlet i hovedutkast. Peer-to-peer review gjennomført."
+            },
+            {
+                "milestoneId": "M3",
+                "name": "Rapport + kode innlevert, muntlig presentasjon",
+                "date": "2026-05-31",
+                "status": "not-reached",
+                "description": "Endelig rapport, Python-kode og vedlegg innlevert. Muntlig eksamen gjennomført."
+            }
+        ],
+        "activities": [
+            {
+                "activityId": "ACT-1.1",
+                "taskId": "1.1",
+                "wbsItemId": "WBS-1.1.1",
+                "name": "Proposal: område, problemstilling, mål, metodevalg, avgrensning",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": true,
+                "predecessors": [],
+                "milestoneId": "M0",
+                "description": "Utarbeide og levere prosjektbeskrivelse (proposal).",
+                "plannedStart": "2026-02-09",
+                "plannedFinish": "2026-02-09",
+                "steps": [
+                    "Velge område og formulere problemstilling",
+                    "Definere mål, metode og avgrensninger",
+                    "Levere proposal til godkjenning"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-1.1-C01",
+                        "description": "Proposal er godkjent av emneansvarlig",
+                        "status": "passed",
+                        "result": "Godkjent 9. februar 2026.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "studentgruppe",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": "2026-02-09",
+                    "lastEvent": "Proposal godkjent."
+                }
+            },
+            {
+                "activityId": "ACT-2.1",
+                "taskId": "2.1",
+                "wbsItemId": "WBS-1.2.1",
+                "name": "Prosjektplan",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-1.1",
+                        "type": "finish-to-start",
+                        "lagDays": 15
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Utarbeide prosjektstyringsplan.",
+                "plannedStart": "2026-02-24",
+                "plannedFinish": "2026-03-09",
+                "steps": [
+                    "Skrive krav, scope, tidsplan, risiko, kommunikasjon, kvalitet",
+                    "Intern kvalitetssikring"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-2.1-C01",
+                        "description": "Prosjektplan er komplett og konsistent",
+                        "status": "passed",
+                        "result": "Prosjektplan ferdigstilt 8. mars 2026.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Alle",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": "2026-02-24",
+                    "completedAt": "2026-03-09",
+                    "lastEvent": "Prosjektplan levert."
+                }
+            },
+            {
+                "activityId": "ACT-2.2",
+                "taskId": "2.2",
+                "wbsItemId": "WBS-1.2.2",
+                "name": "WBS og Gantt (MS Project)",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.1",
+                        "type": "start-to-start",
+                        "lagDays": 7
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Opprette WBS og Gantt-diagram i MS Project med referanseplan.",
+                "plannedStart": "2026-03-03",
+                "plannedFinish": "2026-03-09",
+                "steps": [
+                    "Legge inn oppgaver, varigheter og avhengigheter",
+                    "Lagre referanseplan (baseline)"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-2.2-C01",
+                        "description": "Gantt-diagram med baseline er lagret i MS Project",
+                        "status": "passed",
+                        "result": "Gantt ferdigstilt.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": "2026-03-03",
+                    "completedAt": "2026-03-09",
+                    "lastEvent": "Gantt baseline lagret."
+                }
+            },
+            {
+                "activityId": "ACT-2.3",
+                "taskId": "2.3",
+                "wbsItemId": "WBS-1.2.3",
+                "name": "Risikoanalyse",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.1",
+                        "type": "start-to-start",
+                        "lagDays": 7
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Identifisere og vurdere risikoer med S*K-scoring.",
+                "plannedStart": "2026-03-03",
+                "plannedFinish": "2026-03-09",
+                "steps": [
+                    "Identifisere risikoer",
+                    "Vurdere sannsynlighet og konsekvens",
+                    "Definere tiltak og beredskapsplaner"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-2.3-C01",
+                        "description": "Risikoregister med 6 risikoer er utarbeidet",
+                        "status": "passed",
+                        "result": "R1-R6 dokumentert i prosjektplan.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": "2026-03-03",
+                    "completedAt": "2026-03-09",
+                    "lastEvent": "Risikoanalyse ferdig."
+                }
+            },
+            {
+                "activityId": "ACT-2.4",
+                "taskId": "2.4",
+                "wbsItemId": "WBS-1.2.4",
+                "name": "Litteratursøk — identifisere referanser",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": false,
+                "predecessors": [],
+                "milestoneId": null,
+                "description": "Gjennomføre 3 strategiske litteratursøk og identifisere 10 nøkkelreferanser.",
+                "plannedStart": "2026-02-24",
+                "plannedFinish": "2026-03-09",
+                "steps": [
+                    "Søk 1: Optimaliseringsmodeller for hylleplass",
+                    "Søk 2: Etterspørselsprognoser og out-of-stock",
+                    "Søk 3: KI/AI i retail space management",
+                    "Velge prioriterte artikler"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-2.4-C01",
+                        "description": "10 relevante referanser er identifisert",
+                        "status": "passed",
+                        "result": "10 referanser dokumentert i prosjektplan seksjon 8.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Oliver Matre Hille, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": "2026-02-24",
+                    "completedAt": "2026-03-09",
+                    "lastEvent": "Litteratursøk ferdig."
+                }
+            },
+            {
+                "activityId": "ACT-2.5",
+                "taskId": "2.5",
+                "wbsItemId": "WBS-1.2.5",
+                "name": "Rapportskjelett i Word-mal",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": false,
+                "predecessors": [],
+                "milestoneId": "M1",
+                "description": "Opprette rapportstruktur i LOG650 Word-malen.",
+                "plannedStart": "2026-03-03",
+                "plannedFinish": "2026-03-09",
+                "steps": [
+                    "Opprette kapittler i henhold til LOG650-malen",
+                    "Sette inn overskrifter og plassholderinnhold"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-2.5-C01",
+                        "description": "Rapportskjelett er opprettet i Word-mal",
+                        "status": "passed",
+                        "result": "Rapportskjelett klart.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": "2026-03-03",
+                    "completedAt": "2026-03-09",
+                    "lastEvent": "Rapportskjelett ferdig."
+                }
+            },
+            {
+                "activityId": "ACT-3.1",
+                "taskId": "3.1",
+                "wbsItemId": "WBS-1.3.1",
+                "name": "Innledning + problemstilling (1. utkast)",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Skrive første utkast av innledning og problemstilling.",
+                "plannedStart": "2026-03-09",
+                "plannedFinish": "2026-03-22",
+                "steps": [
+                    "Skrive motivasjon og bakgrunn",
+                    "Formulere presis problemstilling",
+                    "Definere avgrensninger"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.1-C01",
+                        "description": "Første utkast av innledning foreligger",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.2.1",
+                "taskId": "3.2.1",
+                "wbsItemId": "WBS-1.3.2",
+                "name": "Lese utvalgte referanser + KI-summary",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Lese prioriterte artikler og lage KI-oppsummeringer.",
+                "plannedStart": "2026-03-09",
+                "plannedFinish": "2026-03-29",
+                "steps": [
+                    "Lese Bouzembrak et al. (2025) — litteraturoversikt",
+                    "Lese Düsterhöft et al. (2021) — kjerne-OR-modell",
+                    "Lese Gholami & Bhakoo (2025) — ML stockout",
+                    "Lese Klement & Hübner (2023) — rammeverk",
+                    "Oppsummere hovedfunn"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.2.1-C01",
+                        "description": "Prioriterte artikler er lest og oppsummert",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Oliver Matre Hille, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.2.3",
+                "taskId": "3.2.3",
+                "wbsItemId": "WBS-1.3.2",
+                "name": "Skrive teorikapittel",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.2.1",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Skrive teorikapittel om space elasticity, LP-teori og etterspørselsmodellering.",
+                "plannedStart": "2026-03-23",
+                "plannedFinish": "2026-04-05",
+                "steps": [
+                    "Definere sentrale begreper",
+                    "Beskrive LP-teori og space elasticity",
+                    "Koble teori til problemstilling"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.2.3-C01",
+                        "description": "Teorikapittel er ferdig",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.3.1",
+                "taskId": "3.3.1",
+                "wbsItemId": "WBS-1.3.3",
+                "name": "Avklare datatilgang Coop Extra X",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Ta kontakt med Coop Extra X og avklare datatilgang.",
+                "plannedStart": "2026-03-09",
+                "plannedFinish": "2026-03-22",
+                "steps": [
+                    "Kontakte Coop Extra X",
+                    "Avklare dataformat og omfang",
+                    "Avtale tidsplan for dataleveranse"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.3.1-C01",
+                        "description": "Datatilgang er bekreftet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Oliver Matre Hille",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.3.2",
+                "taskId": "3.3.2",
+                "wbsItemId": "WBS-1.3.3",
+                "name": "Signere taushetserklæring",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Signere taushetserklæring med Coop Extra X.",
+                "plannedStart": "2026-03-09",
+                "plannedFinish": "2026-03-15",
+                "steps": [
+                    "Forberede taushetserklæring",
+                    "Signere med alle parter"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.3.2-C01",
+                        "description": "Taushetserklæring er signert",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Oliver Matre Hille",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.3.3",
+                "taskId": "3.3.3",
+                "wbsItemId": "WBS-1.3.3",
+                "name": "Innhente salgsdata + hylleplassdata",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.3.1",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Innhente salgsdata og hylleplassdata fra Coop Extra X.",
+                "plannedStart": "2026-03-16",
+                "plannedFinish": "2026-03-29",
+                "steps": [
+                    "Motta salgsdata (ukentlig)",
+                    "Motta hylleplassdata per produkt",
+                    "Verifisere datakomplett"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.3.3-C01",
+                        "description": "Salgsdata og hylleplassdata er mottatt",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Oliver Matre Hille",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.3.4",
+                "taskId": "3.3.4",
+                "wbsItemId": "WBS-1.3.3",
+                "name": "Datarensing og strukturering",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.3.3",
+                        "type": "start-to-start",
+                        "lagDays": 7
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Rense og strukturere data med pandas.",
+                "plannedStart": "2026-03-23",
+                "plannedFinish": "2026-04-05",
+                "steps": [
+                    "Identifisere og håndtere manglende verdier",
+                    "Strukturere data for analyse",
+                    "Verifisere datakvalitet"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.3.4-C01",
+                        "description": "Data er renset og klart for analyse",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.3.5",
+                "taskId": "3.3.5",
+                "wbsItemId": "WBS-1.3.3",
+                "name": "Skrive casebeskrivelse",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.3.3",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Skrive casebeskrivelse-kapittel (kun kontekst, ikke analyse).",
+                "plannedStart": "2026-03-30",
+                "plannedFinish": "2026-04-05",
+                "steps": [
+                    "Beskrive Coop Extra X kontekst",
+                    "Beskrive utvalgt varekategori",
+                    "Presentere rammebetingelser"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.3.5-C01",
+                        "description": "Casebeskrivelse er skrevet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.1",
+                "taskId": "3.4.1",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Beskrive metodevalg",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-2.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Beskrive metodevalg (kvantitativ, case-studie, LP).",
+                "plannedStart": "2026-03-09",
+                "plannedFinish": "2026-03-15",
+                "steps": [
+                    "Begrunne kvantitativ tilnærming",
+                    "Beskrive case-studie som forskningsdesign",
+                    "Begrunne LP som metode"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.1-C01",
+                        "description": "Metodevalg er beskrevet og begrunnet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.2",
+                "taskId": "3.4.2",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Etterspørselsanalyse (deskriptiv)",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.3.4",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Deskriptiv analyse av etterspørsel per produkt, ABC-klassifisering.",
+                "plannedStart": "2026-04-06",
+                "plannedFinish": "2026-04-12",
+                "steps": [
+                    "Analysere salgsmønstre per produkt",
+                    "Gjennomføre ABC-klassifisering",
+                    "Identifisere mismatch mellom etterspørsel og hyllekapasitet"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.2-C01",
+                        "description": "Deskriptiv analyse er gjennomført",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.3",
+                "taskId": "3.4.3",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Formulere optimaliseringsmodell",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.3.4",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Formulere LP-modell: variabler, parametere, målfunksjon, restriksjoner.",
+                "plannedStart": "2026-04-06",
+                "plannedFinish": "2026-04-12",
+                "steps": [
+                    "Definere beslutningsvariabler x_i",
+                    "Formulere målfunksjon (maks omsetning)",
+                    "Definere restriksjoner (total kapasitet, min/maks per produkt)"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.3-C01",
+                        "description": "LP-modell er formulert matematisk",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.4",
+                "taskId": "3.4.4",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Implementere modell i Python",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.4.3",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Implementere LP-modell i Python med PuLP.",
+                "plannedStart": "2026-04-06",
+                "plannedFinish": "2026-04-19",
+                "steps": [
+                    "Sette opp PuLP-modell",
+                    "Implementere målfunksjon og restriksjoner",
+                    "Teste med dummydata",
+                    "Kjøre med reelle data"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.4-C01",
+                        "description": "Python-kode kjører og gir løsning",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.5",
+                "taskId": "3.4.5",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Kjøre modell og generere resultater",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.4.4",
+                        "type": "start-to-start",
+                        "lagDays": 7
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Kjøre optimalisering og generere resultater.",
+                "plannedStart": "2026-04-13",
+                "plannedFinish": "2026-04-19",
+                "steps": [
+                    "Kjøre LP-modell",
+                    "Dokumentere optimal løsning",
+                    "Generere resultattabeller"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.5-C01",
+                        "description": "Modellresultater er generert",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.4.6",
+                "taskId": "3.4.6",
+                "wbsItemId": "WBS-1.3.4",
+                "name": "Skrive metode-/modelleringskapittel",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.4.3",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Skrive metode- og modelleringskapittel (separert fra resultater).",
+                "plannedStart": "2026-04-13",
+                "plannedFinish": "2026-04-19",
+                "steps": [
+                    "Skrive metodebeskrivelse",
+                    "Skrive modelleringskapittel med symboltabell"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.4.6-C01",
+                        "description": "Metode- og modelleringskapittel er skrevet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.5.1",
+                "taskId": "3.5.1",
+                "wbsItemId": "WBS-1.3.5",
+                "name": "Presentere resultater (tabeller/figurer)",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.4.5",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Presentere resultater objektivt med tabeller og figurer.",
+                "plannedStart": "2026-04-14",
+                "plannedFinish": "2026-04-20",
+                "steps": [
+                    "Lage resultattabeller",
+                    "Lage figurer med matplotlib",
+                    "Skrive forklarende tekst til figurer"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.5.1-C01",
+                        "description": "Resultater er presentert med tabeller og figurer",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.5.2",
+                "taskId": "3.5.2",
+                "wbsItemId": "WBS-1.3.5",
+                "name": "Sensitivitetsanalyse",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.4.5",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Gjennomføre sensitivitetsanalyse for robusthet mot parameterendringer.",
+                "plannedStart": "2026-04-14",
+                "plannedFinish": "2026-04-20",
+                "steps": [
+                    "Variere nøkkelparametere",
+                    "Dokumentere robusthet",
+                    "Sammenligne nåværende vs. foreslått allokering"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.5.2-C01",
+                        "description": "Sensitivitetsanalyse er gjennomført og dokumentert",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.5.4",
+                "taskId": "3.5.4",
+                "wbsItemId": "WBS-1.3.5",
+                "name": "Skrive resultatkapittel",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.5.1",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Skrive resultatkapittel (ingen tolkning — hører til diskusjon).",
+                "plannedStart": "2026-04-14",
+                "plannedFinish": "2026-04-20",
+                "steps": [
+                    "Presentere resultater objektivt",
+                    "Skrive forklarende tekst",
+                    "Koble resultater til problemstilling"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.5.4-C01",
+                        "description": "Resultatkapittel er skrevet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.6",
+                "taskId": "3.6",
+                "wbsItemId": "WBS-1.3.6",
+                "name": "Skrive diskusjonskapittel",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.5.4",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Tolke funn i lys av teori, vurdere implikasjoner, diskutere styrker/svakheter.",
+                "plannedStart": "2026-04-20",
+                "plannedFinish": "2026-04-26",
+                "steps": [
+                    "Tolke funn i lys av teori og forskning",
+                    "Vurdere praktiske implikasjoner for Coop Extra X",
+                    "Diskutere styrker, svakheter og generaliserbarhet"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.6-C01",
+                        "description": "Diskusjonskapittel er skrevet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.7",
+                "taskId": "3.7",
+                "wbsItemId": "WBS-1.3.7",
+                "name": "Samle hovedutkast",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.6",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": "M2",
+                "description": "Samle alle kapitler til et komplett hovedutkast.",
+                "plannedStart": "2026-04-21",
+                "plannedFinish": "2026-04-24",
+                "steps": [
+                    "Samle kapitler i Word-malen",
+                    "Sjekke konsistens og referanser",
+                    "Klargjøre for peer review"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.7-C01",
+                        "description": "Komplett hovedutkast foreligger",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-3.8",
+                "taskId": "3.8",
+                "wbsItemId": "WBS-1.3.7",
+                "name": "Peer-to-peer review",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.7",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Gjennomføre peer-to-peer review med annen gruppe.",
+                "plannedStart": "2026-04-27",
+                "plannedFinish": "2026-04-29",
+                "steps": [
+                    "Sende utkast til reviewgruppe",
+                    "Motta og gi tilbakemeldinger",
+                    "Dokumentere funn"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.8-C01",
+                        "description": "Peer review er gjennomført",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.1",
+                "taskId": "4.1",
+                "wbsItemId": "WBS-1.4.1",
+                "name": "Skrive konklusjon",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.8",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Besvar problemstillingen eksplisitt. Kort, presis, ingen nye funn.",
+                "plannedStart": "2026-04-28",
+                "plannedFinish": "2026-05-04",
+                "steps": [
+                    "Besvar problemstillingen direkte",
+                    "Oppsummere hovedfunn",
+                    "Foreslå videre forskning"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.1-C01",
+                        "description": "Konklusjon er skrevet",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.2",
+                "taskId": "4.2",
+                "wbsItemId": "WBS-1.4.1",
+                "name": "Ferdigstille innledning",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.8",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Ferdigstille innledning (skrives til slutt).",
+                "plannedStart": "2026-04-28",
+                "plannedFinish": "2026-05-04",
+                "steps": [
+                    "Revidere innledning basert på endelig innhold",
+                    "Sikre konsistens med konklusjon"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.2-C01",
+                        "description": "Innledning er ferdigstilt",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.3",
+                "taskId": "4.3",
+                "wbsItemId": "WBS-1.4.2",
+                "name": "Kvalitetssikring, korrektur, referanser",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-4.1",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    },
+                    {
+                        "activityId": "ACT-4.2",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Grovredigering, språk, finjustering, korrektur, APA 7 referanseliste, figursjekk.",
+                "plannedStart": "2026-05-05",
+                "plannedFinish": "2026-05-18",
+                "steps": [
+                    "Grovredigering: struktur og argumentasjon",
+                    "Språkforbedring: klarhet og faglig presisjon",
+                    "Finjustering: tabeller, figurer, begreper",
+                    "Korrektur og referansesjekk (APA 7)"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.3-C01",
+                        "description": "Rapport er kvalitetssikret",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.4",
+                "taskId": "4.4",
+                "wbsItemId": "WBS-1.4.2",
+                "name": "Ferdigstille Python-kode + dokumentasjon",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.8",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Rydde i kode, legge til kommentarer, klargjøre som vedlegg.",
+                "plannedStart": "2026-05-05",
+                "plannedFinish": "2026-05-11",
+                "steps": [
+                    "Rydde og kommentere Python-kode",
+                    "Skrive README for kode-vedlegg",
+                    "Verifisere at kode kan kjøres på nytt"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.4-C01",
+                        "description": "Python-kode er dokumentert og reproduserbar",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.5",
+                "taskId": "4.5",
+                "wbsItemId": "WBS-1.4.3",
+                "name": "Forberede muntlig presentasjon",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-4.3",
+                        "type": "start-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Lage presentasjonsmateriell og øve.",
+                "plannedStart": "2026-05-12",
+                "plannedFinish": "2026-05-25",
+                "steps": [
+                    "Lage presentasjon",
+                    "Fordele presentasjonsansvar",
+                    "Øve på presentasjonen"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.5-C01",
+                        "description": "Presentasjon er klar",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            },
+            {
+                "activityId": "ACT-4.6",
+                "taskId": "4.6",
+                "wbsItemId": "WBS-1.4.3",
+                "name": "Muntlig eksamen",
+                "status": "not-started",
+                "percentComplete": 0,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-4.5",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": "M3",
+                "description": "Gjennomføre muntlig presentasjon og eksamen.",
+                "plannedStart": "2026-05-25",
+                "plannedFinish": "2026-05-31",
+                "steps": [
+                    "Gjennomføre presentasjon",
+                    "Svare på spørsmål"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-4.6-C01",
+                        "description": "Muntlig eksamen er gjennomført",
+                        "status": "not-passed",
+                        "result": "",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
+                    "permissionMode": "samarbeid",
+                    "sessionId": null,
+                    "startedAt": null,
+                    "completedAt": null,
+                    "lastEvent": null
+                }
+            }
+        ],
+        "taskMigration": {
+            "migratedAt": "2026-03-14T12:00:00Z",
+            "migratedFrom": "prosjektplan.md seksjon 3.1",
+            "totalTasks": 28,
+            "mergedActivities": 28,
+            "missingActivities": 0,
+            "note": "Planen er generert fra prosjektplan tabell 3.1 for G22 Space Management-prosjektet."
+        }
+    }
+}
