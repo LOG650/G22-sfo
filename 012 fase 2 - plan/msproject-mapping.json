@@ -4,7 +4,7 @@
         "version": "1.0.0",
         "description": "Stabil mapping fra JSON-ID-er til MS Project UIDs. Oppdateres av generate_msproject_from_json.py."
     },
-    "lastSync": "2026-04-23T21:48:07Z",
+    "lastSync": "2026-04-24T19:17:56Z",
     "nextUid": 57,
     "stats": {
         "total": 56,
@@ -73,41 +73,6 @@
     "orphans": [],
     "history": [
         {
-            "syncedAt": "2026-04-22T19:11:31Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-22T22:26:29Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-22T22:38:56Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-22T22:51:01Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-22T22:51:16Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
             "syncedAt": "2026-04-22T22:55:49Z",
             "reused": 56,
             "new": 0,
@@ -137,6 +102,41 @@
         },
         {
             "syncedAt": "2026-04-23T21:48:07Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T17:22:19Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T17:33:24Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T19:17:22Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T19:17:32Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-24T19:17:56Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,

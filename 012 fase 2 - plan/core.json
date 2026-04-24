@@ -1,0 +1,313 @@
+{
+    "schema": {
+        "name": "pm.core.project",
+        "version": "1.0.0",
+        "standard": "ISO 21502",
+        "description": "Kjerneinformasjon for LOG650-prosjektet om datadrevet hylleallokering (Space Management) i dagligvarebutikk."
+    },
+    "project": {
+        "projectId": "PRJ-LOG650-G22",
+        "code": "LOG650-SFO",
+        "name": "Datadrevet vurdering av hyllekapasitet vs. etterspørsel (Space Management) i dagligvarebutikk",
+        "description": "Studentprosjekt i LOG650 der gruppen skal utvikle en LP-modell for hylleallokering i én varekategori hos Coop Extra X, basert på historiske salgsdata og hylleplassdata.",
+        "type": "forskningsprosjekt",
+        "deliveryApproach": "gruppebasert",
+        "lifecycleModel": "fasebasert",
+        "status": "in-progress",
+        "health": "green",
+        "priority": "high",
+        "governance": {
+            "sponsor": {
+                "partyId": "COURSE-LOG650",
+                "name": "Emneansvarlig LOG650"
+            },
+            "projectManager": {
+                "partyId": "TEAM-G22-SVT",
+                "name": "Sebastian Vambheim Thunestvedt"
+            },
+            "technicalLead": {
+                "partyId": "TEAM-G22-SVT",
+                "name": "Sebastian Vambheim Thunestvedt"
+            },
+            "ownerOrganization": "Høgskolen i Molde",
+            "executingOrganization": "Studentgruppe G22"
+        },
+        "team": [
+            {
+                "partyId": "TEAM-G22-SVT",
+                "name": "Sebastian Vambheim Thunestvedt",
+                "role": "Prosjektleder / utvikler",
+                "responsibility": "Prosjektstyring, Python-implementering, MS Project"
+            },
+            {
+                "partyId": "TEAM-G22-FBR",
+                "name": "Frida Berge-Robertson",
+                "role": "Analytiker / forfatter",
+                "responsibility": "Dataanalyse, litteratursøk, teorikapittel, rapportskriving"
+            },
+            {
+                "partyId": "TEAM-G22-OMH",
+                "name": "Oliver Matre Hille",
+                "role": "GitHub / analytiker (frafall)",
+                "responsibility": "Litteratursøk, casebeskrivelse, validering",
+                "leftAt": "2026-04-24",
+                "activeThrough": "2026-03-31",
+                "note": "Trakk seg fra prosjektet 2026-04-24. Beholdes i team-listen for at MS Project skal vise historisk tildeling frem til 2026-03-31. Post-31.03-aktiviteter er omfordelt til Sebastian og Frida."
+            }
+        ],
+        "objectives": [
+            {
+                "objectiveId": "OBJ-001",
+                "name": "Utvikle optimaliseringsmodell for hylleallokering",
+                "description": "Levere en LP-modell som foreslår reallokering av hylleplass for å maksimere forventet omsetning innen én varekategori hos Coop Extra X.",
+                "successCriteria": [
+                    "Historiske salgsdata og hylleplassdata er analysert og dokumentert",
+                    "LP-modell er formulert med beslutningsvariabler, målfunksjon og restriksjoner",
+                    "Modellen foreslår en reallokering som kvantifiserer forbedring vs. nåværende allokering"
+                ]
+            },
+            {
+                "objectiveId": "OBJ-002",
+                "name": "Dokumentere metode og begrensninger",
+                "description": "Prosjektet skal vise en sporbar sammenheng mellom problemstilling, data, metodevalg, resultater og anbefalinger.",
+                "successCriteria": [
+                    "Krav, WBS, fremdriftsplan og risiko er dokumentert i fase 2",
+                    "Metodevalg er begrunnet i rapport og presentasjon",
+                    "Antagelser og begrensninger er eksplisitt beskrevet"
+                ]
+            },
+            {
+                "objectiveId": "OBJ-003",
+                "name": "Bestå emnets leveransekrav",
+                "description": "Levere proposal, plan, utkast, peer review, muntlig presentasjon og sluttleveranse i tråd med kursopplegget.",
+                "successCriteria": [
+                    "Godkjent proposal innen initieringsfasen",
+                    "Godkjent plan innen planleggingsfasen",
+                    "Godkjent utkast, peer review og sluttleveranse i fase 3 og 4"
+                ]
+            }
+        ],
+        "scope": {
+            "inScope": [
+                "Kartlegge nåværende hyllekapasitet vs. faktisk etterspørsel for utvalgte produkter",
+                "Formulere og løse LP-modell for reallokering av hylleplass (maks omsetning)",
+                "Analyse av én varekategori i én butikk (Coop Extra X), maksimalt 10 SKU",
+                "Validering gjennom sensitivitetsanalyse",
+                "Dokumentere funn i vitenskapelig rapport iht. LOG650-malen",
+                "Prosjektdokumenter, presentasjon, rapport og Python-kode"
+            ],
+            "outOfScope": [
+                "Flere butikker eller varekategorier",
+                "Kampanjer, prisendringer og sesongeffekter modelleres ikke eksplisitt",
+                "Ingen fysisk implementering — prosjektet leverer analyse og forslag til reallokering",
+                "Implementering i operativt IT-system"
+            ],
+            "keyDeliverables": [
+                "Proposal",
+                "Prosjektstyringsplan med krav, WBS, fremdrift og risiko",
+                "LP-modell implementert i Python (PuLP)",
+                "Forskningsrapport med analyse, resultater og diskusjon",
+                "Peer review",
+                "Muntlig presentasjon"
+            ]
+        },
+        "dates": {
+            "plannedStart": "2026-02-09",
+            "plannedFinish": "2026-05-31",
+            "actualStart": "2026-02-09",
+            "actualFinish": null,
+            "baselineDate": "2026-03-09",
+            "statusDate": "2026-03-14"
+        },
+        "phaseModel": [
+            {
+                "phaseId": "PH-001",
+                "name": "Fase 1 - initiering",
+                "sequence": 1
+            },
+            {
+                "phaseId": "PH-002",
+                "name": "Fase 2 - planlegging",
+                "sequence": 2
+            },
+            {
+                "phaseId": "PH-003",
+                "name": "Fase 3 - gjennomføring",
+                "sequence": 3
+            },
+            {
+                "phaseId": "PH-004",
+                "name": "Fase 4 - avslutning",
+                "sequence": 4
+            }
+        ],
+        "currentPhaseId": "PH-003",
+        "constraints": {
+            "time": "Prosjektet følger kursløpet med milepæler M0 (9. feb), M1 (9. mar), M2 (27. apr) og M3 (31. mai). Planfasen godkjent senest 9. mars 2026.",
+            "cost": {
+                "currency": "NOK",
+                "budgetLimit": 0,
+                "note": "Ingen kontantbudsjett. Kostnaden består hovedsakelig av studentenes tidsbruk (~570 timer totalt)."
+            },
+            "quality": [
+                "Leveranser skal være faglig konsistente og skrevet på norsk",
+                "Problemstillingen skal være kvantitativ",
+                "Metode, data og resultater skal være sporbare mellom plan, analyse og rapport",
+                "Data fra Coop Extra X skal anonymiseres i rapport og presentasjoner"
+            ],
+            "resources": [
+                "Studentgruppe G22 (3 personer)",
+                "Python (pandas, PuLP, matplotlib, numpy)",
+                "MS Project for Gantt-diagram og fremdriftsoppfølging",
+                "GitHub for versjonskontroll",
+                "Microsoft Teams for kommunikasjon"
+            ]
+        },
+        "assumptions": [
+            "Historiske salgsdata er representative for fremtidig etterspørsel i analyseperioden",
+            "Hylleplassdata reflekterer faktisk fysisk plassering i butikken",
+            "Sammenhengen mellom hylleplass og salg kan modelleres kvantitativt (space elasticity)",
+            "Coop Extra X gir tilgang til nødvendige data i tide"
+        ],
+        "dependencies": [
+            {
+                "dependencyId": "DEP-001",
+                "type": "external",
+                "description": "Godkjent proposal er en forutsetning for planfasen.",
+                "owner": "Emneansvarlig LOG650"
+            },
+            {
+                "dependencyId": "DEP-002",
+                "type": "external",
+                "description": "Godkjent prosjektplan er en forutsetning for gjennomføringsfasen.",
+                "owner": "Emneansvarlig LOG650"
+            },
+            {
+                "dependencyId": "DEP-003",
+                "type": "external",
+                "description": "Datatilgang fra Coop Extra X med signert taushetserklæring.",
+                "owner": "Oliver Matre Hille"
+            },
+            {
+                "dependencyId": "DEP-004",
+                "type": "external",
+                "description": "Peer-to-peer review må gjennomføres i fase 3.",
+                "owner": "Studentgruppe G22"
+            }
+        ],
+        "stakeholders": [
+            {
+                "stakeholderId": "STK-001",
+                "name": "Prosjektgruppe G22",
+                "role": "utførende team",
+                "influence": "high",
+                "interest": "high"
+            },
+            {
+                "stakeholderId": "STK-002",
+                "name": "Emneansvarlig LOG650 (Rekdal/Pettersen)",
+                "role": "sponsor og godkjenner",
+                "influence": "high",
+                "interest": "high"
+            },
+            {
+                "stakeholderId": "STK-003",
+                "name": "Faglærer og medstudenter",
+                "role": "faglige interessenter og peer reviewers",
+                "influence": "medium",
+                "interest": "high"
+            },
+            {
+                "stakeholderId": "STK-004",
+                "name": "Coop Extra X",
+                "role": "dataleverandør og casebedrift",
+                "influence": "medium",
+                "interest": "medium"
+            },
+            {
+                "stakeholderId": "STK-005",
+                "name": "Koordinator (Erik Langelo)",
+                "role": "administrativ støtte",
+                "influence": "low",
+                "interest": "low"
+            }
+        ],
+        "baselines": {
+            "scopeBaselineId": "BL-SCP-LOG650-G22",
+            "scheduleBaselineId": "BL-SCH-LOG650-G22",
+            "costBaselineId": "BL-CST-LOG650-G22"
+        },
+        "statusSummary": {
+            "overallPercentComplete": 30,
+            "summary": "Fase 1 (initiering) og Fase 2 (planlegging) er ferdigstilt. M0 og M1 er nådd. Prosjektet gikk inn i Fase 3 (gjennomføring) per 9. mars 2026. Neste fokus er datatilgang, teori og rapportskriving.",
+            "trafficLights": {
+                "scope": "green",
+                "schedule": "green",
+                "cost": "green",
+                "risk": "amber"
+            },
+            "topIssues": [
+                "Datatilgang fra Coop Extra X er ikke avklart ennå (R1 — høy risiko)",
+                "Taushetserklæring må signeres tidlig i fase 3",
+                "Parallelt arbeid med teori og litteratur som buffer mot dataforsinkelse"
+            ],
+            "nextMilestones": [
+                {
+                    "name": "M2: Godkjent hovedutkast + peer review",
+                    "date": "2026-04-27"
+                },
+                {
+                    "name": "M3: Rapport + kode innlevert, presentasjon",
+                    "date": "2026-05-31"
+                }
+            ]
+        },
+        "references": {
+            "requirementsSetId": "REQSET-LOG650-G22",
+            "wbsId": "WBS-LOG650-G22",
+            "scheduleId": "SCH-LOG650-G22",
+            "riskRegisterId": "RSK-LOG650-G22",
+            "changeLogId": null,
+            "tasksFile": null,
+            "prdFile": "prosjektplan.md"
+        },
+        "execution": {
+            "description": "Arbeidet gjennomføres som et studentprosjekt med dokumentleveranser, analysekode og faglige gjennomganger per fase.",
+            "agentRunner": "studentgruppe",
+            "permissionMode": "samarbeid",
+            "completionSignal": "Godkjent leveranse per fase",
+            "stack": {
+                "startFullStack": null,
+                "startFrontend": null,
+                "startBackend": null,
+                "frontendUrl": null,
+                "backendUrl": null,
+                "note": "Prosjektet er et analyseprosjekt. Python-kode kjøres lokalt."
+            },
+            "checks": {
+                "analysis": [
+                    "Verifiser at salgsdata og hylleplassdata er komplette og strukturert",
+                    "Verifiser at LP-modell er korrekt formulert med målfunksjon og restriksjoner",
+                    "Verifiser at sensitivitetsanalyse er gjennomført",
+                    "Verifiser at tekst, figurer og tabeller er konsistente på tvers av leveranser"
+                ]
+            },
+            "progressLog": {
+                "file": "prosjektplan.md",
+                "instruction": "Fremdrift oppsummeres i prosjektplan, rapportutkast og tilhørende statusmøter."
+            },
+            "rules": [
+                "Alle sentrale leveranser skal skrives på norsk",
+                "Planlegging skal være forankret i kursfaser og godkjenningspunkter",
+                "Metodevalg og analyser skal kunne spores tilbake til problemstillingen i proposal",
+                "Data fra Coop Extra X skal anonymiseres (K9)"
+            ]
+        },
+        "audit": {
+            "createdAt": "2026-03-09T12:00:00Z",
+            "createdBy": "sebastian",
+            "updatedAt": "2026-03-14T12:00:00Z",
+            "updatedBy": "sebastian"
+        }
+    }
+}
