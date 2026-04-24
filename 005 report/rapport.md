@@ -262,6 +262,92 @@ Modellen består av $\lvert P \rvert = 8$ heltalls-beslutningsvariabler, $\lvert
 
 ## 7 Analyse og resultater
 
+Kapitlet presenterer resultatene av LP-modellen fra §6 anvendt på det rensede datasettet fra §5.2. Analysen er strukturert i tre deler: (i) en sammenligning av tre allokeringsscenarier som spenner fra matematisk optimum til konservativ praksis, (ii) en detaljert gjennomgang av hovedanbefalingen på produktnivå, og (iii) en sensitivitetsanalyse av de to viktigste modellparameterne.
+
+### 7.1 Scenariesammenligning
+
+Tre scenarier ble kjørt med samme underliggende LP, men med ulike verdier for etterspørselsantagelsen i §6.4 og minimums-sortimentet i R4. Tabell 7.1 oppsummerer forutsetninger og resultat.
+
+**Tabell 7.1 LP-scenarier og oppnådd forventet ukesalg**
+
+| Scenario | $x_i^{\min}$ | $d_i$ for underkapasiterte | LP-salg | Gevinst | Gevinst % |
+|---|---|---|---:|---:|---:|
+| S1 Baseline | 1 facing | $2\bar s_i$ | 1 541,0 | +595,0 | +62,9 % |
+| **S2 Realistisk** | **25 % av $c_i$** | **$2\bar s_i$** | **1 524,1** | **+578,1** | **+61,1 %** |
+| S3 Konservativ | 50 % av $c_i$ | $1,5\bar s_i$ | 1 242,9 | +296,8 | +31,4 % |
+
+Baseline-verdien er observert samlet ukesalg i datasettet, 946,0 enheter/uke. Figur 7.1 (`006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/lp_scenario_compare.png`) viser allokeringen per produkt på tvers av de tre scenariene sammen med nåværende allokering.
+
+Tre observasjoner er sentrale:
+
+1. **S1 er kommersielt uspiselig.** Uten en sortimentsgaranti reduseres fire produkter — én B-klasse og tre C-klasse — til ett enkelt frontfacing. Dette er den formelle løsningen på det oppstilte optimeringsproblemet, men bryter med antagelsen om at kjeden leverer et fullt sortiment.
+2. **S2 fanger 97 % av det teoretiske potensialet** (1 524 av 1 541) mens alle åtte SKUer beholder et operasjonelt forsvarlig antall facings (≥ 25 % av dagens). Forskjellen mellom S1 og S2 er bare 17 enheter/uke, hvilket indikerer at den teoretiske gevinsten i all hovedsak skapes av reallokering *til* A-klasse, ikke *fra* C-klasse.
+3. **S3 gir 31 % gevinst med halv-så-aggressiv omlegging.** Den er egnet som et mellomsteg i en inkrementell utrulling og inngår som nedre anslag i §8.
+
+### 7.2 S2 Realistisk — hovedanbefaling
+
+Hovedanbefalingen omfordeler de 486 frontfacings slik det fremgår av Tabell 7.2. Per-produkt-allokeringen er også vist i Figur 7.2 (`lp_allokering_S2_realistisk.png`), med tilhørende forventet salg i Figur 7.3 (`lp_salg_S2_realistisk.png`).
+
+**Tabell 7.2 S2 Realistisk — allokering per produkt**
+
+| Produkt | Facings nå | Min | Ny | Δ | Salg nå | Salg ny | Δ | Gevinst % |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| A1 | 63 | 15 | 126 | +63 | 417,0 | 834,0 | +417,0 | +100,0 % |
+| A2 | 21 | 5 | 42 | +21 | 191,0 | 382,0 | +191,0 | +100,0 % |
+| B1 | 144 | 36 | 254 | +110 | 148,0 | 261,1 | +113,1 | +76,4 % |
+| B2 | 168 | 42 | 42 | −126 | 123,7 | 30,9 | −92,8 | −75,0 % |
+| C1 | 48 | 12 | 12 | −36 | 28,9 | 7,2 | −21,7 | −75,1 % |
+| C2 | 18 | 4 | 4 | −14 | 14,9 | 3,3 | −11,6 | −77,9 % |
+| C3 | 12 | 3 | 3 | −9 | 12,1 | 3,0 | −9,1 | −75,2 % |
+| C4 | 12 | 3 | 3 | −9 | 10,4 | 2,6 | −7,8 | −75,0 % |
+
+Omfordelingen skjer langs to akser:
+
+- **A-klasse dobler plassen.** Begge A-produktene går opp til et nivå der frontfacings-kapasiteten akkurat matcher den antatte etterspørselen (126 × 6,62 ≈ 834 og 42 × 9,10 ≈ 382). De har dermed ikke lenger hylle som bindende restriksjon.
+- **B1 vokser med 77 % (+110 facings)**, mens B2 reduseres med 75 % (−126 facings). B1 er i dag marginalt underkapasitert (utnyttelse 1,03), mens B2 er tydelig overkapasitert (utnyttelse 0,74). Det rimer godt at modellen flytter plass fra det ene til det andre innenfor samme undergruppe.
+- **C-klasse gir fra seg det den har over 25 %-gulvet.** Alle fire C-produkter reduseres til minimumsnivået. C-produktene står samlet for under 7 % av totalsalget, og deres marginale produktivitet per facing er lav nok til at modellen ikke velger dem over A/B-alternativene.
+
+Det må bemerkes at B2-reduksjonen, selv om den i S2 holdes på 42 facings, representerer en betydelig nedkorting av en volumvare. I praksis ville denne endringen krevd egen dialog med leverandør og kjede — punktet diskuteres i §8.
+
+### 7.3 Sensitivitetsanalyse
+
+LP-resultatet hviler på to antagelser som er vanskelige å verifisere direkte: hvor mye høyere den sanne etterspørselen er enn observert salg for produkter som går tomme (overserve_factor), og hvor streng minimums-sortimentet binder. Tabell 7.3 og Figur 7.4 viser hvordan total forventet ukesalg endrer seg når disse to parameterne varieres rundt S2-verdiene.
+
+**Tabell 7.3 Sensitivitet på etterspørselsantakelse (x_min_fraction = 0,25)**
+
+| overserve_factor | LP-salg | Gevinst | Gevinst % |
+|---:|---:|---:|---:|
+| 1,25 | 1 098,0 | +152,0 | +16,1 % |
+| 1,50 | 1 245,8 | +299,8 | +31,7 % |
+| 1,75 | 1 391,7 | +445,7 | +47,1 % |
+| **2,00** | **1 524,1** | **+578,1** | **+61,1 %** |
+| 2,50 | 1 783,9 | +837,9 | +88,6 % |
+| 3,00 | 2 045,8 | +1 099,8 | +116,3 % |
+
+**Tabell 7.4 Sensitivitet på minimums-allokering (overserve_factor = 2,0)**
+
+| x_min_fraction | LP-salg | Gevinst | Gevinst % |
+|---:|---:|---:|---:|
+| 0,00 | 1 541,0 | +595,0 | +62,9 % |
+| 0,10 | 1 536,0 | +590,0 | +62,4 % |
+| **0,25** | **1 524,1** | **+578,1** | **+61,1 %** |
+| 0,40 | 1 513,1 | +567,1 | +59,9 % |
+| 0,50 | 1 505,3 | +559,3 | +59,1 % |
+| 0,60 | 1 498,5 | +552,5 | +58,4 % |
+| 0,80 | 1 477,6 | +531,6 | +56,2 % |
+
+Resultatene gir to tydelige innsikter:
+
+1. **Gevinsten er monotont økende i overserve_factor** (Figur 7.4a, `sensitivitet_overserve.png`), fordi høyere antatt etterspørsel flytter taket $d_i$ oppover for A-produktene. Selv ved konservativ antagelse (1,25×) ligger LP-salget 16 % over observert baseline. Dette betyr at selv om den sanne etterspørselen er betydelig lavere enn antakelsen i hovedscenariet, kvalifiserer reallokering fortsatt som en forbedring.
+2. **Gevinsten er nærmest flat i x_min_fraction** opp til omtrent 0,40, og faller deretter gradvis (Figur 7.4b, `sensitivitet_xmin.png`). Praktisk betyr dette at kjeden har betydelig operasjonelt spillerom: de kan binde minimums-sortimentet strammere enn S2 uten å miste vesentlig av gevinsten, så lenge x_min_fraction ≤ ≈ 0,40.
+
+### 7.4 Sentrale funn
+
+- Den observerte mismatchen mellom kapasitet og etterspørsel (§5.2, Figur 5.2.2) er stor nok til at en LP-drevet reallokering gir betydelig forbedring selv under konservative forutsetninger.
+- Gevinsten er i all hovedsak drevet av **mer plass til A-klassen**, ikke av å **fjerne C-klassen**. Dette rimer med space-elasticity-teorien om at høymarginale produkter har høyest marginalavkastning på ytterligere plass inntil etterspørselen er mettet.
+- Spredningen mellom S1, S2 og S3 (31–63 % gevinst) angir båndet av rimelige estimater. Hovedanbefalingen er **S2**: +61 % forventet ukesalg med intakt sortiment og operasjonelt akseptable minimumsnivåer.
+- Sensitivitetsanalysen viser at resultatet er robust mot den usikre etterspørselsantakelsen — selv 1,25× multiplier gir +16 %.
+
 ---
 
 ## 8 Diskusjon
