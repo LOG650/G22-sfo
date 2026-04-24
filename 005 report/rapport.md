@@ -1,10 +1,12 @@
 # Datadrevet vurdering av hyllekapasitet vs. etterspørsel (Space Management) i dagligvarebutikk
 
-**Forfatter(e):** Frida Berge-Robertson, Oliver Matre Hille, Sebastian Vambheim Thunestvedt
+**Forfatter(e):** Frida Berge-Robertson, Sebastian Vambheim Thunestvedt
 
-**Totalt antall sider inkludert forsiden:**
+*Oliver Matre Hille var opprinnelig medlem av prosjektgruppen, men trakk seg fra prosjektet 2026-04-24. Han står ikke oppført som forfatter av denne rapporten.*
 
-**Molde, Innleveringsdato:**
+**Totalt antall sider inkludert forsiden:** [TBD — fylles ut før innlevering]
+
+**Molde, Innleveringsdato:** 2026-05-31
 
 ---
 
@@ -18,31 +20,31 @@ Den enkelte student er selv ansvarlig for å sette seg inn i hva som er lovlige 
 
 Forskningsprosjekt som innebærer behandling av personopplysninger iht. Personopplysningsloven skal meldes til Norsk senter for forskningsdata, NSD, for vurdering.
 
-Har oppgaven vært vurdert av NSD? ja / nei
+Har oppgaven vært vurdert av NSD? **nei**
 
 - Hvis ja:
 
-Referansenummer:
+Referansenummer: —
 
 - Hvis nei:
 
-Jeg/vi erklærer at oppgaven ikke omfattes av Personopplysningsloven:
+Jeg/vi erklærer at oppgaven ikke omfattes av Personopplysningsloven: **ja**. Analysen behandler ikke personopplysninger. Datagrunnlaget er aggregerte salgs- og kapasitetsdata per SKU på ukentlig nivå og inneholder ingen informasjon om kundeidentitet, transaksjonsdata på kundenivå eller andre elementer som omfattes av loven.
 
 #### Helseforskningsloven
 
 Dersom prosjektet faller inn under Helseforskningsloven, skal det også søkes om forhåndsgodkjenning fra Regionale komiteer for medisinsk og helsefaglig forskningsetikk, REK, i din region.
 
-Har oppgaven vært til behandling hos REK? ja / nei
+Har oppgaven vært til behandling hos REK? **nei**. Prosjektet omhandler hylleallokering i dagligvarehandelen og omfattes ikke av Helseforskningsloven.
 
 - Hvis ja:
 
-Referansenummer:
+Referansenummer: —
 
 ### Publiseringsavtale
 
 **Studiepoeng:** 15
 
-**Veileder:**
+**Veileder:** [TBD — bekreftes med emneansvarlige Per Kristian Rekdal / Bård-Inge Pettersen]
 
 **Fullmakt til elektronisk publisering av oppgaven**
 
@@ -52,17 +54,17 @@ Alle oppgaver som fyller kriteriene vil bli registrert og publisert i Brage HiM 
 
 Oppgaver som er unntatt offentlighet eller båndlagt vil ikke bli publisert.
 
-Jeg/vi gir herved Høgskolen i Molde en vederlagsfri rett til å gjøre oppgaven tilgjengelig for elektronisk publisering: ja / nei
+Jeg/vi gir herved Høgskolen i Molde en vederlagsfri rett til å gjøre oppgaven tilgjengelig for elektronisk publisering: **nei** (inntil videre — avklares i samråd med Coop Extra X før endelig innlevering på grunn av taushetserklæringen).
 
-Er oppgaven båndlagt (konfidensiell)? ja / nei
+Er oppgaven båndlagt (konfidensiell)? **[TBD — avklares med Coop Extra X før innlevering]**. Rådata og interne analyse-artefakter (se §5.2 om pseudonymisering) er omfattet av taushetserklæring og publiseres ikke. Selve rapporten bruker pseudonymer og inneholder ingen direkte identifiserbar bedrifts- eller produktinformasjon.
 
-(Båndleggingsavtale må fylles ut)
+(Båndleggingsavtale må fylles ut hvis Coop Extra X krever det)
 
 - Hvis ja:
 
-Kan oppgaven publiseres når båndleggingsperioden er over? ja / nei
+Kan oppgaven publiseres når båndleggingsperioden er over? [TBD]
 
-**Dato:**
+**Dato:** 2026-05-31
 
 ---
 
