@@ -25,3 +25,6 @@ __pycache__/
 # resultat/ og figurer/, men intern/ ekskluderes via pattern under.
 006 analysis/aktiviteter/*/resultat/intern/
 006 analysis/aktiviteter/*/figurer/intern/
+003 references/forelesninger/.env
+003 references/forelesninger/cleaned_llm/.chunks/
+005 report/rapport.docx
