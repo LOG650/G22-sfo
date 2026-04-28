@@ -1,0 +1,967 @@
+1
+00:00:02,073 --> 00:00:11,681
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Ha 
+litt stress med andre ting som dukker opp. Men hvis vi tar ... Vi må
+
+2
+00:00:11,741 --> 00:00:22,470
+uansett ta en ny runde på mandag. Så jeg tenker at det kan være greit. Ja. 
+Så jeg tror vi skal kunne klare å gjøre oss ferdig med kapittel sju i dag.
+
+3
+00:00:25,411 --> 00:00:34,475
+Vi får se. Det som har vært bra, om du klarer å gratulere til mandag 23.3.
+
+4
+00:00:35,175 --> 00:00:42,018
+Det blir siste uka før påske. Mandagen 23.3., fra 12 til 15, skal vi bare 
+prøve på det da òg? Ja.
+
+5
+00:00:48,501 --> 00:00:58,976
+Passer fint for meg, ja. Det er greit. Da sier vi det slik. Da kjører vi 
+bare på mål, det er den siste timen. Så
+
+6
+00:00:58,996 --> 00:01:04,298
+Claude er ferdig. Og ...
+
+7
+00:01:09,301 --> 00:01:14,583
+lurer på om Claude har gjort litt mer i samme slengen, men det ser jeg. Han 
+har gjort både 7-2
+
+8
+00:01:17,865 --> 00:01:30,183
+og 7-3. Så han har estimert både horisontene, men også ... Han
+
+9
+00:01:30,223 --> 00:01:35,566
+har FI1 og store FI1. Det er da
+
+10
+00:01:38,687 --> 00:01:46,171
+én leg-periode og én syklusperiode på tolv måneder. Han sier at ...
+
+11
+00:01:51,811 --> 00:02:07,478
+At vi har en tolv måneders sesong, da. Her har vi en 
+residualdiagnostikk, og det lurer jeg på om jeg har med ... Ja. Vi får se
+
+12
+00:02:07,558 --> 00:02:10,899
+om det har med valideringer å gjøre.
+
+13
+00:02:14,981 --> 00:02:33,458
+Hvis vi nå går til status ... Han har allerede hooka av dem, ja. Ja.
+
+14
+00:02:44,347 --> 00:02:47,369
+Der ser du at kontrollerer residualer og modellforutsetninger.
+
+15
+00:02:54,113 --> 00:03:02,818
+For å sjekke den her. Lyngbokstekst, reservoarplott. Skal se ut som 
+hvit støy.
+
+16
+00:03:10,783 --> 00:03:18,648
+Men det virker som om han allerede har gjort det her. Her står det 
+Lyngboksteksten, ja.
+
+17
+00:03:41,212 --> 00:03:50,135
+Det
+
+18
+00:03:50,175 --> 00:04:05,121
+denne viser, skal vise hvit støy. Når alle effekter er fjerna, så skal du 
+til slutt ha bare hvit støy. Det ser jo veldig bra ut, egentlig. Denne
+
+19
+00:04:05,141 --> 00:04:13,201
+skal se ut som en normalfordeling. Men jeg ser at det blir mindre og 
+mindre etter hvert som vi ... i nyere tid.
+
+20
+00:04:18,002 --> 00:04:23,564
+Og det kalles for heteroskedastisitet.
+
+21
+00:04:25,164 --> 00:04:35,948
+Der tidlige residualer har høyere varianse enn senere perioder. Det er 
+det vi ser her. Dere ser at det er store svingninger her, og så blir det små
+
+22
+00:04:35,988 --> 00:04:45,788
+her, da. Det kalles ... het ... Ja, skal ikke si det en gang til. Disse 
+avvikene har det vært å undersøke nærmere og ta oss opp i en egen
+
+23
+00:04:45,829 --> 00:04:56,350
+valideringsaktivitet senere i dette kapittelet. Ja, men det er bra. En 
+liten ting jeg tenkte på, Bård. Nå er det delvis også fordi at det er litt
+
+24
+00:04:56,410 --> 00:05:03,432
+smått på skjermen og sånne ting. Men hvis du ser på figurene, så er 
+teksten i figurene som er laga av Pyton, litt liten. Altså labelen der.
+
+25
+00:05:05,249 --> 00:05:14,515
+Er det en kvikkfiks å endre på det og få den litt større, eller må en annen 
+lage figurene helt på nytt igjen? Eller kan man bare beholde figurene og
+
+26
+00:05:14,555 --> 00:05:24,301
+blåse opp labelen med større fond? Tenker du disse står her? Ja. Både 
+både labels og tall. De er litt små, da. Da må man regenerere det. Det er
+
+27
+00:05:24,321 --> 00:05:25,001
+dueboliger.
+
+28
+00:05:34,848 --> 00:05:44,272
+Ja. Det er ganske arbeidskrevende for A1 å gjøre det. Altså lage figuren 
+helt på nytt igjen. For når du har figuren, så er det jo en kritikk som bare
+
+29
+00:05:44,332 --> 00:05:54,216
+er mengdefaren i levelen, å få den større. Men han må faktisk lage 
+figuren på nytt. Ja. Det er litt arbeidskrevende, da. Og jeg mener også
+
+30
+00:05:54,256 --> 00:06:08,451
+det at ... Han gjør det ganske kjapt, altså. For husk at dette er jo bare 
+kodegenererte ting, da. Hvis vi ser på ... Hvis vi ser på under Scripts
+
+31
+00:06:08,471 --> 00:06:22,958
+her, da. Så ta f.eks. Der ser du Pyton-koden tilhørende hver figur. Så 
+dette er figur fire, og der er Pyton-koden til figur fire. Og dette er det
+
+32
+00:06:22,998 --> 00:06:30,801
+vi slipper å gjøre, så det er ringelig fantastisk, altså. Og her kan du da 
+øke fontstørrelsen, da. Her står det jo font size.
+
+33
+00:06:34,720 --> 00:06:43,484
+Men siden det er her i kode, betyr det at den regenererer nøyaktig den 
+samme figuren. Den kan ikke plutselig finne på å endre seg litt? Nei, og
+
+34
+00:06:43,524 --> 00:06:54,029
+det er det som er fint her. Uten det hadde vi vært på ville veier. Denne 
+Python-koden er helt essensiell for at du kan stole på resultatene.
+
+35
+00:06:54,289 --> 00:07:07,279
+Hvis ikke så er det bare Texas. Så den underliggende regnemetoden her, 
+den er jo superviktig at vi forstår hvordan A1 jobber her. Den lager kode
+
+36
+00:07:07,339 --> 00:07:18,188
+som genererer svarene. Og så er det A1 som setter sammen teksten og 
+forklarer sånne ting. Men selve beregningene, den er gjort i
+
+37
+00:07:18,228 --> 00:07:32,717
+Python-koder. Så det er et viktig skille der. Det er ikke sånn at en 
+gjetter seg fram til hvordan disse figurene skal se ut. Han gjør ikke
+
+38
+00:07:32,737 --> 00:07:40,602
+det. Det er basert på data. Men da bare går vi videre. Sånne 
+finjusteringer kan vi gjøre på slutten. Absolutt.
+
+39
+00:07:43,464 --> 00:07:44,904
+Jeg prøver bare å ...
+
+40
+00:07:50,101 --> 00:08:06,064
+Nå har vi jo en analysekapittel, og så har vi et resultat og en diskusjon. 
+Men det er jo mye resultat inni her òg. Så spørsmålet er om vi skulle hatt
+
+41
+00:08:06,264 --> 00:08:16,326
+et resultat her, da. Altså, resultat er ofte ... Ja, altså det som slo 
+meg, er akkurat det du sier der. Jeg ville bedt aning om å nøye gå gjennom
+
+42
+00:08:16,386 --> 00:08:26,734
+kapittel sju. Og gjør en vurdering på hva som skal være i analyse, og hva 
+som skal være resultat. Det er ikke enkelt å litt glide over hverandre.
+
+43
+00:08:26,834 --> 00:08:39,378
+Det er ikke alltid ... Vi må passe på å ikke skrive bare for å skrive. Det er 
+viktig. Nå har vi gjort en god analyse. Kanskje analyse er noe
+
+44
+00:08:39,418 --> 00:08:50,404
+tilsvarende et resultat. Men så skal vi jo gjøre en validering nå, da. Så 
+jeg spør litt om det, da. OK.
+
+45
+00:08:53,346 --> 00:08:57,288
+Men det første vi vil at den skal gjøre, er jo det at ...
+
+46
+00:09:00,591 --> 00:09:03,833
+Nå vil jeg kjøre Bodex.
+
+47
+00:09:15,978 --> 00:09:20,942
+Det vi skal gjøre nå, er at vi skal kjøre ... Nå er vi ferdig med planen, 
+sant?
+
+48
+00:09:43,838 --> 00:09:47,706
+Når du nå bytter AI ... Bare skriv spørsmålet først.
+
+49
+00:10:08,965 --> 00:10:21,179
+Men når du nå bytter AI og så begynner å stille spørsmål, så kan han lese 
+opp konteksten og status.md og sånne ting, eller burde vi ... Eller gjør
+
+50
+00:10:21,199 --> 00:10:30,821
+han det automatisk? Nei, han må leses opp, ja. Ja, han må leses opp. Men 
+det gjør han automatisk, så vi trenger ikke å si at han må leses opp. Av og
+
+51
+00:10:30,861 --> 00:10:42,247
+til må du være ganske tydelig på det, slik at en får den rette 
+informasjonen før en begynner å gjøre et arbeid. For dette er Claude
+
+52
+00:10:42,507 --> 00:10:57,074
+Cole, da. Den har det i seg. Men jeg bare ønsker å vite hvor vi er i 
+prosjektet nå. Vi er vel ferdig med 3-2 nå, da, står det. Velger å
+
+53
+00:10:57,094 --> 00:11:07,460
+estimere ... Vi validerer modell, lager prognoser og anbefalinger, 
+skriver rapportutkast. Men jeg får følelsen av at vi har validert
+
+54
+00:11:07,500 --> 00:11:13,144
+modellen. Det har vi allerede gjort. Vi har allerede kontrollert 
+residualer. Det har vi gjort.
+
+55
+00:11:17,288 --> 00:11:19,310
+Dette er mer en slags diskusjon.
+
+56
+00:11:21,892 --> 00:11:32,872
+Vi kan bare nevne til dere, folkens, at den slags ... Utfordringer som vi 
+jobber med nå, med strukturen og passer det med et kapittel som heter
+
+57
+00:11:32,912 --> 00:11:45,764
+sånn og sånn og sånn, det er slett ikke uvanlig. Det er egentlig veldig 
+vanlig. Det finnes ingen korrekt struktur. Du må beskrive det i forhold
+
+58
+00:11:45,804 --> 00:11:48,226
+til hva case er beskrevet, ikke sant?
+
+59
+00:11:52,207 --> 00:12:03,449
+Det vil det være viktig å være klar over. Jeg veileder en masterstudent 
+nå, og vi har fikla fram og tilbake på denne strukturen så det rekker. Det
+
+60
+00:12:03,509 --> 00:12:13,711
+er ikke uvanlig at de jobber med et kapittel som heter 'resultat her'. 
+Hva skal da skrives i diskusjonen?
+
+61
+00:12:15,812 --> 00:12:20,953
+Den type dialog er veldig vanlig og veldig viktig.
+
+62
+00:12:27,762 --> 00:12:29,443
+Skal vi se hva han skriver ...
+
+63
+00:12:35,608 --> 00:12:37,709
+Vi er i mileplan per ...
+
+64
+00:12:42,092 --> 00:12:55,462
+fire, kanskje? En fem. Nei, vi er på ... Fase tre nå, som hovedfasen. Vi 
+holder på med gjennomføring? I fase tre, ja. Neste opp, valider modell.
+
+65
+00:12:55,482 --> 00:13:02,474
+Den har vi nå gjort, da, ikke sant? Nei, den har vi ikke gjort, nei. Det er 
+det som kommer nå. Bra.
+
+66
+00:13:05,496 --> 00:13:16,382
+Fase tre og i milepælene, ja. Det har vi gjort i fire milepæler. Vi har 
+hovedutkast, det har vi ikke ennå. Det jobber vi med. Men dette er en bra
+
+67
+00:13:16,442 --> 00:13:24,967
+oversikt. Lurt å gjøre sånne ting. Og liksom bare ... Hvor står vi hen i 
+prosjektet, liksom? Og neste nå er å validere modell.
+
+68
+00:13:30,436 --> 00:13:34,099
+Og det har øyet vårt da naturlig til under kapittel sju analyse?
+
+69
+00:13:39,123 --> 00:13:40,324
+Ja, jeg vil si det.
+
+70
+00:13:43,606 --> 00:13:53,254
+Jeg vil si det. Jeg tror at analyse og resultat ... Følelsen av at vi bare 
+skal fjerne kapittel resultater for analyse og resultat, er litt det
+
+71
+00:13:53,294 --> 00:13:58,265
+samme. La oss se om vi endrer
+
+72
+00:14:00,907 --> 00:14:08,592
+kapittel sju til analyse og resultat. Eller bare la det stå analyse. La 
+det stå sånn foreløpig så vi kan fullføre kapittel sju. Og så ser vi til
+
+73
+00:14:08,652 --> 00:14:09,313
+slutt hva vi gjør.
+
+74
+00:14:49,107 --> 00:14:53,209
+Vi har deler av dette.
+
+75
+00:14:58,150 --> 00:15:00,371
+Og jeg lurer på
+
+76
+00:15:03,112 --> 00:15:10,695
+litt om selve strukturen
+
+77
+00:15:10,715 --> 00:15:11,396
+i rapporten.
+
+78
+00:15:14,717 --> 00:15:31,730
+Vi gjør alle beregninger ... Men
+
+79
+00:15:31,770 --> 00:15:32,511
+trenger vi da?
+
+80
+00:15:43,395 --> 00:15:43,895
+Jeg føler ...
+
+81
+00:15:48,372 --> 00:16:00,799
+Jeg lurer på om visse faktiklene da vil overlappe mye.
+
+82
+00:16:01,999 --> 00:16:11,424
+Hva tenker du? Da setter jeg på planen. Noe sånt peker òg? Ja. Da prøver vi 
+å
+
+83
+00:16:16,267 --> 00:16:27,530
+se hva han svarer på det, da. Diskusjon er greit, og konklusjon er greit, 
+men kapitlet er resultatet. Enten har vi analyse, eller så har vi
+
+84
+00:16:27,610 --> 00:16:30,072
+resultatet. Enten-eller, tenker jeg. Og ikke begge deler.
+
+85
+00:16:33,353 --> 00:16:34,694
+'Overloaded'? Uhu.
+
+86
+00:16:38,616 --> 00:16:46,701
+Det betyr at det er for mange som bruker Claude samtidig. Ja. Not good.
+
+87
+00:16:58,015 --> 00:17:05,437
+Prøv igjen.
+
+88
+00:17:05,457 --> 00:17:06,197
+Det er ...
+
+89
+00:17:09,679 --> 00:17:20,322
+det er bare sånt som kan skje til tider. At det er rett og slett for mange 
+rundt omkring i verden som totalt sett bruker lodd. Og serverne deres er
+
+90
+00:17:20,382 --> 00:17:29,604
+overlogga, da. Da kjører de ... Da får du en sånn budsjett. Det er alltid 
+irriterende, som dere ser, men det er ikke så mye å gjøre med
+
+91
+00:17:34,708 --> 00:17:38,771
+det. Ja. Samme sulamitten.
+
+92
+00:17:42,734 --> 00:17:44,035
+Ja. Det er bra vi har to, da.
+
+93
+00:17:48,919 --> 00:17:49,319
+Ja, altså ...
+
+94
+00:17:57,145 --> 00:18:06,512
+Så la oss starte
+
+95
+00:18:06,552 --> 00:18:24,526
+opp ...
+
+96
+00:18:24,606 --> 00:18:28,374
+Ja, det er nok sikkert det som skjedde. Ja, New York var knapt
+
+97
+00:18:37,081 --> 00:18:46,629
+noe å være i. Nå tok jeg det Claude hadde gjort, og peista det rett inn i 
+Claude.
+
+98
+00:18:46,690 --> 00:18:55,533
+Omvendt, altså. Jeg tok hva Claude hadde gjort og peista det inn i 
+kodeks, da. For dette her er sånt som kan ta litt tid. Der ser du hvordan
+
+99
+00:18:56,013 --> 00:19:03,635
+Boringe har tre parallelle aier. En trekant, trekant, firkant der nå, 
+oppe til høyre. Da kan han sirkle fra en ende til annen, slik at du har hatt
+
+100
+00:19:03,835 --> 00:19:14,358
+parallelle løp. Slik at hvis den ene stopper, så kan du gå over til den 
+andre. Det er små triks som du lærer deg etter hvert. Ja, det er sant det.
+
+101
+00:19:16,930 --> 00:19:29,158
+Ja, er det liksom arbeidskritisk ting man driver på med, så er det alltid 
+lurt å ha en ekstra A i bakhånda, hvis den ene skulle falle gjennom. Men
+
+102
+00:19:29,479 --> 00:19:39,325
+holder du på å jobbe nå, Claude? Er du kommet tilbake, eller er du på 
+kodex? Jeg holder på med attent her, ser du. Stopp, stans opp her. Det
+
+103
+00:19:39,365 --> 00:19:50,006
+gjør at ... Bare prøv det her. Ja da, jeg skal bare hente den biten der. Du 
+lar bare Claude få brenne. Han holder på her ennå, da.
+
+104
+00:19:56,309 --> 00:20:01,512
+Så spør de bare samme spørsmål til Codex, da. Ser ut som at den
+
+105
+00:20:04,254 --> 00:20:10,098
+er litt bedre i action.
+
+106
+00:20:10,118 --> 00:20:12,939
+For nå er vi på Kodeks. Nå er vi på Kodeks, ja.
+
+107
+00:20:35,551 --> 00:20:37,697
+Nå har vi tatt stillinger. Så tok du bare recommender.
+
+108
+00:21:10,702 --> 00:21:23,666
+Han gjør litt sånn ... Han sjekker nå prosjektet i forhold til det som var 
+planlagt da. I forhold til baseline, da. Det er bare sunt for AN å vite alt
+
+109
+00:21:23,706 --> 00:21:32,809
+dette, for da skjønner han på en måte ... Sjekker han det fordi han går i 
+sånne statusfiler, eller gjør han det fordi han peker stein fra Claude i
+
+110
+00:21:32,849 --> 00:21:45,061
+stad? Nei da. Ja, ja. Han skjønte jo hva det handla om, men han leste disse 
+filene under plan. For der har vi jo planen vår i form av både
+
+111
+00:21:45,102 --> 00:21:48,326
+Jason-filer, men også status MD og prosjektplanen.
+
+112
+00:22:36,528 --> 00:22:48,371
+Ja. Syns det høres bra ut. Det en skal gjøre nå, er å rett og slett bare 
+avhuke at vi har gjort punkt 3.2, da. Velge å estimere modell. Det er ikke
+
+113
+00:22:48,431 --> 00:22:58,874
+oppdatert i prosjektet at vi har gjort 3.2, så det gjorde jo ikke Klob. 
+Klob bare løste problemet. Vi skal nå gå over til 3.3, men før vi går over
+
+114
+00:22:58,914 --> 00:23:00,595
+til 3.3, så skal vi lukke 3.2, da.
+
+115
+00:23:17,821 --> 00:23:26,366
+Det er tracking i prosjektet, rett og slett, det den hører på med nå.
+
+116
+00:23:26,406 --> 00:23:31,548
+Den skal være rask, men går litt treigt likevel. Det er sikkert mye 
+trafikk nå.
+
+117
+00:23:35,130 --> 00:23:40,313
+Dette er vel på en avviksanalyse.
+
+118
+00:24:07,180 --> 00:24:09,862
+Ja. OK, jeg har en sånn en. Oppdater og promille.
+
+119
+00:24:36,155 --> 00:24:36,995
+Vi er ferdig med
+
+120
+00:24:41,316 --> 00:24:43,536
+en aktivitet som er 3.2. Før vi starter på 3.3. Validere modell.
+
+121
+00:25:07,863 --> 00:25:18,326
+Det er spørsmål om vi allerede har begynt å vurdere litt, og det mener jeg 
+at vi har. For her står det litt om validering også. Og jeg lurer på om vi
+
+122
+00:25:18,366 --> 00:25:32,931
+skulle ha splitta 7-3 og validering i 7-4. Det har jeg en stor tro på at vi 
+kan gjøre. Splitta 7-3 i to? Ja. Det ene er bare estimeringa, sant? Og det
+
+123
+00:25:33,011 --> 00:25:35,392
+andre er valideringa.
+
+124
+00:25:56,294 --> 00:25:58,335
+Jobber mye nå? Jeg gjør det.
+
+125
+00:26:26,298 --> 00:26:33,303
+Det
+
+126
+00:26:33,323 --> 00:26:43,429
+er et begrep ... Jeg veit ikke hva det betyr, men det kan være lurt for alle 
+når det kommer sånne begrep. Dette er typisk ting som skal forklares i
+
+127
+00:26:43,509 --> 00:26:49,033
+teori, kapitlet lenger oppe. Ikke
+
+128
+00:26:49,653 --> 00:26:51,415
+sant? Nei, overlova. Ja.
+
+129
+00:27:03,271 --> 00:27:09,795
+Heteroskedastisitet
+
+130
+00:27:09,835 --> 00:27:23,644
+betyr egentlig at ... ... at sigmaet varierer mindre etter hvert. At du 
+har mindre her enn her. Det er det det betyr, egentlig. Der, ja. All
+
+131
+00:27:23,664 --> 00:27:27,486
+right. Så da tar jeg og henter inn den biten der.
+
+132
+00:27:40,835 --> 00:27:47,409
+Og så spør jeg spørsmålet til Codex i stedet for. Så nå er vi tilbake igjen 
+til der vi slapp med Cloud Code.
+
+133
+00:28:09,202 --> 00:28:16,645
+Ja. Det betyr at variansen i feilleddene ikke er konstant.
+
+134
+00:28:20,127 --> 00:28:31,392
+Man endrer seg med nivået på dataene eller forklaringsvariadene. Ja, 
+det er riktig. Det er det vi ser på denne figuren. Her er den ganske
+
+135
+00:28:31,452 --> 00:28:41,134
+konstant, og så blir den plutselig lav her. Det ser vi også på den figuren 
+her oppe. Her ser dere at det er flate ut. Det er
+
+136
+00:28:44,435 --> 00:28:59,582
+det samme. Fra og med 1974 en gang så skjer det noe. Nemlig at variansen er 
+lavere. Den er mer stabil, denne etterspørselen. Den hopper ikke så
+
+137
+00:28:59,602 --> 00:28:59,802
+mye.
+
+138
+00:29:03,304 --> 00:29:09,410
+Så vi kan si at det er mindre kritisk her, da. Men dette syns jeg var 
+interessant. Kapittel sju,
+
+139
+00:29:12,251 --> 00:29:23,094
+analyse. Validering på tester til aktivitet 3.3. Eventuell vurdering 
+av svakheter og om modellen er egnet nok. Endelig valgt modell, endelig
+
+140
+00:29:23,134 --> 00:29:31,056
+valideringsmål. Ja, riktig. Kort oppsummering av modellen. Er god 
+nok. Senere er selve prognosen og nøkkelopptalene som beslutning. Så
+
+141
+00:29:31,076 --> 00:29:32,616
+jeg mener at vi skal ha resultat.
+
+142
+00:29:39,213 --> 00:29:47,557
+Min anbefaling er altså å holde begge kapitlene, men gjør kapittel 8 mye 
+strammere enn kapittel 7 hvis du vil. Kan jeg foreslå noe konkret. Ja.
+
+143
+00:29:56,482 --> 00:29:56,722
+Gjør det.
+
+144
+00:30:00,144 --> 00:30:10,470
+Men jeg syns det gir mening, da, sånn som en tenker nå. For vi skal jo teste 
+modellen og sånn. Det kan godt komme inn som resultat. Det forteller
+
+145
+00:30:10,490 --> 00:30:18,382
+hvordan modellen fungerer i forhold til hvordan vi løser modellen. Det 
+er litt to forskjellige ting, sant? Jo, det er det.
+
+146
+00:31:35,060 --> 00:31:44,409
+Ja, så nå vil det bare være litt sånn ryddig med tanke på prosjektet. Jeg 
+har lyst til bare å liksom få inn denne litt nye ... For dette er jo viktig,
+
+147
+00:31:44,429 --> 00:31:54,278
+da. Akkurat det vi ser på nå er veldig viktig, hvordan vi deler opp 
+kapitlene her, sant? Og
+
+148
+00:31:54,478 --> 00:31:56,260
+derfor tenker jeg at det er ...
+
+149
+00:32:04,523 --> 00:32:08,406
+Derfor tenker jeg at det er lurt å bruke litt tid på det, da. Ja.
+
+150
+00:32:30,403 --> 00:32:32,345
+Vet ikke om du vil ha en ny planfil, men ...
+
+151
+00:32:36,029 --> 00:32:43,136
+Den
+
+152
+00:32:43,276 --> 00:32:44,157
+vil jeg ha.
+
+153
+00:32:50,063 --> 00:32:56,630
+Utrolig fint med denne planmodusen. Får sånne fornuftige spørsmål 
+hele tida.
+
+154
+00:33:11,602 --> 00:33:13,924
+Men jeg har ett spørsmål. Se her.
+
+155
+00:33:17,947 --> 00:33:26,194
+Validering må tettes att, det er jo greit. Men samlet vurdering av 
+modellens egnethet? Er ikke det diskusjon, APK? Hvor står den? Bare
+
+156
+00:33:26,234 --> 00:33:27,575
+highline, så jeg ser hva det er?
+
+157
+00:33:30,758 --> 00:33:37,484
+Der ser jeg, ja. OK. Samlet vurdering. Den mener at det skal stå under 
+7-5, men er ikke det en diskusjonsbit?
+
+158
+00:33:39,631 --> 00:33:44,953
+Altså diskutere ... Ja,
+
+159
+00:33:44,973 --> 00:33:55,376
+det er et bøyleforhold. Når du skal begynne å bruke personlige 
+vurderinger ... Vi skal komme med våre vurderinger, liksom. Og så er det
+
+160
+00:33:55,396 --> 00:33:58,877
+jo diskusjon, da. Og det tror jeg jeg har lyst til å utfordre annen på, da.
+
+161
+00:34:11,288 --> 00:34:21,396
+Han sier så mye at vi må gå langt opp for å finne det vi lurer på. Og så må vi 
+skrare langt ned for å komme til kommandolinja. Det er mye informasjon
+
+162
+00:34:21,417 --> 00:34:22,738
+hun spyr ut der, så det er mye vi må ta tak i.
+
+163
+00:34:41,528 --> 00:34:53,778
+Hvis vi presser ham og kommanderer ham, så gjør han det? Da blir han 
+bajos, da. Jeg lurer på om kapittel 7-5
+
+164
+00:34:54,359 --> 00:35:04,247
+heller ikke burde vært en del av kapittel 9-diskusjonen.
+
+165
+00:35:10,148 --> 00:35:17,193
+Det handler om ... Min handler om ...
+
+166
+00:35:20,795 --> 00:35:31,482
+Vurdering av modellens egnethet. Sant? Og så prøver vi å argumentere 
+hvorfor vi mener det sånn, og så får vi se
+
+167
+00:35:34,824 --> 00:35:35,645
+hva A1 tenker.
+
+168
+00:35:47,662 --> 00:35:50,082
+Enig, ja. Det var ikke overraskende.
+
+169
+00:35:57,304 --> 00:35:59,144
+Flytte til kapittel ni. Nice!
+
+170
+00:36:14,864 --> 00:36:23,428
+Det er en greie vi må lære oss til, at han skriver veldig mye. Det er 
+overwhelming med informasjon.
+
+171
+00:36:23,448 --> 00:36:29,371
+Han skriver veldig mye, han gjør det. Nå kjører vi implementering, 
+altså. Nå begynner han. Ja, jeg tror vi kan gjøre det. Vi er enige om det
+
+172
+00:36:29,391 --> 00:36:40,679
+nå, så vi får det på arket. Det er noe sant, men man skal ikke undervurdere 
+... Verdien i å planlegge litt her, altså. Sånn som da vi var i plan-mode
+
+173
+00:36:40,719 --> 00:36:45,185
+nå, så kjørte vi litt fram og tilbake inntil vi ble fornøyd med planen, og 
+så kjører vi go.
+
+174
+00:36:50,335 --> 00:37:00,017
+Må du da gå eksplisitt ut av planmodus? Eller bare si ja, implementer 
+dette, og da går han ut av planmodus sjøl? Det som skjedde, var at han
+
+175
+00:37:00,077 --> 00:37:09,659
+spurte om jeg skulle implementere og gå ut av planmodus. Så sa jeg ja, 
+gjør det, eller nei.
+
+176
+00:37:10,079 --> 00:37:21,019
+Min erfaring er at det å bruke litt tid på plandelen, der du liksom 
+spiller ball fram og tilbake med A1 ... Til du har fått en plan som du er
+
+177
+00:37:21,059 --> 00:37:32,446
+fornøyd med, og så gjennomføre. Det er by far den beste arbeidsmetoden. 
+Jeg mener også det som sto i vårt akademiske skrivingkompendium, at du
+
+178
+00:37:32,466 --> 00:37:39,430
+skal bruke a-en som en sparringpartner, som diskuterer frem og 
+tilbake. Og jeg mener at det er akkurat det vi praktiserer nå.
+
+179
+00:37:45,415 --> 00:37:54,419
+En ting vi har lagt merke til over tid etter at jeg har brukt Codex en del 
+... Jeg har egentlig alltid brukt Cloud Code og blitt vant til det. Men
+
+180
+00:37:54,439 --> 00:38:07,165
+jeg legger merke til at codexen ikke er så skarp alltid på å sette tekst 
+inn i filene på rett plass. Spesielt hvis filene er store. Denne bilen
+
+181
+00:38:07,185 --> 00:38:09,706
+begynner å bli ganske mange sider, sant?
+
+182
+00:38:13,293 --> 00:38:24,962
+Og AN skal jo på en måte sette patchet inn på rett plass. Og så 
+patchen-feiler. Her skriver det f.eks. Patchen falt på noen få ting. Og
+
+183
+00:38:25,022 --> 00:38:37,032
+det jeg har lagt merke til, er at Codex gjør det i større grad enn Claude 
+Code. Claude er mye mer nøyaktig. Claude er som en fin kirurg, mens han
+
+184
+00:38:37,072 --> 00:38:49,599
+her er litt mer som en slakter. Det er noe jeg har lagt merke til over tid. 
+At vi ser at en må kjøre noen ... Han får det til, Codix også, men han må
+
+185
+00:38:49,639 --> 00:38:54,382
+kjøre noen runder på det sjøl. Du ser han fant det ut sjøl, da. Så ...
+
+186
+00:39:03,361 --> 00:39:11,324
+Nå endrer han prosjektplanen, ser dere. Og det var det jeg egentlig 
+ønska. For dette var en forfining i prosjektplanen også. Der blir vi
+
+187
+00:39:11,344 --> 00:39:21,424
+liksom endra nå på en del strukturelle ting. Og vi skal jo dokumentere 
+prosjektet, så det er faktisk viktig, syns jeg, da. Det er bra hvis man
+
+188
+00:39:21,444 --> 00:39:28,208
+gjør det automatisk og sier at nå implementerer vi det vi nå har blitt 
+enige om etter en del diskusjoner fram og tilbake. Det får også
+
+189
+00:39:28,248 --> 00:39:38,154
+konsekvenser, for da må man oppdatere prosjektplaner. Og det gjør man 
+automatisk uten at man eksplisitt må si det til en. Ja, jeg var litt
+
+190
+00:39:38,194 --> 00:39:48,980
+eksplisitt og sa det til ham, men han trengte ikke å skrive mye. Bare si en 
+setning, liksom. Og så skjønner han på en måte hva han skal gjøre. Det
+
+191
+00:39:49,000 --> 00:39:50,220
+tåler jeg, da. Ja.
+
+192
+00:39:53,181 --> 00:40:00,602
+Og så er det noe som er rødt og noe som er grønt der. Er det liksom det røde, 
+det gamle og det grønne, det nye, eller? Ja, det kalles en diff.
+
+193
+00:40:00,662 --> 00:40:06,823
+Differansen mellom det som var gammelt og det som er nytt, da. Ja, jeg 
+skjønner. Da ser vi eksplisitt forskjellene,
+
+194
+00:40:09,544 --> 00:40:18,685
+ja. Men nå er en inne på planfilene, da. Så er det prosjektfilene han er på 
+å oppdatere nå, da. Foreløpig. Vi skal snart begynne å gjøre kapittel
+
+195
+00:40:18,745 --> 00:40:30,178
+3-3, eller 'Neste beit'. Så får vi se hvordan vi gjør det etter hvert. Jeg 
+skal straks si at en skal gjennomføre neste steg i status.
+
+196
+00:40:44,678 --> 00:40:46,899
+Den har blitt litt kortere, ser jeg.
+
+197
+00:40:50,941 --> 00:40:52,182
+Det var ikke mye jeg var så glad for.
+
+198
+00:40:59,805 --> 00:41:02,586
+Ja, får bare legge inn på nytt igjen,
+
+199
+00:41:08,309 --> 00:41:09,109
+det. Den er ikke ferdig ennå.
+
+200
+00:41:16,572 --> 00:41:26,890
+Det som er med disse planleggingsfilene her, da... Det at de er ganske 
+store. Så han bommer litt. Det er det vi ser nå, da.
+
+201
+00:42:17,609 --> 00:42:23,292
+Jeg savner avhukingslista mi. Den har blitt 200 porsjoner. Så jeg vil at 
+den skal legges inn igjen.
+
+202
+00:42:32,273 --> 00:42:45,944
+Har han gjennomført rapporten og flytta det over til diskusjon? Nei, 
+bare på planen ennå, egentlig. Har vi ikke sagt noe om hvordan vi skal
+
+203
+00:42:46,124 --> 00:42:56,412
+gjøre det ennå? Vi har ikke sagt noe om det, vi er ennå i planlegging. Men 
+nå kommer den tilbake igjen, denne. Ja, det syns vi er bra. Litt dumt at
+
+204
+00:42:56,432 --> 00:43:08,332
+den tok et lekk, og så plutselig må vi si at den må tilbake igjen. Du har 
+ikke merke til at den blir fjerna en gang. Det
+
+205
+00:43:08,612 --> 00:43:21,137
+kan ha ei vær. Vi må være litt på vakt. Vi kan ikke sove, vi kan ikke stole 
+altfor mye. I hvert fall på sentrale filer, sånn som statusfiler og
+
+206
+00:43:21,337 --> 00:43:33,602
+portfiler er. Denne her hadde forsvunnet, og det syns jeg er litt dumt. 
+For det er den menneskelige lista som er lett for meg å lese hvor vi er hen.
+
+207
+00:43:38,390 --> 00:43:39,230
+Så ...
+
+208
+00:43:44,572 --> 00:43:55,696
+Greit. Da skal vi ta en pause og fortsette om 15 minutter. Ja, vi kan ta en 
+liten pause og fortsette om litt 15 minutter. Ja, OK. Vi tar en liten
+
+209
+00:43:55,736 --> 00:44:04,699
+pause, da. Ikke kjøre en time, hele trekvarteret, men kanskje 15-30 
+minutter. Ja, det er greit. Vi tar en pause nå, og så fortsetter vi med
+
+210
+00:44:04,739 --> 00:44:11,791
+siste avslutning, inkludert push. Jeg vil gjerne bli ferdig med 
+kapittel ...
+
+211
+00:44:15,034 --> 00:44:20,278
+Sju, for å si det sånn. Ja, vi forstår. Supert. Da tar vi pause.
+

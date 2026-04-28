@@ -1,0 +1,1521 @@
+1
+00:00:03,140 --> 00:00:09,260
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Da starter vi igjen time nummer to. Me har noe å snakka om med Arima, så vi har det av det vi kan.
+
+2
+00:00:09,260 --> 00:00:13,160
+Det er en lyspære jeg forklaringa som en har en veldig gode oversikt av.
+
+3
+00:00:13,310 --> 00:00:17,360
+Når du ikke har hørt om Ariiva for å få en først inntrykk av care e for nokka.
+
+4
+00:00:19,670 --> 00:00:24,170
+Og. E Vi må h.
+
+5
+00:00:24,180 --> 00:00:28,319
+For at den skal gjelde så må det være en del nokka som må være oppfylt,
+
+6
+00:00:28,320 --> 00:00:34,980
+blant anna det jeg meg x nasjonalitet så betyr ding betyr det at statistikken helse stabil uansett det når vi er måla.
+
+7
+00:00:35,280 --> 00:00:41,280
+Målet er og ari må kreve nettopp det at du allstars naivitet fordi aroan avkom blant
+
+8
+00:00:41,280 --> 00:00:46,950
+anna som de diskuterte ovenfor den bygger på at mønstre han og dataene er e stabile,
+
+9
+00:00:47,310 --> 00:00:53,129
+og derfor så definerte vi her. Hva som menes med stasjonaritet.
+
+10
+00:00:53,130 --> 00:00:59,400
+Det og det begrep vi har også lært om i matte humre var da man nok gjør som hadde en og en.
+
+11
+00:01:01,260 --> 00:01:07,710
+Da ser vi også her ette ette eksempel på en av Rauma metode.
+
+12
+00:01:08,130 --> 00:01:14,880
+Nå er vi har det, og da med forskjellige parametre. Aner det oss at tre parametre som inngår her PQ og det.
+
+13
+00:01:15,210 --> 00:01:22,590
+Nå skal ikke vi gå inn på alle detaljene her. Man i vil bare bør si kan han dreie seg om slik at dokker får et inntrykk av metoden det flate.
+
+14
+00:01:22,860 --> 00:01:33,300
+Vi går nå konkret litt inn på Arima slik at dokker får ett edn i die og om kartlagt systemnivå og de tall de må i på vis må gå inn på foreløpig,
+
+15
+00:01:33,660 --> 00:01:40,830
+og vi går på mer dypt ned i detaljer. Na lå rett nok er borte ble bestilling man Dette har jo da parameterne i må ta stilling til.
+
+16
+00:01:40,830 --> 00:01:45,990
+Da er dere altså p da Tidligere verdi ja, som påvirker er i dagens verdi,
+
+17
+00:01:46,650 --> 00:01:56,190
+og det e det e i francis dringa for å oppnå stasjonaritet og kue da tidligere feil termer som påvirker jeg dagen c verdi.
+
+18
+00:01:56,760 --> 00:02:01,770
+Så her har en såkalt arima en en enhver plass for bare veldig kort kan en betyr i vår sammenheng.
+
+19
+00:02:01,890 --> 00:02:08,370
+M som tenkt, den enkleste komplette man er om igjen å være komponent og så en av verdi da.
+
+20
+00:02:08,880 --> 00:02:18,510
+Morgendagens endring det en konstant pluss vekting av gårsdagens endring pluss er korreksjon for da eller gårsdagens bom.
+
+21
+00:02:19,590 --> 00:02:24,360
+Så det litt. Det er forenkla sagt at på Arima en og 11E for NOKA.
+
+22
+00:02:25,480 --> 00:02:31,930
+Og hvis vi konkretiserer det, hvis salget øke med 20 enheter i går og prognosen bommet med fem bruker,
+
+23
+00:02:31,930 --> 00:02:36,820
+må læreren en begge deler til å justere morgendagens prognose.
+
+24
+00:02:38,470 --> 00:02:48,040
+Altså vi ser på ei endring. E å modeller m man en mot Modellen er endret v l,
+
+25
+00:02:48,280 --> 00:02:59,200
+men ikke i absolutte tall og kun det ene av justere for en tidligere frp mod og det dd Enkle spekk står ikke når han i bare ser på en tidligere.
+
+26
+00:03:04,200 --> 00:03:08,519
+Så i det neste der ser jeg at det bare s. Ari er det første som slår meg da.
+
+27
+00:03:08,520 --> 00:03:12,630
+Ved jeg canesten står far. Og det er da seg sånn.
+
+28
+00:03:14,340 --> 00:03:18,330
+Og det jeg da av Rimer som også husker at desember alltid vært en travel.
+
+29
+00:03:19,650 --> 00:03:23,549
+B e e assa vima, så tenk at assa de made jeg bare av.
+
+30
+00:03:23,550 --> 00:03:29,310
+Rimer man med hukommelse for årstida og satt vanelig av rime at ser den siste dataen eller ugan.
+
+31
+00:03:29,400 --> 00:03:33,870
+Men sesongkomponenten ser at og i noe evig inn i desember, og da kan det hende at det skjer pga.
+
+32
+00:03:35,370 --> 00:03:39,150
+Sammen, så fanger det ham opp både kortsiktige og årlige mønstre.
+
+33
+00:03:39,720 --> 00:03:47,280
+Så en hel dag er jeg som borring i sida han. Kanskje litt mer realistisk guider i en del sammenhenger, og da blir det også litt mer komplisert.
+
+34
+00:03:54,340 --> 00:04:01,690
+A s er imaget. Den var da den samme korttidshukommelsen som den mannlige Arima, og da var den tre parameter ad.
+
+35
+00:04:02,230 --> 00:04:05,920
+Så det er nå, og det som blir da en del av vår jobb hvis vi skal bruke arenaen.
+
+36
+00:04:06,610 --> 00:04:10,870
+Det gjelder å identifisere disse av PD og kua i bakke etilfelle.
+
+37
+00:04:13,740 --> 00:04:23,309
+Og så kom hun Acana. Nemlig det som er sesong hukommelse der m e b sommerperioden og det er jeg litt barnslig jeg abstrakt her,
+
+38
+00:04:23,310 --> 00:04:28,230
+så la oss få på det konkrete eksempler som vi hare under her da.
+
+39
+00:04:29,490 --> 00:04:34,110
+En kleskjede En klesskjede vil forutsi neste måneds salg.
+
+40
+00:04:35,080 --> 00:04:39,459
+Og den kortsiktige med og enkle som er slående aner vi bare at en av var av og på.
+
+41
+00:04:39,460 --> 00:04:43,240
+Blant annet Hvordan endret salget seg fra forrige måned til denne?
+
+42
+00:04:43,630 --> 00:04:47,920
+Og hvor mye bommet vi på i forrige Buenos Aires av bare én måned tilbake i tid?
+
+43
+00:04:47,920 --> 00:04:52,720
+Og det det holde i denne sammenheng? Han så vi nok av seg det ene en 01:12.
+
+44
+00:04:53,920 --> 00:05:03,830
+Hvordan var salget på ham med tiden i fjor? Hvor mye bommet ved nosen for Even for samme tid i fjor.
+
+45
+00:05:03,890 --> 00:05:10,400
+Og da ser du at i dette tilfellet så har vi da tolv måneder og ser det også ikke bare forrige måned det bak i tid.
+
+46
+00:05:10,400 --> 00:05:14,930
+Man i ser det også tolv måneder tilbake i tid. Hvis for eksempel da desember skylles ut.
+
+47
+00:05:16,910 --> 00:05:23,990
+Videre så er resultatet i at modellen beit både at salget økte i forrige måned må ned og at det samleren alltid drar.
+
+48
+00:05:28,010 --> 00:05:33,470
+Og da var vi forstått kor av det nesten er jeg og vi har også forstått ga den folderen dere folka.
+
+49
+00:05:36,870 --> 00:05:39,870
+BUP. En kan jo legge til her da, at det.
+
+50
+00:05:41,580 --> 00:05:52,680
+Det som er viktig for dokker nå er at dokker får en knagg å henge på når dokker tenker problemstilling og interessant æ for det at nå er
+
+51
+00:05:52,680 --> 00:06:07,559
+vi inne på en type problemstilling som æ typisk løses ved hjelp av disse dissa metoden her da Arima og Segima som var pk inne på da,
+
+52
+00:06:07,560 --> 00:06:14,760
+sånn at dukker dere ikke må sitte hjemme evig de kan Hvordan dokker kan assosiere problemstilling med metodikk.
+
+53
+00:06:15,630 --> 00:06:27,260
+I dag har man. Har man historiske data, og man vil kunne bruke historiske data til å estimere framtida.
+
+54
+00:06:29,270 --> 00:06:34,750
+Hvor man kan har forskjellige effekter som påvirke prognose.
+
+55
+00:06:35,130 --> 00:06:47,240
+De sant er og de forskjellige effektan e jo er som pek å har nevnt her dag Den ene går på auto ø regresjon, altså avhengighet av hva salget va.
+
+56
+00:06:47,240 --> 00:06:52,010
+Tidligere intendant. Hvis du har solgt hundre så vil y solgt til hundre.
+
+57
+00:06:52,010 --> 00:07:00,080
+Går til sannsynlighet må salget selge opp mot hundre. I dag er høy jobb er det det kan sauter av autorregel hood,
+
+58
+00:07:01,130 --> 00:07:11,530
+men så har du også en Maya Brusjø komponent er som et typisk en en uforutsett økning i Danmark.
+
+59
+00:07:11,540 --> 00:07:19,429
+Å si at du får dette plutselig et høyere salg som ikke kan forklare æ, så vil jo det 1 million dem medføre.
+
+60
+00:07:19,430 --> 00:07:26,329
+En endring av en var jo en en feil Bakkes amt, for det kom som en plutselig endring.
+
+61
+00:07:26,330 --> 00:07:36,640
+Hvem ville da representere en feil i Ye I i måling av New Og da får du feil element og da spørs hvor det den av den er feilen.
+
+62
+00:07:36,650 --> 00:07:41,810
+Hvor langt vil den da? Vil den forplante seg?
+
+63
+00:07:42,880 --> 00:07:48,400
+I Videre i prognoser er og det den andre komponenten som.
+
+64
+00:07:50,510 --> 00:08:00,520
+Er vesentlig her da i er i mar akk så som dissa komponenter ma du Du tar en komplekst bilde og deler opp i forskjellige komponenter.
+
+65
+00:08:00,520 --> 00:08:04,209
+Et siste komponenten som astma i de ima det vil samles.
+
+66
+00:08:04,210 --> 00:08:13,150
+Det som da er hvor du vil har en at typisk stå selv i meir i desember for det er jul dype tanker jungler, så usa u.
+
+67
+00:08:16,150 --> 00:08:22,500
+Så en dag kan vi gå også litte grann over RTM te prosessor metode.
+
+68
+00:08:22,510 --> 00:08:29,710
+Og som jeg nevnt før dem heng ganske godt sammen av konserter med to D så han vi valgte er følsom foreløpig da
+
+69
+00:08:29,980 --> 00:08:39,310
+e og slå dem sammen slik at ikke blir så mykje repetisjon og vi kommer da følge boks Jenkins metoden nå og da.
+
+70
+00:08:39,710 --> 00:08:43,990
+Edit Må tas på assyriske panerte jeg dem Bår Inge kom på gjør det av niende og 11. februar,
+
+71
+00:08:44,380 --> 00:08:50,890
+og da har du også her en referanse B den og den referanse han finne akkurat i kompendiet.
+
+72
+00:08:50,890 --> 00:08:57,880
+Så den ble. Da kan nok mine ord så på det at dersom nok rar problemstilling som gjør at at du må bruke Arima.
+
+73
+00:08:59,730 --> 00:09:02,460
+Og her i detta steg han som er ganske generell.
+
+74
+00:09:02,550 --> 00:09:11,770
+Vi starte noe med 156 deg den typiske steget over den vitenskapelige metode og jeg så nok innmaten i forskjellig fra metode til metode.
+
+75
+00:09:11,830 --> 00:09:17,010
+Så kommer vi til å hatt fem seks steg i alle elleve kapitler.
+
+76
+00:09:17,700 --> 00:09:19,770
+Så det ene metodikk da?
+
+77
+00:09:20,070 --> 00:09:29,670
+Så vi ønsker å videreformidle Butterlocker at det av Steve her blir lik på alle er elleve kapitler er man selvfølgelig detaljert i innmaten.
+
+78
+00:09:29,670 --> 00:09:35,850
+Bruk for feil. Det første steget er.
+
+79
+00:09:36,210 --> 00:09:42,000
+Ja, jeg kan jo bare påpeker at akkurat dét er veldig viktig. U16 er viktig.
+
+80
+00:09:42,480 --> 00:09:46,010
+Så nå vi snakker om problemstilling og modell i front.
+
+81
+00:09:46,920 --> 00:09:56,460
+Nå kommer vi inn på prosess og prosessen ede dokke bakk disk ska gjør det det dukket ytisk gjennomføring av av prosjektet, ikke sant?
+
+82
+00:09:56,910 --> 00:10:07,260
+Så det sånn folk etter at etter at vi på måte har lagd det overordna plan og zoomer oss inn på en modell og en problemstilling spådom,
+
+83
+00:10:07,260 --> 00:10:13,530
+komme prosessen og det å det vi skal bruke heile fase to til å gjør å planlegge prosessen
+
+84
+00:10:13,530 --> 00:10:20,550
+satt kasta vi gjør og den prosessen danner ofte veldig standard år uansett område,
+
+85
+00:10:21,000 --> 00:10:24,500
+men inneholde i prosessar endre seg heile tida.
+
+86
+00:10:24,520 --> 00:10:28,030
+Så så østeg en sånt ø.
+
+87
+00:10:28,830 --> 00:10:34,710
+Kan vi da samle inn data? Og hvilke data trenger jo vi tenkt data som er kobla mot prognose ser.
+
+88
+00:10:34,980 --> 00:10:44,040
+Så følg med akkurat nå. Nesten riktig, og det er akkurat det dokker skal jobbe med når Lægreid kommer i fase to og tre VA.
+
+89
+00:10:47,000 --> 00:10:52,969
+Og det første steget her er steg en ved at datainnsamling og forberedelser ved datainnsamling.
+
+90
+00:10:52,970 --> 00:10:58,340
+Dere må bli startet, men ganske tidlig. Og så ble alt vi trenger før det begynner å modellere.
+
+91
+00:10:58,480 --> 00:11:02,060
+Så en. Dette er det første steget på denne modellen.
+
+92
+00:11:02,090 --> 00:11:07,069
+Det kjem altså seinere så historiske data evigiktige, og vi må har minimum hun.
+
+93
+00:11:07,070 --> 00:11:09,530
+Jeg fant et ubrukt situasjoner, helst to tre år.
+
+94
+00:11:09,620 --> 00:11:17,810
+Det kommer litt an på sammenhengene og man vi trenge dele på observasjoner og i når vi er datamaskinens og en ed ham veldig glad i mye data.
+
+95
+00:11:19,040 --> 00:11:23,840
+Vi må det et konsistent intervaller som vi er hensiktsmessig å slå på for oss.
+
+96
+00:11:24,080 --> 00:11:28,700
+Husk at akkurat vi så e. De mener av å glemme en tidshorisont han de så på,
+
+97
+00:11:29,000 --> 00:11:37,280
+og det kan være variere fra problem til problem om det daglige it's hard distant ukentlig månedlig eller lm eller meg.
+
+98
+00:11:38,730 --> 00:11:45,040
+Og så må vi holde sjokk at vi skal håndtere manglende verdier, om vi da bare gjør estimat og positiv for å håndtere oss til det.
+
+99
+00:11:47,390 --> 00:11:50,820
+Og så stek to.
+
+100
+00:11:51,500 --> 00:11:54,760
+Et øl. Er det egentlig dette går?
+
+101
+00:11:55,010 --> 00:11:59,930
+Det går tilbake en til den data biten i hver pakke om data der er i tillegg til at
+
+102
+00:11:59,930 --> 00:12:04,280
+du hopper over identifisering av og la i erstattes av data som ikke hører hjemme,
+
+103
+00:12:04,280 --> 00:12:07,670
+da på måte eller som ikke jeg er representative for dere for å gå.
+
+104
+00:12:09,250 --> 00:12:13,600
+Det du prøver å a og svare på, men.
+
+105
+00:12:15,300 --> 00:12:20,110
+Datainnsamling og forberedelse. Det høres. Enkelt ut.
+
+106
+00:12:21,770 --> 00:12:28,830
+Men det punktet er det senket. Det punktet er en krevende på mange måter.
+
+107
+00:12:29,400 --> 00:12:36,210
+Spesielt hvis dukker jobbe i en bedrift stå får dokker kaste avlukket lét gedigent.
+
+108
+00:12:37,350 --> 00:12:41,050
+Excelark. Lån med navn navn.
+
+109
+00:12:42,160 --> 00:12:50,550
+Ei gresk. Det betyr at du ikke forstår ka dataene betyr i dont og lokale har kanskje 01:50 kolonner.
+
+110
+00:12:53,160 --> 00:12:56,610
+Og og og, og nokon har kanskje 100 000.
+
+111
+00:12:58,090 --> 00:13:06,340
+Rada, og plutselig der sto det kelag og kor har kolonner av klikker funnet kan står for og og krav veldig mange data.
+
+112
+00:13:06,940 --> 00:13:10,960
+I tillegg ser det kanskje mange av disse dataene på ikke riktig form.
+
+113
+00:13:12,010 --> 00:13:16,510
+Eller at dem har en feil i seg som må vaskes.
+
+114
+00:13:18,180 --> 00:13:28,630
+Og så videre. To. Det er mye databehandling som må foregå i steget, og typisk er det sånn at vi søker jobb i en bedrift.
+
+115
+00:13:29,260 --> 00:13:36,290
+Nå må vi Ha et datasett. Blant de må vi kanskje bare belage oss på kalamfie på.
+
+116
+00:13:36,290 --> 00:13:42,380
+Ofte så kan det være forskjell mellom hva, hvem side i bedriften og hva talte han med side i bedriften?
+
+117
+00:13:42,710 --> 00:13:48,830
+Dette sikrer at de ansatte har denne innsikten, fordi dem har kanskje ikke styra på dataene godt nok.
+
+118
+00:13:49,100 --> 00:13:54,230
+Dem har bare en følelse av Kate riktig, mens det ene egentlig sannheten er noe helt annet.
+
+119
+00:13:55,160 --> 00:14:03,730
+Det er å. Erfaringsmessig så kan det være ofte krevende å få dataene fra arbeid.
+
+120
+00:14:04,150 --> 00:14:10,990
+Bra for en bedrift. Ikke fordi at det med negative til å gi dataene, men fordi at dem ikke har helt kontrollen på det.
+
+121
+00:14:12,430 --> 00:14:16,940
+For det første så må jo du bygge. Du må jo be om korrekte data.
+
+122
+00:14:18,010 --> 00:14:24,069
+Da kan du si dunk du kanskje er død, du kanskje be om en ting, og så får den annen ting.
+
+123
+00:14:24,070 --> 00:14:29,710
+Det kan fort skje, æ. En annen ting er at du kan også be om feile data før.
+
+124
+00:14:30,250 --> 00:14:37,030
+Det vil si også at du har trodd at du trengte de type dataene mens du bare om og mens du tenkt du egentlig noen andre type dater?
+
+125
+00:14:37,360 --> 00:14:40,780
+Da har du ikke planlagt godt og det derfor virker.
+
+126
+00:14:40,780 --> 00:14:51,049
+Har en god planleggingsfase også jeg i fase to er, men alt det som har med data gjør de e ofte tidkrevende og grunt.
+
+127
+00:14:51,050 --> 00:14:54,820
+Dette tidkrevende eder. Vi jobber som regel i XL.
+
+128
+00:14:55,240 --> 00:15:02,889
+Du får et XL lag også. Skulle begynne å ø andre på de seg XL bygda og det e et mareritt fra ende til
+
+129
+00:15:02,890 --> 00:15:09,969
+annen er så hvis du ikkje i det course her jobbe med ekstern xl eines for
+
+130
+00:15:09,970 --> 00:15:22,959
+oss vil xl være sigrun il data vil les et XL lag med med parten kode og du vil vi behandle dataene deretter at vi vil behandle dataene gjennom data,
+
+131
+00:15:22,960 --> 00:15:34,090
+sa jens er bibliotek i pa fm og da en an altså to Cordel Gemini sier dialog som skal generere koden for oss,
+
+132
+00:15:34,480 --> 00:15:42,910
+slik at den gjør den analyse jobben for oss er, og det heilt vesentlig at vi klare å håndtere det.
+
+133
+00:15:43,240 --> 00:15:57,490
+Ellers så Bellydia. Det er fordi en data biten e tilsynelatende enkel, men den e ofte problematisk fordi dataene aldri e verken i den formen den.
+
+134
+00:15:57,490 --> 00:16:03,399
+Jeg kommer ikke på det tidspunkt de vi forvente de er også videre også ville da notch har en god
+
+135
+00:16:03,400 --> 00:16:08,920
+kommentar konvertere til si at spesielt ved bruke pa uten med panda så nubia og det er riktig panda
+
+136
+00:16:08,920 --> 00:16:18,940
+as og number jeg to bibliotek som en data Fains bibliotek som jeg spesiallaget for å håndtere
+
+137
+00:16:18,940 --> 00:16:25,870
+store datasett og vaske dem for å få dem på den rette formen SOC slik at vi kan bruke i analysen.
+
+138
+00:16:26,200 --> 00:16:35,079
+Men den veien e ofte har vært en mer enn vel litt tung vei å gå og å programmere i Panda så nemlig kan være to med det.
+
+139
+00:16:35,080 --> 00:16:43,900
+Da er vi det der. Det geniale ligg her det. Vi skal bruke AI til å gjøre det for oss, at vi må bare vite om ser dataene ut?
+
+140
+00:16:44,410 --> 00:16:51,910
+Spollen guha dem og så skal vi be an om å e gjør den jobben for oss fra.
+
+141
+00:16:58,650 --> 00:17:04,469
+Bra kommentar disse ser på östersund raritet burde det egentlig kan kan kalle seg et endelig
+
+142
+00:17:04,470 --> 00:17:10,470
+sjekk av varen om betingelsene oppfylt i løpet skulle hatt et mer generelt ord på steg to.
+
+143
+00:17:13,030 --> 00:17:20,200
+Heredia stasjonaritet og analyse da fordi at det stasjonaritet e forutsetning at for at det og prima skal gjelde,
+
+144
+00:17:20,740 --> 00:17:25,930
+må det sjekke om at betingelse av ble oppfylt trudde nok av sånn trykk kanskje vil kaller er bank sjekk.
+
+145
+00:17:31,550 --> 00:17:34,610
+Betingelser. En kanskje bare sjekk.
+
+146
+00:17:34,610 --> 00:17:40,579
+Da ble vi gale av en sjekk på ammenhenger her jeg og da at det generelle steget d e at man
+
+147
+00:17:40,580 --> 00:17:49,470
+sjekke antagelsen mn for arima se en s dersom raritet n en av antagelig kan som du riktig æ.
+
+148
+00:17:49,580 --> 00:17:54,140
+Og så sånn sett så stemme vis fasit ikke med det generelle da.
+
+149
+00:17:55,570 --> 00:18:02,889
+Ja, så her burde kanskje et kort Stegene nummer to har da jeg sjekka ved antagelse eller sjekk av betingelse at for vårt konkrete tilfellet også Edie
+
+150
+00:18:02,890 --> 00:18:11,950
+å snakke om Steffen rariteter og sjekke det for den kreve det av hans nasjonalitet at feil statistiske egenskaper na ikke endre seg over ti.
+
+151
+00:18:13,220 --> 00:18:24,710
+Og en dag kan du gjøre forskjellige tester, og da kan i dag en bare gjøre en visuell inspeksjon og en avgi ertestore kan du gjerne si.
+
+152
+00:18:24,800 --> 00:18:29,510
+Nå har jeg aldri hørt om før også begynn vi å snakke her om vi hadde vi på oss, så det var nok oss.
+
+153
+00:18:29,510 --> 00:18:36,200
+Han eide en yupoteter kasting som vi alle har lært om i statistikken er vel koffer skal vi gjør det her og da,
+
+154
+00:18:36,200 --> 00:18:39,530
+Så i litt random coffe og brutt ut av øl en statistisk kasta her,
+
+155
+00:18:40,220 --> 00:18:46,640
+så n e så ede for at det skal bli noe litt mindre personavhengig da, for her kan du hvis du gjør det den bli sur.
+
+156
+00:18:46,640 --> 00:18:51,530
+Er det plass der så kan det slå ut begge veier og avheng av Me. Spør den en ein eller andre personen, så gjør det.
+
+157
+00:18:51,860 --> 00:18:55,670
+Så her gjør vi litt mer vitenskapelig og når gå ned i detaljer der.
+
+158
+00:18:55,970 --> 00:18:59,750
+Det gjør vi ikke før vi innfører absolutt regne hva det vil du skal bite.
+
+159
+00:18:59,750 --> 00:19:04,190
+Ung stein nummer to som dreier seg om å sjekke er antagelsen.
+
+160
+00:19:06,100 --> 00:19:12,190
+Når vi ser konkret her da på KOFA vi gjør det eats en visuell inspeksjon av er subjektiv,
+
+161
+00:19:12,190 --> 00:19:16,750
+altså to analytikere kan være uenige om en CLS ver stasjonær ut eller ikkje.
+
+162
+00:19:17,320 --> 00:19:20,470
+Topp er avgjerstestene gir et mer objektivt svar,
+
+163
+00:19:21,010 --> 00:19:29,430
+og da brukt ved å formulere det som en ny lik 00I proteser og den alternative hypoteser om det stasjonære eller ikke,
+
+164
+00:19:29,890 --> 00:19:35,170
+og så avhengig av kor lokal at min gode vi da legge oss på, så kan vi da komme med en n konklusjon.
+
+165
+00:19:36,620 --> 00:19:40,550
+Og da Og da er det sånn at hvis hvis det viste seg at.
+
+166
+00:19:41,670 --> 00:19:47,670
+Antagelsen er brutt da at man at man har at man har en ikke stasjonær.
+
+167
+00:19:49,580 --> 00:19:53,280
+En vits. Det ser jeg vagt med Aga etterspørsel.
+
+168
+00:19:54,810 --> 00:20:04,560
+Så jeg det man må bruke igjen i Arimara. Da må man gjerne det som gjør at en ikke stasjonær slik at du får en stasjonær.
+
+169
+00:20:06,520 --> 00:20:13,570
+En stasjonær. Det er et spørsmål, for eksempel sånn at drifte disse sånn at det e.
+
+170
+00:20:14,710 --> 00:20:19,570
+Hvis testen feila seg ikkje sånn at det alltid over, og vi kan bare pakke sammen og dra en vær app.
+
+171
+00:20:19,780 --> 00:20:27,790
+Mitt best mitt testen feilet avkom. Da gjør man noen ekstra grep og tilpasse dataene slik at det er slik at man faktisk
+
+172
+00:20:27,790 --> 00:20:33,249
+kan bruke metoden man i Beauty Read manipulerer ikke bade han naboer det sånn.
+
+173
+00:20:33,250 --> 00:20:39,000
+Vi ser bare på ei anna periode eller eller bekk gjøre en ytterlig begrensning som gjør at vi kan sjå at om er der,
+
+174
+00:20:39,000 --> 00:20:41,260
+lærer jeg dersom er tert faktisk gjeldende.
+
+175
+00:20:41,260 --> 00:20:50,860
+Alles medvind om at i da et eksempel på s en ikke stasjonær i tet jeg jo trend for eksempel i en trend som så øker jo etterspørselen.
+
+176
+00:20:51,880 --> 00:20:57,820
+Over tid da at hvis du har en økende trend som økende over tid, og da ønsker stasjonære samt for,
+
+177
+00:20:57,820 --> 00:21:03,100
+da vil for eksempel forventningsverdien da eller damp ville da øke over tid,
+
+178
+00:21:03,110 --> 00:21:10,749
+og det vil ikke la være stasjonær og går å håndtere det er så må du må du på måtte trekke vekk da er det du
+
+179
+00:21:10,750 --> 00:21:18,870
+må du må differensiere bort trendene ved trendene og enkel elegant er eneste du treng for finne trendene,
+
+180
+00:21:18,940 --> 00:21:31,480
+og at ved å det og det jeg gjorde en er er stigningstallet er intet opp den at du kan bare du kan fjerne den vekk af både å æ får du å.
+
+181
+00:21:33,660 --> 00:21:44,989
+Æ både å. Blant meg med en gang du ser at den trengs hans rede på måte ø en effekt som
+
+182
+00:21:44,990 --> 00:21:48,290
+du har lagt merke det som du kan trekke bort det er enkelt å fjerne den da,
+
+183
+00:21:48,710 --> 00:21:52,130
+hvis også sitter du igjen med et mønster som du da kan bruke Arima på da.
+
+184
+00:21:53,290 --> 00:21:57,400
+Og er det bare dager økter hvis vi ser her differensiering hvis nødvendig hjelp.
+
+185
+00:21:57,520 --> 00:22:03,849
+Nå ser jeg på endringer er iherdig da jeg at mye etterspørsel da er igjen med observasjon på tidspunktet for kampen
+
+186
+00:22:03,850 --> 00:22:11,650
+salget i moden tera så etterspørselen jeg og visste vokse jamt da fra måned til måned at det øke med ti goer måned.
+
+187
+00:22:11,830 --> 00:22:19,870
+Så jeg er å. Endringa skapt betyr at vi kan modellere endring av nå og hjertet av marie er rimelig for endring av ned og
+
+188
+00:22:19,870 --> 00:22:26,709
+konstant dag og der ser lol det var jo akkurat et eksempler i brukt drar ikke hva mitt salg vokser jevnt.
+
+189
+00:22:26,710 --> 00:22:31,430
+Det betyr at det økende transanted vekst med 20 med tida er jo sant.
+
+190
+00:22:31,840 --> 00:22:39,670
+Og da ser du at tid tid ti. Jeg jo stasjonert. Så er da dags, så så da, da vil du på måtte trekke ifra.
+
+191
+00:22:41,680 --> 00:22:47,890
+Hvis hun tar differansen mellom hundre og 110 og under 20 hun ut de og under trendene så ser du at du får en stasjonær.
+
+192
+00:22:48,310 --> 00:23:02,230
+Æ er en stasjonære Pans sekvens, altså, samme forventning var det æ og, men det krydde ikke sånn at den nødt å være ti da vi satt der.
+
+193
+00:23:02,230 --> 00:23:06,070
+Det vil være ti pluss hvit støy da som leide er gitt alt.
+
+194
+00:23:07,420 --> 00:23:10,840
+Det vil være ti pluss en viss variant data.
+
+195
+00:23:11,020 --> 00:23:16,990
+Du kunne godt vært ti og elleve og tolv og ni i og sånn, men variansen er også stasjonær rundt DNA.
+
+196
+00:23:18,540 --> 00:23:22,079
+Om det hang med på det. Men er det ja, så det jeg det endring.
+
+197
+00:23:22,080 --> 00:23:27,090
+Han er eldre som er grovt sett tida i gjennomsnitt over tid bra form for venner
+
+198
+00:23:27,090 --> 00:23:32,070
+gjelder fra nå leter med annen riktig diss statistiske måla som forventningsverdi,
+
+199
+00:23:32,370 --> 00:23:42,100
+standardavvik og autokorrelasjon. Æ vil være Ø vil ikke være avhengig av tia na vil være konstant dobbel over tida.
+
+200
+00:23:43,470 --> 00:23:48,299
+Enklere kan det ikke havne i. Kan faktisk dele seg da de får klarere lepper annen rundt.
+
+201
+00:23:48,300 --> 00:23:51,460
+Det er der for du at det er den best.
+
+202
+00:23:51,510 --> 00:23:56,580
+Bytt penn om jeg fungerer da. Å både rangere og der å.
+
+203
+00:23:58,850 --> 00:24:02,810
+Blant. Så hvis det de ser dokker damene er nå, så er vi.
+
+204
+00:24:04,560 --> 00:24:15,010
+På stasjon er It's for knappen. Og dette er også andre ting som dukker opp.
+
+205
+00:24:15,340 --> 00:24:20,049
+I prinsippet kan øve absolutt beare om å få klare jur.
+
+206
+00:24:20,050 --> 00:24:25,000
+Bratt breidde. Ikkje beskjeden med det det det en veldig dum, god og måte å gjøre det på meg i da.
+
+207
+00:24:26,880 --> 00:24:31,320
+Men hvis vi nå har stasjonalitet, det betyr at vi har en eller en av.
+
+208
+00:24:33,190 --> 00:24:38,120
+Tidsskjemaet står huset i bakkant, som stadig for eksempel Ø.
+
+209
+00:24:40,170 --> 00:24:43,650
+Og da da har vi noen faste størrelser. Alt vi har e.
+
+210
+00:24:44,010 --> 00:24:51,710
+Altså er forventningsverdien x dekk teksten. Boks Æ e å da gjerne mye etteran og tal.
+
+211
+00:24:52,860 --> 00:24:59,620
+Æ og y Full generalitet som kan beskrives som funksjon av t sånn at den endres.
+
+212
+00:24:59,620 --> 00:25:07,410
+C og jeg og det samme med Sigma. Også standardavviket av yte.
+
+213
+00:25:08,860 --> 00:25:16,240
+Kan også være en funksjon av tia t har for lille T. Der er også jeg du også den Aurora originalt.
+
+214
+00:25:17,400 --> 00:25:21,780
+Mellom u t og u t -1. For eksempel det det som er autokorråd.
+
+215
+00:25:24,980 --> 00:25:30,530
+Tonn grad. Æ og men.
+
+216
+00:25:31,460 --> 00:25:36,030
+Og hva innebærer det hvis vi skal se på et et faktisk keiser?
+
+217
+00:25:36,050 --> 00:25:39,320
+Jo, det følgende tiltak. Hvis du har.
+
+218
+00:25:42,590 --> 00:25:51,330
+Hvis du har en økende trend, må. Og støttet av forrige Abel.
+
+219
+00:25:52,560 --> 00:25:57,520
+Så ser du det at ved tidspunktet t her. Dette er trendene.
+
+220
+00:26:00,770 --> 00:26:05,600
+Da vil de tidspunktet t der c og høyden. Denne myte.
+
+221
+00:26:07,400 --> 00:26:13,910
+På et annet tidspunkt. Bemerket så ser du og glad my t.
+
+222
+00:26:13,940 --> 00:26:17,239
+Merket den med forskjellig denne høyere tå.
+
+223
+00:26:17,240 --> 00:26:21,410
+Her ser du det tenk på ikke stasjonære til et gitt vant for det at man har forskjellig,
+
+224
+00:26:22,910 --> 00:26:28,760
+man har forskjellig, man har en forventning som ældste over tid, og da kan man ta differansen.
+
+225
+00:26:29,810 --> 00:26:34,020
+En annen situasjon. Kom.
+
+226
+00:26:34,020 --> 00:26:44,249
+Også er jeg ikke stasjonær, da er den for eksempel logge har noe som tilsynelatende ser stasjonært ut, men på etter og nedtrykkmonte.
+
+227
+00:26:44,250 --> 00:26:53,740
+Der så gården litt an opp. Og så vil en over området i en Arendal periode se så der så det t.
+
+228
+00:26:53,920 --> 00:26:58,490
+Pluss s. Så hoppet opp igjen. På.
+
+229
+00:27:01,550 --> 00:27:10,040
+Bahari Sessong ser lukket og nesten alltid så vill hvis vi tar mye med hvis vi tar mye tid her da.
+
+230
+00:27:11,280 --> 00:27:21,540
+Det ser du at denne nesten konstant heile tia bortsett fra 11I1 periode hvor mye te plutselig e høy her du dont.
+
+231
+00:27:24,910 --> 00:27:31,560
+Punkt ø, og da vil du også har ikke stasjonaritet en annen situasjon hvor du ikke har stasjonaritet.
+
+232
+00:27:32,020 --> 00:27:38,550
+Henvist. Dette, og når dette har han når Forventningsverdien var ikke stasjonær.
+
+233
+00:27:38,850 --> 00:27:43,110
+Men man kan også har at standardavviket jeg ikke har som ikke stasjonært.
+
+234
+00:27:43,380 --> 00:27:53,700
+Og hvordan vil det se ut? EO standard og hvitt tegnesjern som besant skyer rundt en av punktan rundt her, ikke sant?
+
+235
+00:27:54,840 --> 00:27:58,050
+Det ser du akkurat her har vi da standardavviket ble.
+
+236
+00:28:03,730 --> 00:28:07,990
+Bong Sigmarte bevisste standard, har vi ikke noe begynne å øke nå.
+
+237
+00:28:10,010 --> 00:28:16,660
+Så det er sant at det blir meir og meir usikkert over tid, sa han. At 1010 ja, det påvirker usikkerheten også.
+
+238
+00:28:17,890 --> 00:28:33,580
+Vant, så søker det at noe vil stigmatt være større fordi at ja om et meg usikkerhet inn i inn i inn i situasjoner så her følger to forskjellige er.
+
+239
+00:28:36,050 --> 00:28:41,540
+Jo forskjellige den er o Den korrelasjonen er litt vanskeligere å tegne opp fordi
+
+240
+00:28:41,540 --> 00:28:49,160
+at det har med to variabler jeg men ikke har latt samme som ø antagelsen her.
+
+241
+00:28:51,570 --> 00:28:57,410
+Antagelse. Etatene ikke avhengig av tider.
+
+242
+00:28:59,630 --> 00:29:01,730
+En at den vil alltid være det samme.
+
+243
+00:29:01,760 --> 00:29:13,310
+Og da vil den skyen rundt disse streken være den samme er og den må være alltid like er jubileum og og forventningsverdien vil være den samme da.
+
+244
+00:29:14,840 --> 00:29:21,080
+Da det 1VE forskjellene. Da kan du fortsette pér.
+
+245
+00:29:27,630 --> 00:29:35,540
+Og det. Er.
+
+246
+00:29:37,400 --> 00:29:42,680
+Og så er det letter å identifisere deg av disse are parameter av våre.
+
+247
+00:29:42,890 --> 00:29:50,630
+Jeg vet vi kan generelle. Jeg skulle vært her det er identifisering av på den parameter da når jeg løsningen kalles det er
+
+248
+00:29:51,500 --> 00:29:57,650
+noe begynne på løsningsmetoder som jeg jeg det der en masse generelle her eller er en reelle.
+
+249
+00:29:59,220 --> 00:30:04,470
+En løsning ser sted i Grand løsning og det vi da må finne her.
+
+250
+00:30:04,470 --> 00:30:09,240
+Det da verdien for P og Q i vårt tilfelle alle kommer til å telle deg.
+
+251
+00:30:09,240 --> 00:30:12,450
+Hvilke parametere du trenger da og hvilke er en vert bia.
+
+252
+00:30:12,960 --> 00:30:20,130
+Jeg tenkte jeg og kun har a b ikke bare de som er variabler, men det de første var av Du må bestemme da.
+
+253
+00:30:24,260 --> 00:30:27,980
+Også ører ifra tilfellet. Her ser det kor mange tidligere Verdija.
+
+254
+00:30:29,150 --> 00:30:34,820
+Det er over mange tidligere feil, så modellen bør brukes av og det å det laveste i oss.
+
+255
+00:30:34,820 --> 00:30:42,229
+I følge da pelic en jeg mann i går han altså gå og legger ned så a c af og e asia
+
+256
+00:30:42,230 --> 00:30:47,510
+er verdt det som avslører den hvor lang tilbake i tid jeg dataene huske seg sjøl.
+
+257
+00:30:51,660 --> 00:30:58,740
+Så ediskusjon og om vi faktisk har er få klart kaldere, er jeg på kortleseren A seafock HiOAs i A5 blokka.
+
+258
+00:30:59,040 --> 00:31:03,460
+Atferden overfor Autocolle pensjonat er eller poetisk,
+
+259
+00:31:04,170 --> 00:31:10,560
+om vi sa det her oppe da Autocolleissen fengsel Ötzi, så ikke har ikke sett ham en pen stå på Park Patrol.
+
+260
+00:31:12,090 --> 00:31:19,650
+Bare der står det er der står det. Så her er da altså blitt en kollisjonssered funksjon av det, og det er en borring i skal jeg hoppe er opp i stad.
+
+261
+00:31:22,230 --> 00:31:29,620
+Så. Jeg visste at trenden eller en e gradvis avtagende, og så kuttes det etter den.
+
+262
+00:31:29,620 --> 00:31:36,370
+Legg også at dere lag også at det lage P og da bruker jeg p og satt Qlik null.
+
+263
+00:31:38,640 --> 00:31:45,420
+Å disse kutte er av at det er kula og så er det gradvis avtagende.
+
+264
+00:31:46,290 --> 00:31:56,340
+Da bruker vi Q og er oss at deler knull, og hvis det e e gradvis avtagende så ser vi at vi kan bruke både P og Q.
+
+265
+00:31:57,000 --> 00:32:03,209
+Så i l dette her i da tolkningsregler som vi da kommer nær innpå når vi går gjennom dette her.
+
+266
+00:32:03,210 --> 00:32:13,180
+Mer i detalj. Da, for å bare for å påpeke kjappfall, altså at noen vine på løsningsmetoder.
+
+267
+00:32:13,190 --> 00:32:17,569
+Det kan jo ofte være komplisert. Det kan være mye matematikk og vanskelig å forstå sånt,
+
+268
+00:32:17,570 --> 00:32:25,380
+men her skal vi da det viktig å forstå ideen bak det så følgelig vi knapt ka eco variant ka i korrelasjon satt?
+
+269
+00:32:25,460 --> 00:32:34,460
+Det må vi vite. Hvis du ikke gir veide, spør for gudskjelov en sant språk [INAUDIBLE] folk få grep på ba jeg hva jeg autokorrelasjon i snakk
+
+270
+00:32:34,460 --> 00:32:40,680
+sammenhengen mellom i dag og i går vi nok en av noen sammenheng er lille det heilt har det ingenting å si ja.
+
+271
+00:32:41,630 --> 00:32:49,160
+Ø. For eksempel laget han visst byste hvis veldig mange handla Pizza Grandiosa i går,
+
+272
+00:32:50,150 --> 00:32:54,830
+og at sannsynligheten for at veldig mange handle i dag liten satt for en kort bruke.
+
+273
+00:32:55,340 --> 00:33:01,190
+Spises i to pizza to dager på rad. Ja, for eksempel da æ sånt.
+
+274
+00:33:01,310 --> 00:33:05,000
+Så autokorelefonr må man forstå, så kommer man til det.
+
+275
+00:33:05,000 --> 00:33:08,780
+Opphøregnere Play kan være et mareritt, sant?
+
+276
+00:33:09,080 --> 00:33:12,680
+Vi skal beregne i sa størrelsen der med de dataene vi har.
+
+277
+00:33:13,040 --> 00:33:18,589
+Og det og med det datasettet var og det å der vi skal bruke parten bibliotek dem
+
+278
+00:33:18,590 --> 00:33:23,510
+skal gjør grovjobben for oss bør å beregne de der og så så skal vi kunne gjør.
+
+279
+00:33:23,510 --> 00:33:29,540
+Konklusjonen hans satt er om det e a r er om det er mai eller det om det begge deler da for eksempel.
+
+280
+00:33:37,130 --> 00:33:46,010
+Ja, det er veldig vesentlig å være klar over at dukke skal ikke sitte og jobbe med disse formland og og og liksom vri heller ikke skjult,
+
+281
+00:33:46,010 --> 00:33:53,510
+for det kan være veldig vanskelig. Her skal vi la an få å boltre seg og å lage den koden som gjør at vi kan.
+
+282
+00:33:53,930 --> 00:33:57,080
+Det er enkelt beregne viser, størrelse av napp og så.
+
+283
+00:33:57,410 --> 00:34:05,900
+Ø Få hjelp må konkludere, men her må. Men når jobben gjort så må vi inn å tolke sjøl sammen med annen hjerne.
+
+284
+00:34:06,170 --> 00:34:09,140
+Men her er det viktig at vi er med i prosessene.
+
+285
+00:34:10,220 --> 00:34:16,820
+Når vi er ferdig og skal begynne tolkedataene og løten ber olkning kan burde kan bli kan være vanskelige problem.
+
+286
+00:34:19,560 --> 00:34:21,840
+Og jeg. Og så kommer vi etter modell.
+
+287
+00:34:25,300 --> 00:34:35,320
+Innta land som best beskriver, mens Strand i Data Norge har valgt da er pek gjør det og q og få med dem ut fra data og volte som er hensiktsmessig,
+
+288
+00:34:35,320 --> 00:34:40,660
+så må jeg finne dem konkrete ved bekk da Norsk offisielt han som gir best tilpasning for data.
+
+289
+00:34:41,890 --> 00:34:48,490
+Vi må så velge mellom kandidatene eller hvilken en moderne idé som passer best.
+
+290
+00:34:51,630 --> 00:34:55,800
+Å en når det gjeld kompis jente her bålkos min kompis jenta religion jeg da snakke og
+
+291
+00:34:55,800 --> 00:35:01,140
+snakke om er det ble pakket med usikre på det kan vi snakker vi søker en gidder se en.
+
+292
+00:35:05,780 --> 00:35:12,920
+Et kjapt tall, bare sånn men men. Men den av typen som ikke gjør nå, det ønsker vi også at dokker skal gjør.
+
+293
+00:35:13,250 --> 00:35:19,040
+Ja, innen det området og dokker velger da for bølgene er det å regne ut hva du har jeg delt før med den andre.
+
+294
+00:35:20,120 --> 00:35:27,430
+Det må jeg rette. Er man setter vinstokker har hvis du kan harete.
+
+295
+00:35:28,560 --> 00:35:34,210
+Datasett adjuvant. Og så har vi tida her.
+
+296
+00:35:36,360 --> 00:35:41,530
+Da har vi noen punkter. På.
+
+297
+00:35:44,080 --> 00:35:54,150
+Norge kan være I1I2 Ytre 24 u5 u seks Ursula for gamle.
+
+298
+00:35:55,280 --> 00:36:00,059
+Over telekula stod. Æ og har.
+
+299
+00:36:00,060 --> 00:36:04,260
+Vi skal jo da prøve å finne neste neste punkt da.
+
+300
+00:36:09,790 --> 00:36:21,100
+For eksempel. Så. Så er det.
+
+301
+00:36:24,070 --> 00:36:31,540
+Då er det to effekter som ut etter to er komponenter da.
+
+302
+00:36:35,370 --> 00:36:38,790
+Som er med å bestemme ka t8 skal bli.
+
+303
+00:36:38,790 --> 00:36:44,430
+A rant for det Den vi lurer på la i t8 etter soldatene si at yter åtte.
+
+304
+00:36:47,020 --> 00:36:52,700
+Bera åtte ved åtte ra. Havna her da Aveva var grønnsak.
+
+305
+00:36:53,510 --> 00:36:57,140
+Så spørre hvor skjørt kommer? Står den i T8 av?
+
+306
+00:36:57,740 --> 00:37:06,590
+Og så hvordan er den bygd opp? Koffer ble en akkurat så høy grad det det vi lurer på e hvorfor akkurat så høy unisont koffer havna der.
+
+307
+00:37:07,860 --> 00:37:12,290
+Det vi gjør da er at vi tar lan, også deler vi nok bit få.
+
+308
+00:37:14,830 --> 00:37:17,980
+To størrelser. Bolt.
+
+309
+00:37:19,820 --> 00:37:29,160
+En autokorrelasjon. En øy er del eda den ene høyden i natt.
+
+310
+00:37:31,040 --> 00:37:39,650
+Med en Alana kopp med en en eller na par meter p og så jeg d en ø feil komponent 1MA.
+
+311
+00:37:40,130 --> 00:37:47,140
+Vel, her. Bontveit og to.
+
+312
+00:37:47,210 --> 00:37:50,930
+Summen av de to utgjør 28 pluss.
+
+313
+00:37:52,240 --> 00:37:58,900
+En ramat staude appla Debio sjekk sagt sant før vi kan og vil bli må alltid legge te pluss vid Stauda
+
+314
+00:37:59,670 --> 00:38:06,370
+samt øvrig med den tar ikke med her visste jeg idet en normalfordeling kan det bli tenk og grått,
+
+315
+00:38:06,760 --> 00:38:12,890
+mener aner. Hvitt er ved med en vet med med uforklart vet er det vi forklare.
+
+316
+00:38:13,470 --> 00:38:21,340
+Og så har vi også et uforklart del som e e e variasjon rundt det punktet da og der og det en da en
+
+317
+00:38:21,340 --> 00:38:29,860
+hvit støy n Normalfordeling null Sigma bor Sigma ei ener Hana er en ener han av standardavvik da,
+
+318
+00:38:30,670 --> 00:38:37,360
+men han tar ikke med her for da at den da ned på måte bare bakt inn i ut usikkerhetene det den usikkerheten vi ikke klarer å forklare.
+
+319
+00:38:41,520 --> 00:38:48,330
+Tuba E. Hva er den biten her? Ø Den e.
+
+320
+00:38:49,660 --> 00:38:58,510
+Det som kalles for hva og hvordan. Yo åtte er bygd opp av Y sju ut seks U5 i fire.
+
+321
+00:38:59,020 --> 00:39:06,340
+Height med P ledes tilbake i tid, så anta nå for eksempel at pelik fire da barbara eCall.
+
+322
+00:39:07,300 --> 00:39:10,000
+Det, hvis vi nå skrivd a er fire her,
+
+323
+00:39:10,270 --> 00:39:24,130
+så betyr det at vi bruke fire A-2 ø fire korrosjon korrelasjonsledd tilbake tids da er det både da da er der bildet her fire da så det er det ushu,
+
+324
+00:39:24,640 --> 00:39:30,299
+så da går det autokorrelasjon går her. Det vil bruke den fire.
+
+325
+00:39:30,300 --> 00:39:36,660
+Siste målinga og virke da Cars Beckham målinga i åtte skal bli.
+
+326
+00:39:39,200 --> 00:39:44,749
+Og da skriver hjernen dens at det er noe litt usikker på hvordan man skriver i så fianadon,
+
+327
+00:39:44,750 --> 00:39:51,620
+men i Barclays bare skrive det for hånd, så i å da en rana da.
+
+328
+00:39:51,620 --> 00:39:59,030
+Så ar fire her da i og da 111 vekk da gjennomsnitt av de fire siste målingane.
+
+329
+00:40:00,050 --> 00:40:06,030
+Så vi har da. Om.
+
+330
+00:40:12,730 --> 00:40:19,260
+Ni en. I en. Pluss bra øve øve fiendtlig true.
+
+331
+00:40:19,650 --> 00:40:25,850
+Du doner no. Da hadde jeg vel fire.
+
+332
+00:40:26,190 --> 00:40:32,749
+Husker ikke helt kosen da, men det er bare konkurrenten, samt rytonede fra en av de eldre.
+
+333
+00:40:32,750 --> 00:40:36,980
+Bare fire, fem, seks og 20. Og med det er det også EFI 1I4.
+
+334
+00:40:37,460 --> 00:40:43,730
+En fikk vann i i fem. Ushuaia er ufør av i sju seks.
+
+335
+00:40:47,050 --> 00:40:51,880
+Beam+ M og fire for det var fire tilbake da så.
+
+336
+00:40:52,940 --> 00:41:00,980
+P. Derfor må vi bestemme kun først, samt for når vi har bestemt køen så veit vi hvor mange parametre Belgia har, og de flyr der.
+
+337
+00:41:03,920 --> 00:41:13,650
+Med ukjent. Så dette er, må og må estimeres, må bestemt må estimeres.
+
+338
+00:41:24,230 --> 00:41:28,340
+Og så har vi. Bøyle leda.
+
+339
+00:41:31,350 --> 00:41:36,630
+På mer av det det neste leddet er, og det svare til den delen som.
+
+340
+00:41:38,780 --> 00:41:42,040
+Som ansees som en for uforventet.
+
+341
+00:41:44,040 --> 00:41:50,150
+En uten en uventa. En uventa.
+
+342
+00:41:56,230 --> 00:42:01,660
+En uventa hendelse rappen nokka som du nokka som skjedde som du ikkje hadde kontroll på da,
+
+343
+00:42:02,080 --> 00:42:05,230
+men som du observerte det igjen og b ved å se på differansen na.
+
+344
+00:42:09,570 --> 00:42:15,950
+Der ser du differanse. Og deretter.
+
+345
+00:42:18,870 --> 00:42:22,670
+Men dette er i dag E fire. FM.
+
+346
+00:42:35,640 --> 00:42:54,220
+A og E. FE7S6P da Bahamas Vi så med da på differansen er og må det i prinsippet kor lenge den differansen leve da, og det kun da.
+
+347
+00:42:54,550 --> 00:43:00,820
+Hvem kan gå lengre tilbake i tid, eller en kan gå kortere tilbake i tid, og da vil du få en sånn.
+
+348
+00:43:01,390 --> 00:43:07,940
+Da vil du bruke en annen. ANS større talaøpetabell en.
+
+349
+00:43:13,810 --> 00:43:17,379
+Da blir det en rarere en bokstav en foran er det en sier.
+
+350
+00:43:17,380 --> 00:43:22,300
+Det var en kompis igjen før meg av og i vekk da av og den kan for eksempel være tre.
+
+351
+00:43:22,540 --> 00:43:33,040
+Da har du bare tre ledd der da. Seks. Bru ser bare på tre av peiledaner, og den vil også da være ukjente da.
+
+352
+00:43:34,650 --> 00:43:42,990
+Topp, p og ooog oppgave en eda å bestemme Oskal de sa fi Han var som tilpasse data best mulig da,
+
+353
+00:43:42,990 --> 00:43:48,240
+og det samme med de ta kalkatter epsijana nå må også tilpasse datan er best,
+
+354
+00:43:48,510 --> 00:43:55,560
+og i anna så må vi bruke et altenbibliotek til å estimere hva de hva de sa Størrelsen skal være for eksempel.
+
+355
+00:43:58,020 --> 00:44:01,470
+Og sånn nede av arma bygges opp og noe har fått tatt med igjen.
+
+356
+00:44:01,830 --> 00:44:10,410
+Men igjen en e. Typisk bare hvis du har tatt det Differansen mellom oppmåling og na x antall ganger så dem denne noe du er først da?
+
+357
+00:44:10,980 --> 00:44:16,260
+Den er neppe å finne av Googles jernbanfienfi. To av fitre ellipse hjelp si to ops i tre og så videre.
+
+358
+00:44:16,590 --> 00:44:20,870
+Det er bruker jeg da og balkan til å gjør avde arbeider kanskje alt landbruk
+
+359
+00:44:21,420 --> 00:44:26,760
+mat max vm lagelig ud st maizena for å finne han de passe best e riktig nede
+
+360
+00:44:26,760 --> 00:44:37,770
+at av dem vil da bruke en matematisk bibliotek til å beregne dem er og det skal 20 dokker sitte å gjøre for hong sjøl ser på en gli da skal dokker er.
+
+361
+00:44:39,300 --> 00:44:46,710
+Generere koden som lage dem pålogget og og som gjennomføre dem analysene.
+
+362
+00:44:47,800 --> 00:44:52,810
+Da. Men men det som er viktig. Klokker er på måtte vi tok hva det overordna bildet her.
+
+363
+00:44:52,810 --> 00:44:55,900
+Det er vesentlig. Hva er det som lokker skal jeg jo nok.
+
+364
+00:44:55,900 --> 00:44:59,139
+Vi skal be. Vi har da gått ut i fra en modell dette her.
+
+365
+00:44:59,140 --> 00:45:02,470
+Jo, en Arma tre fire modell er intet annet.
+
+366
+00:45:02,620 --> 00:45:12,820
+Og da må dokker r ø bestemme de un confidence han som er som den modellen har som ukjent da?
+
+367
+00:45:13,540 --> 00:45:18,490
+Ø og Ø, Og det lar seg fullt gjøre. Hva med peisen, bibliotek og sånn ting?
+
+368
+00:45:18,700 --> 00:45:22,900
+Problemet er at vanligvis det det ganske komplisert problemprogrammering,
+
+369
+00:45:23,170 --> 00:45:28,990
+sa Deng litt en krevende vanskelig sak som student han på en bachelor nivå ikke får det heile tatt,
+
+370
+00:45:29,470 --> 00:45:36,220
+men med A i bakhånd nå ser det er fullt gjennomførbart og en klarer detta ganske ganske bra.
+
+371
+00:45:36,730 --> 00:45:39,940
+Ja, og det våre e må skal vi ta pause før vi tar siste timen.
+
+372
+00:45:39,940 --> 00:45:43,870
+Man det som er en del av egenskapen som de ønsker å fremtøff.
+
+373
+00:45:43,870 --> 00:45:50,859
+Det e framelske her i dette faget ved å også evne å kunne styre et prosjekt på et overordnet nivå med det kraftige verktøy.
+
+374
+00:45:50,860 --> 00:45:59,019
+Gjør som Åge utarbeider da vite alle detaljer om kva som foregår med VEKS maksimum lagt ved hud og dating både ed egenverdier
+
+375
+00:45:59,020 --> 00:46:05,169
+av det eget egenskap og det det eget rør ved og og få det her så foreslår jeg at vi går etter pause bør vi ta siste tid?
+
+376
+00:46:05,170 --> 00:46:12,250
+Var det bra jeg holder det med til jeg, Eva, jeg naturell. Det vil ta være pause no frem til kvart over, og da tar vi en siste time.
+
+377
+00:59:55,230 --> 01:00:01,320
+Og er evig glad dere i mellom ro eller time nummer tre som ble siste vetten.
+
+378
+01:00:06,900 --> 01:00:13,330
+Det. Bare. Da jeg ble.
+
+379
+01:00:17,010 --> 01:00:20,070
+Vi stoppa hele den allerede på rad, og vi tar en stoppe en han.
+
+380
+01:00:22,810 --> 01:00:22,990
+Er.
+

@@ -1,0 +1,1134 @@
+1
+00:00:02,039 --> 00:00:07,143
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Hei, 
+alle sammen. Til dagens forelesning ... Vi tar sikte på to
+
+2
+00:00:07,203 --> 00:00:17,222
+forelesninger i dag. Stemmer ikke det, Bård Ringen? Jo. Og grunnen til 
+det, at vi kjører hardt på nå ... Det har vært mange forelesninger. Det er
+
+3
+00:00:17,322 --> 00:00:28,605
+inne i den perioden der vi er det mest sensitive i kurset vi holder på med. 
+Altså sjølve gjennomføringa. Rapportskriving og analyse. Og derfor
+
+4
+00:00:28,686 --> 00:00:38,729
+så ønsker vi å komme gjennom den milepælen før påske. Og derfor tar vi to 
+timer nå og prøver å fortsette der vi var sist gang.
+
+5
+00:00:42,387 --> 00:00:53,631
+Det er en rigg mellom hver gang å komme tilbake igjen. Så det er bra å ha et 
+sånt status.markdown-fil. For der ser vi at vi har fått Ain til å tikke av
+
+6
+00:00:53,731 --> 00:01:02,834
+alle de punktene som vi er ferdig med. Og der står det også hva vi skal ha 
+som neste aktivitet.
+
+7
+00:01:09,590 --> 00:01:12,972
+Vi forstår at det kan bli litt vanskelig å
+
+8
+00:01:14,933 --> 00:01:25,958
+forstå alle aspekter ved de metodene vi har. Så det er en del av 
+utfordringa og kanskje en del av basisferdighetene som er i kurset her.
+
+9
+00:01:26,498 --> 00:01:37,628
+Det er faktisk å sjøl ha evne og en indre drive til å kunne sette seg inn i, 
+og egentlig bruke også AI, til å sette seg inn i det som trengs av
+
+10
+00:01:37,668 --> 00:01:48,877
+modeller, og diskutere med AI. For det er sånn som vi gjør både i dette 
+prosjektet her, veldig mye, når vi skriver bøker, og også med teoretisk
+
+11
+00:01:48,917 --> 00:02:02,846
+politikk som vi holder på med, kvantefysikk, så diskuterer jeg veldig 
+mye med ... Og det er en enormt god diskusjonspartner. Men det må styres
+
+12
+00:02:02,986 --> 00:02:13,775
+av oss. Det må være som det er en analogi. At man har gnisten og 
+initiativet til å komme fra oss mennesker. Men når det er gjort, så er den
+
+13
+00:02:13,875 --> 00:02:22,381
+andre da veldig sterk. Og de som også har hatt prosjektledelse, så ser du 
+at det er å være prosjektleder. Det er da du må ha en drive og overordna
+
+14
+00:02:22,501 --> 00:02:31,268
+ansvar for gjennomføringa av prosjektet. Så her er det da de 
+egenskapene som kanskje de fleste av dere har, og som kanskje de fleste
+
+15
+00:02:31,288 --> 00:02:45,680
+av dere har hatt til prosjektledelse, får teste seg litt. Så dette mener 
+jeg er et godt fag som er helt nymotens, som er helt nytt i kjølebanen av
+
+16
+00:02:45,740 --> 00:02:55,717
+a-en og den styrken og krafta som den representerer. Og også der vi nå får 
+testa prosjektleder og gjennomføringsgradsevnen våre. I tillegg til
+
+17
+00:02:55,737 --> 00:03:07,666
+de tekniske utfordringene. Så det er mange ting her vi får testa. Og også 
+de som hadde IBE 160. De får også testa egenskapene sine. Vi må ha mange
+
+18
+00:03:07,706 --> 00:03:08,247
+aspekt her.
+
+19
+00:03:11,409 --> 00:03:20,436
+Nå kan jeg si at jeg har purpa på dekanen for å få lisenser. Har ikke hørt 
+det var fra han, så jeg skal purre enda mer.
+
+20
+00:03:27,948 --> 00:03:38,333
+Ja. Det er vanskelig å få tak i han. Rett og slett. Jeg holder på å gjøre 
+litt opprydning i forhold til
+
+21
+00:03:41,055 --> 00:03:43,276
+noen Claude-kommandoer, sier brukeren.
+
+22
+00:03:49,018 --> 00:03:51,120
+Ja. Slik at jeg ikke gjentar meg sjøl hele tida.
+
+23
+00:03:54,641 --> 00:04:02,102
+Så vi hadde en ... En
+
+24
+00:04:02,142 --> 00:04:14,524
+skill som heter Review Activity, eller Review Act. For hver gang vi er 
+ferdig med en aktivitet i statuslinja år, så skal vi gjennomføre review
+
+25
+00:04:14,544 --> 00:04:24,526
+og look-aktiviteten. Da bruker vi review act, som er en lagra prompt, 
+slik at vi slipper å skrive opp igjen den prompten hele tida.
+
+26
+00:04:44,982 --> 00:04:52,464
+Og så har jeg en som heter Prime.
+
+27
+00:04:52,544 --> 00:05:03,406
+Hvor vi skal hente oss inn igjen i forhold til hva vi gjorde sist gang, da. 
+Hva var den første pila? Det var Prime, sa du? Og før det, som sa du at vi
+
+28
+00:05:03,446 --> 00:05:15,046
+hadde? Review Act. Vi har mange ting å forholde oss til nå. Vi har agents, 
+vi har Claude, vi har skills. Og vi har ... Så ...
+
+29
+00:05:43,808 --> 00:05:50,012
+Den ønsker
+
+30
+00:05:50,152 --> 00:05:58,597
+egentlig at vi skal lage en skill ut av den. Så da har vi to kommandoer. Det
+
+31
+00:06:01,919 --> 00:06:10,540
+er veldig bra at vi rydder litt opp og ser hvor mange filer vi faktisk 
+bruker og trenger. Det er mange ting å forholde oss til. Men som sagt, det
+
+32
+00:06:10,620 --> 00:06:21,642
+vi har, det er Claude og Agent og Skills og Review Act. Det er riktig å si at 
+det er de tre som er de tre viktigste når det gjelder ... Ja. Altså, nå ...
+
+33
+00:06:21,902 --> 00:06:31,845
+Det kommer an på hvilken AI du bruker, da. Så hvis du bruker Claude, så må 
+du ha fokus på Claude-folderen. Hvis du bruker Codex, så må du ha fokus på
+
+34
+00:06:31,885 --> 00:06:47,557
+Codex-folderen, da. Men jeg har nå brukt Claude foreløpig. Skills er på 
+tvers av AI? Ja, for så vidt. Men litt avhengig av hvor du legger dem hen,
+
+35
+00:06:47,577 --> 00:06:59,683
+da. Så nå har jeg skills her under Claude, og så har jeg skills under Codex 
+også. Og så går det an å slå dem sammen litt, men da mister du noen
+
+36
+00:06:59,723 --> 00:07:15,048
+funksjonaliteter. Jeg liker egentlig å ha skillsen i den AI-en som man 
+bruker. Ja. Betyr det at skillsen som er der nå, egentlig er den samme,
+
+37
+00:07:15,088 --> 00:07:25,954
+bare litt mer tilpassa hvilke dager det er? Riktig. Spot on. Ja. Og samme 
+med agent og claude. Cloude.marknavn er for Claude, og agent.marknavn
+
+38
+00:07:26,014 --> 00:07:39,680
+er for Codex. Riktig. Og saken er jo det at man har en felles standard for 
+en skill, da. Så alle AEA bruker en felles standard. Men den standarden,
+
+39
+00:07:39,700 --> 00:07:43,462
+den er minste felles ...
+
+40
+00:07:46,584 --> 00:08:04,294
+Altså, den er på en måte et subsett av alle. Ikke sant? Sånn at Claude 
+f.eks. har ekstra features med en skill som du ikke vil fange opp i Codex.
+
+41
+00:08:04,951 --> 00:08:16,679
+Du har et minste felles skjema for skill, og så
+
+42
+00:08:16,719 --> 00:08:28,166
+har du spesialiteter for hvert av aiene. Derfor liker jeg å ha dem i sin 
+egen folder, for da kan vi bruke det direkte for Claude. Da kan vi utnytte
+
+43
+00:08:28,206 --> 00:08:40,300
+de ekstraegenskapene som Claude har, som ikke de andre har. Det er ikke 
+noe studentene kan kopiere og bruke? De må lage sine egne versjoner av
+
+44
+00:08:40,340 --> 00:08:50,624
+skills, basert på sitt eget spesifikke prosjekt? Ja, riktig. Kan du si 
+helt kort hva som er forskjellen på en skills som er under Claude,
+
+45
+00:08:50,644 --> 00:08:56,826
+f.eks., og claude.markedown, som er helt nederst? De er ikke 
+komplementære? De er ikke overlappende, eller? Nei, det er ikke det.
+
+46
+00:09:03,642 --> 00:09:10,686
+Jeg kan prøve å vise deg litt, mens vi ...
+
+47
+00:09:10,746 --> 00:09:21,671
+Jeg tror vi må tilbake igjen til tegnebrettet, for at folk skal forstå 
+dette godt. Jeg skal stoppe sharing der, og det gjør ikke noe, for i
+
+48
+00:09:21,711 --> 00:09:33,494
+mellomtida står AI og jobber litt. Men det er et godt spørsmålstegn òg. 
+Vi skal jo lære å bruke AI her samtidig. Utvikla
+
+49
+00:09:35,614 --> 00:09:36,295
+siden sist.
+
+50
+00:09:38,996 --> 00:09:49,341
+Man hadde YB160, så derfor så ... Jeg tror ikke du har delt i. Jeg prøvde 
+der ... der. Nå er det delt, ja. Da ser vi.
+
+51
+00:09:54,023 --> 00:09:56,764
+Så først så har man en skill, OK?
+
+52
+00:10:01,102 --> 00:10:06,544
+Og det er da bare rett og slett en lagret prompt.
+
+53
+00:10:13,887 --> 00:10:30,193
+Man ... Hvorfor kommer du hjem? Skal ikke du gjøre den? En lagring hvor 
+man kan gjenbruke.
+
+54
+00:10:34,042 --> 00:10:49,153
+Det er poenget med en skill. Man starter den ved å skrive f.eks. den 
+slashen, og så navnet på skillen. F.eks. review, da. Slashen er dette på
+
+55
+00:10:49,233 --> 00:11:02,442
+sjutallet, det? Ja. Det er den som aktiverer skillen. Og da vil den bruke 
+den lagra prompten på nytt igjen. Her kan du ha med arguments.
+
+56
+00:11:07,167 --> 00:11:20,997
+Typisk her, så vil du fortelle hvilken aktivitet det er. F.eks.: : Den 
+der kan f.eks. være lik akt 3-3, f.eks.
+
+57
+00:11:25,221 --> 00:11:36,069
+Så det er av hensikt med en skill. Og så har vi en standard for hvordan en 
+skill skal beskrives. Den er felles.
+
+58
+00:11:38,892 --> 00:11:41,414
+Den er en standard her,
+
+59
+00:11:46,038 --> 00:11:57,186
+som sier hvordan innholdet i en skill skal skrives. Dette vet gjerne A1, 
+så jeg bare ber A1 skrive rett. Standarden er felles for alle. Men så har
+
+60
+00:11:57,226 --> 00:12:18,086
+du Claude. Den har flere felter som en kan godta. Og så har du f.eks. 
+codex. Ja, det var feil. Alle har ... Han må jo ta kontroll Z-bord, så
+
+61
+00:12:20,807 --> 00:12:35,272
+forsvinner den. Kontroll Z. Å ja. Og så kan du ha codex her, f.eks. Men 
+alle inneholder standarden. Felles standard. Alle oppfyller
+
+62
+00:12:35,292 --> 00:12:51,621
+fellesstandarden, men så har de sine egne. Derfor liker jeg å ha hver 
+skill spesialdesigna for en gitt AE. Denne her kjøres
+
+63
+00:12:56,045 --> 00:12:59,408
+enten explicit ... sant.
+
+64
+00:13:05,152 --> 00:13:08,014
+For at du skriver review sånn som dette her ...
+
+65
+00:13:11,165 --> 00:13:12,186
+Da
+
+66
+00:13:15,588 --> 00:13:32,660
+kjører du den. Men den kan også startes automatisk av Claude, eller 
+automatisk av Ayen. Det er fordi du har sånne stikkord i en sånn fil,
+
+67
+00:13:32,740 --> 00:13:33,160
+stikkord.
+
+68
+00:13:38,941 --> 00:13:52,369
+Hvis du f.eks. i teksten skriver bare ... ".Lag en review av akt 3.3." ", 
+så kan det godt hende at A1 skjønner at du skal kjøre den kommandoen. Det
+
+69
+00:13:52,429 --> 00:13:59,953
+kommer av at du har en stikkordsliste eller en beskrivelse. Denne kan du 
+kjøre så ofte du vil.
+
+70
+00:14:09,535 --> 00:14:14,177
+Du kan gjøre det om igjen og om igjen. For nye aktiviteter. En repetert
+
+71
+00:14:17,278 --> 00:14:23,701
+oppgave. Så nevnte du claude.md
+
+72
+00:14:24,982 --> 00:14:31,324
+eller agent.md.
+
+73
+00:14:31,404 --> 00:14:39,348
+Og hva er det for noe? Det er en instruksjonsfil.
+
+74
+00:14:43,285 --> 00:14:47,227
+Dette er for Claude. Og
+
+75
+00:14:52,809 --> 00:14:53,629
+dette er for Codex.
+
+76
+00:14:56,390 --> 00:14:58,411
+Og det er da en instruksjonsfil
+
+77
+00:15:04,133 --> 00:15:05,174
+som leses
+
+78
+00:15:08,495 --> 00:15:08,855
+én gang ...
+
+79
+00:15:11,804 --> 00:15:13,964
+Ved oppstart
+
+80
+00:15:18,445 --> 00:15:21,126
+av en ny sesjon.
+
+81
+00:15:26,387 --> 00:15:32,088
+OK? Så det er informasjon ... Det er ofte det jeg kalte for ... Det kan også 
+tenkes på som en systempromp, da.
+
+82
+00:15:42,095 --> 00:15:45,057
+Når
+
+83
+00:15:45,097 --> 00:15:59,526
+du starter en ny sesjon, så kan du anta at Claude veit hva som står i den 
+fila. Det betyr at når du f.eks. åpner opp VS Code på nytt, og så laster du
+
+84
+00:15:59,566 --> 00:16:07,450
+opp filene og det prosjektet som du holder på med, og så går du inn i det 
+prosjektet, så leser han da Claude for å vite hva det dreier seg om.
+
+85
+00:16:10,597 --> 00:16:19,684
+Dette er en engangsfil som har instruksjoner, mens en skill
+
+86
+00:16:19,704 --> 00:16:33,454
+er noe du kan bruke om igjen og om igjen, som da har en skill, da en 
+egenskap. Nå har vi lagd ... Nå skal jeg gå ut igjen herfra og så gå inn
+
+87
+00:16:33,474 --> 00:16:37,037
+igjen derfra. Jeg har lagd nå tre skills.
+
+88
+00:16:39,706 --> 00:16:54,549
+I vårt prosjekt. Den ene heter Review Act, som gjør reviewen vår. Den 
+andre heter Prime, som skal starte opp. Hva gjorde vi sist gang og sånne
+
+89
+00:16:54,569 --> 00:17:06,731
+ting. Så vi slipper å skrive opp igjen det hele tida. Så kan vi bare kjøre 
+Prime. Og handoff er en spesiell ting. Det er en måte å ... Når du skal
+
+90
+00:17:06,771 --> 00:17:18,088
+levere en oppgave videre til en annen agent. Den har jeg ikke bruk for 
+ennå, men jeg har den med, just in case. Så la oss ta et eksempel her. Bare
+
+91
+00:17:18,749 --> 00:17:22,591
+går ut av den der. Går inn igjen.
+
+92
+00:17:25,513 --> 00:17:34,480
+Og nå skal vi begynne, sant? Og jeg kan alltid gå inn og sjekke hva jeg har 
+gjort og sånne ting. Men la oss se om prime fungerer nå. Da trykker jeg
+
+93
+00:17:34,520 --> 00:17:36,341
+bare slash og ser om vi finner prime.
+
+94
+00:17:41,941 --> 00:17:51,846
+Sånn. 'Last in Powerhorse Project Context'. Ja, bra. Så da gjør vi det. 
+Nå må vi bare se hva han kommer med. Og hvis den ikke er så bra, så kan vi
+
+95
+00:17:51,966 --> 00:18:03,872
+forbedre den, da. Ikke sant? Men hensikten er nå å komme up to speed, da. 
+Hvor står vi hen? Men jeg har ingen idé om at denne fungerer sånn som vi
+
+96
+00:18:03,952 --> 00:18:15,469
+ønsker den. Men jeg vil gjerne lese nå at vi har gjennomført akt 3.3, og at 
+vi skal begynne på aktivitet 3.4. Det ønsker jeg å se.
+
+97
+00:18:22,712 --> 00:18:24,753
+Vi har sjekka Git-statusen.
+
+98
+00:18:30,035 --> 00:18:45,460
+Jeg kom på at vi bare må ordne dem der. Fullført. Ikke startet. Neste 
+kritiske aktivitet tre-fire. Så her ser dere vi fikk et ganske fint
+
+99
+00:18:45,500 --> 00:18:51,585
+sammendrag, egentlig. Så jeg syns den fungerer bra. Nå kan vi bruke 
+prime i stedet for at vi hele tida må skrive ...
+
+100
+00:18:54,335 --> 00:19:08,019
+Vi sparer med litt tid. Over tid kan vi forbedre den prime, slik at den 
+blir bedre og bedre, og mer to the point. Nå er A1 klar til å jobbe videre,
+
+101
+00:19:08,059 --> 00:19:14,201
+og hva skal vi ta fatt på? Det er aktivitet 3-4. Lage prognoser.
+
+102
+00:19:23,275 --> 00:19:33,801
+Da sier de bare det, og da går de inn i planmodus som vanlig. Det var 
+kontrollskift, eller kontrolltab. Kontrollskifttab,
+
+103
+00:19:34,822 --> 00:19:37,083
+ja. Skifttab to cycle.
+
+104
+00:19:56,350 --> 00:19:59,573
+Det er tre-fire, ikke fire-tre. Ja.
+
+105
+00:20:10,642 --> 00:20:19,569
+Så nå er vi inne på resultater. Så vi kan jo sjekke oss og sjølve
+
+106
+00:20:23,832 --> 00:20:33,395
+rapporten, da. Der
+
+107
+00:20:33,715 --> 00:20:43,444
+er den. Ja. Så dette er jo i testperioden. Og her har han tatt med sånn 
+usikkerhets... Det ser veldig bra ut da, altså.
+
+108
+00:20:43,464 --> 00:20:48,469
+Konfidensintervaller. Prediksjonsintervall. Det er kjempebra, 
+sant? Som da sier hvor ... Han hadde disse ...
+
+109
+00:20:51,768 --> 00:21:03,894
+Hadde disse arealene vært veldig brede nå, hadde prognosen vært 
+usikker. Så det virker jo ganske bra, da. Det er egentlig ... Nå skal vi da
+
+110
+00:21:03,914 --> 00:21:07,936
+gå over til 8-2. Kan
+
+111
+00:21:07,976 --> 00:21:10,177
+godt gi den et bedre navn på ...
+
+112
+00:21:13,779 --> 00:21:14,679
+Navn på ...
+
+113
+00:21:18,498 --> 00:21:30,561
+Eller avsnittet, da. F.eks. prognoser. Dette er for eksisterende 
+data. Det er derfor vi får et prediksjonsintervall, f.eks. For at vi kan
+
+114
+00:21:30,641 --> 00:21:39,264
+teste det mot de dataene som fantes. Dette er testvalidering. 
+Resultatet fra testsetet.
+
+115
+00:21:41,784 --> 00:21:52,039
+For å evaluere hvor gode prognoser er. Det vi skal gjøre nå, er å lage en 
+faktisk prognose. Vi skal bruke den for fremtida, da kan du si.
+
+116
+00:21:59,704 --> 00:22:03,947
+Så Claude bruker som vanlig god tid, men er jo da også veldig
+
+117
+00:22:06,748 --> 00:22:07,149
+god, da.
+
+118
+00:22:12,692 --> 00:22:21,706
+Og lager en plan. Dette delkapitlet skal presentere den endelige 
+prognosen for Aktivitet 34 med tilhørende nøkkeltall og figurer.
+
+119
+00:22:21,726 --> 00:22:22,007
+Supert. Så
+
+120
+00:22:25,348 --> 00:22:31,511
+håper jeg han lager det, da.
+
+121
+00:22:31,591 --> 00:22:41,757
+Og da skal vi gå over til diskusjonen. Og når vi er ferdig med 
+diskusjonen, kanskje vi rekker å begynne å kjøre inn innledninga. Da
+
+122
+00:22:41,797 --> 00:22:44,498
+kan vi gå tilbake til innledninga og begynne å skrive innledninga.
+
+123
+00:22:47,260 --> 00:22:49,401
+Så vi får se hvor mye vi rekker her,
+
+124
+00:22:56,283 --> 00:23:08,927
+da. Legg merke til at det er innmari behagelig nå, i hvert fall syns jeg 
+det, å ha denne statusen, denne prosjektplanen. Det er utrolig deilig.
+
+125
+00:23:09,287 --> 00:23:25,022
+For nå har jeg en kjøreplan. Få pusha gjennom A1. Så den jobben alle har 
+gjort nå i Bjorie, i februar-mars, med å planlegge hva vi skal gjøre, det
+
+126
+00:23:25,042 --> 00:23:36,611
+er utrolig viktig når vi kommer hit. Slik at det ikke blir på en måte sånn 
+at vi veiver fram og tilbake. Og at vi har en sånn fast prosjektplan vi
+
+127
+00:23:36,651 --> 00:23:42,732
+skal følge, da. Det er veldig behagelig.
+
+128
+00:23:43,072 --> 00:23:53,440
+Det som er en del av ferdighetene vi skal prøve å få her, er å rigge opp 
+filstrukturen. Vi har sagt filstrukturen deres, men alle filene vi må
+
+129
+00:23:53,480 --> 00:24:02,907
+forholde oss til å gjøre, det er faktisk viktig. Akkurat det med å ringe 
+og si noe om status, det er én fil vi har. Og det er kanskje en ny tankegang
+
+130
+00:24:02,967 --> 00:24:16,842
+at vi har så mange filer å forholde oss til sammenlignet med andre fag. Vi 
+har skills, vi har handoff, vi har prime, vi har review act. Og det der
+
+131
+00:24:16,882 --> 00:24:26,686
+gjør at det er mange filer vi har å forholde oss til. Så det er en del av det å 
+kunne styre AI på en litt komplisert måte. Så dette her er en helt annen
+
+132
+00:24:26,726 --> 00:24:35,846
+business enn bare det å holde på og sette med AI og prate som en kompis 
+eller prate som en fagperson. Så det er ... Jeg synes iallfall dette er
+
+133
+00:24:35,866 --> 00:24:49,231
+innmari spennende og kult. Her er det mer robust. Bygge opp skills. Ha 
+virkelig god planlegging. Og så tikker vi av her nå, slik at vi vet hva vi
+
+134
+00:24:49,271 --> 00:25:03,013
+skal gjøre. Det er viktig å bruke tid på planlegging. For de planene der, 
+den følger oss gjennom hele prosjektet. I min verden, planlegging er 90
+
+135
+00:25:04,074 --> 00:25:14,201
+% av jobben. Gjennomføring, da er det bare å få A inn til å følge planen så 
+godt som mulig. Men planlegging er så viktig hvis du skal klare å komme
+
+136
+00:25:14,242 --> 00:25:25,380
+deg gjennom hele greia. Og som sagt, så ser du ikke at det er veldig 
+behagelig å jobbe nå i dette prosjektet. Føler at jeg har ganske god
+
+137
+00:25:25,420 --> 00:25:39,306
+kontroll. Så det synes jeg absolutt bra. Vi ser her at når vi kommer til 
+Act35, så ser du ikke at den er ganske stor? For den skal da skrive
+
+138
+00:25:39,346 --> 00:25:50,969
+kapittel to, tre, åtte, ni, ti og sånne ting. Jeg har lyst til å splitte 
+alle de der opp i sin egen aktivitet. For jeg syns hver av dem er ganske
+
+139
+00:25:50,989 --> 00:26:04,552
+store og viktige, da. Så det skal vi få gjort før vi starter på aktivitet 
+3-5. Så vil jeg egentlig ha aktivitet 3-5, 3-6, 3-7, hvor vi har tatt hver
+
+140
+00:26:04,612 --> 00:26:06,372
+av dem
+
+141
+00:26:08,753 --> 00:26:16,335
+og delt dem opp i hver sine egne aktiviteter. For det er jo viktige 
+kapitler i ...
+
+142
+00:26:19,362 --> 00:26:27,627
+I rapporten, da. Så alle er egentlig én aktivitet. Og det skal vi få ordna 
+etter at den er ferdig her, da. Skal
+
+143
+00:26:36,792 --> 00:26:45,935
+vi se. Man bruker god tid her, da. Men nå har han alt han trenger, så la meg 
+skrive den endelige planen. Da er det typisk sånn at når han har planlagt
+
+144
+00:26:45,995 --> 00:26:57,001
+godt nå ... Vi har ikke fått noen spørsmål, så det betyr at A1 er ganske 
+sikker på oppgaven. Og når han først får planen, så føler jeg at han er
+
+145
+00:26:57,041 --> 00:27:02,303
+ganske flink til å gjennomføre planen ganske kjapt, og at ...
+
+146
+00:27:05,262 --> 00:27:19,204
+Og at vi slipper å gjøre mange endringer. Så du sparer likevel tid i 
+etterkant fordi en bruker god tid på plan. Her ser vi planen, ganske
+
+147
+00:27:19,304 --> 00:27:30,986
+omfattende. Og som alltid når dere skal jobbe med dette, sørg for å lese 
+plan. Vi gjør ikke det nå fordi da går tida rykk, selvfølgelig. Men hadde
+
+148
+00:27:31,026 --> 00:27:45,108
+jeg jobba på dette nivået, hadde jeg lest plan. Det er bare en veldig 
+viktig kommentar. Det betyr at vi har status.md-fila ECK34. Lag
+
+149
+00:27:45,148 --> 00:27:57,214
+pronose og anbefalinger. Der har vi ca. fem punkt vi skal tikse av. Men du 
+ser at vi ber også, sjøl om det er planen, og det er det vi skal gjøre, så ber
+
+150
+00:27:57,254 --> 00:28:13,717
+vi likevel Aing om å lage en plan for ECK34. Vi lager en plan for planen, 
+da. Ja, det er riktig. Så A1 har jo lest alle disse punktene her. Men den
+
+151
+00:28:13,757 --> 00:28:22,399
+har laget sin egen interne plan nå, da. Så vi lager en mer sånn intern 
+plan? Nesten plan for plan? For det som er på status, er en grov plan, og
+
+152
+00:28:22,440 --> 00:28:25,860
+det som er til høyre her, er en detaljplan.
+
+153
+00:28:27,161 --> 00:28:36,335
+Så vi kunne ha planlagt detaljene her i prosjektet også, men som dere 
+ser, så har jo ... Det mener jeg er unødvendig.
+
+154
+00:28:39,117 --> 00:28:44,340
+Her får vi spørsmål om hvor vi kan clear context. Vi har 6 % used, men det er 
+faktisk 60 000
+
+155
+00:28:46,982 --> 00:29:01,110
+tokens. Så jeg velger å begynne på blanke ark når en skal gjøre den planen 
+her. Du gjør det når det faktisk er 94 % igjen? Ja, men husk at en har 1 MB
+
+156
+00:29:01,230 --> 00:29:14,297
+context nå. Det betyr at den har allerede fylt opp 60 000 tokens, som er 
+litt mye. Og jo mindre du har brukt, jo bedre kvalitet får du på jobben. Og
+
+157
+00:29:14,317 --> 00:29:15,557
+den her er ganske ...
+
+158
+00:29:19,659 --> 00:29:20,699
+ganske ...
+
+159
+00:29:23,198 --> 00:29:32,111
+Selv om vi bare har 6 %, så anbefaler du å klare å starte på nytt? Akkurat i 
+denne planen anbefaler jeg det, for den planen er ganske stor. Den står
+
+160
+00:29:32,151 --> 00:29:44,479
+opp til sju steg, og den har til og med reviewen easy. Men det betyr at det 
+postes ikke noe spesielt, bare gå til en ny session. For han tar med seg
+
+161
+00:29:44,499 --> 00:29:55,205
+det en trenger på andre sida likevel. Han husker planen, og Claude lager 
+jo en plan som er på en måte standalone. Du kan starte fra scratch, helt
+
+162
+00:29:55,245 --> 00:30:04,170
+blank i huet, lese planen, gjennomføre planen. Trenger ikke ekstra 
+kontekst. Og det er sånn den planlegger, da. Så dette sier ja til. Og nå
+
+163
+00:30:04,210 --> 00:30:17,436
+ser dere at vi fikk null her igjen. Vi har brukt null talk-ins nå. Så 
+begynner den på nytt igjen. I stedet for at vi har starta på 6 %. Ja, det er
+
+164
+00:30:17,456 --> 00:30:25,740
+en detalj, men når planen er såpass god som den er, og den også stor, så 
+velger jeg å gjøre det. Noen ganger bare kjører jeg videre. Hvis planen
+
+165
+00:30:25,760 --> 00:30:36,609
+er liten, da kan jeg bare fortsette i den sesjonen du har, da. Nå begynner 
+han med aktivitet 3-4. Det kommer nok til å ta litt tid.
+
+166
+00:30:41,152 --> 00:30:41,873
+Så ...
+
+167
+00:30:45,655 --> 00:30:48,097
+jeg lurer på om vi skal starte en ny A her, da.
+
+168
+00:31:03,132 --> 00:31:13,475
+Slik at den kan begynne å planlegge. Det som er fint med plan, er at den 
+endrer ingen filer. For nå jobber en annen AI her og endrer masse filer.
+
+169
+00:31:15,855 --> 00:31:22,777
+Og f.eks. oppdaterer reduid med status. Og da vil det ikke ha kollisjon.
+
+170
+00:31:40,628 --> 00:31:52,694
+Men jeg ønsker ikke at den kolliderer i koden, siden vi har gitt som ... 
+Altså, hvis to AI-er endrer en fil samtidig, så kan det bli veldig mye
+
+171
+00:31:52,714 --> 00:32:05,980
+rot. Derfor så liker jeg når den ene endrer og gjennomfører en plan, så 
+starter den andre i plan-mode, for da vet jeg at i plan-mode så endres
+
+172
+00:32:06,020 --> 00:32:06,540
+ingen filer.
+
+173
+00:32:09,991 --> 00:32:12,153
+Da kan jeg begynne å planlegge her,
+
+174
+00:32:16,116 --> 00:32:17,097
+da. Jeg ønsker
+
+175
+00:32:19,679 --> 00:32:29,228
+å dele opp aktivitet siden.
+
+176
+00:32:40,113 --> 00:32:49,579
+Denne er altfor omfattende. Én aktivitet
+
+177
+00:32:54,322 --> 00:33:00,426
+per kapittel i rapporten, f.eks.
+
+178
+00:33:11,399 --> 00:33:11,979
+Status.
+
+179
+00:33:14,602 --> 00:33:30,055
+Og oppdatere nødvendige Jason-filer i planen vår. Vi har sånne 
+Jason-datafiler her, som da vil endre seg, siden vi endrer selve
+
+180
+00:33:30,115 --> 00:33:38,719
+prosjektplanen. Men nå har jeg den på planmodus, så jeg vet at den ikke 
+vil endre noen filer. Den vil ikke skrive inn noen filer, den vil bare
+
+181
+00:33:38,779 --> 00:33:50,150
+planlegge. Så det er en sånn dry run som dette kalles. Og det er veldig 
+fint å gjøre mens en jobber her på den andre. Og nå har den kommet langt
+
+182
+00:33:50,210 --> 00:33:50,690
+allerede.
+
+183
+00:33:53,452 --> 00:34:06,037
+Og det er fordi at den har planlagt godt, da. Så de kan bare gjennomføre 
+det. Hadde man bare hoppa over plansteget som vi gjorde her, så hadde
+
+184
+00:34:06,077 --> 00:34:16,081
+resultatet sannsynligvis blitt mye dårligere. Og samtidig så ... 
+Samtidig så måtte vi sikkert kjørt flere runder og sånne ting. Så totalt
+
+185
+00:34:16,141 --> 00:34:18,862
+sett så tror jeg det hadde tatt lengre tid, da.
+
+186
+00:34:22,240 --> 00:34:31,587
+Det eneste de ikke har gjort nå, er å gjennomføre review og lukke 
+aktiviteten. Da skal vi få en tre-fire her, lage prognoser og
+
+187
+00:34:31,627 --> 00:34:35,370
+anbefalinger. Det skal jo bli interessant å se.
+
+188
+00:34:49,780 --> 00:35:00,327
+Jeg er ikke stor fan av at den samme A1 som gjør reviewen, var den som 
+gjorde endringene. Den vil være litt biast.
+
+189
+00:35:10,093 --> 00:35:23,353
+Så én måte å gjøre det på. Er å bruke en såkalt subagent til å gjøre det. 
+Dette er en typisk subagent-oppgave. Hvor da
+
+190
+00:35:25,694 --> 00:35:38,042
+sesjonen kan delegere jobben til en ny subagent. Som er da en totalt ny 
+Claude-agent. Som da kan gjennomføre review-acta.
+
+191
+00:35:41,941 --> 00:35:51,264
+Så det kunne jeg ha tatt med neste gang, at den bare kan kjøre den. Vi kan 
+faktisk prøve å gjøre det allerede nå.
+
+192
+00:36:12,417 --> 00:36:14,838
+Så sier de start en
+
+193
+00:36:17,619 --> 00:36:19,480
+superagent
+
+194
+00:36:21,241 --> 00:36:24,122
+for å gjennomføre review act. Dette gjøres fordi ...
+
+195
+00:36:43,096 --> 00:36:45,637
+Vi skal unngå
+
+196
+00:36:48,777 --> 00:36:53,418
+bajes. Eller forutinntatt, da.
+
+197
+00:36:56,559 --> 00:37:06,481
+I valideringen, eller i review, da. Bajes betyr at ... Hva er det på 
+norsk, da, AFK? At du er på en måte ... Partisk. Eller forutinntatt, da.
+
+198
+00:37:08,122 --> 00:37:22,504
+Du er allerede positiv til det du sjøl har skrevet, på en måte. Ja, du er 
+det. Du er litt inhabil, kan du kanskje si? Litt inhabil, ja. Nå ber vi
+
+199
+00:37:22,604 --> 00:37:33,326
+Claude til å kjøre en såkalt subagent for å gjennomføre review med 
+review up-skill. Man skjønner at hva slags ekte ørn vi snakker om? Det er
+
+200
+00:37:33,366 --> 00:37:35,087
+det du snakker om som en tre-fire?
+
+201
+00:37:37,788 --> 00:37:44,093
+Og det har han fordi han har en skill her som heter review act. Og ...
+
+202
+00:37:46,815 --> 00:37:54,221
+Her ser du liksom gjennomføring systematisk ... Her er det 
+descriptions, har dere. Bruk når en aktivitet skal reviews og lookes.
+
+203
+00:37:54,281 --> 00:38:07,463
+Triggering av review act. Review aktivitet. Ikke sant? Og det er slik at 
+han har en sånn trigger-set-linje, da. Som Claude har, og det vil også en
+
+204
+00:38:07,503 --> 00:38:15,706
+subagent ha. Og så ønsker vi jo at en forteller direkte at en skal bruke 
+review act. Så jeg håper at en gjør det nå, så får vi se hva som skjer. Så
+
+205
+00:38:15,866 --> 00:38:26,370
+bunnlinja er at en skjønner egentlig hvor vi er han i at vi er på act 3-4, og 
+at det er den en skal ta review av? Ja. Der står det et godt poeng. Review
+
+206
+00:38:26,410 --> 00:38:37,532
+bør ikke være samme agent. Og nå starter en agent, ser dere. Dette er 
+utrolig kult. Det som skjer nå, er at konteksten ikke vil øke her. Fordi
+
+207
+00:38:37,592 --> 00:38:49,296
+denne agenten er en ny cloud code-sesjon, som vil da gjennomføre hele 
+oppgaver. Og der ser du 'Claude Skills Review Act'. Så han har allerede
+
+208
+00:38:49,336 --> 00:39:05,238
+nå skjønt hva han skal gjøre. Dette her skjer i en sideprosess, da. Hvor 
+Claude delegerer oppgaver til en annen agent, som har et helt friskt
+
+209
+00:39:05,338 --> 00:39:19,526
+memory. Og en helt frisk kontekst på én million. Så det er utrolig 
+kraftig, da. Så dette syns jeg er innmari kult, da. Så nå venter ... Når
+
+210
+00:39:19,546 --> 00:39:34,218
+man venter på svaret fra agenten, vil agenten f.eks. skrive denne 
+filen. Og så vil agenten avslutte, og så vil da sesjonen se hva agenten
+
+211
+00:39:34,258 --> 00:39:50,857
+har gjort, og konkludere om man skal fortsette å forbedre ting da eller 
+ikke. Det er ganske kult. Det gikk vi gjennom i IBE 160. Så det forventes
+
+212
+00:39:50,897 --> 00:40:06,132
+at det er litt kjent. Vi gikk gjennom det teoretisk, men vi brukte det 
+ikke sånn mye i IBE 160, siden det også er en avansert funksjon, kaller vi
+
+213
+00:40:06,212 --> 00:40:19,798
+det, i Clodagh. Man kan f.eks. starte subagenter opptil 15-20 
+subagenter samtidig. Da får du gjort arbeid. Da vil de jobbe samtidig.
+
+214
+00:40:20,278 --> 00:40:28,401
+Det som er viktig når du har agenter som jobber samtidig, er at du må passe 
+på at de ikke endrer samme filene. Du må på en måte ha forskjellig
+
+215
+00:40:30,361 --> 00:40:40,228
+eierskap i kodebasen din, slik at de ikke jobber på felles filer, for da 
+kan det bli rot. Så det er ...
+
+216
+00:40:48,032 --> 00:40:52,114
+Det skal bli interessant å se. Jeg tror han har skrevet noe på rapporten 
+nå.
+
+217
+00:40:55,316 --> 00:40:56,877
+Her ser dere prognoser.
+
+218
+00:41:03,380 --> 00:41:11,338
+Er han på noe og skriver på 8.2 i selve rapporten? Det har han allerede 
+gjort. Ja, jeg ser det, faktisk. Ja.
+
+219
+00:41:16,770 --> 00:41:24,613
+Du ser at rapporten er ganske kort? Det er ikke veldig mye, og det er det vi 
+egentlig ønsker. Det er ikke mer prat og tekst, og det er ikke mer figurer
+
+220
+00:41:24,813 --> 00:41:33,416
+enn det bør være. Så det er ikke veldig mange sider og veldig mye tekst. 
+Men dette er innmari bra, for det er det vi ønsker med en rapport. Så
+
+221
+00:41:33,596 --> 00:41:41,219
+egentlig så fort som mulig, men ikke mindre enn det. Vi mangler ennå en 
+del avsnitt eller kapittel. Vi mangler utledninger. Hvis vi ser på bare
+
+222
+00:41:41,419 --> 00:41:52,811
+ett spesifikt avsnitt, f.eks. 8-2, så er ikke det side opp og side ned. 
+Det er ganske kort. Det er sant, og det syns vi er bra. Det er viktig å være
+
+223
+00:41:52,831 --> 00:41:54,432
+to the point, på en måte.
+
+224
+00:42:01,033 --> 00:42:12,378
+Det tenker jeg. Og igjen så har han med sånne konfidensintervall, som 
+måler litt usikkerheten. Det syns jeg er bra. Hvis man kaller det
+
+225
+00:42:12,418 --> 00:42:22,644
+prediksjonsintervall, så har kanskje annen teknologi. Det kan vi 
+spørre om etter hvert, men ikke nå, men seinere. Det tenker jeg at det er
+
+226
+00:42:22,704 --> 00:42:36,214
+sånne ting du kan legge inn i teori, f.eks. Teorikapitlet. Så hvor stort 
+skal teorikapitlet bli? Det kan man ... Lage så stort eller lite som man
+
+227
+00:42:36,254 --> 00:42:49,118
+vil. Men teorikapitlet skal jo på en måte sette leseren i stand til å 
+forstå resten. Vanligvis, som vi nevnte sist gang, så antar vi jo at
+
+228
+00:42:49,218 --> 00:42:59,342
+dette kan de. Altså leser kan fagfeltet. Men i bacheloroppgaver, 
+masteroppgaver og sånne ting, så er det vanlig å ha med teorikapitlet,
+
+229
+00:42:59,362 --> 00:43:12,253
+da. Kan vi ikke bare ta en kort oppsummering av hva som var på de tre AE-ene 
+du har? For nå har du tre AE-er oppe, slik vi ser. Ja, men det er to som gjør
+
+230
+00:43:12,273 --> 00:43:14,595
+noe, tror jeg. Hva var det? Den ene, hva?
+
+231
+00:43:18,545 --> 00:43:32,030
+Den ene gjennomfører Aktivitet 3-4. Det er den vi er på nå. Den andre 
+planlegger neste aktivitet, som er status. Og da er det 3-5 som vi hadde
+
+232
+00:43:32,070 --> 00:43:41,273
+lyst til at skulle ... 8-5, ja. Nei, 3-5. Hvor du skal dele opp, da. Det er 
+riktig, for det er litt mer omfattende. For den var ganske stor, den 3-5.
+
+233
+00:43:41,313 --> 00:43:56,398
+Stemmer det? Så alt etter Aktivitet 3-4, tenker jeg. Her planlegger han 
+mens den andre gjennomfører. Veldig behagelig, for da vet vi at ting
+
+234
+00:43:56,438 --> 00:44:08,829
+ikke er ... Nå ser vi at den subagenten har begynt å produsere ting. Dette 
+er review-aktivitet. Det kan hende at det er noen svakheter her, ser
+
+235
+00:44:08,849 --> 00:44:14,593
+dere. Og da ønsker vi at det skal gjennomføres, da.
+
+236
+00:44:25,285 --> 00:44:36,109
+Det er fint med reviewen. Da kan vi bare si fiks det. Vi får se nå. Vi får se 
+hvem som er på lista med foreslåtte tiltak. Det er innmari bra, det.
+
+237
+00:44:39,251 --> 00:44:48,675
+Her er en ferdig svar, og fullført uavhengig agent. Her er 
+oppsummeringen. Nå er agenten slått ned igjen. Det var en egen crawk
+
+238
+00:44:48,715 --> 00:44:56,420
+code-seksjon. Den jobba, den gjorde det den skulle, gikk ut igjen. Så er 
+vi tilbake igjen. Her
+
+239
+00:44:58,561 --> 00:45:08,103
+er oppsummeringen. Fem styrker, tre svakheter, fire 
+forbedringsforslag bør fikses. Mindre forbedringer som kan
+
+240
+00:45:08,163 --> 00:45:10,824
+håndteres i 3.5, så sier de bare 'håndter alle nå'.
+
+241
+00:45:18,627 --> 00:45:29,353
+Det er bra du spør meg, slik at vi ikke kommanderer deg. Men hvis jeg spør 
+spørrende, kommer han med sine egne anbefalinger og vurderinger. Og
+
+242
+00:45:29,373 --> 00:45:34,336
+det kan være bra å gjøre, slik at jeg ikke forcer ham til å gjøre noe.
+
+243
+00:45:37,938 --> 00:45:48,765
+Da er vi på overtid, så vi kan ta pause. Vi ligger bra an i dag for å nå det 
+målet vi skulle. Da tar vi pause 15 minutter? Ja, vi gjør det.
+

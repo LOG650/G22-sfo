@@ -1,0 +1,382 @@
+1
+00:00:02,073 --> 00:00:07,276
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Ja. 
+Det siste
+
+2
+00:00:07,497 --> 00:00:22,606
+vi gjorde var å lage en review, samt gjøre de bitene som den fant. Den 
+gjorde en review av seg sjøl, bedre enn ingenting. Men vi har passa på å
+
+3
+00:00:22,646 --> 00:00:34,829
+starte en helt ny sesjon, så han har glemt at det var Claude som gjorde det 
+sjøl. I mellomtida holder vi på å fullføre review av discussion. Den jeg
+
+4
+00:00:34,849 --> 00:00:46,112
+så på nå, det var theory. Og i mellomtida har jeg lyst til å se hva som har 
+blitt gjort her. Her inne på rapporten ser vi at den gjorde en endring
+
+5
+00:00:46,172 --> 00:00:52,274
+der.
+
+6
+00:00:52,554 --> 00:00:58,833
+I tillegg så gjorde den litt endringer her. Og litt endringer der. Så det 
+var det. Så da tar
+
+7
+00:01:02,755 --> 00:01:07,216
+jeg og ... laster opp
+
+8
+00:01:11,858 --> 00:01:13,379
+den.
+
+9
+00:01:19,921 --> 00:01:24,743
+Ja, jeg laster opp alle de faktisk ... Ja, skal vi se hva vi har på status?
+
+10
+00:01:28,372 --> 00:01:34,234
+Har gjennomført reviews, er dere. Nice.
+
+11
+00:01:34,254 --> 00:01:36,455
+Her er selve reviewen, hvis dere har lyst til å se den.
+
+12
+00:01:39,976 --> 00:01:40,576
+Ganske omfattende.
+
+13
+00:01:43,977 --> 00:01:54,121
+Det er også veldig lærerikt å lese disse reviewene. For da kan man se 
+hvordan de tenker i forhold til hva man mener er en bra vitenskapelig
+
+14
+00:01:54,181 --> 00:01:54,541
+artikkel.
+
+15
+00:01:58,358 --> 00:02:05,162
+Brukt Best Practice, da, f.eks. Fra ...
+
+16
+00:02:06,483 --> 00:02:21,833
+Her står det om styrkene, f.eks. i kapitlet. Styrker. Og så skulle det 
+vel være noen svakheter også, men det er kanskje ... At de så styrker ...
+
+17
+00:02:24,355 --> 00:02:24,995
+Ingen svakheter, da.
+
+18
+00:02:30,826 --> 00:02:33,929
+Figurer,
+
+19
+00:02:33,949 --> 00:02:41,395
+ja. Der står det svakheter. Der, ja. Her står det svakheter, ja. Det står 
+svakheter og forbedringer. Det
+
+20
+00:02:45,458 --> 00:02:57,823
+er bare småtterier, da. Det ser vi. Alvorlighetsgrad er lav, ser vi. Men 
+double's in the details, er ikke det man bruker å si? ... altså det er
+
+21
+00:02:58,044 --> 00:03:11,988
+sånne småting som virkelig kan gjøre en forskjell, da. Så selv om de ikke 
+... Skal vi be A-en gå gjennom svakhetene og forbedre dem? Han har
+
+22
+00:03:12,048 --> 00:03:21,772
+allerede gjort det. Jeg har allerede gjort det. Ja, for det ligger i ... 
+Riktig. Review og gjennomfør forbedringer. Ok. Ja, alle forbedringer
+
+23
+00:03:21,812 --> 00:03:35,110
+er gjort. Her er det en oppsuring av hva som blir gjort. Skal vi se hvordan 
+det står til her. Yes. Og så sier du bare gjennomfør endringene. Hva var
+
+24
+00:03:35,130 --> 00:03:39,652
+det her det dreide seg om? Diskusjon. Diskusjonen der, ja.
+
+25
+00:03:45,595 --> 00:03:56,675
+Da begynner vi å nærme oss slutten her. Men i mellomtida så tar jo Commit 
+alt dette. Slik at vi får en rein Commit. Må du ikke vente til det er ferdig
+
+26
+00:03:56,695 --> 00:04:03,156
+før du committer? Nei, for nå committer jeg det som vi allerede har gjort 
+med theory.
+
+27
+00:04:04,117 --> 00:04:10,138
+Thomas
+
+28
+00:04:10,158 --> 00:04:19,219
+har et spørsmål derimot. Dere nevnte at sensorveiledningen skulle 
+deles før peer-to-peer. Når blir den tilgjengelig?
+
+29
+00:04:24,175 --> 00:04:31,379
+Det
+
+30
+00:04:31,439 --> 00:04:42,284
+første og viktigste nå, mener jeg, er at vi må diskutere det. Men vi må 
+også diskutere at dere må få tilgang til de brukerne Claudebookeren som
+
+31
+00:04:42,324 --> 00:04:50,989
+Bård Inge har oppretta for dere, og som høyskolen betaler for. Den 
+koster 2500 kroner i måneden. Og vi har laga to sånne brukere. Så dere kan
+
+32
+00:04:51,029 --> 00:04:59,291
+få tilgang til Claude Code. Men det vil vi ikke ta detalj i før vi er 
+ferdige med dette. Så la oss bli ferdige med det nå, og så tar vi det
+
+33
+00:04:59,331 --> 00:05:07,853
+praktiske helt på slutten av timen. Ja, men dette spørsmålet var 
+egentlig noe annet, da. Ja, det må det. Men P-en kommer jo etterpå der
+
+34
+00:05:07,893 --> 00:05:19,015
+igjen. Først må de få tilgang til Claude, og så må de begynne å skrive 
+rapporten. Og så etter at de har ferdigskrevet rapporten, så er det
+
+35
+00:05:19,035 --> 00:05:29,518
+P-en. Og da kommer sentorveiledninga, sånn som Thomas spør om. Det er 
+helt rett. Men vi må først bli ferdig med dette her. Og de må først få
+
+36
+00:05:29,538 --> 00:05:40,344
+tilgang til blåd. Så vi må ta det i rekkefølge. Men vi skal prøve å få det så 
+fort som mulig. Og i hvert fall til dere trenger det. Så svaret på
+
+37
+00:05:40,384 --> 00:05:50,927
+spørsmålet om når den blir tilgjengelig, det blir ved neste samling. I 
+slutten av april. Så svaret her er ved neste samling. Det er da det kommer
+
+38
+00:05:50,967 --> 00:05:51,348
+ut igjen.
+
+39
+00:05:56,696 --> 00:06:01,985
+Bare slik at det er klart. Her gjør han en del endringer, ja. 
+Forbedringer.
+
+40
+00:06:25,253 --> 00:06:32,298
+Vet
+
+41
+00:06:32,398 --> 00:06:47,589
+du hva som hadde vært artig med å gå? Å sende til slutt denne her til 
+gradering av en ekstern sensor. Bare for å se hva vi har fått. Sende
+
+42
+00:06:47,609 --> 00:06:51,852
+rapporten til en ekstern sensor? Ja. Det hadde vært artig.
+
+43
+00:06:56,978 --> 00:07:00,659
+Han gjorde en del endringer her, da. Ja.
+
+44
+00:07:10,803 --> 00:07:21,107
+Men jeg tror ikke noen sensorer har lyst til å være forsøkskaniner, så 
+det er vanskelig å få til. Det er litt arbeid òg, og det er mye å lese
+
+45
+00:07:21,127 --> 00:07:31,493
+gjennom. Du skal egentlig ikke vite at det er gjennomgjort av en AI, for 
+du kan bli litt bajest hvis du vet at en AI har skrevet det. Det blir litt
+
+46
+00:07:31,513 --> 00:07:35,495
+lureri, så vi kan egentlig ikke gjøre det.
+
+47
+00:07:38,057 --> 00:07:48,526
+Men vi kunne f.eks. ha kjørt en ... Vi har jo tenkt å bruke disse ... 
+Masterkriteriene som kom, ble lagd.
+
+48
+00:07:51,087 --> 00:07:54,628
+Og da tenkte jeg at vi kunne
+
+49
+00:07:55,548 --> 00:08:05,211
+be flere, uavhengig av Aja, om å bare gradere for oss, i forhold til den 
+sensuren. Ja. Det hadde vært tidlig sagt, da. Da er den ferdig.
+
+50
+00:08:10,253 --> 00:08:13,474
+Har da skrevet sjølve ... ...
+
+51
+00:08:18,855 --> 00:08:30,383
+og gjorde noen endringer i rapporten. Oi, ganske mange endringer, ser 
+dere. Ja, men det er greit, det? Så det er fint. Så da tar jeg og ...
+
+52
+00:08:33,545 --> 00:08:41,930
+committer det. Nå gjorde du det manuelt der, da? Du gjorde ikke A1 til å 
+...? Nei, men det var en AI som skrev meldinga, da, så ...
+
+53
+00:08:48,337 --> 00:09:00,866
+Ja. Riktig. Men du gjorde da pusha? Nei. Det jeg gjorde, var at jeg trykka 
+på den der. 'Generate commit message'. Litt til sammen. OK. Og så
+
+54
+00:09:00,926 --> 00:09:11,053
+committa jeg. OK. Så du har committa òg, altså? Ja. Så jeg kunne like godt 
+ha bare bedt Aino om å gjøre det òg, da. Generelt sett syns jeg det er
+
+55
+00:09:11,093 --> 00:09:19,215
+lurere å be Aino om å gjøre det, for den har jo all kontekst, da. Ja, det er 
+akkurat det. Det er min regelverk. Kan vi ikke bare se noe ferdig? For vi
+
+56
+00:09:19,235 --> 00:09:32,480
+har litt administrative ting på hjertet før vi avslutter for i dag. Så da 
+skal jeg åpne med den andre igjen, da. Office Viewer. Der. Her
+
+57
+00:09:38,603 --> 00:09:45,323
+har vi fått inn referansene, ser dere. Vi mangler konklusjonen. Her er 
+ni.
+
+58
+00:09:48,084 --> 00:09:59,211
+Selve diskusjonen, sant? Veldig bra. Her må vi selvfølgelig lese over, 
+det har ikke blitt tida til nå. Men vi ser det begynner å bli ganske
+
+59
+00:09:59,291 --> 00:10:11,118
+omfattende sak. Så vi har nå gjennomført teori med fem deler av snitt og 
+diskusjon med seks deler av snitt. Veldig bra. Så dette har blitt
+
+60
+00:10:12,059 --> 00:10:25,301
+skikkelige greier. Det vi mangler, det er da litteratur her. 
+Innledning, konklusjon, og fullføre bibliografien, selvfølgelig.
+
+61
+00:10:25,341 --> 00:10:33,486
+Hvis vi hadde noe vedlegg, det husker jeg ikke. Da har vi kommet såpass 
+langt, da kan vi ikke bare pushe nå? Så har jeg et par administrative ting
+
+62
+00:10:33,506 --> 00:10:44,728
+på hjertet. Ja, da er det pusha. Så da kan du bare ... Da har vi kommet så 
+langt at vi pusher, og da kan dere bare pulle, folkens.
+
+63
+00:10:45,449 --> 00:10:58,059
+Så er det greia. Nå er vi altså i midten av april. Og de har 1 1 12 md. på seg 
+til å gjøre sjølve rapporten. De kan ikke begynne å gjøre ting før de har
+
+64
+00:10:58,079 --> 00:11:06,825
+fått disse der ... Det er jo mange som har begynt. Det kan hende det ikke er 
+noen fare fra før, men i utgangspunktet har de ikke tilgang før vi gir dem
+
+65
+00:11:06,845 --> 00:11:17,412
+brukerne. Jeg tror det er mange som har begynt å jobbe med det, ja. Men det 
+koster jo penger og sånn, så det er bra om vi får ut de ja-ja-ene så fort som
+
+66
+00:11:17,432 --> 00:11:28,842
+mulig. INU har litt presset på oss. Vi er nødt til å få ut de brukerne, for 
+vi har oppretta to brukere til dere. Vi skal sette dem ... Og vi må betale
+
+67
+00:11:28,862 --> 00:11:39,125
+slik at dere får tilgang, for det koster oss 2500 per bruker, altså per 
+måned. Så i to måneder og to brukere, så er dette grovt sett 10 000 kroner.
+
+68
+00:11:40,245 --> 00:11:49,267
+Og jeg ønsker at Ion Barringer får ut dette så fort som mulig, og da kan 
+dere begynne å lage rapporten, som er hovedgreia. Kan ikke du se om du
+
+69
+00:11:49,287 --> 00:11:58,488
+finner de forskjellige fasene våre? Ta opp et nett ... Hvor lang tid har 
+de på seg til å skrive rapporten? Jeg husker ikke, hvis vi går inn på
+
+70
+00:11:58,768 --> 00:12:01,929
+Canvas. Der står det fasene.
+
+71
+00:12:04,778 --> 00:12:15,061
+Her står det fasene. Gjennomføring der og der, ja. Det er fase tre. Det er 
+egentlig ut ... Du har egentlig bare to uker på deg, så det er ganske
+
+72
+00:12:15,962 --> 00:12:16,642
+imponerende, det.
+
+73
+00:12:20,000 --> 00:12:30,973
+Hvis det er behov, så kan vi utsette den ei uke, da? Det får vi se på, da. Men 
+i utgangspunktet må vi bare få ut fingeren og legge ut brukerne. Og så de
+
+74
+00:12:31,033 --> 00:12:43,071
+neste to ukene kan folk begynne å jobbe hardt med selve gjennomføringa 
+av fase T. Om vi skal utsette det ei uke, det kan jo vi diskutere, da. Det
+
+75
+00:12:43,112 --> 00:12:52,759
+diskuterer vi på siste sesjon. Når har vi planlagt neste sesjon, da, 
+Bård? Hvis du går inn på time-out-date eller time-planer? Ja, det er nå
+
+76
+00:12:52,799 --> 00:12:53,440
+27.4. eller noe sånt.
+
+77
+00:12:58,053 --> 00:13:14,625
+Der står det, ja. 27. og 29. april, altså. Vi tar den foten i bakken den uka 
+der, og så ser vi hva vi gjør da. Ja. Det er definitivt det viktigste på dem
+
+78
+00:13:14,825 --> 00:13:25,132
+der. Så vil vi da gjennomføre litteraturrevy, i hvert fall. Ikke sant? 
+Pluss innledning og konklusjon, altså de småtinga for å lande hele
+
+79
+00:13:25,152 --> 00:13:40,496
+greia. Da har jeg ikke mer på hjertet. Da tror jeg vi bare sier takk for i 
+dag. Og så møter vi noen rett etterpå, Bård. Ja. Greit, folkens. Tusen
+
+80
+00:13:40,536 --> 00:13:49,661
+takk for i dag. Da legger vi ut disse videoene her. Og så skal vi prøve å ... 
+Kommer det sikkert ut med en kunngjøring ganske snart. Og så tar vi og
+
+81
+00:13:49,721 --> 00:14:00,420
+ses. Og så må dere jobbe knallhardt fremover nå i siste halvdel av april. 
+Og så ses vi da i slutten av april. Supert. Ha det bra.
+

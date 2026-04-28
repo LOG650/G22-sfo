@@ -1,0 +1,1203 @@
+1
+00:00:02,073 --> 00:00:10,116
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Velkommen 
+til time nummer to. Da er du på hvilken her? Du er på teori eller på
+
+2
+00:00:10,176 --> 00:00:25,541
+diskusjon? Her er det akkurat noe som er på teori. Teori. Ok. Ja. Er du 
+klar? Har du blitt tatt opp? Jo da, man har ikke trykt på enter og latt Ain
+
+3
+00:00:25,581 --> 00:00:41,723
+begynne å ta teorien. Så langt nå så har jeg skrevet ferdig prompten for 
+kapittel ni, diskusjon. Vi ser at vi er i work-tree-diskusjon, så vi
+
+4
+00:00:41,763 --> 00:00:52,433
+veit vi er på rett plass. Her er alle stegene vi skal gjennomføre, som vi 
+har planlagt tidligere i planleggingsfasen. Der ser du hvor behagelig
+
+5
+00:00:52,473 --> 00:01:01,462
+det egentlig er å ha hatt en planleggingsfase. For nå er det veldig 
+kjekt, dette her er allerede blitt gjort for forhånd. Og det vi må passe
+
+6
+00:01:01,522 --> 00:01:13,470
+på, er at det å gjennomføre review og lukke aktiviteten, det skal ikke 
+denne A-en her gjøre. For han skal ikke lage en review av seg sjøl. Der
+
+7
+00:01:13,630 --> 00:01:22,545
+skriver jeg da. Jeg ønsker at du nå skal gjennomføre aktivitet 3.8, 
+skrive kapittel 9. Diskusjon, se status og hemmelighet. Sett deg godt
+
+8
+00:01:22,605 --> 00:01:30,950
+inn i kapittel 6, 7 og 8 for å få all konteksten du trenger for å 
+gjennomføre diskusjonen. Du skal her drøfte resultatene, både
+
+9
+00:01:30,990 --> 00:01:39,955
+styrker og svakheter ved analysen og modellen, og tolke resultatene. 
+Du skal ikke gjennomføre review og lukke aktiviteten. Det er et manuelt
+
+10
+00:01:40,015 --> 00:01:50,983
+steg. Ok? Legg merke til ... Et manuelt steg er at vi ønsker å gå gjennom 
+det som har blitt gjort på diskusjonskapitlet. Slik at vi manuelt
+
+11
+00:01:51,023 --> 00:02:01,948
+sjekker det før vi huker av på avrykkingslista til venstre? Ja. Manuelt 
+og manuelt. Vi skal ha en annen AI til å gjøre det, da. Men at det ikke er
+
+12
+00:02:01,968 --> 00:02:12,393
+denne AI-en her som skal gjøre den oppgaven der. Da får du bare veldig 
+positiv. Så da trykker jeg på enter der. Den er i planmodus, så den bare
+
+13
+00:02:12,433 --> 00:02:21,052
+planlegger. Da går vi over til teori, mens den brenner. Og dette er jo 
+fordelen med å ha to sånne work-trees, for nå kan de begynne å jobbe her
+
+14
+00:02:21,072 --> 00:02:32,098
+igjen, sant. Mens den andre jobber. Så slipper vi bare å sitte og kikke 
+opp i taket mens A1 jobber, da. Her har han beskrevet alt han vil gjøre.
+
+15
+00:02:33,539 --> 00:02:35,080
+Funnet en del referanser.
+
+16
+00:02:37,778 --> 00:02:47,005
+Nice. Primærkilder gjennom hele kapitlet. Full APA-referanse, 
+nydelig. Dette blir bra. Vi må selvfølgelig gå over referansene til
+
+17
+00:02:47,025 --> 00:02:54,890
+slutt uansett, så trenger ikke tenke så mye på det. Har litt om 
+kapittelstruktur, tidsserier, stasjonaritet. Alt du trenger å kunne
+
+18
+00:02:54,930 --> 00:03:00,334
+for å forstå Sarima, da. Sant?
+
+19
+00:03:00,535 --> 00:03:12,300
+Men jeg glemte å si at du må passe på å ikke gjennomføre review av 
+lukrativiteten, så jeg skrev det i tillegg her. Les
+
+20
+00:03:12,380 --> 00:03:12,800
+også,
+
+21
+00:03:24,823 --> 00:03:29,183
+slik at
+
+22
+00:03:29,203 --> 00:03:32,984
+notasjonen
+
+23
+00:03:33,164 --> 00:03:33,924
+i teorien ...
+
+24
+00:03:37,651 --> 00:03:39,311
+Stemmer godt overens
+
+25
+00:03:43,032 --> 00:03:44,492
+med ...
+
+26
+00:03:46,073 --> 00:03:47,753
+modell-og-analyse.
+
+27
+00:03:49,293 --> 00:03:58,015
+Det er litt dumt hvis teorien beskriver ting på én måte, og så bruker du 
+modellen og analysen på en helt annen metode. Det bør være et visst
+
+28
+00:03:58,055 --> 00:04:02,156
+samsvar her, da. Der står det, ja. At vi er på teorien.
+
+29
+00:04:07,688 --> 00:04:16,029
+Så nå brenner begge to, la oss se om man er kommet ferdig her. Nei. Så nå 
+sitter vi her og venter, da. Nå tvinner vi tumla. Og det er jo veldig
+
+30
+00:04:16,069 --> 00:04:20,310
+typisk Mai.
+
+31
+00:04:21,030 --> 00:04:29,732
+Jo flinkere du blir med Ai, til syvende og sist så er det du mennesket som 
+er flaskehalsen. Jeg klarer ikke å komme på mer ideer nå, så jeg klarer
+
+32
+00:04:29,752 --> 00:04:39,415
+ikke å sette i gang en tredje Ai. Kunne ha gjort det, jeg kunne ha satt i 
+gang litteraturen, liksom. Men
+
+33
+00:04:39,515 --> 00:04:50,622
+som sagt, det skal vi vente med, da. All right, da var vi ferdige her. Da er 
+det bare å trykke 'yes'. Og clear context ... Nei, jeg vil ikke gjøre det
+
+34
+00:04:50,662 --> 00:05:04,008
+her, siden det bare var brukt 7 %. Hvis det kommer opp i 20 %, så bruker jeg å 
+cleare context. Hvorfor det? Jeg skal ikke ha opp til 100, da? Ja, men som
+
+35
+00:05:04,408 --> 00:05:19,057
+i visning en figur før, så vil context rott, som det heter, allerede skje 
+mye tidligere. Sjøl om du får fortsettelsen. Så jeg har en grense på ca.
+
+36
+00:05:20,277 --> 00:05:30,623
+20 %. Da bruker jeg å clear context. Men her er det bare brukt sju, så da 
+kjører jeg på. Bypass permission. Så nå begynner han å jobbe på kapittel
+
+37
+00:05:30,683 --> 00:05:46,628
+tre. Og husk ... Den vil nå jobbe under Work-trees-theory. Det er der den 
+jobber. Var dere klar over det? Ja. Her planlegger den ennå å lage planen
+
+38
+00:05:46,688 --> 00:05:48,009
+for diskusjon. Ja.
+
+39
+00:05:53,012 --> 00:06:02,495
+Men vi har i hvert fall to AIA i sving nå, og det er bra, det. Det er bra. Husk 
+at nå er to A-engler sving som tar litt lang tid, fordi at det er store
+
+40
+00:06:02,755 --> 00:06:13,200
+oppgaver vi ber dem om å gjøre. Der har de måttet sette seg inn i veldig mye 
+for å kunne ta stilling til det vi ønsker. Så det er bra vansiert bruk av A i
+
+41
+00:06:13,240 --> 00:06:16,002
+dette her, altså. Kjempebra. Egentlig veldig bra.
+
+42
+00:06:22,469 --> 00:06:35,355
+Jeg har ikke vært så veldig spesifikk når det gjelder referansene. Så vi 
+kan få litt av hvert nå, men det får vi bare leve med. Vi skal uansett rydde
+
+43
+00:06:35,375 --> 00:06:50,613
+opp i referansene på neste samling på slutten av april. Som vi har da. Det 
+er forresten da vi skal ha peer review. Vi må få Erik til å planlegge peer
+
+44
+00:06:50,633 --> 00:06:54,014
+review, i forhold til hvem som skal reviewe av dem.
+
+45
+00:06:59,695 --> 00:07:01,876
+Det kan jo bare vi egentlig bare tilordne.
+
+46
+00:07:05,817 --> 00:07:16,687
+Da tenker jeg at det vi gjør, er å bare legge inn fila fra dem, altså 
+rapporten fra de andre, inn i ... Enten det, eller at man får tilgang, da.
+
+47
+00:07:16,987 --> 00:07:27,154
+For alle har jo tilgang til github-repoene. Vi kan ta senere 
+kvalifisasjon og hva han sier. Ja. Han holder på å jobbe her, da. Så la oss
+
+48
+00:07:27,194 --> 00:07:30,016
+se om han er ferdig på den andre sida. Ikke helt ennå.
+
+49
+00:07:32,938 --> 00:07:47,028
+Dot code er jo ganske omstendelig, men også ganske god, da. Og de bruker 
+som regel mer tid på plan enn på gjennomføring. Og min erfaring er at selv
+
+50
+00:07:47,048 --> 00:07:57,630
+om det tar litt tid på planlegging, så er det verdt strevet. For da får du 
+færre italasjoner, som du var inne på, PK. Treff bedre på det første,
+
+51
+00:07:57,650 --> 00:07:57,990
+rett og slett.
+
+52
+00:08:14,671 --> 00:08:19,194
+Søkemotoren sin til å søke på nettet etter kilder. Det er
+
+53
+00:08:23,256 --> 00:08:33,322
+ikke så veldig vanlig å bruke referanser i diskusjon, med mindre du skal 
+sammenligne med resultat som har blitt sett før, som andre har fått. Det
+
+54
+00:08:33,362 --> 00:08:44,360
+er lite aktuelt her, tenker jeg. Hvis du skriver en rapport hvor du 
+f.eks. prøver å gjøre noe bedre enn det noen andre har gjort, Så er det
+
+55
+00:08:44,401 --> 00:08:58,248
+aktuelt å ta det med i en diskusjon, hvor du refererer til den andre 
+parten når du skriver diskusjonen din. Men akkurat her, så ...
+
+56
+00:08:58,388 --> 00:09:10,317
+Diskusjonen er på en måte en personlig ting. Det er dine personlige 
+tolkninger av resultatet. De er ofte viktige, og de er ofte dine. Nå
+
+57
+00:09:10,357 --> 00:09:21,420
+lager vi en AI, gjør det for oss. Så det er veldig viktig at når vi er ferdig 
+med AI-steget, når alt er generert av AI, så er det deres jobb å gå over
+
+58
+00:09:21,460 --> 00:09:32,602
+hele greia. Selvfølgelig. Ja, for det må være en humansjekk til slutt. 
+Som Aftenposten og VG gjør, denne oppsummeringen er laget av AI, men
+
+59
+00:09:32,642 --> 00:09:46,127
+sjekket av våre journalister manuelt. Det er helt vesentlig. Og det er 
+det dere skal bruke hele mai på, egentlig, i vår plan. Dere skal bruke en
+
+60
+00:09:46,207 --> 00:09:59,273
+god del av perioden deres til å gå over alt som A1 har generert. Dere kan 
+godt få A1 til å rette det opp, men det er dere som legger merke til
+
+61
+00:09:59,293 --> 00:10:12,105
+endringer. Det er dere som er sjefen her, som skal da ... Ble dette bra, 
+ikke sant?
+
+62
+00:10:12,145 --> 00:10:25,588
+Stemmer dette? Skal vi se hvordan det står til her. Her har det kommet opp 
+noen referanser. Dickie O'Fullery, den vet jeg ganske kjent. Legg
+
+63
+00:10:25,628 --> 00:10:35,247
+merke til at her får du fra 1979, og det er et godt tegn, egentlig. For det 
+er da en ganske tidlig referanse. Som betyr at den er ganske
+
+64
+00:10:35,347 --> 00:10:48,290
+fundamental. Det er litt forskjellig mellom tidlige og gamle 
+referanser her. Men her ser vi f.eks. box. Og vi husker at metoden heter
+
+65
+00:10:48,370 --> 00:11:00,233
+box jenkins. Så det er et godt tegn at en kommer med disse tradisjonelle 
+referansene.
+
+66
+00:11:04,214 --> 00:11:08,756
+Vi er spent på å se om hun faktisk lager en oppsummering for hver
+
+67
+00:11:12,898 --> 00:11:24,304
+referanse. Det var litt kjapt der, syns jeg. Men vi kan få se. Kan du se om 
+det har kommet noe i mappa der nå? Det ser du, for under 'Theory' her så
+
+68
+00:11:24,364 --> 00:11:28,006
+lyser den grønn. Under 'References' her ... Oi, her står alle 
+referansene, ser du.
+
+69
+00:11:32,243 --> 00:11:41,711
+Men du ser at man lager ende. Jeg syns ikke det er så bra. Egentlig ønsker 
+ikke jeg en oppsummering, men egentlig ønsker jeg PDF-er. Jeg har
+
+70
+00:11:41,771 --> 00:11:52,880
+foreløpig ikke fått en eneste PDF, da. Jeg sa ikke det spesifikt heller. 
+Det syns jeg er mye bedre, egentlig. At du ser den faktiske PDF-en. Det
+
+71
+00:11:52,920 --> 00:11:54,401
+gir enda større verdi enn meg da.
+
+72
+00:11:59,513 --> 00:12:13,719
+Det er ikke alltid det fins en PDF, men hvis det gjør det, så er det 
+definitivt mulig å gjennomføre det. Men da er ikke den søkebiten den
+
+73
+00:12:13,779 --> 00:12:30,074
+beste, da. Da er det vanlig å bruke en ekstra sterk søkemotor. Og derfor 
+hadde jeg tenkt å utsette det til neste gang, da. Vi skal se om vi kan finne
+
+74
+00:12:30,114 --> 00:12:40,441
+denne Dickie og Fuller-referansen. Den vet vi finnes, for den har jeg 
+hørt om før. Man skal se om det eksisterer og er lett å finne ved et enkelt
+
+75
+00:12:40,481 --> 00:12:43,683
+Google-søk. Jeg gjorde det nå.
+
+76
+00:12:47,045 --> 00:12:51,728
+Den er på open access, så den kunne vi ha lasta ned.
+
+77
+00:12:56,990 --> 00:13:01,212
+Men skal vi finne den egentlige, så må vi nå ... Skal vi se, da.
+
+78
+00:13:04,413 --> 00:13:15,118
+Den egentlige ... 'Journal of the American Statistics'. Ja, jeg er på 
+den samme, ja. Jepp. Riktig. Det er vel egentlig den der vi må søke etter,
+
+79
+00:13:15,138 --> 00:13:22,901
+da. Ja. Sånn, og så bare prøver vi her. Sånn, sånn, sånn. Og så skriver Per 
+det.
+
+80
+00:13:31,803 --> 00:13:41,430
+Jeg fant en PDF-versjon her, altså. Ja da, så det er ikke umulig å åpne ... 
+Selv om det ligger bak betalingsmurer, det har jeg litt erfaring med da
+
+81
+00:13:41,470 --> 00:13:47,775
+... Selv om det ligger bak betalingsmurer, så er det så mange som legger 
+det ut på ResearchGate eller på andre servere. Så hvis du bare googler
+
+82
+00:13:47,795 --> 00:13:58,083
+det, eller Google Scaller med tittel og litt info, og så PDF til slutt, så 
+er det mange worklaner å finne deg på. Ja, her er i hvert fall den.
+
+83
+00:14:05,232 --> 00:14:17,199
+Den er i hvert fall på Google Scolar, så da er det et sterkt tegn på at den er 
+finest. Det er den der. Den ser du er ganske mye sitert. Ja. Det som er
+
+84
+00:14:17,239 --> 00:14:25,164
+greit, da, det som er regelen her, er det vi ønsker, da, er at ... Hvis du 
+ikke har altfor mange referanser, så det å finne PDF-en og laste den ned
+
+85
+00:14:25,204 --> 00:14:38,191
+på 003 references og ha en komplett liste der, det er det vi anbefaler. 
+Ja. Så kan du søke internett. Og eventuelt laste ned PDF-piler.
+
+86
+00:14:40,511 --> 00:14:45,752
+Filene for de enkelte referansene.
+
+87
+00:14:48,813 --> 00:14:55,434
+Hvert fall de blindes. Jeg er ikke sikker på om man har mulighet til å 
+gjøre det, skjønner du. Nei, det er derfor jeg vil ha pressen til å gjøre
+
+88
+00:14:55,454 --> 00:15:03,612
+det og se om man får det til. Så får vi svaret på det. Det
+
+89
+00:15:03,632 --> 00:15:08,854
+er ikke sikkert søkemotoren her klarer å gjøre det. Nei, det er ikke 
+sikkert.
+
+90
+00:15:11,855 --> 00:15:24,061
+Men du ser at den søker etter PDF-ene? Ja, den gjør det. Vi ser det. Det er 
+to utfordringer med det. Disse PDF-ene kan være ganske store. Og hvis de
+
+91
+00:15:24,121 --> 00:15:37,227
+er store, så får man den ikke til å lese. Claude code har en lesegrense på 
+hvor masse token man kan lese på en gang. Og da kan du få sånn 'kan ikke
+
+92
+00:15:37,287 --> 00:15:46,834
+lese' fordi du exceed token limit, da. Men det er visst gamle referanser 
+som f.eks. er skanna inn, da. Nei, ikke størrelsen på megabyten, men
+
+93
+00:15:46,914 --> 00:15:56,627
+antall tokens. Så antall ord i PDF-en er det som kan være ... Nå begynner 
+han å laste ned, ser dere. Her kommer det ting. Boks, f.eks. Dette er det
+
+94
+00:15:57,768 --> 00:16:06,230
+jeg er mer glad i. Boks 2025. Og der ser dere PDF-en. Det syns vi er bra. Her 
+ser dere at det kommer. Der har vi det. Da er vi ikke i tvil om at dette er
+
+95
+00:16:06,270 --> 00:16:06,370
+reelt.
+
+96
+00:16:22,409 --> 00:16:28,831
+Nei, da er vi ikke i tvil om at det er reelt, og det er det som er poenget. At 
+vi skal komme oss forbi
+
+97
+00:16:29,492 --> 00:16:30,412
+den der nå ...
+
+98
+00:16:34,954 --> 00:16:48,759
+Den der nå ... Problemet med at man spinner opp fiktive referanser, da. 
+Og min erfaring er at dette fungerer veldig bra, egentlig. Der kommer
+
+99
+00:16:48,779 --> 00:17:02,486
+det en Lung-boks, ja. Den er også veldig kjent. Det virker som om den er 
+god her, da. Dette er helt supert. Så AI, folk som står der og klager på at
+
+100
+00:17:02,566 --> 00:17:12,493
+AI hallusinerer, den tid er egentlig forbi. Spesielt hvis du bruker et 
+så skarpt verktøy som Claude Code er, da. Det er ikke å bruke det rette
+
+101
+00:17:12,533 --> 00:17:26,125
+verktøyet og håndtere det rette verktøyet og gjøre det et skikkelig 
+AI-arbeid, altså god styring av AI. Så dette her er ... Altså, jeg har et
+
+102
+00:17:26,165 --> 00:17:44,170
+søskenbarn. Han drev på med kule diskoer og sto fram ... Han var i 
+Olympiatoppen og sto fram som i doping ... Ble dopingtatt og sto fram og
+
+103
+00:17:44,210 --> 00:17:54,390
+innrømte det. To dobbeltsider i VG for mange år siden. Og han hadde 
+egentlig vært en sterk motstander av doping, så det var litt
+
+104
+00:17:54,450 --> 00:17:55,791
+overraskende.
+
+105
+00:17:58,512 --> 00:18:13,919
+Og så spurte de meg da ... Hvorfor tok du doping når du egentlig var imot 
+det og kanskje heller ikke? Hvorfor gjorde du det hvis du var imot det? Og
+
+106
+00:18:13,939 --> 00:18:28,446
+hvorfor ble du tatt? spurte de. Han sa følgende, som jeg syns er ganske 
+bra. Han ble tatt fordi han var desperat. Og det er veldig sant, sant. Det
+
+107
+00:18:28,466 --> 00:18:40,596
+er litt det samme her med AI. Hvis du er desperat, du har dårlig tid og du 
+ikke gidder å gå over skikkelige referanser, da kan du bli tatt. Men så
+
+108
+00:18:40,656 --> 00:18:51,613
+lenge du gjør jobben, går over, Og sørge for at de referansene du har, 
+faktisk eksisterer, så blir du jo aldri tatt. Da har du dobbeltsjekka at
+
+109
+00:18:51,753 --> 00:19:01,682
+referansene er til stede. Og så er vi ferdig med diskusjonen. I min 
+verden. Her har vi en del referanser, i hvert fall. Det er ikke sikkert vi
+
+110
+00:19:01,702 --> 00:19:13,728
+fikk alle. Seks og åtte PDF-er lastes ned. Og her står det hvilke to som 
+mangler. Og her kan man laste ned mer om bibliotekstilgang osv. Men
+
+111
+00:19:13,768 --> 00:19:19,492
+allerede nå har vi sterke tegn på at i hvert fall seks av dem finnes. Så 
+dette her er rimelig safe greier, da.
+
+112
+00:19:41,669 --> 00:19:47,430
+Herlig. Han har opptatt de tre. Legg merke til at de nå åpner statusfiler 
+under theory.
+
+113
+00:19:50,851 --> 00:19:53,752
+Da skal vi gjennomføre en review.
+
+114
+00:20:18,608 --> 00:20:29,532
+For å lage en review, så må vi gjøre noe lurt. For vi skal i prinsippet 
+bruke en egen AI, og da må vi passe på at vi er i teori, da. Sant. Så jeg tar og
+
+115
+00:20:29,552 --> 00:20:30,492
+nå åpner
+
+116
+00:20:33,033 --> 00:20:45,354
+Reveal in file explorer. Dette er jo litt avansert. Men legg merke til at 
+de er under Claude Worktrees der, sant? Vi merger hvis de tok tingene,
+
+117
+00:20:45,374 --> 00:20:54,236
+slik at vi har bare én sak å forholde oss til. Og så rir vi etter det. Ja, vi 
+kan gjøre det. Det tror jeg kanskje er enklere, da. At vi bare blir
+
+118
+00:20:54,296 --> 00:21:05,020
+ferdige, vi lar det siste punktet gjenstå. Og så bare merger vi, slik at 
+vi har bare én mappe å forholde oss til istedenfor to. OK. Så da er vi jo i
+
+119
+00:21:05,060 --> 00:21:12,522
+prinsippet ferdige. La oss se på rapporten om hva som har skjedd her. Jeg 
+må sette i gang den andre, forresten.
+
+120
+00:21:19,949 --> 00:21:21,530
+Ja, det var diskursen,
+
+121
+00:21:24,373 --> 00:21:34,842
+det. Yes. 8 % er greit. Kjører bare på. Bypass permission, så begynner 
+man å jobbe imens. Ja, det er bra, det. Det er jo ikke poeng å ha parallelle
+
+122
+00:21:34,862 --> 00:21:41,968
+prosesser hvis det kommer jobbiparallell, sier jeg. Nei, men de er 
+spent på rapporten, faktisk. På det der med teori. Ja. Så la oss se på
+
+123
+00:21:42,028 --> 00:21:52,405
+teorirapporten her. Da er det under report, rapport. Her ser vi 
+dekomponeringa.
+
+124
+00:21:54,667 --> 00:21:58,389
+Stasjonaritet, loggtransformasjon, differensiering.
+
+125
+00:22:00,651 --> 00:22:02,832
+Litt lite figurer her.
+
+126
+00:22:05,934 --> 00:22:09,897
+Ja. Ikke sant? Ja. Han har glemt figurene.
+
+127
+00:22:18,877 --> 00:22:21,805
+Noen relevante og pedagogiske figurer. Det må være tydelig på hva vi får 
+jakt etter.
+
+128
+00:22:46,771 --> 00:22:57,094
+Da må vi huske at vi har faktisk en annen folder som heter analyzes. Som 
+går under aktiviteter.
+
+129
+00:22:59,555 --> 00:23:02,616
+Bruk gjerne, bruk Python-kode. ... .
+
+130
+00:24:36,898 --> 00:24:40,200
+Her setter jeg på planmodus igjen. Nå
+
+131
+00:24:44,744 --> 00:24:48,446
+har vi kommet opp i en kontekst på 14. Muligens vi skal nærme oss en sånn 
+ny.
+
+132
+00:25:07,002 --> 00:25:10,664
+La oss
+
+133
+00:25:10,684 --> 00:25:16,586
+se hvordan den andre gjør det samtidig. Holder på å jobbe, ja. Bra.
+
+134
+00:25:26,030 --> 00:25:27,991
+Da er det i diskusjonen det skjer.
+
+135
+00:25:36,517 --> 00:25:51,628
+Har han lagd noen figurer og sånn da? Helhetsfigur. Det er bra. Se der, 
+ja. Den liker jeg. Ja. Han viser prognosen samt historikken. Så han
+
+136
+00:25:51,688 --> 00:25:59,654
+viser altså i teorien, da. Så mener jeg at da tar han altså egentlig det 
+som vi har fra resultatet og dataene våre som vi har simulert, da. Eller
+
+137
+00:25:59,695 --> 00:26:12,251
+dataene som vi har. Tar det inn i teorien, da. Det er en figur vi nesten har 
+sett før? Det var den jeg hadde lagd i Compendium. Men den figuren har vi
+
+138
+00:26:12,271 --> 00:26:28,039
+ikke tidligere i rapporten. Vi har noe som ligner, men ikke akkurat 
+denne. Da er dette bare et eksempel på ... Dette er de tolv neste månedene
+
+139
+00:26:28,099 --> 00:26:31,882
+fra 1981.
+
+140
+00:26:33,403 --> 00:26:44,051
+Eller to. Har dette noe med eksempelet vårt som vi holder på med i 
+rapporten nå, eller har det noe med boka å gjøre? Dette eksempelet er det
+
+141
+00:26:44,092 --> 00:26:55,796
+samme, det. I teorien så har vi ikke spesifikke data fra ... Kanskje litt 
+misvisende og litt forvirrende at i teorien skal det være generell
+
+142
+00:26:55,836 --> 00:27:09,644
+teori. Vi skal ikke anvende den spesifikt på eksemplet. Nei. Det er 
+derfor vi ber dem om å generere dataene sjøl. Det er bare for å vise teori.
+
+143
+00:27:09,724 --> 00:27:26,740
+Illustrere teori. Da skal vi ikke bruke grafene til det spesifikke 
+eksemplet vi ser på. I teorikapitlet skal du forberede leseren på å
+
+144
+00:27:26,800 --> 00:27:34,486
+forstå de gravene.
+
+145
+00:27:34,506 --> 00:27:35,426
+Der er den ferdig, ser du.
+
+146
+00:27:38,349 --> 00:27:42,832
+Hvis vi nå går innunder
+
+147
+00:27:42,892 --> 00:27:53,154
+her, så ser vi at vi har teori, altså discussion. Her ser vi endringene i 
+discussion. Og her ser vi endringene under theory. Ganske mye under
+
+148
+00:27:53,194 --> 00:27:55,754
+theory, for vi hadde alle disse referansene,
+
+149
+00:27:58,415 --> 00:28:09,498
+da. Og nå har han lagd noen figurer. Skal bli spennende å se hvordan de ser 
+ut. Klarte den ikke ... Å ja, nei. Det er fordi at vi ... Ja, sorry. Så vi har
+
+150
+00:28:09,538 --> 00:28:10,378
+noen figurer her.
+
+151
+00:28:19,630 --> 00:28:31,499
+Den skal vi begynne med. Vil den ikke automatisk skjønne hva slags type 
+fil det er? Nei, det er en feiljustering i programmet mitt. OK. Vi kan se
+
+152
+00:28:31,539 --> 00:28:44,769
+hvordan den så ut i sjølve rapporten, da. Ja, bare gå i rapporten og se. 
+Det blir enklere å oversikte det. Ja. Så hvis vi går i rapport der ...
+
+153
+00:28:51,794 --> 00:28:54,795
+Gjennomføring, mener jeg. Her
+
+154
+00:28:59,736 --> 00:29:19,460
+er den. 005-reporten. En litt dobbel sak der. Her har vi noen eksempler, 
+ja. Bra. Der har vi litt eksempel. Der har vi prinsippet med tidsserier
+
+155
+00:29:19,520 --> 00:29:25,502
+og nedkomponering. Supert. Modellinfeksjon,
+
+156
+00:29:26,483 --> 00:29:27,184
+validering ...
+
+157
+00:29:29,907 --> 00:29:32,991
+Nydelig. Jeg syns
+
+158
+00:29:35,373 --> 00:29:42,842
+det har vært bra. Dette er jo under theory, så da kan vi be en om å formidle 
+alle endringene.
+
+159
+00:29:55,025 --> 00:30:04,088
+Da er commit-en selvfølgelig det work-treet, da. Forsvinner det 
+work-treet etterpå når du har committa det og mercha det? Ja. Ikke
+
+160
+00:30:04,128 --> 00:30:09,630
+merging ennå. Nå er det bare commit-e innafor den egne branchen, da.
+
+161
+00:30:13,051 --> 00:30:19,813
+Så kan vi se på den her. Yes, bra. Det var da diskusjonen. La oss se på den.
+
+162
+00:30:24,573 --> 00:30:28,695
+Da er det også
+
+163
+00:30:31,757 --> 00:30:36,419
+report. Der.
+
+164
+00:30:37,400 --> 00:30:48,765
+Her er jo teorien tom, ser dere. Som den skal være. Vi har ikke jobba med 
+teori i den idework-treet. Det vi har jobba med her, det er kapittel
+
+165
+00:30:48,805 --> 00:30:49,846
+ni-diskusjon.
+
+166
+00:30:53,935 --> 00:31:06,797
+Vanskelige ord, det er jeg ikke så glad i, men det kan vi fikse. Det er sånt 
+som vi mener man skal fange opp i etterkant, når man går over,
+
+167
+00:31:07,758 --> 00:31:18,159
+da. Bra. Tabell, begrensninger, yes. Samle ut vurdering opp mot 
+problemstillingen. Kjempebra. Dette syns jeg ser bra ut. Ja. Så da sier
+
+168
+00:31:18,179 --> 00:31:29,678
+vi til deg nå, på midt endringene, sant? Vi ber AIN om å gjøre det, for da 
+veit vi at vi får en sånn god commit-melding, da. Ja, du gjør det. Du bør
+
+169
+00:31:29,759 --> 00:31:31,661
+ikke at jeg får å håndtere deg før det.
+
+170
+00:31:48,931 --> 00:32:01,797
+Så da skal det bli interessant å se hvordan man work ... Skal
+
+171
+00:32:01,817 --> 00:32:16,943
+vi se hvordan vi plår det sammen, da. Men vi bare ber Aino om å gjøre det, 
+da. Ja, det er det jeg tenker på. Du tenker på å merche nå, eller? Ja. Nå
+
+172
+00:32:16,963 --> 00:32:24,422
+begynner vi med merging. Gjør du det fra det ene eller det andre? Ja. I 
+stedet
+
+173
+00:32:26,903 --> 00:32:28,704
+bare merge endringene inn til ...
+
+174
+00:32:32,485 --> 00:32:33,505
+Ja, lurer på ...
+
+175
+00:32:51,993 --> 00:33:02,782
+Det er jo en egen branch, så det er det som er poenget. Men da må vi gjøre 
+work-tree-teori, og så må vi ha work-tree-discussion. Vi må merge
+
+176
+00:33:03,122 --> 00:33:13,791
+manuelt, begge to. Ja. Så nå prøver vi det på Maine, så ser vi hvordan det 
+går. Først på theory og så til Maine, ja. Og så må vi gjøre tilsvarende
+
+177
+00:33:13,811 --> 00:33:14,992
+etterpå discussion, sikkert.
+
+178
+00:33:35,767 --> 00:33:51,575
+Yes. Maine er nå på med akt sju-endringene. Så la oss sjekke det. Da går vi 
+bare inn i hovedkoden, sant? Ja. Så går vi på report. Rapport. Her burde
+
+179
+00:33:51,595 --> 00:34:02,720
+vi nå ha teori, da. Og det har vi. Ja. Og da kjører vi det samme med her. Så 
+sier vi bare merge endringene.
+
+180
+00:34:05,348 --> 00:34:07,831
+Fra dette ...
+
+181
+00:34:13,636 --> 00:34:21,925
+Og her kan det skje konflikter. For vi kan jo hende at vi har endra piler på 
+samme plassen.
+
+182
+00:34:37,985 --> 00:34:52,035
+Der skjedde det noe? Det skjedde ingen problemer. Her er ni diskusjoner 
+på plass, ser dere. Det er kult? Når vi nå har merget begge worksidene, er
+
+183
+00:34:52,055 --> 00:34:55,557
+de borte? Nei. De er her nå, men vi trenger dem ikke lenger. Så de er her.
+
+184
+00:35:00,800 --> 00:35:09,782
+Da er det stor da-in. Vi trenger ikke dette lenger. Kan vi da fjerne det vi 
+ikke trenger? Jeg vil at a-in skal gjøre det. Hvis det bare blir liggende
+
+185
+00:35:09,802 --> 00:35:18,164
+der, så blir det så mye filer. At om noen uker så glemmer vi hva det er. Så 
+jeg kan rydde litt opp i dette. Det jeg gjør nå, er at jeg prøver å gå ut, da.
+
+186
+00:35:19,044 --> 00:35:20,965
+For eksempel, jeg tror det er noe som heter ...
+
+187
+00:35:25,946 --> 00:35:27,547
+Quicker eller noe sånt, tror jeg. Exit.
+
+188
+00:35:30,739 --> 00:35:36,923
+Og her kommer en. Her får du spørsmål som du ba om, PK. Ja, det gjør du 
+faktisk. Kjempegreier.
+
+189
+00:35:38,364 --> 00:35:45,829
+Så nå har vi jo allerede mercha, da. Så da kan vi remove det, sant?
+
+190
+00:35:49,131 --> 00:35:55,515
+Ja. Da vil theory forsvinne. Hvis vi får for mange sånne doble filer, så 
+går det i ballen for oss etter hvert. Da går det i sur.
+
+191
+00:36:01,043 --> 00:36:13,169
+Og så trykker jeg exit her, og så sier vi bare remove, da. Veldig 
+forsiktig med remove hvis ikke du har mercha her nå. Ja, det er riktig. Og
+
+192
+00:36:13,229 --> 00:36:17,851
+nå ser dere, under the works her oppe, er det ingen lenger. De er borte.
+
+193
+00:36:20,912 --> 00:36:28,076
+Ja. Og det er viktig å gjøre dette her. Det er ikke bare å delete folderen, 
+fordi gits-systemet har fremdeles referanser til den.
+
+194
+00:36:31,368 --> 00:36:45,797
+Du må aldri fjerne disse WorkTree-folderne manuelt. Grunnen til det er 
+at det er såkalte hidden files her. Jeg kan jo vise dere det. Hvis vi ser
+
+195
+00:36:45,877 --> 00:36:47,318
+Reveal in Explorer her nå.
+
+196
+00:36:53,642 --> 00:37:05,844
+Inne her så ser dere at ja, nå er vi jo ... Her er vi inne i folder, sant? Her 
+er det faktisk enda en fil her, som vi ikke ser så lett.
+
+197
+00:37:10,265 --> 00:37:19,347
+Ser dere hva jeg gjorde nå? Skal jeg gjøre det en gang til? Jeg gjør det 
+alltid. Ja. Inni her, inni den folderen her, så er det en hidden folder.
+
+198
+00:37:20,688 --> 00:37:32,828
+En folder du ikke ser. Den heter .git. Hvis de nå trykker slash og så 
+skriver bare .git her nå, så går de inn i den folderen. Her ser dere alle
+
+199
+00:37:32,928 --> 00:37:45,314
+Git-filene som styrer Git-systemet. Her inne så har du referanser til 
+dette work-treet. Hvis du bare fjerner folderen, så oppdaterer du ikke
+
+200
+00:37:45,374 --> 00:37:53,898
+noe her. Så det som skjer da, er at du får en hel haug med feilmeldinger fra 
+Git fordi de tror work-tree finnes, og så finner de den ikke.
+
+201
+00:37:59,050 --> 00:38:11,275
+Løsningen på dette er bare å få AI til å gjøre ting. Da remover AI-en det 
+som remover skal, og beholder det som holder seg. Det AI-en gjør, er at
+
+202
+00:38:11,315 --> 00:38:19,678
+den kjører riktig git-kommando som automatisk rydder opp. Derfor vil 
+jeg at AI-en skal gjøre det, og at vi ikke prøver å gjøre dette manuelt og
+
+203
+00:38:19,718 --> 00:38:30,256
+finne ut hvilken kommando vi skal gjøre. Jeg hadde nok ikke tenkt på 
+dette der. Så det er lett å gå i fella og bare delete disse folderne sjøl.
+
+204
+00:38:30,936 --> 00:38:31,637
+Ikke gjør det.
+
+205
+00:38:36,438 --> 00:38:47,021
+Ikke gjør det, for da blir det rot i gritsystemet. Starter AM på nytt 
+igjen, en fresh en. Lurer på om vi lagde en kommando eller noe sånt? Eller
+
+206
+00:38:47,081 --> 00:38:56,936
+skills som heter review, ja. Vi lagde en review act, sant? Det er deilig. 
+For nå kan vi da kjøre review. Bare ved å trykke 'slash
+
+207
+00:38:59,799 --> 00:39:10,108
+review'. Da må vi skrive aktivitet i det, f.eks. Hva het den aktiviteten 
+igjen? Den var status fil ...
+
+208
+00:39:12,870 --> 00:39:18,475
+Status, status der. Den het 3-7, da tar vi det første.
+
+209
+00:39:26,530 --> 00:39:33,996
+Hva jeg vil si, i denne sammenheng her, og sjekke at ... Ja, det er siste 
+steg, da. Gjennomføre review og lure. Ja, sånn gjør jeg ikke. Siste
+
+210
+00:39:34,016 --> 00:39:41,761
+steg, ja. Og da har du bare åpna en ... Du bruker samme AI-en, men en ny 
+session? Ny session, ja. Men samme AI-en? Du bruker Claude ... Ja, jeg
+
+211
+00:39:41,781 --> 00:39:50,948
+gjør den samme AI-en, men optimalt sett så skulle du gjerne brukt en 
+annen AI også, da. Men uansett så er det bra at du i hvert fall starter en
+
+212
+00:39:50,968 --> 00:40:01,919
+helt ny session, slik at Claude ikke veit at det er Claude som har gjort 
+det. Ja.
+
+213
+00:40:01,959 --> 00:40:12,687
+Og nå brukte de en ferdiglagd skill som vi lagde forrige gang, som var en 
+review med review-mal. Den forteller hvor du skal lagre reviewen og alt
+
+214
+00:40:12,707 --> 00:40:18,912
+mulig. Vi husker vi gjorde dette her. Her er review, ser du. Nå skal det 
+komme 1.37 eller noe sånt.
+
+215
+00:40:23,990 --> 00:40:26,871
+Og da skal det også være sånn at en skal fikse det for oss,
+
+216
+00:40:30,011 --> 00:40:30,852
+endringene
+
+217
+00:40:33,752 --> 00:40:44,055
+eventuelt. Jo mer arbeid dere bruker i review-malene, dere er ikke nødt 
+til å bare kopiere den vi har. Dere kan jo fint tilpasse den så godt dere
+
+218
+00:40:44,075 --> 00:40:54,766
+vil. Hvor streng dere ønsker å være. Slik at man får enda bedre 
+resultater. Jeg har vært litt sånn kjapp i svingene, da. Her vil jeg
+
+219
+00:40:54,806 --> 00:41:08,873
+f.eks. kunne brukt kravene i rapporten, f.eks. Eller hva som er god 
+rapportskriving, f.eks. Tatt ei lærebok i vitenskapelig skriving og
+
+220
+00:41:09,453 --> 00:41:20,558
+mata den inn i en og bedt en om å lage en review basert på det. Det er sånne 
+ting jeg ville gjort, men det tar litt tid. Så vi har bare brukt en enkel
+
+221
+00:41:20,618 --> 00:41:32,454
+review. Mal her, som dere husker. Det er den dere ser her, da. Metodikk, 
+språk, svakheter, forbedringsforslag, samsvar med prosjektplan og
+
+222
+00:41:32,494 --> 00:41:37,659
+krav osv. Samlet vurdering, bla, bla. Det var en sånn. Det burde komme 
+noe her snart.
+
+223
+00:41:51,757 --> 00:41:57,086
+Men jeg har ikke lyst til å kjøre dem samtidig.
+
+224
+00:41:58,749 --> 00:42:01,414
+Nettopp fordi jeg ikke vil ha sånn kollisjons ...
+
+225
+00:42:29,287 --> 00:42:39,133
+Hvis vi bruker litt ekstra tid, sånn fem-seks, kanskje ti minutter over 
+tida, så blir vi ferdig, tenker jeg. Ja, må prøve på det. Bare slik at vi
+
+226
+00:42:39,153 --> 00:42:51,441
+får landa reviewen. Vi får en naturlig avslutning, ja. Ja. Da er vi 
+ferdig med to nye kapitler. Og kan starte på litteratur og konklusjoner
+
+227
+00:42:51,521 --> 00:43:02,888
+og innledning, da. Disse sluttkapitlene som bør ses i en helhet, da. 
+Litteraturen er ikke en helhetssak. Den tar vi først. Og så tar vi
+
+228
+00:43:03,129 --> 00:43:12,055
+sluttkapitlene til slutt, ikke sant. Innledning og konklusjoner. Det 
+er dermed lurt å ta når alt annet er skrevet.
+
+229
+00:43:17,599 --> 00:43:27,458
+Vi vil nok bruke litt tid på litteratur, men det vil bli litt sånn i samme 
+... Samme kategori som vi gjorde her, med referanser. Her ville jeg
+
+230
+00:43:27,478 --> 00:43:41,608
+rydda lite grann. For eksempel referanser, så skulle jeg skrevet en 
+kapp ... For eksempel theory, sant? Og samla alle teorier.
+
+231
+00:43:41,688 --> 00:43:48,033
+Under der har du f.eks. lagd en ny folder som heter PDF.
+
+232
+00:43:48,093 --> 00:43:49,394
+Samla alle PDF-ene der.
+
+233
+00:43:55,990 --> 00:44:00,132
+Dette kan jeg be Ain om å gjøre, f.eks. Som dere sikkert husker, så les Ain 
+bedre Markdown enn ...
+
+234
+00:44:26,298 --> 00:44:40,344
+Men det begynner å bli marginalt. Mange av disse PDF-ene kan f.eks. være 
+bilder i stedet for tekst. Det kan være problematisk. Det kan være
+
+235
+00:44:40,644 --> 00:44:42,965
+skanna PDF-er. Da blir det tøft.
+
+236
+00:44:51,053 --> 00:44:59,655
+Da er en ferdig med en agent, som har gjort en del jobb. La meg lese ferdig 
+for å gi deg en presis oppsummering. Har han gjort noen endringer,
+
+237
+00:44:59,875 --> 00:45:00,835
+bortsett fra det jeg gjorde, da?
+
+238
+00:45:28,499 --> 00:45:39,150
+Det var bare poperinga jeg gjorde. Kunne kanskje ikke gjort det med en 
+gang, men gjorde det nå. I committe dem for seg sjøl, slik at det ikke blir
+
+239
+00:45:39,410 --> 00:45:40,531
+slått sammen commit her.
+
+240
+00:45:44,215 --> 00:45:49,860
+Anbefalt prioritering! Rett grammatisk kveld! Finpussen kan styrkes 
+plutselig. Ja, så sier jeg bare ...
+
+241
+00:46:00,427 --> 00:46:01,747
+Beskriver bare at den skal gjennomføres.
+
+242
+00:46:04,668 --> 00:46:12,790
+Det var ikke mye rart, egentlig. Hvis det er bare dramatikk og finpuss, 
+så var det ingen fundamentale ting, da. Det mangla litt dramatisk feil,
+
+243
+00:46:12,810 --> 00:46:21,252
+forbedringer ...? Men det var ingen fundamentale ting, da, om det var 
+illevant eller om det var dårlige diskusjoner, eller det var liksom
+
+244
+00:46:22,232 --> 00:46:31,431
+sirkelargument eller litt sånn alvorlige ting, da. Skrivefeil er jo 
+kanskje det ... Det var en del, da. Fem stykker, ser dere. Fire sånne
+
+245
+00:46:31,771 --> 00:46:40,713
+veer, som de kalte det. Og fem F-er. Jeg husker ikke helt hva vi la i det, 
+men ... Men det er ikke sånne filmetale ting, da? At det var liksom ...
+
+246
+00:46:43,374 --> 00:46:52,816
+Ikke kritiske punkter? Nei. Da er det må. Vi hadde to bør. Vi hadde to bør, 
+og så hadde vi
+
+247
+00:46:54,736 --> 00:47:07,575
+to ... Ja, vi hadde én bør, og så hadde vi fire kann, da. Ingen må, da. Vi 
+avslører kritiske feil her. Men vær obs på at flåte kan være litt baies,
+
+248
+00:47:07,615 --> 00:47:14,896
+siden det var Claude som skrev det. Hadde vi brukt kodeks her, så hadde 
+det kanskje vært bedre. Kanskje
+
+249
+00:47:16,256 --> 00:47:24,918
+det er nevnt. Eller gamen i, da. Det er klart, det er luksus å ha mange 
+aier. Så koster det så mye penger. Så ...
+
+250
+00:47:27,839 --> 00:47:35,163
+Så vi kan ikke forvente at folk ... Skal vi bare ta oss en liten pause og 
+heller ta oss en tredjetime, som er bare et kvarter? Kan vi heller bare
+
+251
+00:47:35,183 --> 00:47:43,568
+gjøre det? Jeg tror kanskje det er bedre for oss. Får denne bare jobbe nå, 
+bli ferdig, og så begynner vi på en kvart år. Så tar vi bare et kvarter. For
+
+252
+00:47:43,988 --> 00:47:51,733
+vi må ha litt om planleggingen, hva vi skal gjøre videre. Men vi kommer 
+til å komme ut med brukere, så de faktisk kan begynne, studentene, å
+
+253
+00:47:51,793 --> 00:48:00,639
+gjøre ... De kan ikke gjøre det før vi har gitt dem brukerne og sånne ting. 
+Det er litt som står igjen nå. Så istedenfor å presse dette til å bli en og
+
+254
+00:48:00,659 --> 00:48:08,101
+en halv times forelesning, så tar vi oss ti minutter pause nå, til kvart 
+over. Og så tar vi et kvarte-tjue minutt av tredje timen, og så ferdig.
+
+255
+00:48:08,121 --> 00:48:16,962
+Men da sett i gang reviewen, i så fall. Bare slik at det er gjort. Kan jeg si 
+det? Sett i gang den andre reviewen. Vi melder deg. Greit, vi gjør det. Og
+
+256
+00:48:16,982 --> 00:48:22,971
+så tar vi oss en pause. Vi tar første kvart over, da. Tolv minutter. Greit 
+det. Ja, vi tar kvart over, ja. OK.
+

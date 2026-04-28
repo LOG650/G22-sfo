@@ -1,0 +1,980 @@
+1
+00:00:02,073 --> 00:00:08,997
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+I 
+dag har dere sett agendaen som vi skal ha. Bård Inge skal si litt om
+
+2
+00:00:09,017 --> 00:00:19,844
+prosjektplanen og leveranse i den sammenheng. Og gjennomføring. Og 
+hva skal gjøres når, og av hvem. Det blir temaet. Så får vi se om Bård Inge
+
+3
+00:00:19,864 --> 00:00:29,266
+bruker to timer på det, eller én time. Men når Ringe er ferdig, så skal vi 
+si litt om vitenskapelig skriving. Grunnen til det er at vi skal begynne
+
+4
+00:00:29,626 --> 00:00:39,130
+å skrive skjelettet på det overordna nivået. Slik at vi er enige om hva 
+slags elementer som skal være med. Vi kommer ikke sikkert til å dypdykke
+
+5
+00:00:39,230 --> 00:00:48,474
+inn i alle metoder og teorier i dag. Det kommer vi helt sikkert ikke til å 
+gjøre. Man skal prøve å gi en overordna struktur. Slik at vi vet hva slags
+
+6
+00:00:48,634 --> 00:00:57,258
+oppgaver vi skal gjøre, til hvilket tidspunkt og hvilket element vi 
+skal ha med i sluttleveransen vår, som er rapporten. Dermed gir jeg bare
+
+7
+00:00:57,278 --> 00:01:01,280
+ordet til Henge. Takk, BK.
+
+8
+00:01:04,701 --> 00:01:22,204
+Vi har kommet til fase to planlegging. Og selv om vi har utvida fristen 
+for innlevering for fase én, som er 'proposal', så starter vi nå fase to.
+
+9
+00:01:22,344 --> 00:01:32,966
+Som så å si planlagt. Vi er to dager overtid, men utover det, så er det 
+greit. Og min oppgave ... Jeg kommer til å bare bruke én time, det er helt
+
+10
+00:01:33,006 --> 00:01:36,847
+sikkert. Men kanskje litt ekstra. Men i hvert fall ikke to timer.
+
+11
+00:01:39,661 --> 00:01:52,090
+Det jeg skal gjøre nå, er å snakke om prosjektdelen av dette kurset. 
+Fordi faget heter jo forskningsprosjekt. Og
+
+12
+00:01:56,353 --> 00:02:08,634
+vi skal da også sørge for å ha prosjektet ... kontroll på prosjektet. Det 
+kommer nå, og det blir viktig. La oss se på innholdsfortegnelsen. Hva
+
+13
+00:02:08,674 --> 00:02:26,179
+syns dere om den AI-genererte venstresida her? Fantastisk. Har du fått 
+AI til å lage PowerPoint? Yes. Claude har nå en add-in direkte inn i
+
+14
+00:02:26,239 --> 00:02:40,724
+PowerPoint. Det er amazing. Så alt dere ser nå. Det er generert av 
+Claude. Vanvittig deilig. All right. La oss starte
+
+15
+00:02:41,184 --> 00:02:51,949
+innholdsfortegnelsen. Så nå er det agendaen. Først skal jeg snakke 
+litt om topp tre årsaker for at du feiler. Og det er ganske viktig å være
+
+16
+00:02:51,969 --> 00:03:05,756
+klar over. Deretter litt om de prosjektfasene vi har. Så, veldig 
+viktig, hvilke leveranser skal vi levere til 9.3. Det er jo vesentlig.
+
+17
+00:03:06,957 --> 00:03:20,067
+At dere 100 % er klar over hva som skal leveres. I tillegg så går vi gjennom 
+hva prosjektplanen er, og litt om WBS-input til Gant-diagram.
+
+18
+00:03:27,138 --> 00:03:38,508
+Det er work breakdown structure. Det er en fast ting i prosjektledelse. 
+Og den punkt fem der er for at dere skal komme i gang litt med
+
+19
+00:03:38,629 --> 00:03:47,477
+prosjektdelen. Vi antar som en forutsetning ... Anbefalt 
+forutsetning, heter det vel. Til dette kurset her så er
+
+20
+00:03:47,537 --> 00:03:58,275
+prosjektledelse anbefalt. Selvfølgelig. Og dermed så vil jeg ikke gå 
+inn i enkelte prosjektbegrep,
+
+21
+00:03:58,315 --> 00:04:09,140
+da. Jeg antar at det er kjent. Så hvis dere ikke er kjent med disse 
+begrepene her, så må dere rett og slett sette dere inn i det. Men det antar
+
+22
+00:04:09,180 --> 00:04:26,442
+jeg er kjent hos dere. Dette er jo et avslutningskurs hvor vi har en del 
+anbefalte kunnskaper. Til slutt om Gant-diagrammet og
+
+23
+00:04:26,602 --> 00:04:32,284
+referanseplanen.
+
+24
+00:04:33,044 --> 00:04:42,626
+For at dere skal se helheten i prosjektdelen av kursen.
+
+25
+00:04:43,486 --> 00:04:47,187
+Jeg kan jo si det, før vi starter på disse seks punktene ...
+
+26
+00:04:50,281 --> 00:05:03,026
+Det at vi definerer dette kurset som et prosjekt som skal gjennomføres, 
+og ikke som en klassisk bacheloroppgave, er viktig på mange måter. Vi
+
+27
+00:05:03,086 --> 00:05:11,749
+tror at dette er mye mer realistisk sett i lys av en arbeidssituasjon.
+
+28
+00:05:11,929 --> 00:05:20,601
+Det er mange ganger i en bedrift at man ønsker å gjøre noe 
+forskningsarbeid. Rett og slett utforske noe. Du har en
+
+29
+00:05:20,641 --> 00:05:33,311
+problemstilling, du ønsker å drodle og finne gode løsninger på det 
+problemet. Det kan også være en mulighet. Normalt sett vil det da settes
+
+30
+00:05:33,331 --> 00:05:43,019
+ned et prosjekt som man skal gjennomføre i bedriften. Det er ikke sånn at 
+man sitter der som en sånn vitenskapelig professor og skriver. Det blir
+
+31
+00:05:43,059 --> 00:05:55,685
+som regel et prosjekt som man leder. Og jo større forskningsprosjektet 
+er, jo flere medlemmer vil være med. Og det vil være en prosjektleder, og
+
+32
+00:05:55,845 --> 00:06:04,353
+det vil være en prosjektplan. Man vil også få et budsjett. Det har ikke vi 
+i det kurset her, selvfølgelig. Det er ikke noe budsjett her. Men man vil
+
+33
+00:06:04,413 --> 00:06:16,979
+også ha en tidsplan man må følge. Så det er grunnen til at vi har tatt med 
+prosjektdelen inn i en bacheloroppgave. Det skal rett og slett være mer
+
+34
+00:06:18,299 --> 00:06:22,701
+realistisk i forhold til en situasjon i en arbeidsplass.
+
+35
+00:06:25,903 --> 00:06:29,765
+Så da kan vi gå videre. Og så gå videre ...
+
+36
+00:06:38,146 --> 00:06:40,406
+Får ikke lov å gå opp neste slide
+
+37
+00:06:42,807 --> 00:06:59,070
+her. Neste. Det var jo veldig interessant. Bare prøv å ta escape, da. Er 
+det powerpoint du har? Prøv nå, da. Bare gjør det manuelt. Der kom den.
+
+38
+00:07:01,911 --> 00:07:02,951
+Det er det sjukeste.
+
+39
+00:07:05,572 --> 00:07:15,072
+Det er veldig sjukt. Ja, der lærte jeg noe nytt! Får klage til Klov. Han
+
+40
+00:07:15,092 --> 00:07:25,034
+vil ikke hoppe mellom slidene, det er jo superart. Men det får vi ta til 
+neste gang. Det var litt overraskende. Men kanskje jeg kan få lov å bruke
+
+41
+00:07:25,074 --> 00:07:39,196
+den der? Anyway. Ja, så topp tre årsaker for at du feiler dette faget her. 
+Og det vi egentlig gjør nå ... ... der at vi drar. Og dette tror jeg PK også,
+
+42
+00:07:39,716 --> 00:07:52,525
+selv om vi ikke har snakka med ham om det, så tror jeg PK er ganske enig i 
+disse tre årsakene. For INPK, vi har vært veiledere for mange ... ... for
+
+43
+00:07:52,605 --> 00:08:03,553
+mange bacheloroppgaver og masteroppgaver. Og vi har opplevd de som 
+klarer det bra, og vi har opplevd de som ikke klarer det bra. Så vi har jo
+
+44
+00:08:03,993 --> 00:08:21,365
+dratt på oss noen ... Noen erfaringer over tid. Hva er det som gjør at noen 
+feiler i å skrive en ... Kall det en bacheloroppgave. Første, det er
+
+45
+00:08:21,405 --> 00:08:33,956
+prosjektledelse. Det er å lede prosjektet sitt gjennom hele 
+semesteret. Det innebærer planlegging. Hva skal du skrive når? Og hvem
+
+46
+00:08:33,996 --> 00:08:47,285
+skal gjøre det? Og det er gjennomføringa, selvfølgelig. Vi har jo lina 
+dette opp til studentene i starten av hvert semester som da skal skrive
+
+47
+00:08:47,305 --> 00:09:02,206
+masteroppgave. Vi har en ganske rigid plan, men er det sånn at en følges 
+... PK, føler du det? Ja da, vi prøver på det. Vi har litt utsettelser og
+
+48
+00:09:02,226 --> 00:09:08,388
+sånne ting. Men det er sånn som vi justerer, siden det her er første gang 
+gjennomføring av purset. Men i all hovedsak så syns jeg at vi greier å
+
+49
+00:09:08,448 --> 00:09:19,871
+gjennomføre det. Så typisk er jo det at vi skal ha en 
+innleveringsrapport ved slutten av april. Vi har til dags dato aldri
+
+50
+00:09:19,891 --> 00:09:35,035
+opplevd å få den i tider. Så mitt ... Det er ikke innholdet i rapporten 
+eller forskningsdelen og skrivingen av rapporten i seg selv hvor
+
+51
+00:09:35,075 --> 00:09:46,080
+studenter feiler. Det er i prosjektledelsen de feiler. De klarer ikke å 
+styre hverdagen sin. Klarer ikke å jobbe systematisk over tid. Det er
+
+52
+00:09:46,180 --> 00:10:00,444
+skippertak, og man havner i en stressituasjon, og resultatet går ad 
+undas. Så det er etter min mening de tre toppårsakene. Og da skjønner
+
+53
+00:10:00,464 --> 00:10:07,169
+dere hvorfor det er viktig å håndtere denne prosjektledelsesdelen.
+
+54
+00:10:08,029 --> 00:10:23,098
+Og i stedet for nå å bare oppfordre studentene til å følge en sånn plan. 
+Gjøre så godt du kan. Det har vi nå endra på. Nå så krever vi det. Så nå må det
+
+55
+00:10:23,138 --> 00:10:34,541
+være en del av leveransen. Man skal levere prosjektplaner, og man skal 
+levere en gjennomføringsplan. Og den skal også godkjennes
+
+56
+00:10:36,081 --> 00:10:49,514
+hvis man skal ha godkjent i faget. Så dette er et overordna løp som skal 
+sørge for at dere havner i land. Og ikke kommer i disse vanskelige
+
+57
+00:10:49,554 --> 00:10:57,279
+situasjonene som vi ofte har opplevd. Så det er vel take away. Skal vi se 
+om vi får lov å ... Ja! Det gikk.
+
+58
+00:11:00,681 --> 00:11:02,522
+Så prosjektfasene.
+
+59
+00:11:04,864 --> 00:11:14,870
+I et prosjekt så har vi som regel fire faser. Vi har fase én, som er 
+initiering av prosjektet. Rett og slett - proposalen. Hvor vi da skal
+
+60
+00:11:15,050 --> 00:11:26,231
+avklare hva det er vi skal. Hva skal vi levere i dette prosjektet? Så er 
+det fase to, hvor vi nå nettopp har starta. Og nå er det planlegginga. Så
+
+61
+00:11:26,271 --> 00:11:40,788
+nå må man planlegge hvordan man skal gjennomføre prosjektet, gitt 
+initieringa. Og legg merke til datoene. Det er fra 9.5 til 9.3. I dag er
+
+62
+00:11:40,808 --> 00:11:55,954
+det 11.2, men to dager fra eller til har ikke så mye. Men 9.3, da går vi over 
+til fase 3. Og fase 3, det er da den store delen. Gjennomføringsdelen. Og
+
+63
+00:11:55,994 --> 00:12:06,343
+til slutt så har vi fase 4, hvor man har avslutning. Vi kommer litt 
+nærmere tilbake til disse fasene i dag. Men dette er jo da planen. Og
+
+64
+00:12:06,383 --> 00:12:09,246
+dette må da gjenspeiles i deres prosjektplan.
+
+65
+00:12:13,651 --> 00:12:28,579
+Legg nå merke til at vi har datoer her, men jeg vil stresse med det med 
+ganske godt trykk. Dere kan fint bli ferdig med fase to så fort som mulig.
+
+66
+00:12:28,959 --> 00:12:41,223
+Det er ingenting som sier at dere skal holde på med fase to frem til 9.3. 
+Det er bare fristen. Og vi kommer til å godkjenne disse planleggings...
+
+67
+00:12:41,283 --> 00:12:49,622
+den planleggingsdelen. Fortløpende, som vi har gjort med proposal. 
+Det tror vi fungerer godt. Da kan folk bli ferdig med den biten og komme i
+
+68
+00:12:49,642 --> 00:13:00,648
+gang med sjølve gjennomføringa. Så dette er en tentativ plan. Og så må 
+dere lage deres egen plan etter deres egne ambisjoner og tid
+
+69
+00:13:00,688 --> 00:13:01,128
+tilgjengelig.
+
+70
+00:13:03,890 --> 00:13:18,936
+Men det blir en godkjenning her av planleggingsdelen. Så hva skal man 
+egentlig levere? Hvilke leveranser har man til 9.3? Eller før, da? Det
+
+71
+00:13:18,996 --> 00:13:33,445
+er i prinsippet to filer vi skal ha. Det er en prosjektplan. Og vi har en 
+mal som vi også tidligere har brukt, og som dere er tjent med. Vi skal
+
+72
+00:13:33,485 --> 00:13:45,547
+hente inn den etter hvert. Men så skal vi også ha et MS Project 
+Gant-diagram. Og vi har allerede nå bestilt tilgang til MS Project, så
+
+73
+00:13:45,727 --> 00:13:58,076
+det får vi via IT-avdelinga vår. Hvis dere ikke allerede har tilgang til 
+MS Project. Så vi legger ut, det kommer en kunngjøring når vi har fått
+
+74
+00:13:58,116 --> 00:14:07,363
+tilgangen. Og da vil alle som tar faget, få tilgang til å laste ned MS 
+Project og bruke det. Det er de to filene vi skal ha. Vi skal ha en
+
+75
+00:14:07,383 --> 00:14:20,208
+prosjektplan, og så skal vi ha et MS Project Gant-diagra. Som vil da 
+forklare i detalj hvordan dere har tenkt å skrive og gjennomføre
+
+76
+00:14:23,649 --> 00:14:42,272
+dette prosjektet. Så en prosjektplan pluss et MS Project Gant-diagra. 
+Det neste nå er å huske at dette her skal jo støtte opp under når vi starter
+
+77
+00:14:42,352 --> 00:14:54,923
+i fase tre med gjennomføringa. Da skal vi følge denne planen så godt som 
+mulig i løpet av gjennomføringsfasen. Og så må man også håndtere
+
+78
+00:14:55,024 --> 00:15:17,967
+endringer underveis. Det er et MS-fil, da. Eller MS-project-fil. Er 
+det også en MS-project-fil? Nei. Så ... Et godt spørsmål. Så ... Så,
+
+79
+00:15:18,407 --> 00:15:19,227
+prosjektplan ...
+
+80
+00:15:24,628 --> 00:15:33,833
+Vi har en word template. Jeg skal vise den om et lite sekund. Mens MS 
+Project ...
+
+81
+00:15:37,595 --> 00:15:39,755
+Det er en såkalt .mpp-plan.
+
+82
+00:15:43,697 --> 00:16:02,665
+Så det er to filer, da. Og ... Jeg skal se om jeg finner den ... Project 
+Management Plan, i hvert fall. Den skal dere være kjent med. For
+
+83
+00:16:02,705 --> 00:16:05,286
+dem som tok faget
+
+84
+00:16:07,688 --> 00:16:09,649
+log 65.
+
+85
+00:16:11,290 --> 00:16:21,956
+Her er en project plan, den må dere skrive. Her er typisk innhold. Det jeg 
+kan påpeke, er at budsjett må utgå. Vi har ikke budsjett, så dem kan dere
+
+86
+00:16:21,997 --> 00:16:41,282
+bare fjerne. Det er ikke noe budsjettering her, men i en reell situasjon 
+så ville man hatt et budsjett her, da. Og her skal man da legge inn det ...
+
+87
+00:16:42,102 --> 00:16:53,629
+På en måte starte med the proposal og legge inn videre plan for å 
+gjennomføre prosjektet. Det er da den ene leveransen. Men den fila der,
+
+88
+00:16:53,649 --> 00:17:03,218
+den ligger ikke på ... Har vi ikke lagt ut til studentene, har vi vel? Så vi 
+kan få Erik til å legge det ut? Ja, den kan vi legge ut. Vi har lagt den inn
+
+89
+00:17:03,258 --> 00:17:09,364
+under faget vårt, LOG 56 forskningsprosjekt.
+
+90
+00:17:09,404 --> 00:17:22,610
+Vi legger det ut til gruppene våre under deling og under templates. Så 
+det kan vi huske på. Det er greit å få gjort. Og som sagt, fjerne budsjett,
+
+91
+00:17:22,670 --> 00:17:28,552
+det har vi ikke. Men ellers vil jeg gjerne ha med de meste,
+
+92
+00:17:30,073 --> 00:17:38,673
+da. Det blir en forenkla prosjektplan, selvfølgelig. For prosjektet 
+er ikke så stort, og det er heller ikke så mange teamarbeidere, da. Men
+
+93
+00:17:38,753 --> 00:17:50,037
+utover det, og mange er jo enslige, så vil vi likevel ha en plan. Og det er 
+for å tydeliggjøre prosessen her. Slik at vi er 100 % sikre på at dere har
+
+94
+00:17:50,537 --> 00:17:51,617
+en plan dere skal følge.
+
+95
+00:17:56,839 --> 00:18:02,301
+Så la oss se litt på de to her, og hvordan det skal utarbeides.
+
+96
+00:18:12,232 --> 00:18:24,777
+Det er et sammendrag. Her skal dere komme med bakgrunn, 
+problemstilling og mål. Der må dere hente inn 'proposals'. I
+
+97
+00:18:24,817 --> 00:18:41,540
+sammendraget i prosjektplanen må proposals komme. Her skal det stå hva 
+man skal gjøre. Omfang. Og her vil vi da legge inn ... Hva skal man ta med,
+
+98
+00:18:41,580 --> 00:18:57,527
+hva skal man ikke ta med. Det er det klassiske hvordan man avgrenser 
+oppgaven. Hva tar du ikke med, og hva skal du ta med. Du har også tidsplan,
+
+99
+00:18:58,808 --> 00:19:10,422
+og det er her Gant-diagrammet kommer inn. Dere må da legge inn 
+milepæler, og så vil dere da legge inn aktiviteter. Og så får dere en
+
+100
+00:19:10,462 --> 00:19:24,893
+kritisk sti, og den må være innenfor fristene, selvfølgelig. Og som for 
+alle prosjekt, det er ikke mulig å utvide fristene her i forhold til
+
+101
+00:19:24,953 --> 00:19:31,057
+innlevering til eksamen. På siste frist for innlevering, som jeg tror 
+nå er 1.6...
+
+102
+00:19:36,370 --> 00:19:46,072
+Den er endelig, så den er ikke noe å bytte på. Så hvis kritisk sti går forbi 
+den, så må dere gjøre noen grep der, da.
+
+103
+00:19:49,693 --> 00:19:58,516
+Legg gjerne inn risiko også. Det er ikke nødvendig med et register. Dere 
+kan legge det direkte inn i Word-dokumentet.
+
+104
+00:20:06,982 --> 00:20:09,183
+Egen
+
+105
+00:20:11,424 --> 00:20:19,448
+fil for risikoregisteret er nødvendig. Bare skriv direkte inn hvilke 
+risikoer dere
+
+106
+00:20:27,712 --> 00:20:33,254
+ser. Man kan jo tenke seg at det er åpenbare greier. Men det er faktisk 
+ganske viktig å gjøre.
+
+107
+00:20:36,125 --> 00:20:37,606
+Man blir
+
+108
+00:20:41,088 --> 00:20:53,136
+observant på hva som kan gå gærent. Da er det lettere å ... Har man tenkt 
+over disse tingene, så er det selvfølgelig enklere å unngå det. Hvis man
+
+109
+00:20:53,156 --> 00:21:01,401
+skulle komme i en sånn situasjon. Her kan det være personlige 
+situasjoner som kan være med og spille, men det kan også være litt mer
+
+110
+00:21:01,441 --> 00:21:12,722
+generelle typer prokrastinering, som det ofte kan kalles. Eller at man 
+får ekstra mye trykk på jobben som gjør at tida bare blir spist opp,
+
+111
+00:21:12,742 --> 00:21:21,027
+f.eks. Her må dere identifisere dette her, men det som er vesentlig, er 
+at man tenker over det og får det ned på papiret.
+
+112
+00:21:27,030 --> 00:21:40,315
+Så hvilke ressurser har vi? Og det er jo da teamet deres. Hvis dere er 
+flere enn én. Vi tillater ... Én til fire medlemmer per gruppe. Og gir
+
+113
+00:21:40,355 --> 00:21:53,403
+dere flere enn én person, så kan dere fordele oppgaver mellom dere. Og da 
+anbefaler jeg på det sterkeste at dere også setter ned en som er
+
+114
+00:21:53,483 --> 00:22:02,068
+ansvarlig for prosjektet. Det er altså en prosjektleder. Og NB, ta med 
+husk for guds skyld prosjektleder.
+
+115
+00:22:14,202 --> 00:22:25,212
+Og hvis dere er en gruppe, da, er du bare alene, så er det bare å bytte 
+hattene på huet. Og da er det selvfølgelig mer ... Det krever mer
+
+116
+00:22:25,272 --> 00:22:38,244
+disiplin å være alene enn å være i gruppe, på én måte. For du må da sørge for 
+å ta de forskjellige rollene i prosjektet. Word-templaten vi har her,
+
+117
+00:22:38,264 --> 00:22:45,845
+den er skrevet på engelsk. Skal vi skrive på engelsk der, eller er det 
+norsk, eller er det valgfritt? Det kan dere velge. Vi kan godt oversette
+
+118
+00:22:45,865 --> 00:22:56,507
+den til norsk også. Det kan vi vel be Claude eller noe sånt gjøre for oss. 
+Den er ganske omfattende, med ganske mange appendixer og tolv
+
+119
+00:22:56,527 --> 00:23:09,550
+kapitler. Det skal være veldig omfattende en av prosjektplanene. Jeg 
+har sagt at vi skal forenkle her og der, og mye av vedleggene vil også
+
+120
+00:23:09,590 --> 00:23:21,438
+kunne forenkles. Forenkles det for, eller går ut i sin helhet, eller 
+bare forkortes? Tenker du på budsjettet? Nei, jeg tenker på vedleggene
+
+121
+00:23:21,458 --> 00:23:34,980
+og alle kapitlene. Mange av vedleggene kan droppes her og bare skrives 
+direkte inn i Bør-dokumentet. Hvis du ser på prosjektplaner, altså den
+
+122
+00:23:35,020 --> 00:23:40,422
+templaten ... Hvis du tar opp den templaten som du hadde, den Word-fila 
+...
+
+123
+00:23:44,644 --> 00:23:55,609
+Hvis du tar to sider, slik at vi ser litt mer ... Slik at du har to sider, et 
+dobbelt-vy, da ... Gjør du det, da? Ja ... Her er sikkert den. Der ser du at
+
+124
+00:23:55,649 --> 00:24:06,186
+det er ganske mange kapitler og delegg. Så alle er kapitler her, og alle 
+vedlegger skal fylles ut og justeres. Eller kan vi ta vekk en del
+
+125
+00:24:06,206 --> 00:24:20,012
+kapitler og gjøre kapitler kortere? Og kanskje ikke alle appendixer er 
+relevante for oss, eller? Ja. Det er mange ting her som man kan forenkle.
+
+126
+00:24:20,192 --> 00:24:32,314
+Og her må man bare bruke skjønn eller sunn fornuft, mener jeg. 
+Prosjektet er ikke så stort. Så man trenger ikke all verden ... All
+
+127
+00:24:32,354 --> 00:24:32,754
+verden ...
+
+128
+00:24:36,196 --> 00:24:49,001
+Altså, man trenger ikke gjøre det større enn det det er, ikke sant? Men 
+masse av tinga må bli med. Jeg fikk ikke med hele ... Jeg tror det var en
+
+129
+00:24:49,041 --> 00:24:51,883
+dårlig vid ute her. Her ser vi bedre, egentlig.
+
+130
+00:24:59,358 --> 00:25:15,143
+Én, to, schedule må være med. Budsjett kan fjernes i sin helhet. Risiko 
+må vi ha med. Alle stein, altså. Du kan prøve å ta en vie slik at du har to
+
+131
+00:25:15,183 --> 00:25:21,745
+sider. Ikke den veien vi stod i på å foreslå. Det fungerte ikke. Det 
+fungerte. Så ikke alt.
+
+132
+00:25:27,421 --> 00:25:35,790
+Jeg skjønner ikke helt hvorfor han har det latterlige ...
+
+133
+00:25:35,830 --> 00:25:47,928
+Har du en bedda inni teamet? Det er det som er katastrofen? Nei, det er 
+ikke noe bedda her. Poenget er at de så ikke Alta. Disse ressurser og
+
+134
+00:25:47,968 --> 00:25:58,871
+kommunikasjon, det kommer jo du til å snakke litt om, PK. Så der må man 
+legge inn det. Hvor ofte skal man møtes osv. Så dette er viktige ting. Men
+
+135
+00:25:58,951 --> 00:26:10,314
+apendikser kan man forenkle kraftig. Så det er ikke noe man trenger. Og 
+så trenger man ikke skrive side opp og side ned, man trenger bare være to
+
+136
+00:26:10,334 --> 00:26:23,908
+the point. Hvis dere ønsker å bruke AI til å hjelpe dere å skrive denne, så 
+er det helt greit for meg. Det er ikke sånn at dere må stå der og skrive alt
+
+137
+00:26:23,948 --> 00:26:35,785
+for hånd. De har AI av en grunn, og det er lov å bruke i kurset. Bare sørg for 
+at dere sjekker. Slik at det stemmer overens med akkurat det dere
+
+138
+00:26:35,845 --> 00:26:43,490
+ønsker? Dere må kvalitetssikre det, stå inne for det som står der. Hvis 
+dere blir konfrontert med det, så har dere et svar og forstår det dere
+
+139
+00:26:43,510 --> 00:26:55,119
+sjøl har skrevet. Det er kravet. Så kan vi prøve å få oversatt denne til 
+norsk også, for dem som har lyst til å skrive på norsk. Det er da valgbart
+
+140
+00:26:55,139 --> 00:27:03,115
+om dere vil skrive på norsk eller engelsk. Og det tror jeg vi skal klare 
+ganske greit med NI. Oversettelse. Litt spørsmål av
+
+141
+00:27:03,135 --> 00:27:12,839
+nysgjerrighetsgrunner. Kan ikke dere som er her, bare si på chatten om 
+dere planlegger å bruke Word eller noe annet? Det er jo det eiende på
+
+142
+00:27:12,879 --> 00:27:19,042
+ringebruken når vi skriver kompandier om sånne ting. Latek. Men de 
+fleste bruker kanskje Word. Bare skriv Word eller Latek eller noe
+
+143
+00:27:19,102 --> 00:27:32,600
+annet. Word, ja. Word. Så de fleste bruker sannsynligvis Word. Word, 
+ja. Greit. Men det er helt OK. Jeg er usikker på ... Men det er jo da en
+
+144
+00:27:32,680 --> 00:27:43,947
+fordel om man har en eller annen AI som man kan bruke for å skrive i 
+Word-dokumentet. Det vil jeg påpeke. Jeg skal sjekke når det gjelder
+
+145
+00:27:43,987 --> 00:27:50,411
+Word. Det er mange AI-er som sliter med å skrive direkte i Word, men jeg 
+tror det skal fungere bra.
+
+146
+00:27:53,930 --> 00:28:05,834
+Dere må også huske på at dette er et kvantitativt prosjekt. Man skal 
+jobbe med data, man skal jobbe med figurer, man skal jobbe med
+
+147
+00:28:06,214 --> 00:28:13,137
+ligninger, altså matematikk. Og det er jo ganske ... Det er ikke så
+
+148
+00:28:15,317 --> 00:28:21,239
+enkelt, kaller jeg det, E-Word, det å bruke AI. Så det kan dere ha i 
+bakhodet.
+
+149
+00:28:24,187 --> 00:28:36,696
+Markdown? Ja. Jeg ser ikke for meg hvorfor vi ikke skulle kunne godta 
+Markdown. Det mener jeg absolutt at vi kan. Så clouet her er vel egentlig
+
+150
+00:28:36,756 --> 00:28:49,445
+at dere kan velge litt sjøl dette formatet her. Men noen format er da 
+bedre egnet enn andre. Litt på grunn av at dette er en kvantitativ
+
+151
+00:28:49,465 --> 00:29:03,871
+oppgave, da. Men hvis ting ikke er veldig relevant, så bare dropp dere 
+det. Ikke sant? Så ...
+
+152
+00:29:06,392 --> 00:29:13,036
+Bruk skjønn og bruk den kunnskapen dere har for å skrive en 
+prosjektplan.
+
+153
+00:29:18,997 --> 00:29:37,342
+Til slutt var det kommunikasjon, som jeg påpekte. Og skrive litt om 
+Teams og kanalene, hvilke møter dere har, statusrapportering. Hvis
+
+154
+00:29:37,442 --> 00:29:43,863
+det er folk som er individuelle her, hvordan blir det med møter og 
+kommunikasjon? Det er bare å skrive en oppsummering av hva man har
+
+155
+00:29:43,883 --> 00:29:48,702
+gjort. Så må man jo
+
+156
+00:29:49,822 --> 00:30:01,246
+skrive ned når man har tenkt å jobbe med dette. Hvor nøyaktig man vil 
+være, det må dere
+
+157
+00:30:01,306 --> 00:30:12,468
+selv sette opp. Enten kan dere si at jeg har lyst til å jobbe. I løpet av 
+denne uka her, eller hvis dere vil drille ned på dag, så gjør dere det. Men
+
+158
+00:30:12,708 --> 00:30:22,151
+minimum er nå i hvert fall på ukesbasis at dere har en ukesplan. Ikke 
+sant. Den med ansvarsfordeling blir jo da, hvis du er alene, så blir det
+
+159
+00:30:22,211 --> 00:30:32,614
+alt ansvar på den ene gangen. Jo, jo, det er sant. Men jeg vil likevel si at 
+man har satt på seg forskjellige roller, da. Det er bare at samme person
+
+160
+00:30:32,654 --> 00:30:42,788
+har alle rollene. Så det er teamroller, dem må du definere. Og hvem har 
+disse rollene hvis du er alene? Jo, det er du. Du har alle. Ikke sant. Så
+
+161
+00:30:42,828 --> 00:30:44,068
+det er bare å skifte hatt, da.
+
+162
+00:30:47,229 --> 00:30:48,550
+Så var det kvalitet.
+
+163
+00:30:52,051 --> 00:31:02,995
+Og da er det jo sånn at vi skal ha en peer-to-peer, så få den ned der, ikke 
+sant. Peer-to-peer betyr at dere gjør en review av en annen gruppes
+
+164
+00:31:03,075 --> 00:31:16,085
+arbeid, ikke sant. Slik at dere får en review av hverandre her. I tillegg 
+er det godkjenningskriterier som er vår jobb. Vi går inn og godkjenner
+
+165
+00:31:16,125 --> 00:31:26,149
+ting. Hvorvidt vi skal komme med alle godkjenningskriterier, er jeg 
+usikker på. Men vi vil gi dere tilbakemelding når dere sier at OK, klar
+
+166
+00:31:26,189 --> 00:31:34,032
+for godkjenning. Det sier dere i Teams-kanalen. Da vil vi gå inn og 
+sjekke. Og hvis det ikke er godkjent, hvis vi mener det ikke er bra nok, så
+
+167
+00:31:34,112 --> 00:31:42,313
+sier vi det selvfølgelig fra. Og så sier vi hva dere skal forbedre, da. 
+Hva
+
+168
+00:31:42,353 --> 00:31:56,720
+betyr det? At studentene leser hverandres utkast. Og kommenterer den 
+for mulige forbedringspotensialer. Det det betyr i vitenskapelig
+
+169
+00:31:56,760 --> 00:32:06,846
+sammenheng, er at likesinnede, faglige personer leser andre 
+likesinnede personers artikler. Slik at det er kompetente folk som
+
+170
+00:32:07,026 --> 00:32:17,693
+leser gjennom og godkjenner, som driver med den samme businessen. Det 
+er det vi gjør i Logg i 650 også. Vi er fagfolk, da anser vi oss sjøl, sant?
+
+171
+00:32:18,310 --> 00:32:26,596
+Dette kommer til å skje i slutten av gjennomføringsfasen i april.
+
+172
+00:32:28,177 --> 00:32:40,046
+For da har dere fått et utkast av hele rapporten. Og man skal starte i 
+avslutningsfasen, hvor man finjusterer, gjør endringer og
+
+173
+00:32:40,126 --> 00:32:45,962
+forbereder seg til innlevering og muntlig. Peer-to-peer-reviewen
+
+174
+00:32:46,002 --> 00:33:01,412
+vil være mellom studenter. Og dere må sette opp gruppemøter hvor dere 
+møtes. Og eventuelt at det er alternativt. Dere trenger ikke gjøre det.
+
+175
+00:33:01,472 --> 00:33:06,995
+Men at dere får en skriftlig rapport fra den ene gruppa til den andre 
+gruppa.
+
+176
+00:33:09,880 --> 00:33:22,330
+Vi organiserer det slik at vi plasserer filene til ... Ikke sant? Slik at 
+dere får da en fil i teamet deres der det står 'review'. Og det vil da være
+
+177
+00:33:22,370 --> 00:33:35,080
+fra en annen gruppe. Og da får dere tilbakemeldinger. Og her er én ting at 
+det er sunt å få en review. Et annet synspunkt på ting. Hvordan sett ifra
+
+178
+00:33:35,961 --> 00:33:48,262
+likesinnede, som Per Kristian nevnte. Men det er også veldig god læring 
+i å gjennomføre en review. Da setter du deg i en annen rolle, nemlig
+
+179
+00:33:48,702 --> 00:34:03,194
+egentlig i min og PKs rolle, hvor du på en måte må vurdere et utkast. Og vil 
+jo da være veldig lærerikt for dere. Det tror jeg er en veldig god sak, og
+
+180
+00:34:03,234 --> 00:34:12,109
+vi håper at det skal bli bra. Hvordan blir det med pair-to-pair-revue, 
+når vi får konfidensielle data fra ekstern bedrift? I forhold til
+
+181
+00:34:12,150 --> 00:34:23,957
+taushetsplikt. Da må jo også vedkommende skrive ut samme 
+taushetsplikt, da. Ja.
+
+182
+00:34:23,997 --> 00:34:29,940
+Det tenker jeg er det beste. I hvert fall hvis det er veldig kjensgjerrig 
+tilbake. Ja, det er det ryddigste.
+
+183
+00:34:34,120 --> 00:34:43,403
+Dette er prosjektplanen. Den skal inneholde alt dette her. Legg merke 
+til at jeg har ikke tatt med budsjett her, for det er ikke relevant for
+
+184
+00:34:43,443 --> 00:34:57,226
+oss. Hvor mye eller lite dere inkluderer, det må dere føle for sjøl. Men 
+jeg mener at dette bør være på plass for at man skal få godkjent. Og
+
+185
+00:34:57,326 --> 00:35:09,709
+akkurat godkjenningskriteriene, det får vi føle oss litt fram på. Vi 
+tenker at etter hvert som vi har fått inn noen forslag, og vi begynner å
+
+186
+00:35:09,749 --> 00:35:22,714
+godkjenne disse, så kan kanskje Erik f.eks. skrive et kriterium for å få 
+godkjent det. Vi har ikke det ferdiglagt. Er det noe du ser for deg kan
+
+187
+00:35:22,734 --> 00:35:23,454
+være mulig, Erik?
+
+188
+00:35:26,635 --> 00:35:40,156
+Ja. Altså, jeg vet ikke hvordan ... I stedet for at vi skriver opp 
+godkjenningslista nå på forhånd, så får vi noen ... Idet det kommer inn
+
+189
+00:35:40,196 --> 00:35:47,519
+noen prosjektplaner, for å si det sånn, så får vi litt mer kjøtt på beina. 
+Vi får ting ned. Da er det lettere for oss å lage en godkjenningsliste
+
+190
+00:35:47,539 --> 00:36:00,820
+også, eller en kriterie. Vi tenker bare i forhold til ... Også vår 
+arbeidsmengde, da. Hva tenker du, Feggo? Ja, det er sikkert greit. Så vi
+
+191
+00:36:00,840 --> 00:36:13,487
+kan hjelpe sammen, både du og Erik. Og så får vi det til. Det er første gang 
+vi kjører. Det er alltid lettere å skrive sånne kriterier etter at vi har
+
+192
+00:36:14,187 --> 00:36:26,641
+fått noen ... Noen forslag til prosjektplaner, ikke sant. For det blir 
+veldig spesifikt i forhold til prosjektet vårt. Det vi kan gjøre da,
+
+193
+00:36:26,681 --> 00:36:36,709
+Erik, er at etter hvert som prosjektplanene kommer inn, og vi ser valg- 
+og tilbakemeldinger, så fyller vi gradvis ut. Som vi deler i Realtab. Og
+
+194
+00:36:36,749 --> 00:36:41,612
+legger det på Teams, og lager en kunngjøring på Teams. Hvis vi gjør det 
+sammen, så blir vi med på dette.
+
+195
+00:36:56,478 --> 00:37:11,826
+Godkjenningskriteriet er at disse sju delene må være med. Jeg har ikke 
+med noe vedlegg her, for det er ikke per i dag relevant i prosjektet. Men
+
+196
+00:37:11,886 --> 00:37:21,131
+de sju delene her, det må dere ha med, mener jeg. Så skal du komme litt mer 
+inn på hver enkelt. Fikk et oppfølgingsspørsmål angående
+
+197
+00:37:21,151 --> 00:37:31,122
+taushetsplikt og pair review. De som skal ha pair review, må skrive 
+under samme taushetsplikt. Så det er de som har skrevet rapporten. Da er
+
+198
+00:37:31,142 --> 00:37:40,708
+de i samme båt, både de som har skrevet rapporten og de som skal ta pair 
+review av rapporten. Jeg er i samme båt når det gjelder taushetsplikt,
+
+199
+00:37:40,748 --> 00:37:53,737
+så de må skrive under den. Det er en formalitet som gjør at istedenfor ett 
+taushetspliktark, så har vi to taushetspliktark der begge gruppene må
+
+200
+00:37:53,877 --> 00:37:57,860
+skrive under. Så jeg håper det var svar på spørsmålet.
+
+201
+00:38:02,361 --> 00:38:15,245
+Vi foreslår at du får litt av min time i neste time, så tar vi pause klokka 
+ett. Så får du ti minutter, kanskje et kvarter. Jeg tror vi trenger et
+
+202
+00:38:15,265 --> 00:38:24,168
+kvarter da, men vi kan gå rett tilbake. Du får den tida du trenger. Det er 
+ikke noe problem. Du får 20 minutter. Ja. OK. Men da tar vi pause der, og så
+
+203
+00:38:24,208 --> 00:38:33,819
+fortsetter vi i neste. Ja, det gjør vi. Da ses vi altså 13.15, og da tar vi 
+time nummer to. Da får han bare ringe igjen første 20. Herlig!
+

@@ -1,0 +1,949 @@
+1
+00:00:01,988 --> 00:00:08,032
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Den 
+første. Vi ser for oss å kanskje holde på i tre timer i dag, vi får se hvor
+
+2
+00:00:08,072 --> 00:00:21,358
+langt vi blir kjent. Så vi fortsetter nå, for nå er vi inne i den viktige og 
+hovedfasen i prosjektet. Sjølve gjennomføringa. Vi skriver en del på
+
+3
+00:00:21,418 --> 00:00:31,466
+rapporten. Vi diskuterer hva som skal være i resultat, hva som skal være 
+i analyse, hva som skal være i diskusjon. Og det er ofte en vanskelig
+
+4
+00:00:31,566 --> 00:00:42,390
+debatt. Og vite hva som skal være kor. Hvis vi blander det som skal være 
+resultat, analyse, casebeskrivelse, så blir det veldig rotete og
+
+5
+00:00:42,450 --> 00:00:51,972
+uoversiktlig. Så det er en vanskelig debatt, og vi prøver å ta den sammen 
+med dere nå. Og vi gjør også en del omsyklinger da. Det kan hende vi slår
+
+6
+00:00:52,012 --> 00:01:01,574
+sammen casebeskrivelse og analyse. Det er sånne diskusjoner som vi 
+kommer til å ta fra tilfelle til tilfelle. Og så den diskusjonen vi har
+
+7
+00:01:01,614 --> 00:01:11,113
+nå, den problematikken vi har her, det er også den diskusjonen og 
+problematikken dere internt i gruppene også gjerne kan ha. Du kan
+
+8
+00:01:11,133 --> 00:01:19,258
+gjerne diskutere med oss på Teams, der vi kan komme med innspill. For 
+bare det å presentere problematikken for oss, og presentere for både
+
+9
+00:01:19,358 --> 00:01:35,346
+oss og dere sjøl, er en god del av det å komme frem til et godt resultat. Det 
+er riktig nå at vi har tre timer om gangen, og at vi ser det som en må ringe
+
+10
+00:01:36,404 --> 00:01:48,288
+... Vi må prøve å fortsette der vi slapp sist gang. Og det å ha gode rutiner 
+på hvordan vi skal komme inn i driven igjen der vi slapp taket sist gang,
+
+11
+00:01:48,708 --> 00:01:52,809
+det er også en egen sak. Så husk at vi laga en status.markedown-file.
+
+12
+00:01:55,962 --> 00:02:07,270
+Der vi ser hvilke av de sjekklistpunkta vi har gjort, og hvem som 
+gjenstår da. Så det er ofte bra å starte det, bare for å få AIM i gang. Og se
+
+13
+00:02:07,290 --> 00:02:15,916
+at AIM skal sjekke hva som har blitt gjort, hva som skal gjøres. Og på den 
+måten så kommer AIM i gang. Og på den måten så kommer også vi i gang. Er ikke
+
+14
+00:02:15,936 --> 00:02:31,120
+det en grei kommentar, Bård? Jo da. Hver gang du starter, så bør du på en 
+måte ... Kjøre en runde med hva som har blitt gjort og hva som skal gjøres.
+
+15
+00:02:31,180 --> 00:02:45,163
+Så det er lurt å ha en sånn statusfil av et eller annet format. Jeg har kalt 
+den for status.mv og ligger under planfolderen.
+
+16
+00:02:46,723 --> 00:02:57,303
+I tillegg til disse datafilene som styrer prosjektet. Betyr det at det 
+har en status.martan-fil i alle fire fasene, både tre og fire? Nei, det
+
+17
+00:02:57,963 --> 00:03:08,514
+tilhører kun prosjektet. Prosjektet som vi gjennomførte, altså 
+planlegginga som vi gjorde i fase to, den skal jo beskrive hva vi skal
+
+18
+00:03:08,534 --> 00:03:22,361
+gjøre i fase tre, som er gjennomføring. Så sjøl om vi er i fase tre ... Så 
+henvender vi meg til fase to hele tida for planen. Så du har bare én
+
+19
+00:03:22,421 --> 00:03:30,725
+status-datamarkedfile i hele prosjektet totalt? Ja. Man kan jo legge 
+en korn du vil her, egentlig. Men siden det handler om plan, og å
+
+20
+00:03:30,766 --> 00:03:39,870
+gjennomføre en plan, så syns jeg at den kan ligge der, da. Men du kan like 
+godt ha den i rota, hvis du vil det. Hvor du vil ha statusfiler. Men jeg
+
+21
+00:03:40,030 --> 00:03:49,200
+liker å samle alt som har med plan å gjøre, i ... Fase to-planen, da. Følge 
+et sånt prosjektledelsessystem.
+
+22
+00:03:50,381 --> 00:04:01,633
+Når dere nå skal gjøre dette her i praksis, så ønsker vi at dere skal bruke 
+Gant-diagrammet deres for MS Project. Det gjør ikke vi her direkte, og
+
+23
+00:04:01,673 --> 00:04:14,199
+grunnen til det er at A1 er ikke så god på ... Og jobbe med MS 
+Project-filer, på samme måten som jeg ikke er så god på å jobbe med Word
+
+24
+00:04:14,259 --> 00:04:26,125
+off osv. Man kunne vel ha bedt Ain lage en Markdown-fil av MS 
+Project-filer? Og så jobbe mot den Markdown-filen? Eller er det greit å
+
+25
+00:04:26,145 --> 00:04:41,186
+bare gjøre det sånn som vi gjør det? Altså, Markdown det er fritekst, 
+mens en MS Project-fil er jo veldig ... Der er et dataformat. MS Project
+
+26
+00:04:41,226 --> 00:04:42,266
+har et dataformat.
+
+27
+00:04:45,008 --> 00:05:01,257
+Så det er ikke så lett å oversette direkte fra en MS Project-fil, en 
+MPP-fil, til Markdown. Du klarer det, selvfølgelig, men Ayn klarer
+
+28
+00:05:01,277 --> 00:05:14,077
+ikke å lese disse MPP-filene. Da må du i så fall lagre det som et 
+dataformat i stedet for, og det fins jo. Dette er litt avansert bruk. Jeg
+
+29
+00:05:14,117 --> 00:05:23,124
+vet ikke om vi skal snakke om det. Men som dere ser her, når det gjelder 
+strukturerte data, så er det lurt å ikke bruke markdown. Markdown er
+
+30
+00:05:23,244 --> 00:05:33,332
+ustrukturert, sant. Det er som en tekstfil, bare. Mens hvis du skal ha 
+data, så bør du bruke et dataformat, f.eks. Jason, som jeg har gjort her.
+
+31
+00:05:33,937 --> 00:05:46,683
+Hvis dere ser på schedule her nå, så ser dere at dette er nesten som en 
+database. Det er en fil som har alle aktivitetene i seg. Aktivitet 3.2.
+
+32
+00:05:47,084 --> 00:05:59,047
+Sant. Og her står det jo kort sagt 3.2 er gjort, sant. Her står det 
+completed nice. Sant. Jobbe mot et dataformat. Og hvor har jeg dette
+
+33
+00:05:59,107 --> 00:06:14,536
+dataformatet fra? Det har jeg bedt AI om å generere ut ifra faste 
+standarder ute på nettet. Og nå kommer den avanserte biten, da. Jeg kan
+
+34
+00:06:14,596 --> 00:06:24,533
+nå si ... Kanskje vi skal gjøre det i siste time, who knows? Jeg kan bare 
+sette opp en sideprosess der han sitter og jobber med det. Men jeg kan da
+
+35
+00:06:24,593 --> 00:06:40,457
+si, lag en pythonskript, altså lag kode, som leser alle disse 
+Jason-filene. Og genererer dataformatet som MS Project forstår. Og da
+
+36
+00:06:40,477 --> 00:06:50,636
+kan jeg da ... Da kan vi da importere filer inn til MS Project, og så har jeg 
+MS Project.
+
+37
+00:06:50,776 --> 00:07:04,741
+Så lenge du har de underliggende datamodellene, så kan du alltid 
+importere dem inn i MPP via et fast standard. Nå husker jeg ikke helt hva
+
+38
+00:07:04,781 --> 00:07:08,642
+den standarden heter, men det kan vi nå forsøke.
+
+39
+00:07:14,917 --> 00:07:17,258
+Det kalles XML-format.
+
+40
+00:07:21,060 --> 00:07:34,045
+Så får vi det ganske ... Ta litt større skrift i nettetermin. Her står 
+det. Her er det. Microsoft Office Project Data Interchange Schema.
+
+41
+00:07:36,146 --> 00:07:47,509
+Dette er et dataformat beskrevet i såkalt XML, som er et avansert ... Som
+
+42
+00:07:47,589 --> 00:07:56,297
+kan beskrive dataformater.
+
+43
+00:07:56,417 --> 00:08:06,725
+Det jeg kan gjøre da, er å bruke en sånn fil, og så kan jeg importere den 
+rett inn i MS Project. Jeg har faktisk gjort det i et annet fag. Kan vise
+
+44
+00:08:06,845 --> 00:08:14,273
+dere hvordan det ser ut. Dette er litt avansert, så jeg har ikke tenkt å 
+bruke for mye tid på det. Men jeg har lyst til å nevne muligheten, da. Hvis
+
+45
+00:08:14,313 --> 00:08:25,038
+vi går til downloads her, f.eks. Her ser det. Fiktivt ... Ser du de filene 
+der? Vet ikke om vi klarer å zoome inn. Jeg får ikke zoome inn her. Jo, nei.
+
+46
+00:08:25,058 --> 00:08:30,580
+Men her står det 'fiktivt byggeprosjekt mspdi.xml'.
+
+47
+00:08:31,060 --> 00:08:46,844
+Dette har jeg da brukt for å lage en MPP-fil. Altså en MS-projekt-fil. 
+Jeg kan starte MS-project. Der har vi den. Nei, den var der allerede. Nå
+
+48
+00:08:46,884 --> 00:08:53,365
+starter jeg et tomt MS-project.
+
+49
+00:08:54,346 --> 00:09:05,896
+Og så sier vi åpne, blar gjennom, og så åpner jeg den XML-fila i stedet 
+for. Da må vi gå til nedlastninger. Nå ser dere at en har lyst til å hente
+
+50
+00:09:06,036 --> 00:09:21,146
+MPP-filer. Men hvis jeg nå skriver alle filer der, så kan jeg da få åpne et 
+sånt fiktivt byggeprosjekt med baseline-tracking, f.eks. Åpne. Da
+
+51
+00:09:21,186 --> 00:09:30,272
+får jeg en sånn veileder som sier, har du lyst til å oversette? Her står 
+det. Hvordan vil du importere denne filen som et nytt prosjekt? Osv.
+
+52
+00:09:30,392 --> 00:09:42,937
+Trykker fullføre der. Nå leser den denne datafilen og genererer dette 
+her. Sånn kan du jobbe mot MS Project. Og her har du alt du trenger. Dette
+
+53
+00:09:42,957 --> 00:09:57,933
+er bare et lekeprosjekt de har lagd i et annet fag for å vise hvordan en MS 
+Project-fil kan settes opp, da. Men jeg viser dem ikke dataformatet,
+
+54
+00:09:57,993 --> 00:10:08,199
+jeg viser selvfølgelig den fila her. Så nå kan jeg lagre den her som en 
+MPP-fil, f.eks. Og så kan jeg lagre den som en vanlig MPP-fil, da. Og da
+
+55
+00:10:08,219 --> 00:10:09,260
+har jeg kommet meg unna
+
+56
+00:10:12,041 --> 00:10:20,826
+data ... Da bruker jeg ikke dataformatet lenger. Så tanken er da ... Og 
+dette kan jeg gjøre, jeg kan sette det på det etterpå. Så tanken er at når
+
+57
+00:10:20,846 --> 00:10:28,211
+jeg har dette ... Dette dataformatet vi har her,
+
+58
+00:10:28,711 --> 00:10:41,494
+med Jason-format i stedet, det er et annet språk enn XML. Du kan se 
+hvordan denne XML-fila ser ut. Bare åpne den her selv. Sånn ser denne
+
+59
+00:10:41,514 --> 00:10:41,935
+fila ut.
+
+60
+00:10:45,916 --> 00:10:58,070
+Sånn ser en XML-fil ut, veldig ordrik. Og dette er en ren datafil. I 
+stedet for å skrive det på XML-format, har jeg brukt Jason-format, som
+
+61
+00:10:58,130 --> 00:11:10,920
+er et enklere dataformat å forstå. Men også ikke like kraftfullt, på en 
+måte. Men jeg kan nå ta alle disse Jason-fillene her og oversette det inn
+
+62
+00:11:10,961 --> 00:11:20,682
+i dette faste XML-formatet, og så importere inn. Det betyr at du må gå tre 
+steg. Først Jason-format, så XML, og så Project. Du må gå de tre stegene,
+
+63
+00:11:21,362 --> 00:11:30,284
+altså. Veien er sånn som dette. Nå har jeg datafiler her, som forteller 
+prosjektet og fremgangen. Da mener du Jason-filer? Ja, de gule, ja.
+
+64
+00:11:43,094 --> 00:11:56,099
+Så lager jeg et pythonskript som oversetter disse Jason-filene inn i 
+dette XML-formatet. Og når de kjører pythonskriptet,
+
+65
+00:11:56,719 --> 00:12:08,743
+så vil de få en ny fil som heter .project.xml, f.eks. Og så åpner jeg MS 
+Project, åpner med den fila og importerer til et MS Project-fil.
+
+66
+00:12:12,220 --> 00:12:22,703
+Og da har vi fått MS Project til deg? Ja, så du går de tre stegene fra Jason 
+Field til XML til Project. Riktig. Så du går de tre stegene, og det får du
+
+67
+00:12:22,763 --> 00:12:31,786
+AI-en til å gjøre via PythonScript? Ja, og det kan vi gjøre etterpå, 
+f.eks. Vi kan sette på den som en sideprosess, hvor den bare sitter og
+
+68
+00:12:31,826 --> 00:12:43,908
+lagrer dette Python-skriptet. Lagrer det rett inn her. Og så vil den 
+kjøre seg. Og etter at den er ferdig, så kan vi se på project-filer. Hvis
+
+69
+00:12:44,468 --> 00:13:02,972
+dere vil. Det er en sånn lur ting å gjøre, for da slipper du egentlig å 
+jobbe så fælt i MS Project. Det kan være hardt. OK. Nok om det. Jeg kan
+
+70
+00:13:03,012 --> 00:13:13,259
+gjøre det i pausen, slik at de setter på den i pausen, og så ... gjør ikke 
+det her, da. Men nå skal vi videre, og vi skal se hva som har blitt gjort. Og
+
+71
+00:13:13,299 --> 00:13:15,440
+jeg da tar opp statuskila, da.
+
+72
+00:13:22,105 --> 00:13:30,490
+Så pågår, validerer modell, genererer prognoser mot testdatasettet 
+osv. Beregner med ... OK, greit. Her står det jo, da.
+
+73
+00:13:33,929 --> 00:13:40,743
+Fullføre 3-3. Dumt at det ikke sto hvilken
+
+74
+00:13:41,103 --> 00:13:42,727
+aktivitet i den her, men det også.
+
+75
+00:14:06,582 --> 00:14:07,016
+Skulle jeg sett.
+
+76
+00:14:47,217 --> 00:14:55,144
+Ja. Så bare sett i gang. Jeg har lyst til at det skal stå hvilken aktivitet 
+det er snakk om. Ja, for her er det bare kulepunkter. Altså ... Ja.
+
+77
+00:14:55,164 --> 00:14:59,548
+Riktig.
+
+78
+00:15:00,088 --> 00:15:07,634
+Så det er da kort sagt 3-1 og 3-2 er gjort. 3-3 er påbegynt, men ikke 
+ferdig. Og neste riktige arbeidsrekkefølge er
+
+79
+00:15:07,694 --> 00:15:11,177
+test-sett-validering. Sluttprognoseanbefaling ferdigstiller 
+jeg.
+
+80
+00:15:16,664 --> 00:15:28,373
+Ja, recommended. Kjør på. Utrolig kjekt med disse spørsmålene som 
+dukker opp hele tida. Ja, det er bra. Og når du ikke er helt usikker på hva
+
+81
+00:15:28,413 --> 00:15:36,880
+som er et godt svar, så har de også et recommended alternativ. Og husk at 
+det gjør man kun dersom man er i planmode. Og for å komme i planmode, så
+
+82
+00:15:36,920 --> 00:15:50,753
+trykker vi på shift-tab, da. Ja. Bare slik at dere husker det, da. Skal vi 
+se her. Ja, det var feil å få den ... Den blir så lang, vet du.
+
+83
+00:15:54,915 --> 00:16:07,381
+Sånn. Hvis vi ser ... Kommet et spørsmål, ja. Har dere svart det? Nei, jeg 
+har ikke. Men det jeg ser her, da, er at hvis vi går og ser på kompendiet
+
+84
+00:16:07,421 --> 00:16:18,906
+vårt, på det som er om akademisk skriving, så ser du at ... Vi kan gjerne 
+diskutere om vi skal slå sammen teorilitteratur, eller om vi skal ha
+
+85
+00:16:19,006 --> 00:16:37,343
+separate der nå. Men vi kan gjerne ha det under teori. Så det går an, da. Så 
+les det som står i Akademisk skriving, så får vi ofte svar på det. Ja. Så vi
+
+86
+00:16:37,383 --> 00:16:48,179
+skal ... Jeg har planlagt en gjennomgang rundt litteratur, også 
+hvordan vi jobber med litteratur med AI. Det er også et velkjent pain
+
+87
+00:16:48,239 --> 00:16:56,163
+point, som mange har likt å påpeke, at AI-en kommer med feil referanser 
+og sånne ting. Neimen ...
+
+88
+00:17:00,545 --> 00:17:11,424
+Kyrst ... Det var en katt her. Så jeg tenkte at vi skulle jobbe med det, men 
+det blir ikke før påske, det blir etter påske. Først så tenker jeg at man
+
+89
+00:17:11,604 --> 00:17:25,193
+får ned det du skal, på en måte ... Det nye som du kommer med, da. Altså din 
+analyse. Få den ned først. Så skal vi gjennomføre litteraturstudium
+
+90
+00:17:25,413 --> 00:17:37,491
+pluss teorikapittel 18. Det er ikke så vanlig å ha referanser i et 
+teorikapittel. Kanskje noen få, men ikke så veldig mange. Men i
+
+91
+00:17:37,531 --> 00:17:50,781
+litteraturstudier som er relevant til det problemet du skal løse, der 
+er det viktig med referanser. Da er det en egen work flow, eller prosess,
+
+92
+00:17:51,182 --> 00:18:06,044
+man bruker med AI for å sikre seg at det ikke ... Og at du finner aktuelle og 
+gode referanser.
+
+93
+00:18:06,885 --> 00:18:17,653
+Men det trenger vi en hel forelesning til, tenker jeg. Og etter påske, 
+da. Uansett så tenker jeg at det er ikke det første dere skal gjøre. Dere
+
+94
+00:18:17,693 --> 00:18:28,362
+skal nå gjøre det som vi har gjennomgått her mange ganger, få analysen på 
+plass. Og så i etterkant kan vi legge inn referansene som er aktuelle.
+
+95
+00:18:30,490 --> 00:18:38,859
+Det er ikke dermed sagt at det er den beste rekkefølgen. Mange vil nok ha 
+sagt omvendt, at du først skal jobbe med referansene for å finne ut hva
+
+96
+00:18:38,919 --> 00:18:47,309
+som har blitt gjort tidligere, så ikke du gjør det samme. Men på en 
+bacheloroppgave er vi ikke like strenge som i en masteroppgave eller en
+
+97
+00:18:47,329 --> 00:18:55,968
+doktorgrad eller en publikasjon. Så igjen, skulle det vært 
+mastergrad, publikasjon og sånne ting, så ønsker vi at
+
+98
+00:18:56,449 --> 00:18:59,010
+litteraturanalysen
+
+99
+00:18:59,470 --> 00:19:09,596
+kommer tidlig, slik at du allerede veit hva som har blitt gjort før du 
+starter på analysen, sånn som vi jobber med nå, da. Håper det ga mening.
+
+100
+00:19:10,756 --> 00:19:24,137
+Ja da, det gjorde det. Her står det aktivitetene, ser dere. Det var det 
+jeg ville. Det er litt bra, for det er dem vi forholder oss til i
+
+101
+00:19:27,439 --> 00:19:27,860
+planen.
+
+102
+00:19:31,362 --> 00:19:34,165
+OK. Da kan jeg bare si at ... Da
+
+103
+00:19:38,108 --> 00:19:41,170
+kan du gjennomføre ...
+
+104
+00:19:45,128 --> 00:19:45,848
+Neste steg ...
+
+105
+00:19:50,350 --> 00:19:51,430
+Jeg skal bare sjekke ...
+
+106
+00:20:14,035 --> 00:20:30,522
+Det var arbeidsreglene, dette, Claude? Ja, nå er det Kodex, så det er den 
+agents, da. Men jeg tror begge er like. Her
+
+107
+00:20:30,822 --> 00:20:37,625
+er det lurt å gjøre planer. Så jeg slår på plan. Kontroll tab var det der? 
+Ja, kontroll tab.
+
+108
+00:20:40,900 --> 00:20:41,862
+Neste steg er I133.
+
+109
+00:21:17,958 --> 00:21:25,663
+De sier at hvis du er usikker, så sjekk bare gitt-historikken.
+
+110
+00:21:26,083 --> 00:21:35,668
+A1 kan alltid sjekke gitt-historikken for å se hvilke endringer som er 
+gjort tidligere. Da vil han også skjønne hvordan han skal følge bl.a.
+
+111
+00:21:35,688 --> 00:21:45,894
+dette formatet under. Aktiviteter her med 33. Validere modell. Det er 
+her vi holder på å jobbe. Skal lage script her og sånne ting. Resultat og
+
+112
+00:21:45,934 --> 00:21:49,954
+figurer. For å være 100 % sikker.
+
+113
+00:21:56,959 --> 00:22:07,327
+Bare vise at det er innunder her, da. Sant?
+
+114
+00:22:07,367 --> 00:22:16,328
+Det er det som er arbeidsholderen vår akkurat nå. Bare slik at ikke annen 
+begynner å rote. Og så må jeg bare passe på at alt er sånn, ja, jeg har endra
+
+115
+00:22:16,348 --> 00:22:24,130
+statusen litt. Så den må jeg bare committe, slik at jeg har en ren 
+committe-historikk. For da kan vi se hvilke endringer som gjøres, da.
+
+116
+00:22:24,150 --> 00:22:34,412
+Men hvis du ser på EC33 der og validerer modell, det er jo den som er ... Vi 
+har ikke tikka alt på, da. Så det er jo der vi må fortsette nå? Ja. Men det er
+
+117
+00:22:34,452 --> 00:22:35,212
+derfor jeg tok den.
+
+118
+00:22:39,650 --> 00:22:42,933
+Jeg vet at han skal fortsette videre med 3-3.
+
+119
+00:22:45,195 --> 00:22:54,644
+Gjøre noen neste steg i planen. Som er å generere prognoser mot 
+testdatasettet for periodene. Nå kjører vi plan-mode, det er veldig
+
+120
+00:22:54,684 --> 00:23:04,173
+viktig. For han skriver ikke så mye, ser dere. Ganske lite. Så han må 
+liksom tråkle seg gjennom dette her og finne ut hva han egentlig skal
+
+121
+00:23:04,193 --> 00:23:04,333
+gjøre.
+
+122
+00:23:12,691 --> 00:23:16,854
+Kodeks er heldigvis litt raskere som regel enn ... ... kode. Sånn sett er 
+det bra.
+
+123
+00:23:47,082 --> 00:23:49,043
+Men disse prognosene og sånne ting,
+
+124
+00:23:53,004 --> 00:24:01,567
+det er jo ikke en del av ... Det er resultat, da. Det er når du tester
+
+125
+00:24:03,567 --> 00:24:11,850
+modellen på ... Da har vi landa modellen. Så det er litt rart, egentlig.
+
+126
+00:24:18,908 --> 00:24:33,010
+Dette er litt rart. Tre-fire er litt det samme. Det står 'lage prognose' 
+her. Ja, ja. Det er for framtida. Sånn er det, ja. Dette er for
+
+127
+00:24:33,050 --> 00:24:37,651
+testsettet, ja. Dette er for framtida.
+
+128
+00:24:40,192 --> 00:24:45,793
+Ja, så det er riktig. Det er riktig. OK. Fortell litt om det. Vi splitter 
+jo ... Splitter vi ...
+
+129
+00:24:48,946 --> 00:24:53,009
+Det ene var trening, det andre var ...
+
+130
+00:24:55,990 --> 00:25:05,617
+Trening og det andre var ... Hva var det andre? Trening og ...
+
+131
+00:25:06,337 --> 00:25:15,163
+Når en bruker trening, og når en bruker det ene datasettet, og når en 
+bruker det andre? På ledering bruker den ene, og på prognose bruker den
+
+132
+00:25:15,203 --> 00:25:29,619
+andre. Det er noe ulogisk her, som vi må rydde opp i. La oss prøve å ... 
+famle den på ... La oss prøve å ...
+
+133
+00:25:32,660 --> 00:25:42,542
+Det som er utfordringen her, er at vi skal generere prognoser før vi 
+genererer prognoser. Det er ikke helt riktig. Så jeg lurer på om dette
+
+134
+00:25:42,823 --> 00:25:46,349
+punktet her egentlig ikke er noe av valideringspunktet.
+
+135
+00:26:18,687 --> 00:26:20,984
+Den her bør komme etter at vi har laget prognoser.
+
+136
+00:27:06,055 --> 00:27:14,019
+Ja, men det har vi jo gjort. Vi har estimert. Ja. Bare is og rote?
+
+137
+00:27:18,862 --> 00:27:26,085
+Bare is og rote. Skal vi se. Jeg må bli enig med meg sjøl. Eller vi må bli 
+enige. Vent litt, da. Vi skal sette opp OneRiven, rett og slett.
+
+138
+00:27:28,346 --> 00:27:29,227
+Hjempil.
+
+139
+00:27:35,266 --> 00:27:37,767
+Har ikke lov å lage ny notatbok?
+
+140
+00:28:06,012 --> 00:28:10,693
+Er det vondt at du ikke kan? Ja, jeg slet litt nå.
+
+141
+00:28:13,734 --> 00:28:21,615
+Jeg tar den inn under oss, da. Jeg vet ikke noe bedre. Bare legg den tabbe, 
+og så lager jeg logg seks samtidig. Det er bare for å vise, da.
+
+142
+00:28:25,176 --> 00:28:34,778
+Bare slik at dere forstår. Denne her er en ganske viktig del, og det er 
+ganske komplisert også. Så jeg bytter skjerm, og så prøver jeg å vise hva
+
+143
+00:28:34,818 --> 00:28:35,598
+jeg tenker på her, da.
+
+144
+00:28:39,948 --> 00:28:45,352
+Nå ser dere skjermen, sant? Ja, vi ser.
+
+145
+00:28:45,392 --> 00:28:56,800
+Hvis du tenker litt sånn bolkeaktig hva vi holder på med nå ... Først så 
+lager vi ... Estimer modell, da.
+
+146
+00:29:03,545 --> 00:29:09,706
+Modell, altså løse modellen, sant? Det betyr å finne ... Alle
+
+147
+00:29:11,927 --> 00:29:28,611
+variabler, ikke sant? Og det du får da, er jo en prognosemodell. Dette 
+gir jo da en spesifikk prognose. F.eks. at Y er lik alfa én ...
+
+148
+00:29:32,051 --> 00:29:42,331
+Ja, T, da. T minus én. Pluss alfa to. Der
+
+149
+00:29:43,911 --> 00:29:59,354
+alfaen er gitt, pluss epsilon. Dette er modellen. Nå har vi estimert 
+disse dataene der. Vi har estimert konfliktene. Ja. Vi har en spesifikk
+
+150
+00:30:01,074 --> 00:30:04,315
+funksjon som skal beskrive etterspørselen vår.
+
+151
+00:30:07,428 --> 00:30:14,631
+Dette var allerede gjort
+
+152
+00:30:15,411 --> 00:30:22,414
+i steg 3-2. Men så har vi jo en periode her. Vi har hele datasettet.
+
+153
+00:30:27,176 --> 00:30:28,557
+Folk skal faktisk ... Hvis vi nå ...
+
+154
+00:30:41,937 --> 00:30:59,164
+Så her er tida, og her er y. Sant? Så husker vi at den gikk sånn som dette. 
+Ja, sant. Og så har vi jo et datasett. Hvis vi tar den der, da. Bare fjerne
+
+155
+00:30:59,204 --> 00:31:06,286
+litt av den her, slik vi har litt igjen. Så dette her var jo et datasett.
+
+156
+00:31:07,147 --> 00:31:18,463
+Og det vi gjorde, var å dele dette datasettet opp i to deler. Og vi brukte 
+80-20, så dette er 80 %. Og dette er 20 %, og vi gjorde det på den måten der.
+
+157
+00:31:20,524 --> 00:31:25,667
+Og de 80 %-ene brukes til å estimere
+
+158
+00:31:33,971 --> 00:31:37,453
+variablene. Altså de ukjente parameterne.
+
+159
+00:31:44,240 --> 00:31:47,521
+Og med dem så får vi en prognose.
+
+160
+00:31:53,723 --> 00:31:54,804
+Gir oss en prognose.
+
+161
+00:31:58,885 --> 00:32:12,310
+Sånn, sant? Og det vi gjør nå, er at vi bruker den prognosen på de neste 20 
+%. Hvis vi nå tenker at vi har en ... Ja, jeg skjønner.
+
+162
+00:32:15,560 --> 00:32:18,221
+Da har vi lagd en prognose som
+
+163
+00:32:25,483 --> 00:32:31,845
+går sånn, f.eks. Det tar jeg prognosen av. Bommer alt jeg gjør. Gi oss en 
+prognose.
+
+164
+00:32:39,887 --> 00:32:48,467
+Og så skal vi nå ... Men det som er poenget, er at vi Vi må også teste hvor god 
+er den prognosen.
+
+165
+00:32:48,947 --> 00:33:02,118
+Da må vi ha eksisterende data for å teste det også. Da er det en god regel at 
+du gjerne ikke tester de dataene du tester på, skal ikke være de dataene
+
+166
+00:33:02,158 --> 00:33:08,643
+du lagde prognosen på. For da får du en sånn bajas.
+
+167
+00:33:09,204 --> 00:33:14,494
+Ja. Så nå tester vi. Så nå bruker vi prognosen, da,
+
+168
+00:33:17,694 --> 00:33:21,795
+i en annen farge for prognosen, grønn, da, her. Sant. Og la oss nå,
+
+169
+00:33:25,936 --> 00:33:36,919
+da, si at dette ble sånn, f.eks. Så er jo, da, best. Vi tester
+
+170
+00:33:40,780 --> 00:33:41,400
+prognosen.
+
+171
+00:33:44,305 --> 00:33:45,326
+Prognosen
+
+172
+00:33:49,969 --> 00:33:50,349
+fra ...
+
+173
+00:33:55,472 --> 00:34:04,438
+Hva kalte vi de dataene? Ser du ikke hvis du ser her? Vi kalte det 
+treningsdata. Fra treningsdata.
+
+174
+00:34:11,727 --> 00:34:24,313
+Og testdata. Er det Train som er de 80, og Test som er de 20? Er det riktig? 
+Riktig. Og så måler vi. OK.
+
+175
+00:34:29,476 --> 00:34:34,739
+Hvor god prognosen er.
+
+176
+00:34:38,281 --> 00:34:50,987
+Så på den måten kan vi måle hvor god prognose er. Når vi måler hvor god 
+prognose det er, så måler vi det på en uavhengig del av dataene dine. Er
+
+177
+00:34:51,007 --> 00:35:03,234
+det riktig det jeg skrev der? Sails, er de 80? Train, er de 80? Og 20 er de 
+test? Ja, sånn som det der, ja. Riktig. Så måler vi. Det gjør vi ved hjelp
+
+178
+00:35:03,294 --> 00:35:17,765
+av RMSC, f.eks. Eller MAPE osv. Det er sånne måltall. Hvis dere husker 
+fra prognosisering, så kjenner dere igjen disse der. Da kan vi vurdere
+
+179
+00:35:17,865 --> 00:35:29,234
+hvor god den prognosen vi fant, altså modellen vi fant, er på et 
+uavhengig datasett. Et datasett vi ikke har brukt til å trene modellen,
+
+180
+00:35:29,714 --> 00:35:37,545
+for den vet vi er god. For vi har jo optimert den modellen. Derfor
+
+181
+00:35:37,585 --> 00:35:54,799
+trenger vi et uavhengig testsett for å måle hvor gode prognoser er. Det 
+er det vi skal gjøre nå. Mens i neste steg, la oss si at den blir god nok, da.
+
+182
+00:35:56,961 --> 00:35:57,802
+Den blir god nok.
+
+183
+00:36:02,022 --> 00:36:09,143
+Kan bare ta vekk høyremarginen der, så får du litt vær. Og så når vi da 
+kommer til ...
+
+184
+00:36:12,584 --> 00:36:22,886
+Når vi kommer til neste aktivitet, da skal vi lage en framtidig 
+prognose. Dårlig farge. Blå,
+
+185
+00:36:28,187 --> 00:36:30,527
+da. Tolv, f.eks. Tolv måneder fram i tid.
+
+186
+00:36:43,383 --> 00:36:55,250
+Det var steg én, steg to og steg tre. Steg én var å estimere på 
+treningsdata. Så var det å sjekke hvor god modellen er på testdata. Så er
+
+187
+00:36:55,270 --> 00:37:07,760
+det å lage prognosen for de neste tolv månedene. Det er det vi holder på 
+med. Jeg rota litt i mitt eget hue på disse her. Det var derfor jeg tenkte
+
+188
+00:37:07,880 --> 00:37:19,489
+det var greit å tegne det opp. Det er veldig bra å tegne opp. Supert, det. 
+Jeg håper at det ga mening, da. Det vi skal gjøre nå, er den grønne delen.
+
+189
+00:37:19,649 --> 00:37:25,593
+Og den ... Det er en del av valideringa. Det er for å se hvor god er 
+modellen, sant?
+
+190
+00:37:36,488 --> 00:37:44,690
+Her står det. Så skal vi velge. 'Fast holdout recommended'. 'Estimer 
+modellen én gang på treningsdata' og 'lag prognose for hele
+
+191
+00:37:44,730 --> 00:37:59,335
+testperioden'. Så sier du bare 'bruk'. Ja, nå har du ... Må du dele rett 
+skjerm. Nå ser vi fortsatt tilbake på den. Det gjør dere, vet du. Nå har
+
+192
+00:37:59,355 --> 00:38:13,097
+jeg gått over i, vet du. Ja, bra. Der, da. Nå ser dere. Ja. Med denne 
+bakgrunnen er jeg nå i stand til å velge det riktige valget her. Hvordan
+
+193
+00:38:13,137 --> 00:38:23,881
+vil da testsettvalideringen i akt 33 skal gjennomføres? Og det de 
+anbefaler, da. Estimere modellen én gang ... Kan vi ta litt input til AN?
+
+194
+00:38:25,865 --> 00:38:33,128
+Jeg har ikke skrevet noe ennå. Men jeg har lyst til å velge nummer én. 
+'Estimer modellen én gang på treningsdata' og 'lag prognose for hele
+
+195
+00:38:33,168 --> 00:38:40,692
+testperioden'. Det er akkurat det jeg tegner opp. Og så skriver vi det at 
+man har lyst til å lage, estimere modellen. Bruk den allerede
+
+196
+00:38:43,653 --> 00:38:52,017
+estimerte modellen. For vi har allerede gjort det. Vi har allerede 
+estimert parameteret.
+
+197
+00:38:54,518 --> 00:39:09,592
+Vi har allerede estimert ... Dataene.
+
+198
+00:39:09,632 --> 00:39:16,999
+Har allerede estimert ... Kortesentene? Parametrene, heter det.
+
+199
+00:39:35,558 --> 00:39:38,739
+Du kan lese det i rapporten. Her er de.
+
+200
+00:39:59,572 --> 00:40:07,515
+Han trenger ikke kjøre analysen på nytt igjen, vi har allerede funnet 
+kompensantene, ser du.
+
+201
+00:40:18,719 --> 00:40:19,639
+Ja, jeg trenger ikke si nei.
+
+202
+00:40:25,041 --> 00:40:30,982
+Snart er det pause her, Bård. Klokka er over ett. Som viser ...
+
+203
+00:40:56,963 --> 00:41:00,747
+Så
+
+204
+00:41:00,767 --> 00:41:07,894
+mens den brenner, så kan vi ta pause? Ja. Så skal vi teste i et kvart over 
+ett.
+

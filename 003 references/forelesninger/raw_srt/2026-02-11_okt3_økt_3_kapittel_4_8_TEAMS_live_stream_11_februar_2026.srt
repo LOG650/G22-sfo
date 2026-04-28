@@ -1,0 +1,1353 @@
+1
+00:00:02,160 --> 00:00:09,352
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Vi 
+starter tredje og siste time. Vi skal gå gjennom rapporten på
+
+2
+00:00:09,392 --> 00:00:21,264
+vitenskapelig skriving. Og det er spørsmålet om når det her blir 
+ferdig. Grunnen til at vi legger ut det vi har nå, er at vi har kommet et
+
+3
+00:00:21,304 --> 00:00:28,833
+stykke med det, men ikke ferdig. Og vi trenger litt tid på å gjøre det 
+skikkelig. Da legger vi ut noen PDF-bilder her for å kjøpe oss litt tid,
+
+4
+00:00:28,853 --> 00:00:41,162
+slik at ikke fremdriften stopper opp. Jeg tror det viktigste for fasene 
+som kommer nå, er i det Kompendiet som er her. Selv om vi håper på at det
+
+5
+00:00:41,222 --> 00:00:54,697
+skal bli en del endringer til det bedre. Jeg vil starte med å si litt kort 
+om hvordan innholdsfortegnelsen er. Jeg skal ikke bruke så mye tid på
+
+6
+00:00:54,757 --> 00:01:05,427
+introduksjonen, for dette er bare en oversikt. Jeg vil gi noen ekstra 
+kommentarer for at dere skal få se oversikten her. Og så gir vi
+
+7
+00:01:05,467 --> 00:01:17,198
+PDF-filler, slik at dere kan få lov til å lese det sjøl. Jeg kommer ikke 
+til å si så mye om kapittel én og to, for dette med skriveprosessen er da
+
+8
+00:01:17,218 --> 00:01:25,157
+med ... Førskriving og temautvikling, altså veiledning og 
+prosjektledelse, mye av det har Båringe dekt. Og det samme med
+
+9
+00:01:25,257 --> 00:01:33,281
+planlegging av arbeidsflyt har også Båringe dekt. Og det er også en del 
+av prosjektledelse som de fleste av dere har hatt som fag. Det jeg
+
+10
+00:01:33,341 --> 00:01:42,606
+kanskje vil si lite grann om, det er kapittel tre. Litt om de formelle 
+kravene ved Høgskolen i Molde. Og da litt om språkvalg som vi har snakka
+
+11
+00:01:42,686 --> 00:01:55,836
+om. Engelsk eller norsk. Valg av verktøy, som vi også skal si litt om. Og 
+det her også med gruppestørrelse, figurer og tabeller,
+
+12
+00:01:56,157 --> 00:02:07,835
+referansestiler, er et stort tema. Så det vil jeg nevne. Men jeg vil at 
+dere skal lese det sjøl. Vi bruker mest tid på å se på oppbygging. En
+
+13
+00:02:07,855 --> 00:02:18,838
+vitenskapelig publikasjon har faste mønster i hva som er med. Av 
+introduksjon, teori og litteratur, casebeskrivelse, metode og data.
+
+14
+00:02:18,959 --> 00:02:29,380
+Modellering, analyse av resultater, diskusjon og konklusjon. Og 
+dette er det jeg vil at dere skal lage skjelettet på, som Bård Inge sa. For
+
+15
+00:02:29,980 --> 00:02:42,166
+det å ha det der innholdsmessig, hva dere skal ha, er innmari bra. Sjøl om 
+per dags dato så er detaljene kanskje uklare. Men det er ikke viktig for
+
+16
+00:02:42,446 --> 00:02:53,487
+fremdrifta i de første to fasene. Så kommer jeg til å hoppe over det andre 
+litt, med akademisk språk og argumentasjon. For når dere får
+
+17
+00:02:53,527 --> 00:03:02,994
+PDF-filer, som faktisk er 124 sider, så da kan dere lese det litt sjøl. Vi 
+har lyst til å kommentere dette, og derfor fokuserer vi på kapittel 3 og
+
+18
+00:03:03,952 --> 00:03:13,900
+4. Visualisering og teknisk presentasjon kommer til å hoppe over. Men 
+det kan hende at vi også bruker litt tid på kapittel sju. Høgskolen i
+
+19
+00:03:13,940 --> 00:03:23,688
+Moldes anbefaling er at vi bruker APA7 som referansestil. Det er mange 
+referansestiler her. Chicago, Harvard, APA. Men det er APA som
+
+20
+00:03:23,708 --> 00:03:34,639
+Høgskolen i Molde har brukt. Og så litt om kildekritikk og sånne ting, så 
+det kan hende at vi sier litt om det, for her ser vi også om referering til
+
+21
+00:03:34,739 --> 00:03:35,620
+KI-verktøy.
+
+22
+00:03:38,242 --> 00:03:50,812
+Og så kommer vi til at dere vil lese kapittel åtte og ni sjøl. Så da starter 
+vi. Jeg tror vi starter på kapittel tre, men jeg vil bla litt her nå. Der du
+
+23
+00:03:50,852 --> 00:04:00,980
+ser at instruksjonen skal dere lese sjøl. Skriveprosessen kan dere 
+lese sjøl. Det jeg også kan si, som jeg kommer til å endelig tremme på, er
+
+24
+00:04:01,060 --> 00:04:08,569
+at da vi hadde bachelorstudenter, hadde ganske mange grupper, så var 
+det sånn at da hadde vi oftere møter. For det var et litt annet format med
+
+25
+00:04:08,609 --> 00:04:18,878
+bacheloroppgaver. Og da sa vi at de skulle skrive en møteagenda før 
+møtet og ei oppsummering etter møtet. Det har vi ikke samme stil nå, så vi
+
+26
+00:04:18,918 --> 00:04:27,601
+skal se, kanskje justere dette her i hvilken grad det er relevant her nå. 
+Men internt for dere så anbefaler vi å praktisere det. Men dere trenger
+
+27
+00:04:27,621 --> 00:04:39,845
+ikke gjøre det her i forhold til osta, for her står det Hei, Bård Inge og 
+PK. Så står det her ... Og så kommer oppsummeringa. Det er noe dere kan
+
+28
+00:04:39,886 --> 00:04:48,952
+gjøre internt. Det er ikke noe sånn at Ion Boringe eller Erik skal ha det 
+for hvert internmøte dere har. Så vi kommer til å justere det, så vi får
+
+29
+00:04:48,993 --> 00:04:59,273
+det litt. Her ser dere også hvordan vi har det med Matteoppsettet har 
+blitt justert lite grann. Her ser du det gammelt nytt. Det endrer seg
+
+30
+00:04:59,293 --> 00:05:06,816
+såpass fort. Vi har fase én, fase to, fase tre, fase fire. Så her er det 
+litt annerledes. Men vi kjenner igjen referanser, vi kjenner igjen
+
+31
+00:05:06,916 --> 00:05:12,879
+info, vi kjenner igjen temples. Vi kjenner ikke igjen data og report. Så 
+denne må oppdateres litt.
+
+32
+00:05:15,560 --> 00:05:29,056
+Så litt om formelle krav. Det er altså språkvalg dere skal tenke på. Vi 
+godkjenner både norsk og engelsk, og sier litt om fordeler og ulemper.
+
+33
+00:05:29,557 --> 00:05:42,463
+Men jeg vil si litt om valg av verktøy. Her er to ting. Du kan enten bruke 
+Word, som de fleste har lyst til å bruke, men så har vi også noe som heter
+
+34
+00:05:42,523 --> 00:05:53,667
+Latek. Det er fordeler og ulemper med begge deler. Det er lavere terskel 
+med Word. Men bare én ting. Kan ikke dere si ja, alle sammen som har hørt om
+
+35
+00:05:53,727 --> 00:06:03,409
+Latek? Eller har litt erfaring med det? Eller i hvert fall hørt om det. 
+Hvem har hørt om et tekstbehandlingsprogram som er særlig egna til litt
+
+36
+00:06:03,429 --> 00:06:16,212
+kompliserte formler og sånne ting, som heter Latek? Bare skriv ja eller 
+nei. De har hørt om det, ja? Hørt om det? Har brukt det i VS Code, ja. OK,
+
+37
+00:06:16,412 --> 00:06:28,338
+bra. Det som er fordelen her, hvis du bruker dette kobla med Claude Code, 
+så er det et veldig sterkt verktøy, og det er enklere for Claude Code,
+
+38
+00:06:28,358 --> 00:06:35,144
+siden dette er tekst, nesten som et programmeringsspråk. I motsetning 
+til Word, som er ... what you see is what you get. Så dette er
+
+39
+00:06:35,184 --> 00:06:45,543
+programmeringsspråk, og da kan Claude hjelpe det veldig bra. Veit du, 
+Boringe, om det er noe sånn Word ... Som også kan hjelpe med å generere
+
+40
+00:06:45,563 --> 00:06:58,107
+rapporter i Word, eller er den like sterk som det å generere det i Latek? 
+Det som jeg har inntrykk av, er at hvis du ber en AI generere Word-fil, så
+
+41
+00:06:58,127 --> 00:07:00,807
+har du lite kontroll på hvordan det kommer til å se ut da.
+
+42
+00:07:03,948 --> 00:07:14,266
+Det er bare foreløpig erfaring her nå. Det er en utfordring med å bruke 
+Word. Dere kan sette dere inn i det hvordan du kan gjøre det. Du kan bare
+
+43
+00:07:14,406 --> 00:07:27,249
+bruke en AI og diskutere internt der nå. Så har du en rapport i ... Lag et 
+prosjekt eller noe sånt i ChatGPT. Så lager du rapport der, og så
+
+44
+00:07:27,289 --> 00:07:33,790
+genererer du dette. Til slutt, når du er ferdig, kan du generere en 
+worldfilm. Så du kan ha kanskje sånne worldparounder, men det må dere
+
+45
+00:07:33,830 --> 00:07:40,312
+tenke litt på sjøl. Hvis dere aldri har hørt om Latek før, og ikke har 
+brukt det før, så er det kanskje litt ambisiøst å begynne å bruke det. For
+
+46
+00:07:40,812 --> 00:07:42,872
+det er som sagt som et eget programmeringsspråk.
+
+47
+00:07:45,653 --> 00:07:50,115
+Så er det litt om dokumentoppsett og sånne ting, men det er da i malene.
+
+48
+00:07:53,456 --> 00:08:05,156
+Så hvordan du skal ha eksempler og tabeller, her er da 
+konfidensialitet-agreement, ja. Her er det også NVA, Nasjonalt
+
+49
+00:08:05,176 --> 00:08:09,956
+vitenarkiv, som er åpent. Dere kan gjerne gå dit og
+
+50
+00:08:12,437 --> 00:08:21,118
+se på gamle master- og bacheloroppgaver for å få ideer til hvordan folk 
+har gjort det. Det er mye som ligger her åpent, så hvis dere ikke har gjort
+
+51
+00:08:21,158 --> 00:08:25,859
+det før, bare gå og søk litt på det. Jeg tror det er nva.no. Så litt om ...
+
+52
+00:08:30,837 --> 00:08:43,332
+Litt om oppbygginga. Jeg vil se på relevansen her. At vi deler noe som 
+heter alle. Uansett hva slags type prosjekt du har, så er det noe som
+
+53
+00:08:43,352 --> 00:08:54,417
+gjelder for alle. Noe som gjelder for de fleste. Noe som gjelder for 
+noen. Og så er det modeller som gjelder for modell- og
+
+54
+00:08:54,457 --> 00:09:04,620
+analyseprosjekter. Så vi sier her relevans. Det betyr at alle, uansett 
+hvert prosjekt du har, så er det aktuelt med introduksjon. Det gjelder
+
+55
+00:09:04,660 --> 00:09:17,283
+uansett. Og det samme kan vi si om teori og litteratur. Det gjelder for 
+alle. Så her står det hva du skal ha med, og hva du ikke skal ha med, og
+
+56
+00:09:17,343 --> 00:09:26,269
+typiske feil. For det som ofte gjøres feil, er at du blir ei suppe av hva 
+som er teori, hva som er litteratursøk og hva som er introduksjon. Det
+
+57
+00:09:26,309 --> 00:09:36,632
+blir altså ei smørje der du ikke har greid å skilte de forskjellige 
+kategoriene. Og det ønsker vi å unngå. Så les gjerne denne. Når det
+
+58
+00:09:36,672 --> 00:09:43,456
+gjelder teori og litteratur som er relevant for alle, så har Bård Inge 
+sagt at det er fryktelig viktig å starte med. Dere kan starte faktisk
+
+59
+00:09:43,516 --> 00:09:52,062
+allerede i dag. Så det er mye å gjøre. Formålet er å få et faglig fundament 
+med prosjektet. Og her står det også hva som skal være med, hva som ikke
+
+60
+00:09:52,102 --> 00:10:01,207
+skal være med, og igjen typiske feil. Det er innmari bra å bare lese 
+gjennom dette, og på det grunnlaget gå også prøve å starte med
+
+61
+00:10:01,267 --> 00:10:13,898
+referanser. Og bruk gjerne AI til å spørre hvilken dette er foreløpig 
+arbeidstidstittel. Last gjerne opp på Sjekk EPT proposalen som du har,
+
+62
+00:10:14,158 --> 00:10:22,776
+og gjerne lag et prosjekt. For det er det iallfall jeg har gjort i DPT, for 
+dem som har det. Og så spør du bare hva slags type referanser som kan
+
+63
+00:10:22,856 --> 00:10:30,602
+anbefales her nå. Og gir kanskje de ti mest hotte og aktuelle. Og så 
+laster du dem ned. Les dem litt. Kanskje får Ahen til å lage en
+
+64
+00:10:30,622 --> 00:10:46,870
+oppsummering. Les kanskje abstriktet. For alle har et abstrikt. Og så 
+får dere en viss oversikt der nå. Jeg anbefaler at man leser fra ende til
+
+65
+00:10:47,010 --> 00:11:00,837
+annen de som man ser er mest relevant. De som er mest likt det caset som du 
+skal skrive på. Les det fra ende til annen. Hvert fall én i gruppa kan
+
+66
+00:11:00,877 --> 00:11:12,320
+gjøre det, og eventuelt presentere det til de andre i gruppa. Som sagt, 
+det skaper en mye større plattform for å løse oppgaver. Så det er et
+
+67
+00:11:12,340 --> 00:11:26,873
+veldig viktig punkt. Og så kan dere få andre til å lage oppsummeringer 
+rundt de andre, som dere kanskje tenker er litt mer sånn ... Relevante,
+
+68
+00:11:26,933 --> 00:11:39,178
+men ikke så relevante. Dette må dere gjøre en vurdering. Og så anbefaler 
+jeg selvfølgelig at man kan bruke en deep presearch på AI her. For å få
+
+69
+00:11:39,238 --> 00:12:01,730
+både linker og mer ... Mer korrekte og best mulig søkeresultat. Og da 
+tenker jeg at i ... I rapporten, så kan dere bruke AI-en. Dere kan
+
+70
+00:12:01,790 --> 00:12:05,631
+referere til det AI-en
+
+71
+00:12:05,992 --> 00:12:15,894
+har kommet med. Hvordan gjennomførte du søket ditt? Og at man skal svare 
+på hvordan man har gjennomført søk og sånne ting. Da er det ikke noen vei
+
+72
+00:12:15,954 --> 00:12:18,615
+inn for å referere til at du gjorde et AI-søk.
+
+73
+00:12:21,333 --> 00:12:32,077
+Sjekke enhver referanse, og ikke minst last ned referansen. Hvis det er 
+bak en betalingsmur, hør med biblioteket, slik at dere får disse
+
+74
+00:12:32,137 --> 00:12:40,019
+referansene ned. For det er helt vesentlig. Hvis ikke så er det null 
+troverdighet. Det er viktig å ha på CV-en sin at du faktisk har lest en
+
+75
+00:12:40,059 --> 00:12:49,825
+vitenskapelig rapport fra A til Å i løpet av livet. Og det er en del av det 
+prosjektet her nå. Så jeg vil anbefale at uansett om dere er tre eller
+
+76
+00:12:49,845 --> 00:12:58,028
+fire på gruppa, så anbefaler jeg at alle leser en rapport fra start til 
+mål. Om det ikke er altfor mange sider, så er det helt greit. Det er viktig
+
+77
+00:12:58,048 --> 00:13:09,408
+å ha det på CV-en, at du har lest en vitenskapelig rapport så du kan sjekke 
+av ja på det. Når det gjelder casebeskrivelser, sier vi litt om hva som
+
+78
+00:13:09,448 --> 00:13:17,933
+skal være med her. Og legg merke til at vi prøver å gi Beringa å være veldig 
+systematisk. Her står det relevans og hva formålet er, hva som skal være
+
+79
+00:13:17,953 --> 00:13:26,579
+med på en casebeskrivelse, hva som ikke skal være med, og typiske feil. 
+Jeg har ikke lyst til å gå gjennom detaljene, for det kan dere lese sjøl.
+
+80
+00:13:26,639 --> 00:13:38,167
+Men jeg vil at dere skal vite om at sånn bygger vi opp kompendier. Det er 
+faktisk da bra og ... Da har dere et greit grunnlag til å kunne utføre
+
+81
+00:13:38,187 --> 00:13:44,491
+dette. La jeg bare kommentere dette med case, for det er mange som gjør 
+feil der, da.
+
+82
+00:13:53,892 --> 00:14:03,554
+Når man skriver en vitenskapelig rapport eller et 
+forskningsprosjekt, må du skille mellom det spesifikke og det
+
+83
+00:14:03,934 --> 00:14:16,752
+generelle. En vitenskapelig rapport har som overordna hensikt å 
+tilføre noe nytt til vitenskapen. Og da er det snakk om hvilken
+
+84
+00:14:16,812 --> 00:14:29,629
+generaliseringsevne dette dokumentet har. Og hva mener med det? Jo, 
+hvordan kan ditt case hjelpe andre? Det er spørsmål, ikke sant. Du har
+
+85
+00:14:29,669 --> 00:14:36,675
+sett på en bedrift, og du har sett på et bedriftscase, og så har du kommet 
+med et problem, og så har du løst det. Og så spør du sjøl om du kan
+
+86
+00:14:36,695 --> 00:14:44,600
+generalisere dette. Kan dette brukes i andre områder? Kan det brukes av 
+andre bedrifter med lignende problem? Kan det være et utgangspunkt?
+
+87
+00:14:44,660 --> 00:14:57,270
+Den type spørsmål. Det er det generelle som man ser på. Det skal ikke være 
+i en casebeskrivelse. Casebeskrivelsen er det spesifikke du ser på.
+
+88
+00:14:57,747 --> 00:15:09,337
+F.eks. den og den bedriften. La oss si at du har et case i lag med Glamox. 
+Det er først her at du begynner å snakke om hvordan Glamox gjør det. Alt
+
+89
+00:15:09,357 --> 00:15:16,723
+som kommer før med teori og litteratur, handler om de generelle 
+problemstillingene. Problemstillinger som alle andre kan være
+
+90
+00:15:16,743 --> 00:15:22,168
+interessert i. Mens når du kommer til casebeskrivelsen, så skal du 
+holde deg til bedriften.
+
+91
+00:15:26,013 --> 00:15:30,857
+Snakk om teori, og du skal ikke begynne å gjøre analyse.
+
+92
+00:15:32,438 --> 00:15:45,268
+Du skal ikke begynne å behandle data eller sånne ting her. Du skal 
+egentlig bare beskrive caset hos bedriften og problemstillinga. Bra.
+
+93
+00:15:45,729 --> 00:15:55,899
+Supert. Når det gjelder data og metode, så er det relevant for de aller 
+fleste. Og igjen så er oppbygginga formålet, hva som er poenget her nå.
+
+94
+00:15:56,520 --> 00:16:04,964
+Og hva som skal være med, hva som ikke skal være med, og typiske feil. En 
+ting å bare tenke på her, om vi får en del data og sånne ting. Det skal jo
+
+95
+00:16:05,024 --> 00:16:14,946
+være i ... Det betyr at vi trenger ikke å ha med i vedlegget selve 
+rapporten hva dataene er. Eller kan det i noen tilfeller være
+
+96
+00:16:14,986 --> 00:16:21,630
+hensiktsmessig å ha dataene som et vedlegg i selve 
+forskningsrapporten. Det er sjeldent, men alt skal være
+
+97
+00:16:21,690 --> 00:16:24,652
+etterprøvbart.
+
+98
+00:16:25,993 --> 00:16:40,765
+Det betyr at du kan ... Hvis noen spør, så kan du finne dataene. Du kan 
+etterprøve det. Hvis ikke, så er det ikke en reell datakilde. Nei, men vi
+
+99
+00:16:40,825 --> 00:16:52,392
+ønsker da at det ligger under kapittel på mappa i Teams, at de dataene 
+dere får, legger vi da dit. Og samler dem der nå. Vi kan nevne en viktig
+
+100
+00:16:52,432 --> 00:16:58,996
+ting da, hvis du går til de folderne dine, PK. Vi har en sånn datafolder, 
+har vi ikke? Ja, jeg skal se om jeg kan kjøpe. Takk.
+
+101
+00:17:02,723 --> 00:17:09,845
+Ja, vi må bare ta den med dit. Kanaler.
+
+102
+00:17:09,885 --> 00:17:18,026
+Skal vi se. Sånn.
+
+103
+00:17:18,166 --> 00:17:28,789
+Og så går vi i ... Ja. Det jeg skal frem til her, er at man har noe som kalles 
+for rådata-raierne. Data som du fikk fra en bedrift, eller du fikk
+
+104
+00:17:28,869 --> 00:17:39,951
+simulert fra oss, eller hva det skulle være. Innunder den folderen der 
+så har du noe som heter rådata. Og rådata skal du være forsiktig med å
+
+105
+00:17:40,031 --> 00:17:50,916
+gjøre, de skal du ikke behandle. De skal bare være rådata. Det er dataene 
+dine. Så det jeg ofte anbefaler, er at du har en folder under 004 data som
+
+106
+00:17:50,956 --> 00:18:02,700
+kalles for rådata. Data du fikk. Autentiske data du fikk. Og dem skal du 
+helst ikke gjøre noe som helst med. For det er på en måte ... Det skal være
+
+107
+00:18:02,761 --> 00:18:12,986
+autentiske data som du fikk. Så lager du kopier av dem. F.eks. så må man 
+ofte behandle disse dataene. Gjerne med kode eller i Excel eller hva det
+
+108
+00:18:13,006 --> 00:18:21,847
+skulle være. Hvor du da må tilpasse dataene, du skal lage sammendrag 
+osv. Du skal bruke disse dataene på en eller annen måte. Da får man gjerne
+
+109
+00:18:21,867 --> 00:18:32,370
+et utvida Excel-ark, f.eks. Mine anbefalinger er at ikke begynn 
+direkte på rådataene dine og endre dataene dine. For plutselig så skjer
+
+110
+00:18:32,390 --> 00:18:43,313
+det et eller annet fuck up, og så er dataene korrupte. Og da er den null 
+verdt. Og da er det veldig fint å ha rådata som du aldri har gjort noe med,
+
+111
+00:18:43,733 --> 00:18:56,774
+men som du kan hente inn igjen. For å gjøre en ny analyse eventuelt, eller 
+rette opp igjen i noe som har gått galt. Så ha alltid en safety folder, som
+
+112
+00:18:56,834 --> 00:19:08,557
+heter rådata. Som er ubehandla data som du fikk. Og så tar du kopier av 
+dem, og så jobber du med kopiene i stedet for. Veldig viktig og lurt triks
+
+113
+00:19:08,577 --> 00:19:10,777
+her. Bra.
+
+114
+00:19:12,478 --> 00:19:23,729
+Da har vi det. Så er det modellering, og det gjelder kanskje for mange. 
+Bare en liten ting før vi går på data. Hvis de har simulerte data, eller at
+
+115
+00:19:23,769 --> 00:19:32,034
+vi genererer data for dem, da gjelder det det samme? Hvis du greier å 
+stimulere dem til å få det for oss, gjelder det samme med rådatamappa
+
+116
+00:19:32,114 --> 00:19:44,579
+under 004? Helt klart. Anse simulerte data som reelle data. Altså 
+behandle dem på samme måten. Og det å kunne behandle data på en god måte,
+
+117
+00:19:44,739 --> 00:19:54,224
+god skikk med data, det er viktig også i arbeidslivet, for å si det sånn. 
+Du henter ned dataene. Da skal du behandle dem skikkelig, og du skal
+
+118
+00:19:54,304 --> 00:20:07,192
+alltid ha en backup hvor du har ubehandla data som du kan benytte deg av på 
+flere forskjellige måter. Sørg for å jobbe med kopier. Så modellering
+
+119
+00:20:07,352 --> 00:20:18,576
+gjelder sikkert de fleste i vårt fag. Det er et formål hva som skal være 
+med og hva som skal ikke være med. Vi har en del detaljer som vi ikke går
+
+120
+00:20:18,616 --> 00:20:29,220
+gjennom nå. Men du ser at det her er faktisk ... Jeg prøver å ha det kort. Du 
+ser det på én side. Hopper du over modellen nå, PK? Modellering står her.
+
+121
+00:20:29,680 --> 00:20:42,424
+Ja. Du gikk litt fort gjennom den. Ja, jeg gikk litt fort gjennom. Altså 
+modellering ... Det er kanskje noe av det viktigste kapitlet ditt i
+
+122
+00:20:42,464 --> 00:20:54,135
+rapporten din. Den er viktig å ha. Det er her du skaper noe nytt. Modellen 
+er gjerne ny. Den representerer en ny problemstilling, f.eks.
+
+123
+00:20:59,362 --> 00:21:10,626
+I vitenskapelig skriving, sånn som vi gjør det i en kvantitativ 
+analyse. Den skal direkte representere problemstillinga di. Du har ei
+
+124
+00:21:10,666 --> 00:21:22,771
+problemstilling. Den problemstillinga skal oversettes til en 
+modell. For å løse problemstillinga, så må du løse modellen. Legg merke
+
+125
+00:21:22,791 --> 00:21:33,754
+til at det er en én-til-én-sammenheng mellom modellen Og 
+problemstillinga di. Hvis ikke de tror korrekt det, da gjør dere en
+
+126
+00:21:33,774 --> 00:21:44,020
+kardinal feil. For dere må passe på at dere har en overordna 
+problemstilling helt i starten av rapporten. Og den skal dere svare på i
+
+127
+00:21:44,060 --> 00:21:54,951
+rapporten. Og hvis da modellen svarer på noe annet, en annen modell enn 
+det dere har skrevet i innledningspunktet, Da gjør dere en veldig stor
+
+128
+00:21:54,991 --> 00:22:06,039
+feil. Og da kan det være kjempebra. Modellen kan være helt topp, men da 
+svarer den jo på noe annet enn det dere har skrevet. Jeg har en kommentar
+
+129
+00:22:06,059 --> 00:22:13,884
+der nå. Dere skal også få denne foreløpige versjonen, som er 135 sider, 
+implementert av KI. Og den har blitt gjort litt med siden dere ...
+
+130
+00:22:19,568 --> 00:22:27,562
+Vi fikk den første versjonen som ligger ute, så Erik kommer til å legge ut 
+en ny en. Da vil vi slette den gamle og erstatte med den nye. Men her ser du,
+
+131
+00:22:27,622 --> 00:22:40,729
+da. Der vi har gått gjennom noen eksempler på metoder og sånne ting. Der 
+vi ser hvordan modeller skal bygges opp. Det blir vel i mars, da. Så skal
+
+132
+00:22:40,749 --> 00:22:51,995
+vi ha egne gjennomgang av det her nå. Slik at dere vet litt mer om det. Så 
+detaljene der nå tilhører egentlig i mars. Sjøl om det ikke er lenge til.
+
+133
+00:22:52,255 --> 00:23:04,006
+Men jeg vil vise dere litt likevel på hvordan det er. For den PDF-en her 
+som dere får, den er veldig bra å lese gjennom for å få en idé om hva som
+
+134
+00:23:04,066 --> 00:23:16,577
+konger. Så her ser du at vi snakker om hva slags ... Vi må bestemme oss, da. 
+Vi ser at vi ... Ja, bare en liten ting her. Jeg må bare vise det først. Vi
+
+135
+00:23:16,637 --> 00:23:26,022
+ser på forskjellige områder. Vi har valgt ut elleve områder i 
+kvantitativ logistikk, som er kanskje de mest aktuelle, og gått
+
+136
+00:23:26,042 --> 00:23:38,049
+gjennom dem. Det er det kapitlet skal være med innbeholdet til slutt. Av 
+de elleve er det etterspørselsprognoser,
+
+137
+00:23:38,309 --> 00:23:52,653
+lagerstyring, produksjonsplanlegging og produksjonsstyring. Det 
+er nettverksdesign og optimering. Det er forsyningskjedeanalyse
+
+138
+00:23:52,733 --> 00:24:05,220
+og optimering. Det er køteori og kapasitetsplanlegging. Lagerdrift 
+og ordreplukk. Bærekraftig logistikk. Returlogistikk og sirkulære
+
+139
+00:24:05,320 --> 00:24:17,282
+forsyningskjeder. Innkjøpsoptimering og leverandørstyring. Og til 
+slutt risikostyring og robusthet i forsyningskjeden. Det er de
+
+140
+00:24:17,422 --> 00:24:28,073
+områdene. Og på hver av de elleve områdene så har vi da 
+problemstillinger, modeller og metoder. Som er det viktige kapitlet
+
+141
+00:24:28,113 --> 00:24:38,317
+vi snakker om. Så tar vi et spesifikt eksempel der vi går gjennom fra 
+start til mål, som Bård Ingers sa, og det tilhører Marsjen. Og da kommer
+
+142
+00:24:38,337 --> 00:24:48,481
+vi til å gå gjennom dette i detalj, slik at dere har en mye mer konkret idé 
+om hva innholdet skal være i det viktige kapitlet i rapporten som heter
+
+143
+00:24:48,561 --> 00:24:59,922
+'Modeller og modellering'. Da skal vi gå gjennom vår problemstilling, 
+modell og prosessen med datainnsamling. Antagelser, modellering,
+
+144
+00:25:00,522 --> 00:25:11,066
+parametrisering og modellvalidering. Altså sjekke at modellene er 
+fornuftige, f.eks. i grensetilfeller. Og til slutt tar vi siste steget
+
+145
+00:25:11,086 --> 00:25:17,407
+med prognose i dette tilfellet. Så da går vi gjennom. Og hvis du ser på et 
+eksempel her ...
+
+146
+00:25:25,615 --> 00:25:35,645
+Vi tar det første eksempelet som kommer her. Det er Trend og Sesong med 
+S-Arima. Det er et firma som selger traktorer på et stort
+
+147
+00:25:35,685 --> 00:25:48,365
+internasjonalt marked, jeg lurer på om det var i Asia. Og da ser vi at vi 
+går gjennom disse med eksempler, områder, problemstilling, modell,
+
+148
+00:25:48,565 --> 00:25:59,048
+prosess og metode. Og da får vi gjennom det veldig spesifikt, men 
+detaljene der skal vi ikke se på i dag. Detaljene der skal vi ikke se på i
+
+149
+00:25:59,088 --> 00:26:11,970
+fase én, men i fase to eller tre er det vel. Jeg husker ikke. Men vi skal 
+gjøre det da i mars. Og det er det som skal være i det relativt store
+
+150
+00:26:12,010 --> 00:26:20,674
+kapitlet her nå. Så sjølve skrivinga, som har med vitenskapelig 
+skriving å gjøre ... Her sier vi hvor det er relevant, og hva vi skal ha med
+
+151
+00:26:20,714 --> 00:26:24,876
+og ikke ha med. Men detaljene og hvordan vi skal bygge det opp, er i det 
+andre kapitlet.
+
+152
+00:26:29,150 --> 00:26:38,839
+Så er det analyse og resultat, som vi også har med i det eksempelet. Vi 
+kommer med en konklusjon også i eksempelet med traktorer som selges på
+
+153
+00:26:38,859 --> 00:26:45,526
+det asiatiske markedet. Da ser dere et eksempel på hvordan vi 
+praktiserer dette her. Om hva som skal være med, hva som ikke skal være
+
+154
+00:26:45,546 --> 00:27:00,722
+med, og typisk feing. Dette kapitlet er typisk at du løser. En modell 
+representerer variabler og parametere og en målfunksjon. Altså noe du
+
+155
+00:27:00,742 --> 00:27:15,527
+skal oppnå. Og variablene er de ukjente, størrelsene som du prøver å 
+forbedre f.eks. Og i 4-6 da er det hva ga løsningene, hva ble løsninga her
+
+156
+00:27:15,567 --> 00:27:16,027
+på modellen.
+
+157
+00:27:18,965 --> 00:27:25,976
+Ja. Jeg kan bare vise det som jeg syns er litt kult sjøl, da. Syns det var 
+veldig artig. Her ser dere hvordan det er med de stegene. Vi prøver å
+
+158
+00:27:25,996 --> 00:27:39,888
+visualisere det. Her ser du dataen vi har. Her er bare rådataen, da. Vi 
+skal analysere dem og plotte dem. Det er jevnt og trutt stigende fra 2003
+
+159
+00:27:39,968 --> 00:27:44,591
+til 2013, salg
+
+160
+00:27:45,311 --> 00:27:53,695
+av traktorer. Men du ser typiske sesongvariasjoner her. De selger mer 
+traktorer på sommeren enn de gjør på vinteren. Det ser vi allerede nå. Vi
+
+161
+00:27:53,715 --> 00:28:04,241
+skal prøve å predikere hva som kommer i neste år, altså året etterpå. Da 
+gjør vi en del analyse og mye modeller og sånne ting. Det er det vi skal gå
+
+162
+00:28:04,281 --> 00:28:12,128
+gjennom i detalj i mars. Så får vi et resultat der vi kommer med 
+prognosene våre. Hvordan blir det neste år, med både usikkerhet og
+
+163
+00:28:12,148 --> 00:28:21,696
+sånne ting. Det området som er skravert der, det er usikkerheten, som 
+sier noe om noe som heter konfidensintervall, som vi håper dere husker
+
+164
+00:28:21,716 --> 00:28:37,898
+fra statistikken. Vi syns det er ganske kult. Det blir en del av det som 
+blir analysen og resultatene. Vi vil gå gjennom denne fra A til Å, fra
+
+165
+00:28:37,958 --> 00:28:56,333
+start til slutt. Både i teorien, slik vi ser det her, men også i praksis 
+ved hjelp av å gå gjennom koden, som løser modellene. Hvordan vi lager
+
+166
+00:28:56,373 --> 00:29:04,482
+koden, hvordan vi leser inn dataene osv. Det er den biten her hvor vi også 
+henter inn kunnskapene man har lært fra IB160.
+
+167
+00:29:13,934 --> 00:29:24,499
+Men i en annen setting. Nå er det mer et data science-problem. Hvor du 
+skal løse en modell, implementere modellen, løse modellen. Og så skal
+
+168
+00:29:24,539 --> 00:29:25,979
+du
+
+169
+00:29:27,580 --> 00:29:32,702
+presentere resultatene.
+
+170
+00:29:33,082 --> 00:29:40,926
+Sammen med rapporten har vi også et GitHub repo,
+
+171
+00:29:41,066 --> 00:29:54,487
+der man har gjennomført analysen. Alt dette vil vi gå gjennom i 9. 
+mars-uka. Det som er viktig for meg her og nå, er at dere ser hva slags
+
+172
+00:29:54,727 --> 00:30:05,195
+forskjellige naturlige avsnitt en rapport inneholder. Og at vi ikke 
+blander analyse og resultat med diskusjoner. For det vi skal diskutere
+
+173
+00:30:05,235 --> 00:30:14,801
+i diskusjoner, det er resultatene som vi har fra fire steg. Vi skal 
+presentere resultatene faktabasert, uten å diskutere om de var bra
+
+174
+00:30:15,001 --> 00:30:25,426
+eller dårlige, eller implikasjoner av dem. Det er det som skiller en god 
+kontra en litt dårligere forskningsoppgave. Og verstere oppgave,
+
+175
+00:30:25,446 --> 00:30:35,448
+dette er ikke Backflare-oppgave, men det er at det blandes. Og det er 
+ikke bra. For selve diskusjonen, altså eventuelle konsekvenser av
+
+176
+00:30:35,508 --> 00:30:45,818
+resultatene, det skal komme her. Mens resultatene som sådanne, det 
+skal være i dette avsnittet. Så det er derfor vi er så opptatt av at hva er
+
+177
+00:30:45,838 --> 00:30:53,484
+det som skal være med, hva er det som ikke skal være med, og hva som er 
+typiske feil. Så derfor vil vi nå, og vi trenger tida, gi dere den
+
+178
+00:30:53,524 --> 00:31:05,040
+PDF-fila, for da ser dere det allerede. Og samme med konklusjonen. Det 
+er da hva som skal være med i konklusjonen her nå. Det er da bare å gi en.
+
+179
+00:31:05,377 --> 00:31:16,979
+Sammenfatta hva som er funna i prosjektet og hva som er implikasjonene i 
+prosjektet. Det kan jo være at konklusjonen kan være at du ikke finner
+
+180
+00:31:16,999 --> 00:31:27,962
+noe nytt. Det kan altså være en konklusjon. Men her er det det skal komme. 
+Dere kommer etter hvert til å få mer feeling med å få en oversikt over en
+
+181
+00:31:28,062 --> 00:31:40,923
+forskningsartikkel. Da leser du i tillegg til hovedskrifta 
+abstrakte, altså introduksjonen, da. Og dette med konklusjonen. Jeg
+
+182
+00:31:40,943 --> 00:31:51,168
+skal bare vise dere veldig kort hva et abstrakt er for noe. Bare veldig 
+kort. Skal vi se om jeg greier å finne det
+
+183
+00:31:55,170 --> 00:32:05,874
+her. Når det er en forskningsartikkel, så ser du at dette er det som er et 
+abstrakt. Et abstrakt er ikke i deres ... Men dette er et abstrakt. Det
+
+184
+00:32:05,894 --> 00:32:14,280
+som kommer etter. Og så, etter abstraktet, så kommer introduksjonen, 
+når det er en forskningsartikkel. Når vi snakker om abstrakt, at dere
+
+185
+00:32:14,300 --> 00:32:23,007
+skal lese det og konklusjonen for å få oversikt, så er det når vi har en 
+vitenskapelig rapport, ikke en vitenskapelig artikkel. Ikke den
+
+186
+00:32:23,047 --> 00:32:27,110
+rapporten som dere har her. For den har da en introduksjon, og ikke et 
+abstrakt.
+
+187
+00:32:31,287 --> 00:32:42,603
+Så er det som elementer før og etter hoveddelen. Det gjelder 
+forskningsprosjekter og ikke en artikkel. Du har ofte ei forside. Det
+
+188
+00:32:42,663 --> 00:32:54,681
+ser vi også på ... Word-templaten vår, at vi har ei forside. Og ikke det 
+her med forord og takk er også en viktig del. Du må ha en
+
+189
+00:32:54,761 --> 00:33:01,767
+innholdsfortegnelse, og det gjelder heller ikke i en artikkel. Altså 
+table of content, som det heter. Det må du også ha på en stykk
+
+190
+00:33:01,787 --> 00:33:11,816
+forskningsrapport som ikke er i en artikkel. Og det må også ha ei, 
+selvfølgelig, det er jo veldig viktig, ei referanseliste. Og
+
+191
+00:33:11,916 --> 00:33:18,250
+eventuelle vedlegg kan også være der. Det er det som kommer utenfor 
+selve hovedkroppen.
+
+192
+00:33:21,153 --> 00:33:29,958
+Så da er det kanskje en liten ting jeg vil avslutte med, for jeg skal ikke 
+presse tida så mye lenger nå. Men det var kanskje én ting jeg ville vite
+
+193
+00:33:30,018 --> 00:33:38,382
+med å vise dere med kunstig intelligens og akademisk læring. Her tror 
+jeg faktisk at en del av dere kan mer enn i hvert fall det jeg kan. Men jeg
+
+194
+00:33:38,402 --> 00:33:48,330
+har lyst til bare å si et party de siste minuttene. Iallfall jeg har litt 
+erfaring med det nå, også på veldig høyt akademisk nivå når det gjelder
+
+195
+00:33:48,370 --> 00:33:55,381
+vanskelig matematikk og teoretisk fysikk. Så det å ha KI som en 
+sparingspartner, det har jeg faktisk god erfaring med nå. For vi
+
+196
+00:33:55,421 --> 00:34:08,850
+snakker og diskuterer. Og lime inn og klippe ut ligninger som den kan 
+regne på og diskutere. Så det mener jeg er en god ting å gjøre. Selv om alle
+
+197
+00:34:08,890 --> 00:34:16,430
+kanskje ikke er enig i akkurat den praksisen, så har jeg iallfall gode 
+erfaringer med det. Jeg bruker også mikrofonen litt. Du ser at det her
+
+198
+00:34:16,450 --> 00:34:27,154
+gidder jeg ikke å skrive. Jeg bruker mikrofonen i 6GPT, som jeg bruker. 
+Og alt dette her er da jeg har snakka inn, og da får jeg alt jeg har på
+
+199
+00:34:27,195 --> 00:34:34,778
+hjertet, mye raskere inn enn å sitte og skrive det. Jeg har også lyst til å 
+vise dere veldig kort sånn som jeg gjør det. Det er ikke sikkert at dere
+
+200
+00:34:34,978 --> 00:34:44,860
+praktiserer det så mye. Kanskje dere ikke har GPT engang. Men det jeg 
+syns er bra, det er da å ... Lage et prosjekt. Og da har jeg lasta opp
+
+201
+00:34:44,880 --> 00:34:53,506
+prosjektfila her nå. Det kan da f.eks. være proposalen deres. Det kan 
+være da emnebeskrivelsen, som er på hingmolde.no. Laste opp det. Og så
+
+202
+00:34:53,646 --> 00:35:01,671
+lager jeg under dette prosjektet her. Du ser her er det mange 
+forskjellige prosjekt. Så lager jeg da mange separate samtaler, og der
+
+203
+00:35:01,772 --> 00:35:09,506
+dedikerer jeg forskjellige samtaler til forskjellige tema. Og det har 
+iallfall jeg veldig mye erfaring med. For når vi lager en ny samtale her
+
+204
+00:35:09,526 --> 00:35:19,207
+nå, så har altså KIN den innstillinga her hele tida og vet at det dreier 
+seg om prosjektet vårt. Og vet instruksjonene og har da bakgrunnen.
+
+205
+00:35:19,507 --> 00:35:27,089
+Slik at du kan opprette nå en ny samtale uten å forklare hele 
+livshistorien på nytt. Det kan hende at dere har enda bedre måter å gjøre
+
+206
+00:35:27,109 --> 00:35:41,708
+det her på, men jeg syns at dette er litt kult. Så jeg vil at dere skal da 
+vurdere. Jeg kan jo skyte inn der, PK, at ... At å bruke BS-code med
+
+207
+00:35:42,068 --> 00:35:44,129
+Claude-code eller Gemini, vil være
+
+208
+00:35:46,850 --> 00:35:57,212
+bedre. I den forstand at de kan endre filene dine direkte og kontrollere 
+alt sammen direkte. Dette her kommer det ikke tillegg til. Når du skal
+
+209
+00:35:57,252 --> 00:36:07,275
+begynne å spørre særlig hvis det er Latek, da. Skal du skrive rapporten, 
+er det koblingen mellom cloud code og VS-code som er avgjørende. Det er
+
+210
+00:36:07,295 --> 00:36:16,622
+det han har lært dere i IB160, og det må vi ha i bunnen der nå. Det er en helt 
+annen ballgang. Da kan du bare prompe og si hva du skal gjøre, og så lager
+
+211
+00:36:16,642 --> 00:36:27,330
+han pytonkode og gjør de regnvaske dataene. Eller bare si det med 
+vanlige ord, og så gjør han det. Dette er en helt annen sak som kommer
+
+212
+00:36:27,370 --> 00:36:35,797
+parallelt på sida, hvis du vil ha en diskusjonspartner. Som egentlig er 
+på ingen måte istedenfor, men i tillegg til det den går inn i. Her er det
+
+213
+00:36:35,837 --> 00:36:48,167
+ikke noen direkte kobling mellom at A-en har tilgang til filene og kan 
+endre filene. Dette er bare ... Det er noe helt annet som jeg mener også
+
+214
+00:36:48,187 --> 00:36:57,594
+kan være bra å ha i tillegg. Det vi bruker å gjøre da, av og til, spesielt 
+hvis vi driver research eller sånne ting, da, så kan det godt hende at de
+
+215
+00:36:57,634 --> 00:37:08,257
+gjør det sånn som PK viste det der. At de bruker enten ChetKPT eller en av 
+de store leverandørene der, da. Men det vi bruker å gjøre da, er at ved
+
+216
+00:37:08,478 --> 00:37:17,110
+slutten av samtalen, da. Du ser PK har delt opp prosjektet i mange 
+samtaler, hvilket er smart. Men for hver samtale så bruker jeg alt til å
+
+217
+00:37:17,210 --> 00:37:28,523
+si, lag en oppsummering av hele denne dialogen og lagre den som en 
+markdown-fil. Slik at jeg får en fil som oppsummerer hele diskusjonen.
+
+218
+00:37:29,284 --> 00:37:41,433
+Da tar jeg den fila og laster den opp. I prosjektet mitt lokalt på 
+maskinen med VS-code, slik at Cloud-code eller Gemini da kan bruke den
+
+219
+00:37:41,473 --> 00:37:58,076
+dialogen som vi hadde med ChatGPT, slik at de kan bruke den kunnskapen. 
+For ChatGPT og den type ... Nettsida er veldig god på god på research,
+
+220
+00:37:58,116 --> 00:38:12,886
+f.eks. Den er god på sånn knowledge, generell kunnskap. Mens Gemini og 
+Cloud Code er jo programmeringsspesifikke AI-modeller, som er da lagd
+
+221
+00:38:12,946 --> 00:38:23,333
+for å være gode på programmering. Og da på den måten bruker dere på en måte 
+det beste av begge verdenene, men sørg da for ... Og lage en oppsummering
+
+222
+00:38:23,613 --> 00:38:36,757
+av samtalen. Slik at du får en fil som du kan laste opp som knowledge-base 
+til cloud code når den skal skrive rapporten din eller generere koden
+
+223
+00:38:36,817 --> 00:38:47,020
+din. Vi kommer tilbake til det. Jeg kommer til å vise det også til dere. 
+Men jeg er for så vidt enig med at dette kan kjøres i duo, da.
+
+224
+00:38:51,262 --> 00:38:59,810
+Vi har så svart på det før, men folk vil sikkert lure. Må vi begynne å 
+betale og abonnere på sånne KI av Claude Code og GP3 eller Gemini eller
+
+225
+00:38:59,830 --> 00:39:12,981
+noe sånt, eller hvordan er det i det kurset her? Ja, det er et veldig godt 
+spørsmål. Vi hadde jo FreeTeer i Google i forrige semester. Men det er jo
+
+226
+00:39:13,041 --> 00:39:27,222
+en sår sannhet at det ikke er like bra. Man har behov for å bruke de beste 
+modellene for å få godt resultat. Så jeg er i dialog nå med avdelinga,
+
+227
+00:39:27,663 --> 00:39:38,748
+hvor planen er at vi kan kjøpe inn et par fellesmodeller. Altså et par 
+felleslisenser som vi kan bruke. For jeg tror det er ingen av dere som
+
+228
+00:39:38,828 --> 00:39:46,111
+klarer å utnytte fullt ut kapasiteten per dag for ...
+
+229
+00:39:49,008 --> 00:40:02,992
+For Claude eller en Google-bruker. Slik at vi da får kanskje to brukere, 
+f.eks., som vi da kan dele på alle sammen. Og det tror jeg kan fungere
+
+230
+00:40:03,032 --> 00:40:14,755
+veldig fint. Da får jo alle samme innlogging og sånn. Og hvis det skulle 
+være sånn at veldig mange jobber akkurat samtidig med masse data, så kan
+
+231
+00:40:14,775 --> 00:40:22,556
+det hende at vi får en sånn limit. Men jeg tror det kan skje veldig 
+sjeldent, og jeg tror det kan være en god løsning. Så den kommer vi til å
+
+232
+00:40:22,596 --> 00:40:31,922
+jobbe med, slik at vi har det på plass når vi trenger det i 
+gjennomføringsfasen. Og det kommer da i mars. Så jeg kjenner at jeg
+
+233
+00:40:32,022 --> 00:40:34,223
+gleder meg allerede. Jeg syns det her er spennende.
+
+234
+00:40:37,118 --> 00:40:47,605
+Da har jeg ikke så mye mer på hjertet. Jeg har lyst til at dere også skal 
+vite om at en Google scoller vil vi at dere skal vite om. Det er også noe som
+
+235
+00:40:47,645 --> 00:41:02,573
+heter Alex Open. Open, som biblioteket i Molde anbefaler når det 
+gjelder en søkemotor til ... Søk
+
+236
+00:41:02,613 --> 00:41:11,975
+gjerne på OpenLX og se hvordan den er, og sammenlign den med Google 
+Scholder. Google Scholder er søkemotoren spesifikt for akademiske
+
+237
+00:41:12,035 --> 00:41:22,078
+brukere. Så er det en del linker som vi har, omskriveprosesser og sånne 
+ting, som er en del kilder som også biblioteket har. Og her ser dere
+
+238
+00:41:22,138 --> 00:41:23,738
+hvordan APA 7.
+
+239
+00:41:26,599 --> 00:41:36,491
+versjonen er når det gjelder referanse. Det var egentlig det jeg hadde 
+på hjertet. Da er klokka tre, og vi har holdt på en lang dag. Så da kommer
+
+240
+00:41:36,531 --> 00:41:48,180
+jeg til å laste opp videoene. Erik kommer til å lage en oppsummering på 
+kanalen på Teams. Og så kommer Erik også til å laste opp pedofilene av
+
+241
+00:41:48,240 --> 00:41:56,746
+disse to compendiaene her. Både detta-compendiet og the compendia 
+her, som er en ... Syns vi sjøl, da. Legg merke til hvor mye informasjon
+
+242
+00:41:56,766 --> 00:42:07,514
+det er i figurene der nå. Så bruk litt tid på det. Det er mye gode figurer 
+der det er mye informasjon, da. Så se litt på dette her. Da har dere en idé
+
+243
+00:42:07,674 --> 00:42:16,185
+om hva det her dreier seg om. Og du ser at det er ikke ferdig ennå. Vi holder 
+på med det i å bare ringe. Vi ønsker ikke at prosessen skal stoppe opp,
+
+244
+00:42:16,205 --> 00:42:24,308
+slik at dere får en idé om dette. For mange av dere spør med rette når det 
+kommer, og vi veit ikke. Og derfor gir vi dere bare det vi har per i dags
+
+245
+00:42:24,348 --> 00:42:37,871
+dato. For jeg tror at det svarer på ganske mange av spørsmålene dere har. 
+Noen spørsmål før vi avslutter dagen? Høres det kult ut, det faget her?
+
+246
+00:42:38,111 --> 00:42:47,607
+Er det spennende? Er det overveldende? Høres det realistisk ut? Det 
+høres spennende ut.
+
+247
+00:43:12,470 --> 00:43:25,234
+Det er så viktig i starten her ... Med område, problemstilling, modell, 
+prosess og metode, så tar vi alle disse. Hypotesen vår er jo følgende,
+
+248
+00:43:25,254 --> 00:43:34,698
+da. Når dere kommer ut i arbeidslivet, og dere får en eller annen ... Kall 
+det teoretisk oppgave, eller dere får en utfordring eller
+
+249
+00:43:34,718 --> 00:43:44,048
+problemstilling dere skal jobbe med ... Det kan være et 
+mulighetsområde eller et utfordringsområde. Så kjenner dere en
+
+250
+00:43:44,088 --> 00:43:56,576
+prosess hvor dere kan bruke AI sammen med den prosessen for å løse det 
+problemet på en veldig effektiv og ekstremt god måte. Og det som er
+
+251
+00:43:57,397 --> 00:44:09,097
+banebrytende inn i dette caset her, og nå skal dere lytte godt, for det er 
+et faktum ... Der at det er veldig sjeldent at vi opplever at
+
+252
+00:44:09,858 --> 00:44:20,607
+bachelorstudenter klarer å løse modellene de beskriver. Det har ikke 
+skjedd per i dag. Så dette er et nytt område hvor vi nå i tillegg til å
+
+253
+00:44:21,068 --> 00:44:32,321
+beskrive problemet ved hjelp av en modell, så skal vi også løse 
+modeller. Og det er et typisk masternivå. Så for å være helt ærlig, så
+
+254
+00:44:32,701 --> 00:44:42,749
+pga. AI, og fordi vi tillater å bruke AI her, og ikke bare tillater, men vi 
+forventer det jo ... Så
+
+255
+00:44:43,810 --> 00:44:58,124
+kommer vi i en posisjon hvor vi kan gjennomføre en rapport eller en 
+oppgave på et mye høyere nivå enn det som vi tidligere har klart. Det
+
+256
+00:44:58,164 --> 00:45:09,772
+mener vi er en naturlig utvidelse med et kraftigere verktøy som AI 
+utgjør. Så det er ingen tvil om at disse oppgavene som dere nå skal gå løs
+
+257
+00:45:09,832 --> 00:45:24,985
+på å jobbe med, vil være på et høyere nivå enn det som har vært vanlig på 
+bachelornivå. Men med hjelp av AE, som er vår hypotese, at dette klarer
+
+258
+00:45:25,005 --> 00:45:40,247
+vi. Og spesielt når dere har hatt et fag som IB 160. For da har dere 
+kunnskapen rundt AE på plass for å kunne gjøre denne type data-heavy
+
+259
+00:45:42,529 --> 00:46:01,243
+analyser. Vi skal ha en ny runde på fredag. Da foreslår jeg at vi snakker 
+litt om de to områdene som er nå først forut. Det ene er hvordan dere skal
+
+260
+00:46:01,303 --> 00:46:11,506
+beskrive introduksjon og problemstilling. Altså første utkast av 
+introduksjonskapitlet. Og hvordan man skal skrive et sånt kapittel.
+
+261
+00:46:11,566 --> 00:46:24,490
+Kall det best practice. Det var nummer én. Nummer to er hvordan vi gjør 
+litteratursøk. Så det er da 4-1 og 4-2 vil vi nå ha fokus på på fredag. Det
+
+262
+00:46:24,510 --> 00:46:28,515
+er bare mitt forslag. Jo fortere dere kommer i gang med 4-1 og 4-2, fått 
+det på plass ...
+
+263
+00:46:33,687 --> 00:46:47,136
+Det er i prinsippet enkle ting likevel, men at vi ikke lar det henge i 
+prosjektet, slik at man må begynne å rote med disse tingene når man skal
+
+264
+00:46:47,216 --> 00:46:56,261
+jobbe med casebeskrivelser og data og metode og modellering og sånne 
+ting. Som er kjernen i det vi skal drive på med. Så vi tar de to punktene
+
+265
+00:46:56,301 --> 00:47:10,768
+der, tenker jeg. Da har dere det dere trenger til å fullføre fase to med 
+prosjektdelen. Opprett gjerne rapportfiler i Word, eller Latek,
+
+266
+00:47:10,928 --> 00:47:17,091
+helst Word, sannsynligvis. Allerede nå, der dere har en 
+arbeidstittel. Og det behøver ikke være en endelig tittel, bare dere
+
+267
+00:47:17,111 --> 00:47:24,354
+har en feeling med arbeidstittel, for da blir dere pressa til å ta 
+stilling til det tidlig, og det er veldig sunt. Og tenk også å få inn det
+
+268
+00:47:24,374 --> 00:47:32,193
+her med problemstillinger og sånne ting. Det hadde vært innmari bra om 
+dere bare jubler de formelle tingene, for da er dere på en måte i gang. Da
+
+269
+00:47:32,233 --> 00:47:42,295
+har vi gått litt på overtid, så da har ikke noe mer parert seg. Det var 
+status på MS Project. Vi fikk nettopp beskjed om at det er tilgjengelig.
+
+270
+00:47:43,756 --> 00:47:58,947
+Så alle som er en del av Canvas-rommet kan nå skaffe inn MS Project. Vi har 
+en sånn rutine for det. Kanskje Erik kunne ha lagt inn den for hvordan man
+
+271
+00:47:59,007 --> 00:48:10,429
+laster nærmest project. Så den er allerede godkjent. Så alle som tar 
+kurs i log 650 som er oppmeldt, har nå muligheten til å laste nærmest
+
+272
+00:48:10,449 --> 00:48:23,608
+project. Ja. Så der er tommel opp, for å si det sånn. Vi skal få lagt ut en 
+kunngjøring for hvordan man gjør det. Hvis man har glemt det. Supert.
+
+273
+00:48:23,648 --> 00:48:32,831
+Kan bare ha et kort møte etterpå nå. Oppsummering. Takk for i dag, 
+folkens. Det blir en del kunngjøringer nå. Vi legger ut en del filer,
+
+274
+00:48:32,871 --> 00:48:45,655
+oppsummeringer, videoer, Panopto, PDF-er, Compandia, MR Project. Så 
+følg med. Nå gir vi gass og tar et kort møte nå. Så følger vi bare godt med på
+
+275
+00:48:45,695 --> 00:48:48,896
+gangen. Ja. Takk for i dag.
+

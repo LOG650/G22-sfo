@@ -1,0 +1,1529 @@
+1
+00:00:02,000 --> 00:00:09,530
+[Auto-generated transcript. Edits may have been applied for clarity.]
+På lesning. I logg seks fant de jeg folkens, og jeg som Jan var ingen nydelig la ut på Canvas kunngjøring.
+
+2
+00:00:09,740 --> 00:00:12,620
+Så hadde vi også kunngjøring som ble laget i går.
+
+3
+00:00:12,620 --> 00:00:19,490
+Man nao bare for en arter seg og så la vi ut av ei kunngjøring som var litt mer Margret alliert som jeg Agendaen både i dag
+
+4
+00:00:20,150 --> 00:00:28,729
+og neste gang så må jeg februar og grunne jeg at vi skal sjå litt av den heimigheten i dette er og det vi skal gjøre i dag.
+
+5
+00:00:28,730 --> 00:00:32,330
+Det å snakke litt om initiering gruppa, kontakt med bedrifta,
+
+6
+00:00:32,330 --> 00:00:40,550
+problemstilling og på polsk er å høre kos med går der falt eg fri risten hvis da ikke når den bade jeg også huska det når fristen var.
+
+7
+00:00:43,820 --> 00:00:48,320
+Mine ja, er et jorde i Nigeria og tror det er dine til den neste forelesning.
+
+8
+00:00:48,320 --> 00:00:53,690
+Intr i det og skal gjøre kosen i går dv så vi har ønska fokus på i dag.
+
+9
+00:00:53,690 --> 00:00:59,329
+Ett problemstillinger prosess er altså at vi finne en prosess verken den problemstilling
+
+10
+00:00:59,330 --> 00:01:03,830
+at vi begynte å tatt kontakt med bedrifta at han ting og at v e å at vi asså,
+
+11
+00:01:03,830 --> 00:01:09,080
+klar med prosessen for det ikke meining at dokker ska vite om alle løsningsmetode av oss han
+
+12
+00:01:09,080 --> 00:01:15,350
+deng som vi noe hjelp å skriv i kompendiet som vi skal vise dokker er for noe å en det å møte
+
+13
+00:01:15,350 --> 00:01:19,999
+i og med en Bård inge og alle kira jeg og sikker du kinere ikke heller har kontroll på alle
+
+14
+00:01:20,000 --> 00:01:24,889
+jeg seg med metoder der man vi skal prøve da å finne ei problemstilling er det det vi ser?
+
+15
+00:01:24,890 --> 00:01:26,810
+Er det startet med samme drift av AS henting,
+
+16
+00:01:26,810 --> 00:01:34,280
+og så må vi sjå da kva slags område de e og Kortlags modell vi skal bruke og og seinere da kan at løsninga vi skal bruke.
+
+17
+00:01:34,730 --> 00:01:38,930
+Så vi trenger ikke å kunne alt på rams, sånn som det jeg jeg da.
+
+18
+00:01:38,930 --> 00:01:45,879
+I og ofte når det jeg vanlig tradisjonelle [INAUDIBLE]. E for denne modellen og løsning da komme seinere med.
+
+19
+00:01:45,880 --> 00:01:54,250
+I dag skal vi da gå gjennom kapittel en da ev Og var i et oversikt over annet er nå det sånn at måtte me redde om nok ikke på snora.
+
+20
+00:01:54,250 --> 00:01:57,340
+Alt er jo ikke har alle detaljer klart? Var det jeg som satt fare?
+
+21
+00:01:57,340 --> 00:01:59,139
+Kivi Heller man riktig opp.
+
+22
+00:01:59,140 --> 00:02:07,150
+Bare få en oversikt, sjekk at vi greie og finne ut at det kvart kore både er problemstilling e.m. i ett store logistiske verdensbilde.
+
+23
+00:02:08,350 --> 00:02:16,360
+Så neste gang boringer kan vi fortelle kort ka vi foreslår at det skal gjøre neste gang, altså niende og 11. februar.
+
+24
+00:02:16,630 --> 00:02:21,730
+For da er vi mer konkrete enn når det gjelder dokker. Studenten skal jeg u.
+
+25
+00:02:21,850 --> 00:02:25,419
+Altså, det er dette det.
+
+26
+00:02:25,420 --> 00:02:41,110
+Det kurset vil jo inneholde en hel del arbeid med hjem med både data og ø implementasjon av modella og løsning av dem.
+
+27
+00:02:42,160 --> 00:02:49,780
+Og vi tenkte at i stedet for at vi tenkte at vi kan gjøre det tidlig.
+
+28
+00:02:51,460 --> 00:02:56,260
+En så tidlig som mulig, altså. Februar ni en er lang som blir neste gang.
+
+29
+00:02:56,910 --> 00:03:01,720
+Er fordi at bak ser det ikke på måte kjapt, men gang.
+
+30
+00:03:02,840 --> 00:03:13,309
+Qaede dukker skaffakkisk gjør og levere æ og da blir ikje en fullskala av det menn mennene,
+
+31
+00:03:13,310 --> 00:03:21,980
+men hvertfall nokka toki virkelig seer okke jeg det detta ska i gjøre Ö til syvende sist æ og.
+
+32
+00:03:22,160 --> 00:03:31,310
+Og da blir det en del arbeide som ikkje er så veldig ulikt det vi gjorde i ø IB160 for dem som har hatt det.
+
+33
+00:03:33,200 --> 00:03:49,310
+Det het, nemlig at by må de må. Generere en Peyton kode for å løse og legg last inn datasett og få litt kjørt igjennom heile prosessen.
+
+34
+00:03:50,240 --> 00:03:55,190
+Det blir som et datas sa igjen prosjekter for dem som er kjent med det begrepet
+
+35
+00:03:55,520 --> 00:04:01,700
+bor du rett og slett og er fin løsning på en espesifikk problemstilling.
+
+36
+00:04:03,470 --> 00:04:11,480
+Og dere kommer til å vise heile prosessen fra A til Å, men ikke i sånn full skala som dokker skal gjør.
+
+37
+00:04:11,480 --> 00:04:21,410
+Men jeg er slik at det over to dager da ø på et mindre datasett, men med en enklere løsning, da kan vi si u na som vi går t bruker at både er det n.
+
+38
+00:04:21,410 --> 00:04:30,170
+Onsdagen er et både er mandagen niende og onsdagen 11. februar og året er da Ja, vi trekker av da og da.
+
+39
+00:04:30,200 --> 00:04:37,460
+Da får dokker også rett og slett æ NM uka le en Litt om se migrasjon av helheten
+
+40
+00:04:38,180 --> 00:04:43,579
+av hva man p.g.a bå man skal gjør er litt avhengig av hvor man velger problem,
+
+41
+00:04:43,580 --> 00:04:50,330
+hvilken problemstilling man har, så bygge opp ting, endre dette mulig, mens selve arbeidsmetoden vil være den samme.
+
+42
+00:04:51,050 --> 00:04:58,590
+Så det betyr det at det vi skal gjøre sa er det dagan? Er det det at det e dem som bruk dem som for eksempel Lade tilfeldigvis skal bruke det?
+
+43
+00:04:58,660 --> 00:05:02,150
+Ari Malearium er de maks med en metoden og prosessen,
+
+44
+00:05:02,720 --> 00:05:07,670
+så e i dette her da i miniatyr de jeg s det sto at han faktisk skal gjøre da i det
+
+45
+00:05:07,670 --> 00:05:17,329
+roger jeg har også som som krever av ø av ja selve løsninga eller av feks selve
+
+46
+00:05:17,330 --> 00:05:24,800
+gjennomføring av hva av av prosjektet vil bil vil bli måtte gjort på den måten
+
+47
+00:05:25,190 --> 00:05:30,470
+og og og dette at bygge jo på det vi gjør gå gå gjennom i dag da selvfølgelig.
+
+48
+00:05:34,820 --> 00:05:42,740
+Så jeg tenker å høre litt fra narkosen. Det har vært meg initiering av prosjektor gruppa jeg så kunne gjerne skrive i chatten eller bare ta ordet.
+
+49
+00:05:42,740 --> 00:05:49,910
+Kan ikke velge da og om og om gruppa er om å ikke har det samme formiddag i gruppa det er gruppe og ei gang og
+
+50
+00:05:49,910 --> 00:05:56,330
+åssen det er vart det for en noe meininga med det hvordan folk skal bare komme komme med en på Kolset og ta sjøl
+
+51
+00:05:56,330 --> 00:06:02,989
+kontakt med bedrifta eller gjør det som dem meine er å finne ei problemstilling da som dem syns det interessant og
+
+52
+00:06:02,990 --> 00:06:09,020
+aktuell for dem som dermal liste og da er forfølge og det er det viktigste noe i starten er det riktig å si boll.
+
+53
+00:06:10,250 --> 00:06:18,680
+Jada, så jeg balla litt. Vi var nå inne og så litt damp og suppe laging av og.
+
+54
+00:06:21,510 --> 00:06:29,550
+Du ser du under personer peker hvis du går der da e og persona ved at det trykker du på studentgrupper i midten er.
+
+55
+00:06:33,540 --> 00:06:40,530
+Det har det jo blitt laget en del. Gruppa ala er begreper på langt nær alle hva?
+
+56
+00:06:41,500 --> 00:06:52,000
+Så håper jo det at fleire og fleire bare legg finn der, og her sender det mange som faktisk skriv bare individuell, og det er helt greit det jeg også.
+
+57
+00:06:54,800 --> 00:07:01,250
+Så her er det ideelle studenter. Da sa vi jeg ønsket å lage egruppa her, så tenk litt på det folkens.
+
+58
+00:07:01,250 --> 00:07:09,120
+Dette kan ikke styret sjøl ta kontakt med en annen dokk jeg er. Kan tenke dokker å jobbe med og dansegruppa her inne i Canvas.
+
+59
+00:07:10,490 --> 00:07:17,140
+En, så det kan ikke bare gjøres så fort som mulig. Og de, det kan nok jeg uavhengig av oss på får vi et man.
+
+60
+00:07:17,560 --> 00:07:21,100
+Man det er en veldig bra annen dokke fingret og skjørte ka ditt treng og slik
+
+61
+00:07:21,100 --> 00:07:27,069
+at de slippe å og måtte ting i samme nok en jeg glipp da jeg plater og det.
+
+62
+00:07:27,070 --> 00:07:33,340
+Det ønsker jeg å unngå. Så det er best av det at ikke stirrer. Dette har sølt som som ganske mange av da, og det er gode.
+
+63
+00:07:33,340 --> 00:07:41,770
+Tenk blant er det vi ønsk å. Ha med aberget. Ser at nok ene individual her er vi de ønske at han er fleire i stange det er ser anbefale der,
+
+64
+00:07:41,770 --> 00:07:46,280
+men det opp være en kult det eller stedet vi for mer jeg.
+
+65
+00:07:46,300 --> 00:07:52,690
+Hipp som happ egentlig er menn som det du aleine sånt så må du nå å ta høyde for at det
+
+66
+00:07:52,690 --> 00:07:58,659
+du må gjør heile prosessen aleine og da Men men det jeg tenker at en veldig fin måte
+
+67
+00:07:58,660 --> 00:08:03,729
+som mange av studentane gjort å bare skrive individuell bak hvis dem har tenkt å være
+
+68
+00:08:03,730 --> 00:08:09,850
+aleine da så så og så veit man jo det og da er jo en der jo flere som ikke skriv det,
+
+69
+00:08:09,880 --> 00:08:18,620
+og da går det an å hive seg på. Grupper da du satt der det åpent deg noen eller å invitere til en gruppe latet opp.
+
+70
+00:08:19,100 --> 00:08:25,669
+Så det det pleide det hva som er det åpent for flere lapp så bare å henge seg på alle av der den der
+
+71
+00:08:25,670 --> 00:08:36,290
+den plass der den vil tenke i da er så så så anbefale jo å i allefall gjøre at man har grupper,
+
+72
+00:08:36,290 --> 00:08:39,529
+men vil man gjør det individuelt. Ingen verdensproblemer.
+
+73
+00:08:39,530 --> 00:08:43,249
+Det kan gå veldig fint også, men man må jo påregne.
+
+74
+00:08:43,250 --> 00:08:49,730
+Kanskje det er litt meir jobb da. Men dette ordet når det gjelder proposal er nå okay jeg det skal lastes opp.
+
+75
+00:08:49,760 --> 00:08:54,800
+Han fikk at når det mer farlig eller så er det nok det blir farvet på polsk er det hos nå har få det er på godkjent koden skal det lastes opp.
+
+76
+00:08:55,780 --> 00:08:59,770
+At det blir i gruppeområdet og her så da bare på gruppa.
+
+77
+00:09:00,730 --> 00:09:15,100
+Nei, ikke for ikke der. Det ble jo inne på TIMSS da. Og barenår også nord gruppa an e oppe detta som vi må øve på etter å hatt tidspunkt bare.
+
+78
+00:09:17,120 --> 00:09:23,040
+Vi har ikke kommet fram til nok en enfant strenge. Strenge frister.
+
+79
+00:09:23,040 --> 00:09:29,930
+Nå får de stå gruppa, men det viktig å få dem så fort som mulig på plass slik at.
+
+80
+00:09:31,930 --> 00:09:38,800
+Slik at vi får oppretta gruppa na for det når vi får oppretta gruppa Annedade det der inne man skal levere disse på overdosen nå.
+
+81
+00:09:39,450 --> 00:09:43,840
+Er inne på tidlig sia, er ikkje nok av canvas hvis gjør lånea.
+
+82
+00:09:44,140 --> 00:09:49,630
+Så da ser vi Arna at det eg har i fase en initiering det der vi har er jeg her på laga,
+
+83
+00:09:50,290 --> 00:09:57,790
+og det betyr at hvis PA har godkjent på posegla te før vi starte på fase to, da ser jeg fall.
+
+84
+00:09:57,790 --> 00:10:05,590
+Ble så med e fristen slik at vi ska godkjent på på oss el her før vi da binder på å va silo og det skal være det ved.
+
+85
+00:10:05,830 --> 00:10:11,970
+Leveres i da på bolle. Ser på å få TIMSS og vi opprettet da gruppa i TIMSS.
+
+86
+00:10:12,040 --> 00:10:21,839
+Nå gruppa levd e. Eg e starta det kommer kanskje eg ned Erik også jeg på smegma og opprette gruppa.
+
+87
+00:10:21,840 --> 00:10:23,129
+Sånn inne på tinget gikk han i han.
+
+88
+00:10:23,130 --> 00:10:32,130
+Dere kan ta oss en prat om att det etterpå, og den gruppen som no e etablert da så kan være som starte den då og York snekker.
+
+89
+00:10:32,130 --> 00:10:37,260
+Vi har jo diskutert da om hvorvidt den første fristen er litt både.
+
+90
+00:10:38,830 --> 00:10:45,440
+Ordet kjapp. At man har litt for dårlig tid for å gå inn en godkjent bok og dro.
+
+91
+00:10:45,890 --> 00:10:49,940
+Det veit vi ikkje, så det hadde vært fint at Botten likte bakemelding.
+
+92
+00:10:50,510 --> 00:10:58,880
+Og om dokker føler at vi trenge ei uke ekstra, for eksempel for å få i gang gå på do æ en på på som e ikkje.
+
+93
+00:11:00,800 --> 00:11:08,930
+Hvis e e ikke i det samme spor med proposal IB160 som var veldig dumt, stor og og ja,
+
+94
+00:11:08,930 --> 00:11:15,830
+omfattende er på posen her jeg rett og slett Hva skal prosjektet handle om da æ og.
+
+95
+00:11:17,790 --> 00:11:27,310
+Og og, og om man av mor måtte fått denne bedrift for eksempel på å lage og å og har en problemstilling eller et område da?
+
+96
+00:11:27,630 --> 00:11:31,200
+Tja, i det minste hvor man, hvor man har lyst og å jobbe med,
+
+97
+00:11:31,980 --> 00:11:36,870
+samt For det er det utrolig viktig å få ei problemstilling så du kan begynne å
+
+98
+00:11:36,870 --> 00:11:44,660
+zoome inn på slik at det slik at man kan begynne å planlegge da i fase to er,
+
+99
+00:11:44,760 --> 00:11:56,790
+men ikkje heilt så heilt sikre ende på om det e for kort tid eller ikkje om og man treng litt meir tid på å få i gang Boro for å få på plass på porno.
+
+100
+00:11:57,810 --> 00:12:02,580
+Det hadde vært fint å fått litt tilbake melding på dekking.
+
+101
+00:12:05,230 --> 00:12:06,940
+Ja, så du ikke ikke hører van da.
+
+102
+00:12:06,940 --> 00:12:13,480
+Så går ut i fra at det folk skal bli ferdig meter på åser før neste gang da nine februar og så gir det ham gjerne lyd.
+
+103
+00:12:15,320 --> 00:12:20,809
+Føre. Før den tid er sommer blant et lenge utgitt måser.
+
+104
+00:12:20,810 --> 00:12:26,510
+Det har da at jeg holder nok. Vil du se dem kjøre Sollia området to, tre, fire, fem, sju, åtte, sju,
+
+105
+00:12:26,510 --> 00:12:34,069
+åtte og elleve synes passer best for meg så ville jeg hatt dialog med den bedrifter for å høre om de har en reell problemstilling.
+
+106
+00:12:34,070 --> 00:12:36,320
+Er det på det stedet forbedringsområder de vil se på da?
+
+107
+00:12:36,680 --> 00:12:40,489
+Og det er bra at det tatt kontrakt, men riktig for dem kan det ofte være seinast bare sånn teit.
+
+108
+00:12:40,490 --> 00:12:46,879
+Så det måneder var litt endel purring, så bruke noe januar på dette her før vi møtes igjen ni Mer.
+
+109
+00:12:46,880 --> 00:12:59,810
+Februar f også var billig bare dem og peker nok en gang at viss dåkker har behov for å komme i kontakt med noen
+
+110
+00:12:59,880 --> 00:13:07,340
+eller få noen telefonnummer og sånn ting som man kan høre om å få hjelp Ø for å få kontakt med blir å bare si ifra.
+
+111
+00:13:07,730 --> 00:13:20,270
+På BI BI har vi en del bedrifter som vi har kontaktflate i mot som eda i utgangspunktet positive da til å bidra her så men i å
+
+112
+00:13:20,270 --> 00:13:29,960
+know vi kan love men men at vi kan skape kontaktflate av mot store bedrifter som har en del jeg deler heisted så si i fra da.
+
+113
+00:13:30,560 --> 00:13:35,180
+Er lure på om vi skal prøve å få lagt deg litt av liste i bare BK en.
+
+114
+00:13:35,990 --> 00:13:45,889
+Det kunne vært en ting bare som slår meg, slo meg her og nå. Av bedrifter som vi har der, og som vi vært kontakt med som blant og til Brunvoll.
+
+115
+00:13:45,890 --> 00:13:53,180
+Noe jeg først og fremt det ikke andre. Det ville jeg det den gruppa der da vet du peker som i tenkt på dem at det Vi kan
+
+116
+00:13:53,180 --> 00:14:00,350
+bare få inne noen kontaktnummer der som folk kan kontakte for å høre om det.
+
+117
+00:14:00,350 --> 00:14:03,950
+Nokka interessant man kan jobbe med og få litt bistand da.
+
+118
+00:14:04,670 --> 00:14:09,530
+Som regel så er vi Dette er jo og hva man vanligvis gjør i en bacheloroppgave da,
+
+119
+00:14:09,980 --> 00:14:16,370
+hvor bare hvor student kan spørre littegrann rundt omkring for å få en på å få en problemstilling.
+
+120
+00:14:16,370 --> 00:14:21,859
+Og det gjør dere. Og det gjøres jo gjerne i den perioden her da det er subjekt i Opus.
+
+121
+00:14:21,860 --> 00:14:28,010
+Om disse så veldig ulikt case foregår en bacheloroppgave egentlig er og vi har jo noen.
+
+122
+00:14:28,220 --> 00:14:35,540
+Vi har jo 118 ti bedrifter da, som vi kjenner godt som om vi kan videreformidle etter og glad.
+
+123
+00:14:35,540 --> 00:14:42,859
+Tenkte kanskje i stedet for å at dem kan ta kontakt med oss begge, og så kan vi eller kanskje legge deg liste da det det der hadde vært bra,
+
+124
+00:14:42,860 --> 00:14:46,790
+kanskje med kan vi gå elever opp og da er du har veldig masse spennende oppgaver,
+
+125
+00:14:47,660 --> 00:14:55,730
+er lang og kan være legge ut mister er nå oss er jeg er som arne erik gaup også virke på det å stå en.
+
+126
+00:14:57,000 --> 00:15:00,090
+Bjerke. Så skal jeg også si Herre, at du kan prøve å opprette gruppa.
+
+127
+00:15:00,090 --> 00:15:08,060
+Været skal jeg prøve å jobbe med. Jeg har fått gjort det, og det blir i og litt sånn som vi har sagt da at b en ønske å.
+
+128
+00:15:10,690 --> 00:15:16,060
+Ønsker å hale i ting strømforhold i Bare finn ut her for hva de hadde en av skal slå.
+
+129
+00:15:20,250 --> 00:15:25,260
+Dere må tenke hvordan. A.
+
+130
+00:15:34,380 --> 00:15:41,100
+Og øst. Det står det stille for meg der i har det når jeg Android kompaniet rå noen jeg kjørt fint og jeg hadde en enn står det ille
+
+131
+00:15:41,100 --> 00:15:48,749
+bare man er de laget han i mappa la inne på timss der hvis på annen enn jeg dere kan legge opp maleren død mannen og det
+
+132
+00:15:48,750 --> 00:15:56,549
+er vi kan legge opp også er der du ø være for laste opp av holstein og og altfor du var på TIMSS og det skal vi prøve å
+
+133
+00:15:56,550 --> 00:16:03,330
+legge inn i l om til den mannen som vi nevnte det vi tidligere nå jeg skal John jeg egentlig også lurte av så også fort,
+
+134
+00:16:03,330 --> 00:16:08,490
+så mulighet er fall på dem vi panzer med som i opprett av det kan Jan erik solli fram på hva det på etterpå.
+
+135
+00:16:10,780 --> 00:16:17,439
+Jeg har et spørsmål jeg lyst å svare på her. Prahavaria eller Move eller Ask ut i Move?
+
+136
+00:16:17,440 --> 00:16:22,960
+Du skriver at jeg har ikke tatt kontakt, venter på maler og filer som skulle komme i gruppen som skal opprettes.
+
+137
+00:16:23,470 --> 00:16:32,230
+Da håper jeg det klang og kan lage denne å legge til. Så der vil jeg bare påpeke kjapt og at ikke vent gå ta kontakt med bedrifter.
+
+138
+00:16:32,680 --> 00:16:38,350
+Det kan nok gjør uansett så huset nå fø.
+
+139
+00:16:38,470 --> 00:16:41,770
+Lenge før vi har fått oppretta gruppa Na æ så.
+
+140
+00:16:42,070 --> 00:16:49,780
+Men vi kan jo allerede nå begynne å opprette de gruppa som vi veit det individuelle BK og jeg Erik,
+
+141
+00:16:49,780 --> 00:17:02,019
+så det kommer når gjør æ men at ikke bent må unn ta kontakt med bedrifter eller eller med oss da forsåvidt for og for å komme
+
+142
+00:17:02,020 --> 00:17:12,129
+ut for å havne komme i gang med en problemstilling for den del det som sagt det fristen er jeg er det nå i uke 1919 dager,
+
+143
+00:17:12,130 --> 00:17:16,930
+noe langtids ant sånn at det er relativt kort frist, så kanskje vi skal utsette ei uke på dem.
+
+144
+00:17:17,350 --> 00:17:25,360
+Er på sjølve fristen RBK, men at det men at bare bindene og og tenk på problemstilling og hvor man byttet område og
+
+145
+00:17:25,360 --> 00:17:29,920
+og kanskje høre med noen bedrifter man kjenne til da hvis ikke så bruk bare linka da.
+
+146
+00:17:32,830 --> 00:17:37,450
+Så har jeg mål med skal legge ut da a jean egenskaper borte dd han hørt mal og
+
+147
+00:17:37,450 --> 00:17:42,370
+det også n jeg relatert mal var langsom brukere nrkbeta bruker latex forresten,
+
+148
+00:17:42,370 --> 00:17:47,160
+bare si gjerne ja om rock garage meg tror han fleste bruker hverdags også det jeg.
+
+149
+00:17:47,170 --> 00:17:53,000
+Greit nok. Veidekke skulle også vise der det var følgende Sp hadde.
+
+150
+00:17:56,940 --> 00:18:05,040
+Bra, men jeg nok en som. Fra og.
+
+151
+00:18:07,720 --> 00:18:15,430
+Da kan Ser du at vi skal lage da i TIMSS så kommer vi til å lage en som nevnt før, så om det er litt inspirasjon beviser.
+
+152
+00:18:18,400 --> 00:18:22,750
+Sånn sånn sånn. Så lager vi det ene.
+
+153
+00:18:22,760 --> 00:18:26,110
+Her har vi det mala, og så er det vel litt informasjon.
+
+154
+00:18:26,380 --> 00:18:29,950
+Her er det viktig vi har nok å møte at man tek sokken har møtereferat.
+
+155
+00:18:29,960 --> 00:18:38,350
+Referansa er bra å samle data og her er rapporten og det så her er da mappestruktur så det er lik i
+
+156
+00:18:38,350 --> 00:18:45,280
+TIMSS og det skal henge i og med ICC og prøve å oppretta og det er opprette blir det for dem tima.
+
+157
+00:18:45,550 --> 00:18:50,050
+Så om en e vi har i dag er inne på.
+
+158
+00:18:52,250 --> 00:18:57,860
+Da jeg så jeg så langt vekk at det viktig da at den personals som ikke er bundet jeg gruppe finner jeg finnes ei
+
+159
+00:18:57,860 --> 00:19:05,360
+gruppe slik at jeg får opprette oppløftende e fortløpende og da ser det ikke da da bruker vi dem navna som står her,
+
+160
+00:19:05,840 --> 00:19:07,819
+så er jeg. Dåkker må da velge et navn.
+
+161
+00:19:07,820 --> 00:19:15,590
+Så det å gjøre et og bli kjent og renske det og seg og og det fornuftig her i det er SAFO serie A og jeg er så visstnok jeg det vil.
+
+162
+00:19:15,590 --> 00:19:20,300
+Ha og da navna så er jeg greit jeg. Jeg må da lage i tilsvarende navna i en.
+
+163
+00:19:22,910 --> 00:19:29,850
+TIMSS og Jan Erik Skara skal fikse. Antall stopp i kjøp.
+
+164
+00:19:29,850 --> 00:19:35,249
+Vent med å ta kontakt med berykta er for det en stor prosess som er purring og sånn ting,
+
+165
+00:19:35,250 --> 00:19:42,540
+og det ese så mange av dem igjen jeg før jeg visste fristen depre Bolsø så øder må vi bare ei gi gass.
+
+166
+00:19:44,660 --> 00:19:52,910
+Greit, skal vi da gå videre i agendaen? Det er å bidra på agendaen i Eda,
+
+167
+00:19:52,920 --> 00:20:02,520
+bare at vi går gjennom Litterann kapittel en her og i å bringe Vi held på å skrive en e kompendier for harde
+
+168
+00:20:02,520 --> 00:20:10,290
+livet og ved så langt vi har e punkt er kommet nå som er bare gått gjennom litt i dag og vi jobber med det også.
+
+169
+00:20:10,290 --> 00:20:16,290
+I går ver så sist kompilering. Satt og ba i går, og jeg har lyst å bare vise dokker da e.
+
+170
+00:20:16,290 --> 00:20:20,429
+Sitter her og også skriver litte grann om i forhold til den pdf versjon doc jeg gjort,
+
+171
+00:20:20,430 --> 00:20:27,810
+men ikke så dramatisk bare det dette er jeg da det viktige på enga at vi har dan begrepet at område problemstilling,
+
+172
+00:20:28,230 --> 00:20:37,410
+modell, prosess og metoder kan alle bi slår sammen mest av der for det er prosessen med to da henger ganske tett sammen så da hangler slår som en dam.
+
+173
+00:20:37,950 --> 00:20:48,120
+Er man dokker trenger Kieh å holde det tall ja på er prosessor med to da asså som har sagt før det om en boringer og heldig Kira om en ger.
+
+174
+00:20:48,120 --> 00:20:54,240
+Men Bård Inge har jo kontroll på alle metoder, men det jeg og det trenger ikke heller og det det ikke det som en meining om et mer et da.
+
+175
+00:20:56,200 --> 00:21:02,499
+Hver farge han får hva vi skal greie å gjennomføre på et prosjekt, sjøl om vi ikkje kjem med det.
+
+176
+00:21:02,500 --> 00:21:07,090
+Alle detaljer. Hvor jeg er i kan det heller ikkje. Man vinner, da gjør det er spill, gaver,
+
+177
+00:21:07,090 --> 00:21:12,040
+lån og de viktigste noe eg fått problemstillinga å finne E11 problemstilling og
+
+178
+00:21:12,040 --> 00:21:16,870
+så skal vi finne det alle område opphave må settes oss inn i litt mere detalj,
+
+179
+00:21:17,020 --> 00:21:25,719
+og da må vi gå. Vi går vi spesifikt inn på en n modell og deretter prosess og metode jeg og da går vi.
+
+180
+00:21:25,720 --> 00:21:31,660
+Mai I det tallet mante jeg litt lenger frem i tid er å Vi må håpe at opp disse blir stressa av at du blir i sjikanen.
+
+181
+00:21:31,660 --> 00:21:35,680
+Alle ved to. Dan får jeg som sagt det gjør ikke jeg undertegnede helg.
+
+182
+00:21:38,330 --> 00:21:46,280
+Og så kommer det te, og da er det i dag å sjå på det med etterspørselsgrunnen no seg Litt usikker på hvordan Get ser alt dette her.
+
+183
+00:21:46,280 --> 00:21:50,870
+SIS aksjon i kanskje kan man godt minne om dere b.
+
+184
+00:21:51,620 --> 00:21:57,259
+Vi er bare ferdig med kapitlet enn så langt ved eller vi e ved Harvard D med.
+
+185
+00:21:57,260 --> 00:22:00,830
+Det er for vi ikke helt fornøyd, men vi kan prøve å forbedre den og vi har gjort det.
+
+186
+00:22:01,130 --> 00:22:07,459
+Så skal vi prøve og generere han andre og vi skal prøve å gi dokker er Telia fil og det jeg ble spurt om i løpet
+
+187
+00:22:07,460 --> 00:22:14,780
+av uka stalker få å la heile kapittel en og også dele den inkludert oss og del en for jeg vil justere den.
+
+188
+00:22:14,780 --> 00:22:20,030
+Pittelitt ram man ikke så veldig mye og jeg får kan prøve å få en med gratis pdf versjon i løpet av uka.
+
+189
+00:22:20,510 --> 00:22:24,549
+Det som er utfordringa. Med å gi en gratis PDF versjon.
+
+190
+00:22:24,550 --> 00:22:30,160
+Det heile compagnie er at det ville ødelegge på måte får oss da i mange år framover
+
+191
+00:22:30,460 --> 00:22:34,660
+og det jeg store utfordring i det hardcore college arbeid skolemåltid som
+
+192
+00:22:34,660 --> 00:22:38,739
+har vært det er litt det slette en bor slette slepper må gjort det som jeg
+
+193
+00:22:38,740 --> 00:22:42,730
+gjort at man har ødelagt litt på passord sjøl da i en del år framover er man.
+
+194
+00:22:42,790 --> 00:22:50,770
+Vi skal prøve å gi doc jeg har fall en pdf fem jeg gratis det alle sammen i kapitel igjen, slik at dokker får en idé om kasoom med et poeng.
+
+195
+00:22:51,040 --> 00:22:54,430
+Det skal vi prøve oss opp godt vi kan ikke ta han bort. Absolutt.
+
+196
+00:22:56,750 --> 00:23:01,040
+Så da se det har og område og etterspørselprognoser.
+
+197
+00:23:01,490 --> 00:23:04,700
+Så skal vi bare sjå på nokon eksempel.
+
+198
+00:23:05,910 --> 00:23:09,030
+Så er det dette området som Eda fra UDI har.
+
+199
+00:23:09,030 --> 00:23:18,540
+15 er konkrete eksempel under at et børsens blod fra Nosa med øyne etter annen og sesong det andre eksterne faktura med Campania.
+
+200
+00:23:19,730 --> 00:23:25,910
+Og Eksempel tre Dieder etterspørselsprognoser med mange variabler, altså det fra maskinlæring.
+
+201
+00:23:28,110 --> 00:23:33,810
+Og så er det eksempel fire Og det skriver kokk Bakar for det at det du ser at allerede no
+
+202
+00:23:34,200 --> 00:23:39,210
+syntes jeg det har seg hundre varme i Venezia og sa jeg vi bare ett av elleve kapittel,
+
+203
+00:23:39,750 --> 00:23:43,020
+så vi ser at eksploderer på en måte som vi må prøve å begrense oss om.
+
+204
+00:23:43,020 --> 00:23:50,990
+Kan hende at den andre blir litt kortere. D d få b så man e der og da for seg er det bare kort det det.
+
+205
+00:23:51,010 --> 00:23:56,760
+Eksempel fire om intermitterende etterspørsel og så etterspørsel nær det jeg i perioder kanskje
+
+206
+00:23:56,760 --> 00:24:02,670
+evt null er også gå også bli det bare etterspørsel i andre periode an så det var lev varierende.
+
+207
+00:24:03,030 --> 00:24:07,590
+Og så til slutt da og om om litt om komplekse sekvenser som også skal vare i korta.
+
+208
+00:24:08,370 --> 00:24:21,550
+Og da ser dokker at alle. Eksempler har samme oppbygging som det vi så som vi nevnte da i del en, nemlig i starte når så bare problemstilling.
+
+209
+00:24:22,680 --> 00:24:29,829
+Og det da er dåkker enorme det da også en. Også at det ble når det vare konkret problemstilling.
+
+210
+00:24:29,830 --> 00:24:31,450
+Da må vi begynne å leite etter kosen,
+
+211
+00:24:31,450 --> 00:24:42,130
+og der er det vi kan bruke en matematisk modell vi kan bruke for å beskrive og den problemstillinga vi har konkretisert i en.
+
+212
+00:24:43,520 --> 00:24:46,129
+Og. Og det er sant det her er det som foregår.
+
+213
+00:24:46,130 --> 00:24:54,020
+Det an egentlig, både i januar og februar er igjen en oase av i meg ned, da problemstillinga er det aller meste av det vi skal holde på med i fase en.
+
+214
+00:24:55,320 --> 00:25:00,270
+Og om modeller og løsning hadde Jeg kommer litt seinere for her da kommer med to dobbelt sett
+
+215
+00:25:00,280 --> 00:25:05,819
+som du ser at vi har nok slått litt sammen o det for da at han ble ganske lik og han høres.
+
+216
+00:25:05,820 --> 00:25:12,510
+Tok ett skritt av samme natt for unngå er repetisjonen av av tema så slo vi dem sammen.
+
+217
+00:25:13,260 --> 00:25:19,049
+Og så er det å bære den litt som er detaljert under området.
+
+218
+00:25:19,050 --> 00:25:22,620
+Det er et spesifikt område på etterspørselsbro måte som dreier som klærne og sesong.
+
+219
+00:25:22,950 --> 00:25:27,480
+Så har vi. Her er et konkret eksempel da om salgs prognoser for en kleskjeder.
+
+220
+00:25:27,660 --> 00:25:34,020
+Så her i Vila Mask er konkret, og så får vi sjå da om vi har det En oppsummering av er det vi litt usikker på,
+
+221
+00:25:34,020 --> 00:25:38,730
+for vi må prøve å spare vi alle når det blir så mange, så det får vi sjå kaka det gjør.
+
+222
+00:25:41,390 --> 00:25:47,160
+Så la oss det er bare å starte. Med etterspørsel prognose.
+
+223
+00:25:50,700 --> 00:25:54,870
+Der nå i boområde del to. Og da en.
+
+224
+00:25:57,190 --> 00:26:03,660
+Jeg starte med på detta, så området da. Repeterer ved det vi sa i innledning av at det er etterspørsel etter goose.
+
+225
+00:26:03,670 --> 00:26:13,870
+Det er prosessen med å estimere fremtidig etterspørsel på sted på historiske data, det som drar variasjonene og eksterne faktura.
+
+226
+00:26:15,620 --> 00:26:25,040
+Så det vi kan da dele inne i. Er det en øy den forskjellige tidshorisont an som vi må prøve å kartlegge.
+
+227
+00:26:25,520 --> 00:26:29,150
+Altså, de kan være kortsiktige på dag og ukenivå.
+
+228
+00:26:30,640 --> 00:26:36,820
+Det kan være om mellom lange perioder, som da A-K passerer sorten Mona og så får produksjonsplanlegging og innkjøp.
+
+229
+00:26:38,200 --> 00:26:44,590
+Og det kan være langsiktige prognoser. Og da snakker vi år. Stedet har fått kapasitetsinvesteringer og strategisk planlegging.
+
+230
+00:26:44,860 --> 00:26:50,080
+Og vi ser at det i hvertfall tidlig i er forskjellige tidshorisont Da vi kan
+
+231
+00:26:50,320 --> 00:26:56,080
+diskutere er å o Da må vi han å være problemstilling og visste jeg har jeg
+
+232
+00:26:56,080 --> 00:26:59,620
+etterspørselsprognoser da som i det området som at du er fra problemstilling
+
+233
+00:26:59,620 --> 00:27:03,490
+av år så må vi også i neste omgang nå prøve å finne ut den tidshorisonten.
+
+234
+00:27:08,770 --> 00:27:14,820
+Så ede da. Prognose. Da er det å input til flere områder som behandles i takt med kapitlet.
+
+235
+00:27:14,830 --> 00:27:16,659
+Også her er bare eksempel på det.
+
+236
+00:27:16,660 --> 00:27:23,500
+Da er jeg slik at det det kan være da etterspørsel prognoser i forbindelse med for eksempel lagerstyring da prognose.
+
+237
+00:27:23,500 --> 00:27:30,040
+Han bestemmer hvor mye som må bestilles. Det det veldig klassiske eksemplet er Dette er nå slik at vi skal folk forstå.
+
+238
+00:27:31,130 --> 00:27:34,940
+Rammebetingelsene og strukturen og det teoretiske skjelettet.
+
+239
+00:27:35,000 --> 00:27:40,820
+Og så får vi sjå på vi. E e n i vårt konkrete problemstilling.
+
+240
+00:27:41,180 --> 00:27:47,150
+Det kan være i forbindelse produksjonsplanlegging at det prognosert styre da produksjonsvolumet.
+
+241
+00:27:48,770 --> 00:27:54,710
+Det kan være innen kapasitet av bra planlegging at prognose han dimensjonere da ressursbehovet.
+
+242
+00:27:56,180 --> 00:28:01,880
+Det kan for eksempel være det er menn på mye ressurser av både mennesker og maskiner,
+
+243
+00:28:02,690 --> 00:28:08,480
+og det kan være i forbindelse med innkjøp at prognose han av påvirke er leverandør av tala og bestillingene.
+
+244
+00:28:09,870 --> 00:28:13,230
+Men jeg kan også skyte i Naper. Dette er jo sånn typiske.
+
+245
+00:28:14,340 --> 00:28:17,790
+Er typiske logistikk.
+
+246
+00:28:18,960 --> 00:28:24,630
+Prognose AM og at det finnes mange forskjellige.
+
+247
+00:28:25,880 --> 00:28:32,750
+Typen bror dro seg inn det å men det også fult mulig å se på litt mer sånn innen økonomi da,
+
+248
+00:28:32,750 --> 00:28:40,190
+for eksempel sånn som pris da æ pris er leid bol eller uten tilbud.
+
+249
+00:28:40,190 --> 00:28:47,209
+For eksempel at det hadde kilnøtt å være etterspørsels prognosert til mer tid.
+
+250
+00:28:47,210 --> 00:28:51,260
+Det kan også være pris, for eksempel et veldig aktuelt e i mange bransjer.
+
+251
+00:28:52,220 --> 00:28:59,660
+Så hvis så er bare slik at det betyr med veksten de låst mot er mot logistikk.
+
+252
+00:29:00,020 --> 00:29:07,050
+Økonomi går også fint. Æ. Men helst være innen de områdene du.
+
+253
+00:29:08,120 --> 00:29:15,469
+Da helt inne logistikken. Så problemstilling det og det og da er vi e per dags dato og det der.
+
+254
+00:29:15,470 --> 00:29:22,310
+Vi har fokuset vårt nå i januar og i februar. Og her ser dokker enn jeg er.
+
+255
+00:29:22,340 --> 00:29:25,100
+Jeg syns når vi var en god tabell som IT som gir en oversikt,
+
+256
+00:29:25,400 --> 00:29:34,040
+og det har jeg da i forbindelse med etterspørsel prognoser og da ser vi vi ser på nå fem konkrete eksempel Ja,
+
+257
+00:29:34,040 --> 00:29:40,670
+det e fleire, men vi må prøve å begrense oss. Vi ser på etterspørselsprognoser som reise omtrent på sesong.
+
+258
+00:29:41,210 --> 00:29:49,550
+Vi ser på etterspørselsprognose at å dreie seg om eksterne faktura, og dessa fire underordna den der mange variabler, altså av.
+
+259
+00:29:52,370 --> 00:29:58,850
+Maskinlæring, intermitterende etterspørsel og komplekse og grenseesekvenser.
+
+260
+00:29:59,150 --> 00:30:04,910
+Og da ser vi at her har vi gale han tilhørende potensiell mot alderen som er mest vanlig.
+
+261
+00:30:06,080 --> 00:30:13,700
+I dem forskjellige problemstillinger. Så i felles med tre andre sesongbereder vi bruker DAE1 jeg as som jeg da skal
+
+262
+00:30:13,700 --> 00:30:17,569
+komme tilbake tre kanskje nok en og Piranha hørt om Holdt mynter som en variant.
+
+263
+00:30:17,570 --> 00:30:22,610
+Se under GTS og jeg Arima bare å assa de ma eller jeg.
+
+264
+00:30:22,610 --> 00:30:27,829
+De er faktiske ting. De skal vær så på da, og det var kanskje det du kom da å fokusere på og mye nå er lettere.
+
+265
+00:30:27,830 --> 00:30:32,530
+Blood Hardball er den metoden her, og er det riktig under stemmer det da?
+
+266
+00:30:33,360 --> 00:30:40,370
+La oss nå eller dere må være der nå og har så godt navn med to danna år og og og løs
+
+267
+00:30:40,370 --> 00:30:44,630
+rand og rett at innfallet drar seg og fleire maned blenderen eller boks senkes.
+
+268
+00:30:45,890 --> 00:30:48,920
+Eksponensiell utjevning når det oftest over tid ikke på kraft.
+
+269
+00:30:48,930 --> 00:30:55,249
+Lurer på om dette er en gang, og de hadde ikke gi henne før inntil nylig og for mye av det, og det går helt fint, så sånn sett.
+
+270
+00:30:55,250 --> 00:30:57,830
+Så jeg la for lit og delvis også en borring i da,
+
+271
+00:30:58,220 --> 00:31:04,010
+og det vart for liå også helt sikkert en Erik i samme båt er man vi si at vi må lære slitte etterkvart,
+
+272
+00:31:04,640 --> 00:31:14,670
+og det hereda det som med bar Inge staten skulle gjør. Da ser at vi bruker den metoden og implementasjonen av Bock Bock Jenkins prosessen.
+
+273
+00:31:15,180 --> 00:31:18,720
+Så da ser dokker kor vi går. Vi går vi landa han her.
+
+274
+00:31:19,470 --> 00:31:28,050
+Og da ser du her nå at også vil jeg en problemstilling som har hvilke modeller og hvilke med metoder.
+
+275
+00:31:28,560 --> 00:31:35,580
+Og dette her, Da skal vi da gå igjennom da? NN får man i sitt avfall den tabellen her i en god oversikt over dem fem området.
+
+276
+00:31:35,580 --> 00:31:44,400
+Han som vi har valgt å sjå på i det kompendiet er og og dette av bøker er jo ganske viktig han da banner sjøl, men blei litt dum.
+
+277
+00:31:45,120 --> 00:31:49,650
+Beina over er for det at innen hvert område da.
+
+278
+00:31:51,400 --> 00:31:56,080
+Tomt, så ede en rekke problemstillinger med varianter.
+
+279
+00:31:56,260 --> 00:32:04,329
+Sånt er og. Og det vil jo være typisk. Så her søker det at vi har på måte fokus på problemstillinga.
+
+280
+00:32:04,330 --> 00:32:12,760
+Vi starter med den som er å og å og ser det at vi har fem forskjellige problemstillinger,
+
+281
+00:32:12,760 --> 00:32:19,540
+litt avhengig av hvilken situasjon bedriftene i Da og og hva slags problemstilling dæm
+
+282
+00:32:19,540 --> 00:32:27,159
+egentlig har sånt Æ og Og sånn vil vi bygge oppe alle kapitler om det er at vi tar et område,
+
+283
+00:32:27,160 --> 00:32:32,739
+stykker det ned i noen kjente vanlige, ofte forekommende problemstillinga.
+
+284
+00:32:32,740 --> 00:32:39,370
+Sånn som dette her jeg 20. sesong eksterne faktorer Campania er mange forklaringsvariabler
+
+285
+00:32:39,370 --> 00:32:50,650
+av litt spesiell etterspørsel er og og om og om omfattende omfattende data datamodeller og.
+
+286
+00:32:53,290 --> 00:33:03,070
+Men vi har på ingen måte dekt alt sånt, og ofte ser jo virkeligheten meir komplisert enn teorien, samt æ er.
+
+287
+00:33:03,240 --> 00:33:06,520
+Så så dette her jo et utgangspunkt.
+
+288
+00:33:06,520 --> 00:33:12,310
+En flaksup med et skjelett å henge, heng og henge det på.
+
+289
+00:33:12,880 --> 00:33:24,200
+Sju som er som for at man kan. Å måtte beint stående slik at du får en problemstilling innen et område når du høre at de har dem å slit med
+
+290
+00:33:24,200 --> 00:33:32,300
+det å det å kaija og kai å her har dem eksterne faktorer og da kan du kommer til zoome de inn på rette.
+
+291
+00:33:32,660 --> 00:33:43,190
+Problemstilling Korrekte modeller og metoder slik at du få på måte blir guida e inn i den problemstillinga og metodikken du skal bruke da.
+
+292
+00:33:45,470 --> 00:33:56,030
+Vi kommer til å lage en front av banen som løper her for hvert av land elleve kapitler, og da har vi oversikten og og så går vi litt i ski dybden.
+
+293
+00:33:56,120 --> 00:34:01,939
+Men vi gir opp jo bare en oversikt over. Jeg er litt mer om modeller og og litt om metoo.
+
+294
+00:34:01,940 --> 00:34:06,080
+Da man så satt endel av egenskapene du ville at du skal få.
+
+295
+00:34:06,500 --> 00:34:12,680
+Ja, tok jeg ikke. Blir stressa av at å kutte i at vi går eller kan noe på litt ukjent farvann for dette har jeg hørt den gikk på med å gi.
+
+296
+00:34:12,680 --> 00:34:19,339
+Jeg står som offisiell faglærer og og i Kan ikke alt dette her i detalj at det om en båringe som er vel den med håndball eller ikke.
+
+297
+00:34:19,340 --> 00:34:28,639
+Det man vil lika var da greie å jobbe så systematisk og vitenskapelig at vi greide å lande på fester han liker vært og poenget her at vi
+
+298
+00:34:28,640 --> 00:34:36,470
+greier å gjøre det og bruke alla som står gjorde mykje av den grove tekniske i og bena implementering av programmering og sånn ting,
+
+299
+00:34:36,770 --> 00:34:43,579
+og særlig dokker som har hatt det 1IB160 veit litt Margot med fungere, men oppstarter der med.
+
+300
+00:34:43,580 --> 00:34:48,620
+Med AS Korg er GitHub en kobling mot klart golv.
+
+301
+00:34:48,860 --> 00:34:59,690
+Det fant eg ville og bi å bringe hjelpe dokke med. Så rar ser vi da at det går igjen noe med ideen om eksemplet her.
+
+302
+00:34:59,900 --> 00:35:06,049
+Så i Start med det første eksemplet som e tren da Susan var får vi være konkret Hvordan
+
+303
+00:35:06,050 --> 00:35:11,030
+predikere salget de neste månedene når historikken viser klare mønstre det på,
+
+304
+00:35:11,030 --> 00:35:19,730
+Måtte det liksom hele problemstillinga. Og skal vi nå gå enda mer konkrete være satte på meg en klesbutikk, blar vi veldig konkret ned på grasrotnivå.
+
+305
+00:35:20,300 --> 00:35:24,440
+Mange litt mer overordna i starten før vi konkrete igang konkretisere oss.
+
+306
+00:35:26,050 --> 00:35:32,379
+Og. Og da ser vi her at det en trend har provosert det.
+
+307
+00:35:32,380 --> 00:35:40,360
+Ett tell og prognosa ved ett typisk aktuelt nord stasjonert er litt regn opp nr denne prognoser.
+
+308
+00:35:40,390 --> 00:35:45,280
+Det er typisk aktuelt når du minimum har to tre hyppige år med historikk og kurssted.
+
+309
+00:35:45,370 --> 00:35:49,029
+Konsistente data for at vi i møye har fallha enn det som vi må.
+
+310
+00:35:49,030 --> 00:35:57,160
+Ha et tidsperspektiv på det her. Og det er typisk at salget viser gjentakende mønster, for eksempel at det ukentlig, månedlig eller årlig.
+
+311
+00:35:57,340 --> 00:36:05,740
+Det kan arte eksempel være at en del i bus av ved juletrær når det er rundt juletreet og 1EI el i desember og litt mindre da en juni.
+
+312
+00:36:06,550 --> 00:36:12,700
+Det finnes underliggende trend da den også for såpass som vekst eller nedgang, og det kan være er.
+
+313
+00:36:13,730 --> 00:36:23,540
+Av geopolitiske grunner som gjør at du kan få en generell nedgang i heile bransjen, og det kommer xDisterne faktorer som pris og Campania,
+
+314
+00:36:23,690 --> 00:36:31,040
+og at det ikkje dominerer bildet for det at det den store trend dag å se sommaren i ser på.
+
+315
+00:36:31,280 --> 00:36:35,780
+Og ikke nok bare i esker til å seg tilfeldige kampanjer som gjør til få et lite rått det kan godt.
+
+316
+00:36:35,790 --> 00:36:42,410
+Denne hvite vare holdningskampanje er jo ikke så klart at det vil nok påvirke salget, men den store trenden på sesongen, det e.
+
+317
+00:36:42,890 --> 00:36:54,040
+Uavhengig av om Duni har da det kampanje. Det. Så har vi hagen typiske spørsmåla og nytteverdi, ja, så vi kan sjå på i DNS sammenheng her.
+
+318
+00:36:54,610 --> 00:37:07,620
+Men jeg har lyst at vi fram siste minutt av føde timen er ferdig, at vi starter å se litt Ramm og på modeller, og det er fleire modeller vi har og en.
+
+319
+00:37:09,150 --> 00:37:12,750
+Eriksen bar en slående omega i å få opp den. Her er bare holdninger.
+
+320
+00:37:12,750 --> 00:37:15,990
+I to sekund skal vi ta og ta noe opp her.
+
+321
+00:37:17,370 --> 00:37:25,530
+A vi vil atskilt og er en egen mente at bærene som vi hadde i stad den vi liba opp slik at i hagen ved siden av oss.
+
+322
+00:37:27,460 --> 00:37:34,140
+Er der Van Zandt sånn sånn. S.
+
+323
+00:37:34,470 --> 00:37:38,220
+Så nå Evie altså her. E.
+
+324
+00:37:38,290 --> 00:37:53,940
+Vi er her og nå ser vi litt på hva modell. Så da ser vi at man først Det må man aldrig e altså en eksponensiell Jenner utdanning.
+
+325
+00:37:54,390 --> 00:38:01,590
+Og det er altså en ediassen der det den vi skal sjå litt på nok og et det i altså
+
+326
+00:38:01,590 --> 00:38:09,930
+error renzis sine si nelle tid det altså den det sagt heller mer enn galba nedsalg,
+
+327
+00:38:10,560 --> 00:38:14,280
+og vi kan tenke på det. Så tenk på et DS som en bekk da.
+
+328
+00:38:14,280 --> 00:38:18,839
+Gjennomsnitt verk. Ferske data betyr mest asså, salget i forrige uke.
+
+329
+00:38:18,840 --> 00:38:22,110
+Det teller mykje salget for to uker Se jern.
+
+330
+00:38:22,110 --> 00:38:25,409
+Det teller litt mindre, og salget var et halvt år sia.
+
+331
+00:38:25,410 --> 00:38:26,610
+Det tallet er nesten ingen ingenting.
+
+332
+00:38:27,800 --> 00:38:39,680
+E og detta eda e en lyspære Forklaringa så den enkle overordna forklaringa på ekspansiv l er glatt leiing utdanning som.
+
+333
+00:38:40,950 --> 00:38:50,489
+Være tre bokstav for potensen står for står for det brd error at en del tilfeldig variasjoner at det er trenden som m
+
+334
+00:38:50,490 --> 00:39:00,210
+langsiktige beveget man langsiktige trender og så var jeg er det sesongarbeid etter og en variant av det etter der.
+
+335
+00:39:01,770 --> 00:39:05,640
+E altså er holdt interesserer s e for sesong data.
+
+336
+00:39:05,910 --> 00:39:08,940
+Vi skal sjå gode innpå olde dessa metode.
+
+337
+00:39:08,940 --> 00:39:19,970
+Detaljane er nå det viktigste. Nå er dokker veit om dessa e typisk den mest vanlige med hvordan og så for å få en oversikt
+
+338
+00:39:19,980 --> 00:39:26,410
+hvor og for å kunne ta en avgjørelse når problemstillinga foreleggoe i verden doc rean og dag,
+
+339
+00:39:26,410 --> 00:39:28,290
+kan du begynne å få litt mer på detaljen.
+
+340
+00:39:28,680 --> 00:39:36,890
+Så om inn noe, bare smell opp en del lignende av som bare for å konkretisere littegrann barndåp interes så står det da hvis du jeg på.
+
+341
+00:39:38,840 --> 00:39:44,450
+Vi ser på at nivå B1 båtsesong kan meine i med nivå jo hvor salget egentlig ligger.
+
+342
+00:39:44,570 --> 00:39:48,649
+Når vi ser bort i fra sesongen jeg singler ved arena,
+
+343
+00:39:48,650 --> 00:39:56,690
+er det til ditt tidspunkt også bunnlinja at man måtte som i dag da trakke fra E618 sesongen, og da er vi da.
+
+344
+00:39:58,370 --> 00:40:01,760
+Ser på trend og sesong der vi har en del.
+
+345
+00:40:02,840 --> 00:40:07,729
+Det er modellen da. Beskrive dette her nå og da må vi sette oss inn og eka dette.
+
+346
+00:40:07,730 --> 00:40:10,520
+Her betyr man i arkitekt å gå i detaljer på dette her,
+
+347
+00:40:10,520 --> 00:40:17,540
+noe bare Inga er Jeg har noe jeg viktigste at det ikke bare vi vise oss offiseren ørretfiske skjelettet den digre evo.
+
+348
+00:40:20,280 --> 00:40:24,540
+D d på måtte de overordna problemstilling og metodikk så med i fokus da.
+
+349
+00:40:25,640 --> 00:40:28,820
+Ja, dette er og med tok da han DBT på noen sitat om modeller.
+
+350
+00:40:29,910 --> 00:40:33,310
+Ja, og det er den første metoden da som i Sherpa.
+
+351
+00:40:33,330 --> 00:40:36,330
+Men det var altså den etter Aznaø vi ser på her.
+
+352
+00:40:36,720 --> 00:40:43,770
+Men det var den absolutt enkleste metoden som er å spore opp da, så vi tar den med for komplett hets skyld.
+
+353
+00:40:43,770 --> 00:40:51,389
+Men. Vanligvis så må man se på energi maleren Serima modell for eksempel.
+
+354
+00:40:51,390 --> 00:40:56,820
+Eller mer kompliserte. Det er jo ikke unormalt og og det i det vi skal sjå på,
+
+355
+00:40:56,820 --> 00:41:05,220
+og i neste om man skal atlas den bare har jeg før vi jeg avsluttet den timen her er arina til ikke var så bra i februar.
+
+356
+00:41:05,930 --> 00:41:16,710
+Det er autor i gresk integrated muring average, altså en oppskrift for å forutsi fremtiden basert på fortiden.
+
+357
+00:41:17,720 --> 00:41:21,920
+Så tenk på Arima som en erfaren selger som bruker The strategi.
+
+358
+00:41:21,920 --> 00:41:25,909
+Ja. Se på nylig historikk. Salget var høy.
+
+359
+00:41:25,910 --> 00:41:29,330
+For Juke står Det er. Det er nok høyt det denne uken også.
+
+360
+00:41:31,050 --> 00:41:39,480
+I tillegg som fokuserer på endringa. I stedet for å sjå på tale og se, ser jeg hvor mye de har endret seg, sier Sikta.
+
+361
+00:41:39,960 --> 00:41:44,130
+Og det å inte interesant forandringer. Lære av feila.
+
+362
+00:41:44,310 --> 00:41:47,670
+Jeg bommet med 50 sist, så jeg justerer nå.
+
+363
+00:41:49,190 --> 00:41:58,129
+Det er altså all lyspæreforklaringer som vi er blitt glad i da, som forklarer litt om Kaari Maja og dette stedet er en grei analogi.
+
+364
+00:41:58,130 --> 00:42:03,290
+Jeg syns du bolla Aima. Jeg har en viktig og aktuell modell.
+
+365
+00:42:03,290 --> 00:42:11,149
+Meg ned og en og en god god problemstilling år var dette kurset rd av student.
+
+366
+00:42:11,150 --> 00:42:23,120
+Den meiner jeg akg høyaktuell for de som ønsker å se på Æ ser på kull musisering denne og ingen måtte lære seg vanskelighetsgraden en sånn medium,
+
+367
+00:42:24,350 --> 00:42:29,509
+og man må jo kunne håndtere en del data og den er i man må.
+
+368
+00:42:29,510 --> 00:42:35,240
+Dem består jo på en måte av tre forskjellige komponenter, som PK påpekte her.
+
+369
+00:42:37,280 --> 00:42:49,810
+Og. Og jeg og i absolutt en hånd da er en noe som faller godt innunder dette kurset meg enig i da jeg vet om noen har hatt hatt om Marie må føde,
+
+370
+00:42:50,560 --> 00:42:54,700
+er ung og kunne og er det nok en de bruker som har hørt om Mari, men jeg har jo tatt.
+
+371
+00:42:56,230 --> 00:43:00,320
+En annen økt med. Der sa han at Erik ikke hørte om det da.
+
+372
+00:43:00,560 --> 00:43:06,260
+Tenk på at sånn er det hvis jeg lapp jo meir realistisk.
+
+373
+00:43:07,720 --> 00:43:15,360
+Altså, Jo nærmere realismen vi kommer da er, jo meir avanserte modeller må vi har.
+
+374
+00:43:15,840 --> 00:43:25,650
+Så er i mai i år en litt mer avansert modell som ikke man nødvendigvis på en enkel måte klarer å gjennomføre med meg selv for eksempel.
+
+375
+00:43:26,790 --> 00:43:33,239
+Her må man. Ha spesialisert programvare i forhold til peisen bibliotek for eksempel,
+
+376
+00:43:33,240 --> 00:43:39,870
+og sett opp et prosjekt hvor du da lese inn dataene dine og gjør utføre de nødvendige beregninger.
+
+377
+00:43:40,380 --> 00:43:51,300
+Så detter av. On a image blogg i min verden et et veldig godt i vekt som med absolutte kan gi høy verdi da
+
+378
+00:43:51,720 --> 00:43:58,920
+inne inntil en bedrift hvor de hadde deg noe da typisk noe man ikkje har ici gjør i en bedrift,
+
+379
+00:43:58,920 --> 00:44:04,950
+men som man absolutt burde har gjort for å stille opp. Supert.
+
+380
+00:44:05,100 --> 00:44:08,880
+Da er kl. 13, så vi foreslår at vi i dag tar oss ei pause.
+
+381
+00:44:09,810 --> 00:44:15,600
+E. Kvart over ett og så møtes vi, møtes vi enda og tar time nummer to.
+
+382
+00:44:21,000 --> 00:44:23,330
+Ei stått oppdagere tjuskap og det.
+

@@ -1,0 +1,1287 @@
+1
+00:00:02,073 --> 00:00:08,219
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Han 
+jobba mens vi hadde pause. Du bare trykte da på 'OK' og 'recommended'
+
+2
+00:00:08,279 --> 00:00:10,422
+etter hvert som han spurte spørsmål, eller? eh,
+
+3
+00:00:13,485 --> 00:00:21,693
+ja. Jeg kan forklare hva jeg har gjort. Men jeg
+
+4
+00:00:21,733 --> 00:00:32,016
+ser det at det er altså ... Vi ser at den har synk og look-aktivitet 3.3. Da 
+vil den gjøre reviewen sjøl. Men det vil den ikke at den skal gjøre, som
+
+5
+00:00:32,056 --> 00:00:35,078
+sagt. For da blir en biased. Men
+
+6
+00:00:38,299 --> 00:00:38,820
+ikke gjør ...
+
+7
+00:01:37,012 --> 00:01:40,296
+Bare
+
+8
+00:01:40,356 --> 00:01:41,337
+legg merke til en ting.
+
+9
+00:01:44,560 --> 00:01:50,987
+Dere får sikkert følelsen av at jeg gjentar meg sjøl med denne 
+prosjektstyringsadministrasjonen,
+
+10
+00:01:51,068 --> 00:01:58,496
+kall det det. Og det er riktig. Jeg står og gjentar om igjen og om igjen. Og 
+hva burde man gjøre da?
+
+11
+00:02:03,050 --> 00:02:13,635
+Når du kjenner at du gjentar det samme om igjen og om igjen med en AI, da er 
+tida inne til å lage en såkalt slash-kommando eller en skill
+
+12
+00:02:17,677 --> 00:02:22,199
+med AI. Slik at du bare kan kjøre den kommandoen.
+
+13
+00:02:24,980 --> 00:02:28,682
+Og så slipper du å skrive om igjen prompten om igjen og om igjen.
+
+14
+00:02:34,522 --> 00:02:35,763
+For det,
+
+15
+00:02:38,685 --> 00:02:50,433
+i det tilfellet her, så ville jeg lagd en sånn en. Jeg vil bare si det, for 
+jeg har ikke tida til å gjøre det. Men den skal ligge under codex her, da.
+
+16
+00:02:50,874 --> 00:03:01,041
+Og så vil du da lage en subfolder som heter commands, eller skills, og så 
+vil du lage en skills som der det heter f.eks. ...
+
+17
+00:03:04,087 --> 00:03:16,577
+Gjennomfør review, f.eks. Og så kan jeg bare kjøre den kommandoen. Da 
+kunne jeg skrevet sånn som dette. Sorry. Da kunne jeg skrevet sånn som
+
+18
+00:03:16,597 --> 00:03:26,445
+dette. Slash review. Står jo allerede der, da. Allerede innebygd, den. 
+Så jeg ville sagt review ...
+
+19
+00:03:29,047 --> 00:03:39,238
+Review activity, da, f.eks. Noe sånt. Og så gjør den det automatisk. Så 
+slipper vi å skrive om igjen den samme promten.
+
+20
+00:03:42,562 --> 00:03:51,568
+Nå har ikke jeg tida til å gjøre det, men typisk kan du be annen om å lage en 
+sånn en. Skills, som kommer under her nå, det er da promper som samles.
+
+21
+00:03:51,808 --> 00:04:00,673
+Det er så mange filer her at det er lett å blande. Mens det som står på 
+Agenter, Markdown, eller claw.markdown, det er mer strukturen og
+
+22
+00:04:00,733 --> 00:04:18,963
+sjekkliste. Det er riktig, det er riktig. Det er mange filer her, da. En 
+ting er skillen, som er en samling av promper, mens agenten er samling av
+
+23
+00:04:19,023 --> 00:04:28,346
+hvordan prosjektspesifikke arbeidsregler skal være, særlig når det 
+gjelder rapporten som sådan. Hvis du ser under kodeksen, så ville jeg
+
+24
+00:04:28,386 --> 00:04:34,988
+lagd en folder som heter skills. Og så kunne jeg lagd en skills som gjør 
+reviewen.
+
+25
+00:04:37,928 --> 00:04:50,970
+Ferdig med ... Ja. Så vi så jo det at ... Vi så jo det at vi mangla et steg på 
+forrige aktivitet, 3.2., gjennomføre review og look-aktiviteten.
+
+26
+00:04:53,551 --> 00:04:59,152
+Den har vi nå gjort med Cloud Code, altså en uavhengig AI.
+
+27
+00:05:09,282 --> 00:05:12,864
+Da kan vi da lag én ...
+
+28
+00:05:23,091 --> 00:05:26,033
+Som
+
+29
+00:05:26,093 --> 00:05:26,393
+jeg
+
+30
+00:05:32,377 --> 00:05:39,062
+kan kjøre på hvilken som helst aktivitet.
+
+31
+00:05:44,770 --> 00:05:50,312
+Hvor jeg gir aktivitetens
+
+32
+00:05:51,212 --> 00:06:02,757
+ID som input. Følg akkurat samme prosessen som ovenfor.
+
+33
+00:06:15,112 --> 00:06:19,614
+La oss se litt på reviewen her, da.
+
+34
+00:06:42,415 --> 00:06:48,160
+Velge å estimere modell. Dette har med kapittel sju å gjøre. Den vi 
+allerede har gjort noen endringer på.
+
+35
+00:06:52,965 --> 00:06:58,670
+Styrker. Udydige
+
+36
+00:06:58,730 --> 00:07:10,934
+mappestrukturer. Bra. Rapportteksten. Koble statistiske tester. 
+Bra. Grundig kandidatsøk. Bra. Supert. Språk, korrekt norsk, formelt
+
+37
+00:07:10,954 --> 00:07:16,856
+akademisk register. Det Claude gjør nå, er egentlig å vurdere hva
+
+38
+00:07:20,317 --> 00:07:30,481
+det er. Svakheter. Det er det vi har prioritert. Artefakt ... Jeg vet 
+ikke hva artefakt er for noe.
+
+39
+00:07:38,035 --> 00:07:44,177
+Resultatfilen
+
+40
+00:07:44,257 --> 00:07:45,098
+tabbet. Skal
+
+41
+00:07:50,080 --> 00:07:51,220
+vi se på 3.2, da.
+
+42
+00:07:56,982 --> 00:07:57,843
+Aktiviteter er 3.2.
+
+43
+00:08:02,082 --> 00:08:08,565
+Artefakt betyr konkret arbeidsprodukt. Ja, altså en output, på en 
+måte.
+
+44
+00:08:31,799 --> 00:08:37,961
+Slik at anbefalingene reflekterer valget. Men det er greit. Den er OK.
+
+45
+00:08:42,122 --> 00:08:45,083
+Alle 36 kan ha plass. Den syns
+
+46
+00:08:53,666 --> 00:08:56,027
+jeg også er ganske grei. Den er bra å ha med.
+
+47
+00:09:02,815 --> 00:09:10,180
+Det er faktisk et godt poeng.
+
+48
+00:09:10,200 --> 00:09:18,545
+Du sjekker forskjellige differensieringsvarianter, så ser du 
+hvilken som gir best resultat.
+
+49
+00:09:18,585 --> 00:09:28,531
+Da har vi bare brukt det med en sesong i tillegg, nei, med en trend i 
+tillegg, det er den lille d-en, mot ingen trend.
+
+50
+00:09:32,195 --> 00:09:49,919
+Han sier at vi burde også teste for uten trender. Kun sesong. En sesong 
+som er økende, da. Hva vil det si at den lille d-en er? At sesongen er den
+
+51
+00:09:49,959 --> 00:09:59,681
+store d-en, mens trenden er den lille d-en. Vi har jo det, ingen sesong, 
+ingen trend. At d-en er lille d-null. Ja, hvis den lille d-en er null, så
+
+52
+00:09:59,721 --> 00:10:06,261
+er det ingen trend. Hvis den er ensere trend ... Ja.
+
+53
+00:10:07,241 --> 00:10:20,410
+Men i vår analyse har vi kun testa de to variantene av den. Ikke testa den, 
+selv om den var et gyldig alternativ med ganske gode testdata.
+
+54
+00:10:27,555 --> 00:10:30,477
+OK, en figurenummering som er litt feil.
+
+55
+00:10:33,957 --> 00:10:36,139
+Manglende mellomrom i tabell sju,
+
+56
+00:10:46,366 --> 00:10:48,307
+ja. Kan vi ikke bare si at A ...
+
+57
+00:10:52,911 --> 00:10:53,551
+At en kan gjøre den?
+
+58
+00:11:17,835 --> 00:11:28,418
+Men altså ... Nå bruker vi en annen AI. Men en annen AI kan bare gå rett inn 
+og gjøre de forbedringene. Så gjennomføre alle de foreslåtte
+
+59
+00:11:28,438 --> 00:11:36,400
+forbedringene. Vi kan bruke en annen AI til det. Så vi kan sjonglere 
+mellom AI-ene. For de greier å settes inn i konteksten og alt sammen
+
+60
+00:11:36,440 --> 00:11:39,481
+sjøl. Ja, det er for å få best mulig ...
+
+61
+00:11:44,174 --> 00:11:53,626
+Slik at den ikke spores inn på ett område? Jeg er helt enig, men 
+spørsmålet mitt er at det betyr at når vi lager ny AI, så må den bruke
+
+62
+00:11:53,646 --> 00:12:02,777
+ganske mye energi og krefter på bare å leses opp for å kunne komme i 
+posisjon til å gjøre både reviewen og gjøre påfølgende forslag til
+
+63
+00:12:02,797 --> 00:12:18,136
+endringer. Ja da, men han har brukt ca. 100 000 tokens. Og vi betaler jo 
+ikke antall bruken av tokens. Det er bare å kjøre på, egentlig. Det som
+
+64
+00:12:18,196 --> 00:12:26,540
+egentlig er spørsmålet mitt, er jo det at de får AI-en til, altså starter 
+på nytt. Du kan bruke en ny AI bare han leser opp og sånne ting, så kan du få
+
+65
+00:12:26,580 --> 00:12:39,087
+en annen AI til å fortsette arbeidet. Du kan sjonglere mellom AI-ene. 
+Det kan snarere være en fordel enn en ulempe. Ja. Nå kjører jeg på med den
+
+66
+00:12:39,107 --> 00:12:47,509
+og ser hva den gjør. Ja, og nå kjører ikke de to AI-ene samtidig, for nå 
+kommer de til å gjøre endringer i kode. Ja, det kan være en grei regel å
+
+67
+00:12:47,569 --> 00:12:50,290
+kjøre helt til en av gangene. Ja, akkurat nå gjør jeg det.
+
+68
+00:12:56,413 --> 00:13:03,057
+Og så Lucky32. Og da skal jeg faktisk kjøre en ny review av 33. For det som 
+var problemet,
+
+69
+00:13:05,478 --> 00:13:14,894
+var at 32 ... Vi glemte å gjøre en review forrige gang, men det var litt 
+fordi at de ikke hadde disse Aktivitetsnavna her, så jeg skjønte det
+
+70
+00:13:15,054 --> 00:13:25,521
+ikke. Nå har vi satt opp det å gjennomføre en review som en egen 
+arbeidspakke her. Disse enkeltpunktene her kalles gjerne for en
+
+71
+00:13:25,621 --> 00:13:27,382
+arbeidspakke under aktiviteten.
+
+72
+00:13:30,043 --> 00:13:42,789
+Ei taskliste, da, eller hva det nå kalles. Kjært barn har mange navn. Men 
+jeg la inn den som en eksplisitt avhukning, slik at vi ikke glemmer
+
+73
+00:13:51,975 --> 00:14:01,842
+den. Det er bra. På dette grunnlaget vurderes derfor kombinert 
+differensiering med D1 som hovedkandidat. Når du tar valg i en analyse,
+
+74
+00:14:01,882 --> 00:14:14,612
+så må du begrunne deg. Og det var det vi mangla, sa Claude Cove, da. Vi 
+mangla en begrunnelse for hvorfor vi kun gikk for 1-1, og ikke 0-1, som
+
+75
+00:14:14,692 --> 00:14:19,753
+også var en mulig kandidat her. Ja, skjønner.
+
+76
+00:14:27,154 --> 00:14:38,608
+I mellomtida, mens den sitter og jobber på dette her, som sagt, Claude 
+Cove er jo litt preg. Så har vi satt Kodeks til å lage en sånn
+
+77
+00:14:38,688 --> 00:14:42,471
+oversettelsesskript til MS-projekt.
+
+78
+00:15:04,548 --> 00:15:19,555
+Du svarer kanskje spørsmålet her. Det er lurt å bare be en review-AI om å 
+lage en markdown på forbedringsforslag. Så ber du utførende AI å
+
+79
+00:15:19,595 --> 00:15:24,337
+vurdere tilbakemeldingen, og gi en tilbakemelding på hva den vil 
+implementere og ikke.
+
+80
+00:15:36,543 --> 00:15:39,904
+Jeg skal kommentere. Jeg bare hadde en tanke her.
+
+81
+00:15:46,406 --> 00:15:57,610
+Sånn. Skal vi se ... Lurt å bare be en review-AI om å lage en MD på 
+forbedringsforslag. Så ber du utførende AI vurdere tilbakemeldingen
+
+82
+00:15:57,670 --> 00:16:10,190
+og gi den tilbakemelding på hva den vil implementere og ikke. Kunne ha 
+gjort det, men ... Jeg tenker at det tar litt tid, da. For da må du liksom
+
+83
+00:16:10,250 --> 00:16:17,674
+hoppe fra den ene andre til den andre. Sånn som vi gjorde det nå, da, så lar
+
+84
+00:16:21,016 --> 00:16:21,837
+jeg ...
+
+85
+00:16:24,258 --> 00:16:26,099
+Også fikse endringene.
+
+86
+00:16:38,120 --> 00:16:42,404
+Nå
+
+87
+00:16:42,704 --> 00:16:58,277
+lot de Claude fikse dem i tillegg. Det er fordi de har konteksten inne. 
+Hvis du vil ha en ansvarsfordeling mellom reviewere ... Som Rune
+
+88
+00:16:58,297 --> 00:17:12,436
+foreslår her, så har du to forskjellige agenter. De har hver sin rolle. 
+Én kommer bare med review, en annen ... Den er fin, den. Men da må du hele
+
+89
+00:17:12,476 --> 00:17:23,582
+tida lese opp igjen. Det er et ekstra steg. Det er mer omfattelig, på en 
+måte. Omfattende.
+
+90
+00:17:26,143 --> 00:17:40,852
+Men du får en enda større ... Du kan spesialisere ... Fordelen med å gjøre 
+det sånn som Rune er at vi kan få inn enda mer spesialiserte AI-agenter.
+
+91
+00:17:41,232 --> 00:17:46,236
+En som er spesialisert på review, en som er spesialisert på 
+implementering
+
+92
+00:17:48,798 --> 00:18:04,387
+og sånt. Slik at de kan jobbe i sammenheng. Men det krever mer 
+organisering fra vår side. Så det har sin upside og sin downside. Og
+
+93
+00:18:04,587 --> 00:18:08,710
+akkurat nå tok jeg det bare sammen med Claude, at Claude fiksa det.
+
+94
+00:18:11,632 --> 00:18:13,594
+Nå har jeg lagd
+
+95
+00:18:15,275 --> 00:18:24,523
+en skill her, som heter 'Review Act'. En skill. Den kan jeg nå gjenbruke.
+
+96
+00:18:26,824 --> 00:18:30,647
+Hvor da identifisere aktiviteten, lese prosjektkonteksten.
+
+97
+00:18:38,202 --> 00:18:47,284
+Og utforske artefakter, lese rapportteksten, sjekke it-historikk, 
+gjennomføre vurderingen. Yes. Litt sånn.
+
+98
+00:18:51,505 --> 00:19:04,168
+Opprett filen under der den skal opprettes, gi det navnet, og følg 
+malen. La oss teste den her nå, når vi skal prøve på review 3.3.
+
+99
+00:19:16,559 --> 00:19:20,241
+Ja,
+
+100
+00:19:20,302 --> 00:19:33,811
+rapport. Den gjør både det og det. OK. Var ikke meninga med en mann. Så da 
+har vi gjort en del endringer her.
+
+101
+00:19:37,533 --> 00:19:39,695
+Det er ikke uenig i tanken
+
+102
+00:19:41,876 --> 00:19:56,240
+til Runa, altså. Det er ikke. Jeg bare tok en viss snarvei her hvor jeg 
+bare kjørte Claude. Jeg lot revieweren bare gjøre endringene. Sant?
+
+103
+00:20:00,102 --> 00:20:02,803
+For å spare litt tid, da. Skal vi se.
+
+104
+00:20:14,592 --> 00:20:16,153
+Look aktivitet.
+
+105
+00:20:44,667 --> 00:20:55,495
+Jeg kunne bedt Aino om å kommentere, eller committe også, da. Men ting 
+lurer på noe. Har vi implementert de endringene som revyen foreslo? Har
+
+106
+00:20:55,515 --> 00:21:07,224
+vi gjort det? Ja, den har nå Claude Code gjort, da. Claude har gjort det? 
+Ja, her ser du hva som ble gjort. Ja, jeg ser det.
+
+107
+00:21:11,663 --> 00:21:22,665
+I tillegg lagde han en skill. Han gjorde to ting i samme slengen. Det var 
+liksom ... Det var ikke meninga, det, da. Men han gjorde noe nøyelig, da.
+
+108
+00:21:22,705 --> 00:21:30,507
+Jeg ga Claude to forskjellige oppgaver. Han klarte det. Jeg er jo 
+smartest av alle igjen her.
+
+109
+00:21:34,168 --> 00:21:41,209
+Da har vi lagd en mapping til Microsoft PDI.
+
+110
+00:21:44,705 --> 00:21:48,446
+Jeg bare kjører Jesse, så får vi
+
+111
+00:21:55,269 --> 00:22:00,091
+se. Når Claude er ferdig nå, skal han få lov å gjennomføre 3-3 også.
+
+112
+00:22:06,694 --> 00:22:08,294
+Har vi gjort både 3-2 og 3-3? Ja.
+
+113
+00:22:12,852 --> 00:22:23,954
+Det vi gjør da, er å starte Clod på nytt igjen, rett og slett. For den skal 
+være uavhengig. Bare en ny klodestasjon, ja. Legg merke til at vi har en
+
+114
+00:22:23,994 --> 00:22:34,676
+statuslinje her nede. Den er veldig hendig, da. Den forteller hvor stor 
+andel av konteksten de har brukt. F.eks. 5 % bare, det er ganske lite. 54
+
+115
+00:22:34,736 --> 00:22:47,299
+000 token har de brukt så langt, av totalt 1 million. Femtimersgrensa er 
+på 5 %. Dvs. altså at ... I løpet av fem timer kan du bruke så og så mye
+
+116
+00:22:47,420 --> 00:22:57,566
+tokens. Jeg er nå på fem prosent på den femtimersgrensa, så jeg kommer 
+aldri til å nå den. Og så har vi en sjudagersgrense på seks prosent. Og når
+
+117
+00:22:57,606 --> 00:23:11,328
+vi skal skaffe inn egne brukere som dere skal få bruke ... Så er det typisk 
+den sjudagersprosenten og femtimersprosenten som er begrensninger
+
+118
+00:23:11,348 --> 00:23:13,808
+som kan nås hvis for mange jobber samtidig.
+
+119
+00:23:17,730 --> 00:23:29,734
+Men så lenge folk jobber på litt forskjellige tidspunkt, så tror jeg 
+ikke at vi vil få så store problemer. Og har vi to stykker, så tror jeg vi er
+
+120
+00:23:29,874 --> 00:23:41,401
+det for hele gruppa, egentlig, vil jeg anslå. Kanskje at av og til at man 
+får en sånn token-forbruk, og da må du bare rett og slett vente noen timer
+
+121
+00:23:41,461 --> 00:23:41,841
+eller noe sånt.
+
+122
+00:23:45,104 --> 00:23:55,995
+Det er lenge siden jeg har nådd den grensa, og vi bruker AI ganske mye. Så 
+disse AI-grensene er gode, da. Skal
+
+123
+00:23:56,035 --> 00:23:56,295
+vi se her.
+
+124
+00:24:03,066 --> 00:24:09,827
+Vi kutter denne, starter
+
+125
+00:24:09,887 --> 00:24:22,370
+på nytt igjen, slik at vi har en fresh kodeks. Nå har jeg lyst til å begynne
+
+126
+00:24:22,410 --> 00:24:27,111
+med tre-fire lagerprognoser og anbefalinger.
+
+127
+00:24:29,928 --> 00:24:41,630
+Nå jobber jeg ganske avansert med AI, for jeg jobber i tre forskjellige 
+AI-er. Jeg har en der som holder på å lage en oversetter. Og så har jeg den
+
+128
+00:24:41,670 --> 00:24:45,671
+her, som er Cloud Code, som holder på med å oppdatere status og sånne 
+ting.
+
+129
+00:24:50,792 --> 00:24:58,494
+Nå har jeg starta en ny kodeksinstruction som skal begynne på tre-fire. 
+Så jeg har tre AI-er pågående samtidig. Det er ikke noe jeg forventer at
+
+130
+00:24:58,534 --> 00:25:01,451
+dere skal Men
+
+131
+00:25:03,072 --> 00:25:10,677
+typisk er det sånn at hvis du ikke gjør det, så sitter du gjerne og venter 
+lenge på AI. Du sitter og venter og venter og gjør ingenting, og da taper
+
+132
+00:25:11,738 --> 00:25:22,665
+du litt tid. Så mens du har en AI-jobb ennå, så kan du begynne med en ny AI. 
+Men da må du passe på at disse AI-ene ikke jobber på samme område, da. For
+
+133
+00:25:22,705 --> 00:25:31,012
+da kan du få konflikter med github, f.eks. Men det vi kan begynne med, er å 
+planlegge.
+
+134
+00:25:36,715 --> 00:25:42,379
+Les ... Så her begynner den samme storyen om igjen. Les status.
+
+135
+00:26:01,002 --> 00:26:11,248
+Men du må trykke på planmodus nå, det er viktig. Så nå kjører vi på og 
+begynner å planlegge aktivitet tre, fire. Da har vi tre avveier i SING.
+
+136
+00:26:12,289 --> 00:26:14,250
+Den,
+
+137
+00:26:15,491 --> 00:26:21,815
+den
+
+138
+00:26:21,895 --> 00:26:35,581
+og den. Jeg så en tweet, xtweet, av en av grunnleggerne av Claude Code. 
+Der han hadde snakka om hvordan han bruker Claude Code sjøl, da. Og han
+
+139
+00:26:35,641 --> 00:26:49,569
+sier at han jobber gjerne med fem forskjellige ... Fem sånne sesjoner 
+samtidig. Pluss at han har en sånn webplanleggings ... Altså veldig
+
+140
+00:26:49,669 --> 00:27:00,025
+avansert, da. Hvor han da rett og slett gjør utrolig mye samtidig. Jeg er 
+på nivået at jeg har som regel én, men kanskje to av og til. Og veldig
+
+141
+00:27:00,045 --> 00:27:13,660
+sjelden tre. Så jeg er nok på én, kanskje to-nivået. Slike ting krever 
+enormt med kunnskap, erfaring og gode forberedelser hele tida.
+
+142
+00:27:19,724 --> 00:27:34,016
+Gode kommandoer, gode skills og sånne ting. Slik at du kan sette i gang 
+Ajen med enkle grep. Han har strømlinjeforma arbeidsområdet sitt
+
+143
+00:27:34,036 --> 00:27:42,824
+veldig godt. Så han kan bare komme i dag og fyre opp Ajen og begynne å 
+jobbe. Og han har allerede klargjort hva som skal gjøres.
+
+144
+00:27:49,222 --> 00:27:56,845
+Jeg ligger typisk på tre, det er mitt nivå. Jeg tror han lå på fem. Og jeg er 
+på én, kanskje to.
+
+145
+00:28:02,347 --> 00:28:14,732
+Men av og til er det bare én også. Det er hvor mye jeg klarer å pushe inn som 
+skal gjøres,
+
+146
+00:28:14,752 --> 00:28:25,018
+da. Men flere og flere begynner å bruke det som et sånt ... 
+Kompetansemål, kaller jeg det. Du ser at sånn som oss, nå har du tre
+
+147
+00:28:25,038 --> 00:28:30,542
+stykker på sida der. Jeg husker ikke hvilken som var hvilken. Det er lett 
+å miste litt oversikten.
+
+148
+00:28:34,665 --> 00:28:36,446
+Her har vi den som skal generere ...
+
+149
+00:28:44,751 --> 00:28:56,949
+Her skal vi ha den som genererte Plan X. Dette er i formatet av ... Vi kan 
+prøve å åpne opp denne i MS Project nå. Det var det den gjorde.
+
+150
+00:29:00,311 --> 00:29:16,040
+Den har generert en MS Project-fil basert på disse prosjektfilene her. 
+Det var det den gjorde. Cloud code er også ferdig. Den har nå gjort alle
+
+151
+00:29:16,080 --> 00:29:29,446
+endringene. Og har completert, altså gjort ferdig, Aktivitet 3.2. Så 
+da skal Aktivitet 3.2 være gjennomført. Her står det 'review
+
+152
+00:29:29,486 --> 00:29:34,070
+look-økstet'. Men 3.3 er ikke gjort, da. Så det er gjort feil, faktisk. 
+Jeg tror han har gjort feil.
+
+153
+00:30:11,495 --> 00:30:11,715
+Enig.
+
+154
+00:30:50,493 --> 00:30:57,214
+Dette blir spennende. Åpne, bla gjennom. Jeg har ingen anelse om det 
+blir rett.
+
+155
+00:31:01,395 --> 00:31:10,757
+Storage. Og så log 650 example.
+
+156
+00:31:12,478 --> 00:31:26,963
+Alle hyller. Der har vi henne. Denne ble nå generert. Fra disse 
+Jason-pilene. Husker vi snakka om det? Ja. Skal vi se om dette er på rett
+
+157
+00:31:27,003 --> 00:31:27,524
+format nå, da.
+
+158
+00:31:30,725 --> 00:31:33,706
+Hvordan vil vi importere denne filen? Som et nytt prosjekt. Ja. 
+Fullføre.
+
+159
+00:31:39,189 --> 00:31:42,750
+Right.
+
+160
+00:31:42,810 --> 00:31:45,912
+Får ikke lov å ... Sykleavhengig av økt aktivitet. Ja.
+
+161
+00:31:53,183 --> 00:31:56,945
+Ja, dette er sikkert en feil i Jason-format.
+
+162
+00:31:59,387 --> 00:32:03,109
+Vi fikk ikke lov å merke teksten, så da må vi gjøre noe lurt.
+
+163
+00:32:08,972 --> 00:32:10,153
+Da må vi gjøre noe lurt, skal vi se.
+
+164
+00:32:32,418 --> 00:32:33,878
+Jeg skal lese inn den teksten.
+
+165
+00:32:39,540 --> 00:32:50,582
+Kontrolle alt ... 'Ingen beregninger kan utføres nå.' 'Det er en 
+sirkelavhengighet i aktiviteten 3.' 'Analysere case og databehov i
+
+166
+00:32:50,642 --> 00:32:57,744
+etterspørselsprognose for PowerHorse.' 'De etterfølgende 
+aktivitetene til denne aktiviteten viser tilbake til denne
+
+167
+00:32:57,784 --> 00:33:04,880
+aktiviteten' 'eller foregående aktiviteter', noe som gir en 
+sirkelreferanse. Hvis du vil fjerne koblingen som forårsaker
+
+168
+00:33:04,940 --> 00:33:12,722
+sirkelreferansen, merker du de to aktivitetene som danner 
+sirkelkoblingen. Deretter klikker du 'opphev aktivitetskoblinger'
+
+169
+00:33:12,782 --> 00:33:13,923
+på 'faen aktivitet'.
+
+170
+00:33:20,805 --> 00:33:26,507
+Jeg fikk ikke med meg hva jeg gjorde. Jeg leste inn med lyd, da. Ja, sånn er 
+jeg.
+
+171
+00:33:29,548 --> 00:33:30,608
+OK. Jeg bruker å lese inn mye med lyd.
+
+172
+00:33:43,428 --> 00:33:48,431
+Det jeg vil gjøre enklere, er å ta et screenshot av snippet og 
+peisteinen.
+
+173
+00:34:31,387 --> 00:34:39,230
+Da
+
+174
+00:34:39,290 --> 00:34:45,152
+ser vi at 'Validere modell' er på plass. Vi committer.
+
+175
+00:34:49,314 --> 00:34:55,316
+Sånn. Og da er vi ferdige her. Da skal vi prøve å kjøre review av 
+Aktivitet33.
+
+176
+00:34:58,133 --> 00:35:09,822
+Da vil jeg starte en ny Claude Code-sesjon, da. Bare starte på nytt 
+igjen, for nå har jeg vipa memorene. Men nå husker dere det, at vi lagde en
+
+177
+00:35:09,922 --> 00:35:14,985
+review.
+
+178
+00:35:17,027 --> 00:35:24,573
+Ja. .Skill, mener jeg, som heter 'review act skill', og den har nå blitt 
+fanga opp av Claude Code. Så når vi trykker slash nå, og så skriver
+
+179
+00:35:24,593 --> 00:35:40,805
+'review', så er den der. Så da kan vi velge den, men vi må fortelle hvilken 
+aktivitet vi skal gjennomføre. Og det er da 3-3. Der. Review act 3-3. Go!
+
+180
+00:35:40,965 --> 00:35:52,070
+Nå slapp vi å skrive den lange promptforklaringa på nytt igjen, sant. Om 
+at vi må passe på at de skal lagres her, vi skal følge den review-malen og
+
+181
+00:35:52,090 --> 00:36:07,193
+bla, bla. Det ligger allerede beskrevet i skillen. Det neste jeg skal 
+gjøre er å legge review-malen inn der. Slik at den er en del av skillen og
+
+182
+00:36:07,213 --> 00:36:10,796
+ikke en del av reviews her.
+
+183
+00:36:14,678 --> 00:36:23,664
+Bare for å forbedre den skillen. Men det som er poenget nå, er at nå sparte 
+de med masse tid. For nå kan han gjennomføre dette på nytt uten at det
+
+184
+00:36:23,704 --> 00:36:32,624
+måtte skrives veldig mye. Dette er en lagra ... Dette er en lagra promp.
+
+185
+00:36:35,345 --> 00:36:37,866
+Her ser dere at den refererer til review mal.
+
+186
+00:36:43,168 --> 00:36:52,212
+Men han refererer til 012 fase 2, altså i den der. Den review-malen vil 
+jeg egentlig skal være en del av skillen i stedet. Så jeg vil ha flytta
+
+187
+00:36:52,252 --> 00:36:55,934
+malen opp hit, for da kan jeg gjenbruke den hvor som helst.
+
+188
+00:36:59,684 --> 00:37:12,453
+Og så kan dere få den skillen her med meg. Jeg kan da kopiere den over til 
+alle github-repoene deres. Og da kan dere bruke kommandoen også.
+
+189
+00:37:13,534 --> 00:37:27,531
+Lekkert. Ja. Det er bra, ja. Og derfor vil jeg at reviewen skal følge 
+skillen. Skill er forresten en mer avansert form for det vi kalte for
+
+190
+00:37:27,591 --> 00:37:42,934
+Slash Command i IB 160. Det er da en ny og bedre utgave av Slash Command. 
+Men har da fått et nytt navn og ny pakke som kalles for Skill, da. Det er en
+
+191
+00:37:43,014 --> 00:37:58,146
+oppdatering siden IB 160. Ting endrer seg jo ganske fort i denne 
+verdenen her. Så det har da blitt et veldig utbredt grep nå, da. Det kan
+
+192
+00:37:58,186 --> 00:38:08,078
+gjøre det, det å få A1 til å bare kopiere skriven til alle 27 gruppene 
+eller hva det er. Så dere trenger bare ... Våre ringere kan komme hit og
+
+193
+00:38:08,138 --> 00:38:20,906
+pushe, og så kan dere pulle etter hvert. Så egentlig er det to input som må 
+legges inn i en sånn en. Hvor du skal lagre den hen, og hvilken aktivitet
+
+194
+00:38:20,946 --> 00:38:21,466
+skal du gjøre da.
+
+195
+00:38:27,972 --> 00:38:36,560
+Og det er en jobb som ... Ja, nå sitter en jo og ...
+
+196
+00:38:36,780 --> 00:38:44,860
+Nå jobber Reviewer'n, så ... Da er vi ferdig med den. I mellomtida har ...
+
+197
+00:39:10,027 --> 00:39:23,839
+Nå er det ganske trygt, for jeg vet at denne jobber med andre ting enn en 
+review. Så det vil ikke bli sånn kollisjon. Dette var problematikken
+
+198
+00:39:23,879 --> 00:39:33,186
+med feilmeldinga om sirkelreferanse på Jason-filer kontra 
+XML-filer. Jo, riktig. Så jeg klarte ikke å importere de genererte
+
+199
+00:39:33,627 --> 00:39:37,350
+XML-filene pga. en sirkelreferanse.
+
+200
+00:39:39,119 --> 00:39:46,561
+Det er jo ikke alltid at han klarer å fikse det, og det kan hende at vi må 
+kjøre mange runder for å få til dette her, da. Vi kan ikke garantere at vi
+
+201
+00:39:46,621 --> 00:39:54,783
+kommer i land mens vi holder på, for nå er klokka fem
+
+202
+00:39:54,823 --> 00:40:04,365
+på. Nå er egentlig alt klart til å kjøre også 3-4, da, men det kan være lurt 
+å gjennomføre 3-3 først.
+
+203
+00:40:14,962 --> 00:40:18,063
+Som
+
+204
+00:40:18,103 --> 00:40:29,705
+vanlig, Claude Pode bruker god tid. Er veldig nøye, men bruker mye tid. 
+Det er det vi sitter og venter på nå. Hadde de vært alene nå, så hadde de
+
+205
+00:40:29,765 --> 00:40:34,806
+satt i gang denne her også, tror jeg.
+
+206
+00:40:36,367 --> 00:40:46,082
+Men, men. Vi lar være. Det er ikke alltid så lurt å kjøre prosesser som kan 
+kollidere. 3.3 validerer modell. Det har kommet opp.
+
+207
+00:40:52,987 --> 00:40:59,773
+Styrker. Ærlig og transparent håndtering av residualtestene. 
+Modellens brudd på forutsetninger er dokumentert uten å bortforklare
+
+208
+00:40:59,793 --> 00:41:00,974
+dem. Det er veldig bra.
+
+209
+00:41:05,798 --> 00:41:11,823
+Ryddig skriptseparasjon. Ett skript for residualtester, ett for 
+testvalidering. Klart skille mellom analyse og resultater.
+
+210
+00:41:15,121 --> 00:41:27,868
+Korrekt bruk, figur lesbar. Rapportteksten gir god narrativflyt fra 
+resoldualanalyse. Husk at dette er en AI som er uavhengig nå, da. Og det
+
+211
+00:41:27,909 --> 00:41:34,572
+er jo bra. Her er litt om metodikken. Svakheter og forbedring.
+
+212
+00:41:37,534 --> 00:41:50,907
+Litt om koden. Den er jo grei. Økende feiltrend over testperioden. Det 
+han tenkte på ... Husker du at det var en sånn over ... Ja.
+
+213
+00:41:59,109 --> 00:42:02,410
+Overestimat,
+
+214
+00:42:02,450 --> 00:42:19,403
+ja. Det var et systematisk overestimat på testsettet, og den vil han 
+gjerne ... Tallfeste litt mer før vi kommer til selve diskusjonen som er
+
+215
+00:42:20,144 --> 00:42:21,425
+senere. Den er vi for så vidt enig i.
+
+216
+00:42:25,309 --> 00:42:27,190
+Nevn diskusjonskapitlet.
+
+217
+00:42:33,437 --> 00:42:34,658
+Det har vi ikke kommet til ennå.
+
+218
+00:42:45,925 --> 00:42:53,547
+Man kan prøve å implementere disse svakhetene, prøve å forbedre dem? 
+Jo, jo, vi skal det når den er ferdig, da.
+
+219
+00:42:56,828 --> 00:42:57,368
+Nå er den ferdig.
+
+220
+00:43:02,289 --> 00:43:05,170
+Ja. Fix.
+
+221
+00:43:14,140 --> 00:43:16,181
+Det
+
+222
+00:43:18,943 --> 00:43:31,609
+er her Rune mente at vi burde gå tilbake til gjennomførende AI og be om å 
+lese valideringa, for så å at den skal gjøre det. Og er ikke helt uenig i
+
+223
+00:43:31,629 --> 00:43:41,718
+det, for da kan du ha en av de som er ekspert på å skrive, og så kan vi ha en av 
+de som er ekspert på å kvalidere eller gjøre en review. Men akkurat nå
+
+224
+00:43:41,818 --> 00:43:49,064
+hopper vi litt bukk over det og bare lar revieweren gjøre endringene. 
+Fikse alle tiltakene
+
+225
+00:43:51,507 --> 00:43:53,889
+og avslutte.
+
+226
+00:43:57,830 --> 00:43:59,031
+Og avslutte ...
+
+227
+00:44:02,813 --> 00:44:03,594
+Og oppdatere.
+
+228
+00:44:09,137 --> 00:44:17,002
+Og dette med fiks tiltak og oppdatere alle prosjektfilene ... Da må vi 
+også fortelle den ... Du kan ikke forvente at den husker alt, sant?
+
+229
+00:44:20,904 --> 00:44:32,986
+Der kunne vi også lagd et sånt skille for dette også. Så kunne jeg bare ta 
+... Ja, men etter at jeg har gjort det manuelt én gang ...
+
+230
+00:44:50,429 --> 00:45:00,035
+Da husker jo Ayn det, og da er det veldig lurt å ta og si bare ... Lag en skill 
+som gjør dette her for meg. For da har han det allerede i konteksten, da.
+
+231
+00:45:00,595 --> 00:45:10,261
+Ja. Men du må sjøl huske at du har laga en sånn skill som heter fiks, da. Og 
+hva det innebærer. Ja, at du ... Altså det er jo du som starter den
+
+232
+00:45:10,301 --> 00:45:19,384
+skillen, på en måte. Ja. Men du må jo bare huske på hva slags skiller du 
+sjøl har starta, da. Ja, ja. Men det er klart at du må gjøre det. Men det
+
+233
+00:45:19,464 --> 00:45:30,550
+kommer du på fort når du sitter der og faktisk må skrive det opp igjen. For 
+da må du bruke tid på det. Dette er prompter som du ellers må skrive for
+
+234
+00:45:30,610 --> 00:45:32,251
+hånd.
+
+235
+00:45:34,952 --> 00:45:51,138
+Men som er en fordel å bruke som en skill og kan enkelt bare flash gjøre 
+det. Igjen, da, så må vi bare påpeke aktiviteten, da.
+
+236
+00:45:56,760 --> 00:45:58,601
+Nå går den.
+
+237
+00:46:07,586 --> 00:46:10,287
+OK, nå har den regenerert, så da kan jeg prøve på nytt, da.
+
+238
+00:46:28,962 --> 00:46:29,702
+Ballestein.
+
+239
+00:46:32,644 --> 00:46:34,604
+Men vi fikk jo opp ...
+
+240
+00:46:41,947 --> 00:46:52,592
+Vi fikk jo opp ... Fikk du opp noe her, da? Ja da. Om dette er korrupt, eller 
+om det er helt rett eller djevelens rett, det greier jeg ikke å vurdere.
+
+241
+00:46:53,252 --> 00:47:02,975
+Det ser greit ut. Her ser du dagen i dag. Har vi noe tracking her, da? Ikke 
+så mye i det.
+
+242
+00:47:12,622 --> 00:47:15,704
+Skulle gjerne hatt aktivitetsnavnene, da, men fase to ...
+
+243
+00:47:21,208 --> 00:47:22,388
+Det var ganske grovt, da.
+
+244
+00:47:32,041 --> 00:47:32,862
+Gjennomføring.
+
+245
+00:47:35,104 --> 00:47:44,992
+Velges det mer modell? Vi kunne gjerne hatt med under ... Ja, så vi mangla 
+et nivå her, sant. Vi mangla aktivitetene. Ja. Så vi mangla
+
+246
+00:47:45,032 --> 00:47:56,461
+aktiviteter. Men vi fikk i hvert fall inn noe, sant. Så vi er på vei, da. 
+Ja. Skal vi gå tilbake igjen, så er vi litt på overtid nå. Så skal vi bare se
+
+247
+00:47:57,162 --> 00:48:06,528
+om vi ... Er vi ferdige med å implementere korreksjonene her nå? Ja, nå 
+gjør han det, da. Ja. Så vi bare fullfører det, og så tenkte vi vi skulle
+
+248
+00:48:06,568 --> 00:48:17,535
+pushe, og så tenkte vi bare å se hvordan det ... Når det blir neste 
+forelesning, da, i det pallet her? Ja ... For det blir jo ikke før etter
+
+249
+00:48:17,575 --> 00:48:24,240
+påske? Jo, vi kan prøve å få gjort litt på onsdag ...
+
+250
+00:48:27,002 --> 00:48:36,339
+Vi skal ikke noe på onsdag ettermiddag, da? Ja, for vi trenger mer tid, 
+tenker du på? Ja, vi har kommet ...
+
+251
+00:48:39,781 --> 00:48:41,221
+Vi skal gjøre
+
+252
+00:48:43,362 --> 00:48:52,586
+den, da. Men når vi er ferdig med den, da har vi kommet langt, ser dere. Ja. 
+Da er vi ferdige med ... Skal vi skreddurere til onsdag eller fredag?
+
+253
+00:48:52,646 --> 00:48:53,807
+Torsdag er jeg opptatt av, men ...
+
+254
+00:48:57,125 --> 00:49:07,471
+Jeg syns den akt 3-4-5 der er ganske ... Vi ville hatt en imellom der som 
+heter diskusjon. Den bør være sin egen aktivitet. Hver av disse bør være
+
+255
+00:49:07,531 --> 00:49:18,497
+en egen aktivitet. Så det burde jeg endre inn. Alle disse er ganske 
+store, da. Ja, det er rett i det. Enig i det. Men vi kan ta en runde. Så la oss
+
+256
+00:49:18,537 --> 00:49:30,290
+se ... Vi kan ta en runde på onsdag, men da tror jeg ... Vi prøver å bli 
+ferdig med den tre-fire, for den er grei. Og da er vi ferdig med de tre
+
+257
+00:49:30,350 --> 00:49:46,118
+viktigste kapitlene. Modell, analyse og resultat. Og så kan vi begynne 
+over påske med det resterende. Ja. OK, så vi når på onsdag. Ser du for deg
+
+258
+00:49:46,138 --> 00:50:03,655
+det? Ja, jeg ser for meg klokka tolv. Men det er muligens vi bare har tida 
+til to timer. Men vi klarer det. Vi kan sette opp to timer fra 12 til 2 på
+
+259
+00:50:03,735 --> 00:50:16,218
+onsdag. Noterer du det, Erik? Onsdag 25.3., fra 12 til 2. Eller 12.15 til 
+14.00. Og så bare sender du ut en rombestilling og legger ut ei
+
+260
+00:50:16,278 --> 00:50:20,899
+pionering, så. Skal vi da se om det greier å ... Det tar vel litt tid før vi 
+kan pushe. Det er snart ferdig.
+
+261
+00:50:23,930 --> 00:50:33,095
+Det som er utfordringen, er at Jason-filene er ganske store. Han bruker 
+litt tid på å finne rett plass og sånn. Det eneste jeg ser på nå, er
+
+262
+00:50:33,215 --> 00:50:43,600
+Jason-filene. Eller er det også å implementere 
+forbedringsforslagene? Det er han allerede gjort.
+
+263
+00:50:43,720 --> 00:50:49,743
+Endringene ligger her på rapport og sånn.
+
+264
+00:50:49,803 --> 00:51:03,551
+Av de tre AI-ene du har oppe nå, er det bare én som jobber? Akkurat nå er det 
+det, ja. Den er klar til å starte, da. Det er tre-fire, er den. Mens den her
+
+265
+00:51:03,751 --> 00:51:08,052
+må vi legge inn aktivitetene litt mer. Men det skal vi klare.
+
+266
+00:51:10,692 --> 00:51:15,414
+Nå så fikk vi egentlig bare med oss milepælene,
+
+267
+00:51:18,074 --> 00:51:28,916
+og ikke aktivitetene, da. Hvis du vil, så kan du også ta med selve 
+arbeidspakkene. Disse enkeltpunktene her.
+
+268
+00:51:32,338 --> 00:51:42,803
+Men i hvert fall aktivitet må inn i MS Project, sier de. Denne hadde ikke 
+aktivitetene inne, ser dere. Det er bare baser.
+
+269
+00:51:56,219 --> 00:52:08,104
+Kunne lagt inn enkeltpunktene, altså arbeidspakkene. Skal vi se 
+hvordan det går med Claude. Der er den skrevet, ja. Nei, var helt øverst
+
+270
+00:52:08,204 --> 00:52:12,045
+nå. Der, ja. Ferdig.
+
+271
+00:52:12,105 --> 00:52:26,446
+Alle tiltak merket som gjennomført. Greit. Supert. Da committer vi og 
+pusher. Nå har han også oppdatert disse planfilene, ser dere. Disse
+
+272
+00:52:26,486 --> 00:52:27,227
+Jason-filene.
+
+273
+00:52:29,728 --> 00:52:43,654
+Slik at vi har status på rett plass, da. Også oppdaterte statusfiler 
+våre. Der er den. Sånn. Der. Da er vi egentlig akkurat klar til å bare fyre
+
+274
+00:52:43,694 --> 00:53:00,230
+løs tre-fire. Ja. Nå er det et passende sted å avbryte, da. Så nå pusher 
+jeg også denne review-skillen
+
+275
+00:53:00,270 --> 00:53:12,775
+her, sant. Men er det ikke sånn at hvis du pusher, så gjør du alt da, eller 
+måtte du pushe flere ganger? Nei da, bare én gang. Da er det pusha. Og da er
+
+276
+00:53:12,815 --> 00:53:28,378
+den review-biten allerede der. Den kan folk bruke, bare gå og kopiere 
+den. Hvis man vil. Det er handy. Det var greit. Da sier vi takk for i dag.
+
+277
+00:53:29,019 --> 00:53:42,245
+Ja. Og så ses vi på onsdag. Det blir siste innspurt før vi tar påskeferie. 
+Ja, da blir vi ferdig med de tre viktige kapitlene, som sagt.
+
+278
+00:53:46,547 --> 00:54:03,412
+Og da blir det mer skrivekapitlene rundt, da. Men da er vi ferdig med 
+sjølve analysen. Vi kommer til å prøve å jobbe litt nå når vi har pluss
+
+279
+00:54:03,492 --> 00:54:17,940
+påske, for å lage en like utvidet situasjon av Kompendiet. Ja da, det kan 
+vi prøve på. Det vil hjelpe dere i å lede AI-ene på rett kjør, kall det det.
+
+280
+00:54:18,380 --> 00:54:28,603
+Når dere skal jobbe avhengig av det caset dere har valgt, da. Det er ikke 
+alle som har valgt prognosisering, så da blir det litt forskjeller.
+
+281
+00:54:29,803 --> 00:54:35,706
+Yes, takk for meg. Takk for i dag. Da ses vi på onsdag.
+

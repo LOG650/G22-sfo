@@ -1,0 +1,1677 @@
+1
+00:00:06,340 --> 00:00:15,040
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Og er Velkommen til logg 650 forskningsprosjekt Logistikk og kunstig intelligens er mitt navn
+
+2
+00:00:15,040 --> 00:00:19,929
+det Per Kristian Rekdal og i Smaragder sammen med kollega går det ikke Petersen noe re den.
+
+3
+00:00:19,930 --> 00:00:28,960
+Av årene har jeg hvitt hår om alle videoer som som vi pleier å gjør i våre [INAUDIBLE], og vi har også både laugstrim og opptak.
+
+4
+00:00:30,100 --> 00:00:35,530
+Det som e planar i dag. Det e det som vi sa på kunngjøring i går.
+
+5
+00:00:35,860 --> 00:00:40,120
+I hvert fall er det timen går nok med et kupp kurset Folk og grunder Jatte.
+
+6
+00:00:40,120 --> 00:00:45,640
+Det er et veldig E21 videre godt opplegg her med mye informasjon.
+
+7
+00:00:46,120 --> 00:00:51,090
+Det er jeg som skal gammel med ut i en forskningsrapport, og vi skal Ha en PV til PV.
+
+8
+00:00:51,100 --> 00:00:59,110
+Vi ju mellom studenter og vi skal også handling lage presentasjoner av dette her og heter slutten av kurset så det den veldig mye informasjon,
+
+9
+00:00:59,110 --> 00:01:05,780
+så vi håper virkelig at dokker en med. Bli med og heng med på de tallene der jeg Det kan hende at vi blir med er jo det i en time.
+
+10
+00:01:05,800 --> 00:01:11,440
+Så det får b sjå. Vi tar det som det kommer. Det kommer litt an på kor mange spørsmål og sånn det e underveis.
+
+11
+00:01:13,260 --> 00:01:18,960
+Det kommer også til å gåede igjennom deler av del en av det kompendiet.
+
+12
+00:01:19,440 --> 00:01:27,630
+Kvantitative metoder Logistikk implementert via kesome bringe og i [INAUDIBLE] på å skrive disse dager ved at krummet et stykke,
+
+13
+00:01:28,440 --> 00:01:31,530
+og vi har nok kommet en del lenger enn det vi greide å gå igjennom i Lagman.
+
+14
+00:01:31,650 --> 00:01:35,250
+Da får du ikke en veldig god idé. Når vi går gjennom detta,
+
+15
+00:01:35,250 --> 00:01:42,959
+og om ka som kreves og ka vi skal gjøre i kurset i tillegg så kommer til også bodd vi Elvis gjennom utdrag
+
+16
+00:01:42,960 --> 00:01:47,940
+av et anna kompendium som vi held på å skriv som heiter Forskningsprosjekt og vitenskapelig skriving.
+
+17
+00:01:48,450 --> 00:01:51,599
+Det dreier seg ikke bare om vitenskapelig skriving, for det er det.
+
+18
+00:01:51,600 --> 00:01:55,440
+Det må vi også litt random for det og det som jeg eller hovedleveransen her.
+
+19
+00:01:55,830 --> 00:02:04,200
+Man vil også litt praktisk om angående kosen. Vi skal gjøre det med møta eposter før møta og kosmiske organisere ma bang bordet i tid.
+
+20
+00:02:04,410 --> 00:02:09,809
+Så i vil også gå igjennom deler a dette her, og så får vi å sjå da om vi held på alle 04:10 manual.
+
+21
+00:02:09,810 --> 00:02:14,010
+Det er ikke sikkert man i vi ser nokka vi treng da av ved at de ma.
+
+22
+00:02:16,100 --> 00:02:22,670
+Da. Hvis vi går da tilbake i han hit, så vil vi gå gjennom litt det som står under hjemme her jeg.
+
+23
+00:02:22,700 --> 00:02:31,400
+Og kanskje ikke bare holde på og. Øra E-verk går gjennom salgsstedet her, og det er her ligg veldig mye av det AuV informasjonen.
+
+24
+00:02:32,450 --> 00:02:42,970
+Dette har jeg da på slutten av det som tilsvaret etter Bacalao studiet, sjøl om det der ikke er en veksler oppgave, så Kalvig forskningsoppgave.
+
+25
+00:02:43,010 --> 00:02:49,549
+Men det betyr at dokker har hatt en del [INAUDIBLE] før. Så det vi har i litt større krav hvem man vil og er for i forhold.
+
+26
+00:02:49,550 --> 00:02:53,330
+Det er førsteklasse [INAUDIBLE] når det gjelder selvstendighet av et forskningsprosjekt.
+
+27
+00:02:53,900 --> 00:02:57,740
+Og da er Vi skal altså bruke kunstig intelligens og i trua på at man ma dokker
+
+28
+00:02:57,740 --> 00:03:04,370
+har hatt i over 160E vuormering med båringe og kunstig innbygd intelligens.
+
+29
+00:03:05,360 --> 00:03:12,800
+Og det E15 studiepoeng. Og der må vi tenke oss om da, og at det faktisk ganske mye det fins svar i da to vanlige [INAUDIBLE].
+
+30
+00:03:13,100 --> 00:03:22,550
+Så det krev at vi bruker littegranne tid på der. Fokuset gjerne er vitenskapelige arbeid og forskningsdesign innen kvantitet av logistikk.
+
+31
+00:03:23,000 --> 00:03:26,870
+Og det er det nok muligens. Det er det første møtet dåkker har.
+
+32
+00:03:27,110 --> 00:03:31,430
+Jeg har fall kanskje nok en av dager der vi gjør ett det akademiske.
+
+33
+00:03:32,060 --> 00:03:38,210
+Da vi skriver om et omfattende akademisk dokument, så jeg dette bli spennende er på mange måter,
+
+34
+00:03:38,720 --> 00:03:43,280
+og det er fase basert der vi har med fase prosjektgjennomføring.
+
+35
+00:03:43,280 --> 00:03:50,480
+Dag er fire på ASA initiering som vi begynner med i dag Planlegging, gjennomføring og avslutning.
+
+36
+00:03:51,380 --> 00:03:55,070
+Og vi skal da anvende på en metode og gå i verktøy.
+
+37
+00:03:55,250 --> 00:04:03,020
+Og da blir det var mest sannsynligvis blod og pyton og slike ting som gir avstand.
+
+38
+00:04:03,080 --> 00:04:07,790
+Og med det bakkete er jeg litt seinere, og Bård Inge vil si litt mer om det tekniske der.
+
+39
+00:04:09,880 --> 00:04:15,220
+I likhet med han farger så mye av tvilere så har vi en link som er åpen 24 23 65,
+
+40
+00:04:15,280 --> 00:04:21,640
+så her er det bare å klikke så er vi inne her vi eno og det er den vil da være da vel.
+
+41
+00:04:21,970 --> 00:04:25,090
+Vil også vie faglærer av areanen når det organisert undervisning.
+
+42
+00:04:27,080 --> 00:04:32,540
+Vi tar ofte følge alle på videoen og loft. Ta det opp på Panopto video her i venstremargen når vi er ferdig.
+
+43
+00:04:34,380 --> 00:04:37,980
+Så er hvis du går gjennom innholdet i kurset, og det så åtte punkter her.
+
+44
+00:04:37,980 --> 00:04:48,640
+Vi har nå tenkt å gå gjennom. Og en Bård Inge kan gjerne bare supplere supplere med adekvat at vi har da fase en her som med initiering.
+
+45
+00:04:48,680 --> 00:05:01,030
+Det er da prosjektbeskrivelse og at det er gruppa han skal lages og det ser vi starter i dag og vi har i dag en en liten måned på oss barn,
+
+46
+00:05:01,630 --> 00:05:09,980
+så i vil bare gode og gjennom no veldig overordna, og så skal vi gå meir inn i detaljane i hver enkelt fase adekvat.
+
+47
+00:05:10,300 --> 00:05:16,990
+Men vi tar også bare romskipet ut i verdensrommet. Prøv å få litt oversikt uten å gå inn i alle detaljer som vi kommer tilbake den.
+
+48
+00:05:18,140 --> 00:05:21,170
+Fase to viser at det går ikke an. Måned for måned er veldig enkelt.
+
+49
+00:05:21,170 --> 00:05:24,329
+Så kan sider det januar og februar, mars og april.
+
+50
+00:05:24,330 --> 00:05:28,280
+Det er nesten sånn. Og da er fase to planlegging.
+
+51
+00:05:28,280 --> 00:05:35,959
+Det er så da vi skal satt opp med prosjektplan Kvalifikasjoner te prosjekteei frem de
+
+52
+00:05:35,960 --> 00:05:42,740
+splan og velge hvilken metode vi må anvende og det å løse i forskningsprosjektet vårt.
+
+53
+00:05:43,250 --> 00:05:47,959
+Og når det gjeld det så skal si en del om det i det time to.
+
+54
+00:05:47,960 --> 00:05:52,280
+Men det skal gå gjennom ett av dem om veldig ensom bading og hjelp å å lage.
+
+55
+00:05:55,480 --> 00:06:01,320
+E. Legg merke til også at det i hoppbakken er for en del av dokker har hatt det D.
+
+56
+00:06:03,430 --> 00:06:07,600
+Prosjektstyring og prosjektledelse med en bringer på dette her en måte enn en
+
+57
+00:06:07,600 --> 00:06:12,700
+praksis av det her på mye driv nokre hardkjør på det at jeg blir på måte ganske,
+
+58
+00:06:12,720 --> 00:06:20,190
+men viktig at vi har dem Prosjektleder egenskapen som vi håpa at dokker har tilegner olje i den Corsa for
+
+59
+00:06:20,200 --> 00:06:27,820
+drive frem et prosjekt EI1 lita gruppe og der vi prøver å Og hovedregel med at e oppteriet varegruppe.
+
+60
+00:06:28,240 --> 00:06:35,020
+Det skal også komme tilbake te. På C3 som foregår da i all hovedsak er i en.
+
+61
+00:06:36,460 --> 00:06:39,040
+Mars og april og sier at denne jeg da.
+
+62
+00:06:40,350 --> 00:06:46,200
+Litt lenger periode der gjennomføringa del av hoved utkast til rapport og det er en av hovedleveranser ved å det som
+
+63
+00:06:46,290 --> 00:06:55,380
+er hoved saken her og levere en vitenskapelig rapport enn en forskningsartikkel som skal happ helt til PHEV og Evju.
+
+64
+00:06:56,190 --> 00:07:02,610
+Jeg vet ikke om du har lyst å si litte grann om det. Jeg er bare inget er. Jeg valgte et veldig overordna case vi meine med PV til Pep med EU.
+
+65
+00:07:05,220 --> 00:07:10,140
+Det betyr at det e en gruppe ville lage en ridetur.
+
+66
+00:07:10,530 --> 00:07:13,769
+Bare en annen gruppe rakk Mylla.
+
+67
+00:07:13,770 --> 00:07:21,270
+Les igjennom hovedutkastet det rapporten og komme med tilbakemeldinger til hverandre.
+
+68
+00:07:21,270 --> 00:07:34,740
+Da kan man si. Sånn at man får tilbakemelding på hovedutastisitet slik at man kan bruke siste måned å forbedre rapporten.
+
+69
+00:07:35,010 --> 00:07:38,160
+På bakgrunn av disse tilbakemeldingene.
+
+70
+00:07:38,550 --> 00:07:48,410
+Den veldig god. Veldig gode ting og gjør for det at når man sett stegi e ørt når man setter på andre på
+
+71
+00:07:48,410 --> 00:07:53,990
+andre sida av bordet for å dele han og skal i stedet for å skrive noe skal vurdere noe,
+
+72
+00:07:54,920 --> 00:08:00,920
+så får man også sjøl en litt annen dimensjon i faget som som gjør at man.
+
+73
+00:08:02,960 --> 00:08:11,180
+Får litt mer dybde da. Så det er også en viktig del i passerer asset hederen, og det betyr da at det vi gir på og leser av ved ikke vises.
+
+74
+00:08:11,180 --> 00:08:15,950
+Skal han lese igjennom rapporten tl han fortelle grupp han det også den forskjellige grupp man skal.
+
+75
+00:08:16,100 --> 00:08:22,879
+Les gjerne om sir hverandre sine rapporter eller en av dem da, Så vi ble ikke involvert i PVT på PVR prosessen.
+
+76
+00:08:22,880 --> 00:08:30,500
+Med det gikk det riktig å si da, så vi ble ikke vi som skal skrive evalueringa av desk oss studenter Nørd det er sånt,
+
+77
+00:08:30,560 --> 00:08:35,480
+så vær bare gruppe fra UiO til ordna en annen gruppe rappa i.
+
+78
+00:08:35,480 --> 00:08:43,550
+Vi har jo estimert sånn cirka 20I gruppa, kanskje i forhold til antall studenter i bager D og sånn.
+
+79
+00:08:44,420 --> 00:08:49,399
+Vi kommer tilbake inn på hvordan vi ska lagres i gruppa sammen. Men er det sånt første estimat?
+
+80
+00:08:49,400 --> 00:08:55,520
+Det Kanskje rundt sju på rappen, litt avhengig av hvor mange som grupperes rapper og.
+
+81
+00:08:59,310 --> 00:09:10,200
+Ja, så da dere sa natte hver skal da skrive en rapport Det krok av muntlig gay byrå der den skriftlige medium er omme.
+
+82
+00:09:11,770 --> 00:09:13,380
+Om utkastet til noen andre daten.
+
+83
+00:09:16,300 --> 00:09:23,920
+Ja, bra og det bare komme spørsmål dersom dokker har enten bare x ta ordet det er nå eller bare komme dere i chatten.
+
+84
+00:09:24,640 --> 00:09:26,860
+Den fjerde og siste fasen eder avslutning.
+
+85
+00:09:27,160 --> 00:09:35,530
+Og da er det også ferdigstillelse av forskningsrapporten nå som med hoveddleveransen i tillegg til muntlig eksamen.
+
+86
+00:09:35,800 --> 00:09:39,490
+Og det blir Ivar det sannsynligvis ikke boring i før ut i mai.
+
+87
+00:09:39,790 --> 00:09:46,330
+Sjøl det merket jeg så her jeg. Hva er det vi skal arbeide ferdig med? Innlevering av rapportene, men før det muntlig eksamen blir jeg førere.
+
+88
+00:09:46,570 --> 00:09:47,740
+I starten vinner jeg der.
+
+89
+00:09:48,920 --> 00:09:58,520
+Ja, det ligger vel en del av den base wire mennene Muntlig eksamen vil joda, komme rett etter sett 1. mai i en eller en av gangen er.
+
+90
+00:09:59,910 --> 00:10:03,540
+Da? Ja asså, vi kaller det, får vi muntlig eksamen.
+
+91
+00:10:03,540 --> 00:10:08,339
+Men jeg vil jo påpeke at det da kurset er har eg godkjent.
+
+92
+00:10:08,340 --> 00:10:14,880
+Ikke godkjent da som orker det. Det vil egentlig bare å få godkjent baka, men det kommer vi også.
+
+93
+00:10:14,910 --> 00:10:25,050
+Akebakker er i kan hende. Ja, vi kan nevne det at delve akkurat nå se opp fase en, den desidert viktigste biten.
+
+94
+00:10:25,800 --> 00:10:31,950
+Og jeg kan også nevne en annen ting at. Er alle de tatt, gir det pa seg nær dem.
+
+95
+00:10:33,130 --> 00:10:45,220
+S satte opp på en sånn måte som vi har brukt og gjennomføre Ø en veksler oppgave, da med med og masteroppgaver egentlig med medstudenter.
+
+96
+00:10:45,220 --> 00:10:50,950
+Da er Og det vi ser er det at stud. Det vi er lært over tida e.
+
+97
+00:10:50,950 --> 00:10:57,010
+Jo, det er at mange av studentan slit med ö all d.
+
+98
+00:10:57,190 --> 00:11:06,879
+Prosjekteringen av ö a ble oppgaven da æ og anså det typisk så blir ikke gjort
+
+99
+00:11:06,880 --> 00:11:12,730
+nok garn ø må man man finn ikke problemstillinger slipper langt ut i mars.
+
+100
+00:11:13,280 --> 00:11:16,030
+Ø Også begynner man å skrive alt for seint.
+
+101
+00:11:16,570 --> 00:11:25,310
+Jeg er Og når BI ønske at man ska hovedutkast så er det plass og så får man tilbakemeldinger ei uke før innlevering også e.
+
+102
+00:11:25,510 --> 00:11:29,350
+Og så går det mye dårligere an enn det burde gått da. Så.
+
+103
+00:11:30,560 --> 00:11:37,160
+Så vi har veldig stor fokus på dette her med prosess og ikke bare resultat.
+
+104
+00:11:37,760 --> 00:11:42,650
+Og Odd og det på måtte det. Vi har no slått sammen i ett år og har da.
+
+105
+00:11:44,900 --> 00:11:54,139
+Det er lett å vite. Både lytterens julesterke i forhold til det rent du MBL som har hatt det prosjektledelse med deler av oppmøtet her
+
+106
+00:11:54,140 --> 00:12:00,950
+du dato fett og skal gjennomføres at du har evne og driv p å e å gjennomføre jeg er jeg riktig å si jeg boll.
+
+107
+00:12:02,520 --> 00:12:14,400
+Ja DD Ja, æ fikk godt for oss et. Fikk også et spørsmål nå på chatten skal man gå opp en og 1I1 muntlig eller sammen som gruppe er i tenke at.
+
+108
+00:12:16,880 --> 00:12:20,060
+Sånn først. Utgangspunktet mitt e at man skal gå opp.
+
+109
+00:12:20,150 --> 00:12:25,610
+Det e ene og en fordi at e muntlig.
+
+110
+00:12:25,970 --> 00:12:34,879
+Neglebiten e egentlig først og fremst å sjekke om at man har deltatt i prosjektee,
+
+111
+00:12:34,880 --> 00:12:46,520
+og at man mandag har forstått alle på av nå og veit og hvordan e dank, hvordan man har jobba, hva målet.
+
+112
+00:12:46,880 --> 00:12:56,300
+Så det utgangspunktet vi har ble suppasta dette er apk habe det er vi har ikke det står vi åpen vår diskusjon at å begynne hensiktsmessig man
+
+113
+00:12:56,300 --> 00:13:02,750
+det ut at om det som en bolt sier også på bi så kos med gjør det selvfølge blir det veldig mange studenter så må vi vurdere hva vi skal.
+
+114
+00:13:02,750 --> 00:13:07,120
+Gjør man med utgangspunkt det som en Borges i. Sopp er.
+
+115
+00:13:08,120 --> 00:13:12,800
+Det er et godt spørsmål da fordi at det og mas større oppgave for eksempel da.
+
+116
+00:13:13,430 --> 00:13:25,129
+Då har man også en muntlig presentasjon av oppgaven sin, og den gjøres gruppevis da og e foreslår at de sier at ja,
+
+117
+00:13:25,130 --> 00:13:31,250
+BK kan komme tilbake på det spørsmålet, slik at vi kan enkelt på den stranda diskutere det.
+
+118
+00:13:31,580 --> 00:13:42,080
+Muligens vi skal kjøre samme i Wilson som på master at man at man kommer som samlag da og det bølget u.
+
+119
+00:13:43,880 --> 00:13:49,940
+Supert. Da går vi videre i gruppa en har utgangspunktet var nok en del 3DD vi ønske da
+
+120
+00:13:50,360 --> 00:13:54,770
+jeg arbeider og kanskje mai mot tre nena legger vi får ei gruppe og samarbeid.
+
+121
+00:13:56,210 --> 00:14:01,210
+Og vi har Erik Langlo med oss og hos oss. Vi hjelper også å koordinere gruppa.
+
+122
+00:14:01,300 --> 00:14:02,030
+Evaluering.
+
+123
+00:14:02,570 --> 00:14:13,700
+Vi har hatt med litt av de tilbake, så handlet også med oss om El og 06:50 koordinator ga si litt rammer om det er med med ins innkjøringsfasen vi.
+
+124
+00:14:13,700 --> 00:14:22,159
+Dette har jeg i dag mark hånd henne bort at vi skal ta og utsatt dette her til neste onsdag, slik at vi har en god dag i dag også.
+
+125
+00:14:22,160 --> 00:14:25,070
+Blant bildene er litt bra. Og så var han sikker den et spørsmål.
+
+126
+00:14:25,310 --> 00:14:30,680
+Så det kan hende at det hensiktsmessig at vi utsatte DNT 21. januar og at hva tror du om det?
+
+127
+00:14:32,410 --> 00:14:37,320
+Ja, ja, det var vel egentlig det vi ba henne om. Sa ja og så det.
+
+128
+00:14:37,360 --> 00:14:42,309
+Skal jødiske fra og oppdatere det alle det og grunne det er å flere og enda damede at det.
+
+129
+00:14:42,310 --> 00:14:47,260
+Når vi da går anemiddag så holder jeg ut og uker på å fordøye dette her er å gå igjennom det,
+
+130
+00:14:47,290 --> 00:14:51,370
+og så får vi da og gjør jeg en er da til videokameraer jeg et.
+
+131
+00:14:51,680 --> 00:14:55,089
+Spørsmålet er neste onsdag. Så litt om gruppa.
+
+132
+00:14:55,090 --> 00:14:59,229
+Vi foreslår at det går av de personer her, så går vi.
+
+133
+00:14:59,230 --> 00:15:04,540
+Under gruppa skal det sjå Olsson og så tar vi å opprette det at det kommer etter kvart.
+
+134
+00:15:04,540 --> 00:15:12,430
+Det kan dokker også da tenke på framtidig neste onsdag og i forstår slik at åkra hatt [INAUDIBLE] hvis de går her er det gutt bobs at det vår.
+
+135
+00:15:13,650 --> 00:15:17,780
+Ja. Ja, vi skal ikke gjøre det nå man men.
+
+136
+00:15:19,190 --> 00:15:22,620
+Des Jeg forstår slik at dokker har vært borti deler i tidligere.
+
+137
+00:15:22,790 --> 00:15:36,400
+Og stemmer det? EA. Utrolig at studenter bare gjort et av illere hvor dem da opprette egen gruppe og kan melde seg på gruppe mamma og.
+
+138
+00:15:37,000 --> 00:15:41,660
+Og så blir vi i sett opp til fra gruppe av ø og Ø.
+
+139
+00:15:41,940 --> 00:15:45,730
+Nordre Ille. Ille.
+
+140
+00:15:47,650 --> 00:15:55,450
+Ja, når vi har satt fristen da vi har hvert sitt tatt ned og klikk for å bli ferdig med gruppa, men erfaringsmessig raskt kapre kjøper.
+
+141
+00:15:55,450 --> 00:16:02,530
+Eksempel på iberhundreogseksti lar seg med et tilsvarende stort og hvor vi i hadde også gruppe
+
+142
+00:16:03,220 --> 00:16:09,940
+samarbeid jeg erfaringsmessig at det dermed gruppe av par ennå i gud og krefter og kropp å
+
+143
+00:16:09,940 --> 00:16:16,870
+landa så har vi ønske oss starte med ei gruppe sammensetning gang umiddelbart så i stokke jeg
+
+144
+00:16:16,870 --> 00:16:23,830
+det i veit at dokker i og en gjeng som kjem med hverandre en del og aktuelt blant endel å har.
+
+145
+00:16:26,910 --> 00:16:36,750
+Vi. Vi vi tenke at de som gruppe barn må mågande stappard et spørs bort bak i mora IB160 barn i overkant mye,
+
+146
+00:16:36,760 --> 00:16:43,070
+og de som endte alene grunnet frafall av gruppemedlem er arbeidsmengde tilsvarende en logg.
+
+147
+00:16:43,180 --> 00:16:47,350
+06:50 Det ser ut på meg som at fremgangsmåten er nokså lik.
+
+148
+00:16:47,350 --> 00:16:53,080
+Jeg ønsker å jobbe alene på bakslag. Vel, vi stort sett bruker de samme vekter som vi i bredden på 60.
+
+149
+00:16:53,970 --> 00:16:57,100
+Å ja, er det nok litt.
+
+150
+00:16:58,840 --> 00:17:10,240
+Jeg litt likte IB160 på en måte, men det er mye meir planlegging e og asså d da vi ikke.
+
+151
+00:17:11,450 --> 00:17:21,440
+Ikke før i i fase tre at vi begynne å programmere eksempeler og og man må og måtte koordinere
+
+152
+00:17:21,470 --> 00:17:27,080
+og bestemme seg om hva hvilken e hvilken med prosjektoppgave og dans ved Hamnotna?
+
+153
+00:17:28,910 --> 00:17:36,260
+Men det heilt u fullt mulig å kunne jobbe aleine står vi godtar jo grupper fra en bil ved da.
+
+154
+00:17:36,860 --> 00:17:45,379
+Jeg har også stått på våres blåskjell rase dude anta som den spørre om det kan bære gir deg er gruppe æ og
+
+155
+00:17:45,380 --> 00:17:55,490
+det tenkelig i ska gjerne ta en dialog med pk om vi eventuelt skal øke til pa 1 til 4 personer bare da.
+
+156
+00:17:56,490 --> 00:18:00,809
+Er arbeidsmengden Enok tilsvarende i logg seks stemte i.
+
+157
+00:18:00,810 --> 00:18:12,790
+Men vi har jo satt en med anbefalt forutsetning om at man har hatt I360 jeg, og for dem som har hatt det så vil jo overgangen til det ta kurs.
+
+158
+00:18:12,790 --> 00:18:16,310
+Og her var det veldig god er.
+
+159
+00:18:16,590 --> 00:18:25,040
+For dem som eventuelt ikke har hatt det, så må man regne med litt ekstra egeninnsats år å venne seg til den biten.
+
+160
+00:18:25,410 --> 00:18:32,730
+Jeg er for eksempel på hjelp av jeg andre gruppemedlemmer til å til å mestre den biten da.
+
+161
+00:18:33,870 --> 00:18:39,240
+Men som sagt. Ø. Det vil nok først og fremst være aktuelt.
+
+162
+00:18:39,540 --> 00:18:47,160
+Ask i fase tre da jeg bor mang hvor jeg bor i Bergen og 60 kommer inn som en i enda tyngre.
+
+163
+00:18:48,370 --> 00:18:53,090
+Yngre Bitteb et. Jeg har Brå og Eden.
+
+164
+00:18:54,150 --> 00:19:00,270
+Det vi ønsker av er at du ikke tenker på det så fort som mulig med gruppa, og er og en i hvertfall innen en.
+
+165
+00:19:01,080 --> 00:19:05,879
+Februar da. Vi ønsker ikke at du gjør det her Uka her eller nettsted landa gruppa han og han.
+
+166
+00:19:05,880 --> 00:19:12,120
+Hvis det har ikke fins gruppa, så prøver jeg da og tilrår det for gruppa slik at vi bare får komme videre er i kamp.
+
+167
+00:19:12,120 --> 00:19:18,329
+Vi kan nevne en ting da Pål at han i i Moves nevnte dette her med at at det var
+
+168
+00:19:18,330 --> 00:19:25,800
+mange som blei aleine grunnet frafall og sånne ting er og å bestemme litt ramø,
+
+169
+00:19:26,100 --> 00:19:33,480
+men det e derfor det er så viktig at dokker som kjem med hverandre kan lage gode gruppa sammen,
+
+170
+00:19:33,870 --> 00:19:39,660
+i stedet for at vi har nødt til å sette sammen gruppa på hvis vi tilfeldig må sette sammen gruppa.
+
+171
+00:19:40,420 --> 00:19:48,850
+E Da er sjansen for at en. Band på måte ikke merke så bra eller at at mannen var et frafall.
+
+172
+00:19:48,850 --> 00:19:55,180
+Vi i gruppa er eda større i sukker det noen som har på måtte avtalt at nok er en by.
+
+173
+00:19:55,690 --> 00:20:03,250
+Ø Går i grupper ø å tar gjerne et kjapt møte og matt og er i et mye er gruppe bistår spådom
+
+174
+00:20:03,850 --> 00:20:12,070
+er så trur vi sjansen på å ratte bra at man får frafall i i dette kurset e e mindre la.
+
+175
+00:20:15,340 --> 00:20:19,310
+Supertøff kombo. Det kan strekke i årene. Ja.
+
+176
+00:20:20,330 --> 00:20:27,740
+Etter at forsovet elleve. For oss studenter. På grunnlag da Eva det skal jeg ordne av de gjør det i gjør det i noe å peke om en eneste lake videre.
+
+177
+00:20:28,140 --> 00:20:36,650
+En bra borring gjør det jeg om det Plan. Når det er pensum har vi satt kar som jeg plansje mala og det en av kompani jeg kantete 20 med to.
+
+178
+00:20:36,650 --> 00:20:44,880
+Da skal det stå Her i logistikk implementerer vi å gå i, og det skal vi gå gjennom littegrann nå i en e time to så var sjekk at toget ser litt.
+
+179
+00:20:44,900 --> 00:20:55,639
+Er han på døra? Her ser dokker kompendiet som vi har, og vi skal gå gjennom det littegrann nå i i neste time, så det blir spennende det på mot.
+
+180
+00:20:55,640 --> 00:21:06,040
+Dette er som meg kjernen i faget. Og det vi må HD av det som er leveransen har i år fått godkjent på polsk, og så er en god godkjent.
+
+181
+00:21:06,070 --> 00:21:10,930
+En er ett prosjekt og et tema og nok en ønsker å sjå på.
+
+182
+00:21:10,930 --> 00:21:18,759
+Og det det som edalen i bransjen og som du må har godkjent for å få godkjent fase fire og for å kunne gå videre.
+
+183
+00:21:18,760 --> 00:21:26,400
+Tre E Fase to. Så fase 2DE da i all hovedsak i en.
+
+184
+00:21:28,020 --> 00:21:31,409
+I februar. Det ser vi er som det.
+
+185
+00:21:31,410 --> 00:21:41,370
+Planica planlegginga. Prosjektplanlegging, Kravspesifikasjon Trøy ordning Prosjektets og de ser på fram dit planer og metode valget og denne med to
+
+186
+00:21:41,370 --> 00:21:49,889
+da forskjellige metoder skal vi da sjå på når vi kommer i Dimitrov og se på kompendiet vi kommer til da,
+
+187
+00:21:49,890 --> 00:21:58,770
+og lag i egne kanaler for å være gruppe i TIMSS og Ås og Erik da han skal hjelpe oss å opprette disse kanalene er nå over.
+
+188
+00:21:58,770 --> 00:22:02,880
+La oss si at vi blir i 20 gruppa, så lager vi da at 20 er gruppa som en.
+
+189
+00:22:04,540 --> 00:22:07,969
+Bli. Bedre tilgjengelig.
+
+190
+00:22:07,970 --> 00:22:12,450
+Det er nå og i tillegg ser dokker at det har også laga få xx.
+
+191
+00:22:12,470 --> 00:22:18,830
+Fant det her nå. Så har i dag laga fire kanaler som er åpen for alle.
+
+192
+00:22:19,460 --> 00:22:22,760
+Vegard tok i kampen på enhver dis øre å spå TIMSS.
+
+193
+00:22:23,090 --> 00:22:29,960
+Spørsmål som har me er forskjellige fra sånne gjør det og derfor så skal vi prøve da og også kommunisere med nokre ved behov.
+
+194
+00:22:29,990 --> 00:22:34,370
+Mellom des are jeg samling han sa vi avla ed er dem fire faser,
+
+195
+00:22:35,150 --> 00:22:41,450
+så det betyr at vi har fa fire kan han han har blitt 20I gruppa da med Edvard som vi da skal opprette at det gang.
+
+196
+00:22:47,090 --> 00:22:52,549
+Så oss våre egne gitt høvleri på som er opprettes og det ville boringer opprette
+
+197
+00:22:52,550 --> 00:22:55,910
+eller så blir det casinokalendere både noe eller du skal ta et seinere.
+
+198
+00:22:57,400 --> 00:22:58,510
+Jeg har ikke gått synes jeg.
+
+199
+00:22:58,510 --> 00:23:09,850
+NOK om den rollen, og en det jo vil jo fungerer på samme måten som man har gjort I360 hvor man dafår sip egentlig tube er.
+
+200
+00:23:10,330 --> 00:23:21,250
+Men baen nå forskjellen egentlig mellom det vi skal gjøre i dette kurset og det vi har gjort e det vi gjorde IB160.
+
+201
+00:23:22,060 --> 00:23:27,520
+Det vi gjorde i BU 160, det var at vi lagde en nettside.
+
+202
+00:23:27,520 --> 00:23:35,100
+Da er. Mens i dette kurset så skal vi ikke lage en nettside.
+
+203
+00:23:35,400 --> 00:23:46,230
+Det vi skal eynden slippe ett slags data, sa Jens Prosjekt E som også krevde e kode da æ man skal.
+
+204
+00:23:47,600 --> 00:23:53,420
+Beskrive en problemstilling hvor man ønske å finne et svar og en Rana modell.
+
+205
+00:23:54,390 --> 00:24:05,180
+Ø og E For å finne svaret på en eller annen modell som dokker har beskrevet en problemstilling e, så må man da programmere.
+
+206
+00:24:06,480 --> 00:24:10,920
+Laste inn data. Man må regne på det, og så får man et e.
+
+207
+00:24:11,580 --> 00:24:17,460
+Får man et resultat som man skal kunne presentere? Så e det det de skal gjør her.
+
+208
+00:24:17,820 --> 00:24:27,240
+Ø Og å detter e jo da ekstremt e kobla inn mot n for eksempel e Ja et er litt meir logistikk
+
+209
+00:24:27,660 --> 00:24:35,760
+retta på en måte fordi at hvis man jobbe i en rana bedrift og man skal på måtte a n Ja,
+
+210
+00:24:35,760 --> 00:24:40,470
+man skal gjennomføre, lage en rapport eller å prøve å forbedre noe.
+
+211
+00:24:41,130 --> 00:24:49,140
+Så en må man typisk gå igjennom akkurat den biten som du gjør her no, gitt at man må beskrive problemet.
+
+212
+00:24:49,470 --> 00:24:58,080
+Man må finne en modell for problemet man må. Man må velge en metode for å løse problemet, og så må man implementere det med bilder,
+
+213
+00:24:58,080 --> 00:25:05,760
+data æ og det å da det spesielt den siste biten der som ofte er ganske vanskelig for studenter.
+
+214
+00:25:06,840 --> 00:25:17,160
+Men nå når vi har a i hjelp og e den, da er den muligheten mye større til stede.
+
+215
+00:25:17,580 --> 00:25:22,799
+Og vi påstår at med gode AI egenskaper så kan man kunne gjøre det.
+
+216
+00:25:22,800 --> 00:25:29,880
+Her er Geert av ABB og det e e d e moped tanken apk.
+
+217
+00:25:33,390 --> 00:25:36,570
+Bra det. Det som blir da er hovedsaken ja.
+
+218
+00:25:36,960 --> 00:25:44,760
+Og da sier vi det at det er fase tre da det i dag dobbelt delanter som andre fase altså deler er kjernen skjer asså.
+
+219
+00:25:44,760 --> 00:25:49,290
+Da skal vi lage en hoved utkast til forskningsrapport, en vitenskapelig forskningsrapport.
+
+220
+00:25:49,710 --> 00:25:58,620
+Så her har vi da fleire samlingar ser det og så vi har då samling av dem i mars og vi også samlinga i april.
+
+221
+00:25:58,890 --> 00:26:02,550
+Men de er jo også tilgjengelig i mellomtida og å.
+
+222
+00:26:03,640 --> 00:26:09,660
+Et tips og vi også vil ved behov jeg er man det da dokke fra dokker sitt initiativ så kan det også har ekstra møte.
+
+223
+00:26:09,670 --> 00:26:14,620
+Om det er en billig behov for det så kan lokke ta kontakt med meg om gå Inge og
+
+224
+00:26:14,620 --> 00:26:20,080
+jeg og Erik da som koordinator nå så kan vi sette opp et eget møte om nok ønske,
+
+225
+00:26:20,320 --> 00:26:24,760
+og da er må det kom et initiativ fra dokker da. Hvis dokker har det e det behovet.
+
+226
+00:26:26,540 --> 00:26:32,210
+Og det som skjer da i fase tre etter at hver gruppe jobbet sammen og laga et utkast.
+
+227
+00:26:32,240 --> 00:26:41,030
+Som sagt er byen gjerne billig, men dette er det så viktig å få ei lag Gruppe A kommende er problemstilling en er
+
+228
+00:26:41,030 --> 00:26:47,120
+laget er satt som det står her enn på polls selv og slik at de kommer i gang.
+
+229
+00:26:47,120 --> 00:26:53,960
+Er sikkert ikke blir så heseblesende på slutten, så det er e mye prosess å gjøre når de er prosjektgjennomføring.
+
+230
+00:26:54,860 --> 00:27:00,649
+Og hva er ikke gruppe? Skal eg gjennomføre pl tu pepervivju m valet av ende av ansvarlige.
+
+231
+00:27:00,650 --> 00:27:08,240
+Det betyr at det ellers ikke blir gruppa. Og vi har også bygd det gruppa av MA prosjekt og så skal dere eie gruppe.
+
+232
+00:27:08,510 --> 00:27:10,700
+Les gjennom og gi tilbakemelding.
+
+233
+00:27:10,940 --> 00:27:17,810
+Det er undergruppe, så e det et surge uten at jeg gjort da er jo fleire og endag gründeren enn at vi tror det er mye læring.
+
+234
+00:27:18,080 --> 00:27:20,720
+Hjelp måtte ta på seg, lære rolle og.
+
+235
+00:27:20,930 --> 00:27:28,430
+Ha et prosjekt og gi tilbakemelding på det og det Edo først og fremst viktig at det dokker så lære og ikke at faglærer da vel,
+
+236
+00:27:28,430 --> 00:27:31,999
+jeg la rett vei tror du at hadde litt Begge deler er for dette.
+
+237
+00:27:32,000 --> 00:27:37,010
+Her synes vi det er litt spennende prosjekt, så har man vent skal dokker skal lære mest mulig.
+
+238
+00:27:38,780 --> 00:27:42,080
+Dersom du er det på kommentar paringer på fase tre før de går tapas i fire.
+
+239
+00:27:48,400 --> 00:27:54,820
+Vi disse bringe har det så ser det det at da går vi til fase fire ja som med avslutning det dieda ferdigstillelse muntlig
+
+240
+00:27:54,820 --> 00:28:01,809
+presentasjon eller person muntlig eksamen da som den bak egentlig kommer i starten juni og det som er leveransen.
+
+241
+00:28:01,810 --> 00:28:09,610
+Da er jeg og la oss en rapport, og i den rapporten så kom gjerne også hva og hodet der for eksempel la I1I1 vedlegg sform.
+
+242
+00:28:11,070 --> 00:28:14,840
+Man leser om da og datter som hatt i det 160 så høres tappert litt voldsomt ut,
+
+243
+00:28:14,850 --> 00:28:22,530
+men vi ser denne over ro a i e når det gjelder å mering av hodet at du trenger ikke være nok bare er blitt alliert gode
+
+244
+00:28:22,530 --> 00:28:29,490
+ekspert for å få den e er jeg redd at de store kompliserte prosjekt det i dag det har det ikke sikkert erfaring med I160.
+
+245
+00:28:31,380 --> 00:28:44,170
+Berg. Kan jo nevne det at en atte er koden og kilde bedres noen plass og den skal kunne ligge i teppe på jorda og storm.
+
+246
+00:28:44,190 --> 00:28:51,720
+Men tenk på last opp brr og barn hvert fall ikke av kodebase.
+
+247
+00:28:52,050 --> 00:28:56,580
+Må rapport skal mamma og pappa. Og er så.
+
+248
+00:28:56,670 --> 00:29:00,059
+Så poden skal bare ligge i på glitter periode og ikke jeg.
+
+249
+00:29:00,060 --> 00:29:05,500
+Som et vedlegg i rapporten er det kategori rettsaken. Bestemme Akan.
+
+250
+00:29:06,920 --> 00:29:13,770
+O. Greit. Da går vi litt videre, foreleser han og jeg eller emneansvarlig ble det kanskje sagt.
+
+251
+00:29:13,770 --> 00:29:24,179
+Det eda med sjøl Per Kristian og Bård Inge som dokker sikkert kjenner koordinator e Erik Jeg langlå og vi finnes på TIMSS Allemanne [INAUDIBLE].
+
+252
+00:29:24,180 --> 00:29:28,110
+Inneholdet er også vitenskapelig metode og forskningsdesign, da i kvantitativ metode.
+
+253
+00:29:29,890 --> 00:29:33,879
+Og. Og det er viktig her med utforming og avgrensningen av problemstillinga.
+
+254
+00:29:33,880 --> 00:29:41,160
+Og det her skal det gå litt. Nå er jeg i gangen da i de med tro at det er viktig at vi redegjør for forutsetninger.
+
+255
+00:29:41,250 --> 00:29:45,040
+Redegjør for avgrensninger slik at ikke prosjektet bli for stort.
+
+256
+00:29:46,920 --> 00:29:52,680
+Og det for å se på basert prosjektgjennomføring og prosjektledelse, og at være alfa hasan er han.
+
+257
+00:29:52,710 --> 00:29:56,400
+Fire faser må være godkjent for å gå videre i neste fase.
+
+258
+00:29:56,670 --> 00:30:00,450
+Det for å sikre er visse fremdrift og de ikke hopes opp på slutten.
+
+259
+00:30:00,990 --> 00:30:07,860
+Og da vi snakket for seg en av cirka en måned og så to var sikker målet og fase tre da er hovedsakene eller dobbelt så lang, cirka to måneder.
+
+260
+00:30:08,640 --> 00:30:13,080
+Så vil vi prøve å finne han og k amici da godkjent ikke godkjent.
+
+261
+00:30:13,080 --> 00:30:16,469
+Det skal vi si litt nærmeste seinere man det jeg bare da.
+
+262
+00:30:16,470 --> 00:30:21,210
+Det må være såpass kvalitet på det at det tilsvarer jeg 11C eller bedre.
+
+263
+00:30:21,510 --> 00:30:27,330
+Men så kom jeg litte jeg tilbake til det jeg jeg et kva som e godkjent kriteria hvordan med respektive fasong.
+
+264
+00:30:30,400 --> 00:30:34,000
+Og er det mange der og bruke kunstig intelligens da?
+
+265
+00:30:34,000 --> 00:30:39,750
+Spesifikk og kvantitative logg er logistiske analyser.
+
+266
+00:30:39,790 --> 00:30:48,029
+Det er det som er hovedsaken. Og vi anbefale at akkurat det er grunnleggende [INAUDIBLE] innen med metodelære som matematikk og statistikk.
+
+267
+00:30:48,030 --> 00:30:52,650
+Den er først og fremst i tillegg til spesifikke logistikk [INAUDIBLE] som er sammen og 20.
+
+268
+00:30:54,370 --> 00:31:03,279
+Og Asian 200 har laget produksjonens stedplanlegging som Baringaara i tillegg til statistikk, da jeg er for eksempel matematikk VM.
+
+269
+00:31:03,280 --> 00:31:10,600
+En av de behøver ikke være det. Det kan dere aldri på av Godset. Sandaker hatt det tilsvarende balle godt også med prosjektledelse fremfor M5.
+
+270
+00:31:11,260 --> 00:31:15,370
+Jeg er for det at her skal vi da prøve og ikke bare holdt på med teori i prosjektledelse.
+
+271
+00:31:15,370 --> 00:31:18,790
+Vi skal prøve å gjennomføre spesifikt på ett prosjekt.
+
+272
+00:31:20,480 --> 00:31:23,809
+Og så tenker ikkje eg. Og veldig som tekniske problem.
+
+273
+00:31:23,810 --> 00:31:30,650
+ERINGskunnskapman er overordna og grunnleggende er for det at det vi spår at bruke da k i til dette her.
+
+274
+00:31:30,980 --> 00:31:37,220
+Og da er jeg jo da IB160 er et veldig godt fagr eller data grad tilsvarende erfaring.
+
+275
+00:31:39,510 --> 00:31:44,290
+Og en kommentar til Devold. Nei er det Har jeg sagt dette her?
+
+276
+00:31:44,290 --> 00:31:57,190
+Det nær at jeg er altså dette her kurset jeg jo etter et avsluttende kurs det samme denne tilsvarende en bacheloroppgave, men med ø.
+
+277
+00:31:57,790 --> 00:32:04,370
+Med høyre i fokus på både prosess og også hva enn vanlig,
+
+278
+00:32:04,820 --> 00:32:15,260
+pluss at viser følgende i skal løse den med å bruke k i da og så at man har en del anbefalte forkunnskaper er det jo naturlig.
+
+279
+00:32:16,450 --> 00:32:21,669
+Bare et spørsmål PK. Mulig dette er svaret på tidligere, men er dette egentlig et bagatell?
+
+280
+00:32:21,670 --> 00:32:24,190
+Dusj studenter type avsluttende bag?
+
+281
+00:32:24,200 --> 00:32:30,850
+Og hva tenker dere om av å kombinere dem med de fire andre fagene på et fjerde semester de nettopp er senere, eller?
+
+282
+00:32:32,170 --> 00:32:35,680
+Ø. Bea Asså, dette her e egentlig et.
+
+283
+00:32:35,680 --> 00:32:41,200
+Det avsluttende [INAUDIBLE] er som sagt det et typisk året der de årsstudent Dao er.
+
+284
+00:32:41,450 --> 00:32:45,430
+Men det kjøper i veien for å ta det i andre hvis man vil.
+
+285
+00:32:46,240 --> 00:32:50,200
+Dette faget her jeg opp hovedsakelig. Er en.
+
+286
+00:32:51,520 --> 00:33:01,960
+Ø. Dette er bakre eo E ett har et nettbasert sabelfag som med oppdrettere hovedsakelig bor nettbaserte studenter.
+
+287
+00:33:02,480 --> 00:33:09,700
+Ø Også og i anbefaler jeg da at dem som hadde hatt IB160 tar jo det.
+
+288
+00:33:11,520 --> 00:33:18,750
+Rett etter da med tanke på at man har kunnskapen øna er da er.
+
+289
+00:33:20,940 --> 00:33:24,839
+Og Cheap når det gjelde nettbaserte baller i logistikk.
+
+290
+00:33:24,840 --> 00:33:30,180
+Så Viggo dette her bare ett er ett AGM man har i xD ste mester da.
+
+291
+00:33:30,390 --> 00:33:33,720
+I denne idéforslaget Dagsorden Balla.
+
+292
+00:33:34,230 --> 00:33:38,190
+Legg inn søknad om på nytt hjem nå innen dere våren.
+
+293
+00:33:40,830 --> 00:33:43,890
+Vi hadde en på det date er spørsmålet er om en om.
+
+294
+00:33:44,940 --> 00:33:50,250
+Hva tenker dere om å kombinere det med fire andre [INAUDIBLE]? Vår fjerde semester i nettbasert logistikk.
+
+295
+00:33:50,790 --> 00:33:55,679
+Det går mann manne eder at hvis du skal fire [INAUDIBLE] og og det er jeg som det var,
+
+296
+00:33:55,680 --> 00:34:02,640
+sånn de skal forstå spørsmålet, så blir det ganske mye, for dette er 01:15 studiepoeng sverd og det kreve en del tid.
+
+297
+00:34:03,090 --> 00:34:07,090
+Jeg, jeg og Toki må jobbe dag jevnt og trutt for å komme videre.
+
+298
+00:34:07,110 --> 00:34:13,290
+Så hvis du er heltids nettstudent så og kan det gå og du er veldig forberedt på å jobbe mye, så kan det gå.
+
+299
+00:34:14,160 --> 00:34:21,900
+Man kan også vurdere det andre om og om å dele det opp i fleire semester, slik at ikke du bad at dokker studenter gape over for mye.
+
+300
+00:34:22,800 --> 00:34:27,000
+Det må dokker sjøl vurdere på mye tid. Du har det på mye krutt du vil brenne av.
+
+301
+00:34:28,020 --> 00:34:33,899
+Men det høres veldig mye ut, og hvis du skal han fire andre [INAUDIBLE] og det faget her, ikke legg vekk en del sånn.
+
+302
+00:34:33,900 --> 00:34:37,080
+Vi skulle forstå det da, men det må du vurdere sjøl. Da ble det litt.
+
+303
+00:34:37,080 --> 00:34:42,050
+Det krevende, det faget. Asså. Dekani kan si om det da er i hodet at.
+
+304
+00:34:43,050 --> 00:34:49,920
+Er visst bistand hvis man ser og ante siste versjonen av Saab av.
+
+305
+00:34:50,010 --> 00:34:55,680
+Hvis man ser på den foreslåtte Øberg sleiren som vi foreslo i fjor,
+
+306
+00:34:57,000 --> 00:35:06,830
+så vil det og da bli endra Ø i forhold til i år siden vi hadde noen åpne [INAUDIBLE] som ikke bad dekt.
+
+307
+00:35:08,340 --> 00:35:15,989
+I fjor når vi søkte Æ og dem har nå blitt bytta inn med ø IB160 og lodd seks samtida no.
+
+308
+00:35:15,990 --> 00:35:24,870
+Begge de to paga har nå blitt kommet inn. Ø i i den i den fagplanen som man skal ø både slå da.
+
+309
+00:35:27,930 --> 00:35:34,410
+Er lengre og mer sitt delmål, er det bedre å utnytte andre folk for åha i ved 160 barskt?
+
+310
+00:35:36,460 --> 00:35:46,710
+Ja, egentlig ja. At det i dag bare en anbefaling nok e at man ø at man så de anbefale uke at man at fleire enn.
+
+311
+00:35:48,280 --> 00:35:52,230
+Tilsvarende 30 studiepoeng er det meste lagt daa.
+
+312
+00:35:52,270 --> 00:36:00,849
+Så hvis du får liksom veldig mange par nå, så anbefal egentlig at du kan vente med noen natt som du bataø eventuelt neste år.
+
+313
+00:36:00,850 --> 00:36:08,400
+Jan Davidsen hvis du bangla poeng da. Våre ja i Anbefaler dette slottet at man tar kurset.
+
+314
+00:36:10,310 --> 00:36:13,650
+Fortløpende. Og gøy. Supert!
+
+315
+00:36:13,680 --> 00:36:19,889
+Da går vi videre. Undervisninga av det samlingsbasert. Fire faser Innsamling, parfase.
+
+316
+00:36:19,890 --> 00:36:26,400
+Det vil si at fase tre av overtro samling av dag ble at det det dobbelt så stort da fase tre og om gjennomføringa.
+
+317
+00:36:27,060 --> 00:36:31,710
+Samlingen kombinerer av korte faglig innlegg, ledninger og vei og og veiledning med.
+
+318
+00:36:31,800 --> 00:36:39,450
+Så vi ser og lytter han kosen. Det blir jeg og Oda ikke ønske så å i om bringe velge justerbar på det punktet der så jeg
+
+319
+00:36:39,930 --> 00:36:44,220
+men vi alle lagt opp som så ble en o og det kan justere oss hvordan om dokker ønsker det.
+
+320
+00:36:45,390 --> 00:36:51,990
+Mellom samlingene Arbeids hvem det selvstendig og det det viktige her fikk at det emil jobb og dokker og at det m.
+
+321
+00:36:53,090 --> 00:36:57,290
+Dåkker må jobbe ræva litt selvstendig inn mellom gruppean og home.
+
+322
+00:36:57,290 --> 00:37:03,740
+Ellers var spørsmålet mellom samlinga på TIMSS e, men det mye selvstendig arbeid for dokker.
+
+323
+00:37:05,380 --> 00:37:10,940
+Vi ville jo først og fremst i bakmaling på TIMSS da imellom de lista.
+
+324
+00:37:12,120 --> 00:37:18,909
+I mellom disse a. Det er en. Bamble gangbare da sant Bor.
+
+325
+00:37:18,910 --> 00:37:22,239
+Vi har bare løsninga seg imellom der.
+
+326
+00:37:22,240 --> 00:37:30,910
+Så foregår kommunikasjonen i at desta er så vidt og krav spesifikke det innforbi gruppa
+
+327
+00:37:30,910 --> 00:37:35,440
+lokker skal ikke spør på dem kanaler na som kommer under her but og krasjen reelle spørsmål
+
+328
+00:37:36,010 --> 00:37:40,719
+er planforslaget fortsatt så ønsker vi å komme her slik at vi må det få år et nytt faglig
+
+329
+00:37:40,720 --> 00:37:44,950
+fellesskap og at andre folk også ser det når de jeg av litt merkelig drar litt resse,
+
+330
+00:37:45,340 --> 00:37:51,910
+så bruk gjerne TIMSS og Tenggås så skal vi prøve å svare enten Erik må ringe aleri.
+
+331
+00:37:55,550 --> 00:37:56,670
+Så litt om fast materiell.
+
+332
+00:37:56,690 --> 00:38:04,340
+Et er jo et helt nytt [INAUDIBLE], og det går fort med oss med fort med det her med er og ærlig at det ikke så enkelt å finne for at vi er sånn passe.
+
+333
+00:38:04,700 --> 00:38:09,529
+Og som jeg nevnte dokker i ombord Inge, jeg jobba jo på spreng for å få te detta compan.
+
+334
+00:38:09,530 --> 00:38:13,790
+Det som i dag skal gå gjennom noe ganske snart. At det er pausa som vi begynne å nærme oss.
+
+335
+00:38:14,630 --> 00:38:21,730
+Der skal vi si litt gang om det. Jeg jeg også hadde også laget et anna forskningsprosjekt.
+
+336
+00:38:21,740 --> 00:38:25,130
+Jeg skal helle litt tittel her Forskningsprosjekt og vitenskapelig skriving.
+
+337
+00:38:25,730 --> 00:38:32,120
+Og her ser vi også at det var ganske mye ting vi skal gå gjennom, så det blir kursmateriale.
+
+338
+00:38:33,000 --> 00:38:40,830
+Og vi skal prøve å gi det ut i papirform etterkvart. Men vi skal Halvor gjennom i starten, noe som vi får komme i gang for det er at vi tar en.
+
+339
+00:38:41,990 --> 00:38:46,270
+Ø og lage av kursmateriell. ALEDedesten går av lam.
+
+340
+00:38:46,270 --> 00:38:52,480
+Vi starter litt før jul og bor inne og gjør nesten ikke at juleferie for da at første dag sensurerer vi og så bygger ledd bomber miljø.
+
+341
+00:38:53,050 --> 00:39:00,310
+Så spørsmål koffer vi gjør dette er jo det for det at vi faktisk brenner undervisning, og vi synes at ta faget har et så viktig,
+
+342
+00:39:00,310 --> 00:39:05,050
+og vi trur det blir viktig for re og uvirkelig, lære logistikk, for noe evig kjerne osv.
+
+343
+00:39:05,440 --> 00:39:09,399
+Så vi brenn for dette her, og det er nok rundt det at v frivillig er et hva vi skal si.
+
+344
+00:39:09,400 --> 00:39:16,030
+Tar på oss ekstraarbeidet at som gjør at både jula og våren bli pakka med arbeid.
+
+345
+00:39:17,570 --> 00:39:23,780
+Av det stemmene bør gå i. Tror at det er en av kunnskapen man forer etter på og iherdig e.
+
+346
+00:39:23,780 --> 00:39:30,050
+Ekstremt nyttig er å og stå der etter det regning.
+
+347
+00:39:31,230 --> 00:39:40,750
+Ø er etterspørsel etter, fordi at det å kunne bruke A I som et verktøy til å gjøre ø data,
+
+348
+00:39:40,770 --> 00:39:50,880
+sa Jens da står analytisk e m gjennomføre analytiske metoder som man ellers hadde vært milevis fra å kunne klare.
+
+349
+00:39:51,810 --> 00:39:55,740
+Asså, dette her i og i ting man vanligvis ikke svarer på.
+
+350
+00:39:55,920 --> 00:40:04,799
+Og en sjeler sant så matte etter e veldig spennende og men likevel oss ganske
+
+351
+00:40:04,800 --> 00:40:11,430
+trygge på atte atte man alle kan klare å gjennomføre dette RR med korrekt.
+
+352
+00:40:11,970 --> 00:40:20,850
+Ø Problemstilling avgrensning da i å bare ta liten kommentar før vi går inn i en siste 5 minutter av første time også.
+
+353
+00:40:20,850 --> 00:40:26,850
+Ida som ikke har en har en stand som ei opprinnelig er fysiker, lærer veldig mye av dette her.
+
+354
+00:40:27,000 --> 00:40:33,180
+Vi må presse forsøk, men det har sikkert dokker her. Man sjå bare på dette her for visits det bra at vi alt er del to.
+
+355
+00:40:33,180 --> 00:40:43,020
+Her har vi områda, og da har vi i Gap runda at det beste er med å berge den mest vanlige og mest typiske og områda innen kvantitetsaden og logistikk,
+
+356
+00:40:43,260 --> 00:40:55,680
+etterspørsel, prognoser, lagerstyring, produksjons og planlegging og planlegging og styring, nettverk, design, optimering, forsynings e kjede,
+
+357
+00:40:55,680 --> 00:41:02,070
+analyse, optimering, køteori, lage drift og ordreplukk, bærekraftig logistikk og så videre.
+
+358
+00:41:02,370 --> 00:41:08,040
+Og vi har helt ned til elleve metoder, og da får vi enda litt oversikt over fagfeltet.
+
+359
+00:41:08,460 --> 00:41:16,350
+Så vi syns det e innmari sunt og veldig lærerikt og har et sånt stort 15 studiepoeng avsluttende [INAUDIBLE],
+
+360
+00:41:16,710 --> 00:41:20,400
+for da får du virkelig satt stempel di på at du.
+
+361
+00:41:20,400 --> 00:41:26,549
+En logistikkstudent som har gjennomført ett stort logistikk på effekt og at du har litt om oversikten
+
+362
+00:41:26,550 --> 00:41:32,129
+over faget sjølv den selvfølgelig er i bergen i eller jeg dokker er det faktisk ikke bare Inge heller.
+
+363
+00:41:32,130 --> 00:41:42,900
+Har kunnskap om alle detaljer i alle områda i alle metoder man d delen skal prøve å tilegne oss og i det sammen med gåes og i gjøre at vi e så.
+
+364
+00:41:44,050 --> 00:41:53,040
+Kraftig kan gjør store gule prosjekt at det er utrolig artig da at du går panel rask rap så de går liksom BM Wimp.
+
+365
+00:41:53,170 --> 00:41:56,319
+Vi syns sjøl at dette her e veldig spennende, så i da.
+
+366
+00:41:56,320 --> 00:42:00,070
+Får vel brenne av litt krutt på det der og gir gass.
+
+367
+00:42:01,490 --> 00:42:04,870
+Så kan du jeg var lese opp jeg spørsmålet er Bolga det? Hva har nå ører?
+
+368
+00:42:04,890 --> 00:42:12,379
+Da? Er det bra. Hvem kan man spørre for å finne om hvilke [INAUDIBLE] man har tatt tidligere som kan godkjennes i lovverk?
+
+369
+00:42:12,380 --> 00:42:15,980
+Sleng Når er svar Ja, spør med bar ringe Ane jeg jeg.
+
+370
+00:42:17,510 --> 00:42:21,830
+Alle styrer koordinator også i et årsstudium i lock stick, så da kan ikke sperren bar ringe.
+
+371
+00:42:22,520 --> 00:42:29,810
+Det kan være greit også. Spør sånne ting generelt da annet på den TIMSS det kan har noen som visste ble det her e.
+
+372
+00:42:30,650 --> 00:42:33,980
+E ofte et spørsmål som andre også lurer på.
+
+373
+00:42:34,280 --> 00:42:40,339
+Og i stedet for at når du har Da kan vi 20 gruppe A og 40 pluss personer, så blir mye arbeid pågår.
+
+374
+00:42:40,340 --> 00:42:47,389
+Ingen skal svare én og en, så vi setter litt pris på om dåkker adresserer spørsmåla generelt på TIMSS og alle ser det slik at
+
+375
+00:42:47,390 --> 00:42:54,530
+svarer vi en så svarer vi alle og det veldig ofte gode spørsmål som har interesse også for for andre,
+
+376
+00:42:54,830 --> 00:42:58,390
+så spør gjerne på en ins.
+
+377
+00:42:59,270 --> 00:43:10,239
+Det jeg setter pris på. Så er det arbeidskrav en og der ser dokker at vi har fire fire faser.
+
+378
+00:43:10,240 --> 00:43:18,160
+Eg asså. Arbeids krava dreier som fra så 1 til 3 og fase fire delen reise om eksamen.
+
+379
+00:43:18,520 --> 00:43:26,740
+Når det er arbeidskrav som skal være godkjent Prosjektbeskrivelse det er få seg igjen og som bosatt gruppe polske la vi også sagt prosjektbeskrivelse,
+
+380
+00:43:27,190 --> 00:43:30,730
+så det må vi prøve å få det i løpet av det neste mål.
+
+381
+00:43:33,120 --> 00:43:35,040
+Sjå EpDs.
+
+382
+00:43:36,240 --> 00:43:44,490
+Rett skal det slå her, så tar vi også og får godkjente prosjektplan for da måtte jeg vil legge ei plan på gås moocs gjennomføre et er det fase to.
+
+383
+00:43:45,740 --> 00:43:51,530
+Så da ordboka godkjent den foregående ga videre som Aga seg godkjent hovedutkast fase tre.
+
+384
+00:43:52,770 --> 00:43:57,839
+DD og et og er hovedutkaster som som ikke er heilt ferdig produkt, men et Rådhusplassen er.
+
+385
+00:43:57,840 --> 00:44:00,960
+Vi ser at dette her kommer det opp at det kommer til å komme i mål.
+
+386
+00:44:02,720 --> 00:44:06,080
+Og deriblant også aktiv deltakelse i PV.
+
+387
+00:44:06,200 --> 00:44:12,050
+20 PV med ju Det bety at dokker skal være altså ulike sinna eller faglig likeverdige personer
+
+388
+00:44:12,260 --> 00:44:21,170
+som for dere andre grupper skjee utkast til rapport og gitt tilbakemelding e og det et veldig.
+
+389
+00:44:22,310 --> 00:44:26,380
+Lærerik prosess som når vi da bytte.
+
+390
+00:44:27,490 --> 00:44:32,460
+Portugal prosjekt mellom gruppa Han og Varegruppe skal gi tilbakemelding om hva som er bra og hva som er dårlig.
+
+391
+00:44:32,500 --> 00:44:35,530
+Hva så med Jumeirah Beach som skal gjøre et bidrag?
+
+392
+00:44:36,310 --> 00:44:41,380
+Og det er hva som er han? Tommelfingerregel bak h år slags krav eder for hva godkjent?
+
+393
+00:44:41,920 --> 00:44:45,550
+La oss si det at det omtrent det samme som å få karakteren C.
+
+394
+00:44:45,880 --> 00:44:49,140
+Enten må det de da er, vi har godkjent ikke godkjent den.
+
+395
+00:44:51,270 --> 00:44:57,240
+Terskel for å få godkjent og går seg vill du ikke får godkjent er kan både bransje gå en ekstra runde
+
+396
+00:44:57,630 --> 00:45:03,510
+og forbedrer ditt ranet basert på denne tilbakemelding av stemme Kjevoll hva skjer hvis du hvis.
+
+397
+00:45:04,020 --> 00:45:08,569
+Hvis du ikke får godkjent par ser da. Beste stemme.
+
+398
+00:45:08,570 --> 00:45:13,820
+Det er en man må være hvis man ikke får godkjent som å bade og det.
+
+399
+00:45:15,000 --> 00:45:23,030
+I tillegg er det litt damp årer slik at man får det godkjent og lense står på klarer de jo menn,
+
+400
+00:45:23,360 --> 00:45:34,339
+Men visst e ikke høre noe som helst og vitne godt og i etterlyse nøye om man ikke hører noe smell så og villmann alle ut av deg.
+
+401
+00:45:34,340 --> 00:45:37,740
+Unskyl. Vi burde vært på noe bedre.
+
+402
+00:45:37,750 --> 00:45:41,280
+Ett minutt jeg for å blåbær 13 Så skal vi ta oss pause, men jeg held på ett minutt.
+
+403
+00:45:41,290 --> 00:45:45,549
+Jeg får det vell i at juleavslutning for da er vi ferdig eksamen Det endelig god
+
+404
+00:45:45,550 --> 00:45:50,230
+e kjent rapport da med Python kode og så gruppa til MP4 da hånd sløyd med mp3,
+
+405
+00:45:50,230 --> 00:45:56,139
+kanskje 1 til 4 og så skal de prøve å få de inn i den nye eksamensprogrammet som etter hvert skal.
+
+406
+00:45:56,140 --> 00:46:01,630
+Det skal han bare Inge og ordne slik at det der står godkjent og ikke godkjent får Dan meg respektive pa sa.
+
+407
+00:46:02,290 --> 00:46:05,980
+Og så skal jeg muntlig presentasjoner med spørsmål eller eksamen om vi vil,
+
+408
+00:46:06,680 --> 00:46:10,690
+og vi må ringe og gifte oss å diskutere om dette gjøres individuelt eller på gruppenivå.
+
+409
+00:46:10,690 --> 00:46:16,450
+Det skal vi bare prate om og si gi tilbakemelding på. Jamfør diskusjon i starten i dag og få det godkjent der, så må vi.
+
+410
+00:46:16,450 --> 00:46:19,630
+Ha litt som karakteren Bella har vi av vi sagt,
+
+411
+00:46:20,140 --> 00:46:25,000
+så vi for så da kasser med det vi legge legge oppå der man at vi har de får en god presentasjon
+
+412
+00:46:25,000 --> 00:46:30,400
+det en del av prosjektet en sånn modell av huset med festen og en del av prosjekt gjennomføringa.
+
+413
+00:46:31,720 --> 00:46:40,480
+Greit da orange i mai på hjerte. Jeg gleder meg veldig til å vise dokker er kompaniet vårt som er vår Inge og ikkje har jobba som et tull.
+
+414
+00:46:40,480 --> 00:46:43,510
+Den ligger hele jula i Culpa får kanskje vår lønning himmellig.
+
+415
+00:46:43,510 --> 00:46:45,309
+Veit ikkje e for kjekt å be.
+
+416
+00:46:45,310 --> 00:46:55,060
+Tar det i hvert fall hva vi får glede av og virkelig undervise i logistikk som vi syns gir dokker en god plattform når jeg skal ut i arbeidslivet.
+
+417
+00:46:55,390 --> 00:47:00,700
+Og det i seg sjøl en er og er viktig for Me om Bard-Inge Så da har dager pause
+
+418
+00:47:00,760 --> 00:47:04,290
+og møtes kvart over ett og så bygget å går gjennom litt mer alene om hvem.
+
+419
+00:47:08,110 --> 00:47:16,160
+At stoff bare ender opp bare dårlig nyre. Ulla Stopp innspilling.
+
