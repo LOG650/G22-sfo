@@ -1,0 +1,1103 @@
+1
+00:00:02,073 --> 00:00:10,735
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+I 
+dag skal vi gå gjennom en del ting som vi hadde på agendaen, som Bård Inge
+
+2
+00:00:10,835 --> 00:00:20,278
+sendte ut i går på Kanvas. Men før det, bare et par spørsmål vi har fått, 
+som vi også har lyst til å ha med slik at andre ser det. Tror dere det
+
+3
+00:00:20,318 --> 00:00:36,750
+komplette compendiet av kantitlene-metoder kan være på plass? Hva 
+slags kommentar har du på det, Bård Inge? Ja, altså det ... Vi drukner i
+
+4
+00:00:36,810 --> 00:00:49,117
+arbeid. Så det er derfor vi ikke er ferdige ennå. Vi jobber for fullt og 
+prøver å bli ferdige så fort som mulig. Men det er vanskelig terreng å
+
+5
+00:00:49,217 --> 00:00:56,442
+love noe her og nå. Det som er clouet
+
+6
+00:00:56,482 --> 00:01:05,720
+her, er at det blir ei ganske ... Det er en stor bok, det har vi vel blitt 
+enige om, PK. Det er ganske mange sider det er snakk om her. Så det er en
+
+7
+00:01:05,740 --> 00:01:17,510
+ganske sånn omfattende sak. Men ... Skulle gjerne ha lovt noe, men jeg 
+tror det er bedre at vi sier at vi prøver å gjøre det ferdig så fort som
+
+8
+00:01:17,550 --> 00:01:25,091
+mulig, PK, slik at vi ikke skaper ... En av oss kan ta ansvaret for å gi 
+jevnlige oppdateringer, slik at det er bevegelse. Starten av neste uke
+
+9
+00:01:25,131 --> 00:01:32,053
+gir vi en oppdatering av status uansett hva som har skjedd. Om det er good 
+eller bad. Det tror jeg vi kan love.
+
+10
+00:01:49,938 --> 00:01:58,481
+Ja, bra. Det er jo supert. Det har vi i hvert fall noe av. Så neste 
+spørsmål. Skal vi levere på GitHub, blir det spurt?
+
+11
+00:02:01,442 --> 00:02:10,966
+Ja. Ja. Og der må vi ta litt sjølkritikk, da. Jambor Inge har hatt 
+bachelorstudenter tidligere. Og dere er bachelorstudenter, men det
+
+12
+00:02:11,046 --> 00:02:12,927
+er ikke bacheloroppgave, og da brukte vi Teams.
+
+13
+00:02:16,246 --> 00:02:26,890
+Men nå er dette en litt annen ball game, siden vi nå skal bruke Claude code 
+og AI. Og derfor er det mye mer hensiktsmessig å ha alt sammen på Github.
+
+14
+00:02:27,331 --> 00:02:35,474
+Så det er grunnen til at vi først oppretta mappestrukturen på Teams, og 
+så endra vi oss til Github. Så det beklager vi. Det er litt rotete fra vår
+
+15
+00:02:35,494 --> 00:02:44,994
+side, men det er verdt det i det lange løp, for at Github er det vi er nødt 
+til å jobbe på i dette sammenheng. Så svaret er Github. Må filen være
+
+16
+00:02:45,074 --> 00:02:57,502
+markdown eller Word-fil? Jeg kommer til det, egentlig. Vi skal 
+diskutere det litt. Det som er viktig her, kommer vi til i dag, da. Men det
+
+17
+00:02:57,542 --> 00:03:08,136
+som er viktig her, er at dere skal jobbe i markdown. Så når vi begynner å 
+jobbe med gjennomføringa nå, så skal vi jobbe med markdown-fila. Så det
+
+18
+00:03:08,176 --> 00:03:17,902
+blir viktig. Hva man skal levere derimot, det må vi diskutere lite 
+grann. Og det har med de nye KI-retningslinjene på Høgskolen i Molde å
+
+19
+00:03:18,082 --> 00:03:18,583
+gjøre.
+
+20
+00:03:21,905 --> 00:03:33,593
+Og jeg har ikke fått ... De er ganske ferske, kom vel for ei uke eller to 
+sida. Jeg vet ikke om det er to uker siden. Det er kommet nye
+
+21
+00:03:33,613 --> 00:03:43,899
+retningslinjer hos oss. Og skal vi se om det står når de kommer fram. Du 
+har lest en helt svart skjerm, Bård. Jeg vet ikke om det er sånn det skal
+
+22
+00:03:43,919 --> 00:03:54,445
+være? Ja, det skal være det. Vi ser om den kommer, da. Ser dere noe nå? Ja, 
+nå ser vi det. Ja.
+
+23
+00:04:01,276 --> 00:04:11,682
+Så jeg må få klargjort noen ting også sånn rent administrativt når det 
+gjelder innleveringa, da. Men uansett så skal man jobbe i markdown. Og
+
+24
+00:04:11,722 --> 00:04:19,186
+så skal jeg ... Ja. Er det pair-to-pair-ansett
+
+25
+00:04:19,246 --> 00:04:35,541
+som brukerrevy spørsmålene? Hva mener du med brukerrevy? Er 
+pair-to-pair ansett som brukerrevy? Må vi ha ... Blir det spurt?
+
+26
+00:04:38,141 --> 00:04:43,502
+Men det er det som er saken, da. Å ja, Sonja bruker review, da. Nei.
+
+27
+00:04:47,423 --> 00:04:55,484
+Det Peer to Peer-en skal gjøre, da ... Vi kommer med ei liste over 
+oppgaver man skal gjøre. Men det dere skal gjøre, egentlig, er vår jobb,
+
+28
+00:04:55,504 --> 00:04:55,544
+da.
+
+29
+00:04:59,562 --> 00:05:11,365
+Ja, men det er fordi det er veldig lærerikt å gå gjennom andres oppgaver. 
+Det er en del av faget. Det vi kommer til å komme ut med snart. For det
+
+30
+00:05:11,425 --> 00:05:23,668
+finnes sånne kriterier for å evaluere rapporten. I dette kurset skal vi 
+gjøre mer enn bare evaluere rapporten. Vi skal også evaluere
+
+31
+00:05:23,728 --> 00:05:35,214
+prosjektet og sjølve gjennomføringa. Så du har på en måte to punkt her. 
+Men når det gjelder rapporten, så har nå Høgskolen Molde utarbeida en
+
+32
+00:05:36,095 --> 00:05:36,795
+standard ... ...
+
+33
+00:05:39,157 --> 00:05:52,509
+standardmal for å sensurere bachelor- og masteroppgaver. Dette har 
+vært på masternivå. Men vårt kurs ligger på masternivå, folkens. Så det
+
+34
+00:05:52,549 --> 00:06:01,873
+må dere bare være klar over. Ved å bruke AI, så vil rapporten ligge på et 
+masternivå. Dette er ikke noe vanlige bachelorstudenter blir
+
+35
+00:06:01,913 --> 00:06:14,364
+forventa å klare å gjøre. Altså med et sterkt verktøy så kan vi levere en 
+bedre rapport. Så enkelt er det. Sånn at vi kommer til å sannsynligvis
+
+36
+00:06:14,844 --> 00:06:24,589
+bruke kriteriene for en masteroppgave. Selvfølgelig i et mindre 
+format. Vi forventer ikke at man skal levere 50-100 sider. Det kommer vi
+
+37
+00:06:24,609 --> 00:06:26,811
+også tilbake til. På ingen måte.
+
+38
+00:06:32,154 --> 00:06:43,421
+Men når det gjelder peer-to-peer, så skal ... Så hver gruppe skal lage en 
+review av en annens grupperapport.
+
+39
+00:06:45,722 --> 00:06:53,466
+Og da skal dere vurdere innholdet i rapporten i forhold til disse 
+kriteriene. Så vi kommer ut med en liste over kriterier som dere skal
+
+40
+00:06:53,526 --> 00:07:05,310
+bruke til å evaluere rapporten så langt som den har kommet. Denne 
+peer-to-peer-reviewen
+
+41
+00:07:05,350 --> 00:07:17,255
+kommer i slutten av denne fasen. Hvor vi forventer at man har kommet med 
+et utkast av rapporten. Man skal ha et utkast av rapporten. Hvis ikke
+
+42
+00:07:17,295 --> 00:07:33,134
+utkastet er ferdig, da ... Det må man være ferdig med, ikke sant? Det er et 
+arbeidskrav i dette kurset at når denne fasen her er ferdig nå, så skal
+
+43
+00:07:33,174 --> 00:07:46,280
+man ha et utkast, og man skal ha gjort en peer-to-peer review for en annen 
+gruppe. Og vanligvis så har jo IOPK gjort dette. Vi ber om å få et utkast,
+
+44
+00:07:46,360 --> 00:07:59,444
+og så går vi gjennom den. Men faktum er at det er utrolig lærerikt for 
+dere. Og gjør denne evalueringa, ikke sant. For da vil dere på en måte få
+
+45
+00:07:59,705 --> 00:08:10,173
+en lærers rolle, kall det det. Så det er veldig bra. Vi skal ikke ha noe 
+presentasjon eller sånne ting. Det vi skal ha, er en skriftlig review
+
+46
+00:08:10,253 --> 00:08:19,860
+fra dere. OK, så har vi et annet spørsmål. Så må vi ha med beleggene. Altså 
+endringsforespørsel, mal for brukerreview.
+
+47
+00:08:21,758 --> 00:08:33,827
+Format for månedlig prosjektrapporter? Altså må vi ha med disse 
+vedleggene? Ja, så vi skal kjøre ... Altså dere trenger ikke ... Altså
+
+48
+00:08:34,067 --> 00:08:42,954
+prosjekt ... Når det gjelder prosjekter, da, så er dere både 
+prosjektleder og prosjekteier, da. Vi kaller det det. Det er dere som
+
+49
+00:08:43,014 --> 00:08:56,065
+eier prosjektet, og hensikten her er at dere skal følge standard 
+prosjekt... For å planlegge rapporten. Men dere trenger ikke kjøre
+
+50
+00:08:56,225 --> 00:09:01,247
+endrings ...
+
+51
+00:09:03,788 --> 00:09:16,880
+Altså dere trenger ikke trekke akkurat endringer, for de endringene 
+gjør dere ... Som dere vil. For dere har alle rollene. Dere innehar alle
+
+52
+00:09:16,900 --> 00:09:26,462
+rollene i prosjektet. Både prosjektleder og prosjekteier osv. Dere er 
+i grupper. Men det som vi ønsker,
+
+53
+00:09:29,723 --> 00:09:41,686
+er å se et ... Vi ønsker å ha en plan, og så ønsker vi å trekke hvordan dere 
+gjennomfører planen. Slik at dere skal ha et såkalt scenario basert på
+
+54
+00:09:41,766 --> 00:09:58,721
+Baseline i et MS-project-fil. Slik at når dere har gjort et ... Når dere 
+har gjort en aktivitet ... Ikke sant? I prosjektet deres, så må dere
+
+55
+00:09:58,841 --> 00:10:00,543
+oppdatere det i ...
+
+56
+00:10:05,388 --> 00:10:15,832
+I prosjektet, slik at vi kan trekke ut hvordan dere gjennomførte 
+prosjektet i forhold til planen deres. Det er det vi krever. Vi trenger
+
+57
+00:10:15,892 --> 00:10:19,993
+ikke ha
+
+58
+00:10:20,194 --> 00:10:28,677
+månedlige prosjektrapporter og den type ting. Det blir litt overkill. 
+Selv om i et vanlig prosjekt så hadde vi selvfølgelig hatt det.
+
+59
+00:10:28,737 --> 00:10:41,039
+Endringsforespørsler trenger vi heller ikke. Har jeg lagt med disse 
+vedleggene? Ja. Vi brukte en fast sånn mal. I prosjektmalen har vi brukt
+
+60
+00:10:41,059 --> 00:10:47,482
+en fast mal, en standardmal, som innehar både endringsforespørsler og 
+...
+
+61
+00:10:51,304 --> 00:11:03,270
+alt dette. Men det tror jeg vi kan hoppe over. Det som er viktig, er at vi 
+ser hvordan dere gjennomførte prosjektet. Håper det var et greit svar,
+
+62
+00:11:03,290 --> 00:11:08,544
+syns dere? Ja,
+
+63
+00:11:08,664 --> 00:11:18,627
+det er sikkert greit. Jeg skal si ifra hvis jeg får flere spørsmål. 
+Supert. Den brukerrevyen i prosjektplanen kan fjernes? Ja, vi kan
+
+64
+00:11:18,727 --> 00:11:27,530
+fjerne ... Kan fjerne både brukerreview,
+
+65
+00:11:27,650 --> 00:11:30,871
+endringsforespørsler ...
+
+66
+00:11:32,648 --> 00:11:36,129
+Om månedlige rapporter.
+
+67
+00:11:42,890 --> 00:11:57,094
+Nå er det innleveringskvisten for fase to. Er det i dag? Det kan vi nå ... 
+Det er prinsippet i dag. Vi kan jo se ... Jeg tenker at Erik kan gå gjennom
+
+68
+00:11:57,134 --> 00:12:09,792
+og sjekke hvor mange som faktisk har levert. Og så får vi ta en oppfølging 
+på det, tenker jeg. Disse datoene er ikke sånn superharde. Vi ønsker jo
+
+69
+00:12:09,852 --> 00:12:20,235
+at alle skal klare å gjennomføre dette her. Så det vi kommer til å gjøre, 
+er at dere nå som fristen er ute, så kommer vi til å ta kontakt med de som vi
+
+70
+00:12:20,335 --> 00:12:35,019
+ser ligger bakpå, eventuelt. Eller har bare brukt for mye tid ... Vi har 
+brukt mye tid på Proposals, det er ikke uvanlig. Og
+
+71
+00:12:35,059 --> 00:12:45,008
+det tar litt tid å komme i gang. Så jeg tenker at vi tar kontakt med dem. Det 
+er ganske mange som ikke har levert fase to. Det regner jeg med. Så vi må
+
+72
+00:12:45,388 --> 00:12:59,196
+bare begynne å følge opp gruppene og pushe dem litt, tenker jeg. Sånn som 
+vi gjorde i baseen, egentlig. Gi gjerne gass og ta kontakt med Erik og lag
+
+73
+00:12:59,216 --> 00:13:08,802
+en avtale med han direkte. Om dere trenger noen dager ekstra uten en uke 
+er nok. Slik at dere kommer i gang og har en plan for når dere skal bli
+
+74
+00:13:08,842 --> 00:13:18,348
+ferdig med fase to. Iallfall en intensjon om når dere skal gjøre det. Så 
+ta gjerne kontakt med Erik og lag en avtale, så ordner det seg sikkert.
+
+75
+00:13:18,388 --> 00:13:25,268
+Kan ikke bare huskelapp til Erik skrive en ... Skriv en kunngjøring i
+
+76
+00:13:28,290 --> 00:13:42,797
+Kanvas om at de som ikke har levert så langt, må ta kontakt med oss. Det 
+viktigste er at vi får et pip fra dere, slik at vi vet at det er i live. Hvis
+
+77
+00:13:42,817 --> 00:13:58,978
+det går ukevis og vi ikke hører noe, da er vi nødt til å slå ned foten, 
+tenker jeg. Så vi er avhengige av å høre noe fra dere. Ja. Greit. Skal vi
+
+78
+00:13:59,018 --> 00:14:03,361
+bare starte på PowerPont i morgen? Da gir vi ordet til deg, så kan du bare 
+starte på PowerPont-en.
+
+79
+00:14:06,583 --> 00:14:08,724
+Ja. Jeg føler liksom ikke at jeg har hatt ordet hele tida. Ok.
+
+80
+00:14:17,787 --> 00:14:30,755
+Så denne fasen vi er i nå, det er kanskje den viktigste fasen likevel. 
+Altså det er den store fasen, da. Der det utgjør kanskje 60-70 % av hele
+
+81
+00:14:30,795 --> 00:14:42,542
+kurset. Derfor varer jo fasen også i nesten to måneder. I underkant av to 
+måneder. Så dette er en lang fase. Så dere har i prinsippet god tid. Men
+
+82
+00:14:42,562 --> 00:14:59,100
+det er jo farlig å tenke at man har god tid. Ikke sant, PG? Det er farlig? Så 
+det er lurt å komme i gang. I dag så har vi følgende agenda. Vi skal ha en
+
+83
+00:14:59,300 --> 00:15:09,643
+introduksjon til fase tre. Sjøl om vi har vært gjennom det før, så skader 
+det ikke å lese hva vi skal gjøre i denne fasen her en gang til. Så vil vi gå
+
+84
+00:15:09,703 --> 00:15:20,971
+gjennom nye KI-retningslinjer og diskutere med dere hvordan vi skal 
+forholde oss til dem i dette kurset. Det er noen uavklarte punkter her
+
+85
+00:15:21,251 --> 00:15:38,033
+som jeg må peke på og avklare med skolen før vi lander det. Men foreløpig 
+har vi en plan. Så er det oppsett av utviklingsmiljøet. De som har hatt
+
+86
+00:15:38,133 --> 00:15:50,179
+IBE 160 kjenner ganske godt til dette utviklingsmiljøet. Men det er 
+likevel noen forskjeller i forhold til IBE 160. Og så er det en del
+
+87
+00:15:50,199 --> 00:16:00,574
+likheter også. Men det hører med, og det er ikke nødvendigvis alle som 
+har hatt IB 160 heller, så vi må gjøre det. Men vi kommer ikke til å bruke
+
+88
+00:16:00,654 --> 00:16:10,837
+veldig lang tid på å sette det opp. Vi bare viser hvilke programmer vi 
+trenger, og antar at man klarer å installere det.
+
+89
+00:16:15,458 --> 00:16:29,170
+Så kommer steg fire, som handler om å generere rapport og innhold. Vi 
+skal skrive en rapport, det er hovedoppgaven vår. Det er det prosjektet
+
+90
+00:16:29,210 --> 00:16:32,952
+handler om, en forskningsrapport.
+
+91
+00:16:33,252 --> 00:16:47,400
+Som skal da svare på en bestilling, f.eks. fra et styre eller noe sånt, i 
+en bedrift eller ledelse, som ønsker å utforske muligheter i en
+
+92
+00:16:47,440 --> 00:16:57,902
+bedrift, i et case. Dette kjenner dere til. Clouet her er at vi skal 
+generere det. Vi skal bruke AI til å skrive rapporten. Og det er her vi er
+
+93
+00:16:57,942 --> 00:17:09,247
+litt i kollisjon med HI-retningslinjene, som vi skal komme tilbake 
+til. Så det må vi klarere her, uansett. Så dere kommer til å skjønne hvor
+
+94
+00:17:09,347 --> 00:17:20,690
+vi skal hen. Men vi skal jo i prinsippet generere rapporten, sånn at vi 
+forventer at det er AI-generert. Og det er jo ... Et litt kollisjon i.
+
+95
+00:17:21,271 --> 00:17:34,118
+Neste. Så kommer vi kanskje til kjernen i rapporten, som har med data og 
+modellering med KI å gjøre. Vi skal hente inn data, enten for at man har
+
+96
+00:17:34,198 --> 00:17:45,544
+fått datasett fra en bedrift man samarbeider med, eller at vi simulerer 
+dataene. For å komme i gang her, så må vi ...
+
+97
+00:17:48,674 --> 00:18:03,402
+De som skal ha simulering, må da gi lyd til oss. For det går ikke an å 
+simulere data som du sjøl, på en måte. Du må få simulert data fra oss.
+
+98
+00:18:03,782 --> 00:18:14,448
+Ellers så blir det bukken og havresekken, heller, hva skal jeg si. Hvis 
+du vet hvordan du genererte dataene dine, så er ikke analysen veldig
+
+99
+00:18:14,468 --> 00:18:14,828
+vanskelig, da.
+
+100
+00:18:18,492 --> 00:18:23,216
+Jo, jeg må prøve å få det helt uavhengig.
+
+101
+00:18:23,596 --> 00:18:35,185
+Så de som skal ha genererte data, må hagge oss på Teams, slik at vi får lagd 
+en generering av disse dataene. Du spør om vi kan bruke AI til å generere
+
+102
+00:18:35,205 --> 00:18:46,329
+data for oss? Saken er at vi kommer til å bruke AI til å generere dataene 
+for oss. Altså, vi må generere dataene. Slik at dere får et datasett som
+
+103
+00:18:47,350 --> 00:18:58,415
+kunne vært fra en bedrift, som dere i utgangspunktet ikke kjenner 
+mønsteret i. For skal man generere data ... Ingenting er helt random
+
+104
+00:18:58,435 --> 00:19:13,218
+her, da. Hvis vi skal generere data, så vil vi måtte generere dem. For å få 
+en fair situasjon. Så er det resultater, diskusjon og konklusjon, som
+
+105
+00:19:13,298 --> 00:19:26,221
+er den siste delen av rapporten. Dette er alle de områdene i rapporten. 
+Vi har gått gjennom denne rapporten i forrige gang, så jeg skal ikke gå
+
+106
+00:19:26,241 --> 00:19:36,564
+gjennom den i detalj. Men jeg skal starte å generere skjelettet, så dere 
+vil se den tilbake igjen straks. Eller i løpet av den andre eller tredje
+
+107
+00:19:36,604 --> 00:19:41,813
+timen. Men
+
+108
+00:19:41,953 --> 00:20:02,087
+det utgjør da den totale rapporten. Så vi skal prøve å prøve å gjennom i 
+dag og på onsdag, så skal vi generere et skjelett av rapporten. Som da
+
+109
+00:20:02,187 --> 00:20:15,270
+utgjør kjernen i rapporten. Og så må man begynne å jobbe videre med den 
+etter det. Så dette her er ikke ... Bare vil bare påpeke det ... At det vi
+
+110
+00:20:15,290 --> 00:20:31,573
+gjør nå i dag og på onsdag, er ikke den totale rapporten. Vi tar de viktige 
+delene av rapporten. Og så må dere fylle inn resten sjøl. Hvis ikke hadde
+
+111
+00:20:31,594 --> 00:20:43,914
+vi brukt altfor lang tid. OK, så det var noen spørsmål til innledninga? 
+Nei. Sannsynligvis. Så
+
+112
+00:20:44,094 --> 00:20:58,500
+introduksjon til fase tre. Jeg skal bare ha jukselappen min foran meg. 
+Ellers blir det ikke noe bra. Og så må jeg sjekke ... Ja, bra.
+
+113
+00:21:02,618 --> 00:21:14,784
+Vi har fram til nå gjort følgende. Vi har gjort fase én, som var en 
+proposal. Som var bare en ganske kort én til to sider med hva skal vi
+
+114
+00:21:14,824 --> 00:21:31,330
+gjøre? Hvilke problemstillinger skal vi løse? Og hvilke konsept eller 
+løsningsskisser har vi til modell som vi har zooma oss inn på. Og vi har jo
+
+115
+00:21:31,390 --> 00:21:47,479
+fått veldig mange spennende proposals, må jeg si. Utrolig viktig. Så 
+... Det ser jeg veldig fram til, faktisk. Det er mange interessante og
+
+116
+00:21:47,539 --> 00:21:58,405
+gode proposals, faktisk. Så dette er et veldig godt utgangspunkt. Nå 
+har vi kommet tidlig i mars. Min erfaring er det. Det er ikke så uvanlig.
+
+117
+00:21:59,099 --> 00:22:13,548
+At man fremdeles, i tidlig mars, ikke helt har landa proposalen sin i en 
+bacheloroppgave. Det er vanskelig for studenter å
+
+118
+00:22:14,948 --> 00:22:30,444
+kunne beskrive oppgaven sin på en god måte. Sett i lys av det, så er vi ikke 
+sånn ... veldig ... Off track, for å si det sånn. Egentlig er vi ganske on
+
+119
+00:22:30,484 --> 00:22:43,492
+track. Fordi de aller, aller fleste har fått levert forslag. Og så 
+henger vi etter på prosjektplanlegginga, som var da fase to. Som var da
+
+120
+00:22:43,552 --> 00:22:48,454
+en prosjektplan, plusskant. Men jeg tror likevel vi skal kunne ...
+
+121
+00:22:51,376 --> 00:23:01,539
+Vi skal kunne ... At gruppene skal kunne klare å gjennomføre nå, da. På 
+ganske kort tid, da. Det er ikke verdens vanskeligste del likevel, da.
+
+122
+00:23:01,979 --> 00:23:13,285
+Men det er en viktig del. Og litt av grunnen til at dette er en viktig del, 
+skal jeg komme tilbake til snart. Men det handler om at A1 skal lese
+
+123
+00:23:13,325 --> 00:23:24,350
+prosjektplanen vår og lese Gant-diagrammet vårt. Og da veit A1 hva de 
+skal gjøre. Og det er viktig. Så planen, folkens ...
+
+124
+00:23:27,001 --> 00:23:29,022
+Vi har en ... skal vi se.
+
+125
+00:23:32,164 --> 00:23:41,409
+Dette er jo bra for oss. Som
+
+126
+00:23:41,449 --> 00:23:45,712
+skal gjennomføre prosjektet, men det er enda bedre for å ha en.
+
+127
+00:23:56,532 --> 00:24:14,404
+Vi vet i hvert fall om en av dere som er her i dag, som er veldig dyktig i bruk 
+av AI. Og som vil bruke hvor AI-en genererer alt dette her også. Det er et
+
+128
+00:24:14,464 --> 00:24:22,250
+litt avansert nivå, men denne biten her kan også genereres av AI.
+
+129
+00:24:30,653 --> 00:24:33,636
+Så
+
+130
+00:24:33,676 --> 00:24:44,586
+muligens. Vi skal komme litt inn på det etter hvert. Men vi har i hvert 
+fall antatt nå at de fleste begynner å bli ferdig med fase to. Hvis de ikke
+
+131
+00:24:44,606 --> 00:24:49,150
+er ferdige, så må de bli ferdige. Og vi må ha et fungerende Gant-diagram.
+
+132
+00:24:59,408 --> 00:25:09,416
+Vi antar nå at vi har gjort det. Hvis man ikke har gjort det, så må man gjøre 
+det. Ta kontakt med Erik, som sagt. Nummer to. Vi skal nå gjennomføre
+
+133
+00:25:09,476 --> 00:25:15,380
+planen med tracking av prosjektet. Det kalles et såkalt scenario inne 
+på MS Project.
+
+134
+00:25:21,093 --> 00:25:31,035
+Og da tar jeg egentlig bare opp igjen den fasen som vi gikk gjennom sist 
+gang. Så dette er egentlig repetasjonen av forrige powerpoint vi hadde
+
+135
+00:25:31,075 --> 00:25:43,017
+i februar. Så fase tre gjennomføring. Den er fra 9.3 til 27.4. Vi skal da 
+ha en introduksjon pluss problemstilling. Vi skal ha teori og
+
+136
+00:25:43,057 --> 00:25:54,846
+litteratørsøk. Vi skal ha en casebeskrivelse og datainnsamling og 
+modellering. Med KI-implementasjon. Vi skal da presentere og
+
+137
+00:25:54,886 --> 00:26:08,196
+analysere resultatene. Vi skal da kjøre modeller og dokumentere 
+funnene vi har gjort. Så dette er jo da klassiske steg i en vitenskapelig
+
+138
+00:26:08,317 --> 00:26:29,020
+rapport. Og det å gjerne ... Det er dette steget her som ofte er ... Her må 
+vi bruke kode, da. Det er det vi kommer til å lande på. Men avanserte
+
+139
+00:26:29,060 --> 00:26:32,122
+brukere kan også bruke mer ...
+
+140
+00:26:34,063 --> 00:26:42,408
+Altså, hvis tida er avgjørende her ... Når man skal løse disse 
+modellene, så vil avanserte brukere bruke et annet
+
+141
+00:26:42,448 --> 00:26:51,193
+programmeringsspråk, som kalles C++, som er mye mer effektivt, da. Men 
+vi skal forholde oss til Python, og jeg tror det skal være godt nok til
+
+142
+00:26:51,233 --> 00:26:54,626
+våre ... Til vårt bruk, da.
+
+143
+00:26:58,767 --> 00:27:09,289
+Til slutt skal du ha en diskusjon. Tolkefunn mot teorien. En klassiker i 
+en vitenskapelig rapport. Når man går gjennom teori- og
+
+144
+00:27:09,329 --> 00:27:20,948
+litteratursøk, vil man få en forventning. Man forventer hva skal ... 
+Hvordan tror vi denne modellen vil svare på problemstillinga? Og så
+
+145
+00:27:20,988 --> 00:27:29,191
+skal vi, etter at vi har gjort analyse og resultater, diskutere 
+hvorvidt
+
+146
+00:27:29,311 --> 00:27:39,974
+analysen svarte til forventningene. Er det sånn at modellen faktisk sa 
+det, eller gjorde det, svarte på det vi trodde den skulle svare på. Så det
+
+147
+00:27:39,994 --> 00:27:50,113
+er jo da viktig. Og så skal vi også gjøre peer-to-peer-reviewen av en 
+annen gruppes utkast. Vi har ikke kommet så langt ennå at vi har noen
+
+148
+00:27:50,193 --> 00:28:02,336
+organisering på det. Men dette er mot slutten av fasen. Sannsynligvis
+
+149
+00:28:02,396 --> 00:28:02,816
+er det frist ...
+
+150
+00:28:09,640 --> 00:28:19,187
+Som er slutten på fasen. Når vi kommer med kriteriene og en mal for å gjøre 
+reviewen, kommer da.
+
+151
+00:28:45,483 --> 00:28:49,728
+Sannsynligvis
+
+152
+00:28:50,268 --> 00:29:07,803
+sånn ... Akkurat når ... Sorry, folkens. Vi kan ikke love, fordi det er så 
+mye som foregår hos oss akkurat nå. Men det kommer. Milepælen er
+
+153
+00:29:07,843 --> 00:29:20,889
+godkjent hovedutkast pluss peer review. Det er vi som godkjenner 
+hovedutkastet. Men dere skal bruke reviewen til å forbedre. Så NB, dere
+
+154
+00:29:20,909 --> 00:29:21,629
+skal bruke review.
+
+155
+00:29:37,863 --> 00:29:45,088
+I fase fire, da. For å ... forbedre ...
+
+156
+00:29:49,010 --> 00:30:01,458
+rapporten, sant? Dere skal jo da selvfølgelig bruke den reviewen og 
+forbedre rapporten. Gjort av en annen gruppe.
+
+157
+00:30:01,998 --> 00:30:10,216
+Så bare for ... Kompletthetens skyld, fase fire, avslutning.
+
+158
+00:30:10,256 --> 00:30:27,821
+Innleveringsfristen er 31.5. Her må dere konkludere og verifisere at 
+problemstillinga er svart på. Introduksjonen må ferdigstilles,
+
+159
+00:30:27,861 --> 00:30:39,542
+typisk så kommer den til slutt. Kvalitetssikring og korrektur og 
+referanselister, alt må kvalitetssikres. Det i denne fasen her er
+
+160
+00:30:39,622 --> 00:30:41,043
+arbeidskrevende for dere.
+
+161
+00:30:46,585 --> 00:30:55,149
+Arbeidskrevende, vil jeg si. Fordi det er dette det er finpussen, kan vi 
+kalle det.
+
+162
+00:30:59,808 --> 00:31:16,681
+Min erfaring - nå skal jeg bare være ærlig fra levra, ikke det, heter det - 
+at mange havner bakpå og kommer i et sånt skippertak. Ofte skippertak
+
+163
+00:31:16,721 --> 00:31:16,861
+her.
+
+164
+00:31:20,845 --> 00:31:22,446
+Og det skal vi unngå, folkens.
+
+165
+00:31:26,774 --> 00:31:32,179
+Og hvordan skal vi unngå det? Jo, og dette må vi unngå, da. Må unngå oss.
+
+166
+00:31:37,223 --> 00:31:43,788
+For det første, så skaper det, sånn som tidligere, da når vi har 
+bacheloroppgaver og sånne ting, så skaper det et voldsomt trykk på oss.
+
+167
+00:31:44,329 --> 00:31:54,497
+Fordi vi må hjelpe studenten i en stressende periode, fordi studenten i 
+utgangspunktet ikke har gjort alt han skal tidligere. Så det hopes opp
+
+168
+00:31:54,517 --> 00:32:04,165
+da i mai. Det må vi unngå. Og måten vi unngår det på, det er godkjenning av 
+fase tre.
+
+169
+00:32:10,908 --> 00:32:20,453
+Så de som ikke har gjort jobben i fase tre, de kommer ikke videre til fase 
+fire. Så enkelt er det. Her må vi være litt harde. For hvis ikke, så lander
+
+170
+00:32:20,533 --> 00:32:26,022
+arbeidet på oss tre fremfor dere. Så
+
+171
+00:32:29,585 --> 00:32:41,915
+broparten av jobben som skal gjøres, den skal gjøres nå i de to neste 
+månedene. Og så skal finpussen gjøres i mai. Ikke omvendt. Ikke surfe
+
+172
+00:32:41,975 --> 00:32:55,640
+nå. Og så kommer grovarbeidet i mai. Det må vi unngå, det skal vi ikke ha. 
+Dermed setter vi et krav på ... Husk, kravet for å få godkjent noe her, det
+
+173
+00:32:55,700 --> 00:33:00,462
+er C-krav. Krav for godkjent ...
+
+174
+00:33:05,424 --> 00:33:19,716
+Godkjente godkjent er C. Så det er C-krav for å få godkjent for å komme 
+videre. For å få godkjent på hele kurset, så var det et B-krav. Krav for
+
+175
+00:33:19,756 --> 00:33:34,184
+godkjent fase to, da ... fase tre. Ja. Så fasene er et C-krav, da, slik at 
+det er litt lavere. Det er riktig. Så for å få godkjent
+
+176
+00:33:34,465 --> 00:33:45,075
+arbeidsoppgavene, så må dere ha en C. Hvis vi synes at dette er dårligere 
+enn en C, da er det ikke godkjent. Da kommer dere ikke videre til fase
+
+177
+00:33:45,115 --> 00:33:56,679
+fire. Det kravet må vi være hard på, og det er også en av grunnene til at vi 
+har et At vi bruker skikkelig prosjektplanlegging her, slik at man skal
+
+178
+00:33:56,819 --> 00:34:00,502
+sikre seg at vi rekker å gjøre alt sammen.
+
+179
+00:34:04,465 --> 00:34:16,414
+Pluss at vi også må ha en viss integritet i dette kurset. Dette er et 
+avsluttende kurs. Det er et ... Det skal vise en selvstendig arbeid og
+
+180
+00:34:16,474 --> 00:34:35,383
+skal vise en ferdighet som er verdifull. Og vi må ha visse krav til dette. 
+Så der er lista vår, da. På den måten skal vi unngå dette skippertaket.
+
+181
+00:34:35,423 --> 00:34:37,884
+Hvis vi får en sånn halvgjort
+
+182
+00:34:41,767 --> 00:34:54,696
+og dårlig utkast, altså hovedutkastet her ... Hvis det er noe dårlig og 
+ligger under en C, da kommer man ikke videre. Så her må man jobbe i løpet av
+
+183
+00:34:54,736 --> 00:35:01,341
+de neste to månedene. Jeg håper det er tydelig og folk veit
+
+184
+00:35:04,803 --> 00:35:09,307
+det. Når man er ferdig her, så er det innlevert rapport. Den er 31. mai.
+
+185
+00:35:15,025 --> 00:35:18,326
+Da
+
+186
+00:35:18,427 --> 00:35:29,091
+lukker vi Github-repanda.
+
+187
+00:35:29,672 --> 00:35:40,616
+Som PK var inne på tidligere, vi skal bruke Github. Vi ønsker å ha alle 
+leveranser fra dere i Github, og vi lukker dem etter 1. mai. Det betyr at
+
+188
+00:35:40,656 --> 00:35:51,978
+da kan dere ikke gjøre endringer på dem etter det. Det er da siste frist. 
+Og så kommer muntlig presentasjon ... Kommer i
+
+189
+00:35:55,399 --> 00:35:55,699
+juni.
+
+190
+00:35:58,460 --> 00:36:00,821
+Og her setter vi opp lister, da.
+
+191
+00:36:03,802 --> 00:36:19,686
+Og hvordan var det ... fungerte der? Du får da ... Dette er en godkjent, 
+ikke godkjent. Så hvis du har fått godkjent på rapporten og det
+
+192
+00:36:19,726 --> 00:36:28,370
+skriftlige og innleveringa, hvis du har en veldig dårlig muntlig, kan 
+du da totalt sett feile? Det blir en helhetsvurdering.
+
+193
+00:36:31,712 --> 00:36:35,753
+Altså de to sammen her, sant?
+
+194
+00:36:37,754 --> 00:36:38,635
+Den pluss den
+
+195
+00:36:41,536 --> 00:36:50,440
+må tilsvare ... Det
+
+196
+00:36:50,460 --> 00:37:04,012
+er sånn vi godkjenner oppgaver. Vi har ikke per i dag satt noen 
+vektlegging mellom muntlig og skriftlig del. Men det som jeg bruker å
+
+197
+00:37:04,132 --> 00:37:21,863
+gjøre, da ... Sånn i ... I andre fag som har en skriftlig del og en muntlig 
+del, er det at den skriftlige delen er klart størst. Og den må telle mest.
+
+198
+00:37:22,323 --> 00:37:41,755
+Vi kan ikke ha de to likestilte. Og det i bruke og sie er at i dette 
+tilfellet skal vi bare ha en B eller bedre. Og det betyr at hvis man ligger
+
+199
+00:37:41,815 --> 00:37:53,598
+på en B ... Altså, den muntlige kan trekke dere ned ett steg, da. Ikke 
+sant? Nei, vi er litt usikre her, PK. Vi må diskutere dette her, da. Ja, vi
+
+200
+00:37:53,618 --> 00:38:02,660
+må diskutere det litt. Det er totalt sett en helhetsvurdering der det 
+skal være en veldig solid innlevering skriftlig etter 1. mai. Og det
+
+201
+00:38:02,680 --> 00:38:14,961
+skal være en god og solid presentasjon. Det er det vi kan si, da. Det er 
+vanskelig å vekke dette, om det er 70-30 eller hva det er. Men det som er
+
+202
+00:38:15,021 --> 00:38:26,065
+saken her, da, er at man kan ha ... Det som jeg tror er helt åpenbart her, er 
+at man kan ha en rapport som er godkjent, men man kan få ikke godkjent hvis
+
+203
+00:38:26,145 --> 00:38:33,608
+den muntlige presentasjonen er for dårlig. Så det er en mulighet. Ja, så 
+det er nok den vi kommer til å legge oss på.
+
+204
+00:38:37,627 --> 00:38:49,809
+Men hvis rapporten ikke er godkjent, så er det ikke umulig å få godkjent 
+ved å forbedre muntligheten. Du er nødt til å få godkjent rapporten 31.
+
+205
+00:38:50,089 --> 00:39:00,391
+mai for å få tilgang til eksamen. Det er et krav. Så du er nødt til å få 
+godkjent den. Hva gjør vi med sensitive data som ligger inne med Git
+
+206
+00:39:00,431 --> 00:39:09,191
+Ignore når dere lukker Refo for å vurdere? Vi har en del data som er 
+unntatt offentlighet. Ja ...
+
+207
+00:39:12,033 --> 00:39:16,116
+Det er et godt spørsmål. Dette med ...
+
+208
+00:39:21,120 --> 00:39:40,862
+unntatt offentligheten, da er det i prinsippet at vi må gjøre Repo om til 
+et privat et. Utfordringa med det er at det koster cash. Github har jo
+
+209
+00:39:40,942 --> 00:39:45,603
+også åpne prosjekter. Så ...
+
+210
+00:39:50,924 --> 00:40:00,927
+Ja. Mitt forslag er følgende, og dette må vi skrive ned slik at de får det 
+med seg. Men Erik, kan ikke du ta en liten notat på at dette skal vi legge ut
+
+211
+00:40:00,967 --> 00:40:01,607
+en kunngjøring på?
+
+212
+00:40:04,853 --> 00:40:21,207
+Så det dere skal gjøre når dere har sensitive data, er at dere skal ikke 
+laste dem opp på GitHub. Dere skal ha dem på maskinene deres lokalt. Det
+
+213
+00:40:21,607 --> 00:40:28,433
+er så viktig at det må vi nesten skrive ned. Men lag en kunngjøring på det 
+du, Erik. Sensitive data
+
+214
+00:40:31,735 --> 00:40:53,585
+skal ikke lastes opp. Eller pushes opp til gitteren. Så de skal kun ligge 
+på din lokale maskin. Lokal PC. Da er du ansvarlig sjøl for å passe på at
+
+215
+00:40:53,625 --> 00:41:09,090
+dataene er trykt bevart, da. Så det er et spørsmål til, før vi tar pause, 
+for nå er det litt pause, da. Når det gjelder muntlig eksamen, og du er i en
+
+216
+00:41:09,110 --> 00:41:20,301
+gruppe på fire, er det et absolutt krav at alle fire er nødt til å være med 
+da, eller er det nok at bare noen er med? Alle må ha en muntlig del. Om det
+
+217
+00:41:20,341 --> 00:41:31,246
+blir en gruppemuntlig del, eller om det blir en personlig del, kanskje 
+vi skal prøve en gruppe denne gangen. Det kan hende vi må gjøre det. Hvis
+
+218
+00:41:31,286 --> 00:41:41,869
+det er gruppe, så blir det gruppe. Det må vi diskutere, men det er det det 
+kanskje blir. Hvis det er gruppe på fire, og det bare er tre som møter, hva
+
+219
+00:41:41,889 --> 00:41:51,711
+da? Det vil være et problem. Vi får ta problemet når det kommer, når det 
+gjelder å finne en dato som passer for alle. Så der blir det litt
+
+220
+00:41:51,871 --> 00:42:00,912
+administrativt greier, en kabal, for å få det til i juni. Det må vi og Erik 
+fikse. Men vi får ta det når den tid kommer. For utgangspunktet er at alle
+
+221
+00:42:00,952 --> 00:42:11,334
+må være med. Ingen kan slutte unna den muntlige delen. Så er dere en 
+gruppe, så er dere en gruppe. Ikke alt er klarlagt dessverre her, men
+
+222
+00:42:11,354 --> 00:42:24,055
+IHPK, vi skal diskutere det, og vi skal lande på en ... En tydelig måte å 
+gjennomføre muntlig eksamen på. Om vi skal ha individuell eller
+
+223
+00:42:24,335 --> 00:42:32,512
+gruppebasert, det får vi se. Bare en liten ting før vi tar pause, for nå 
+skal vi ta pause. Bare helt til slutt. Dette er altså et helt nytt fag. Og
+
+224
+00:42:32,552 --> 00:42:40,963
+det er et helt nytt fag som kommer i kjølvannet av et helt nytt verktøy som 
+verden har fått, nemlig kunstig intelligens. Og du ser så fort ting går.
+
+225
+00:42:40,983 --> 00:42:49,454
+F.eks. at retningslinjene som Høgskolen i Molde har gitt ut, er altså 
+omtrent ei uke gamle. Det er bare noen dager siden Jan Bård Inge fikk vite
+
+226
+00:42:49,474 --> 00:43:02,436
+om det. Det er veldig nybrottsarbeid, og derfor er deler av det 
+uoppklart. Men jeg mener at vi er innmari up front i det faget her. Det å
+
+227
+00:43:02,556 --> 00:43:12,363
+bruke AU-en på den måten vi har gjort her, som agent-mat, det er en helt 
+annen ball game enn det å bare sette med GPT. Sånn som både jeg og sikkert
+
+228
+00:43:12,383 --> 00:43:24,829
+dere har gjort det før. Men det å kunne bruke det som agent til å koble ... 
+Claude Code direkte mot både koden vår, Pyton, LaTeKen, worden vår,
+
+229
+00:43:24,869 --> 00:43:31,294
+prosjektet vårt, rapporten vår, det er noe annet enn å bare holde på og 
+sette litt frem og tilbake med GPT.
+
+230
+00:43:34,256 --> 00:43:43,083
+Greit. Vi svarer på det spørsmålet etterpå, fordi vi er litt på overtid. 
+Så jeg foreslår det. Vi tar pause til hvert år, for det trenger vi. Og så
+
+231
+00:43:43,363 --> 00:43:45,024
+møtes vi da 13.15 og fortsetter da.
+
+232
+00:43:51,957 --> 00:43:52,369
+Greit.
+

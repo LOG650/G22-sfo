@@ -1,0 +1,1532 @@
+1
+00:00:02,073 --> 00:00:07,935
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Dagens 
+andre time. Vi satser på at det blir andre og siste før vi tar påskeferie.
+
+2
+00:00:08,595 --> 00:00:11,756
+Og ...
+
+3
+00:00:12,517 --> 00:00:24,621
+Vi har kommet inn et spørsmål her. Hvordan kan pytonkoden som er 
+generert etterprøves med nytt datasett? Jeg er litt usikker på hva som
+
+4
+00:00:24,661 --> 00:00:25,461
+menes ...
+
+5
+00:00:32,482 --> 00:00:40,648
+Men koden finnes jo her, da. Den finner du under 06analyses.
+
+6
+00:00:42,609 --> 00:00:51,076
+Aktiviteter. Dette var jo den viktige filstrukturen vi snakka om. Hvor 
+vi har en ganske god
+
+7
+00:00:53,597 --> 00:01:08,005
+struktur på hva som gjøres og sånne ting. Både med figurer, resultater 
+og scripts. Her er jo Python-koden. Som følger jo den samme strukturen
+
+8
+00:01:08,065 --> 00:01:19,410
+hele tida når han kjører en aktivitet. Han følger her rett og slett 
+planlegginga? Dette er ekten? Ja, riktig. Så han får altså
+
+9
+00:01:19,450 --> 00:01:32,724
+kapittelinndeling, eller subsection-inndeling, da, i henhold til 
+planlegginga? Ja, det er riktig. Og ... Om du kan etterprøve koden ...
+
+10
+00:01:33,184 --> 00:01:43,812
+Denne koden er spesifikt generert for akkurat dette caset. Så når du 
+skal gjøre ditt case, så får du en helt annen kode med helt andre modeller
+
+11
+00:01:43,852 --> 00:02:00,461
+osv. Men poenget er at du har en generert Python-kode. Og da sier vi 
+gjerne det at ... At koden er generert og kan gis ut etter behov, da. Kall
+
+12
+00:02:00,481 --> 00:02:10,128
+det det. Etter ønske. Etter ønske, ja. Så kan jo noen ... Hvis noen har 
+lyst til å utfordre om Python-koden er korrekt eller ikke, så må man ...
+
+13
+00:02:12,170 --> 00:02:24,195
+Så har man koden man kan etterprøve, da, som ... Som du sier. Men som sagt, 
+denne er veldig spesifikk for keisere. Så det er vanskelig på en måte å
+
+14
+00:02:25,936 --> 00:02:33,419
+bruke koden til et helt annet case, på en måte. Det er veldig avhengig av 
+caset ditt, egentlig.
+
+15
+00:02:36,781 --> 00:02:48,186
+Det er denne metodikken som er viktig, og ikke sjølve koden. Men koden er 
+jo viktig for å påpeke korrektheta, kall det det. All right. Jeg vet ikke
+
+16
+00:02:48,206 --> 00:02:54,086
+om det var et godt svar, Thomas, men det var så ... Det beste jeg klarte å 
+tolke ut fra spørsmålet ditt.
+
+17
+00:03:00,128 --> 00:03:06,170
+OK. Så har jeg nå, som dere husker, så har jeg splitta opp ...
+
+18
+00:03:10,331 --> 00:03:16,313
+Så splitta jeg opp aktivitetene. Så la oss ta en titt på dem nå.
+
+19
+00:03:21,923 --> 00:03:24,484
+Det står kapittel 1, 2, 3, 8, 9
+
+20
+00:03:28,526 --> 00:03:38,730
+og 10. Men jeg ønsker ikke å ha det i den rekkefølgen der. Jeg ønsker først 
+å ta kapittel 9, så ta 8. Så kan jeg gå til innledning.
+
+21
+00:03:53,902 --> 00:04:05,133
+Jeg må bare si hva det er. Vi bruker litt, som dere ser, ganske mye tid på 
+prosjektledelse.
+
+22
+00:04:05,153 --> 00:04:15,041
+Kall det det. Det er det jeg driver med nå. Jeg styrer prosjektet mitt. Og 
+det er faktisk viktig, og det er en stor del av kurset også. Det er ikke
+
+23
+00:04:15,202 --> 00:04:25,790
+bare å skrive rapporten, man skal også styre prosjektet. Så det er en 
+stor del av hele faget, egentlig. Og derfor er det helt OK å bruke tid på
+
+24
+00:04:25,830 --> 00:04:32,015
+dette. Så i den fila lar vi prioritere.
+
+25
+00:04:39,532 --> 00:04:52,859
+Vurder
+
+26
+00:04:52,959 --> 00:04:55,461
+om du skal ... endre akt i det ... at den gjenspares.
+
+27
+00:05:09,350 --> 00:05:14,154
+Eller gjennomføringsdekkefølgen,
+
+28
+00:05:14,174 --> 00:05:25,523
+da. Så jeg ønsker egentlig at en skal flytte kapittel åtte og ni opp. For 
+innledning skriver du. Og innledning og litteratur og teori og sånne
+
+29
+00:05:25,563 --> 00:05:40,736
+ting, det skriver du gjerne når du er ferdig med ... Altså det ... Nå har 
+jeg gått rett på modell, løsning. Og resultat og diskusjon. Så vi går på
+
+30
+00:05:40,796 --> 00:05:50,345
+hjertet først. Og så skriver vi innledning og sånne ting. Så legg merke 
+til det. Når du følger f.eks. Compandy om akademisk skriving
+
+31
+00:05:50,505 --> 00:05:58,547
+kronologisk, så presenterer du det i den rekkefølgen en rapport gjør. 
+Med overskritt, abstrakt, innledning, teori, litteratur. Og hva
+
+32
+00:05:58,587 --> 00:06:08,669
+kommer i kronologisk rekkefølge. Men rekkefølgen vi som skriver 
+rapporten, er egentlig omvendt. For da starter vi med kjernen. Med
+
+33
+00:06:09,250 --> 00:06:19,616
+analyse og resultat og diskusjon og konklusjon. Så vi starter med det 
+som er sist. Og når vi er ferdige med kjernen av rapporten, som er slutten
+
+34
+00:06:19,656 --> 00:06:27,164
+av rapporten, da går vi i begynnelsen. For da vet vi hva vi skal si i 
+innledninga. Så vi er nødt til å bli ferdige med hovedsaken. Så legg
+
+35
+00:06:27,204 --> 00:06:37,850
+merke til det at gjennomføringa er en annen rekkefølge enn den 
+kronologiske i en rapport. Ja, det er viktig, det. Og det kunne vi ha hatt
+
+36
+00:06:37,890 --> 00:06:45,952
+som et sånt endringspunkt i sjølve Kompendia-PK. At vi kunne ha 
+spesifisert det der. Faktisk. Ja, det kunne vi. Kanskje vi skulle ha
+
+37
+00:06:46,012 --> 00:06:49,072
+skrevet det ned til oss, så vi ikke glemmer det. Ja, jeg skal prøve å ...
+
+38
+00:06:56,794 --> 00:07:03,955
+Så skal vi se. Han brukte lang tid på å planlegge dette. Jeg syns det var 
+egentlig ganske grei sak. Men, men.
+
+39
+00:07:08,327 --> 00:07:18,816
+Vi kan se på rapporten imens. For den var litt interessant.
+
+40
+00:07:19,977 --> 00:07:20,837
+Den
+
+41
+00:07:26,842 --> 00:07:39,927
+deler opp svakheter og forbedringsforslag. En svakhet er kobla til V. 
+Mens et forbedringsforslag, det tror jeg er F. Og alle disse
+
+42
+00:07:40,147 --> 00:07:47,351
+F-endringene her, da. Nå er vi i reviewen, altså. De er egentlig mer ...
+
+43
+00:07:51,773 --> 00:08:01,479
+De er mer forslag til drøftinger, ser dere. Det er snakk om drøfting der. 
+Diskusjonskapitlet. Ikke sant? Sånn at dette er liksom ting som kommer
+
+44
+00:08:01,539 --> 00:08:14,884
+i neste steg. Og da må vi på en måte over ... Jeg ønsker ikke at vi skal 
+begynne å gjøre disse F-ene her nå. For vi har ikke skrevet kapittel 9
+
+45
+00:08:14,924 --> 00:08:29,133
+ennå. Dette er informasjon som burde bli med inn når vi skal planlegge 
+kapittel 9. Ga det mening for deg òg? Ja, jeg tror det. Mens disse V-ene
+
+46
+00:08:29,153 --> 00:08:39,726
+her, det er faktiske endringer som vi bør gjøre her og nå. Da har jeg 
+forberedt
+
+47
+00:08:42,047 --> 00:08:57,655
+denne og sagt ifra. Der står det kritiske filer. V1, V2 og V3, hvem skal 
+gjennomføres? Mens legg til F1 til F4 som aktivitet 3-5 sjekkpunkter,
+
+48
+00:08:57,675 --> 00:09:00,957
+da. Nå håper jeg at 3-5 blir ...
+
+49
+00:09:06,477 --> 00:09:08,258
+Håper at 3-5 nå blir
+
+50
+00:09:11,841 --> 00:09:20,128
+kapittel 9. Vi kan kjøre den først. Litt komplisert, dette her. Men det 
+er viktig å kjøre det i riktig rekkefølge nå. Først så endrer vi
+
+51
+00:09:20,529 --> 00:09:34,200
+aktivitetene. Så må vi overføre disse F-forslagene til riktig 
+aktivitet. Når vi starter den, så tar den med seg disse aktivitetene.
+
+52
+00:09:34,574 --> 00:09:45,348
+Forslaga fra review, da. Eller så går de i glemmeboka, da. Alle disse 
+f-ene her, det handler om diskusjonskapitlet, ser dere.
+
+53
+00:10:18,533 --> 00:10:19,714
+Skal vi
+
+54
+00:10:30,383 --> 00:10:43,875
+se. Ja. Så da ... Nå venter vi bare på at den skal ordne statusfiler. Slik 
+at det står kapittel ni her i stedet for én. Så kapittel ni er nå neste, og
+
+55
+00:10:43,935 --> 00:10:52,655
+så er det kapittel åtte som er etter der. I den rekkefølgen, synes jeg. Så 
+vi håper at de skriver om dette. Grunnen til at en bruker ganske mye tid,
+
+56
+00:10:52,715 --> 00:11:08,486
+er at en også må skrive om disse datafilene. Disse Jason-filene. Og de er 
+ganske store. La oss se på schedule, f.eks. Den består av 1000 linjer. Så
+
+57
+00:11:08,506 --> 00:11:09,567
+det er en ganske stor fil.
+
+58
+00:11:14,210 --> 00:11:15,491
+Så det tar kanskje litt tid, da.
+
+59
+00:11:20,144 --> 00:11:30,188
+Den er egentlig klar til å gjenføre, men jeg vil ikke gjøre den før jeg er 
+ferdig med omskrivinga av aktivitetene. Hvis ikke blir det feil. Man
+
+60
+00:11:30,208 --> 00:11:42,632
+skal plassere f1-f4 innunder 3-5, men per i dag er 3-5 kapittel 1, og ikke 
+9. Så det blir gærent. Dere må være litt på vakt når dere endrer sånne
+
+61
+00:11:42,652 --> 00:11:42,772
+ting.
+
+62
+00:11:50,317 --> 00:12:04,669
+Når det gjelder ... Jeg kan nevne dette med at man skal gjøre en tracking i 
+prosjektet sitt etter hvert som dere jobber. Per i dag for dere, så er det
+
+63
+00:12:04,709 --> 00:12:17,139
+et manuelt arbeid. Når dere er ferdig for dagen, så går dere inn i 
+MS-prosjektfilene deres og huker av hvor langt dere har kommet i de
+
+64
+00:12:17,199 --> 00:12:21,561
+forskjellige aktivitetene. Bare slik at det er nevnt, da.
+
+65
+00:12:46,544 --> 00:12:50,131
+Jeg kunne egentlig tenkt meg at han lot den bli en del av tre-fire, da.
+
+66
+00:12:57,144 --> 00:12:58,627
+Det er litt dumt at han gjorde det.
+
+67
+00:13:35,380 --> 00:13:44,486
+Yes. Jeg vil ha bort den 3.5-en, den er ikke riktig. Poenget er at han ser 
+at vi ikke er ferdig med en, og lager en ny aktivitet. Men poenget er at vi
+
+68
+00:13:44,546 --> 00:13:57,575
+venter med å fullføre en her til han har gjort jobben sin. Klassisk 
+AI-misunderstanding. Han skjønner ikke at jeg er klar til å trykke på
+
+69
+00:13:58,435 --> 00:14:01,137
+gjennomfør-knappen. Det forstår han ikke.
+
+70
+00:14:04,220 --> 00:14:08,242
+Men nå skal han fjerne den tre-fem og renumrere, da.
+
+71
+00:14:16,426 --> 00:14:19,008
+Så jeg vil helst at diskusjon skal være tre-fem-a.
+
+72
+00:14:33,937 --> 00:14:51,183
+Det er jo ofte et kapittel hvor du diskuterer funn fra analysen og 
+tolkning. Og hvordan du kan benytte dette her. Og den biten er ofte ...
+
+73
+00:14:51,343 --> 00:15:00,826
+Det er ofte en del av det du kommer med. Det er ditt bidrag. Og at du 
+diskuterer bidraget ditt på en måte.
+
+74
+00:15:04,497 --> 00:15:15,099
+Det er en slags kunst, egentlig, hvor du må tolke og forklare og prøve å 
+vurdere hele ... ...
+
+75
+00:15:17,860 --> 00:15:18,840
+hele analysen din, da.
+
+76
+00:15:22,421 --> 00:15:32,824
+Og det kan være litt sånn utfordrende. Og det kan også være utfordrende 
+for A1. For det er ikke alltid at A1 skjønner hva de skal diskutere. Det
+
+77
+00:15:33,284 --> 00:15:37,843
+kan bli litt teknisk. Her
+
+78
+00:15:37,863 --> 00:15:46,967
+står det 'drøfte funn opp mot problemstilling og litteratur'. Men vi 
+har ikke skrevet problemstilling og litteratur ennå.
+
+79
+00:15:48,768 --> 00:15:52,009
+Det kan være en utfordring, da. Egentlig.
+
+80
+00:15:55,865 --> 00:16:03,909
+Litteratur har vi ikke gjort, men problemstilling har vi ikke skrevet i 
+rapporten, kanskje foreløpig. Men det ligger vel der et sted i filene,
+
+81
+00:16:03,929 --> 00:16:13,654
+gjør det ikke det? Problemstilling. La oss se på rapporten, da. Så står 
+det her. Problemstilling. Det står ingenting, sier dere. Kanskje vi
+
+82
+00:16:13,694 --> 00:16:22,719
+skal ... Altså når du diskuterer, så skal du diskutere opp mot 
+problemstillinga. Det er riktig. Så kanskje vi skal prøve å få skrevet
+
+83
+00:16:22,779 --> 00:16:31,093
+litt av innledninga først, egentlig. Slik at den biten er faktisk 
+skrevet av. La oss se på statusen.
+
+84
+00:16:33,894 --> 00:16:34,434
+Her har vi en.
+
+85
+00:16:44,317 --> 00:16:59,720
+Så, ja ... Jeg tror jeg tar og ... Nå skal jeg lukke den her først. Da er den 
+ferdig når jeg har skrevet om på riktig form. Så nå vil han lukke
+
+86
+00:16:59,780 --> 00:17:11,968
+aktivitet 3-4, fikse disse feilene, eller svakhetene, og legge inn F1 
+til F4 inn i aktivitet 3-5. Men så vil de egentlig hoppe til aktivitet 3-7
+
+87
+00:17:12,349 --> 00:17:22,181
+først. Og da orker jeg ikke begynne å bytte på det igjen. Så da bare sier de 
+hopp til aktivitet 3-7 og gjør den først. Og grunnen til det ... Når du
+
+88
+00:17:22,221 --> 00:17:32,124
+skal diskutere noe, når du skal skrive diskusjonen, så skal du trekke 
+kobling tilbake igjen til problemstillinga di. Har du svart på
+
+89
+00:17:32,164 --> 00:17:41,527
+problemstillinga di? Og i hvilken grad har du da svart på 
+problemstillinga di? Det er veldig, veldig viktig. At du har tråden i
+
+90
+00:17:41,567 --> 00:17:52,368
+rapporten din. Du har beskrevet en problemstilling tidlig i 
+rapporten. I diskusjonen, det er da du skal ... Trekke den opp igjen. Og
+
+91
+00:17:53,149 --> 00:18:01,134
+har du egentlig svart på oppgaven? Det er veldig viktig.
+
+92
+00:18:01,254 --> 00:18:11,200
+Og egentlig litteratur også, men vi har ikke gjort 
+litteraturkapitlet.
+
+93
+00:18:11,260 --> 00:18:27,706
+Aktivitet 3.5. Nå kommer en inn med flere punkter i forhold til det vi var 
+enige om her. Men som sagt, jeg vil gjøre kapittel én først. Kanskje vi
+
+94
+00:18:27,786 --> 00:18:32,587
+til og med skulle gjort kapittel to. Men kapittel to er litt mer 
+krevende.
+
+95
+00:18:35,208 --> 00:18:50,116
+Det er jo de kjente ... Vi har jo aldri hørt i nyhetene hvordan AI skriver 
+feil referanser. Så vi må ha en sånn ... Vi må ha en ... Det er en god prosess
+
+96
+00:18:50,196 --> 00:18:54,740
+rundt det å skrive litteratur.
+
+97
+00:18:54,860 --> 00:19:08,070
+Det er ikke bare å skrive 'gjør aktivitet 38', og så er du ferdig. Da må du 
+gjøre en ganske stor sjekkarbeid, og sjekke om alle kildene er til
+
+98
+00:19:08,110 --> 00:19:16,817
+stede. Så vi skal da lage en egen rutine for å gjøre det. Og en av rutinene 
+for å gjøre det, det er bl.a. å rett og slett ...
+
+99
+00:19:20,052 --> 00:19:21,433
+Laste ned artiklene,
+
+100
+00:19:24,657 --> 00:19:30,222
+slik at du er sikker på at de eksisterer.
+
+101
+00:19:31,263 --> 00:19:36,068
+Og det kan være vanskelig, for noen er jo bak en betalingsmur, mens andre 
+åpner, da.
+
+102
+00:19:40,167 --> 00:19:50,193
+De som er bak en betalingsmur, dem må du kanskje gjøre noe manuelt arbeid 
+og få skaffa fra bibliotek og sånne ting for å få lest, men til syvende og
+
+103
+00:19:50,213 --> 00:20:02,801
+sist er målet at du har en PDF av hver enkelt referanse. Vi kan nevne at 
+selv om artikler ligger bak en betalingsmur, så kan du bare google med
+
+104
+00:20:02,821 --> 00:20:14,929
+den eksakte tittelen enten Google eller kanskje ikke særlig Google. Og 
+da får du tak i alternative plasser. For den ligger ofte ute i en eller
+
+105
+00:20:14,949 --> 00:20:23,531
+annen versjon, sjøl om den ligger bak en betalingsmur. Så alle tog er 
+ikke gått sjøl om det. Det gjør det. Så jeg har funnet mange artitler som
+
+106
+00:20:23,571 --> 00:20:30,873
+Høgskolen i Molde egentlig ikke abonnerer på. Men som andre har likevel 
+lagt ut på nettet. Kanskje en sånn P-print, som det heter. Eller på
+
+107
+00:20:30,953 --> 00:20:42,396
+arkivet, som det heter. Så det går an å finne det sjøl om det er en artikkel 
+som du egentlig må betale for. Så fins det også muligheter. Så ikke gi opp
+
+108
+00:20:42,436 --> 00:20:51,622
+meninga. Jeg hadde egentlig planlagt å ta den litteraturdelen over 
+påskeraften, for å vise hvordan vi gjør litteratur.
+
+109
+00:21:02,720 --> 00:21:09,103
+Så jeg tenker at nå gjør vi den her, og så gjør vi kapittel én.
+
+110
+00:21:13,745 --> 00:21:24,730
+Og så tenker vi at vi kan begynne på nummer to før vi tar diskusjon, 
+faktisk. For i en diskusjon så skal du både trekke inn
+
+111
+00:21:24,790 --> 00:21:37,311
+problemstillingene dine, men du kan også koble det mot eksisterende 
+litteratur og funn. De burde være på plass før du gjør diskusjonen, når
+
+112
+00:21:37,351 --> 00:21:46,833
+vi tenker gjennom. Skal vi se. Da har vi gjort ... Man har også committa, 
+ja.
+
+113
+00:21:51,094 --> 00:21:52,094
+Og gjennomført review.
+
+114
+00:21:55,014 --> 00:21:58,655
+All right. Da kan vi ...
+
+115
+00:22:03,250 --> 00:22:09,612
+Én ting jeg har lyst til å si, da. Hvor var det han brukte SUB-agenten hen, 
+var det her?
+
+116
+00:22:33,997 --> 00:22:37,379
+Da sier jeg bare 'memory'.
+
+117
+00:22:41,702 --> 00:22:51,687
+Og dette er en veldig god funksjon. For nå er det noe jeg ønsker at Claude 
+skal huske en ting. Slik at jeg slipper å si det på nytt igjen. Det jeg
+
+118
+00:22:51,748 --> 00:23:02,230
+ønsker at Claude skal huske, er at han alltid skal starte en SUB-agent 
+når han skal gjøre en review. Husker dere det? Og da kan vi bruke en
+
+119
+00:23:02,270 --> 00:23:17,736
+funksjon som heter memory, som bare forteller at, OK, legg dette i 
+minnet ditt. Så husk, til neste gang ... Du skal kjøre en ...
+
+120
+00:23:21,358 --> 00:23:22,858
+En review ... av en aktivitet.
+
+121
+00:23:32,117 --> 00:23:44,140
+Ved hjelp av Preview Act Skill, så må du
+
+122
+00:23:48,561 --> 00:24:05,503
+starte en egen DUG-agent for dette. All right. Det er kjekt, for da veit 
+en at en vil huske det neste gang. Så slipper jeg å stoppe prosessen og si
+
+123
+00:24:05,523 --> 00:24:10,384
+det på nytt igjen, da. Dette er project memory, da.
+
+124
+00:24:16,965 --> 00:24:27,928
+Ja. Da la han det inn i Claude, tror jeg. OK.
+
+125
+00:24:27,968 --> 00:24:28,488
+Det var litt rart.
+
+126
+00:24:32,122 --> 00:24:39,566
+Hvor ble det av ... Skal vi se ... Skjønte ikke helt hva han gjorde, men
+
+127
+00:24:42,408 --> 00:24:43,928
+han åpna Cloud-fila.
+
+128
+00:24:47,671 --> 00:24:52,393
+Der kom han tilbake igjen. Jeg tror at fila var åpen, så det var et 
+problem.
+
+129
+00:24:56,735 --> 00:24:59,097
+Man kan ikke gjøre endringer på en fil selv om den er åpen i VSCO?
+
+130
+00:25:04,977 --> 00:25:18,826
+Hva
+
+131
+00:25:18,906 --> 00:25:24,710
+er det?
+
+132
+00:25:24,750 --> 00:25:28,293
+Hvorfor får jeg ikke bort den dritten der, altså? Nå er jeg på maskina mi 
+og kneler litt.
+
+133
+00:25:43,047 --> 00:25:46,409
+Han hadde noen problemer med editorene, jeg vet ikke hvorfor.
+
+134
+00:25:52,814 --> 00:26:02,501
+Det jeg vil nå, er at en skal endre Claude her, ser du. Claude. Og det er 
+ikke vits i å bruke den. Men det han har lagt til nå, er at når en aktivitet
+
+135
+00:26:02,541 --> 00:26:13,029
+skal reviewes med Review Act Skills, start alltid en egen subagent. At 
+han husker det til neste gang. Det er liksom handy, da. Altså kom midt i
+
+136
+00:26:13,049 --> 00:26:13,129
+det.
+
+137
+00:26:16,051 --> 00:26:21,593
+Sånn. Da får vi se om noen skal gjøre review av neste aktivitet nå, og så 
+vil den
+
+138
+00:26:25,215 --> 00:26:31,418
+gjøre jobben. All right. Da tar jeg Clear her. Og så ...
+
+139
+00:26:50,463 --> 00:26:58,467
+Og nå hopper vi til kapittel 1, eller innledning, altså aktivitet 37. 
+Trykker på planmodus og kjører på.
+
+140
+00:27:03,670 --> 00:27:05,250
+Kulla kanskje har prima først, da.
+
+141
+00:27:11,213 --> 00:27:23,056
+Det glemte jeg. Var litt kjapp i svingen. Hva var det priming gjorde 
+igjen? Det var opp til speed, altså hva var blitt gjort forrige gang. For
+
+142
+00:27:23,076 --> 00:27:25,839
+nå tok du clear of memoryen, slik at du glemte alt
+
+143
+00:27:28,841 --> 00:27:35,766
+du har gjort. Og da er det lurt å trykke prime først. Nå sier vi at den skal 
+gjøre 23 skriver i kapittel 1, av grunner som er nevnt, for vi trenger
+
+144
+00:27:35,786 --> 00:27:44,573
+bl.a. problemskriving og sånne ting. Og nå setter vi den i gang til å 
+planlegge det. Men burde vi ikke da oppdatere den der markedsandfilen,
+
+145
+00:27:44,593 --> 00:27:57,015
+status.md? Slik at det blir den rekkefølgen det skal gjennomføres? 
+Eller bare styrer vi, lar vi det stå litt sånn, og så styrer vi det sjøl
+
+146
+00:27:57,055 --> 00:28:08,218
+manuelt? Jeg skjønner. I overstyrten. Grunnen var jo det at jeg 
+allerede har brukt tid på å rotere disse aktivitetene. Det er greit.
+
+147
+00:28:08,238 --> 00:28:18,446
+Bare så vi vet det. Så det er greit. Ja. Det var for å ikke tape mer tid, 
+egentlig. Egentlig burde vi gjort endringer her, da. Vi burde kanskje
+
+148
+00:28:18,466 --> 00:28:26,752
+det, men det er greit. Nå gjør vi bare sånn, for det viktige nå er å få på 
+plass innledninger, deriblant også problemstilling og antakelser
+
+149
+00:28:26,772 --> 00:28:30,715
+osv., før vi kan begynne å gå over på diskusjon. Riktig.
+
+150
+00:28:37,560 --> 00:28:41,103
+Men nå er du på Plan Molde-serie, så nå bare planlegger en det, da?
+
+151
+00:28:44,065 --> 00:28:54,528
+Så jeg burde kanskje ha skrevet tre fem og tre seks likevel. Men jeg var 
+litt kjapp i svingen. Ja. Men jeg bare tenker, hvor er det
+
+152
+00:28:54,548 --> 00:29:03,530
+problemstillinga står? For det står et sted i den store filsstrukturen 
+vi har. Så avhengig er det bare å gå dit og hente det, og så skrive en bra
+
+153
+00:29:03,550 --> 00:29:12,333
+problemstilling basert på det. For det var jo en del av det som 
+studentene skulle gjøre i fase én, var jo det. Det står i en project plan.
+
+154
+00:29:13,934 --> 00:29:16,956
+Det står i prosjektplanen bl.a.
+
+155
+00:29:20,097 --> 00:29:26,201
+Og det står også i planfilene.
+
+156
+00:29:26,261 --> 00:29:31,543
+Vi lagde jo også en proposal der vi skrev problemstillinga.
+
+157
+00:29:34,105 --> 00:29:40,728
+Den er her, under fase én. Den brukte jeg til å generere prosjektplanen.
+
+158
+00:29:50,890 --> 00:29:58,116
+Her er målet, ser du. Ja.
+
+159
+00:29:58,136 --> 00:30:01,999
+Det finnes i planfilene. Spørsmålet er om en klarer å lese dette nå, da?
+
+160
+00:30:20,557 --> 00:30:31,064
+Det vi har gjort. Jeg ønsker at en leser rapporten, rett og slett. For her 
+står det jo mye, og det er viktig informasjon når du skriver
+
+161
+00:30:31,124 --> 00:30:41,070
+problemstillinger. Slik at ting er i samsvar med hverandre. Men det 
+skal han få lov å gjøre når han er ferdig å jobbe her. Men jeg er enig i at vi
+
+162
+00:30:41,110 --> 00:30:44,452
+burde ha bytta om disse aktivitetsideene. Bare at det tar tid.
+
+163
+00:30:55,555 --> 00:31:13,948
+Han var rett og slett litt
+
+164
+00:31:14,128 --> 00:31:17,310
+kjapp i svingen? Han bruker mye krefter på planer.
+
+165
+00:31:20,392 --> 00:31:31,611
+Han gjør ingen endringer, ser dere. Det er ingen endringer her, da. Nei.
+
+166
+00:31:31,651 --> 00:31:42,715
+Men vi skal klare å få skrevet innledninga nå, før vi blir ferdige i dag. 
+Og da tenker jeg at neste steg er å begynne å se på litteraturen. Og det kan
+
+167
+00:31:42,735 --> 00:31:47,373
+vi gjøre over påske. Hva er rekkefølgen på gjennomføringa av ...
+
+168
+00:32:17,112 --> 00:32:26,337
+Rekkefølgen på gjennomføringa. Så hva er det vi egentlig gjør først 
+her? Altså vi har innledning, vi har litteratur, vi har teori, vi har
+
+169
+00:32:26,377 --> 00:32:33,401
+casebeskrivelse. Vi har metode og data. Vi har modell, analyse, 
+resultat, diskusjon, konklusjon. Så hva er det vi egentlig starter
+
+170
+00:32:33,421 --> 00:32:39,044
+med? Skal vi ta en sånn liten diskusjon, da har vi tida til det? Eller skal 
+vi bare konsentrere oss om å bli ferdig med innledninga?
+
+171
+00:32:42,712 --> 00:32:49,134
+Jeg ber ham om å endre aktivitetsnumrene, for han planlegger bare. Men 
+det kan vi nå ta, da.
+
+172
+00:32:52,275 --> 00:33:01,457
+Så strengt tatt, da kan vi nå mens han holder på å jobbe, så kan jeg dele 
+skjerm på den andre.
+
+173
+00:33:05,258 --> 00:33:19,043
+Slik at man ser hensikten ... Eller poenget er at jeg har hoppa litt, da. 
+Ja. Og det er fordi jeg hoppa til den biten jeg tror hadde vært
+
+174
+00:33:19,083 --> 00:33:31,886
+vanskeligst for studentene først. Men vi har ... La oss se på ... Bare ta 
+et bilde av innholdsfortegnelsen. Jeg skal gjøre det for deg. Jeg er på
+
+175
+00:33:31,906 --> 00:33:37,408
+vei til å gjøre det. Jeg har den her. Det går fint, det. OK, greit. Greit. 
+Så akkurat det gjorde jeg.
+
+176
+00:33:42,938 --> 00:33:58,386
+Sånn.
+
+177
+00:33:58,446 --> 00:34:01,847
+Ett skudd førvei. Ja, bra. Always.
+
+178
+00:34:07,010 --> 00:34:15,120
+Ja. Og i mellomtida så bytter jeg tre fem og tre sju og sånn. Bare slik at vi 
+får det i riktig rekkefølge.
+
+179
+00:34:16,240 --> 00:34:23,803
+Så hva gjøres når?
+
+180
+00:34:23,903 --> 00:34:26,143
+Gjennomføringsrekkefølge er det vel egentlig vi som kan være.
+
+181
+00:34:29,464 --> 00:34:36,567
+Så det vi gjorde,
+
+182
+00:34:36,627 --> 00:34:38,007
+vi skrev ...
+
+183
+00:34:40,820 --> 00:34:43,201
+Prosjektplan, sant? Ja.
+
+184
+00:34:46,103 --> 00:34:51,326
+Med aktiviteter og så videre. Sant,
+
+185
+00:34:51,646 --> 00:35:00,231
+etc.
+
+186
+00:35:00,331 --> 00:35:16,459
+Og så gikk vi rett til ... Gikk ... rett til ... Kapittel fire. Vi skrev ... 
+Så denne var den første, sant? Det var det første vi gjorde.
+
+187
+00:35:20,383 --> 00:35:22,664
+Deretter gjorde vi kapittel fem.
+
+188
+00:35:29,830 --> 00:35:30,591
+Som var den.
+
+189
+00:35:33,593 --> 00:35:34,354
+Deretter seks ...
+
+190
+00:35:39,882 --> 00:35:40,942
+Som var modellering.
+
+191
+00:35:43,844 --> 00:35:58,529
+Og så var det analyse. Og så har vi nå gjort fem, da. Sant? Så dette var den 
+rekkefølgen vi gjorde ting i her på video. Og så er dette her jo helt
+
+192
+00:35:58,569 --> 00:35:59,110
+blankt. Ja.
+
+193
+00:36:03,541 --> 00:36:18,166
+Og nå står spørsmålet om hva vi skal gjøre nå. Det vi skal gjøre nå, er at vi 
+hopper opp igjen til innledning. Og så skriver vi seks der. Og så er det
+
+194
+00:36:18,747 --> 00:36:34,210
+sju der. Teori er ikke så viktig. Og så åtte diskusjon og den. Og så tar vi 
+f.eks. teori senere. Teorien er veldig sånn ... Den er isolert. Dette er
+
+195
+00:36:34,230 --> 00:36:35,310
+hva vi gjorde.
+
+196
+00:36:40,132 --> 00:36:45,235
+Hvis vi nå ser på en annen, litt mer vanlig måte å gjøre det på ...
+
+197
+00:37:02,080 --> 00:37:12,208
+Det er ikke så farlig å gjøre ting i forskjellig rekkefølge. For 
+problemstillinga står allerede i prosjektplanen. Så den er en plass.
+
+198
+00:37:12,949 --> 00:37:18,113
+Nå har vi gjort det ganske tidlig, bare vanen på plasser. Så jeg synes 
+dette her er ganske OK, da. Og det er fordi at problemstillinga står
+
+199
+00:37:18,173 --> 00:37:18,413
+allerede.
+
+200
+00:37:37,737 --> 00:37:38,818
+I prosjektplanen, sant.
+
+201
+00:37:42,340 --> 00:38:03,051
+Så A1 har jo tilgang til den. Så ... Men et alternativt løp, da, kan dere 
+tenke dere, som er mer vanlig, da. Er sånn
+
+202
+00:38:03,071 --> 00:38:14,916
+som det her. Denne er nummer én. Men et enkelt ...
+
+203
+00:38:14,996 --> 00:38:16,757
+Hva skal vi kalle det? Draft, da.
+
+204
+00:38:19,978 --> 00:38:25,301
+Altså det er ikke ferdig, da. Så dere har et sånt midlertidig
+
+205
+00:38:28,022 --> 00:38:42,632
+innledningskapittel. Altså bare sånn på overordna nivå. Så er det 
+vanlig å kjøre to. Deretter ... Du kan tenke på et enkelt draft av hva? Av
+
+206
+00:38:42,652 --> 00:38:54,763
+rapporten? Hva sa du? Ja. Du sto på punkt én, altså. Enkelt draft. Draft 
+av hva? Draft av innledninga, da. Av innledninga, ja. Det er riktig. OK.
+
+207
+00:38:59,367 --> 00:39:00,327
+Det er ikke ferdig, da. mm.
+
+208
+00:39:03,270 --> 00:39:06,149
+Og det er bare basert på, da ... Vi
+
+209
+00:39:09,851 --> 00:39:18,014
+greier å lage et draft basert på det. Du kan ta det som står i 
+prosjektbeskrivelsen og lage et draft av nummer én der. Det er mulig.
+
+210
+00:39:18,694 --> 00:39:25,718
+Det er vanlig. Så går man gjerne over til litteraturen. Men 
+litteraturen er tidkrevende, og det er ikke den jeg har ansett som
+
+211
+00:39:25,798 --> 00:39:35,625
+viktigst her og nå. Fordi jeg ville gjerne gå rett på analyse for å vise 
+hvordan. Så jeg gjorde ikke denne rekkefølgen her. Men jeg syns at begge
+
+212
+00:39:35,986 --> 00:39:53,339
+rekkefølgene fungerer fint. I dette tilfellet her. Så når den er 
+ferdig, da vil jeg ha hoppa til fire, fem, seks, sju ... Åtte, ni, ti.
+
+213
+00:39:56,021 --> 00:40:06,666
+Bibliografien er også på nummer to. Pluss biblio. Sånn.
+
+214
+00:40:06,766 --> 00:40:16,451
+Og sånn er vi ferdige der. Så vil vi gå tilbake til elleve her til slutt. 
+Det betyr at det som er anbefalt, er nesten å bare følge et kronologisk
+
+215
+00:40:16,471 --> 00:40:28,831
+lekefølge? Med et par unntak, f.eks. teori som kommer til slutt. 
+Biografi er egentlig fortløpende, vil jeg påstå. Men ellers, bortsett
+
+216
+00:40:28,851 --> 00:40:37,916
+fra det, så er det nesten kronologisk, da. Ja, nå skrev vi aldri tre her, 
+da. Det var noe forlig irriterende. Så det ble noe feil, det, da. Ja, det
+
+217
+00:40:38,076 --> 00:40:47,021
+skjønner jeg. Men det du sier, disse hovedmeldingene her, er at det er 
+nesten ... Med noen unntak, så er det teori, og så er det nesten
+
+218
+00:40:47,061 --> 00:41:03,935
+kronologisk rekkefølge, da. Ja. Så det er da tre der, fire der, fem der, 
+seks der, sju der, åtte der, ni der. Den er samtidig med litteraturen, så
+
+219
+00:41:03,955 --> 00:41:06,777
+det er to der. Og så er det
+
+220
+00:41:09,899 --> 00:41:25,390
+en to, tre, fire, fem, seks, sju, åtte, ni. Og så er det ti teori, og så er 
+det elleve. Fullføre, da. Og så er det 11.: Fullfør
+
+221
+00:41:28,051 --> 00:41:29,772
+innledning. Så det er det siste du gjør. Det
+
+222
+00:41:33,094 --> 00:41:37,316
+er at du fullfører innledningen.
+
+223
+00:41:37,816 --> 00:41:53,399
+Dette er den vanlige måten å jobbe på. Men her ser du at vi hopper litt 
+også, men dette er den jeg er mer vant til, kaller jeg det. Skal vi se om han
+
+224
+00:41:53,439 --> 00:42:05,204
+har fått bytta. Yes, han har bytta nå, ser dere. Og da må vi bare gå tilbake 
+igjen her. Jeg
+
+225
+00:42:05,484 --> 00:42:09,966
+har endret navn på ... eller ID ... ...
+
+226
+00:42:14,488 --> 00:42:26,861
+til Aktivitet35. Sånn. Bare slik at en vet at en skal gjøre aktivitet. Så 
+nå er det i rett rekkefølge. Nei, jeg deler jo ikke. Du må bytte skjerm,
+
+227
+00:42:26,881 --> 00:42:37,606
+ja. Ja. Bytte skjerm. Der. Så ser du ikke at nå i mellomtida så har jo A1 
+bytta om i riktig rekkefølge igjen. Ja, bra. Det er ryddig. Det er
+
+228
+00:42:37,626 --> 00:42:38,007
+ryddig, det.
+
+229
+00:42:43,870 --> 00:42:44,590
+Planen skal gjelde 3-5. Nei.
+
+230
+00:42:53,080 --> 00:43:01,086
+Kan hende at den roter litt nå. Det er prisen for at jeg roter. Det er 
+sjelden A-en sin feil at det blir rot.
+
+231
+00:43:04,049 --> 00:43:06,991
+Det er min feil. Men la oss se om en skjønner det,
+
+232
+00:43:14,697 --> 00:43:27,786
+da. Bare trykk 'Interrupt i', og så skriver man bare 'Les statusfiler' 
+på nytt. Vi begynner å tenke på avrydding og pushing. Vi trenger kanskje
+
+233
+00:43:27,886 --> 00:43:38,716
+ti minutter til, så har han fått ordna det. Vi får tåle det. Før påska 
+kommer. Ja. Så bare slik at en ikke roter.
+
+234
+00:43:58,302 --> 00:44:02,983
+Han er straks klart for å gjennomføre 3PM. Der ender han. Men
+
+235
+00:44:07,684 --> 00:44:12,265
+han vil også si at han skal lese ... lese ...
+
+236
+00:44:14,345 --> 00:44:17,346
+prosjektplanen.
+
+237
+00:44:18,966 --> 00:44:19,307
+Og ...
+
+238
+00:44:30,365 --> 00:44:33,566
+Og Jason Pillene i
+
+239
+00:44:37,128 --> 00:44:50,293
+band. Målsetningene
+
+240
+00:44:50,353 --> 00:44:54,235
+og hva han skal gjøre, slik at vi ikke går glipp av noe informasjon her.
+
+241
+00:45:00,875 --> 00:45:05,377
+Der
+
+242
+00:45:05,417 --> 00:45:10,640
+kan det stå noe som ikke vi har fått med oss så langt.
+
+243
+00:45:31,840 --> 00:45:34,822
+Så
+
+244
+00:45:34,862 --> 00:45:46,412
+problemstillingen blir ganske enkel. Men poenget er å se strukturen. 
+Da har han gjort det. Og da kan vi clear context. Det gjør vi. Så kjører vi
+
+245
+00:45:46,452 --> 00:45:59,644
+på. Nå begynner han å jobbe på aktivitet 3.5. Da skal det bli spennende å 
+se. Om den gjennomfører review og lukka aktivitet. Når en skal kjøre
+
+246
+00:45:59,684 --> 00:46:12,007
+Subagenten, om en faktisk kjører Subagenten av seg sjøl. Husker vi 
+hadde det som en memory. Man tenker på at man skriver en innledning, og så
+
+247
+00:46:12,047 --> 00:46:19,549
+gjennomfører en reviewen automatisk utenat i side. Ja, men at en da 
+starter en Subagent. Ja, jeg skjønner at du husker det.
+
+248
+00:46:22,972 --> 00:46:30,693
+Det blir interessant å se om han klarer å huske det. Han har det. Review i 
+Superkant står det. Så denne memorien vi hadde ... Det går nesten ut av
+
+249
+00:46:30,713 --> 00:46:37,835
+bildet nå. Så ser du review i punkt åtte, som nå er i ferd med å gå ut gjennom 
+vinduet til høyre.
+
+250
+00:46:51,625 --> 00:47:02,509
+Og det er innmari behagelig. Å kunne bruke disse små, men utrolig gode 
+funksjonene i Claude. Hvor du da kan bare ... OK, husk det. Men har Colex
+
+251
+00:47:02,869 --> 00:47:14,493
+samme funksjon? Altså, ja. Claudex har samme memory. Den heter da 
+Agents. Så nå er jo disse to her ute av synk. Og det jeg egentlig bare gjør
+
+252
+00:47:14,513 --> 00:47:26,942
+da, er å trykke kontroll A, kontroll C, og bare ... Jeg
+
+253
+00:47:27,822 --> 00:47:42,149
+lar de to være helt like. Vi gjør det fordi vi sjonglerer litt med Claude 
+og Kodet, men dere har sannsynligvis bare én A å forholde dere til. Ja da.
+
+254
+00:47:42,809 --> 00:47:47,892
+Akkurat hvilken det blir, det får vi se på. Men viktig funksjonalitet er 
+den samme.
+
+255
+00:47:55,430 --> 00:48:09,421
+Så da har han begynt å gjøre ting. Og skal begynne med review. Og da skal 
+han starte en Sub-agent. Oppdatere Jason-filene, det er kjempebra.
+
+256
+00:48:11,463 --> 00:48:14,525
+Til completed past, og kriteriene.
+
+257
+00:48:17,488 --> 00:48:18,309
+Dette er kjempebra.
+
+258
+00:48:20,971 --> 00:48:22,472
+Start er dødt, completed dødt.
+
+259
+00:48:26,952 --> 00:48:33,956
+Da fanger vi opp når vi starta og når vi slutta.
+
+260
+00:48:38,058 --> 00:48:49,224
+Slik at vi kan trekke det i prosjektet vårt. Gå på rapporten og se om den 
+begynner å skrive noe? Det har den helt sikkert gjort. Her står
+
+261
+00:48:49,264 --> 00:48:51,726
+problemstillinga. Er vi allerede i gang?
+
+262
+00:48:56,045 --> 00:49:01,789
+Antagelser.
+
+263
+00:49:03,490 --> 00:49:14,116
+Dette syns jeg er kjempebra. Det er ganske kort, dette der. Antagelser 
+har bare tre ting. Det syns vi er bra. Kort er bra, altså. Det kan hende det
+
+264
+00:49:14,136 --> 00:49:25,063
+blir litt lenger, da. Men aldri vær redd for at ting er ... Altså ikke vær 
+redd for at ting er kort. Bare ta med det dere mener. Kort er da, for
+
+265
+00:49:25,103 --> 00:49:34,226
+rapporten blir lang nok likevel. Ja da. Dette er midt i blinken. Du skal 
+ikke skrive mer fjas enn det du trenger, på en måte.
+
+266
+00:49:41,447 --> 00:49:42,308
+Så dette syns jeg er bra.
+
+267
+00:49:47,269 --> 00:49:58,767
+Uni-variat, det betyr at det kun er tida som er forklaringsfaktor, da. 
+Hvis du har Jason-fil, altså Yaba-skrift-objektnotasjon. Hva slags
+
+268
+00:49:58,787 --> 00:50:11,237
+rolle var de filene hadde igjen? For det er ikke sikkert alle har hatt IB 
+160 og har det helt under huden. Den rollen de har da, er å være et datasett
+
+269
+00:50:11,317 --> 00:50:23,412
+for prosjektledelsen, da. Så i stedet for å jobbe direkte i MS Project, 
+da, som er et litt vanskeligere ... Som er på en måte uleselig, da. Claude
+
+270
+00:50:23,452 --> 00:50:33,703
+Cott vet ikke hvordan han skal lese en MS Project-fil. Nei, men tok vi 
+ikke da og laga ei markdown-fil istedenfor ei MS Project-fil, da? Eller
+
+271
+00:50:33,743 --> 00:50:42,413
+var det en Janeston-bil vi tok istedenfor ei MS Project-fil? Nei, det vi 
+gjorde var å ... Vi lagde en Python-fil, faktisk, som oversetter til ...
+
+272
+00:50:43,977 --> 00:50:45,738
+Vi
+
+273
+00:50:47,139 --> 00:50:53,263
+tar Jason-filene våre og oversetter dem til et MS
+
+274
+00:50:54,684 --> 00:51:07,369
+Project-kompatibelt dataformat. Og så importerte vi det inn i MS 
+Project. Og den kan de nå kjøre på nytt igjen. Vi har MS Project, og bruker
+
+275
+00:51:07,409 --> 00:51:10,292
+Pyton til å lage en XML-fil. Den fila kan vi importere til MS Project.
+
+276
+00:51:29,253 --> 00:51:40,363
+Vi har en XML-file der vi kontinuerlig oppdaterer planer. Og når det er 
+oppdaterte planer, ber vi Python om å oppdatere også fra XML-filer og
+
+277
+00:51:40,423 --> 00:51:44,786
+inn gjennom Project. Så prosjektfiler, da. Ikke sant?
+
+278
+00:51:48,470 --> 00:51:56,577
+Ja. Det vi har bedt dere om å gjøre, er at dere skal ha en MS Project-file, 
+da.
+
+279
+00:52:01,518 --> 00:52:20,002
+Det er det vi har bedt dere om å gjøre. Problemet med en MS-project-fil er 
+at A1 har vanskeligheter med å lese og endre en sånn skriv. Så Cloud code
+
+280
+00:52:20,082 --> 00:52:20,823
+klarer ikke ...
+
+281
+00:52:27,304 --> 00:52:45,822
+ikke å lese, endre ... Denne filen. Så bra. Men enhver MS Project-fil har 
+et dataformat. Dataformat.
+
+282
+00:52:49,924 --> 00:52:56,187
+Og det heter MPXML3-formatet.
+
+283
+00:52:56,927 --> 00:52:58,468
+Og det er et XML-format.
+
+284
+00:53:03,618 --> 00:53:11,761
+MP, altså PM, står det. Tror
+
+285
+00:53:11,781 --> 00:53:19,143
+det er det. Examel dataformat. Som MS Project
+
+286
+00:53:22,584 --> 00:53:25,705
+kan lese, importere.
+
+287
+00:53:29,825 --> 00:53:34,027
+Det som er utfordringa med en XML-bil, er at den kan bli veldig stor.
+
+288
+00:53:41,792 --> 00:53:43,053
+XML er chatty.
+
+289
+00:53:46,835 --> 00:53:58,381
+XML er et språk som fort blir veldig stort. Og da vet vi at det å lese store 
+filer, det er ikke så bra. Så det vi gjør nå, vi går andre veien. Det vi har
+
+290
+00:53:58,421 --> 00:54:06,106
+gjort, er at ... Vi starter her nede med et egetdefinert 
+jeg-Jason-format.
+
+291
+00:54:15,151 --> 00:54:22,074
+Vi har egendefinerte filer her som gjenspeiler
+
+292
+00:54:24,996 --> 00:54:28,398
+MPXML.
+
+293
+00:54:30,035 --> 00:54:43,540
+De datafeltene som er i det formatet, kan også overføres til det andre 
+formatet. Det vi gjør nå, er at vi har lagd en Python-oversetter.
+
+294
+00:54:46,381 --> 00:54:54,604
+Som da oversetter til den fila der.
+
+295
+00:54:54,784 --> 00:54:58,946
+Sånn at når vi jobber nå, så claude code ...
+
+296
+00:55:03,616 --> 00:55:06,498
+Endrer,
+
+297
+00:55:07,858 --> 00:55:08,499
+oppdaterer ...
+
+298
+00:55:13,822 --> 00:55:15,223
+Oppdaterer
+
+299
+00:55:17,644 --> 00:55:18,264
+Jason-filene.
+
+300
+00:55:21,066 --> 00:55:31,825
+For den er mindre chatty, og jeg har delt dem opp i mindre filer. Da er det 
+enklere for A-en å håndtere. Altså, den endrer de. Når vi da vil, så kan vi
+
+301
+00:55:32,105 --> 00:55:41,013
+bruke den Python-oversetteren til å generere XML-formatet, som er et 
+større chattyfil, og så kan vi da importere den tilbake igjen dit.
+
+302
+00:55:43,896 --> 00:55:56,227
+Og disse Jamison-filene her, de finnes jo i repositoryet vårt. Så her 
+kan dere bare stjele de filene, og så sier det lag for mitt case. Ikke
+
+303
+00:55:56,267 --> 00:56:11,135
+sant? Så kan han gå inn og endre alt sammen, og gjøre det for akkurat deres 
+caser. Kan studentene bare importere G00-eksempelmappa og se hvordan
+
+304
+00:56:11,175 --> 00:56:21,297
+det gjøres i dette eksempelet? Og gjøre tilsvarende i vår sammenheng? 
+Riktig. Det er akkurat det jeg anbefaler. Og da har dere også den
+
+305
+00:56:21,537 --> 00:56:31,656
+generert plan XML Python til. Den er også der, da. Den er bare å kjøre, så 
+vil den lage den planen XML-fila. Her er den planen XML-fila. Denne
+
+306
+00:56:31,796 --> 00:56:44,458
+XML-fila er nå stale, altså den er utdatert, og vil komme mer her. Pluss 
+at denne inneholder ikke ... Den er litt enkel, så vi må nesten forbedre
+
+307
+00:56:44,498 --> 00:56:54,280
+den. For problemet med denne er at den inneholder ikke disse subpakkene 
+her, da. Den har bare aktiviteten sånn, men har ikke de enkeltpakkene
+
+308
+00:56:54,380 --> 00:57:02,084
+for å gjennomføre. Så det burde vi hatt med. Det hører med i prosjektet. 
+Så den burde utvides litt.
+
+309
+00:57:05,287 --> 00:57:12,574
+Da er vi ferdige, tror jeg. Ja. Bare en liten ting jeg tenker høyt nå. Det 
+vi skal gjøre nå, det er å ...
+
+310
+00:57:15,957 --> 00:57:27,243
+Kom ikke til å pushe. Men før vi gjør det ... La oss gjøre det først, slik at 
+vi får den unna. Vi har en liten avsluttende kommentar på hjertet før vi
+
+311
+00:57:28,003 --> 00:57:41,953
+gir oss for i dag. Men da ser vi nå at kapittel én og innledning ser ut til å 
+være gjennomført. Og da kan vi bare komme hit til å pushe. Vi må fikse
+
+312
+00:57:41,993 --> 00:57:42,593
+svakhetene først, da.
+
+313
+00:57:50,797 --> 00:58:01,640
+Egentlig ønsker jeg at han skal ordne dem, da, men ... Ja. Nice. Ja. 
+Supert. Supert. Da ser du at han er ferdig med kapittel én. Han kjørte én
+
+314
+00:58:01,820 --> 00:58:13,124
+fikserunde, kan vi si. Hvis vi har rapporten nå, da ... Så vi vet ikke helt 
+hva han har ordna, men han har i hvert fall gjort noe. Om det var noe
+
+315
+00:58:13,144 --> 00:58:16,405
+spesifikt i innholdsfortrengelsen her, eller innholdet i 
+innledninga, det vet jeg ikke.
+
+316
+00:58:21,037 --> 00:58:24,099
+Nice.
+
+317
+00:58:24,159 --> 00:58:37,228
+Når den er ferdig, så pusher vi, slik at alle kan få endringene sine. Da er 
+det committa, så da kan vi pushe. Du pusher manuelt. Da bruker du noe
+
+318
+00:58:37,308 --> 00:58:49,421
+annet å pushe, men du bare går inn i code og gjør det sånn? Det er like så 
+greit, det? Ja. Noe manuelt må vi fremdeles ha. Da er vi ferdige. Jeg har
+
+319
+00:58:49,481 --> 00:59:06,960
+et spørsmål til slutt. Nå ser vi da på planene våre at vi har igjen uka ... 
+Altså at vi har i dag. Og så har vi da i slutten av april ... Vi har egentlig
+
+320
+00:59:07,000 --> 00:59:15,865
+bare én sesjon igjen, én mandag og onsdag. Så hvordan ser du for deg at vi 
+gjør det fremover i forhold til dette, og hvordan vi skal være
+
+321
+00:59:15,905 --> 00:59:27,131
+tilgjengelige og sånne ting. Tida går jo fort, det er jo ikke lenge 
+igjen. Ja, altså jeg tenker at vi starter igjen etter påska. For nå er det
+
+322
+00:59:27,151 --> 00:59:46,159
+jo sånn at studenter kan jobbe lite grann med å komme til det punktet her, 
+da. Og hvis vi ser i april, så betyr det mandag 6. Og onsdag 8., f.eks. De to
+
+323
+00:59:46,199 --> 01:00:00,268
+dagene der kan vi sette opp. Så vi kan da sette første gjennomgang mandag 
+6., da. Nei, det er helligdag, det. Da må vi sette onsdag, da. Mandag 6.,
+
+324
+01:00:00,488 --> 01:00:15,849
+det er andre påskedag, det? Det er det, vet du. Så onsdag 8., da, tenker 
+jeg. Og da får vi gjort litteraturen. Og så trenger vi sannsynligvis en
+
+325
+01:00:15,949 --> 01:00:23,933
+runde til for å lukke hele greia. Skal vi bare sette opp onsdag 8.4? Skal 
+vi ta en tretimers, da? Ja, kan godt gjøre det.
+
+326
+01:00:29,641 --> 01:00:41,568
+Skal vi sette opp noe mer da, eller skal vi bare ta og ... Det som står på 
+kalenderen, er at da er det i slutten av april neste gang, som er mandag
+
+327
+01:00:42,209 --> 01:00:49,773
+27. og 29. april. Skal vi ha noe mellom der, eller skal vi bare vurdere det 
+på slutten av dagen 8.4.
+
+328
+01:00:59,425 --> 01:01:09,208
+Men vi får se hvor langt vi kommer på den onsdagen. Og så setter vi opp 
+derfra, jeg tenker. Ja, sett opp derifra. OK, greit. Men da skal jeg ikke
+
+329
+01:01:09,228 --> 01:01:19,492
+skrevulere tre timer i onsdag 8.4. Så neste runde tenker jeg at vi kommer 
+til å bruke tre timer bare på litteratur og bibliografi. For det er
+
+330
+01:01:19,512 --> 01:01:39,336
+ganske omfattende. Ja, greit. Og så tar vi diskusjonen, konklusjonen, 
+til slutt. Jeg
+
+331
+01:01:39,436 --> 01:01:52,761
+anslår to runder til, da. To sånne forelesningsdager til, da, vil jeg 
+anslå. Greit. Da er vi ferdige for i dag. Tusen takk for oppmøtet,
+
+332
+01:01:52,781 --> 01:01:55,022
+folkens. Håper dere har lært noe i dag òg.
+
+333
+01:01:58,235 --> 01:02:01,617
+Riktig
+
+334
+01:02:01,657 --> 01:02:16,168
+god påske, alle sammen. Takk for i dag, ja. Riktig god påske. Og så ses vi 
+rett over påske. Ja, vi skal legge ut melding. Ha det bra. Takk for i dag.
+

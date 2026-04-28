@@ -1,0 +1,1026 @@
+1
+00:00:02,099 --> 00:00:04,180
+[Automatic captions by Autotekst using OpenAI Whisper V3. May contain recognition errors.]
+Då 
+startar vi i timme nummer två. Kan du bara förtala vad du har svarat på?
+
+2
+00:00:04,200 --> 00:00:10,082
+Det jag håller på med nu är att få ordna reviewen. Men nu har jag nog två 
+reviewer och det är ju inte meningen. Så jag kommer här efter till att
+
+3
+00:00:10,142 --> 00:00:11,482
+använda Claude för review och Codex för
+
+4
+00:00:31,158 --> 00:00:42,440
+arbetshälsan. Så varje gång jag ska köra en review av ett steg eller en 
+sån aktivitet så brukar jag Claude. Och så har jag nog två dokument här
+
+5
+00:00:42,460 --> 00:00:51,482
+nu. Jag önskar egentligen att bara slå dem samman till ett. Så jag har 
+bara ett med Claude. Och i tillägg till det så önskar jag nog att laga en
+
+6
+00:00:51,662 --> 00:01:01,581
+review-mal. Så att jag kan igenbruka den reviewen om igen och om igen och 
+om igen. Så detta är sådana smarta ting att göra. som förenklar livet
+
+7
+00:01:01,601 --> 00:01:03,541
+ditt, sedan du ska göra fler reviews.
+
+8
+00:01:08,543 --> 00:01:19,346
+Då skriver vi Cloud Review och Codex Arbetshäst. Riktigt. Och grunden 
+till att vi har Codex som arbetshäst är att den är raskare. Och i
+
+9
+00:01:19,366 --> 00:01:25,509
+synnerhet inte förskällen är så stora. Så det att bruka Codex som 
+arbetshäst och Cloud för review, syns i en god
+
+10
+00:01:30,227 --> 00:01:44,774
+kombination av de två. Har du bara ett abonnemang, det kostar ju fläsk, 
+så jag har förståelse för att man bara har ett abonnemang, då har du Codex
+
+11
+00:01:44,974 --> 00:01:53,357
+1 och Codex 2. Så du startar två avhängiga Codex-sessioner, där den ena 
+är arbetshästen och den andra är reviewaren. Det ger mening.
+
+12
+00:02:01,284 --> 00:02:22,518
+Så, ja. Någon helg på att bränna här. Spår vi då. Ska laga en. Review. 
+Review. Ska vi se. En generell review. Malda. Får bara bli färdig här nu.
+
+13
+00:02:22,558 --> 00:02:26,260
+Som sagt. Klåd är lite trägare då. Dessvärre. Än. En. Codex. Men.
+
+14
+00:02:31,632 --> 00:02:42,115
+Gärna bättre. Så det är en avvägning man måste ta. Jag visste faktiskt 
+inte att VS Code hade möjligheten att ha fler paralleller uppe till
+
+15
+00:02:42,135 --> 00:02:53,758
+höger. Area som du kan jobba parallellt. Jag har sådana tebbar när jag 
+har det på nätledaren min. När jag brukar för exempel GPT så har jag
+
+16
+00:02:53,778 --> 00:03:01,235
+sådana tebbar. Så jag kan ha fler paralleller där. Men det att jag har det 
+uppe på sidan är himla bra då. Ja, alltså det du egentligen har här är att
+
+17
+00:03:01,275 --> 00:03:07,799
+du har flera terminaler uppe och så startar du bara den applikation du 
+vill i den. Om det är Codex eller Cloud. Ja, det är bra det alltså. All
+
+18
+00:03:07,839 --> 00:03:10,281
+right, då blev han färdig. Och så bad jag mig... Ja.
+
+19
+00:03:36,091 --> 00:03:38,553
+B1, avhukningsliste.
+
+20
+00:03:42,657 --> 00:03:45,299
+För den här. Checkpunkt.
+
+21
+00:03:53,105 --> 00:03:53,886
+Där har vi listan, ja.
+
+22
+00:04:14,327 --> 00:04:17,149
+Fix del 2 med språket. Och huk av i review. Efter att det är gjort sådant.
+
+23
+00:04:44,840 --> 00:04:50,304
+Jag tänkte nu fjärna den kodexfilen, sedan vi har mörjat den. Jag bad 
+Claude om att läsa kodexfilen och samla igen. Så då tar jag och fjärnar
+
+24
+00:04:50,324 --> 00:04:53,427
+den medan. Lite. Okej, så det var en liten tidig fil. Detta är då 
+sådana...
+
+25
+00:05:09,136 --> 00:05:22,523
+Nej, det var poängen att de körde den med samma kodex som var i samma 
+session. Det är underbart. För då vill de vara lite biased på den jorden
+
+26
+00:05:22,543 --> 00:05:27,486
+på en måte. Det är samma som att du ska checka ditt eget arbete på en måte. 
+Ja, jag känner. Färdiga. Då är vi färdiga. Supert. Lag baserat
+
+27
+00:05:37,180 --> 00:05:40,681
+På denna station. En god mal får vidare preview. Lagra malen. Under. Så. 
+Nu behöver man bara lagra malen baserat på den stationen.
+
+28
+00:06:04,700 --> 00:06:12,163
+session vi gjorde nu då med review och igen då så anbefaler jag 
+naturligtvis att läsa det som står här
+
+29
+00:06:15,144 --> 00:06:23,667
+och att så att vi kan se ändringar men om ni lurar på ändringarna gå in på 
+rapport den där driten där då här ser vi inte några ändringar ska vi se det
+
+30
+00:06:23,687 --> 00:06:24,567
+är väldigt irriterande vi ska inte ändra det
+
+31
+00:06:36,245 --> 00:06:38,106
+Jag har lyst att se diffen, så det heter.
+
+32
+00:06:48,292 --> 00:06:55,476
+Ja, vi får bara, vi måste fixa det. För att diffen är ganska viktig då. 
+Alltså förstås på det gamla, det nya, det kan vara edda. Ja.
+
+33
+00:07:11,500 --> 00:07:13,502
+How to change the viewer with mode. Det var då workbench settings.
+
+34
+00:07:46,945 --> 00:07:47,746
+Settings. Ska vi se.
+
+35
+00:08:21,481 --> 00:08:22,101
+Där har vi henne.
+
+36
+00:08:31,685 --> 00:08:38,288
+Här ser du inte den? Den är det som skapar tröblet.
+
+37
+00:08:38,748 --> 00:08:40,409
+Detta är den speciella tittaren.
+
+38
+00:08:54,924 --> 00:08:59,768
+Men då tror jag att han fjärnar den automatiskt också för... Ja, det är 
+ett problem.
+
+39
+00:09:25,417 --> 00:09:31,021
+Det är ett problem, ja. Då missar jag den fina viewern jag har när jag ser 
+på dem så här.
+
+40
+00:09:33,822 --> 00:09:36,884
+Här är malen. Här syns det ganska fint.
+
+41
+00:09:43,729 --> 00:09:45,170
+Här har vi en mal. Det är fint.
+
+42
+00:09:49,313 --> 00:09:52,935
+Men om du ändrar något så får du den på den formen här.
+
+43
+00:09:56,175 --> 00:10:05,159
+Denna. Det är inte samma där. Det är inte samma där. Du måste liksom leva 
+med det ena och det andra.
+
+44
+00:10:07,380 --> 00:10:15,383
+Okej. Det är lite dumt. Jag ska ta och checka upp det på egen hand. Jag ska 
+inte bruka mer tid på det nu. Nu har vi fått en mal och så vidare. Så då
+
+45
+00:10:15,403 --> 00:10:16,424
+tänker jag att det är supert. Uppdatera.
+
+46
+00:10:28,296 --> 00:10:29,096
+Status.
+
+47
+00:10:34,860 --> 00:10:39,462
+Och hukav. Aktivitet.
+
+48
+00:10:47,487 --> 00:10:48,367
+Komiteändringar.
+
+49
+00:10:50,789 --> 00:10:52,029
+Det är något som man kommitterar.
+
+50
+00:10:56,360 --> 00:11:03,384
+Jag tänker ofta så att det är reviewaren som komitterar när han har gjort 
+en review.
+
+51
+00:11:07,046 --> 00:11:17,432
+Du kan se på detta som två olika personer. En person som sitter och 
+skriver och en som värderar arbetet. Ja, det är faktiskt så. Det är en
+
+52
+00:11:17,452 --> 00:11:25,253
+ganska fin mått att se på det. När vi är färdiga med den här nu så vill den gå 
+in och ändra. Och då
+
+53
+00:11:28,435 --> 00:11:44,162
+kan vi börja på en ny aktivitet för fasen.
+
+54
+00:11:44,342 --> 00:11:49,004
+Fem dagar för att tänka.
+
+55
+00:11:49,044 --> 00:11:49,584
+Har du bud?
+
+56
+00:11:55,284 --> 00:11:57,746
+Så det är den statiska filen. Var är
+
+57
+00:12:03,011 --> 00:12:03,551
+den? Där
+
+58
+00:12:06,955 --> 00:12:10,438
+har han hukat av dem, ser ni. Nu tar den och
+
+59
+00:12:18,004 --> 00:12:20,787
+komitterar för mig också, så jag behöver inte göra det en gång.
+
+60
+00:12:23,988 --> 00:12:31,370
+Ja, och för de som inte vet vad commit betyder i denna sammanhang, för att 
+en ting är commit, en annan ting är push, vad kan vi säga om det? Commit då
+
+61
+00:12:31,390 --> 00:12:44,295
+gör, då lagrar du ändringarna i Git lokalt, så att dina ändringar är då 
+under source control, så att du kan blada tillbaka historiken och
+
+62
+00:12:44,315 --> 00:12:47,836
+sådana saker, om du vill. Ja, och push, då pushar du det till GitHub då.
+
+63
+00:12:51,835 --> 00:13:03,109
+så att någon annan kan hämta ändringarna på enkelt pull. Så det är 
+grejigt
+
+64
+00:13:03,149 --> 00:13:03,610
+att få gjort.
+
+65
+00:13:26,216 --> 00:13:36,723
+Nice, och allt är pushat. Fullför aktivitetsrens och strukturerat 
+data. Helt supert. Med ganska goda kommentarer. Ja, beskrivande
+
+66
+00:13:36,803 --> 00:13:42,967
+kommentarer om vad som blivit gjort. Det är sånt som vi brukar göra 
+manuellt av och till, men när vi får antingen på mitt så har det en väldigt
+
+67
+00:13:42,987 --> 00:13:45,009
+bra kommentar om vad som blivit gjort. Ja, det är sant. All right.
+
+68
+00:13:49,669 --> 00:14:02,231
+Då går jag bort från den här. Och nu är jag färdig, så då brukar jag bara 
+dansa den. För jag vill att den ska starta på nytt igen nästa gång. Så nu
+
+69
+00:14:02,251 --> 00:14:08,293
+kan jag bara starta Claude här, men han är klar till att göra action. När 
+jag blir färdig med nästa steg. Då
+
+70
+00:14:11,853 --> 00:14:15,894
+är jag tillbaka till Codex. För då ska vi arbeta igen, sant?
+
+71
+00:14:19,815 --> 00:14:23,257
+Nu ska vi jobba. Ja, vi kan egentligen klara det här också. Det är lurt att 
+bara viper memory när du går från en sån till nästa. Ja, läs den då agenten
+
+72
+00:14:23,277 --> 00:14:24,438
+eller eller måste du skriva att den var agenten?
+
+73
+00:14:50,565 --> 00:14:54,818
+Han letar agenten, ja. Automatiskt kan han säga clearing. Ja, han ska 
+göra det alltså. Ja. Ja.
+
+74
+00:15:25,637 --> 00:15:33,184
+Så nu ser du att det går egentligen ganska rätt på. Vi antar att man har 
+läst agents filer. Där innehåller det ganska mycket.
+
+75
+00:15:35,366 --> 00:15:42,533
+Jag förväntar mig att den sköner vad jag snackar om nu. Rätt på 
+projektplanen och statusfilen. Supert. Så det är bra då.
+
+76
+00:16:13,087 --> 00:16:21,872
+Det är lurt att läsa då. Vilken modelltyp som passar in en tidsserie med 
+både en begrunad SARIMA-specifikation, estimerar modellparametrar
+
+77
+00:16:21,892 --> 00:16:29,216
+på träningsdaten och dokumenterar varför modellen är vakt. Det som vi 
+kan påpeka här då är att denna processen är också denna räckeföljande av
+
+78
+00:16:29,537 --> 00:16:30,397
+ting som vi ska göra nu då.
+
+79
+00:16:41,308 --> 00:16:55,091
+Den är ganska bra beskriven här i de dokument vi har läst. Så steg två, 
+stationaritet och differensering. Problemet är att vi inte har pratat
+
+80
+00:16:55,131 --> 00:17:04,493
+om modeller ännu en gång. Så vi måste skriva den här modellbiten. Det är 
+den som ska in nu. Okej?
+
+81
+00:17:13,060 --> 00:17:17,863
+Vi har valt att bruka en Sarima-modell.
+
+82
+00:17:21,024 --> 00:17:29,449
+Men, och så måste vi nu titta på den rapporten, inte sant? För det jag vill 
+fram till nu är att lägga märke till att vi har ett kapitel som heter
+
+83
+00:17:29,489 --> 00:17:31,650
+Teori. Och det ska... Det vill ju då skriva lite om...
+
+84
+00:17:43,000 --> 00:17:47,002
+Tarima och lite sådant och teorier
+
+85
+00:17:49,023 --> 00:17:53,305
+runt prognosisering.
+
+86
+00:17:53,946 --> 00:18:06,092
+Så den biten borde vi ha med. Men det egentliga målet vårt här och nu, den 
+teoribiten kan vi skriva i efterkant. För det är modellering vi ska se på
+
+87
+00:18:06,112 --> 00:18:08,773
+nu. Det heter egentligen inte modellering, det heter modell.
+
+88
+00:18:15,567 --> 00:18:28,609
+Vi ska ha en modell som vi ska lösa. Och detta är väldigt väsentligt. 
+Egentligen alla case, oavsett case du har, om det är prognosisering
+
+89
+00:18:28,629 --> 00:18:40,110
+eller lagerplanläggning eller ruteoptimalisering, du måste ha en 
+modell. Så det är en must have. i en sådan analys. För om du inte har en
+
+90
+00:18:40,130 --> 00:18:44,972
+modell, så har du inte beskrivit vad du ska lösa.
+
+91
+00:18:50,215 --> 00:18:59,721
+Oj, det ska jag inte göra.
+
+92
+00:18:59,741 --> 00:19:02,783
+Det är svårt, det kan bli att veta hur en riktig modell får de olika
+
+93
+00:19:06,628 --> 00:19:13,474
+uppgifterna i studieklubben ni har, men det är ju en del av... Ja, och det 
+ska egentligen ha gjort jobben i proposal, där ni har en idé om vilken
+
+94
+00:19:13,514 --> 00:19:16,476
+metodik eller modell ni ska använda. Hur modellen ser ut kan vara från 
+case till case.
+
+95
+00:19:32,203 --> 00:19:45,026
+Men rättningen eller metodiken måste vara vald. Och här ska vi använda 
+SARIMA som metodik. Så vi har redan valt det valet. Det är lite det den
+
+96
+00:19:45,086 --> 00:19:54,509
+blicken ska ha som hänsyn. Och ge er en del tips på vilken metod ni kan 
+använda för vad. Jag har valt att använda en SARIMA-modell. Jag önskar
+
+97
+00:19:54,529 --> 00:19:54,709
+att du nu...
+
+98
+00:20:22,232 --> 00:20:29,498
+Här måste du vara nöjd- och beskriva modellen-
+
+99
+00:20:31,920 --> 00:20:32,961
+matematiskt.
+
+100
+00:20:35,843 --> 00:20:38,846
+Ja, för i magen har vi kanske inte något mer...
+
+101
+00:20:42,746 --> 00:20:53,070
+Detaljer om vad som ska vara under sex modeller, sju analyser och åtta 
+resultat. Det står lite mer i det vi hade i den andra filen om vad vi
+
+102
+00:20:53,090 --> 00:21:00,433
+förväntar oss att vara med i. Tänker du den här? Det står mer i den 
+word-malen som vi har. Det är två word-malen. Där står det vilka avsnitt
+
+103
+00:21:00,453 --> 00:21:02,514
+vi har sagt vad som bör vara med i rapporten. Ja, ja.
+
+104
+00:21:12,547 --> 00:21:21,470
+Men det har vi alldeles implementerat för att vi har ett skelett av 
+rapporten,
+
+105
+00:21:21,490 --> 00:21:30,894
+har vi inte? Ja, det har vi. Och vilken fil var det där igen? Ja. Vilken fil 
+var det där skelettet? Ja, det var under templates där, den malen där.
+
+106
+00:21:30,914 --> 00:21:33,475
+Ja, där står det igen. Där har vi alldeles implementerat den då.
+
+107
+00:21:39,044 --> 00:21:46,871
+Ja, för att du sa att man skulle läsa den här i vördfylla. Och där står det 
+lite mer om vad som ska vara under modellen. Ja, han ska i princip ha läst
+
+108
+00:21:46,891 --> 00:21:51,916
+det. Här måste du vara nöjd och beskriva modellen matematiskt. Pass på 
+att definiera alla störelser. Både parametrar och variabler och
+
+109
+00:21:51,936 --> 00:21:52,116
+störelser.
+
+110
+00:22:05,784 --> 00:22:07,125
+Och använd
+
+111
+00:22:09,627 --> 00:22:22,157
+matgex. Eller använd latex. I marknaden. Jag bara säger det för att man 
+inte ska glömma det. Se om du klarar dig för det själv. Och ge matematiska
+
+112
+00:22:22,177 --> 00:22:23,057
+formler. Beskriv också
+
+113
+00:22:38,711 --> 00:22:53,056
+Och så störelsen. Ja. Det är ett bra poäng. Och så. När du ger i tvivl. Så 
+brukar. Tvingen till att läsa igenom. Det där är en malprojekt.
+
+114
+00:22:53,076 --> 00:23:04,920
+650v2.docx. Ifall det är tvivl så säger jag. Husk att läsa igenom den. Så 
+du vet också. Vad vi förväntar oss. Inhåll i kapitel 6. Det kan du göra.
+
+115
+00:23:04,980 --> 00:23:11,659
+Det kan du göra. Om du. Föla att... Det kan vi göra om man har glömt det. Det 
+jag gör nu är att jag har glömt... Nej, det är det dumaste. Jo, det är
+
+116
+00:23:11,679 --> 00:23:13,720
+kodex. Så det jag gör nu är att jag har glömt att ta plan. Jag vill gärna ha 
+plan mot den här först. Okej.
+
+117
+00:23:37,713 --> 00:23:46,722
+Men jag har ändå lagat texten, så det är bara att spela in den i alla fall. 
+Sådant sett så syns det klart bättre, för den kan du när som helst slå på
+
+118
+00:23:46,742 --> 00:23:55,050
+plan-mod, men akkurat när det gäller kodex så måste du på något sätt, jag 
+har inte något faste tryck som jag vet om ännu i alla fall. Ja, riktigt.
+
+119
+00:23:55,070 --> 00:23:55,290
+Okej.
+
+120
+00:24:24,885 --> 00:24:34,907
+Jag ska bara stoppa den där med en gång, för vi ser att den var på fel spor. 
+Så säger jag bara, du ska inte lösa modellen nu.
+
+121
+00:24:38,548 --> 00:24:44,350
+Han är på väg till att lösa modellen, men kun beskriver den.
+
+122
+00:24:50,271 --> 00:24:54,072
+Vi löser modellen under en senare
+
+123
+00:25:06,304 --> 00:25:14,570
+Så får jag fortsätta. För att stoppa A1 så trycker jag Escape. Bara så att 
+ni vet.
+
+124
+00:25:20,515 --> 00:25:27,420
+Det är egentligen fället för de flesta av både metoderna. Det här tycker 
+jag är lite spännande. Bara för att nu delar vi faktiskt och
+
+125
+00:25:27,440 --> 00:25:34,798
+presenterar, inte löser som du säger, men presenterar modellen. 
+Sådant som kan vara ganska vanskligt och ganska mycket arbete. Det här
+
+126
+00:25:34,858 --> 00:25:48,324
+är krävande och det ska bli väldigt kul att se hur rapporten blir nu. Det 
+är jag spänd på. Här bör du inte läsa över, men jag säger
+
+127
+00:25:48,344 --> 00:25:51,966
+bara yes, implement. Det jag brukar göra är att skona över och säga att 
+det ser grejigt ut.
+
+128
+00:25:58,145 --> 00:26:05,527
+Och så får du det på rapporten och så går du igenom lite närmare för då är 
+det lite mer om vad man faktiskt gör. Ja, men vi har definierat ett
+
+129
+00:26:05,547 --> 00:26:12,208
+review-steg också nu. Så vi behöver inte använda allt för lång tid och 
+mycket sommelhet här. Eftersom vi ändå ska ha ett review-punkt
+
+130
+00:26:12,228 --> 00:26:14,149
+efteråt. Och då blir det gjort ändå.
+
+131
+00:26:33,543 --> 00:26:35,624
+Där kom det något för er.
+
+132
+00:26:39,925 --> 00:26:46,728
+Och här brukar den, akkurat den ska jag göra, nämligen sådana här 
+operatorer. Detta här är vansklig matematik, folkens. Detta är inte
+
+133
+00:26:46,768 --> 00:26:55,210
+enkelt på någon så helst måte. Och det är i alla fall inte något vi hade 
+förväntat att en vanlig bachelorstudent skulle ha klart. Men detta ser
+
+134
+00:26:55,230 --> 00:26:59,932
+väldigt korrekt ut. Och om ni ser något så kan ni, så ska man... Där är det 
+något, ja det är det.
+
+135
+00:27:03,221 --> 00:27:09,785
+Om ni ser detta skrivbort så ser ni att det har en viss sammanhang här. 
+Brukeoperatorer.
+
+136
+00:27:12,007 --> 00:27:18,611
+Så det är bra. Det betyder att vi på vårt nivå i Logitech samtidigt, så må 
+vi nog säga att
+
+137
+00:27:23,881 --> 00:27:34,864
+Det blir en lätt box då, i den förstånden att folk inte kommer att förstå 
+allt som är i den matematiska modellen. Det är grej att göra reda på det
+
+138
+00:27:34,984 --> 00:27:44,228
+och försvara den. Det kan man inte förvänta sig, men att du ska ha så 
+mycket kunskap att det är grej att se att det här är relevant och sådana
+
+139
+00:27:44,508 --> 00:27:54,494
+saker. Man klarar allt samman. Det är kanske lite mycket att förvänta 
+sig. Ska vi se, jag ser att den sliter med något sådant in-text. Ja, jag
+
+140
+00:27:54,514 --> 00:28:05,239
+ser det. Han tacklar inte i main-texten. Nej, det är viewern, ser du. Ja, 
+är det viewern? För jag har ett tillsvarande problem med GPT. Det kommer
+
+141
+00:28:05,259 --> 00:28:13,924
+man upp med sakerna gör. När man lagar ligningar så är det grej. Men om man 
+har ligningar eller uttryck i main-texten så tacklar man inte. Då
+
+142
+00:28:13,944 --> 00:28:15,084
+kommer det bara med latex. Ja, vi kan se.
+
+143
+00:28:18,455 --> 00:28:30,564
+Här är en annan viewer som tacklar det. Han gör ju inte det också. Jag kan 
+säga det till henne då. Ja, fast om du säger det till henne och så prövar
+
+144
+00:28:30,604 --> 00:28:40,851
+hon på honom flera gånger. Och säger oj och baserar sig på 
+sannsynligheter. Så är det så att det kan greja det en gång men inte
+
+145
+00:28:40,951 --> 00:28:54,298
+andra. Jag vet inte om du kan berätta det. Ja, jag ser att han använder den 
+där. Så om vi använder den istället då? Ja, jag tror kanske det kan gå så.
+
+146
+00:29:01,525 --> 00:29:05,728
+Ja, jag ser det. Men den där bör den inte köra då.
+
+147
+00:29:11,293 --> 00:29:12,674
+Ska vi se om den fungerar.
+
+148
+00:29:16,335 --> 00:29:27,457
+Det gör den, ser du? Ja. Så då fanns det. Så Viewern klarar inte... Detta 
+har med Viewern att göra i VS Code. Det är inte så viktigt för er till
+
+149
+00:29:27,497 --> 00:29:35,858
+syvende och sist, för då ska ni inte översätta hela grejen in i Word eller 
+vad det måste vara. Men... Men likaväl, för att kunna se... Men det
+
+150
+00:29:35,878 --> 00:29:39,959
+grejer inte bara så lite upp i det, för det blir väldigt uleteligt när det 
+är i ladekode. Jag ser att du brukar...
+
+151
+00:29:50,964 --> 00:29:56,686
+for inline latex, men brukt i stället.
+
+152
+00:30:00,747 --> 00:30:04,589
+Då vår viewer, eller min viewer,
+
+153
+00:30:09,471 --> 00:30:10,391
+kun stöter denna.
+
+154
+00:30:14,152 --> 00:30:15,113
+Lägg detta punktet
+
+155
+00:30:17,733 --> 00:30:24,962
+också in under Ja, ni har gett det. Agents. Och klåda. Här är regling och 
+dropping alltså? Ja, lägg det också in under Paper skill. Nej, det får
+
+156
+00:30:24,982 --> 00:30:26,163
+jag inte. Okej. Så. Förhoppningsvis så vill vi fixa alla dessa...
+
+157
+00:30:52,774 --> 00:31:07,137
+teta och sådant som det står här. Det borde det inte vara. Yes.
+
+158
+00:31:08,697 --> 00:31:20,540
+Men, två ting. Nu ser du på det att det är ganska komplicerat matematik. 
+Vi går över till den här. Det är bara så att det är lättare att se. Men nu har
+
+159
+00:31:20,560 --> 00:31:28,219
+vi gjort massor inunder modell här, folkens. Här, modell. Beskriv 
+massor för oss.
+
+160
+00:31:38,204 --> 00:31:51,050
+Och det var min starkaste anbefaling, då. Att ni faktiskt sätter er in i 
+det. Varför det? Ja, för att sagt på en annan måte, för att inte bli tappt
+
+161
+00:31:51,070 --> 00:32:01,140
+med buksan nere, då. Rätt och slett. För en ting är att. Dock ska bli 
+censurerat i detta här. Men en annan ting är att. Dock ska lära ett.
+
+162
+00:32:02,161 --> 00:32:12,907
+Verktöj. Ett frykteligt kraftigt verktyg. Som dock ska bruka. När dock 
+kommer ut. Och ska jobba och laga rapporter. Gör en tillsvarande
+
+163
+00:32:12,927 --> 00:32:18,550
+session. I en eller annan arbetssammanhang. Då nyttar de inte att komma 
+med. Med tull. Stant.
+
+164
+00:32:22,878 --> 00:32:35,448
+på skolan det enaste som sker om det går gärna är att du får en dålig 
+karaktär på jobben helt annan ballgame mycket mer prestige du vill inte
+
+165
+00:32:35,468 --> 00:32:48,738
+bli tatt med buksan nere så när du får A in till att generera komplicerat 
+matematik som ska begrunna och förklara modellen så sörj för att förstå
+
+166
+00:32:48,758 --> 00:32:57,870
+det Be Aino om att hjälpa och förstå modellen så att ni lär er den. Det är 
+min hjärtliga anbefaling till er. Bruk den extra tiden det tar för att
+
+167
+00:32:57,890 --> 00:33:04,512
+sätta er in i det ni faktiskt genererar. Är ni eniga, Per? Ja, jag är helt 
+enig. Så det kan ni göra helt på sidan av detta här. Efteråt så lag en ny...
+
+168
+00:33:20,034 --> 00:33:29,157
+session då, om du brukar GPT eller Plod eller Gemini och så bara ha det som 
+diskussionspartner och diskutera igenom detta där och bara säga det
+
+169
+00:33:29,177 --> 00:33:39,521
+som det är, att jag kan inte detta här på grundläggande kan inte detta 
+grundläggande modell här men jag är en bästa student och ska presentera
+
+170
+00:33:39,541 --> 00:33:49,484
+detta här nu eller plötsligt ha en muntrepresentation och bli utspelad 
+om detta, vad bör jag veta och så brukar du ha det som ett sparingspartner
+
+171
+00:33:49,880 --> 00:33:56,125
+För att förstå detta där. Kanske komma upp med en sån enkel presentation 
+om hur man ska presentera det. Om du har en presentation på fem minuter,
+
+172
+00:33:56,165 --> 00:34:00,928
+en presentation på ett kvarter. Hur man vill lägga en kul punkt eller en 
+powerpoint ut. Så att använda lite tid på det är faktiskt ganska bra. Ja.
+
+173
+00:34:00,948 --> 00:34:02,930
+Så detta punkt vi gjorde nu, det stod egentligen inte i status...
+
+174
+00:34:16,492 --> 00:34:22,395
+Det stod inte i statusfilen vår. Så jag bad honom egentligen om att lägga 
+det in. Där. Det borde egentligen ha varit först och inte sist. Men det är
+
+175
+00:34:22,415 --> 00:34:25,236
+för att dokumentera. Jag önskar att dokumentera vad vi gör på vägen. Och 
+så ändra också.
+
+176
+00:34:51,968 --> 00:35:04,915
+Jag lyckades att du uppdaterade i real-time. Jag såg att du hoppade upp. 
+Det är ett fixpunkt ditt. Så du tickade av. Ja. Och i hyllan ska jag ändra
+
+177
+00:35:04,935 --> 00:35:19,019
+projektfilen in i här. Jag är helt på att jobba med att laga ett väldigt 
+gott projektstyringssystem samtidigt med AI. Så efter vart så vill jag
+
+178
+00:35:19,039 --> 00:35:25,862
+egentligen inte ha status, men att jag bara kan jobba med schedule.json 
+här och sådant, men det är en datafila. Men att jag kan ha en
+
+179
+00:35:25,922 --> 00:35:29,244
+webbapplikation, till exempel, där jag kan hämta den här statusen från 
+en databas, till exempel.
+
+180
+00:35:45,165 --> 00:36:00,608
+Det är ett framtidigt steg som vi kommer att jobba med som kanske vi har 
+till nästa år. Det finns förbättringar.
+
+181
+00:36:00,628 --> 00:36:11,770
+Det är den färdiga. Detta punkt var ett viktigt punkt som inte var med i 
+den upprinneliga planen. Men som jag menar var viktigt är att skriva
+
+182
+00:36:11,810 --> 00:36:12,550
+modellen först.
+
+183
+00:36:16,688 --> 00:36:17,928
+Nu ska vi börja
+
+184
+00:36:21,050 --> 00:36:26,833
+jobba med Python, för nu ska han börja hitta de variablerna. Nu har vi 
+beskrivit
+
+185
+00:36:27,853 --> 00:36:28,854
+modellen, nu ska vi lösa modellen.
+
+186
+00:36:40,611 --> 00:36:47,893
+Och det att beskriva en modell, det kan vara svårt själv. Det att lösa en 
+modell är ofta ännu svårare. Vad betyder det att estimera en modell? Ja,
+
+187
+00:36:47,913 --> 00:36:51,614
+det betyder att hitta tal för de okänta. Ja, men det kallas gärna 
+estimering i statistik. Okej.
+
+188
+00:37:11,661 --> 00:37:11,881
+Okej.
+
+189
+00:37:40,902 --> 00:37:41,563
+i aktivitet.
+
+190
+00:37:48,236 --> 00:37:51,422
+Jag lurer på om det här kanske var lite det vi hade aldrig gjort.
+
+191
+00:38:31,662 --> 00:38:34,624
+Ja, det ser bra ut. Det handlar om stationaritet.
+
+192
+00:38:41,450 --> 00:38:46,254
+Så om vi ser på detta dokument här så ser vi att detta är standard på många 
+sätt. Men det var så svårt för många av er här nu.
+
+193
+00:39:05,747 --> 00:39:13,170
+Så efter att vi har lagat modellen så
+
+194
+00:39:13,190 --> 00:39:22,694
+ska vi börja se på processen och det statensamling har vi gjort. Så det 
+nästa är stationaritet och säsonganalys. Men stationaritet och
+
+195
+00:39:22,714 --> 00:39:27,636
+säsonganalys, är det några punkter som kommer under kapitel 6 
+modellen? Ja, ja.
+
+196
+00:39:31,133 --> 00:39:41,419
+Nej, analyser. Analyser, okej. Så nu har vi dotter i analyser då. Okej, 
+men då var det egentligen ganska korta, syns det, kapitel 6 om modellen.
+
+197
+00:39:42,039 --> 00:39:48,083
+Det var, visst det inte var mer än det vi har gjort nu, så var det ganska 
+korta. Ja, men det är inte alltid att modellen är så lång. Speciellt när
+
+198
+00:39:48,103 --> 00:39:55,007
+den är känta. Ja, och det är som sagt, det är ju bara presentation om 
+modellen, och modellen är generellt inte lång, faktiskt. Det är att
+
+199
+00:39:55,047 --> 00:40:05,117
+lösa den, då, som kan vara längre. Så, som sagt, så är det grejigt att det 
+är kort. Ja, detta är bara en en slags manifestering av vad vi ska lösa då.
+
+200
+00:40:10,079 --> 00:40:14,761
+Statispunkt, ja. Så vi tar nästa status, vi vurderar aktuell 
+modelltyper för trend och säsonger.
+
+201
+00:40:25,246 --> 00:40:30,609
+Så det är en bajt att göra nu, det är steg två här då, det regnar jag med.
+
+202
+00:40:44,271 --> 00:40:49,234
+Jag bara klipper ut folkens table of contents, sådant som det typiskt är 
+i rapporten.
+
+203
+00:40:57,540 --> 00:41:06,787
+Nu ser vi att vi har kapitel 6 av modelleringen i halva kombinationen. 
+Båringen har inte pushat och vi har inte pullat. Det är sex modeller vi är
+
+204
+00:41:06,807 --> 00:41:16,353
+färdiga med. Det som är nästa är sju analyser. Steg 2 i Båringens 
+pdf-sida till vänster, steg 2, stationaritet och säsonganalys,
+
+205
+00:41:17,294 --> 00:41:20,096
+kommer under kapitel 7 av analysen i rapporten. Ja.
+
+206
+00:41:28,685 --> 00:41:30,446
+Janne, borde du läsa över detta? Jag tar en paus, så vi får bara...
+
+207
+00:42:15,789 --> 00:42:17,670
+stationalitet och syssonanalys.
+
+208
+00:42:28,293 --> 00:42:28,713
+Ja.
+
+209
+00:42:32,574 --> 00:42:41,577
+Ja, men detta är ju lite bra egentligen. Ja, det är faktiskt bra, ja. Men 
+den biten vill jag faktiskt ha under modell. Ja, jag tänkte på det. Det
+
+210
+00:42:41,697 --> 00:42:58,895
+hörs under kapitel 6 modell. Enligt. Helt enligt. Nej, detta är bra. Och 
+lägg detta in under eget delavsnitt.
+
+211
+00:43:00,375 --> 00:43:07,478
+Ja. Under modell. Ja, jag tänkte på att... Ja, det var det du sa. Ja, det 
+var det. Underavsnitt, avsnitt 3, kapitel 6, borde det vara. För det är
+
+212
+00:43:07,538 --> 00:43:08,238
+antagelser och det är
+
+213
+00:43:18,358 --> 00:43:33,482
+Det är också begynnelse för modelltypen. Att ta med alla antagelser i 
+modellen som eget delavsnitt. Det kommer på att ta för guds skull med
+
+214
+00:43:33,523 --> 00:43:39,104
+alla antagelser som vi gör i modellen. Som är knyta till modellen. Som är 
+knyta till modellen. Vi har också andra antagelser och inskräckningar
+
+215
+00:43:39,124 --> 00:43:41,225
+och begränsningar i rapporten vår. Det är helt rätt.
+
+216
+00:43:46,343 --> 00:43:53,905
+Men de antagelser som är associerade med modernen som sådant hör till 
+under kapitel 6. Ja, riktigt. Det är inte samma typ av antagelser, nej.
+
+217
+00:43:53,925 --> 00:44:04,388
+Nej, det är inte det. Ja, men då kan vi ta pausen. Men här har vi planen, så 
+sätter vi bara den i sving. Men det den planen här vill för exempel göra är
+
+218
+00:44:04,428 --> 00:44:13,848
+att den vill begrunna att vi har faktiskt... Den vill se på datan och lite 
+sådant, och så vill den säga att här har vi... Stort mest sannolikt En
+
+219
+00:44:13,888 --> 00:44:23,994
+trend för att den stiger Och vi har säsong för att den svinger Och så en 
+vuxende och så vidare Så detta är det Ska vi då pausa Så kör vi bara på
+
+220
+00:44:24,014 --> 00:44:32,818
+implement i mens Så har vi på skäringen så kan folk se om de vill Ja Det är 
+grejigt Alright, då kör vi på Och så tar vi pausa där
+
+221
+00:44:40,935 --> 00:44:45,947
+Jag skulle dela, ja. Idiot. Det var kameran jag skulle...
+
+222
+00:59:44,938 --> 00:59:46,621
+Ja, det har jobbat.
+

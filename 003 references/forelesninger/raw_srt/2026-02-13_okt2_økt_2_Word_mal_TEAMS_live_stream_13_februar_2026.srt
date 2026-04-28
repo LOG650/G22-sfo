@@ -1,0 +1,1536 @@
+1
+00:00:02,900 --> 00:00:08,702
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Ja, 
+da starter vi time nummer to. Jeg kommer til å bruke litt mer tid på dette
+
+2
+00:00:08,802 --> 00:00:20,785
+avsnittet før vi går over til Wern-malen og gjennomgang av det. Så jeg 
+kommer til å bruke kanskje ti minutter her, og så går vi over til
+
+3
+00:00:21,025 --> 00:00:21,405
+Wern-malen.
+
+4
+00:00:26,845 --> 00:00:42,093
+Vi ser at det er forskjellige format og kildetyper. Jeg går ikke mye inn 
+på det. APA-format etter kildetyper ... Hvis dere refererer til en bok,
+
+5
+00:00:42,653 --> 00:00:54,248
+så er det ofte den måten å gjøre det på. Altså etternavn, og så fornavn, og 
+så år, og så tittel, og så forlag. Hvis dere har et tidsskrift som dere
+
+6
+00:00:54,268 --> 00:00:57,189
+skal referere til, så er det også det samme med etternavn.
+
+7
+00:01:00,070 --> 00:01:11,912
+Så er det artikkeltittel, så er det tidsskrift, volum, og så gjerne en 
+doilink til slutt. Det aller beste er å se på eksempler som vi har vist
+
+8
+00:01:11,932 --> 00:01:22,140
+dere tidligere i kapitlet, og så google litt av dem sjøl. Det skal vi 
+gjøre sammen nå etterpå, på slutten av timen. Her ser dere eksempler som
+
+9
+00:01:22,180 --> 00:01:34,844
+er tatt med utdrag. Ja, jeg har tatt med video. Her ser du da at jeg ... Hvis 
+dere henviser til en masteroppgave og bacheloroppgave, for det kan
+
+10
+00:01:34,884 --> 00:01:45,907
+hende at ... Men det er ofte skjelvere, da. I forskningssammenheng så 
+har jeg aldri referert til en masteroppgave. Men det kan hende at dere
+
+11
+00:01:45,927 --> 00:01:56,582
+kan gjøre det i deres forskningsprosjekt. Og hvis dere gjør det, så ser 
+dere at ... Hvis det er en rapport eller en institusjon, som er litt
+
+12
+00:01:56,622 --> 00:02:07,230
+mindre aktuelt for oss, men det kan inntreffe, da står det her nå. Men nå 
+skal vi bruke AI, så det kan hende det er mer aktuelt da. Også det her med en
+
+13
+00:02:07,290 --> 00:02:21,752
+nettkilde. Så ser du også her på hvordan det skal gjøres. Og gjerne også 
+ser vi hva da biblioteket ... For dette er bibliotekets kommentar på at
+
+14
+00:02:21,772 --> 00:02:32,557
+hvis dere bruker nettkilde, så har lest hentet dato dersom kilden ikke 
+har oppgitt siste oppdatert dato. Det er faktisk helt nytt for meg. Så
+
+15
+00:02:32,597 --> 00:02:38,800
+dette er innmari bra. Så ser jeg at de lærer ting igjen som biblioteket 
+har kommentert.
+
+16
+00:02:41,522 --> 00:02:53,534
+Så er dette med referering til KI-verktøy. Kunstig intelligens brukes 
+i dette faget, og i logg 560 er det ikke bare noe vi anbefaler, men det er
+
+17
+00:02:53,594 --> 00:03:03,021
+også obligatorisk. Det er det som er meninga med faget. Da spørs 
+spørsmålet når krever KI-bruk referanse? Referanse kreves kun når
+
+18
+00:03:03,081 --> 00:03:12,068
+KI-verktøyet har generert materiale som brukes direkte i oppgaven, 
+f.eks. bilder, figurer, illustrasjoner, eller at det er generert kode
+
+19
+00:03:12,108 --> 00:03:20,598
+som gjenstår i oppgaven, og det er jo høyaktuelt for oss. I tillegg også 
+dem som bruker simulerte data.
+
+20
+00:03:24,680 --> 00:03:32,305
+Nå håper vi at vi unngår det, men det kan hende at vi må det. For det kan 
+hende det blir vanskelig å få tak i data. Og hvis vi gjør det, så må vi også
+
+21
+00:03:32,365 --> 00:03:46,923
+sitere det. Og da, hvis vi er i den situasjonen, så brukes referanse til 
+KI. Når er det KI ikke brukes som preferanse? Det kan også være nyttig å
+
+22
+00:03:46,963 --> 00:03:54,166
+vite. Det er når vi har idéutvikling, altså bare holder på å ha det som en 
+diskusjonspartner. Hvis du har språklig støtte bare for å sjekke
+
+23
+00:03:54,186 --> 00:04:01,549
+skrivefeil og sånne ting. Alternative formuleringer. Det kan være bra 
+at du har mer sånn. Det er en egen stil, altså det her med vitenskapelig
+
+24
+00:04:01,569 --> 00:04:10,333
+skriving. Det er veldig tørt og faktabasert. Og det er helt fritt for 
+følelser. Så jeg føler at det hører ikke hjemme i en vitenskapelig
+
+25
+00:04:10,353 --> 00:04:18,875
+rapport. Og hvis du har strukturhjelp og kvalitative forslag, da 
+trenger du ikke å referere til det. For jeg ser nå at KI blir mer og mer
+
+26
+00:04:18,915 --> 00:04:28,318
+brukt til slike ting. I slike tilfeller fungerer KI bare som et 
+arbeidsverktøy og ikke som faglig kilde. Så skiller mellom det her, når
+
+27
+00:04:28,338 --> 00:04:34,720
+det faktisk trengs å gjøre det, når det er en faglig kilde, f.eks. 
+simulerte data eller figurer, og når det ikke er
+
+28
+00:04:38,781 --> 00:04:47,521
+det. Her har jeg bare et eksempel. Når KI-generert materiale oppstår i 
+oppgaven, skal dette henvises til i teksten på samme måte som andre
+
+29
+00:04:47,561 --> 00:04:57,424
+programvare- eller teknologiske tjenester. Figurhenvisning is, som 
+vanlig, men kilden er KI-verktøyet is i parentes. Her er et eksempel.
+
+30
+00:05:00,385 --> 00:05:07,588
+Vi har laga en KI-generert figur. Den gjorde faktisk Ion Barringe. Og da 
+ser vi at det er open AI i 2025.
+
+31
+00:05:11,813 --> 00:05:15,074
+Biblioteket
+
+32
+00:05:15,154 --> 00:05:28,900
+anbefaler at når ko-ifomet skal føres i referanselisten, så er det 
+firma, rettighetshaver og år. Tittel på programmet, kategori, f.eks.
+
+33
+00:05:29,120 --> 00:05:34,343
+språkmodell, osv. Og her er et eksempel.
+
+34
+00:05:34,623 --> 00:05:44,269
+Firmaet skal også være med her om det ikke er samme som rettighetshaver. 
+OK. Det her er fra biblioteket. Det visste jeg ikke inn, så det var bra at
+
+35
+00:05:44,289 --> 00:05:52,013
+de sa det. Her er et eksempel. OpenEye 2025, 6GPT, versjon 5.1. Som er en 
+stor språkmodell. Og så har vi bare linken her.
+
+36
+00:05:58,217 --> 00:06:06,842
+Og eksempler fra tekstilbildemodell. Midjourney, f.eks. Versjon 
+5.1. Og så sier du hva slags at det er, da. Tekstilbildemodell, og så har
+
+37
+00:06:06,862 --> 00:06:07,382
+du linken her.
+
+38
+00:06:13,357 --> 00:06:22,961
+Så ser vi her beskrivelse av KI-bruk i forskningsprosessen. I logg 650 
+inngår bruken av kunstig intelligens som en sentral del av
+
+39
+00:06:23,121 --> 00:06:31,845
+forskningsmetoden. Studenten bør derfor gi en kort og presis 
+beskrivelse av hvordan KI er anvendt i prosjektet. Formålet er å sikre
+
+40
+00:06:31,926 --> 00:06:42,075
+faglig transparent, etterprøvbarhet og en tydelig metodisk 
+forankring. Så da er jeg faktisk litt usikker på akkurat det der. Når
+
+41
+00:06:42,496 --> 00:06:58,209
+folk sier litt om dette, for det har såpass tydelig profil med K i vårt 
+fag. Hvor mener du at dette skal komme inn i rapporten? Hvor ser du for deg
+
+42
+00:06:58,289 --> 00:07:12,127
+dette? Jeg har ikke helt tenkt på det. Det må for det første refereres 
+til, sånn som du gjør. Og så går det an å skrive det i I prefacen, tenker
+
+43
+00:07:12,148 --> 00:07:29,935
+jeg. Ja, hva tenker du på da? Introduksjonen? Nei, preface. I preface, 
+ja. OK. Altså ... Forord heter det vel. Forord. Ja, riktig. For det at ...
+
+44
+00:07:31,275 --> 00:07:41,312
+Det har vi ikke sagt så mye om, da, det med preface her nå. Nei, det er 
+forord, da, men det skriver vi gjerne helt på slutten, da. Ja. For det vi
+
+45
+00:07:41,332 --> 00:07:50,697
+bruker òg, da, er å ha med et knowledgement og sånn òg. Element før og 
+etter hoveddelen, ser du her. Før og etter hoveddelen. Da har vi forside
+
+46
+00:07:50,717 --> 00:07:58,941
+og tittelside. Det har vi med, for det er en del av malen. Så har du 
+innholdsfortingelse. Og vi burde kanskje ha med her, ser du, Vål, et
+
+47
+00:07:58,981 --> 00:08:00,882
+eller annet i sted inn her. Forord.
+
+48
+00:08:03,724 --> 00:08:13,756
+Og der burde vi kanskje ... Skal bare se et lite eksempel på dette her, 
+folkens. Dette er vitenskapelig skriving, og her er forordet vårt. Og
+
+49
+00:08:13,816 --> 00:08:19,918
+etter det ser du at det er om boken. Her er også et compandium. Man 
+prefacer i en forskningsrapport som skal leveres.
+
+50
+00:08:25,200 --> 00:08:33,123
+Jeg er litt usikker på om det er vanlig en forskningsrapport å ha et 
+forord. Men i bachelor- og masteroppgaver er det vanlig å ha med.
+
+51
+00:08:36,760 --> 00:08:43,783
+En bacheloroppgave? Eller skal vi se på det som en ren 
+forskningsrapport? Da var ikke preface så vanlig, da. Men det er jo ei
+
+52
+00:08:43,843 --> 00:08:53,483
+studentoppgave, prosjektoppgave. Der står det. Om bruk av kunstig 
+intelligensarbeid. Dette kompendiet bygger i hovedsak på
+
+53
+00:08:53,543 --> 00:08:59,845
+forfatternes egne erfaringer, faglige vurderinger og de 
+retningslinjene som gjelder ved Høgskolen i Molde. Kunstig
+
+54
+00:08:59,865 --> 00:09:07,646
+intelligens er brukt som en faglig sparringspartner for å utvikle 
+formuleringer, få alternative forslag og håndtere tekniske detaljer
+
+55
+00:09:07,666 --> 00:09:16,375
+i lateks, men ikke som faglig kilde. Alle kapitler, temaer og 
+pedagogiske forslag er utformet av forfatterne, og alt innholdet er
+
+56
+00:09:16,395 --> 00:09:25,420
+gjennomgått kvalitetssikret av oss. Så mye av det her har vi fått hjelp 
+av AI til å gjøre, og de har gjort mye. Men vi har sagt hva de skal gjøre.
+
+57
+00:09:25,800 --> 00:09:34,405
+Rimer skal vi bruke, og vi skal ha en del steg. Vi skal forklare hvilke 
+steg det er, hvilke metoder det er. Så alt det er å bringe sitt verk og mitt
+
+58
+00:09:34,446 --> 00:09:46,771
+verk. Men vi har fått AU til å strukturere og skrive LATEK-koden på. Sånn 
+som dere også skal få AU til å skrive Pyton-koden for dere. Da sier vi det
+
+59
+00:09:46,831 --> 00:09:56,097
+at ... Da sier vi på denne måten med et par linjer her i foråret hva slags 
+rolle KI har hatt i forskningsprosjektet, og hva slags rolle KI har hatt
+
+60
+00:09:56,177 --> 00:09:57,198
+i dette kompaniet.
+
+61
+00:10:01,996 --> 00:10:11,766
+Jeg ville hatt det som et forord. Ikke noe farlig å ha et forord i en 
+master. Nei da, det er ikke det. Så forord er master. Men
+
+62
+00:10:11,806 --> 00:10:24,580
+publikasjonsartikkel er ikke vanlig. Men jeg er enig i det. Det kan vi ha 
+i vår sammenheng. Så ser dere en liten ting her. Acknowledgement. Det
+
+63
+00:10:24,640 --> 00:10:35,066
+brukes i oppvåkningsartikler. Det er helt avgjørende at du takker dem 
+som skal takkes. Ellers blir folk fornærma og sånne ting. Der ser du at vi
+
+64
+00:10:35,106 --> 00:10:46,730
+har gjort det her. Acknowledgement anerkjenner det logistikkmiljøet 
+som en bør ringe og er i Høgsborgen i Molde. Det kan også dere. Det gjelder
+
+65
+00:10:46,790 --> 00:10:50,317
+også vitenskapelige artikler, så vel som battler, master og 
+doktorgrad.
+
+66
+00:11:11,200 --> 00:11:17,563
+Så har jeg lyst til å bruke litt tid, for vi sier at tida går. Vi har 
+allerede brukt et kvarter. Verktøy og ressurser for referanser, ja.
+
+67
+00:11:19,825 --> 00:11:29,190
+Det jeg først og fremst har lyst til, er noe som heter Kildekompasset, 
+som biblioteket har anbefalt. Søk og skriv, kan dere gjerne se på. Det er
+
+68
+00:11:29,210 --> 00:11:38,861
+ressurser på nettet. Dette er EndNotes, som gjelder kun for 
+masterstudenter, så det lurer jeg på om vi kanskje skal fjerne. Og
+
+69
+00:11:38,921 --> 00:11:45,667
+vanlige feil å sjekke liste. Men det jeg har lyst til ... Her ser dere en 
+link der dere kan finne litt mer informasjon. Men det jeg har lyst til,
+
+70
+00:11:45,807 --> 00:11:58,498
+det er å sjekke det her med Google Scholar. Med andelte ressurser. Det er 
+det jeg har lyst til å si i fem minutter, før vi ringer over til
+
+71
+00:11:59,839 --> 00:12:03,602
+det vi så her nå, om å gå gjennom WordMal.
+
+72
+00:12:06,533 --> 00:12:19,043
+Så Google Scaller, da gjør vi det her og viser det først og fremst. Men én 
+ting ... Kan ikke alle som er på nettet her nå? Kan ikke dere si - har dere
+
+73
+00:12:19,063 --> 00:12:27,510
+hørt om Google Scaller? Har dere brukt Google Scaller? Si bare ja eller 
+nei. Om dere har hørt om Google Scaller eller aldri hørt om det. Google
+
+74
+00:12:27,550 --> 00:12:39,093
+Scaller er altså det her. Du har brukt den før, ja? Greit. Dette er Google 
+Scaller. Det er bare én som har brukt det. Du og Erik har sikkert gjort
+
+75
+00:12:39,113 --> 00:12:54,922
+det. Du har hørt om Google Skolle før, Erik? Har ikke du det? Greit, bra. 
+Da søker jeg bare på meg sjøl. Slik at dere ser hvordan det fungerer. Her
+
+76
+00:12:54,982 --> 00:13:05,145
+ser dere da ... Jeg har ca. 20 vitenskapelige artikler. Hvis du skal 
+finne en kilde ... Det er ikke alltid originalkilden man skal finne en
+
+77
+00:13:05,185 --> 00:13:17,515
+kilde. Så står det her nå. F.eks. her så er det ikke sikkert at den her er 
+åpen på nettet. Så da ser du at den kommer hit. Og jo, her er faktisk
+
+78
+00:13:17,535 --> 00:13:28,665
+Science Direct, så den kan du faktisk laste ned. Og der ser du. Da finner 
+du artikkelen. Så der er det Elsier som har. Så her greide vi å finne en.
+
+79
+00:13:29,137 --> 00:13:34,719
+Mens en del, så er det noe som heter arkivet òg. Hvis vi går hit ...
+
+80
+00:13:40,041 --> 00:13:49,104
+Så sier du at da kommer du bare hit nå. At du får bare se metadataene. At 
+dette her er forfatterne. Og det er ikke alltid at den ... Kanskje ligger
+
+81
+00:13:49,124 --> 00:13:55,246
+de bak betalingsmuren. Ja, det gjorde det. Så da får ikke jeg tak i den 
+der. Men bare å google ...
+
+82
+00:13:59,090 --> 00:14:06,214
+Og bare lete generelt på nettet, så kan det hende noen har lagt det ut 
+likevel. Og så greier du å finne det ut som en workaround. Men hvis du da
+
+83
+00:14:06,234 --> 00:14:16,279
+går tilbake hit nå, så ser du at det er noe som heter arkivet. Det er et sånt 
+gratissted der du legger ut ting. Og det kan være også der. Da er det en
+
+84
+00:14:16,379 --> 00:14:25,323
+tidligere versjon, en uoriginal versjon, der du sannsynligvis kan få 
+tillegg som en workaround hvis den ligger bak betalingsmura. Og hvis
+
+85
+00:14:25,483 --> 00:14:36,013
+det ligger bak betalingsmura, og du virkelig trenger den, Så kan du også 
+bare ta kontakt med biblioteket for at de har tilgang til ting. Så
+
+86
+00:14:36,053 --> 00:14:45,302
+biblioteket er en veldig bra kilde for de artiklene som eventuelt 
+ligger bak betalingsmurer. Men det er noen triks og noen workaround.
+
+87
+00:14:45,322 --> 00:14:57,068
+Bare å google, rett og slett. Her ser dere at denne er faktisk sitert 167 
+ganger, og det er ... Det
+
+88
+00:14:57,268 --> 00:15:01,608
+står litt om de forskjellige stilene her. Hvis du skal sitere det her ...
+
+89
+00:15:04,989 --> 00:15:15,771
+Så er det sånn du skal sitere det med APA, MLA, Chicago, Hardward, 
+Vancouver. Så ser de faktisk forskjellige måter å referere på Herma. Så
+
+90
+00:15:15,791 --> 00:15:31,834
+det er mye informasjon som ligger ute her nå, som er bra å ha med seg. Hvis 
+jeg trykker på den, kommer jeg i videoen.
+
+91
+00:15:33,334 --> 00:15:37,735
+Riktig bruk av Google Scaller ...
+
+92
+00:15:37,815 --> 00:15:46,777
+Det er den viktigste innlagtportalen. Der lærde strides om det, sier 
+biblioteket. Fordi andre bruker OpenLX og sånne ting som jeg ikke har
+
+93
+00:15:46,797 --> 00:15:47,197
+hørt om før.
+
+94
+00:15:52,338 --> 00:16:06,147
+Det starter bredt og snevrer gradvis inn søket. Og du kan gjerne brukes 
+sitert by for å se om forskningen bygger på andre artikler. Og da kan du
+
+95
+00:16:06,167 --> 00:16:16,634
+greie å nøste opp hvilke artikler som har blitt referert, både direkte 
+og indirekte. Så det er på samme måte som at vanlig Google har vært i
+
+96
+00:16:16,754 --> 00:16:26,875
+verden lenge, og vi har blitt flinke til å google. Så ser dere at Google 
+Scholar er egentlig bare en søkemotor, men spesialisert for det her. Så
+
+97
+00:16:27,675 --> 00:16:40,437
+lek dere litt med den der. Det er iallfall mitt råd. Og her ser dere at jeg 
+bare da klippet ut hvordan det var, utklippet der. Og det å bare leke seg
+
+98
+00:16:40,457 --> 00:16:48,419
+litt her sjøl, tror jeg liker så mye verdi som at vi står og snakker og 
+prater om det. Jeg har ikke lyst til å bruke så mye tid på det andre, for det
+
+99
+00:16:48,459 --> 00:16:56,660
+kan dere lese. Da har jeg brukt over et kvarter, så da har jeg lyst til å gå 
+til det siste punktet.
+
+100
+00:17:02,005 --> 00:17:07,930
+Som er altså ... Ion bår ringe. Vi har lagt ut en ny mal, som er mer 
+komplett.
+
+101
+00:17:11,650 --> 00:17:21,878
+Og vi kommer til å justere det litt. Og den malen som Ian jobber på nå, den 
+ser sånn ut. Og sammen med Erik kommer vi til å jobbe litt med den malen, og
+
+102
+00:17:21,898 --> 00:17:32,465
+så legge ut den så fort som mulig. Stemmer ikke det, Bård? Ja, og så må vi 
+endre litt. SM 600 Scar står 650, da. Ja. Det er det jeg sier, at vi skal
+
+103
+00:17:33,326 --> 00:17:42,583
+gjøre en del justeringer. For den malen som ligger ute nå, den er altfor 
+fort. Denne er mye mer omfattende, så vi skal endre den litt. Sånn og
+
+104
+00:17:42,643 --> 00:17:45,985
+sånn, og så her, slik at det blir logg.
+
+105
+00:17:48,046 --> 00:17:56,310
+Og så, fordi denne er mye mer komplett enn den malen dere har fått ... Her 
+ser du at det er litt sammendrag, ad-streik og innledning. Det vi også
+
+106
+00:17:56,350 --> 00:18:02,933
+kommer til å gjøre, for vi har sett litt frem på det her ... ... hvor ingen 
+har forberedt seg på timene i dag og diskutert litt, at vi kommer til å ta
+
+107
+00:18:03,153 --> 00:18:03,493
+det her ...
+
+108
+00:18:10,240 --> 00:18:22,963
+Og flytte det inn i innledninga. Så problemstillinga som dere har, vil 
+vi skal være som en del av innledninga. Så allerede innledninga kan dere
+
+109
+00:18:23,003 --> 00:18:32,005
+begynne på ganske snart. Og faktisk så snart ... Så snart malen kommer.
+
+110
+00:18:35,401 --> 00:18:44,769
+Vi ønsker at dere sier noe om delproblemer, avgrensninger, antagelser 
+og utfordringer. Det kommer vi til å legge inn i innledninga. Det kan
+
+111
+00:18:44,809 --> 00:18:55,117
+hende at det blir litt langt. Det kan det fort bli. Så får vi vurdere om vi 
+skal ha underavsnitt og sånne ting. Det må vi vurdere. Vi skal gå gjennom
+
+112
+00:18:55,137 --> 00:19:04,889
+det ganske snart. Innledning. Men jeg vil gjøre en liten ting til. Jeg 
+tror også at jeg har lyst til å flytte, før vi legger ut denne til dere,
+
+113
+00:19:04,949 --> 00:19:08,251
+litteraturen ...
+
+114
+00:19:08,391 --> 00:19:12,114
+Nå ble det så mye av dette her, at jeg tror vi gjør sånn. Jeg tror jeg har 
+lyst til å flytte litteraturen
+
+115
+00:19:14,595 --> 00:19:25,363
+inn som nummer to. For litteraturen må komme før teorien. Og denne 
+omskøytinga her skal vi gjøre før vi legger det ut.
+
+116
+00:19:28,962 --> 00:19:46,828
+Om problemstillingen skal jeg vise dere at det er mye mer omfattende. 
+Det står en del ting her nå som hører med, som Inge har laga. Og denne er mye
+
+117
+00:19:46,868 --> 00:19:55,451
+mer komplett enn den mannen dere hadde. Her er innledninga, husk på det. 
+Det som står her.
+
+118
+00:19:59,084 --> 00:20:10,408
+Dagens agenda er aktuell for det dere skulle gjøre før 9.3. Innledninga 
+herunder problemstilling, så litteratursøk. Så disse her er det som er
+
+119
+00:20:10,468 --> 00:20:13,369
+relevant for oss nå de neste tre ukene.
+
+120
+00:20:16,448 --> 00:20:28,952
+Introduksjonen skal ikke være for lang, men den blir nok noen sider for 
+oss. Men egentlig, korthet er alltid bra. Du skal ikke ha tomprat. Så jeg
+
+121
+00:20:28,992 --> 00:20:37,835
+mener fortsatt at dette stemmer, én til fire sider. Selv om vi har 
+bestemt oss for nå at vi tar inn dette inn i innledning, så mener vi
+
+122
+00:20:37,895 --> 00:20:43,557
+fortsatt at vi kan holde oss til én til fire sider. Det er ikke noe 
+problem.
+
+123
+00:20:49,608 --> 00:20:57,699
+For mye skrift kan være et tegn på at du sliter med å være presis. For du 
+skal bare si det veldig tørt og kort og faktabasert. Ta utgangspunkt i
+
+124
+00:20:57,739 --> 00:21:07,558
+generelt tema og deretter beskriv aktuelle problemstillinger. Det du 
+skal svare på her, er hvilke temaer oppgaven handler om. Hvorfor er
+
+125
+00:21:07,578 --> 00:21:15,463
+temaet aktuelt? Hva har blitt gjort tidligere? Mest
+
+126
+00:21:15,503 --> 00:21:22,287
+viktige referanser. Bare veldig kort, så det ikke blir noen 
+gjentakelse av det som står under 'litteratursøk'. Hva er rapportens
+
+127
+00:21:22,327 --> 00:21:30,571
+problemstilling? Der kan du stå og vurdere om du skal ha noe 
+underavsnitt. Det er vanskelig å si noe generelt om, det må vi se
+
+128
+00:21:30,591 --> 00:21:38,648
+spesifikt på. Så dere må bare vurdere og eventuelt spørre oss, eller 
+gjøre egne vurderinger. Veldig bra. Og hvilke avgrensninger som
+
+129
+00:21:38,688 --> 00:21:48,412
+gjøres. Og det er viktig for dere. For vi er tross alt bare 15 
+studiepoeng, og vi har noen høye ambisjoner om å faktisk ikke bare sette
+
+130
+00:21:48,512 --> 00:21:57,396
+opp modellen, men vi skal også løse modellen med AI. Og det betyr at vi 
+greier ikke å løse et kjempestort problem med det tidsperspektivet. Så
+
+131
+00:21:57,536 --> 00:22:07,983
+at det er avgrensninger, det er veldig viktig og en naturlig del. Slik at 
+vi ikke bakvåker for mye. Regner med at de fleste skriver en del i
+
+132
+00:22:08,003 --> 00:22:09,424
+innledningen om avgrensninger.
+
+133
+00:22:13,948 --> 00:22:32,089
+Viktige momenter. Det er å gjerne også gi leseren innblikk i strukturen 
+i rapporten. Her ser vi et eksempel på det. Lakseprisens volatilitet
+
+134
+00:22:32,189 --> 00:22:40,251
+påvirker svært mange aktører som ... Da sier du litt om hvorfor vi gjør 
+det vi gjør.
+
+135
+00:22:44,133 --> 00:22:52,475
+Vi ser også her at det er lurt å henvise tilbake til introduksjonen 
+direkte. F.eks. ved å bruke setninger som gjentar det som har blitt sagt
+
+136
+00:22:52,495 --> 00:22:55,056
+i introduksjonen. Nå ble jeg usikker på hva jeg sjøl har skrevet.
+
+137
+00:23:01,908 --> 00:23:12,293
+Det er for å skape en rød tråd hos leseren gjennom hele rapporten på 
+hvorfor rapporten er interessant.
+
+138
+00:23:12,333 --> 00:23:18,536
+Jeg mener nå at vi har utvida en del av dette med å ha problemstillinga
+
+139
+00:23:20,837 --> 00:23:22,278
+inn i innledninga.
+
+140
+00:23:25,840 --> 00:23:28,901
+Så har vi dette med 'Så kommer litteraturen'.
+
+141
+00:23:31,793 --> 00:23:41,398
+Diskuter det viktigste bidraget de fem siste årene på temaet du har 
+valgt. Du kan både ha veldig nye referanser og gamle referanser. Nye
+
+142
+00:23:41,418 --> 00:23:50,163
+referanser på hva som er aktuelt og hva som har blitt gjort de siste fem 
+årene. Men også gamle referanser kan være interessante. For det er
+
+143
+00:23:50,303 --> 00:23:59,688
+veldig sjelden at vi finner opp fundamentale ting på nytt. Det meste har 
+blitt gjort for kanskje mange tiår siden. Så det å ha noen klassiske
+
+144
+00:23:59,728 --> 00:24:09,662
+referanser i tillegg til nye ... Å ha en god miks av brev er faktisk ganske 
+bra. Prøv å trekke tråder til din problemstilling og beskriv hvordan,
+
+145
+00:24:10,062 --> 00:24:18,629
+hvor og hvordan din rapport forholder seg til lister. Pass på at 
+referanser blir korrekte. Det er ikke alltid nødvendig å ha et eget
+
+146
+00:24:18,689 --> 00:24:31,840
+kapittel for litteratur. Men vi kommer til å gjøre det, fordi vi ser på 
+det som så viktig. Det viktigste er at alt er ... Det viktigste av alt er at
+
+147
+00:24:31,880 --> 00:24:42,445
+man aldri siterer noen eller kommer med fakta eller påstander uten at 
+det refereres til eller hvor du får påstanden fra. Hvis det ikke står
+
+148
+00:24:42,485 --> 00:24:47,288
+noe, tolker man det som at det er deres påstand eller deres funn.
+
+149
+00:24:52,085 --> 00:24:58,770
+Og viktig å si, slik at du har referanser på det, for ikke så blir det 
+synsing.
+
+150
+00:25:01,472 --> 00:25:09,959
+Det kan ofte skje at man henviser til samme rapport flere ganger i 
+teksten. Og unngår da å sitere funn i rapporten, men har bare selve
+
+151
+00:25:09,979 --> 00:25:16,984
+referansen. Og det foregår ofte at du refererer til én og samme 
+referanse flere ganger. Men det foregår bare én plass, selvfølgelig, i
+
+152
+00:25:17,024 --> 00:25:17,645
+referanselista.
+
+153
+00:25:20,907 --> 00:25:27,550
+Husk at en referanse har to hensikter. Å kreditere resultatet for dem 
+som fant det. Og gi leseren mulighet til å sjekke påstander eller fakta
+
+154
+00:25:28,050 --> 00:25:31,811
+som bygger på rapporten din.
+
+155
+00:25:32,051 --> 00:25:40,315
+Når du skal skrive bacheloroppgaver eller forskningsoppgaver, så er 
+det også viktig å ha en teoridel. Men vi skal først og fremst tenke på
+
+156
+00:25:40,475 --> 00:25:48,058
+litteraturen her nå. Men da ser vi også ... For jeg lurer på om jeg kanskje 
+skal skille ... Ha en egen teoridel, altså. Det er det jeg står og
+
+157
+00:25:48,098 --> 00:26:03,037
+vurderer. Jeg hadde lyst til å lage en ny versjon med en egen 3-0. Denne er 
+jo opp til innledning. Eller gå inn i innledning sånn.
+
+158
+00:26:07,019 --> 00:26:13,361
+Og så blir det 3-0-teori. Jeg tror jeg har lyst til å skille dem.
+
+159
+00:26:20,560 --> 00:26:26,564
+Har
+
+160
+00:26:26,584 --> 00:26:35,289
+du noen kommentarer da, Bård? Jeg vet ikke om jeg vil gå gjennom så mye av 
+det andre. Jeg vil bare gå gjennom det som er relevant for oss. Når det
+
+161
+00:26:35,309 --> 00:26:43,274
+gjelder frem til det vi skal gjøre. Det er egentlig bare disse to tingene 
+her. Vi konsentrerer oss om nå frem til niende. Så jeg har ikke lyst til å
+
+162
+00:26:43,334 --> 00:26:45,155
+gå gjennom mer av ...
+
+163
+00:26:48,522 --> 00:26:58,368
+Det kan vi gå gjennom når det blir aktuelt. Det var ikke mikken på 
+batteriet.
+
+164
+00:26:58,388 --> 00:27:06,633
+Du ser der det står 3-0 problemstilling? Men har du gått gjennom den, 
+kanskje? Ja, jeg sa bare det at problemstilling ... Vi kan gjerne ... Jeg
+
+165
+00:27:06,653 --> 00:27:08,855
+har ikke gått gjennom den, nei. Men det blir en del av innledninga, ja.
+
+166
+00:27:14,594 --> 00:27:25,110
+Problemstillinga er avgjørende for et godt resultat, og det skal ikke 
+være et hva eller hvilket spørsmål. Sørg for at du har med hvordan og
+
+167
+00:27:25,150 --> 00:27:27,914
+hvorfor-spørsmål, noe som vil gjøre problemstillinga mer 
+omfattende.
+
+168
+00:27:32,195 --> 00:27:38,640
+Og en god problemstilling ga grunnlaget for oppgaver, så her er det 
+verdt å tenke så nøye om. Og det samme er at jeg har lyst til at dere skal
+
+169
+00:27:38,681 --> 00:27:50,691
+lage en arbeidstittel. Den kan gjerne endre seg, men da har du iallfall 
+noe å henvise til når du skal snakke om oppgaven deres. Så lag en
+
+170
+00:27:50,771 --> 00:27:57,477
+arbeidstittel ganske snart, og så juster den ganske ofte om du føler at 
+du har en mer presis ...
+
+171
+00:28:00,376 --> 00:28:11,681
+For ofte når du spesifiserer problemstillinga, så blir 
+arbeidstittelen mer tydelig. Her er det viktig at du er så spesifikk som
+
+172
+00:28:11,721 --> 00:28:20,045
+mulig når det gjelder problemstillinga. At du er svært nøye med 
+formuleringene. Her er vi på detaljnivå. Og det viktigste er at dere
+
+173
+00:28:20,065 --> 00:28:29,963
+gjør bra det dere gjør, istedenfor å skrive mye og antall sider. Ikke 
+skriv noe du ikke svarer på. Og ikke svar på noe mer enn det som står i
+
+174
+00:28:29,983 --> 00:28:43,972
+problemstillinga. Det er veldig 1-til-1-korrespondanse der. Det er 
+jo veldig lett å tråkke feil her, da. Og det er jo en klassiker. Hvis man
+
+175
+00:28:44,032 --> 00:28:46,193
+tråkker feil i problemstilling,
+
+176
+00:28:49,515 --> 00:29:06,644
+og den kommer veldig tidlig, så får man et veldig dårlig inntrykk 
+allerede i starten. Og det å kunne avgrense - scopet sitt innenfor det
+
+177
+00:29:06,965 --> 00:29:18,974
+man rekker, det er en vesentlig del av oppgaven. Og dere skal jo ta noe - 
+proposal, som dere har allerede beskrevet. Og noe av det første dere
+
+178
+00:29:18,994 --> 00:29:32,487
+skal gjøre, er å ... Beskriv problemstillinga. For det er den som setter 
+rammene for videre
+
+179
+00:29:33,287 --> 00:29:36,608
+skriving. Det er den som avgjør hva du skal skrive om videre.
+
+180
+00:29:40,589 --> 00:29:50,012
+Så bruk tid på denne her. Vi har jo nå godkjent 'proposal', men vi har på en 
+måte ikke sett ... Vi har fått et innblikk i hvilke problemstillinger
+
+181
+00:29:50,092 --> 00:30:06,326
+dere har. Men så må dere ta den proposalen og formulere den svært nøye inn 
+under problemstilling, som nå skal være i innledninga. Da må man veldig
+
+182
+00:30:06,366 --> 00:30:20,089
+være litt forsiktig. F.eks. hvis du nå har lyst til å ... En veldig vanlig 
+måte å formulere ting på er i hvilken grad kan vi ... Bla, bla, bla. Det er
+
+183
+00:30:20,109 --> 00:30:34,700
+en vanlig måte å formulere på. I hvilken grad. Og det er litt vagt. Hva 
+menes med grad her, f.eks.? Og da har du en del antagelser bak der. Om
+
+184
+00:30:34,760 --> 00:30:48,488
+f.eks. grad. Er det sånn at vi kan måle noe, da? Så hvis vi skal måle, hva er 
+stor grad? Eller hva er liten grad? Jeg vet ikke om dere forstår hvor det
+
+185
+00:30:48,508 --> 00:30:59,418
+vil hen, men man må være spesifikk med gode formuleringer, slik at det er 
+etterprøvbart når noen skal lese rapporten deres. Man må kunne i
+
+186
+00:30:59,499 --> 00:31:12,187
+etterkant verifisere at du har svart på problemstillinga di. Og hvis vi 
+ikke kan etterprøve at du har svart på problemstillinga di, da er det et
+
+187
+00:31:13,048 --> 00:31:22,915
+stort hakk ned fra leveransen som dere gjør, da. Så det er veldig viktig 
+at det er en én-til-én-korrespondanse mellom hva dere svarer på i løpet
+
+188
+00:31:22,935 --> 00:31:36,586
+av hele rapporten, og hva som var problemstillinga i utgangspunktet. 
+Og her er jo da kunsten at hvis man går for bredt ut, eller har vide
+
+189
+00:31:36,726 --> 00:31:46,498
+formuleringer, så kan man godt si at ja, men dere har egentlig ikke svart 
+på oppgaven. Så er det ofte ikke uvanlig at man etter hvert som man
+
+190
+00:31:46,538 --> 00:31:57,424
+begynner å jobbe med materien, Går tilbake igjen og spisser inn 
+problemstillinga si mer og mer. Derfor sier vi ofte at innledninga er
+
+191
+00:31:57,484 --> 00:32:07,427
+noe du har et utkast på, et startpunkt. Og så vil man etter hvert gå 
+tilbake igjen til innledninga og oppdatere den, slik at den er mer i tråd
+
+192
+00:32:07,467 --> 00:32:10,508
+med hva dere faktisk har funnet.
+
+193
+00:32:11,888 --> 00:32:21,573
+Og det er ikke en uvanlig sak. Det som er faresonen her, eller det vi 
+kaller for danger zone, Det er det at dere gjør endringer i
+
+194
+00:32:21,633 --> 00:32:32,136
+problemstillinger som medfører at dere må gjøre ting på nytt igjen. Og 
+når dere må gjøre ting på nytt igjen, det er da tida ryker. Så er det veldig
+
+195
+00:32:32,176 --> 00:32:46,461
+viktig å tenke godt gjennom, bruke mye research i forkant, slik at dere 
+vet at problemstillinga er god, og at dere har en prosess, en plan for å
+
+196
+00:32:46,541 --> 00:32:54,573
+løse problemer. Og det er noe av det vi skal gå inn i denne perioden her, 
+da. Right, P?
+
+197
+00:32:58,914 --> 00:33:09,357
+Ja, jeg kan ikke annet enn å understreke det Bård Inge sier. Slik at dette 
+er en prosess som kommer til å foregå i tre uker, frem til starten av mars.
+
+198
+00:33:12,800 --> 00:33:21,573
+Vi gjør større avgrensninger og innskrivinger etter hvert. Men det 
+gjør ingenting, folkens, at det er en veldig snevert problemstilling.
+
+199
+00:33:22,081 --> 00:33:31,705
+For vi vet alle sammen at det er begrensa kvadratrekk på 15 studiepoeng. 
+Det gjør ingenting at du erter på antagelser etter hvert som du kommer
+
+200
+00:33:31,765 --> 00:33:41,449
+nærmere og nærmere og lenger ut i prosessen. Fordi at vi må idealisere 
+litt verden. Vi må se bort fra en del ting. Hvis vi skal prøve å komme
+
+201
+00:33:41,509 --> 00:33:53,752
+gjennom prosessen fra start til mål. Så det er helt i orden at det blir 
+avgrensninger på. Det er helt i orden at det blir antagelser som du må ha.
+
+202
+00:33:53,973 --> 00:34:05,419
+Bare sørg for å være ærlig på det og legg det ut. Det er helt i orden at 
+arbeidstittelen blir mer spissa etter hvert som du ser at du ikke rekker
+
+203
+00:34:05,439 --> 00:34:12,462
+å gjøre det så stort som du trodde, eller at du blir mer spesifikk og 
+spissa i forhold til den litt mer generelle formuleringa du hadde i
+
+204
+00:34:12,502 --> 00:34:12,742
+starten.
+
+205
+00:34:16,587 --> 00:34:25,172
+Det kan være f.eks.: : Vi avgrenser oppgaven til ett produkt siden. Vi 
+hadde Gladvox-hava flere tusen produkter, og det er jo typisk sånn som
+
+206
+00:34:25,212 --> 00:34:34,638
+vi gjør det, at vi ser bare på ett type produkt eller kanskje én familie av 
+produkter som Gladvox har. Vi analyserer 80 % av kundene, da de
+
+207
+00:34:34,738 --> 00:34:42,864
+resterende ikke ... et eller annet sånt. Omgaven omfatter kun Norge, da 
+det utenlandske markedet ikke ... Så det er bare å begrunne det med
+
+208
+00:34:42,884 --> 00:34:51,416
+hvorfor. Det er helt innafor. Så det viktige her er at du ikke bare kommer 
+med en avgrensning, men at du også begrunner hvorfor du gjør den
+
+209
+00:34:51,476 --> 00:35:04,546
+avgrensninga. Hvorfor kan du fremdeles svare på oppgaven, og hvorfor 
+er det fornuftig å avgrense? Antagelser
+
+210
+00:35:04,566 --> 00:35:15,211
+må vi gjøre for å presisere problemstillinga. En antagelse er ikke det 
+samme som en avgrensning. Her er et eksempel på antagelser. Vi antar at
+
+211
+00:35:15,331 --> 00:35:20,153
+innkommende ordrer er poisotfordelt fordi dette gjør at ...
+
+212
+00:35:23,412 --> 00:35:32,141
+Ordrene kommer inn på en spesiell måte som sikkert er idealisert. Og det 
+er ikke hele sannheten om hvordan den virkelige logistikkverdenen er.
+
+213
+00:35:32,441 --> 00:35:42,592
+Men likevel, da blir det så komplisert at hvis vi ikke har antakelsen, så 
+kommer vi ikke videre. Og legg merke til da at vi svarer på samme oppgave.
+
+214
+00:35:43,292 --> 00:35:52,417
+Altså, du har ikke ei avgrense. Og problemstillingen er den samme, men 
+vi har en antakelse
+
+215
+00:35:54,679 --> 00:36:06,767
+som vi bruker for å svare på oppgaver. Det er ikke det samme som en 
+avgrensning. Det er mer en presisering for å svare på samme
+
+216
+00:36:06,787 --> 00:36:17,282
+problemstilling. Det er ikke det samme som en avgrensning, det er lett å 
+blande de to der. Så vær obs på det. En avgrensing betyr at scopet ditt
+
+217
+00:36:17,442 --> 00:36:28,787
+blir mindre. Det betyr at du svarer på noe mer spesifikt, mens en 
+antakelse, det er ... Du svarer på samme problemet, men med antakelsen,
+
+218
+00:36:28,807 --> 00:36:40,851
+da. Og det er ofte en mer idealisert verden, da. Her er et annet eksempel. 
+Vi antar at vi kan se vekten fra effekten av prisene i Sverige fordi at
+
+219
+00:36:40,891 --> 00:36:52,799
+dette bygger ned. Så det er helt i orden. Et spørsmål til om hvordan å 
+formulere teksten. Skal vi skrive teksten mest mulig objektivt, eller
+
+220
+00:36:52,859 --> 00:37:07,344
+er det lov med jeg- og vi-formuleringer i oppgaven? Jeg kan svare der. 
+Det er litt forskjellig praksis fra institusjon til institusjon. Og
+
+221
+00:37:07,864 --> 00:37:18,379
+også forskjell mellom kvantitative og kvalitative oppgaver. Mange 
+...
+
+222
+00:37:19,480 --> 00:37:31,327
+Jeg tenker at det er lov med begge, men at du må være konsekvent. Hvis du 
+har et litt mer personlig jeg-format. Det er ikke helt uvanlig med
+
+223
+00:37:31,387 --> 00:37:35,189
+masteroppgaver, f.eks. at du skriver i jeg-form.
+
+224
+00:37:37,471 --> 00:37:48,091
+Mens vi er mer sånn, da er det mer et samarbeid. Det er litt rart å skrive 
+vi, hvis du er bare jeg. Altså hvis du bare er én og litt sånn ting. Så hvis
+
+225
+00:37:48,131 --> 00:38:02,743
+du er bare én på oppgaven din, så vil jeg forholde meg til jeg. Hvis dere er 
+flere, så kan dere holde dere til vi. Men ikke bland dem. Det er fy-fy.
+
+226
+00:38:02,763 --> 00:38:12,927
+Ikke bland det mellom jeg og vi, og så går du på litt mer sånn det kan, og så 
+mann. Altså hold det til én stil, i hvert fall, tenker jeg. Det er
+
+227
+00:38:12,947 --> 00:38:25,233
+forskjellige praksiser. Jeg har sett forskningsartikler med én 
+forfatter. Og likevel så omtales som vi. Det er det som er praksisen i
+
+228
+00:38:25,273 --> 00:38:38,619
+forskningssammenheng. Men da er iallfall valget konsistent. Så 
+konsistent tror jeg er svaret her. Så litt med ... Bare for å dra det litt
+
+229
+00:38:38,739 --> 00:38:52,110
+lenger. Det som er farlig med jeg, da, altså sånn skummelt med jeg, det er 
+at du blir veldig personlig. PK var inne på det her litt i sted. Men pass på
+
+230
+00:38:52,150 --> 00:39:05,880
+at du ikke begynner å skrive sånn jeg mener at, eller jeg føler at, eller 
+jeg tror at, osv. Det blir ikke bra i en vitenskapelig. Det er ingen
+
+231
+00:39:05,960 --> 00:39:21,631
+følelser der. Det er facts, og så er det argumentasjon. Så pass på. Og 
+sånne andre typiske ting vi hater å lese i en rapport, er ... 'Jeg hadde
+
+232
+00:39:21,691 --> 00:39:31,884
+dårlig tid'. Nei, ikke skriv det. Det er verre at du skriver det, enn at vi 
+ikke skriver det. Ikke skriv at du hadde dårlig tid eller at du i løpet av
+
+233
+00:39:31,924 --> 00:39:44,835
+semesteret hadde lite tid. Det er klassikere at mange studenter har 
+behov for å skrive at man sleit med ditt og datt i løpet av semesteret. Men
+
+234
+00:39:44,875 --> 00:39:51,040
+det er bare til unytte for dere. For man får ikke noe merfølelse fra oss på 
+dem.
+
+235
+00:39:55,420 --> 00:40:08,525
+Og det gir bare et dårligere inntrykk enn hvis dere ikke tar det med. Så 
+saken er jo sånn at hvis man kommer i en vanskelig situasjon, ja, da kan
+
+236
+00:40:08,565 --> 00:40:21,550
+man utsette. Det er det fullt mulighet til å gjøre. Men ikke stå der og bli 
+for personlig i en vitenskapelig rapport. Det hører ikke hjemme noe
+
+237
+00:40:21,570 --> 00:40:40,532
+plass. De har jeg lyst til å bruke på følgende måte. Dette skjer nå 
+videre. Det som skjer nå, er at PK, Bård ... Bård og Erik
+
+238
+00:40:42,533 --> 00:40:49,675
+justerer Bird-Malen.
+
+239
+00:40:49,815 --> 00:40:57,796
+Og deretter ... Så Eirik legger ut Word-malen.
+
+240
+00:40:59,996 --> 00:41:09,559
+Og Eirik legger også ut ei kunngjøring på det. For at når vi har gjort det 
+...
+
+241
+00:41:18,361 --> 00:41:33,588
+Dere har mye foran dere å gjøre. Da kan dere begynne med å lage en 
+arbeidstittel. Det er en punchline, og det er innmari bra å ha. Slik at
+
+242
+00:41:33,608 --> 00:41:46,654
+dere sjøl vet det. Så begynner dere å lage litt på problemstillinga og 
+innstillinga. Og så er det mye litteratursøk som dere kan gjøre. Og lese
+
+243
+00:41:46,674 --> 00:41:59,705
+dere litt opp. Og det er det som skjer nå, i hvert fall de neste tre ukene. 
+Så vi skal prøve å få gjort det så fort som mulig. Jan Bård Ringe og Erik å
+
+244
+00:41:59,765 --> 00:42:11,612
+justere World Mall. Og så legger vi ut også ei junioring. Og da har jeg 
+ikke mer på hjertet, faktisk. Et siste spørsmål her. Er det noe status på
+
+245
+00:42:11,692 --> 00:42:23,718
+prosjektvalget på MS? Riktig, det var et bra poeng. MS, Project, hva er 
+statusen der? Den skal være ... Vi skulle legge ut en kunngjøring.
+
+246
+00:42:28,140 --> 00:42:29,321
+Videre sendt ikke i den mailen.
+
+247
+00:42:32,138 --> 00:42:35,219
+Vi
+
+248
+00:42:36,060 --> 00:42:51,786
+spurte om å få lisenser. Ja, men jeg har en mail som viser hvordan de 
+laster det ned. Så Erik og ... Vi skriver her. Bård, PK og Erik. Erik
+
+249
+00:42:52,326 --> 00:43:11,829
+sender ut kunngjøring om hvordan man ... Laster ned, da. Latter ned, 
+Laster ned, MS Prosjekt.
+
+250
+00:43:11,869 --> 00:43:23,431
+Prosjektplanen, la ikke jeg også den under ... Den har ikke jeg lasta 
+opp, den? Nei. Men den ligger under faget, vet du. Ja, skal jeg se om jeg
+
+251
+00:43:23,451 --> 00:43:24,472
+kan finne den, siden jeg har den.
+
+252
+00:43:27,708 --> 00:43:38,853
+Foreløpig på engelsk, dog. Bare se om vi finner det, så vi vet om vi 
+snakker om det. Så går vi på prosjekt, og så går vi på logg 650, og så er det
+
+253
+00:43:40,374 --> 00:43:48,778
+... Det kunne vi lagt ut med en gang, egentlig. Hvor ligger det hen? Jeg 
+vet ikke om vi finner det. Det ligger under faget på OneDriven. Men hvis
+
+254
+00:43:48,798 --> 00:43:50,639
+du ser her, så ser det slik ut.
+
+255
+00:43:55,552 --> 00:44:08,261
+OK, skal vi se. Hvor skal det gå? Men det skal vi finne ut, vi. Vi skal finne 
+ut det. Ja. Vi legger ut en ny kunngjøring på det. Vi legger ut det. Legger
+
+256
+00:44:08,341 --> 00:44:20,950
+ut kunngjøring på det. Og så er det Github. Statusted. Github. Hva er 
+statusen? Stemmer ikke det, Erik, at du har lagt ut til alle sammen på
+
+257
+00:44:21,010 --> 00:44:36,266
+TIL? Du har lagt ut at de skal opprette bruker, stemmer ikke det? Ja, det 
+stemmer. Inn på kanalen til hver gruppe, har jeg lagt ut at dere må skrive
+
+258
+00:44:36,646 --> 00:44:46,530
+brukernavnet deres her. Når vi har fått nok brukernavn, går det an å 
+gjøre det automatisk, slik at alle får sin egen GitHub repo.
+
+259
+00:44:50,733 --> 00:44:59,716
+Så her da, ser du da, har jeg bare et eksempel på GitHub. I dette emnet skal 
+jeg bruke Gitube, ja. Jeg og Bård skal lage en Gitube-repository til
+
+260
+00:44:59,736 --> 00:45:07,258
+hvilken gruppe, og vi trenger Github-brukernavn til alle grupper. 
+Dersom alle skriver Github-navnene sine her, skal vi fikse resten.
+
+261
+00:45:08,479 --> 00:45:14,680
+Alle som ikke har Github-konto, må i så fall opprette en. Og dette står da 
+under hver enkelt, som du ser her.
+
+262
+00:45:20,517 --> 00:45:33,984
+Under hver enkelt av gruppene som vi ser her nå, har Erik sendt ut denne. 
+Så det må alle opprette. Og dette er viktig, folkens. Fordi at vi brukte
+
+263
+00:45:34,024 --> 00:45:50,290
+veldig mye tid på å opprette alt dette her i IBE 160. Og så trenger vi også 
+brukernavna i tillegg. Skriv inn brukernavnene, så oppretter vi disse
+
+264
+00:45:50,370 --> 00:46:00,196
+github-repoene sånn fortløpende når vi har sånn fem og fem, seks og 
+sånn. Altså vi gjør det litt i bolkevis. Men jo fortere dere får et
+
+265
+00:46:00,256 --> 00:46:17,397
+github-repo, desto bedre. Og så har jeg en kommentar til dere. Fordi 
+planen her er at man skal bruke AI så mye som mulig. Dette er et AI-kurs,
+
+266
+00:46:17,758 --> 00:46:29,400
+hvor bruk av AI er helt sentralt. Og én ting er at man skal bruke AI for å 
+gjennomføre analysene, altså generere Python-koder som skal løse
+
+267
+00:46:29,420 --> 00:46:45,190
+modellen, og visualisere data og sånne ting. Det skal vi gå gjennom med 
+dere om en måneds tid. Det er 100 % mulig for dere å generere rapporten i
+
+268
+00:46:45,230 --> 00:46:55,392
+tillegg. Altså den Word-malen som vi snakker om. Den kan også bruke AI 
+til å skrive her. Det som er vesentlig, er at dere selvfølgelig leser
+
+269
+00:46:55,492 --> 00:47:16,471
+over og proof-sjekker det AI-en genererer for dere. Men hvordan skal 
+man gjøre dette her? Og nå bør dere pay attention. Dere kan bruke ...
+
+270
+00:47:17,131 --> 00:47:31,237
+Hvis dere husker fra IB160, så har vi et eget språk for A1. Som A1 forstår 
+godt. Og det kalles markdown. Altså en markdown-fil. Så hvis jeg hadde
+
+271
+00:47:31,277 --> 00:47:48,450
+vært dere ... Så hadde jeg skrevet først hele rapporten i form av en 
+markdown-fil. Da kan dere på en enkelt måte bare opprette en rapport, og
+
+272
+00:47:48,510 --> 00:48:06,981
+så bruker dere VS-code og cloud-code til å generere ... Hjelper dere til 
+å skrive hele rapporten. Da kan dere legge inn 'proposal', slik at A1
+
+273
+00:48:07,021 --> 00:48:17,932
+leser 'proposal'. Og så kan dere be A1 skrive en innledning til dere. Og 
+legg da gjerne inn disse tipsa som vi hadde i tillegg, slik at A1 får disse
+
+274
+00:48:17,973 --> 00:48:31,808
+tipsa. Og så beskriver dere den i en markdown-fil i stedet for i Word. Og 
+grunnen til det er at de fleste AI-ene er ikke så gode på å skrive direkte
+
+275
+00:48:31,868 --> 00:48:44,796
+inn i Word. De klarer det, men det blir ikke så veldig bra. Og det er fordi 
+Word ikke er en tekstfil. Den er ikke ren unikode, for å si det sånn. Den
+
+276
+00:48:44,856 --> 00:48:59,680
+har sine egne ... Den er en veldig vanskelig fil for AI å lese. I hvert fall 
+om enn så lenge. Det kommer sikkert etter hvert at AI også jobber direkte
+
+277
+00:48:59,740 --> 00:49:10,422
+inn i Word. Kanskje co-pilot har det per i dag, det vet jeg ikke. Men i 
+hvert fall så har jeg ikke gjort det. Jeg vil da derfor ha sagt, opprett
+
+278
+00:49:10,982 --> 00:49:22,503
+først det dere gjør, få tak i github-repoer. Når dere har GitHub repo, så 
+oppretter dere en fil, eller en folder som heter 'rapport'. Inni der
+
+279
+00:49:22,923 --> 00:49:36,001
+lager dere en markdown-fil. Bare kall den rapport.md. Så laster dere 
+opp filene vi har gitt dere, og sier 'generer dette for meg'. Så laster
+
+280
+00:49:36,021 --> 00:49:51,692
+dere opp 'proposal', og så sier du 'generer en innledning for meg'. Og 
+gjør et internettsøk først etter litteratur som dere kan sjekke. Og så
+
+281
+00:49:51,732 --> 00:50:01,960
+sier dere at ja, vi skal bruke APA-stil osv. På den måten kan dere bruke A1 
+til å skrive grov-rapporten for dere. Og når dere begynner å bli
+
+282
+00:50:02,020 --> 00:50:14,389
+fornøyde etter hvert, så er det jo ingen problem å bare ta det dere har 
+gjort i en markdown-file, og oversette det direkte inn i en worldfile.
+
+283
+00:50:15,307 --> 00:50:22,770
+Så dere jobber med en markdown-fill, og når dere er fornøyd, så kan dere 
+legge det inn i en ...
+
+284
+00:50:25,771 --> 00:50:35,735
+Inn i en ... Inn i en workfill. Og spørsmål? Kan vi bruke I til å skrive 
+teoridelen også? Absolutt. Det er ikke bare dere bør gjøre det, eller
+
+285
+00:50:35,875 --> 00:50:46,243
+kan gjøre det. Dere bør gjøre det. Altså, vi er av den oppfatning av at 
+dette her kommer til å bli framtida. Folk kommer til å jobbe direkte med
+
+286
+00:50:46,323 --> 00:51:01,336
+AI for å få det best mulige resultatet, samtidig som man skal spare tid. 
+Deres jobb er å sørge for at alt som kommer der, er sjekka av dere. Dere må
+
+287
+00:51:01,396 --> 00:51:14,199
+ha en aktiv rolle som en redaktørrolle. Hvor dere jobber sammen med A1. 
+Slik at dere ikke bare lar A1 få generere i hytte og gevær uten at dere
+
+288
+00:51:14,799 --> 00:51:27,722
+leser over og sjekker logikken i det. Hvis det er sånn, da får vi et veldig 
+dårlig inntrykk, og man vil bli ganske hardt ramma. Så hvis dere bare
+
+289
+00:51:27,823 --> 00:51:37,288
+kjører generer ... Jeg sier sannsynligvis, for
+
+290
+00:51:37,328 --> 00:51:46,811
+haien har jo blitt bedre og bedre ... Men mest sannsynlig vil dere ikke 
+bestå, og dere skal også forsvare dette muntlig, selvfølgelig. Og da er
+
+291
+00:51:46,831 --> 00:51:54,273
+det vesentlig at dere forstår alt som har blitt skrevet i rapporten. Så 
+hva skal dere bruke annet til? Jo, dere skal bruke annet til å forstå hva
+
+292
+00:51:54,293 --> 00:52:07,177
+som har blitt skrevet. Spare tid, få gode formuleringer, få gode ideer. 
+Hjelpe dere med å gjøre analysen, visualisere grafer osv. Alt dette kan
+
+293
+00:52:07,337 --> 00:52:14,880
+jeg gjøre for dere. Men det er deres jobb å gå over og sjekke at alt er 100 % 
+korrekt.
+
+294
+00:52:19,388 --> 00:52:30,595
+Jeg kommer ikke til å vise direkte til dere hvordan dere genererer 
+rapporten som sådan i et Word-dokument, f.eks. Det jeg kommer til å vise
+
+295
+00:52:30,615 --> 00:52:45,405
+til dere, er hvordan vi gjør for AI-en til å generere modell, metode og 
+resultater. Et par spørsmål her, Bård. Kan vi bruke AI til å skrive
+
+296
+00:52:46,285 --> 00:53:00,698
+teoridelen også? Det har jeg allerede svart på. Så en ting til. Skal vi 
+bare oversette den til norsk selv hvis man skriver norsk? Ja, for den ser
+
+297
+00:53:00,738 --> 00:53:08,360
+sånn ut, denne malen. Som vi skal legge opp nå. Det kan Erik gjøre for oss. 
+Vi skal sende den til deg, Erik, hvis du ikke har den. For sånn ser da malen
+
+298
+00:53:08,400 --> 00:53:23,910
+ut. Den kan oversettes til norsk, ja. Vi hadde vel en slags forhåpning om 
+at vi kunne få Orga A1 til å gjøre det for oss. Ja. Hvis du venter litt,
+
+299
+00:53:23,990 --> 00:53:35,874
+Julie, så skal jeg prøve å få oversatt den der til norsk også, da. Så dere 
+slipper å gjøre det sjøl. Så har vi én engelsk versjon og én norsk
+
+300
+00:53:35,914 --> 00:53:51,017
+versjon. Dere kan bare velge hvilken dere vil bruke. Så skriv det på to 
+do-lista, så vi ikke glemmer det. Det er bare en oversettelse, det. Men
+
+301
+00:53:51,057 --> 00:54:05,464
+som sagt, jeg skjønner at dette ble litt kjapt på slutten her. Så jeg 
+tenker at vi kan lage ... Det blir en del ting på oss nå, da. Men muligens vi
+
+302
+00:54:05,504 --> 00:54:16,369
+skulle bare lagd en liste over hvordan vi mener studentene skal jobbe 
+videre. Nemlig ... Du skrev en oppsummering? Ja da. Dette var jo
+
+303
+00:54:16,409 --> 00:54:27,626
+kunngjøringa. Hvis du ser her, skal jeg vise deg et øyeblikk. Der, ja. 
+Her er kunngjøringa som vi har lagt ut. Men jeg tenkte på disse notatene
+
+304
+00:54:27,666 --> 00:54:40,637
+du gjorde nå nettopp. Så det vi kan gjøre, er at vi kan skrive det der inn i 
+en kunngjøring. Hvor vi forteller hvordan vi anbefaler at dere skal
+
+305
+00:54:40,697 --> 00:54:53,504
+jobbe videre med den rapporten. Som sagt, min anbefaling. Det er opp til 
+dere. Dette er ikke noe dere er nødt til å gjøre. Men hvis dere skal bruke
+
+306
+00:54:53,604 --> 00:55:00,790
+AI for å skrive rapporten, så anbefaler jeg bruk ... Bruk ...
+
+307
+00:55:03,872 --> 00:55:18,901
+Lag en polder i VS-code som heter 'rapport'. Bruk github. Skriv 
+rapporten i Markdown-format. Og bruk enten Claude Code eller Gemini
+
+308
+00:55:18,941 --> 00:55:25,526
+til å hjelpe dere på veien. Dere vil spare vanvittig med tid. Og ... Og ...
+
+309
+00:55:31,070 --> 00:55:42,539
+Ja. Så muligens vi kan legge ut en kunngjøring på det til alle. Slik at de 
+får en sånn steg én, steg to, steg tre-type ting for å komme. Husk når at vi
+
+310
+00:55:43,880 --> 00:55:57,905
+har en ... ... anbefalt forutsetning i kurset at man har hatt YB 160. Hvis 
+man ikke har hatt YB 160, så stiller man kraftig svakere her. Og da
+
+311
+00:55:58,005 --> 00:56:06,370
+anbefaler jeg at dere tar kontakt med oss, slik at vi kan snakke litt om 
+hvordan vi kan hjelpe vedkommende på veien. Men alle som har hatt YB 160,
+
+312
+00:56:06,850 --> 00:56:21,632
+har jo alt allerede klart på en måte. Har installert program osv. Ikke 
+sant? Det må vi ta hånd om, da. Ja. Greit.
+
+313
+00:56:21,672 --> 00:56:33,762
+Da har jeg ikke noe mer på hjertet. Da vet dere hva som skjer nå på kort 
+sikt. Det kommer noen filer og kunngjøringer. Og dere har fått både den
+
+314
+00:56:33,802 --> 00:56:42,429
+foreløpige versjonen av 'Kompendia', men det er mer enn nok når det 
+gjelder det dere skal gjøre frem til 9.3., som er problemstilling,
+
+315
+00:56:43,090 --> 00:56:56,396
+innledning og litteratur. Bra. Da får vi ha takk for i dag, og så får alle 
+sammen ha riktig god helg. God helg, ja. Og så ses vi ved neste korsvei.
+
+316
+00:56:56,896 --> 00:57:09,262
+Ja. Er det noe uklart, så spør på Teams. Både jeg, PK eller Erik kan svare 
+når vi er ledige. Bra, Torgeir. Takk skal dere ha. God helg.
+

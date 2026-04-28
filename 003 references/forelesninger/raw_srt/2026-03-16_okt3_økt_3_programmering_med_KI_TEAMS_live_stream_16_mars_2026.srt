@@ -1,0 +1,1265 @@
+1
+00:00:02,073 --> 00:00:03,954
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Da 
+er vi klare for en tredje og siste time.
+
+2
+00:00:06,815 --> 00:00:17,459
+Da gjør A1 jobba her. Det siste vi gjorde, status, det var å vurdere 
+aktuell modelltype for trend og sesong. Det er egentlig å begrunne
+
+3
+00:00:17,499 --> 00:00:31,741
+hvorfor vi har valgt Sarima, da. Og det hører med. For Sarima er jo 
+nettopp en modell for å fange opp trend og sesong. AS står for seasonal
+
+4
+00:00:31,781 --> 00:00:45,324
+sesonger, med autoregresjon og moving average. AR står for 
+autoregressive, og MA står for moving average. Det er litt sånne
+
+5
+00:00:45,564 --> 00:00:47,284
+begrep, da.
+
+6
+00:00:52,205 --> 00:01:03,205
+Skal vi se. Så i rapporten ... Det som vi legger merke til nå, er at det 
+oppstår en utfordring. Hvis vi nå går under modell, så står det
+
+7
+00:01:03,285 --> 00:01:17,289
+'vurdering av modelltype'. Her skriver vi, så kommer figur E61, E62 ... 
+Litt om tabellmessige ting. Og så kommer modellantagelsene, da.
+
+8
+00:01:17,329 --> 00:01:21,070
+Veldig bra. Men det er noen som tenker på et problem?
+
+9
+00:01:23,751 --> 00:01:26,552
+Noen som synes at det er noe strukturelt problem her?
+
+10
+00:01:29,553 --> 00:01:40,115
+Ikke om dere tenker det samme som vi tenker, men har ikke vi sett disse to 
+figurene her et annet sted? Jo, vi har sett ham før, så han har repetert
+
+11
+00:01:40,155 --> 00:01:51,738
+det i modellen, og det er ikke så bra. Nei. Så nå er det sånn at det er to 
+plasser hvor disse figurene her er beskrevet. Og det er ikke så uvanlig.
+
+12
+00:01:51,818 --> 00:02:08,062
+Fordi altså, det å sette opp en god struktur ... Er ikke nødvendigvis en 
+hyllevare, for å si det sånn. Hvert case må på en måte ha sin struktur. Så
+
+13
+00:02:08,242 --> 00:02:21,786
+når vi setter opp en fast struktur i dette faget her, så er det en på en måte 
+anbefalt struktur. Men man må passe på det at ting ikke repeteres og blir
+
+14
+00:02:21,946 --> 00:02:22,306
+kjedelig.
+
+15
+00:02:26,084 --> 00:02:37,271
+Disse grafene har vi sett før. De er under case-beskrivelse. Og det er 
+ikke veldig uvanlig at case-beskrivelse og modell begynner å
+
+16
+00:02:38,231 --> 00:02:51,840
+overleppe. Så dette her må vi løse på et eller annet vis. Og da må vi spørre 
+selv om vi skal ha case-beskrivelse i det hele tatt, eller kan vi
+
+17
+00:02:51,940 --> 00:02:56,758
+inkorporere det i modellen og bare bruke det én gang, f.eks. Det kan være 
+én mulighet.
+
+18
+00:03:01,319 --> 00:03:10,781
+For vi ser jo at casebeskrivelse kommer der, og modell kommer rett etter 
+data og sånne ting. Skal vi bare fjerne casebeskrivelse og gå rett på
+
+19
+00:03:10,841 --> 00:03:14,822
+modell, hvor vi har en 6.1-casebeskrivelse?
+
+20
+00:03:17,062 --> 00:03:24,348
+Ikke sant? Jeg har noen tanker om det òg, men du kan bare fullføre det. 
+Nei, jeg bare får høre før vi ber AIN om å vurdere det. Vi syns det er
+
+21
+00:03:24,368 --> 00:03:38,356
+ryddigst å beholde casebeskrivelsen, og vi kan gjerne være tydelige på 
+at vi presenterer bare rådataen rått, altså uendra, sånn som de er i
+
+22
+00:03:38,416 --> 00:03:46,821
+casebeskrivelsen. Og så henviser vi heller til de figurene som er i 
+figur fire, fra kapittel seks. Slik har vi sluppet duplikat av
+
+23
+00:03:46,861 --> 00:03:47,181
+figurene.
+
+24
+00:03:49,885 --> 00:03:54,029
+Men da kan det være litt vanskeligere å følge med, da må vi bla fram og 
+tilbake.
+
+25
+00:03:57,452 --> 00:04:12,565
+Det er drawbacken. Enig? Ja da. Men fordelen er jo at vi har Kilden bare én 
+plass, sant. Så det har sine styrker og svakheter. La oss spørre hva A1
+
+26
+00:04:12,605 --> 00:04:12,865
+mener.
+
+27
+00:04:15,637 --> 00:04:25,020
+Det syns jeg er lurt å spørre om. Jeg har en preferanse, men det er veldig 
+bra å bare spørre og diskutere med AI. Ikke misforstå det jeg sa, jeg sier
+
+28
+00:04:25,040 --> 00:04:31,082
+ikke at det er feil, jeg sier bare at det har en pris også.
+
+29
+00:04:31,302 --> 00:04:43,469
+Det er veldig bra at vi diskuterer med AI, close end cons. Hva mener du? Nå 
+har vi påpekt en sak, et problem eller et issue. Og hvordan anbefaler A1 å
+
+30
+00:04:43,489 --> 00:04:50,046
+løse den her. Altså jeg har mine preferanser. Men jeg vil ikke avsløre 
+det før A1 har kommet med sine kommentarer.
+
+31
+00:05:16,370 --> 00:05:23,595
+Det er ikke bra å repetere tekst og figurer. Så spørsmålet
+
+32
+00:05:28,719 --> 00:05:41,808
+er hvordan vi skal organisere dette på best mulig måte. Har du forslag?
+
+33
+00:05:50,508 --> 00:06:12,416
+Og nå burde jeg egentlig tatt plan mode. Jeg er så vant med at jeg kan togle 
+plan mode direkte via clod code, så det gjør jeg ikke noe
+
+34
+00:06:12,436 --> 00:06:12,556
+med.
+
+35
+00:06:16,715 --> 00:06:19,777
+Men
+
+36
+00:06:19,797 --> 00:06:28,984
+da får du ikke den spørsmålsbiten som er spesifikk under plan mode. Men 
+jeg er sikker på at det finnes en måte å gjøre det på.
+
+37
+00:06:45,233 --> 00:06:48,949
+Det er sånn tastetrykk for å slå på plauma. Vi kan sjekke opp imens.
+
+38
+00:07:26,813 --> 00:07:29,915
+Ja.
+
+39
+00:07:29,935 --> 00:07:38,720
+Bare stikke på nettet mens en hører på Spinner. Jeg tror vi fant en sånn 
+innstilling, kanskje, da. Ja. Når jeg ser de klare forslagene, har jeg
+
+40
+00:07:38,740 --> 00:07:44,724
+ikke hatt figurer seks ganger i det hele tatt. Det er jeg faktisk enig i. 
+Yes. Du er altså enig i Hatz i organiseringen?
+
+41
+00:07:47,746 --> 00:08:05,094
+Ja. Er du enig i det? Ja. Gjør det, sier jeg bare. Da er jeg enig med deg, PK. 
+Så da kjører vi på. Det er viktig å være overvåken. Grunnprinsippene i en
+
+42
+00:08:05,134 --> 00:08:09,416
+skrivende rapport må dere ha for å kunne styre av en etterretning. Ja. 
+Den,
+
+43
+00:08:15,719 --> 00:08:26,800
+ja. Slik at dere kan gjøre denne type dialog som det vi gjør nå med A1, det 
+er jo vesentlig for at dere skal få dette her til å bli best mulig
+
+44
+00:08:26,820 --> 00:08:37,423
+resultat. At dere må bruke A1 som en kritisk sparingspartner, men det er 
+dere som må styre og se utfordringene her, da. I tillegg så skal vi
+
+45
+00:08:37,503 --> 00:08:51,314
+selvfølgelig ha en review etterpå, men likevel, da. Ikke sant? Bare bla 
+ned til kapittel 6 for å se når man gjør oppdateringene i MDK-kila. Man
+
+46
+00:08:51,334 --> 00:09:01,778
+gjør ikke det når man ikke er i planmode. Nå kjører jeg i planmode. Men nå 
+kan vi gjøre det. Ja, nå ser du. Nå vil du se endringene her. Ja, nå kan du
+
+47
+00:09:01,798 --> 00:09:10,420
+bla litt ned. Det er denne tabellen der, ikke sant? Jo, men figurene 
+kommer til å forsvinne nå, regner jeg med? Ja, det er det som er cluetry.
+
+48
+00:09:10,920 --> 00:09:12,281
+Ja, vi tror de kommer til å forsvinne nå.
+
+49
+00:09:16,062 --> 00:09:24,791
+Og henvise da til figur fire et eller annet i stedet for sånt. Ja. Vil nok 
+det, ja.
+
+50
+00:09:29,936 --> 00:09:30,937
+Nå skal han gjøre oppryddinga?
+
+51
+00:09:53,913 --> 00:09:58,476
+For å lande helt der, så må vi ha enda en sesjon en dag, PK. Lurer på
+
+52
+00:10:06,642 --> 00:10:24,918
+hvilken dag det skulle vært. Onsdag, kanskje? Ja. I morgen er vi travle, 
+er vi ikke? Morgen er travel, ja. Så onsdag kan gå. Onsdag og fredag er
+
+53
+00:10:25,318 --> 00:10:36,021
+dager som passer for meg? Onsdag er bedre for meg enn fredag. Jeg har en 
+del møter og sånn. OK. Men onsdag fra 12 til? Dette er 12 til 3. Og så prøver
+
+54
+00:10:36,061 --> 00:10:48,125
+vi å få fullført hele den sesjonen her, slik at alle studentene vet, 
+liksom. Kan du sende en mail til rombestilling, og sett meg om bord inn på
+
+55
+00:10:48,145 --> 00:10:58,829
+kopi, slik at de gratulerer rombestillinga? Da får du det inn i 
+timeplanen, og så kan du deretter sette ei kunngjøring. Bare skriv det
+
+56
+00:10:58,849 --> 00:11:09,292
+opp her. Jeg tror det heter rombestilling. Jeg tror i hvert fall det. I 
+molder.no. Og så to kunngjøring. Og da altså ... Vi tar tre timer ...
+
+57
+00:11:21,494 --> 00:11:32,020
+Det er bare for å få landa hele veien. Det tar selvfølgelig litt lengre 
+tid. Det er veldig effektivt.
+
+58
+00:11:48,713 --> 00:12:01,768
+Det tar likevel litt tid, så det er jo greit å få gjort det, da. Men nå fikk 
+en endra figurene, ser du. De er borte. Så supert. Og her refereres det da
+
+59
+00:12:01,848 --> 00:12:12,734
+til figurene som vi lagde tidligere i case-beskrivelsen, da. Det var jo 
+prisen. Prisen er å måtte referere til en figur. Hvis du lurer på hva
+
+60
+00:12:12,754 --> 00:12:25,939
+slags figur det er, så må du hoppe til figurene, da. Men det er ganske 
+vanlig å referere til andre istedenfor å reflektere dem. Absolutt.
+
+61
+00:12:25,979 --> 00:12:43,381
+Flott. Da er vi ... Flott, da kan vi huke av dem. Flott. Huk av denne 
+arbeidsoppgaven og ... Hvor mye? Og deretter ... ja, og commit. Hva gjør
+
+62
+00:12:43,441 --> 00:12:51,025
+at du committer såpass ofte? Er det for at du skal se liksom ... Da får du en 
+historikk? Da får du en riktig historikk, ja. Det er egentlig veldig
+
+63
+00:12:51,065 --> 00:13:01,510
+viktig. Pluss at hvis du gjør for mye endringer nå, og så plutselig gjør 
+Arun bare tull, da er det ikke så lett å spole tilbake igjen. For hvis du da
+
+64
+00:13:01,531 --> 00:13:10,993
+spoler tilbake, så spoler du tilbake helt til neste save point. Så da kan 
+du miste arbeid, da. Ja, jeg skjønner. Det er veldig lurt å committe
+
+65
+00:13:11,073 --> 00:13:18,717
+ofte. Spesielt når du har gjort én arbeidsgruppeoppgave. 'Commit, 
+neste'.
+
+66
+00:13:18,817 --> 00:13:19,417
+Det er viktig, da.
+
+67
+00:13:22,419 --> 00:13:35,867
+Da skal man også huke av denne statusbiten, ja. Bra. All right. Ja. Så 
+blir det som sagt at commits og veldig mange endringer er vel også en ...
+
+68
+00:13:36,697 --> 00:13:44,742
+Litt dårlig praksis og dårlig sjikt. Så det er helt rett det. Det å finne 
+en balanse her, altså hva som er fornuftig. Ja, det er akkurat det som er
+
+69
+00:13:45,582 --> 00:13:47,563
+... Vi sier at hvis du har for mange endringer,
+
+70
+00:13:50,825 --> 00:13:59,230
+så blir det på en måte ... Da blir de ... Alle disse endringene er 
+avhengige av hverandre, da. I den forstand at de er i én og samme
+
+71
+00:13:59,270 --> 00:14:08,137
+komitten. Så hvis du må omgjøre en komitt, så gjør du da plutselig om alt 
+sammen. Og det er veldig kjedelig. Det er mye bedre å gjøre småe og ofte
+
+72
+00:14:08,157 --> 00:14:20,288
+commits da. Så det er korrekt kommentar, da. Right, han har fått gjort 
+den punktet der. Så skal vi da velge Sarima-spesifikasjon, hva nå det
+
+73
+00:14:20,328 --> 00:14:35,165
+betyr. Så da trykker jeg på planen igjen. Men også nå var det sånn at kunne 
+vi se om det var kont... Skal vi se Use Tab, Shift Tab? Ser dere?
+
+74
+00:14:35,185 --> 00:14:46,094
+Skift-tab. Skift-tab, ja. Det var den jeg trengte. Og det var litt teit 
+at jeg ikke prøvde den, for det er akkurat den samme som for ...
+
+75
+00:14:48,977 --> 00:14:50,798
+Som på Claude? For Claude. Så ...
+
+76
+00:14:56,263 --> 00:15:06,067
+Ja, vi er ikke på review ennå, nei. Review gjør vi ikke før vi har gjort 
+hele aktiviteten, da. Når vi har gjort alle tre punktene, da kan vi kjøre
+
+77
+00:15:06,087 --> 00:15:06,467
+review.
+
+78
+00:15:09,429 --> 00:15:19,174
+Hvis vi ser på neste, og velger Sarima-spesifikasjonen ... Sarima har 
+ganske mange parametere, og vi må velge de riktige parameterne for vårt
+
+79
+00:15:19,194 --> 00:15:25,258
+spesifikke tilfelle. Ja, det blir neste steg. Estimerer man 
+modellparameteret.
+
+80
+00:15:33,843 --> 00:15:40,747
+Hvis vi har planlagt arbeidspakkene korrekt, da ...
+
+81
+00:15:41,167 --> 00:15:43,928
+Det som er neste nå, er å sjekke stasjonaritet og sånn sesonganalyse.
+
+82
+00:16:03,492 --> 00:16:09,154
+Og behovet for differensiering, er det ikke det? Ja.
+
+83
+00:16:12,775 --> 00:16:14,776
+Og eventuelt behovet.
+
+84
+00:16:21,738 --> 00:16:32,998
+Jeg jukser lite grann, siden jeg vet at en må gjøre det. Men jeg mistenker 
+at jeg har planlagt litt dårlig. Og det er jo litt av hensikten med denne
+
+85
+00:16:33,098 --> 00:16:36,279
+blekka si om PKRP-skriv.
+
+86
+00:16:36,979 --> 00:16:48,261
+Det er jo nettopp det at vi skal være i stand til å planlegge godt. Og 
+skrive stega i riktig rekkefølge. Det er jo en ting vi må se litt på.
+
+87
+00:16:49,121 --> 00:16:59,566
+Kanskje vi burde ha prøvd å satt inn et lite ... Støt nå, PRK, for å fått 
+ferdig den blikka. Vi kommer til å legge den ut tilgjengelig for dere på
+
+88
+00:16:59,586 --> 00:17:08,691
+PDF. Ja da, vi må prøve å gjøre det. Nå ser vi at dagene våre er ... Hvor mye 
+innhold da, bare vi har forelesning i dag og forelesning på onsdag,
+
+89
+00:17:08,711 --> 00:17:19,914
+planlegger vi nå. Men vi må prøve å få det til, altså. Ja da, vi må gjøre 
+det. Den trengs å komme ut nå. Her får vi et viktig spørsmål. Hvordan vil
+
+90
+00:17:19,954 --> 00:17:27,879
+du at arbeidsmarkedet skal dokumentere stasjonaritet og behov for 
+differensiering? Formelle tester. To med en gang. Det er et veldig godt
+
+91
+00:17:28,080 --> 00:17:37,526
+tegn. Da skal vi bruke beregninger. Planen bruker ADF og krever at 
+støttsmoduler og Skeeper legges til i analyseoppsettet. Aha. Så her
+
+92
+00:17:37,966 --> 00:17:48,395
+skal vi da bruke programvare til å teste. Om vi trenger å gjøre 
+differensiering. Og disse metodene der, de er også beskrevet i
+
+93
+00:17:48,535 --> 00:17:59,937
+Blekkavåg. Så det er overens her. ADF-test står det her. I tillegg hadde 
+vi en annen S, NL-KPSS. Det er forskjellige tester for å sjekke at
+
+94
+00:18:00,097 --> 00:18:04,998
+antagelsene for stasjonaritet er oppfylt.
+
+95
+00:18:08,499 --> 00:18:16,479
+Så den syns vi er OK på. Hvorfor har vi stasjonæritet?
+
+96
+00:18:16,519 --> 00:18:29,486
+Det er en antakelse for Sarima når det gjennomføres. Det er i-en i 
+Sarima, for å si det sånn. Hva er stasjonært, da? Vi kan jo spørre Aina
+
+97
+00:18:29,526 --> 00:18:35,669
+etterpå. Men dette er en sånn ting som egentlig burde ligge under ...
+
+98
+00:18:39,551 --> 00:18:46,734
+Hvis du ser på rapporten nå. Så bør det ligge under teori, da. Ja, jeg er 
+litt enig i det.
+
+99
+00:18:50,777 --> 00:18:52,598
+Skal vi se her, her har vi en stor plan.
+
+100
+00:19:17,234 --> 00:19:19,675
+Dette er bra. Vi ser det bra.
+
+101
+00:19:22,936 --> 00:19:28,317
+Kjør på implement.
+
+102
+00:19:28,337 --> 00:19:36,700
+Det er utrolig kraftfulle greier, dette her. Bare en liten ting jeg har 
+lyst til å vise dere nå. Dette er litt sånn som jeg jobber. Jeg gir bare å
+
+103
+00:19:36,720 --> 00:19:49,472
+dele noen mine arbeidsmetoder. Hvis dere ser nå på chatten ... Så det jeg 
+gjorde, jeg tok det der stegbildet, steg én til seks-stegbildet, som
+
+104
+00:19:49,552 --> 00:20:00,502
+var i kompaniet Blekkavar, peista det inn i GPT, og så spør jeg hvorfor 
+trenger vi stasjonaritetsandagelsen i Asarima? I Sarima - svært kort.
+
+105
+00:20:00,723 --> 00:20:10,055
+Kulepunkt. Det er studenter som lurer på dette. Da ser du at Salima 
+bygger på mer stabile mønstre over tid. Det betyr at nivå, variasjon og
+
+106
+00:20:10,095 --> 00:20:20,803
+avveingsstruktur er omtrent konstante. Det ser vi jo nesten når vi bare 
+plotter rådataene, for de var jo innmari fine og gode rådata. Så da har vi
+
+107
+00:20:20,823 --> 00:20:28,909
+det. Og der ser vi også forklaringa på det litt mer formelt i kuldepunkt. 
+Så sånne ting er det greit å bare spørre AIM om, altså.
+
+108
+00:20:31,838 --> 00:20:41,244
+Men nå kommer han til å kjøre ganske komplisert Python-kode, folkens. 
+Vi kan jo ta en titt på Python-koden hvis dere vil. Men dette er jo ganske
+
+109
+00:20:41,284 --> 00:20:54,289
+fantastisk, sant. For vi sitter nå og gjør en analyse, skal løse et 
+problem. Og så genereres det kode for å teste. Om hvorvidt vi skal gjøre
+
+110
+00:20:55,449 --> 00:21:03,533
+differensiering eller ikke. Differensiering betyr rett og slett at du 
+trekker ifra, altså du transformerer dataene dine, da egentlig. Det er
+
+111
+00:21:03,553 --> 00:21:15,979
+det du gjør. Så vi kunne jo f.eks. ha bedt A1 om å transformere dataene. Så 
+legg merke til, bare for å forklare dere mens vi venter på at A1 skal bli
+
+112
+00:21:16,019 --> 00:21:25,866
+ferdig ... Hvis dere ser på den grafen her, så ser vi tydelig at det er en 
+oppadstigende trend. Det ser vi også i dette stolpediagrammet. Og
+
+113
+00:21:25,946 --> 00:21:35,350
+oppadstigende trend, den er ikke stasjonær. Den er tidsavhengig. For 
+etter hvert som tida går, så øker det. Så vi skal i hvert fall gjøre ... Vi
+
+114
+00:21:35,390 --> 00:21:42,733
+skal minst gjøre én differensiering langs ... For én differensiering 
+for ...
+
+115
+00:21:45,869 --> 00:22:00,314
+Men så har vi også økende ... Hvis dere ser disse svingningene her, 
+høyden på disse toppene, så blir de større og større. Det er også et stort
+
+116
+00:22:00,334 --> 00:22:10,078
+tegn på at sesongen er også ikke-stasjonær. Altså sesongen øker. 
+Sesongen i 205-observasjon er mye større enn sesongen i 2040.
+
+117
+00:22:15,417 --> 00:22:27,242
+Men betyr det at stasjonaritetsbetingelser ikke er oppfylt i vårt 
+tilfelle? Vi har minst to brudd på stasjonaritet, og den fjerner vi ved å
+
+118
+00:22:27,282 --> 00:22:34,745
+differensiere bort stasjonariteten. Altså trekke ifra dataene ...
+
+119
+00:22:35,985 --> 00:22:41,227
+Vi trekker ifra differensiering. Og det er i niarimara.
+
+120
+00:22:44,392 --> 00:22:49,356
+Det er noe vi må gjøre først.
+
+121
+00:22:50,136 --> 00:23:00,123
+Vi kan be A-en om å legge inn ...
+
+122
+00:23:00,323 --> 00:23:19,484
+Legge inn og generere differensierte data. Vi har jo her data. Nå kan vi 
+be A-en om å generere differensierte data på dataene våre. Da
+
+123
+00:23:19,524 --> 00:23:32,028
+må det være trainingdata, kanskje? Egentlig trenger du ikke å gjøre 
+det. Siden vi har sterkere sesongmønster og en oppadgående trend, så
+
+124
+00:23:32,048 --> 00:23:40,591
+har vi to brudd på stasjonalitet. Da må vi transformere dem over 
+differansen, slik at de blir stasjonære. Og transformere dem til en
+
+125
+00:23:40,611 --> 00:23:54,781
+transformert verden. Slik at de blir stasjonære, og så bruke Salima på 
+den transformerte modellen. Og så transformere tilbake etterpå, det
+
+126
+00:23:54,801 --> 00:24:08,359
+som er ideen. Her ser dere akkurat det han har gjort. Fantastisk, eller 
+hva? Sjekk den figuren han lagde, da. Var det riktig det jeg sa, Gård? Ja,
+
+127
+00:24:08,399 --> 00:24:15,064
+det er helt riktig. Og du ser den kommentaren som du snakka om nå, det ser 
+du også egentlig i ...
+
+128
+00:24:23,771 --> 00:24:35,341
+Ja, du ser det sånn ... nesten her, da. For det har egentlig ikke i-en her. 
+Det skulle vært en i her, da. Den y-en der kan være en transformert y, da.
+
+129
+00:24:36,982 --> 00:24:40,603
+Dette
+
+130
+00:24:40,643 --> 00:24:50,547
+er jo matter, det er komplisert, men den Y-en der kan være transformert, 
+så det trenger ikke være det datasettet du ser på. Lurer på om vi hadde det
+
+131
+00:24:50,628 --> 00:24:55,089
+litt bedre her, da.
+
+132
+00:25:00,291 --> 00:25:11,382
+Ja. Her er differensieringsoperatorene, ser du. Så den her er litt mer 
+generell og litt bedre, på en måte. Men samtidig også vanskeligere, på
+
+133
+00:25:11,422 --> 00:25:19,947
+en måte. Så her ser dere at vi har differensiert både langs
+
+134
+00:25:21,488 --> 00:25:22,609
+sesong og
+
+135
+00:25:25,931 --> 00:25:35,725
+i tid, da. Altså trend og sesong, da. Her står det 
+differensieringsoperatorene. Denne er litt mer å ha håndtert, bare
+
+136
+00:25:35,745 --> 00:25:43,491
+for det sagt. I forhold til det som står her, da. Men jeg syns likevel 
+dette her er ganske bra. Det er bare at de ser ikke differensier... Jo,
+
+137
+00:25:43,531 --> 00:25:48,095
+her er de. Her er de. 1 minus B. Det er differensieringsoperatoren.
+
+138
+00:25:51,337 --> 00:26:02,208
+Dette er vanskelig matte. Forventer ikke at noen av dere skjønner dette 
+her. Men 1 minus B, det er differanse, da. Og 1 minus B12, det er
+
+139
+00:26:02,248 --> 00:26:14,330
+differanse mellom i tolvte måned, da. Per måned, da. Månedsbasert 
+differanse, da. Den ene er sesong, den andre er trend. Sagt på vanskelig
+
+140
+00:26:14,350 --> 00:26:14,550
+vis.
+
+141
+00:26:17,551 --> 00:26:28,753
+Saksjonalitet og behov for differensiering. Og nå ble nå tabellen litt 
+... Men er det bare fordi du har ... At han komprimerer fordi vieren er så
+
+142
+00:26:29,572 --> 00:26:41,694
+... Hvis du tar bort der, ja. Det er fordi det er markdown, folkens. Det er 
+fordi det er markdown. Og dette kan vi fikse på slutten. Selv om det er
+
+143
+00:26:41,754 --> 00:26:53,536
+litt vanskelig å lese nå. Ja. Men det kan vi ikke forvente, for dette er 
+bare vieweren, liksom. Vieweren vil bare automatisk sette dette opp,
+
+144
+00:26:54,236 --> 00:27:01,092
+sånn som en ser for seg. Ser på rapporten i den andre, men tror ikke det 
+blir noe bedre. Skal vi se ...
+
+145
+00:27:10,337 --> 00:27:24,849
+Dette er den andre bjørnen, da, men det ble litt bedre. Ja. Ikke så mye 
+bedre, men litt igjen. Men tabellen er likevel rett, da. Her ser vi at vi
+
+146
+00:27:24,889 --> 00:27:28,631
+har 1-1 kombinert differensiert.
+
+147
+00:27:33,133 --> 00:27:40,637
+Hvordan dette fungerer ... La oss se på den andre, så er det lettere å 
+henge med likevel.
+
+148
+00:27:40,957 --> 00:27:42,057
+Her er P-verdiene.
+
+149
+00:27:44,498 --> 00:27:58,680
+De tester om det er stasjonært eller ikke. Her er første steg. Det er den 
+originale serien vår. Det er sånn den ser ut her og nå. Det og det at figur
+
+150
+00:27:58,760 --> 00:28:08,646
+er én, det er den her. Sant? Dette er originalsettet vårt. Vi gjør 
+testene, og så står det at testene peker samlet mot fortsatt
+
+151
+00:28:08,726 --> 00:28:19,312
+ikke-stasjonalitet. Det er riktig, for det ser vi jo. Så trekker vi fra 
+trenden, altså den som gjør at den stiger skrått oppover. Nå ser du at den
+
+152
+00:28:19,372 --> 00:28:30,592
+stiger ikke skrått oppover, den er horisontal. Ser dere det? Vi har 
+fremdeles disse sesongtoppene, men han er horisontal. Så tester vi om
+
+153
+00:28:30,652 --> 00:28:39,198
+denne her er stasjonær. Det blir da neste test. Det
+
+154
+00:28:39,218 --> 00:28:39,958
+er den testen her.
+
+155
+00:28:43,981 --> 00:29:00,004
+Og testene peker mot stasjonaritet. Han sier at den er stasjonær her òg, 
+men vi ser at den egentlig ikke er det. Men testene sier det. Så gjør vi en
+
+156
+00:29:00,104 --> 00:29:03,526
+sesong differensiert, kun sesong.
+
+157
+00:29:06,668 --> 00:29:07,469
+Ikke ...
+
+158
+00:29:10,251 --> 00:29:25,975
+ikke stige ned. Nå er det kun sesongen vi fjerner. Og så tester vi for 
+begge to, hvor vi har trukket ifra både sesongen og trenden. Testene
+
+159
+00:29:26,035 --> 00:29:34,459
+peker mot stasjonaritet, men med høyere risiko for 
+overdifferensieringer. OK. Så får vi se hva han sier, da. D1 er lik det,
+
+160
+00:29:34,539 --> 00:29:39,921
+og D0 som hovedkandidat videre. OK. Det overrasker meg litt eller 
+annet.
+
+161
+00:29:44,039 --> 00:29:45,115
+Lurer på om det var det vi fikk her?
+
+162
+00:30:45,143 --> 00:30:56,369
+Jeg ser at den viser ikke sjølve statistikkene, jo, det gjør den her. 
+B-verdier. Men jeg vil også ha statistikkene her. Muligens han har
+
+163
+00:30:56,669 --> 00:30:57,609
+programmert feil, vet du.
+
+164
+00:31:43,177 --> 00:31:55,002
+Det er litt mistenkelig. Ja. Jeg er litt overraska over at den er ... ... 
+så på sesongene som stasjonære, for de er jo ikke helt stasjonære.
+
+165
+00:31:57,803 --> 00:32:04,586
+Nei, de er ikke det, ser du. Så det jeg gjør da, er å konfrontere en med det. 
+Jeg er usikker på om du har konkludert rett, for jeg ser jo alle
+
+166
+00:32:04,606 --> 00:32:16,549
+sesongene, og så bare konfronterer jeg en, altså. Da gjør en ofte en 
+ekstra analyse akkurat på det alt. Ja. Vi skal prøve å minske skrifta
+
+167
+00:32:16,569 --> 00:32:19,571
+litt i her. Hvis det går an, kanskje.
+
+168
+00:32:22,954 --> 00:32:36,124
+Går det an å minske fonten litt? Jeg vet ikke om du kan gjøre det på 
+matlangtid. Det jeg ser, da, er at muligens når ... OK.
+
+169
+00:33:15,061 --> 00:33:27,243
+Som dere ser nå, så må dere ha litt kunnskap i statistikk. Men det er jo 
+litt av det dette kurset også antaler, folkens. Det må dere huske på.
+
+170
+00:33:27,323 --> 00:33:36,345
+Dette kurset antar jo at dere har en basic forståelse i både logistikk, 
+statistikk, matematikk osv. Ikke sånn high-tech som vi ser her, men i
+
+171
+00:33:36,365 --> 00:33:41,066
+hvert fall basic. Sånn at dere vet hva teststatistikkene er for noe, og 
+P-verdier og sånne ting.
+
+172
+00:33:47,225 --> 00:33:50,610
+Kommer du frem til samme konklusjon?
+
+173
+00:33:55,496 --> 00:33:57,920
+Vi prøver å utfordre ham med konklusjonen her, da.
+
+174
+00:34:26,442 --> 00:34:36,647
+Det er litt rart. Hvis du ser med det blotte øyet, uten å tenke på 
+P-statistikk og P-verdier, så ser den ikke stasjonærlig ut når
+
+175
+00:34:36,727 --> 00:34:45,492
+sesongvariasjonene blir større, sterkere, tydeligere og mer 
+markant? Denne ser ikke stasjonær ut, nei. Det er det vi kanskje må
+
+176
+00:34:45,532 --> 00:34:53,636
+utfordre dem på. Vi ser fra ... Eller jeg ser ... Med det blotte øyet, fra 
+figurene.
+
+177
+00:34:57,222 --> 00:34:57,642
+Sexyhet.
+
+178
+00:36:00,807 --> 00:36:13,092
+Poenget er at vi skal forsvare det med testene. Men du har jo lov å bruke 
+det blå øyet, som PK er inne på. Og det blå øyet sier jo at dette her er ikke
+
+179
+00:36:13,112 --> 00:36:22,536
+stasjonært, sant? Det var det du mente, PK. Ikke sant? Ja, det er det. 
+Dette er åpenbart ikke stasjonært, fordi den både stiger og øker
+
+180
+00:36:23,057 --> 00:36:33,544
+amplitudene, eller svingningene. Her er stigninga borte, den er rett 
+fram. Men amplitudene øker. Her er amplituden lav, her er amplituden
+
+181
+00:36:33,624 --> 00:36:44,511
+høy. Skal vi se hva han sier, da. Det som er viktig å skrive, er at valget 
+ikke følger av P-verdiene alene, men av en samlet vurdering. Det er helt
+
+182
+00:36:44,551 --> 00:36:53,537
+enig. Ja, det er enig. Formelle tester utelukker originalserien. 
+Figurdiagnostikken viser at det ligger en fortsettende
+
+183
+00:36:53,577 --> 00:37:07,803
+sesongmønster. Derfor velges det en foran det ennå. Ja, det er jeg enig 
+i. Det han sier, er at disse testene klarer ikke å skille mellom de tre
+
+184
+00:37:07,863 --> 00:37:20,030
+andre. For alle de tre testene som går gjennom, som sier at ja ... Det 
+testene sier, er at den her er stasjonær, den er stasjonær og den er
+
+185
+00:37:20,050 --> 00:37:23,452
+stasjonær. Sant?
+
+186
+00:37:23,732 --> 00:37:26,774
+Og det vi sier, da, er at den her er mest stasjonær, da.
+
+187
+00:37:42,310 --> 00:37:53,658
+En annen ting som man kan vurdere her ... Legg merke til at svingningene 
+her er av og til litt høye, da. Og det som skjer, da, at du får en større
+
+188
+00:37:53,718 --> 00:38:03,625
+varianse, på en måte. Så sjøl om de svinger tilfeldig rundt Orgo, som de 
+skal gjøre, så vil de være ...
+
+189
+00:38:07,969 --> 00:38:19,636
+Vil de være ... Litt store svingninger. En måte å fikse det på, kan være å 
+transformere dataene i form av loggtransformasjon. Jeg tenkte jeg
+
+190
+00:38:19,656 --> 00:38:21,558
+skulle bare spørre om det kan være ...
+
+191
+00:38:24,541 --> 00:38:27,744
+Første side er bare å ja, gjør det. Så dere bare får skrevet den.
+
+192
+00:38:31,450 --> 00:38:41,673
+Når vi har den konteksten i hodet, vil vi bare fullføre når vi er enige. 
+Hvis vi begynner på et nytt tema, må vi gjenta det senere når vi bestemmer
+
+193
+00:38:41,713 --> 00:38:49,955
+oss. Det er veldig dumt å gi ham en ny oppgave lett før han skal begynne å 
+skrive noe. Ja, det er det.
+
+194
+00:38:54,236 --> 00:38:55,176
+Noen ferdig. Det er bra.
+
+195
+00:39:02,585 --> 00:39:12,838
+Har du vurdert å loggtransformere?
+
+196
+00:39:12,898 --> 00:39:24,285
+Vi gjentar det Inger sier. Når vi transformerer, så betyr det at vi bare 
+tar f.eks. loggen, så da dempes alle ... ... så tallene blir mindre. Det
+
+197
+00:39:24,305 --> 00:39:31,353
+er en en-til-en-korrespondanse mellom det vi transformerer til, og 
+det gamle. Hvis vi transformerer oss i en ny verden der ting er
+
+198
+00:39:31,373 --> 00:39:39,411
+stasjonært, da gjelder modellen. Og så løser vi modellen i den 
+transformerte, nye verden. Og når vi er løste i den nye verden, så går vi
+
+199
+00:39:39,431 --> 00:39:49,955
+tilbake igjen til den gamle, opprinnelige, reelle verden. Og får de 
+reelle verdiene som da er løst. Og da pendler vi altså mellom to
+
+200
+00:39:50,015 --> 00:39:58,458
+verdener. Transformasjon fra ett sted til et annet. Fra den virtuelle 
+verden til den reelle verden. Og det er et veldig standard triks som
+
+201
+00:39:58,518 --> 00:40:08,494
+brukes i mange sammenhenger i matematikk. For å gjøre analyse, 
+signalanalyse. Og også her i logistikk. Og det er viktig å vite om
+
+202
+00:40:08,554 --> 00:40:21,243
+akkurat det der. Ja, definitivt. Vi fjerner på en måte mønster som vi ser 
+og kan kontrollere. Og så prøver vi å forklare det som da er igjen. Altså
+
+203
+00:40:21,263 --> 00:40:28,889
+residualene, da. Eller det som er differensiert bort, da. Det er det som 
+ligger i ordet differensiering. At du differensierer bort det vi ...
+
+204
+00:40:29,592 --> 00:40:40,178
+Det som er tydelig mønster, det differensierer vi bort. Så sitter vi 
+igjen med det som ikke er så tydelig, nemlig den røde der, da. Og den er det
+
+205
+00:40:40,218 --> 00:40:44,081
+da som skal estimeres parameterne på, da, f.eks.
+
+206
+00:40:55,799 --> 00:41:06,368
+Det jeg gjør nå, er også et standardtriks innen prognosisering, nemlig 
+å loggtransformere dataene. Det som skjer da, er at dataene ikke ...
+
+207
+00:41:08,430 --> 00:41:22,886
+Ikke svinger så mye, da. Hvis dere ser på Y-aksen her, så starter det på 
+2000 og ender på 18 000. Så det er ganske stort spenn, da. Og stort spenn
+
+208
+00:41:22,926 --> 00:41:36,192
+betyr veldig store svingninger og stor varians. Eller stor endring. 
+Ved å log-transformere så kan du få enda bedre data. Du har mønsteret og
+
+209
+00:41:36,232 --> 00:41:46,137
+svingningene, men du demper alt sammen. Demper alt sammen, ja. Som en 
+sånn demp. Og det samme som PK sa, så kan vi transformere dataene tilbake
+
+210
+00:41:46,157 --> 00:41:56,441
+når vi har gjort analysen i det litt mer dempa. ... dempa scenarioet, da. 
+Og her står det, ja, og det er et godt poeng, sjekket om alternativene er
+
+211
+00:41:56,481 --> 00:42:04,268
+relevante, men de nevner ikke hovedkonklusjonen. Ja, logisten er 
+verdt å ta med fordi den ser ut til å gjøre variansen mer stabil. Veldig
+
+212
+00:42:04,288 --> 00:42:17,738
+bra. For variansen skal ikke endre seg over tid, da. Den skal være 
+stabil. Så belte rundt her skal være så jevnt som mulig. Og nå ser dere at
+
+213
+00:42:18,079 --> 00:42:30,440
+vi har en del sånnere Spikes her, som tegn på at variansen ikke er så 
+stabil. Her ser dere at variansen blir mye mindre etter hvert. Og det er
+
+214
+00:42:30,460 --> 00:42:34,101
+heller ikke så bra. Sånn at vi ...
+
+215
+00:42:36,822 --> 00:42:38,082
+vi
+
+216
+00:42:39,903 --> 00:42:41,243
+har nytte av å loggtransformere, da.
+
+217
+00:42:46,870 --> 00:42:53,791
+Nå er tida ute, så jeg kunne tenke meg at vi bare begynner å tenke på å 
+fullføre og bare lande akkurat det punktet vi holder på med nå. Og så
+
+218
+00:42:53,831 --> 00:43:05,173
+committe og pushe. Slik at vi gjør det som en avslutning før vi ... Og 
+eventuelt skriver noen kommentar, så vi vet hvor vi skal starte her på
+
+219
+00:43:05,213 --> 00:43:08,574
+onsdag. Det kan vi òg gjøre, da. Skrive en liten kommentar og huskelapp 
+til oss sjøl.
+
+220
+00:43:14,512 --> 00:43:18,473
+Jeg vil bare gjennomføre det siste steget her. Logg transformasjon med 
+begrunnelse.
+
+221
+00:43:22,754 --> 00:43:27,575
+Så slipper vi to parallelle spor.
+
+222
+00:43:32,036 --> 00:43:42,138
+Ja. Fem minutter. Skal vi tåle det? Utover tida? Bare for å lande akkurat 
+denne steden her, da. Slik at vi er ferdig med den. Ja, vi må gjøre det.
+
+223
+00:43:48,667 --> 00:44:00,691
+Så da får vi Z-er i stedet for Y-er. Det er greit. Det er å få en ny notasjon 
+på den transformerte virtuelle verden. Og så har vi én notasjon der i
+
+224
+00:44:00,711 --> 00:44:08,333
+Z-verdenen, og så har vi reelle verdenen, Y-verdenen, og sånne ting. 
+Ja. Det vi kommer til å få da, er at vi kommer til å få nye grafer hvor
+
+225
+00:44:08,894 --> 00:44:23,930
+amplitudene og svingningene er litt lavere, på en måte. Ja. De er 
+nærmere Origo, da. Da blir stasjonariteten bedre, da. Hvis dere ikke
+
+226
+00:44:24,030 --> 00:44:32,933
+visste hva stasjonaritet var, så ville jeg bare gjort som PK. Tatt et 
+spurt chattGPT og sånne ting, og bare lært om stasjonaritet.
+
+227
+00:44:35,731 --> 00:44:45,319
+Det kan være bra å diskutere sånt på sida, men kanskje en helt annen AI, 
+som vi bruker, GPT, i dette tilfellet. Da ser dere det klippet ut av dere,
+
+228
+00:44:45,700 --> 00:44:54,548
+og hva som står der. At Sarima bygger på stabile mønstre over tid. Og 
+stasjonaritet betyr at nivå, variasjon og avhengighetsstruktur er
+
+229
+00:44:54,608 --> 00:45:00,193
+omtrent konstante.
+
+230
+00:45:00,313 --> 00:45:09,497
+Det trenger vi iallfall når dagen gjelder, og da kan vi gjøre ... Løse den 
+i den stasjonære settverdenen, som er den virtuelle verden. Løse det
+
+231
+00:45:09,517 --> 00:45:19,423
+der. Og så transformere oss tilbake til den reelle verden, Y-verdenen 
+om du vil, etterpå.
+
+232
+00:45:19,523 --> 00:45:27,343
+Det den gjør nå, er selvfølgelig å opprette ... Altså endre 
+Python-koden, som gjør alle disse beregningene her. For her skjer det
+
+233
+00:45:27,424 --> 00:45:34,007
+mye beregninger i bakgrunnen. La oss ta en titt på det mens den sitter og 
+brenner. Vi har noe som heter analyzes, og så har vi aktiviteter. Så er vi
+
+234
+00:45:34,067 --> 00:45:43,972
+tre-to her. Og så har vi scripts. Og her vurderes stasjonaritet. Og her 
+er koden, folkens. Han holder på å endre dette allerede.
+
+235
+00:45:45,293 --> 00:45:57,368
+Sannsynligvis. Men alt dette her har A1 generert. Og dette er et sånt som 
+Vi ikke kunne forventa av vanlige bachelorstudenter, for å si det sånn.
+
+236
+00:45:57,428 --> 00:46:11,073
+Dette er heavy shit, på en måte. Her regnes det ut og det brukes avanserte 
+bibliotek, sånn som Numpi, Pandas, Stat Models. Her er det mye data
+
+237
+00:46:11,133 --> 00:46:23,773
+science, for å si det sånn. Som på ingen måte er enkel. Og her er det 
+ADF-testen, og så er det KPSS, som er den testen som gjennomføres, da.
+
+238
+00:46:24,174 --> 00:46:33,076
+Det som er litt kult her, er at vi ser hvor mye som gjøres bak scenen. At vi 
+har litt oversikt over hva som foregår der, slik at det ikke bare blir en
+
+239
+00:46:33,136 --> 00:46:44,210
+depp-boks for oss. Og alt dette her er altså koder som genereres ut ifra 
+det vi nå har sagt og gjort. Så det syns vi er litt kult, da. Ja, ja. Det er
+
+240
+00:46:44,270 --> 00:46:47,653
+kult, det som de sier. Så skal vi se på rapporten igjen.
+
+241
+00:46:55,559 --> 00:46:57,821
+Har vært ikke oppdatert ...
+
+242
+00:47:04,506 --> 00:47:05,126
+Enn for elgene? Ja.
+
+243
+00:47:40,175 --> 00:47:40,555
+Ja.
+
+244
+00:47:46,041 --> 00:47:46,881
+Å ja. Ser ikke sånn ut.
+
+245
+00:47:56,791 --> 00:48:00,714
+Vi hadde jo 18 000 her før. Det blir jo ikke 18 000 når vi låttransformere.
+
+246
+00:48:18,346 --> 00:48:19,367
+Så sjekke figurene, da.
+
+247
+00:48:25,851 --> 00:48:34,498
+Man er ... Jo, der er figurene. Man har ikke oppdatert figurene, man har 
+ikke oppdatert rapporten. Det er det som har skjedd. Ser du det? For nå er
+
+248
+00:48:34,518 --> 00:48:42,551
+ikke 18 000 lenger. Nå er det bare åtte, ni og sju, ser du det? Nå er dette 
+veldig dempa. Jeg hører at de ser høyt på sparkene. Det er ikke 18 000
+
+249
+00:48:42,611 --> 00:48:50,757
+lenger. Det er bare 8-9-10 og sånne ting. Altså små tall. Så dette er lavt 
+transformert. Og det står jo her. Men han har bare ikke oppdatert
+
+250
+00:48:50,797 --> 00:48:59,183
+rapporten. Ja. Skal vi bare prøve å slå av rapporten, da, og så oppdatere 
+den igjen, kanskje? Ja, jeg tror ikke han har gjort det. Fordi det ikke er
+
+251
+00:48:59,223 --> 00:49:09,051
+viewer-refresher i trulig. Fordi han faktisk ikke har gjort det. Jo, 
+for han bare peker på filer, vet du. Å ja, kanskje, kanskje. Og så er det
+
+252
+00:49:09,091 --> 00:49:20,599
+samme filenavnet. Så hvis en ikke sjøl skjønner at en må refreshe og 
+gjøre det for oss, da, man ... Ja, godt spørsmål. Nå kommer den. Nå kommer
+
+253
+00:49:20,619 --> 00:49:35,785
+den. Bare én. Ja. Ja, bra. Nå står den i figurteksten, loggtransformert 
+til serievarianter. Ja. All right. Da er det bare supert. Jeg kommer
+
+254
+00:49:35,865 --> 00:49:44,510
+ikke til å pushe. Push. Sånn, og da er vi ferdig. Og så må vi oppdatere ... 
+...
+
+255
+00:49:50,034 --> 00:49:54,437
+status- og jobbpakken
+
+256
+00:49:57,298 --> 00:49:58,119
+som gjort.
+
+257
+00:50:03,038 --> 00:50:12,626
+All right. Men da er vi ferdige. Da har vi kommet så langt som status her. 
+Vi har testa stasjonaritet og vurdert behovet for differensiering for
+
+258
+00:50:12,706 --> 00:50:22,033
+videre Saraima-spesifikasjon. Nydelig. Skal vi nå holde på å pushe, 
+tenker jeg, men skal vi ikke skrive noe og gjøre noe, slik at vi tar opp
+
+259
+00:50:22,073 --> 00:50:32,359
+tråden igjen på onsdagen? Eller skal vi bare be A1 om å ta en retap sånn som 
+vi gjorde i dag? Ja, nå har vi jo statusen og prosjektføringa. Det er
+
+260
+00:50:32,380 --> 00:50:44,203
+veldig kjekt. Da kan vi bare henvise til statusen og til git commit-en, 
+så vil han hentes inn igjen. Vi trenger ikke skrive hva vi gjorde og
+
+261
+00:50:44,263 --> 00:50:56,468
+ditten og datten. Og det er veldig hendig, da. Egentlig. Så greit. OK, 
+men da sier vi takk for i dag igjen. Og så setter vi opp ny runde på onsdag.
+
+262
+00:50:56,508 --> 00:51:06,965
+Det blir jo lite grann sånn Det blir jo litt sånn, kall det litt. Vi står på 
+akkurat nå for å få kommet oss gjennom, slik at dere får med dere hele
+
+263
+00:51:07,005 --> 00:51:09,466
+prosessen som dere kan jobbe med fram til 31.5.
+
+264
+00:51:14,285 --> 00:51:23,353
+Så bare en liten fingerslutt. Nå tok jeg akkurat og pulla, og alt sammen 
+er nede her. Så nå ser jeg den nye rapporten lokalt på min maskin. For på
+
+265
+00:51:23,373 --> 00:51:31,239
+ringen pusha du det opp i skia, jeg pulla det ned, og så har jeg alt det som 
+vi har gjort i dag lokalt på maskinen min, den aller ferskeste
+
+266
+00:51:31,259 --> 00:51:38,405
+versjonen. Ja, ja. Og dette er tilgjengelig til alle sammen, så dere kan 
+laste ned og se på hva vi gjør og hvordan vi har gjort det osv. Så det er jo
+
+267
+00:51:38,445 --> 00:51:51,222
+fantastisk. Kjempegreier. Supert. Kan vi ta en liten prat etterpå? 
+Tusen takk for i dag, folkens. Og så laster Erik ut videoene. Vi nærmer
+
+268
+00:51:51,242 --> 00:51:58,390
+dem og gjør en summary som vanlig. Og da er det tilgjengelig for alle. 
+Herlig. Ha det bra. Herlig. Takk for i dag.
+

@@ -1,0 +1,1131 @@
+1
+00:00:02,191 --> 00:00:08,053
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Det 
+er et stort fag. Og det er ... Har du satt på video, PK? Ja, jeg har gjort
+
+2
+00:00:08,473 --> 00:00:21,779
+det. Det er et stort fag, ja. Og det er mange tråder her som skal flettes 
+sammen. Og det er lett for oss også at vi hopper over ting eller ikke
+
+3
+00:00:22,079 --> 00:00:33,591
+spesifiserer godt nok osv. Og da er det utrolig viktig at dere spør. Dere 
+er flinke og spør mange gode spørsmål. Fortsett med det, folkens. Slik
+
+4
+00:00:33,651 --> 00:00:48,859
+at det ikke er tvil om hva dere skal gjøre og hvilke rammer dere har i 
+prinsippet. Skal helst unngå overraskelser her. Det var
+
+5
+00:00:48,959 --> 00:00:53,061
+introduksjonen. Nå kommer disse nye KI-retningslinjene.
+
+6
+00:00:56,423 --> 00:01:06,571
+Det er da fem hovedregler for bruk av KI. Dette
+
+7
+00:01:06,632 --> 00:01:16,458
+handler om hjemmeeksamen og oppgaver, inkludert bachelor- og 
+masteroppgaver ved Høgskolen i Molde. Så er spørsmålet hvor faget
+
+8
+00:01:16,498 --> 00:01:25,284
+ligger i forhold til dette terrenget. La oss først se på hovedreglene. 
+Dette er en forkorta versjon av det som står på nettsidene våre.
+
+9
+00:01:30,329 --> 00:01:43,414
+KI er tillatt, men du må oppgi hvor og hvordan det blir brukt. Det er ikke 
+så veldig vanskelig. Det kan vi ha innledningsvis i rapporten vår. Og
+
+10
+00:01:43,494 --> 00:01:53,778
+det bør vi legge til i rapporten, tenker jeg. Så man har et forord eller 
+noe sånt, PK? Eller jeg vet ikke hva det kalles i en sånn rapport. En slags
+
+11
+00:01:53,838 --> 00:02:01,903
+disclaimer eller noe sånt? Ja, et forord er greit. Typisk i forhåret, så 
+vil vi legge inn denne biten her, da.
+
+12
+00:02:05,668 --> 00:02:20,223
+Står det sånn at du er ansvarlig for eget arbeid. Så alt innlevert arbeid 
+må være ditt eget. Du skal være kritisk. Verifiser alltid hva innhold
+
+13
+00:02:20,423 --> 00:02:31,530
+mot akademiske kilder. Man må jo da passe på at a-en ikke ... Hallu ... 
+Hali...
+
+14
+00:02:32,751 --> 00:02:42,637
+At den ikke tøyser, da. Hallinusere. Hallinusere, ja. Ekkelt ord. Så du 
+må passe på at det ikke spyttes ut sprøyter.
+
+15
+00:02:46,874 --> 00:02:53,637
+Du skal dokumentere KI-bruken, inkludere seksjon bruk av KI pluss 
+signert erklæring.
+
+16
+00:02:56,579 --> 00:03:04,682
+Lurer på om det er litt det samme som står i punkt én der. Men dette var 
+kanskje litt mer ...
+
+17
+00:03:09,405 --> 00:03:23,111
+Et litt mer ... De har en template på nettet. Jeg skal vise nettsida til 
+dere, forresten. Men man har en sånn erklæring om bruk av kunstig
+
+18
+00:03:23,172 --> 00:03:32,759
+intelligens i et Bird-dokument. Den skal vi få skvisa inn. Jeg tror ikke 
+jeg skal vise så problematisk akkurat den biten der. Hvordan vi har
+
+19
+00:03:32,779 --> 00:03:47,913
+brukt KR. Vi skal bruke personvern. Bruk GPT-UJO, ikke legg inn 
+sensitive data. Ja. We shall not bruke GPT-UiO på ingen som helst måte.
+
+20
+00:03:49,354 --> 00:03:58,319
+Jeg anbefaler at når det gjelder sensitive data, så er det i prinsippet 
+personlige data vi skal unngå.
+
+21
+00:04:08,326 --> 00:04:22,151
+Så det må ikke vi ha med her. Det vil si at hvis dere har data hvor det står 
+f.eks. at det var et sykehuspasienter ... Hvis vi skal trekke
+
+22
+00:04:22,211 --> 00:04:24,012
+pasientforløp i et sykehus,
+
+23
+00:04:26,673 --> 00:04:39,001
+da kan vi ikke fortelle ... Verken A1 eller rapporten heller kan ikke da 
+på en måte fortelle hvem, hvilke personer dette er. Det kan ikke være ...
+
+24
+00:04:39,498 --> 00:04:56,290
+Identifiserbare personer. Sånn at ting som bankkontoer eller 
+personnummer og hvor man bor hen og den type ting, skal ikke være med i en
+
+25
+00:04:56,350 --> 00:05:07,158
+sånn analyse. Og her må dere bare bruke sunn fornuft. Men den der kan vi 
+bare glemme.
+
+26
+00:05:11,763 --> 00:05:19,168
+Så ...
+
+27
+00:05:19,248 --> 00:05:28,714
+".Diskusjonspartner, idémyldring, strukturering, støtte til 
+litteratursøk og søkeord, språkvask, korrektur og oversettelse,
+
+28
+00:05:29,074 --> 00:05:36,539
+kode, algoritmer, bilder og figurer med dokumentasjon". Så dere 
+skriver jo da at figuren er AI-generert, f.eks. Og det er helt greit.
+
+29
+00:05:37,219 --> 00:05:42,559
+Dette tror jeg ikke skal bli vanskelig. Og den siste der er jo viktig for 
+oss, da. Dette er supert.
+
+30
+00:05:47,502 --> 00:06:02,449
+Dette er en av de store bitene der vi skal bruke AE. Så det er helt greit, 
+da. Jeg er også masterveileder for en masterstudent, og han bruker AE
+
+31
+00:06:02,529 --> 00:06:05,170
+mye for å hjelpe seg med den biten der.
+
+32
+00:06:08,429 --> 00:06:21,294
+Levere KI-generert tekstkode som ditt eget arbeid. Fabrikkere kilder 
+eller informasjon. Det er da noen hallusineringer. Manglende
+
+33
+00:06:21,414 --> 00:06:33,940
+dokumentasjon av KI-bruk, det blir lik busk, det må vi passe på. Legge 
+sensitive data og personopplysninger i åpne KI-verktøy. Det skal vi
+
+34
+00:06:33,980 --> 00:06:46,108
+ikke gjøre, selvfølgelig. Det er ikke det samme som bedriftssensitive 
+data. Dette er personsensitive data. Det er GDPR-reglene som er
+
+35
+00:06:46,508 --> 00:06:59,456
+gjeldende her. Bare så dere er klar over det. GDPR. Så hvis bedriften 
+ønsker at dataene skal være sensitive pga. åpenbare grunner, at man
+
+36
+00:06:59,496 --> 00:07:11,081
+ikke har lyst til å fortelle hele verden hvilke interne planer man 
+jobber med f.eks. Så er det en helt annen ting, da er det et aktivt valg. Og
+
+37
+00:07:11,201 --> 00:07:21,287
+da er det typisk vasking, altså screening av data. Kan anonymifisere 
+data.
+
+38
+00:07:29,793 --> 00:07:31,794
+Og kan også kunne transformere data.
+
+39
+00:07:36,348 --> 00:07:46,897
+Man kan både anonymifisere eller transformere. Hva betyr å 
+anonymifisere? Det forstår dere sikkert. At vi fjerner alt som har med
+
+40
+00:07:46,917 --> 00:08:05,677
+en person å gjøre. Men la oss nå si at du har produksjonsdata. For det 
+første har du produktenes navn. Så står det Pizza Grandiosa, og så er det
+
+41
+00:08:05,777 --> 00:08:18,739
+Big One. Da kan man transformere disse dataene til å bare si ... I stedet 
+for Big One, så er det Produkt 1. Produkt 2. Produkt 3. Da har du
+
+42
+00:08:18,879 --> 00:08:32,566
+transformert dataene til et annet datasett som er like gjeldende for 
+vår Det er ikke så viktig om vi vet at det er Grandi eller en Big One. Det som
+
+43
+00:08:32,586 --> 00:08:39,390
+er viktig her, er at du har forskjellige produkter. I tillegg kan man, 
+hvis man ... La oss si at man har
+
+44
+00:08:43,692 --> 00:08:53,458
+kjøretidsdata eller litt sånne ... Kall det transaksjonsdata, som er 
+ofte litt sensitive. Transaksjonsdata.
+
+45
+00:09:02,191 --> 00:09:18,722
+Man kan transformere dataene slik at tallene ikke reflekterer den 
+virkelige situasjonen, men transformasjonen er én til én. Det betyr at
+
+46
+00:09:19,242 --> 00:09:29,027
+da må du bruke en funksjon. Ta logaritmen, f.eks. Er jo vanlig, men også 
+litt enkelt, da. Så det ville jeg ikke gjort. Men man kan lage
+
+47
+00:09:29,187 --> 00:09:37,571
+kompliserte transformasjoner hvor man da i prinsippet ... Ja. Det er 
+som en
+
+48
+00:09:38,272 --> 00:09:48,874
+koding av dataene, da. Så du koder dem i et annet format, og så jobber du 
+med de i stedet for. En transformasjon. Og da kan du alltid kode dataene
+
+49
+00:09:48,914 --> 00:09:53,837
+tilbake igjen, hvis du har en én-til-én-transformasjon.
+
+50
+00:09:54,517 --> 00:10:07,524
+Log er f.eks. en vanlig brukt transformasjon. Så det er muligheter man 
+kan gjøre for å liksom scramble dataene litt, slik at man ikke kan
+
+51
+00:10:07,604 --> 00:10:10,505
+gjenkjenne dem direkte fra en bedrift.
+
+52
+00:10:14,517 --> 00:10:25,022
+Så hvor ligger punktet som er litt bob-bob? Det er den der.
+
+53
+00:10:29,304 --> 00:10:40,489
+La oss se hva de sier på nettsida om akkurat den punktet der. Det er punkt 
+nummer to, altså du er ansvarlig, alt innlevert arbeid må være ditt
+
+54
+00:10:40,589 --> 00:10:50,737
+eget. Her har jeg henta opp nettsida på Høgskolen i Molde, og jeg antar 
+egentlig at mange andre kommer til å ta lignende. Så nummer to her. Du er
+
+55
+00:10:50,817 --> 00:10:58,423
+ansvarlig for ditt eget arbeid. Du er ansvarlig for alt innhold du 
+leverer, enten KI-verktøy blir brukt eller ikke. KI kan støtte
+
+56
+00:10:58,503 --> 00:11:05,404
+arbeidet ditt, men KI kan ikke erstatte din forståelse, resonnering 
+eller dine akademiske ferdigheter. Her kommer det viktige. Det er ikke
+
+57
+00:11:05,484 --> 00:11:12,588
+tillatt å levere tekst som helt eller delvis er produsert av KE som om du 
+har skrevet den selv.
+
+58
+00:11:18,991 --> 00:11:32,178
+Fordi ... Make no mistake, folkens. Vårt mål er at dere skal generere i 
+hvert fall opp mot 70-80 % av rapporten sjøl. Altså ikke sjøl, men via AI,
+
+59
+00:11:32,218 --> 00:11:43,182
+da. Noe av grunnen til dette er at i dette faget, i motsetning til de 
+fleste andre fag, så er dette en del av læringsmålene våre.
+
+60
+00:11:43,222 --> 00:11:54,509
+Læringsmålet i log 650 er faktisk at du kan bruke AI til å generere både 
+kode og rapport. Det er en del av læringsmålene. Og det gjør at dette
+
+61
+00:11:55,090 --> 00:12:05,934
+faget stiller seg annerledes enn veldig mange andre fag. Men det er 
+altså egenskaper dere er nødt til å ha. Nemlig å lese gjennom og forstå
+
+62
+00:12:05,954 --> 00:12:15,280
+dette, slik at dere forstår det sjøl, velsigner det sjøl og gjør 
+endringer sjøl. Slik at du forstår det. Det er derfor vi bl.a. har
+
+63
+00:12:15,320 --> 00:12:27,508
+muntlig. Slik at det ikke bare blir en black box for dere, men dere har 
+eierskapet og forståelsen for dette sjøl om mye av det er AI-generert.
+
+64
+00:12:30,007 --> 00:12:45,777
+Min påstand er at dette faget er innafor her også. Men legg merke til det 
+siste stasivet står der. 'Som om du har skrevet dem selv'. Vi skal være
+
+65
+00:12:45,917 --> 00:13:04,874
+åpne på at det har du ikke. Ikke sant? Det er det som er poenget her. Du kan 
+ikke generere rått tekst. Og så si at det var ditt arbeid. Du må da påpeke
+
+66
+00:13:04,954 --> 00:13:14,881
+at dette var gjort av AI. Litt sånn som de gjør på VG, ikke sånn som de gjør 
+på VGPK når de har noe sånt? Denne oppsummeringen er generert av AI, men
+
+67
+00:13:14,941 --> 00:13:22,260
+kvalitetssikret av våre journalister. Det er det som står. Så det er 
+faktisk ikke VG eller Dagbladet eller Aftenposten som har gjort
+
+68
+00:13:22,300 --> 00:13:33,866
+observeringa, det er AI. Men de har gått god for det, på så god måte at de er 
+ansvarlige for det og publiserer det. Og det er litt av
+
+69
+00:13:33,906 --> 00:13:45,371
+det samme prinsippet. Og jeg syns det er bra at disse reglene kom, for det 
+fjerner mye tvil på hvordan dette skal forholdes til. Ingen har lyst til
+
+70
+00:13:45,411 --> 00:14:06,036
+å bli tatt for juks. Men det som er mest positivt til akkurat disse 
+reglene her, er følgende. Tenk hvis du har en vanlig jobbsituasjon. Og
+
+71
+00:14:06,096 --> 00:14:16,016
+så får du oppgaven i å skrive en eller annen rapport. Uansett hvilken 
+rapport det er. Det kan være en forskningsrapport. Det kan være et
+
+72
+00:14:16,076 --> 00:14:30,727
+prosjektrapport. Det kan være hva som helst. Du skal levere en rapport. 
+Og du bruker AI. Som alle andre gjør. Det som er sunt med dette, er at du får
+
+73
+00:14:30,867 --> 00:14:36,391
+gode retningslinjer for både å unngå å komme i problemer,
+
+74
+00:14:39,773 --> 00:14:56,121
+og også hvordan du skal ... Hvordan du skal dokumentere hvordan 
+analysen er gjennomført. Dette er da sunt vett for bruk av AI. For ingen
+
+75
+00:14:56,161 --> 00:15:06,168
+har lyst til å lage en ... La oss si at du skal presentere en rapport til et 
+styre f.eks. I form av et resultat, viktig resultat for en bedrift. Så er
+
+76
+00:15:06,188 --> 00:15:17,033
+det ingen som har lyst til å bli tatt med buksa nede. Fordi at du har brukt 
+AE, og så har du ikke sagt ifra at du har brukt AE. Det er på en måte noe av det
+
+77
+00:15:17,093 --> 00:15:25,257
+verste du kan gjøre, tror jeg. Det skal ingen av oss havne i. Så
+
+78
+00:15:26,978 --> 00:15:39,905
+jeg kommer til å legge inn nå, etter at disse kravene er kommet inn, så 
+skal vi settes inn som et krav i rapporten at vi oppfyller disse reglene.
+
+79
+00:15:42,483 --> 00:15:54,514
+Det betyr at dere må skrive litt ekstra om både bruken av AI og hva som er 
+AI-generert osv. Vi skal bare være åpne om det. Det er det det handler om.
+
+80
+00:15:54,914 --> 00:16:04,417
+Man skal ikke late som om noen andre har gjort det, eller at du har gjort 
+det, og så har du brukt AI. Det er det som er fy-fy, sånn som jeg tolker
+
+81
+00:16:04,517 --> 00:16:14,059
+dette. Ellers kan vi fint levere tekst. Vi kan si at hele dette avsnittet 
+var generert av AI. Dette bildet var generert av AI. Python-koden var
+
+82
+00:16:14,099 --> 00:16:29,930
+generert av AI. Du har ikke endra en tøddel på det. Det er helt greit, det. 
+Men du må si det. Sånn er det i tolkene. Det
+
+83
+00:16:29,950 --> 00:16:38,796
+som er viktig, da ... Men det er ett dimensjon til. Du må ha eierskap og 
+forståelse av dette. Hvis du skal presentere dette for et styre eller på
+
+84
+00:16:38,856 --> 00:16:48,463
+en muntlig eksamen, og du ikke er enda en tødder, det er helt greit, men du 
+må ha forståelsen, slik at du forstår hva som har blitt gjort. Slik at du
+
+85
+00:16:48,484 --> 00:16:58,630
+kan gå inn i en fruktbar diskusjon med styret eller en sensor eller en 
+fairyduer. Det er den X-dimensjonen og prisen du må betale for å forstå
+
+86
+00:16:58,930 --> 00:17:08,575
+innholdet. Som om du har skrevet det selv, selv om det er AS som har 
+skrevet det. Jeg tror at alle som
+
+87
+00:17:11,196 --> 00:17:20,701
+er litt fornuftige, vil passe på at det er tilfellet i en jobbsituasjon. 
+Du bør ikke ta den risikoen å bli tatt med buksa nede, for å si det sånn.
+
+88
+00:17:23,378 --> 00:17:33,806
+Uansett hvilken situasjon det er, så lenge du har brukt I til å generere 
+noe. Hva er det som menes i det kapitlet her? Kapittel to, tre? Hva som
+
+89
+00:17:33,966 --> 00:17:45,255
+menes her nå? Der står det noe om hva som menes. Da må du ha et svar på det. Du 
+må ha en formening om det. Det er ikke sikkert du har rett til det, men du må
+
+90
+00:17:45,275 --> 00:17:56,962
+iallfall ha en sånn forståelse av dette, og en sånn oppfatning av det. 
+Det er sånn jeg mener dette er prøvd. Det
+
+91
+00:17:57,863 --> 00:18:05,871
+trenger ikke å bli arrestert selv om du kanskje tar feil og ikke har 
+forstått det helt. Men du har tenkt gjennom det og har din egen
+
+92
+00:18:05,911 --> 00:18:11,897
+forklaring på det. Uansett om det er helt eller delvis feil, så må du 
+iallfall ha en forklaring på det.
+
+93
+00:18:15,691 --> 00:18:28,643
+Så bottom line, vi kommer til å legge inn krav på rapporten om at den 
+oppfyller disse reglene her. Hvor du da må legge inn noen ekstra ... Kall
+
+94
+00:18:28,663 --> 00:18:40,114
+det avsnitt her og der. Kanskje i innledninga eller noe sånt. Om hvordan 
+du har brukt AI, og hva som er AI-generert, og hva som er ditt arbeid og hva
+
+95
+00:18:40,154 --> 00:18:49,324
+du har gjort da. Så lenge vi gjør det, så har vi ryggen fri. Her er også 
+denne erklæringen om bruk av kunstig intelligens, Word-dokument. Vi
+
+96
+00:18:49,784 --> 00:19:01,273
+kan se hvordan det ser ut. Jeg regner med at det er en ganske enkel sak. Her 
+ser dere dokumentet. Dette kan vi nå bare bruke kjapt, det er ikke noe
+
+97
+00:19:01,293 --> 00:19:12,642
+problem. Her er det bare å trykke av hvordan vi har gjort det. 
+Tekstgenerering, ja, ja. Det er nok ja på alle tegn. Det å ha med dette som
+
+98
+00:19:12,722 --> 00:19:23,444
+et vedlegg, og så skriver vi det, f.eks. Live Freeface, hva vi har gjort. 
+Og vi har da fylt ut dette som et vedlegg, og henviser og refererer til
+
+99
+00:19:23,464 --> 00:19:30,066
+det. Og det mener jeg er helt innafor. Det er helt innafor. Ingen 
+problem. Dette tror jeg er veldig greit. Men det er en sunn ...
+
+100
+00:19:36,691 --> 00:19:47,014
+Det er en sunn måte å approache A1 på, det er det. Så jeg syns disse 
+retningslinjene er mye bedre enn dem som var tidligere. Da var de veldig
+
+101
+00:19:47,054 --> 00:19:53,716
+blurry og vanskelige, og litt selvmotsigende og sånne ting. Det har 
+blitt bedre. All right, da er vi ferdige med A1. Hvis det ikke er
+
+102
+00:19:53,756 --> 00:19:56,017
+spørsmål, så går vi videre.
+
+103
+00:19:59,718 --> 00:20:06,160
+Og da ... Da har vi kommet til oppsettet av utviklingsmiljøet.
+
+104
+00:20:08,973 --> 00:20:17,197
+Så dette er jo da viktig for dere som skal jobbe med AI
+
+105
+00:20:17,357 --> 00:20:30,924
+i dette kurset. Og det viktigste av alt er en erkjennelse om at vi skal 
+ikke jobbe på internett, sånn som de fleste gjør, da. Du starter opp en
+
+106
+00:20:30,964 --> 00:20:43,294
+chatKPT eller en Gemini på internett, og så begynner du å spørre AI der. 
+Det er ikke måten vi skal gjøre på. Vi skal bruke samme utviklingsmiljø
+
+107
+00:20:43,394 --> 00:20:56,123
+som i IBE160, hvor første vesentlige verktøy er det vi kaller VS-code. 
+Det er en editor for kode og rapporten. Så her skal vi da skrive
+
+108
+00:20:56,183 --> 00:20:58,865
+Python-koden vår, og vi skal skrive også rapporten.
+
+109
+00:21:01,947 --> 00:21:15,173
+Og det er da et program. Et editorprogram. Dere kommer til å se det etter 
+hvert som vi fortsetter videre. Neste er det at vi skal ha et
+
+110
+00:21:15,213 --> 00:21:27,594
+programmeringsspråk, og det heter Python. Med det som kalles for UV 
+Package Manager. Python er et programmeringsspråk. Og vi trenger også
+
+111
+00:21:27,614 --> 00:21:41,498
+en pakkebehandler. Det betyr altså ferdiglagd kode som vi kan bruke til 
+å skrive enklere koder. Et bibliotek av koder som gjør spesifikke
+
+112
+00:21:43,018 --> 00:21:52,860
+oppgaver for å kunne løse et problem. Et eksempel på en sånn pakke. Det 
+kan være en optimeringsbibliotek.
+
+113
+00:21:53,980 --> 00:22:08,711
+Hvis modellen din beskriver et optimaliseringsproblem, så kan vi 
+laste ned et optimeringsbibliotek som da har en ferdiglagd løser for å
+
+114
+00:22:08,791 --> 00:22:22,103
+løse problemet. Det skal vi også gjennomføre i vårt prosjekt, som vi da 
+skal gjennomføre etter hvert. Så dette blir kjempeviktig, og det er
+
+115
+00:22:22,163 --> 00:22:36,995
+sånn vi skal løse modellen. For en AI klarer ikke å løse modellen. Det er 
+altfor avansert. Det AI-en skal gjøre, er at den skal generere koden som
+
+116
+00:22:37,055 --> 00:22:46,477
+løser modellen. Det er viktig. Da leverer AI koden ... Lager koden ...
+
+117
+00:22:51,080 --> 00:22:52,541
+som løser modellen.
+
+118
+00:22:57,304 --> 00:23:08,415
+Ja. AI lager modellen også, da. Bare så det er sagt. Sammen med dere, 
+selvfølgelig. Det å lage en modell kan være vanskelig, det også, men
+
+119
+00:23:08,496 --> 00:23:13,460
+ofte er det å løse en modell enda vanskeligere. Så da trenger vi et rand av 
+programmering.
+
+120
+00:23:16,100 --> 00:23:26,808
+Neste verktøy er github, som vi har vært inne på allerede. Når vi har kode 
+og sånne ting, så må vi ha en form for versjonskontroll, slik at vi kan
+
+121
+00:23:26,888 --> 00:23:40,159
+spole fram og tilbake i tid. Og hvis nå en AE som f.eks. skal generere 
+ting, bare genererer svada, så må vi ha en mulighet til å gå tilbake igjen
+
+122
+00:23:40,319 --> 00:23:48,560
+til det punktet vi var der alt var vel og bra. Så kan vi begynne på nytt 
+igjen. Det er svært viktig under arbeid med KI.
+
+123
+00:24:06,691 --> 00:24:14,756
+Når vi jobber med programmeringskode og versjonering og sånne ting. 
+Men det er enda viktigere når du jobber med Aida.
+
+124
+00:24:19,760 --> 00:24:34,209
+Og så har vi da disse KI-agentene, som er jo da i stedet for ei vanlig 
+nettside på ChetGPT, f.eks. Eller Gemini på nettet eller Claude på
+
+125
+00:24:34,249 --> 00:24:44,662
+nettet osv. Nå finnes det et nytt programvare som kalles for en 
+KI-agent, som lever på maskinen din, og som i prinsippet kan gjøre hva
+
+126
+00:24:44,722 --> 00:24:56,485
+som helst med maskinen din. Så lenge du tillater det. Det er altså et helt 
+nytt ball game. De som har hatt IBE 160, kjenner godt til denne her. I IBE
+
+127
+00:24:56,545 --> 00:24:58,586
+160 så brukte vi Gemini,
+
+128
+00:25:02,086 --> 00:25:03,167
+for den hadde en free tear.
+
+129
+00:25:06,327 --> 00:25:20,975
+Denne gangen så kommer vi til å bruke ... Ja, nå kommer vi til å bruke 
+Claude Code.
+
+130
+00:25:22,215 --> 00:25:23,176
+Men, ja ...
+
+131
+00:25:28,139 --> 00:25:32,661
+Jeg har ikke helt bestemt meg ennå. Kanskje vi også ... Eller kanskje vi 
+skal bruke codex, da.
+
+132
+00:25:39,706 --> 00:25:54,049
+Så én av de skal vi bruke. Og dette her er litt sånn som at vet du å bruke én av 
+dem, så vet du i prinsippet å bruke alle. Disse KI-agentene kan gjøre de
+
+133
+00:25:54,089 --> 00:26:05,472
+samme tingene, med nyanser og nyanseforskjeller. Claude code er 
+ansett som den mest avanserte av de tre der. Altså den som ligger fremst i
+
+134
+00:26:05,532 --> 00:26:16,741
+tid, altså er på en måte på fronten. Men code har også noen drawbacks, 
+f.eks. at den bruker mye tid og har et lavt kontekstvindu, som det heter.
+
+135
+00:26:17,101 --> 00:26:30,225
+Som betyr at du ofte må flushe memorien gang på gang og begynne litt på 
+nytt. Det er litt tyngre å jobbe med. Gemini CLI og Codex har litt mindre
+
+136
+00:26:30,245 --> 00:26:43,615
+funksjonalitet, men har ofte større kontekstvindu. Og Codex er 
+utvilsomt den raskeste og sterkeste akkurat nå. Men Cloud Code har den
+
+137
+00:26:43,695 --> 00:26:55,937
+største funksjonaliteten og er det tryggeste valget. Men den tar litt 
+lengre tid. Så dere kan velge sjøl hvis dere vil. Dere kan velge.
+
+138
+00:27:00,120 --> 00:27:03,383
+Han, i prinsippet, bruker Viken. I prinsipp,
+
+139
+00:27:06,726 --> 00:27:07,287
+velge selv.
+
+140
+00:27:11,210 --> 00:27:14,954
+Men vi kommer til ...
+
+141
+00:27:19,498 --> 00:27:22,200
+Å gi tilgang.
+
+142
+00:27:25,900 --> 00:27:31,144
+En
+
+143
+00:27:31,204 --> 00:27:37,928
+av Claude code
+
+144
+00:27:38,028 --> 00:27:43,872
+eller codex. Ikke Geminin.
+
+145
+00:27:44,052 --> 00:27:57,197
+Én av dem skal vi gi tilgang til, slik at folk kan bruke disse. Da er det jo 
+litt sånn at vi kan komme på kollisjoner og sånne ting. Vi kan få det som
+
+146
+00:27:57,237 --> 00:28:03,879
+kalles for rate limiting. Vi kan oppleve rate limiting.
+
+147
+00:28:15,341 --> 00:28:17,382
+Det betyr i prinsippet at ...
+
+148
+00:28:24,710 --> 00:28:33,514
+Hvis for mange bruker en ... Altså, hvilket format vil dette være? Jo, 
+dere får en gmail-bruker
+
+149
+00:28:39,677 --> 00:28:40,217
+med passord.
+
+150
+00:28:44,459 --> 00:28:59,791
+Og den vil være felles for alle. Så alle kan bruke den. Alle gruppene kan 
+bruke den. Når jeg sier én, så mener jeg egentlig to. Jeg kommer til å be
+
+151
+00:28:59,831 --> 00:29:11,558
+Høgskolen i Molde betale to stykk, da. To gmail-brukere med passord. Og 
+dem vil vi ha felles. Og dem legger vi da ut til dere i Kanvas. Kommer til
+
+152
+00:29:11,598 --> 00:29:25,314
+Kanvas så fort de har fått godkjent det, selvfølgelig. Så legger vi dem 
+ut, disse brukerne, på Kanvas. Og da har vi to brukere fordelt på alle. Og
+
+153
+00:29:25,434 --> 00:29:36,025
+selvfølgelig da kan det bli litt ... Hvis alle jobber samtidig, hvis ti 
+grupper jobber på samme tidspunktet, så kan vi fort nå rate limiting,
+
+154
+00:29:36,045 --> 00:29:49,883
+da. Så det er liksom prisen vi må betale her. Men samtidig da så slipper 
+dere å betale, da. Så rate limiting kan oppstå, og det må vi nesten bare
+
+155
+00:29:49,923 --> 00:30:00,149
+leve med. Dette er den beste løsningen jeg kan komme med, i forhold til 
+det at disse A1-ene koster jo selvfølgelig penger. Hvis det er noen
+
+156
+00:30:00,169 --> 00:30:10,939
+grupper som kanskje allerede har en konto, kan de bruke sin egen så de 
+slipper å belaste tokens på det? Ja, ja.
+
+157
+00:30:12,040 --> 00:30:21,105
+Kan selvfølgelig bruke egen konto, men til denne typen bruk anbefaler 
+jeg ... La oss se på Kodex
+
+158
+00:30:23,286 --> 00:30:35,492
+Plans f.eks. La oss se på hva det koster, da. Sånn foran følelser ... Folk 
+som allerede har det fra før av, f.eks.? Jo, jo. Ikke Plan Mode, men ...
+
+159
+00:30:35,932 --> 00:30:39,092
+Hva heter det? Ja
+
+160
+00:30:42,237 --> 00:30:58,494
+da, jeg vil bare vise kodeks-prising, f.eks. Dette er da kodeksen. Her 
+ser dere at pro-en, som er den man bør ha i et sånt situasjon, er ... Det
+
+161
+00:30:58,514 --> 00:31:06,260
+er veldig dyrt, så det er viktig at de som ikke ønsker å bruke, 
+selvfølgelig gjør det. Det forstår vi, og da har vi løsninga for dem. Det
+
+162
+00:31:06,340 --> 00:31:09,142
+vi gjør, er at vi kjøper to sånne.
+
+163
+00:31:11,504 --> 00:31:25,333
+Vi kjøper to Prom-brukere som vi kan fordele på alle i kurset. Og da ser du 
+at det er seks ganger higher usage limits på local and cloud tasks. Så den
+
+164
+00:31:25,353 --> 00:31:33,118
+er ganske ...Jeg har aldri nådd grensa når jeg står og jobber, og jeg kan 
+av og til jobbe ganske intenst. Men det er klart at hvis veldig mange
+
+165
+00:31:33,158 --> 00:31:42,484
+grupper jobber akkurat samtidig, så vil vi nå den limiten ganske 
+radikt. Sånn at man må på en måte fordele det litt utover, da. Så min tanke
+
+166
+00:31:42,504 --> 00:31:51,844
+er jo det er sånn at At det vil kanskje være sjeldent at mange grupper 
+jobber samtidig. Da vil alt være vel og bra. Og hvis det plutselig
+
+167
+00:31:51,904 --> 00:32:02,069
+stopper på én av dem, så kan dere bare switche til andre. Og da vil kanskje 
+det være den bare ledig. Så vi har en pool med to brukere.
+
+168
+00:32:05,331 --> 00:32:19,315
+Og hvis dere har en sånn som dette her f.eks., sjøl så kan det være godt nok 
+i dette tilfellet. Jeg tror at en sånn en privat, vil være bra nok for
+
+169
+00:32:19,335 --> 00:32:24,496
+dere. Dere får f.eks. de beste modellene, GPT 5.4,
+
+170
+00:32:27,437 --> 00:32:38,661
+og vil være ganske bra. Jeg tror ikke dere vil nå limit-grense, den 
+bruken som vi skal gjøre dem på. Så hvis dere vil, så kan dere kjøpe en sånn
+
+171
+00:32:38,721 --> 00:32:48,607
+en sjøl. Da slipper dere problemer. Og så registrerer dere med deres 
+e-mail og bruker bare den når dere skal autentifisere dere i kodeks.
+
+172
+00:32:49,407 --> 00:32:52,169
+Hvis vi skal se på Cloud Code, f.eks.
+
+173
+00:32:55,010 --> 00:32:55,671
+Subscription.
+
+174
+00:32:58,553 --> 00:33:13,557
+Så er de litt de samme, men de er jo da også ... Kjent for å være litt dyrere, 
+men ikke så veldig mye, egentlig. Her kan dere velge, da. Men velger dere
+
+175
+00:33:13,577 --> 00:33:25,785
+Cloud Code, så må dere jo ... Så her kan dere ha en maksplan fra 100, men 
+også opp til 200 dollar. 100 dollar er 1000 kroner i måneden. Ikke sant.
+
+176
+00:33:26,806 --> 00:33:42,151
+Den her her er litt det samme som den codex, bare tre dollar lavere. Men 
+poenget er at de er litt mer kostbare likevel, fordi cost per token er
+
+177
+00:33:42,551 --> 00:33:52,356
+høyere. Det betyr med andre ord at dere når limiten her lavere, da. Det 
+koster i prinsippet mer, da.
+
+178
+00:33:56,758 --> 00:34:15,406
+Så ... Så er det jo greit å vite. Dette er et valg dere kan ta, men vi skal 
+tilgjengeliggjøre to stykker som dere kan bruke i fellesskap. Det er
+
+179
+00:34:15,526 --> 00:34:20,512
+planen. Og det vil da bli lagt ut på innsiden av Khanas, selvfølgelig.
+
+180
+00:34:25,396 --> 00:34:40,645
+Så når vi grensa, og da stopper det opp. Og da kjøper vi ikke nye. Sånn at 
+det egentlig skal være greit nok. Så lenge folk bruker disse til det de
+
+181
+00:34:40,685 --> 00:34:52,652
+skal bruke dem til, nemlig å gjøre denne oppgava her, så vil vi alle nå 
+denne grensa, tror jeg, skikkelig. All right, det var den. Så kom i gang,
+
+182
+00:34:52,693 --> 00:35:04,565
+steg for steg. Da må man også installere node,
+
+183
+00:35:05,585 --> 00:35:16,969
+fordi UV er en node-applikasjon. Alle disse KI-agentene er også en 
+node-applikasjon, så jeg burde egentlig ha strevet pluss node, da.
+
+184
+00:35:23,868 --> 00:35:29,133
+Det er et programmiljø,
+
+185
+00:35:29,213 --> 00:35:37,121
+da, skal vi kalle det. Linken her er Studio 
+code.code.bushellstudio.com.
+
+186
+00:35:41,958 --> 00:35:52,845
+Så her er det egentlig bare å søke på nettet og installere i forhold til 
+den maskina dere har. Om dere har Linux, eller om dere har Mac, eller om
+
+187
+00:35:52,885 --> 00:36:03,172
+dere har Windows, så velger dere bare tilsvarende. En del av det faget 
+her er faktisk evne å kunne rigge seg til nå å bruke AI-en på en litt bedre
+
+188
+00:36:03,232 --> 00:36:13,880
+måte, på agentmåten, som er litt mer avansert, enn om jeg bare holder på å 
+sette frem og tilbake til AI. Det er sånn alle gjør, altså på barneskolen
+
+189
+00:36:13,900 --> 00:36:24,870
+og ungdomsskolen. Dette er another ball game. Og for å komme dit, så er 
+det en del installasjon. Og det er det som er en del av faget her òg, og rett
+
+190
+00:36:24,890 --> 00:36:25,751
+og slett det å få til.
+
+191
+00:36:30,524 --> 00:36:44,974
+Jeg kommer ikke til å bruke mye tid på å installere disse applikasjonene 
+nå i dag. Det har jeg gjort tidligere i et annet fag, IB 160. Vi har en
+
+192
+00:36:45,054 --> 00:36:54,381
+presentasjon i IB 160 som vi kunne ha lagt ut til våre studenter, som 
+viser igjen hvordan man installerer disse programmene.
+
+193
+00:36:57,457 --> 00:37:07,000
+Men viktigst er at man vet hvilke programmer man må skaffe seg, og så må 
+man sørge for installerte. Hvis man ikke får til å installere
+
+194
+00:37:07,060 --> 00:37:15,964
+programmene, så må dere ta kontakt med oss ved å tagge oss i 
+Teams-rommet, slik at vi får hjelp dere i så fall.
+
+195
+00:37:20,685 --> 00:37:41,543
+Opprette GitHub Reeple? Det har vi gjort, så det dere må gjøre ... Dere må 
+clone, som det heter, Repo til deres maskin. OK. Så det betyr at lasta ned
+
+196
+00:37:41,623 --> 00:37:51,371
+fra Github-internett og det europale på din PC, er det det klone betyr? 
+Ja. Og det skal jeg vise dere. Akkurat den biten skal jeg gjøre når jeg
+
+197
+00:37:51,411 --> 00:38:02,596
+skal finne dem. Vi skal da starte med et ganske sånn ... Det skal dere få 
+se.
+
+198
+00:38:02,636 --> 00:38:10,159
+Så antar vi at dere har klart å installere Koia-agenten og logge seg inn.
+
+199
+00:38:25,274 --> 00:38:26,115
+Enten
+
+200
+00:38:28,719 --> 00:38:30,001
+Brahim,
+
+201
+00:38:31,724 --> 00:38:34,448
+som er en fellesbruker, eller egenbruker.
+
+202
+00:38:38,194 --> 00:38:51,570
+Og hvis dere har egen bruker ... Så anbefaler jeg å bruke dem, for da vil 
+trykket bli enklere. Det er litt dugnad, folkens. Hvis de som har en
+
+203
+00:38:51,650 --> 00:39:02,437
+bruker, f.eks. en maksplan eller noe sånt, de vil jo da lette trykket for 
+de andre. Og vi samarbeider som en gruppe, da. Og jeg syns det er en god
+
+204
+00:39:02,477 --> 00:39:05,299
+ting, da. Så derfor så ...
+
+205
+00:39:09,847 --> 00:39:11,469
+Prioriter denne hvis mulig.
+
+206
+00:39:14,912 --> 00:39:16,273
+Hvis dere allerede har det.
+
+207
+00:39:20,076 --> 00:39:27,524
+Dette er ikke noe krav fra vår styre, for vi kan ikke kreve at dere skal 
+betale ting i denne kursen. Men hvis dere likevel har en bruker fra før
+
+208
+00:39:27,565 --> 00:39:38,251
+som dere har hatt der, så er det bare en stor fordel. Ja, det er akkurat det 
+vi prøver å si. At vi vil da tilgjengeliggjøre to brukere, men hvis dere
+
+209
+00:39:38,271 --> 00:39:47,037
+skal bruke dem, så kan dere bli offer for rate limiting, for å si det sånn. 
+Da kommer det bare en beskjed om at nå er grensen nådd, og du må vente et par
+
+210
+00:39:47,057 --> 00:39:48,118
+timer før du kan fortsette.
+
+211
+00:39:54,762 --> 00:40:05,365
+Så hvis dere har egen bruker uansett, som dere betaler på, så bruk gjerne 
+den heller. Og da vil dere lette trykket for de andre også, så er det litt
+
+212
+00:40:05,385 --> 00:40:17,668
+dugnad, da. Det er jo ikke så dumt, det, da. Og disse brukerne som vi 
+snakker om nå, de kommer så fort vi har fått godkjent det fra avdelinga
+
+213
+00:40:17,708 --> 00:40:21,289
+vår, slik at vi kan skape de inn da.
+
+214
+00:40:24,682 --> 00:40:28,664
+Det var oppsett av utviklingsmiljøet.
+
+215
+00:40:36,628 --> 00:40:46,634
+Så kommer vi da til det vi ... Det er på en måte det aller første vi skal 
+gjøre. Vi skal generere rapport og innhold. Så rapporten ... Og dette
+
+216
+00:40:46,694 --> 00:40:55,490
+her er superviktig, folkens. Dette er agent. Vi
+
+217
+00:40:55,530 --> 00:41:02,013
+skal bruke et spesifikt format, nemlig markdown.
+
+218
+00:41:02,093 --> 00:41:11,917
+Alle som har vært med i IB160, kjenner til dette formatet. Det er et 
+tekstformat.
+
+219
+00:41:16,919 --> 00:41:27,227
+Vi skal ikke jobbe i Word og sånne ting. Grunnen til at vi bruker 
+markdown, er at det er bedre for A1 å jobbe i tekst-markdown-miljø, enn
+
+220
+00:41:27,267 --> 00:41:40,978
+ved å jobbe i tunge format som Word og andre ting. Så det er i prinsippet 
+ganske ... Det er en ganske enkel tanke egentlig, men det er ikke sikkert
+
+221
+00:41:41,038 --> 00:41:52,070
+alle tenker på det på den måten. Så la meg bare vise hvorfor det er sånn. 
+Hvis vi nå f.eks. går ... Nå kan vi se om vi ser på download, og så bare åpner
+
+222
+00:41:53,471 --> 00:42:04,358
+jeg ... Ikke faktura, da, men intrum. Fi og fi. KI-strategi, kan du åpne 
+den der, da. Dette er jo en PDF-file, sant? Og så skriver vi da 'open
+
+223
+00:42:04,398 --> 00:42:20,249
+with'. Og så sier de at i stedet for å åpne denne med PDF-akrobat av 
+reader, så la oss skrive at la oss nå åpne med Notepad. Notepad er et
+
+224
+00:42:20,309 --> 00:42:23,752
+tekstfilprogram
+
+225
+00:42:23,892 --> 00:42:30,436
+der du kan skrive tekst. Åpne den just once.
+
+226
+00:42:30,677 --> 00:42:32,098
+Her ser dere det Ain ser.
+
+227
+00:42:36,321 --> 00:42:50,186
+Så det å bruke en PDF, da leser Ain denne greia her. Nå tror jo 
+tekstformatet at dette er i sånn unikode, så det blir bare fjas og svada
+
+228
+00:42:50,226 --> 00:43:01,673
+her. Så ser dere at dette er ikke spesielt vennlig for en AE å lese. Så når 
+de leser denne PDF-en ... Vi vet jo at vi kan laste opp PDF-er, og så
+
+229
+00:43:01,733 --> 00:43:17,697
+skjønner A1 det. Men det er et steg imellom der, for A1 må jo da oversette. 
+Det tar tid, men det er vanskelig for A1 å generere PDF. De klarer å lese
+
+230
+00:43:17,717 --> 00:43:22,218
+PDF, men å generere PDF er vanskelig. Noen som vet hvordan de genererer 
+PDF?
+
+231
+00:43:36,398 --> 00:43:44,541
+Hvis dere er på ChatGPTs nettsider, så sier dere ... Ja, lag en 
+oppsummering av meg og lager en PDF. Det kan dere gjøre, og så får dere en
+
+232
+00:43:44,561 --> 00:43:47,562
+PDF. Vet dere hvordan en lagrer en PDF-en?
+
+233
+00:43:49,843 --> 00:44:02,115
+Den lager et lite Phyton script som genererer PDF-en. Så AI-en 
+genererer ikke en PDF, den genererer koden som kan generere PDF-en. Så
+
+234
+00:44:02,155 --> 00:44:17,082
+sånn er det det fungerer. Så det er litt tungvint. Og det samme er da for 
+Word. Word er også et eget format, uleselig for AI by default, og AI-en må
+
+235
+00:44:17,122 --> 00:44:27,603
+da oversette, og så må man bruke programmeringskode for å endre disse 
+filene. Så da vet dere det. Så det er grunnen til det. Vi skal bruke
+
+236
+00:44:27,663 --> 00:44:41,326
+Markdown. Markdown er et tekstformat. Og det leses av en veldig enkelt. 
+Det er et vanlig unikodetekst, da. Så det er akkurat det de er gode på, da.
+
+237
+00:44:41,346 --> 00:44:50,748
+Den er god på å lese Markdown, og den er god på å generere Markdown. OK, da 
+tar vi pause der. Ja. Da møtes vi kvart over to.
+

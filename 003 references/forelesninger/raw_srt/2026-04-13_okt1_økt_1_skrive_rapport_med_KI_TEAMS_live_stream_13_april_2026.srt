@@ -1,0 +1,1133 @@
+1
+00:00:02,984 --> 00:00:06,985
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Velkommen 
+til dagens forelesning. Dette er en forelesning som skulle vært
+
+2
+00:00:07,025 --> 00:00:15,388
+forrige uke. Men Bård-Ingvild ble syk, så vi tar det igjen i dag. 
+Agentene er å prøve å bli ferdig med den viktige fasen som dreier seg om
+
+3
+00:00:15,448 --> 00:00:27,032
+selve rapporten. Så dette er jo da selvfølgelig rosinen i pølsa, det 
+viktigste. Så vi satser iallfall på å fullføre denne fasen i dag.
+
+4
+00:00:27,132 --> 00:00:41,616
+Stemmer ikke det, Bård? Det stemmer. Så vi skal ... La oss bare ta et blikk 
+tilbake igjen først, og se litt på hva vi har gjort, og hva som gjenstår.
+
+5
+00:00:41,676 --> 00:00:53,163
+Vi jobber med rapporten, og her er innholdsfortegnelsen. Dette er jo da 
+i Markdown, som dere sikkert kjenner. Vi skal ikke levere i Markdown,
+
+6
+00:00:53,223 --> 00:01:03,149
+men vi skal jobbe i Markdown. Dette har vi jo snakka om mange ganger. For 
+Markdown er et ... Tekstformat som gjør at A1 kan lese disse filene
+
+7
+00:01:03,169 --> 00:01:17,284
+veldig enkelt. Så det anbefales at man alltid jobber i markdown, da. Og 
+så skal vi mot slutten av kurset oversette dette her til en PDF eller en
+
+8
+00:01:17,324 --> 00:01:17,765
+Word-fil.
+
+9
+00:01:22,010 --> 00:01:32,377
+Så langt så har vi gjort innledning i hvert fall litt. Det er en foreløpig 
+innledning. En problemstilling. Delproblemer. Avgrensing.
+
+10
+00:01:32,457 --> 00:01:48,288
+Antagelser. Vi har hoppa over litteratur og teori. Vi har beskrevet 
+casebeskrivelsen ganske bra, egentlig. Og vi har snakka om metode og
+
+11
+00:01:48,328 --> 00:02:04,176
+data. I tillegg har vi brukt ganske mye tid på modell. Dette var en 
+generell Sarima-modell, hvor vi har gjort analyse. Og vi har vel gjort
+
+12
+00:02:04,236 --> 00:02:16,584
+kapittel åtte resultat også. Hva er det resultatet av analysmer for 
+noe? Det som gjenstår i selve innholdet, som er den vesentlige delen,
+
+13
+00:02:16,604 --> 00:02:22,225
+det er en diskusjon. Og en konklusjon.
+
+14
+00:02:22,825 --> 00:02:27,389
+Bibliografien er sterkt knytta opp mot litteraturkapitlet.
+
+15
+00:02:28,269 --> 00:02:36,596
+Og det skal vi ikke ta i dag. Det kommer litt seinere. Det vi skal prøve å få 
+til i dag, det er diskusjonen.
+
+16
+00:02:39,238 --> 00:02:51,929
+Og så er det teorien jeg tenker i, har jeg lyst til å prøve å få tatt i dag. Så 
+vi hadde en teori her også. Som kan være greit å få på plass. Så venter vi
+
+17
+00:02:51,969 --> 00:03:02,992
+litt med litteraturen. Og bibliografien som er kobla til 
+litteraturen.
+
+18
+00:03:04,013 --> 00:03:24,577
+Så ... Jeg har vel spunnet opp Claude Codia. Her ser dere den. Allerede 
+oppe. Vi har jo fått godkjent brukerne, PK? Ja, det stemmer. Det betyr at
+
+19
+00:03:24,617 --> 00:03:36,601
+vi har allerede lagd brukerne. Det er bare en liten formalitet igjen. Så 
+skal vi legge ut brukerne til dere. Da får dere lov til å logge dere inn og
+
+20
+00:03:36,661 --> 00:03:50,740
+bruke clode code videre i arbeidet deres frem til 31.01. Som er 
+innleveringsfristen. Eller var det 1. juni? Må nesten sjekke litt. Jeg
+
+21
+00:03:50,820 --> 00:04:01,924
+lurer på om det er 1. mai. Vi må prøve å komme ut med dem slik at de 
+forbinder. For det er bare 1,5 måneder igjen. Slik at ... Det er 1. juni,
+
+22
+00:04:02,844 --> 00:04:12,632
+er det. Men det er bare 1,5 måneder igjen. Vi skal prøve å legge ut for 
+brukerne så fort som mulig. Ja, vi skal ha et møte etterpå. Og da skal vi få
+
+23
+00:04:12,672 --> 00:04:20,579
+formalisert disse brukerne. Og få lagt dem ut i løpet av kvelden, 
+forhåpentligvis. Vi skal prøve å være litt tilgjengelige, da. Hvis
+
+24
+00:04:20,619 --> 00:04:34,989
+dere da skal logge dere inn og koble opp Cloud Code og embeddet der inn i VS 
+Code. Hvis folk lurer på ting der, så kan vi da spørre på Teams og tagge
+
+25
+00:04:35,049 --> 00:04:43,891
+oss. Så skal vi prøve å svare der så godt vi kan, slik at dere kommer i gang 
+der nå. Slik at ikke det tar lang tid. Kanskje vi kunne lagd en liten
+
+26
+00:04:43,972 --> 00:04:54,014
+instruksvideo der vi hadde logga inn med en av brukerne? Ja, det kan vi 
+kanskje gjøre. Det hadde kanskje spart oss for mye krefter, kanskje.
+
+27
+00:04:54,534 --> 00:04:55,434
+Bare å tenke høyt, da.
+
+28
+00:05:00,608 --> 00:05:07,190
+La oss ...
+
+29
+00:05:10,231 --> 00:05:11,071
+La oss
+
+30
+00:05:13,972 --> 00:05:29,998
+starte. I dag har jeg tenkt å prøve å vise en litt interessant ting til 
+dere. Dette er mer en AI-egenskap, dere kan prøve det sjøl hvis dere vil
+
+31
+00:05:30,038 --> 00:05:33,357
+eller ikke. Men
+
+32
+00:05:34,057 --> 00:05:47,687
+legg merke til nå at diskusjon handler jo om alt fra og med kapittel seks 
+og utover. Seks, sju, åtte, altså modell, analyse, resultat.
+
+33
+00:05:50,489 --> 00:06:09,818
+Og så skal vi diskutere resultatene våre. Og den biten er jo ... For det er 
+her vi kommer med våre tolkninger av hva analysen og modellen gir oss. Og
+
+34
+00:06:09,859 --> 00:06:25,278
+den er viktig. Men det har veldig lite med teori å gjøre, egentlig. Teori 
+er egentlig et sidekapittel som som regel forventes kjent av leser. Men
+
+35
+00:06:25,318 --> 00:06:34,183
+siden dette er en bacheloroppgave, så er det vanlig å ha med et 
+teorikapittel. Hvor
+
+36
+00:06:34,223 --> 00:06:50,456
+man beskriver, og prøver å lære leseren om hva prognostisering er. 
+Hvordan man måler det osv. Hvilke pilarer det står på. Så hvis dere
+
+37
+00:06:50,496 --> 00:07:01,179
+tenker gjennom, så kan vi egentlig si at kapittel tre her er uavhengig av 
+diskusjon. Vil du si at ... Hva tror du om det jeg tenkte på? Er de to
+
+38
+00:07:01,219 --> 00:07:12,282
+uavhengige? Kan vi skrive disse to her i parallell? Diskusjon òg? 
+Teori. Ja da, jeg er enig i det du sier. Teorien har egentlig ikke noe med
+
+39
+00:07:12,322 --> 00:07:22,487
+diskusjonen å gjøre, og det brukes egentlig ikke å ha med i ... 
+Publikasjoner og artikler, hvis det ikke er en ny teori som er dårlig
+
+40
+00:07:22,527 --> 00:07:32,209
+kjent. Vi bruker å henvise til teori, vi bruker å referere til teorien. 
+Men vi bruker ikke å legge frem teori, da. For de fleste av de teoriene er
+
+41
+00:07:32,229 --> 00:07:41,651
+jo egentlig velkjent. Sarima er jo velkjent, så det er ikke vits å 
+repetere det i en forskningsartikkel. For en forskningsartikkel er på
+
+42
+00:07:41,671 --> 00:07:54,914
+ingen måte en lærebok. Men Gunnar Borringe sier at dette er en 
+bacheloroppgave, så har vi likevel med, for det er sunt og godt å ta det
+
+43
+00:07:54,954 --> 00:08:02,799
+med. Altså relevant teori. Relevant teori som er relevant i forhold til 
+det vi holder på å skrive på. Så jeg er helt enig i at diskusjonen kan
+
+44
+00:08:02,819 --> 00:08:16,951
+skrives fullstendig fra bobla fra teori. Ja. Og da gir det oss 
+muligheten til å være effektive. La oss si at vi har hatt to medlemmer i
+
+45
+00:08:17,011 --> 00:08:29,119
+gruppa. Så kan det ene medlemmet skrive teorien, og det andre medlemmet 
+kan skrive diskusjon. Så det vi skal prøve å vise dere i dag, det er en
+
+46
+00:08:29,179 --> 00:08:44,409
+teknikk med cloud code hvor vi kan jobbe på samme kodebasen samtidig. 
+Hvor vi da spinner opp to cloud code ... Som vil jobbe på to forskjellige
+
+47
+00:08:44,449 --> 00:08:56,333
+plasser i rapporten. Problemet er at de vil aksessere samme filer. Så la 
+oss vise hvordan dette skal fungere før vi gjør det. Da må jeg hive over
+
+48
+00:08:56,813 --> 00:08:57,193
+til ...
+
+49
+00:09:01,034 --> 00:09:02,035
+en annen
+
+50
+00:09:04,275 --> 00:09:11,224
+skjerm, bare for å vise litt. Stop sharing. Ja,
+
+51
+00:09:14,985 --> 00:09:30,012
+da ser vi. Dette er ikke noe dere er nødt til å gjøre. Men etter hvert som 
+dere blir flinkere til å bruke AI, vi har AI som en del av læringsmåla her
+
+52
+00:09:30,273 --> 00:09:37,496
+... Etter hvert som dere blir flinkere til å bruke AI, vil dere legge 
+merke til at mesteparten av tida med AI, vet dere hva det er?
+
+53
+00:09:40,801 --> 00:09:50,383
+Dere venter på at A1 skal bli ferdig, når han gjør det han skal gjøre. I 
+mellomtida står vi og prater og jobber. Og så, når A1 er ferdig, så
+
+54
+00:09:50,443 --> 00:09:59,906
+fortsetter vi. Og det kan, etter hvert som dere blir flinkere, så kan det 
+oppleves som waste. Altså du rett og slett kaster bort tida di. Dere
+
+55
+00:09:59,926 --> 00:10:14,143
+husker en gang tidligere at jeg hadde oppe to Claude Code-sesjoner, 
+ikke sant? Men det er en utfordring med å ha to code-sesjoner jobbende
+
+56
+00:10:14,183 --> 00:10:17,366
+med samme kodebase. La oss se hva som skjer.
+
+57
+00:10:23,373 --> 00:10:26,376
+Dette vil jeg da kalle for parallelt arbeid.
+
+58
+00:10:40,218 --> 00:10:44,582
+Det
+
+59
+00:10:44,622 --> 00:10:49,827
+kan like godt være Codex,
+
+60
+00:10:49,907 --> 00:11:00,557
+men Cloud code har nok bedre funksjonalitet for dette. Hvis dere tenker 
+at dere har kodebase her ...
+
+61
+00:11:09,580 --> 00:11:10,640
+Så har dere mange filer.
+
+62
+00:11:13,382 --> 00:11:19,784
+En av de filene er rapport.md.
+
+63
+00:11:20,144 --> 00:11:32,869
+Det er den viktige fila, den vi holder på å forbedre hele tida. 
+Rapport.md-fila. Bare ta med jakka, for det ble plutselig ordentlig.
+
+64
+00:11:32,909 --> 00:11:44,548
+Denne fila er den jeg nettopp viste dere, med alle kapitlene og sånne 
+ting. Kodebase, tenker du på lavdekk-koden som skriver rapporten,
+
+65
+00:11:44,609 --> 00:11:53,315
+eller tenker du på sjølve rapporten? Jeg tenker på alle filene i ... 
+Absolutt alle filene i GitHeadRepo.
+
+66
+00:11:55,877 --> 00:11:56,217
+OK.
+
+67
+00:11:58,899 --> 00:12:08,265
+Men jeg tenker spesielt på én fil, rapport-md, ikke sant? Ja. Og hvis jeg 
+nå spinner opp to Claude Code-sesjoner ...
+
+68
+00:12:11,933 --> 00:12:14,234
+Så
+
+69
+00:12:17,335 --> 00:12:30,981
+jobber vi med de to versjonene samtidig. Så kan denne kloden gjøre en 
+endring her. Og denne kloden kan gjøre en endring der. Og de kan
+
+70
+00:12:31,061 --> 00:12:44,304
+overlappe. Da får du endringskollisjon, hvilket er veldig uheldig når 
+du jobber i en og samme kodebasen. Det betyr med andre ord at de to
+
+71
+00:12:44,324 --> 00:12:47,686
+clodestasjonene
+
+72
+00:12:47,706 --> 00:13:00,434
+vil begynne å konkurrere med filer. Den ene cloden vil endre litt, og den 
+andre litt, og så blir det bare jibbedi-dish. Eller hva det heter. Det
+
+73
+00:13:00,474 --> 00:13:07,138
+kan bli skikkelig rot, faktisk. For de to clodestasjonene kjenner ikke 
+til hverandre, så de prøver å endre filene.
+
+74
+00:13:11,131 --> 00:13:22,579
+Og de prøver også å aksessere filene samtidig. Det er bare ett program 
+som kan skrive på ei fil til enhver tid. Så her blir det sånn konkurranse
+
+75
+00:13:22,839 --> 00:13:27,883
+mellom ... Det blir da en konkurranse mellom de to der.
+
+76
+00:13:33,627 --> 00:13:51,612
+Så det er da forbundet med problematikk, egentlig. Dette er problemet.
+
+77
+00:13:51,652 --> 00:13:52,732
+Løsninga er følgende ...
+
+78
+00:14:00,077 --> 00:14:08,522
+Dette er et problem så lenge du jobber på samme maskin. Så er det to 
+mennesker som sitter på hver sin egen maskin og jobber, så er det ikke noe
+
+79
+00:14:08,562 --> 00:14:17,979
+problem. For da har du to forskjellige rapport-MD-filer. Én på den ene 
+personens datamaskin, og én på den andre personens datamaskin. Da
+
+80
+00:14:18,039 --> 00:14:26,702
+fungerer gitt sånn som det skal gjøre, ved at du kan merge og slå sammen. 
+Det blir et problem hvis det er konflikt i merginga, da. Ja, men da fanger
+
+81
+00:14:26,722 --> 00:14:36,961
+du opp konflikten, og kan løse konflikten. Det caset som vi viste dere 
+her oppe nå, det skjer på én og samme maskin, hvor to program prøver å
+
+82
+00:14:37,061 --> 00:14:42,703
+aksessere samme filer på samme område. Da kan ikke Git hjelpe oss.
+
+83
+00:14:46,883 --> 00:14:55,065
+Men det skal likevel være Git som er løsninga for det. Men da må vi gjøre 
+noen spesielle ting. Så det starter egentlig i kodebasen.
+
+84
+00:14:59,013 --> 00:15:00,034
+Vi har kodebasen her
+
+85
+00:15:05,618 --> 00:15:17,586
+med alle filene våre i folderen vår. Det som vi kan gjøre, er at vi kan 
+opprette et såkalt ... Husk at da er vi jo i en branch, f.eks. i Maine.
+
+86
+00:15:22,790 --> 00:15:34,583
+Og det vi kan gjøre, er at vi kan opprette et såkalt ... Det
+
+87
+00:15:34,623 --> 00:15:35,843
+er bare en kopi
+
+88
+00:15:38,504 --> 00:15:44,425
+av hele kodebasen.
+
+89
+00:15:44,465 --> 00:15:55,367
+Du har rett og slett en annen folder som er akkurat lik den folderen du har 
+i utgangspunktet. Du vil automatisk gå en annen ...
+
+90
+00:15:58,244 --> 00:16:01,205
+Da vil
+
+91
+00:16:05,826 --> 00:16:10,888
+du ha i prinsippet ... La oss si at vi har rapport-MD der.
+
+92
+00:16:16,189 --> 00:16:19,650
+Og så har vi da én versjon rapport-MD her.
+
+93
+00:16:26,392 --> 00:16:29,754
+Ja. Og så kan vi da lage et eget worktree for den.
+
+94
+00:16:36,517 --> 00:16:41,240
+Vi kan lage to worktrees, altså to kopier av den samme kodebassen.
+
+95
+00:16:46,483 --> 00:16:57,823
+Og vi har da to kopier på maskinen vår med rapport-MD. Og da kan vi da 
+spinne opp en cloud code her. Vi ser jo hvordan det går, da.
+
+96
+00:17:04,667 --> 00:17:13,193
+Som vi da endrer denne fila. Pluss kanskje mange, potensielt mange 
+andre filer også, da. Vi har en del planleggingsfiler og sånne ting,
+
+97
+00:17:13,213 --> 00:17:18,537
+sant. Nå bare tar jeg eksempelet for rapport. Endre den.
+
+98
+00:17:21,599 --> 00:17:32,003
+Og når vi er ferdig med ... Når begge sesjonene er ferdige, så kan vi merge 
+disse tilbake igjen til Maine. Da
+
+99
+00:17:38,207 --> 00:17:48,313
+har vi kodebasen igjen. Slår sammen work-trea. Tilbake igjen til 
+kodebase med hvor rapport-MD
+
+100
+00:17:53,017 --> 00:17:59,986
+merges, da. Etter
+
+101
+00:18:03,048 --> 00:18:10,773
+at Claude
+
+102
+00:18:10,813 --> 00:18:23,142
+Code er ferdig. Og de skaperne av Claude Code har strømlinjeforma dette 
+for Claude, slik at det skal være enkelt å kunne gjøre det på denne måten.
+
+103
+00:18:23,993 --> 00:18:35,783
+Det tenkte jeg at vi skulle prøve på nå, i de to casene hvor vi vet at vi har 
+ganske stor uavhengighet. Det vil likevel være områder som man vil være
+
+104
+00:18:35,823 --> 00:18:46,171
+kolliderende her. F.eks. i prosjektfilene og sånne ting. Men vi vet at 
+områdene er relativt uavhengige. Teori er ikke så avhengig av
+
+105
+00:18:47,232 --> 00:18:58,619
+diskusjon. Så da er spørsmålet hvordan lager man disse worktreene her? 
+Og hvordan jobber vi parallelt med de to. Og hvor havner kodebasen hen?
+
+106
+00:18:59,299 --> 00:19:06,805
+Og hvordan merger vi dem tilbake igjen? Som sagt, det er ganske enkelt, 
+og det var derfor jeg tenkte jeg skulle vise det. Hadde det vært
+
+107
+00:19:06,825 --> 00:19:18,175
+komplisert, hadde jeg hoppa over det. Men det skal vise seg å være 
+egentlig ganske enkelt. Så la oss gå tilbake igjen til kodebasen vår, og
+
+108
+00:19:18,215 --> 00:19:31,390
+så skal vi prøve oss fram. Først vil jeg bare vise hvordan ... Her kan jeg 
+legge ut en link til dere, forresten. Hvis dere glemmer hva jeg skriver,
+
+109
+00:19:31,450 --> 00:19:33,251
+så står det på den linken
+
+110
+00:19:37,275 --> 00:19:38,075
+her. Her står det ...
+
+111
+00:19:41,979 --> 00:19:51,218
+Og måten du gjør det på, er måten du starter Claude på. Vanligvis skriver 
+jo Claude, og så starter Claude. Men nå må du da skrive 'Claude' med en
+
+112
+00:19:51,258 --> 00:20:02,560
+dash-dash, 'worktree', som betyr at du har lyst til å starte 
+Cloude-kode i et eget worktree. Og så kan du da gi navnet på hva du skal
+
+113
+00:20:02,580 --> 00:20:10,622
+gjøre. Så her kan vi f.eks. skrive 'worktree', og så skriver vi 
+'discussion'. Og så lager vi en til, og så skriver vi 'worktree', og så
+
+114
+00:20:10,682 --> 00:20:25,351
+skriver vi f.eks. 'theory'. Ikke sant? Så kan vi jobbe parallelt med de 
+to. Og da er vi 100 % sikre på at vi ikke får problemer mellom stasjonene.
+
+115
+00:20:26,311 --> 00:20:40,075
+For de jobber faktisk på to forskjellige plasser på maskina di. Hvis du 
+hopper over navnet her på branchen som du vil lage, så vil du få
+
+116
+00:20:40,155 --> 00:20:52,428
+autogenerert. Da blir det noe sånn som Bright Running Fox, f.eks. Så jeg 
+liker egentlig å gi et vesentlig navn, slik at jeg veit hvem av dem som er
+
+117
+00:20:52,448 --> 00:20:53,948
+hva. Så det skal vi se på.
+
+118
+00:21:15,410 --> 00:21:22,332
+Her er det ganske viktig. Work-tree clean-up, altså hva skjer etter at 
+du er ferdig. Nei, det er visst helt vanlig. Det skjer ingenting,
+
+119
+00:21:22,352 --> 00:21:24,792
+selvfølgelig. Men hvis du har gjort endringa.
+
+120
+00:21:52,045 --> 00:22:07,069
+Når vi er ferdige, så forteller vi bare Claude når vi er ferdige, og at vi 
+ønsker å merge disse worktriene tilbake igjen
+
+121
+00:22:08,249 --> 00:22:14,331
+til ... Til Maine, da. La oss prøve, så ser vi hvor vi havner.
+
+122
+00:22:18,172 --> 00:22:24,931
+Så det vi trengte, var dash, dash, worktree. Da går vi der, og så går vi 
+tilbake til den.
+
+123
+00:22:27,872 --> 00:22:37,935
+Så her er vi. Men vi har ingen work trees nå, vi har bare én branch. Og den 
+branchen, det er Maine. Det ser vi her i min statuslinje.
+
+124
+00:22:50,787 --> 00:23:06,156
+Jeg ser ikke musa di? Her. Jeg ser ingenting. Jeg ser skjermen din, men 
+jeg ser ingen mus. Der ser jeg den. Der. Jeg ser fortsatt ingenting. Der,
+
+125
+00:23:06,176 --> 00:23:09,378
+nå ser jeg hvor du er. Hvor står det mer enn han, da? Her, under der, i 
+lilla.
+
+126
+00:23:16,910 --> 00:23:27,536
+Der står det, ja. OK. Der ser du det. Det kalles en statuslinje i Cloud 
+Code, og du kan tilpasse den sånn som du vil. Det skal jeg ikke gå gjennom
+
+127
+00:23:27,556 --> 00:23:36,161
+her nå, men dere kan slå det opp hvis dere lurer på det. Du har det på 
+terminaler, mens jeg har det på det som er innebygd, der det er mer sånn
+
+128
+00:23:36,242 --> 00:23:46,319
+enricha. Environmentet som du har, er litt annerledes enn det jeg har. 
+Det kan være forskjellig fra person til person. Blinge har
+
+129
+00:23:46,359 --> 00:23:57,463
+terminalenvironmentet til Claude. Jeg er ikke sikker på om man kan 
+kjøre Worktrees fra til den som du snakker om, PK. Mest sannsynlig så kan
+
+130
+00:23:57,503 --> 00:24:10,152
+man det. Men jeg er ikke sikker. Det jeg må gjøre, er at jeg må gå ut, jeg må 
+slutte den her. For jeg må starte den. Jeg må starte Claude. Jeg bruker
+
+131
+00:24:10,193 --> 00:24:18,834
+også alltid 'dangerously skip permissions', så jeg har med den. Men det 
+jeg skal gjøre nå, er å skrive 'dash dash', altså 'work tree'. Det betyr
+
+132
+00:24:18,854 --> 00:24:29,897
+at da lager vi et 'work tree'. Så vil jeg gi et navn på dette work-treet, og 
+da kaller jeg det for 'steory'. Da vet dere at det er der teorien skal
+
+133
+00:24:29,937 --> 00:24:35,318
+skje. La oss prøve og se hva som skjer. Forhåpentligvis kommer det ikke 
+noe feil her.
+
+134
+00:24:39,698 --> 00:24:46,083
+Supert. Her skjer det at nå har vi fått opp en ny bransje som heter 
+WorkTreeTreary.
+
+135
+00:24:48,184 --> 00:25:00,233
+Og hvor har det kommet opp hen? Vel, hvis dere går inn i .cloud her oppe til 
+venstre, folderen som heter .cloud, så er det en ny folder som heter
+
+136
+00:25:00,293 --> 00:25:14,797
+worktrees. Inni her så står theory, som er navnet på bransjen, og inni 
+der er ... All koden kopiert. Så den koden som er her, er nå en tro kopi av
+
+137
+00:25:14,897 --> 00:25:28,920
+all koden. Og akkurat denne cloud code-seksjonen jobber nå ikke inni 
+her, men den jobber inne i work three theory. Så endringene skjer her
+
+138
+00:25:28,980 --> 00:25:36,082
+inne. Så skal vi da starte en tilsvarende en for ...
+
+139
+00:25:50,050 --> 00:26:00,357
+Hva gjorde du der først? Gikk du på terminalen? Det gikk så fort at du fikk 
+ikke med deg det du gjorde. Der var du bare. Hva gjorde du nå? Dette var den
+
+140
+00:26:00,377 --> 00:26:12,543
+som vi gjorde forrige nettopp. Og så gjorde du? Da trykker vi bare på en ny 
+en her. Men vi kan vise hvordan vi gjør det. Vi trykker bare på en ny
+
+141
+00:26:12,743 --> 00:26:23,110
+terminal. Der, ja. Nå skjønner jeg. Greit. Og så kan vi starte en ny 
+cloud-sesjon der. Men før vi gjør det, så tar vi og bare primer denne
+
+142
+00:26:23,130 --> 00:26:33,818
+clouden her. Denne sesjonen her. Det betyr at den vil lese hva som har 
+skjedd så langt. Vi lagde denne sist gang. Under skills så er det noe som
+
+143
+00:26:33,838 --> 00:26:46,912
+heter prime. Prime er da en fast måte å starte på. Sant. Vi kan da trykke 
+sånn her, slash prime. Vi gikk gjennom det sist gang. Så vi skal ikke gå
+
+144
+00:26:46,952 --> 00:26:55,257
+gjennom den. Men dette er alltid det vi først gjør hver gang vi skal 
+begynne på nytt igjen. Da gir vi cloud code all den informasjonen den
+
+145
+00:26:55,297 --> 00:26:58,300
+trenger for å vite hva som er neste oppgave.
+
+146
+00:27:01,145 --> 00:27:14,176
+Mens Dance begynner nå? Når vi får 100 % og Åndal tokens brukt opp, så må vi 
+begynne på nytt igjen for å få friske tokens. Og da må vi få Claude til å
+
+147
+00:27:14,216 --> 00:27:23,803
+leses opp. Og han leses opp på Prime. Er det rett oppfatta? Ja, det er ish 
+rett, ja. I starten av hver sesjon så skriver vi Prime uansett.
+
+148
+00:27:26,565 --> 00:27:36,790
+Og så skriver vi ny ... Nå skal jeg lage den for discussion, da. Da skriver 
+vi ... Sånn, det ser bra ut. Nå får vi enda en her.
+
+149
+00:28:00,545 --> 00:28:12,648
+Og legg merke til at under Claude nå, så har vi to worktrees. Vi har 
+ensettet discussion og ensettet theory. Nice. Så den ene vil jobbe her.
+
+150
+00:28:14,748 --> 00:28:28,049
+Den andre vil jobbe her. Og ingenting vil bli gjort i hovedhoden din. 
+Hvis du går helt oppe til høyre, kan du sjonglere mellom cloud-chatten
+
+151
+00:28:28,089 --> 00:28:39,356
+til de to sesjonene. Helt oppe til høyre der, ja. Nå har vi to parallelle 
+... Nå har vi to separate cloud-sesjoner som vi kan sjonglere mellom
+
+152
+00:28:39,436 --> 00:28:52,101
+oppe til høyre på VA-stasjonen. Nå er primen her ferdig, som dere ser. 
+Ops, sånn. Der. Primen er ferdig. Og jeg trenger egentlig ikke å lese
+
+153
+00:28:52,121 --> 00:28:59,103
+dette her, men det er bra for AI-en å vite det. Så primer vi den andre.
+
+154
+00:29:04,025 --> 00:29:16,010
+Dette kan dere gjøre på hvor mange ... Dere kan ha så mange worktrees dere 
+vil, egentlig. Hvis disse worktreene kolliderer veldig mye inn i
+
+155
+00:29:16,050 --> 00:29:18,430
+kodebasen, så får du en del merge-arbeid.
+
+156
+00:29:20,617 --> 00:29:32,400
+Men vi vet at teori og discursion er på to forskjellige plasser i 
+rapporten, så det blir ikke så mye kollisjon her da.
+
+157
+00:29:32,420 --> 00:29:42,262
+Da kan vi gå tilbake til teorien. Her er teorien. La oss se på 
+statusfiler. Viktig å ikke endre filer her nå.
+
+158
+00:29:48,410 --> 00:30:00,958
+Dere ser at vi har Maine her, men så har vi de to bransjene vi har fått. 
+Work-Tree Theory og Work-Tree Discussion. Når den ene begynner å gjøre
+
+159
+00:30:00,998 --> 00:30:07,562
+endringer, kommer endringene her under theory. Og den andre kommer 
+under discussions. Helst skal vi ikke ha så mange endringer her, men vi
+
+160
+00:30:07,602 --> 00:30:15,968
+kan ha det òg. Vi har egentlig tre forskjellige versjoner av samme 
+kodebase pågående samtidig.
+
+161
+00:30:18,869 --> 00:30:33,313
+Vi ser litt på prosjektet her. Da hadde vi en file som het Status MD. Den er 
+viktig å huske, som er alle aktivitetene våre vi skal gjøre. Her ser vi
+
+162
+00:30:33,373 --> 00:30:41,775
+hva vi gjorde sist gang, med review og alt mulig. Her står det å skrive 
+kapittel to litteratur, skrive kapittel tre teori og skrive kapittel
+
+163
+00:30:41,795 --> 00:30:52,779
+ni diskusjon. Så gi hopp over kapittel to og fortell nå A1 at den skal 
+gjennomføre Kapittel
+
+164
+00:30:52,839 --> 00:31:04,045
+tre her. Nå er det veldig viktig å passe på når vi snakker med AI-en, at vi 
+vet at vi er i riktig AI. Ta alltid en titt på om vi er under teori her. Hvis
+
+165
+00:31:04,105 --> 00:31:12,770
+ikke kan du begynne å rote i haugen sjøl. Da går det ad undas. Så hei. Jeg 
+ønsker
+
+166
+00:31:15,632 --> 00:31:17,133
+at du nå ...
+
+167
+00:31:22,133 --> 00:31:22,954
+Skal gjennomføre ...
+
+168
+00:31:25,476 --> 00:31:27,878
+Act 3-7. Før ...
+
+169
+00:31:33,502 --> 00:31:33,822
+Så
+
+170
+00:31:41,128 --> 00:31:42,309
+setter jeg på plan-mode.
+
+171
+00:31:44,711 --> 00:31:53,889
+Det gjør vi ved å trykke shift-tab. Det står her nede. Shift-tab to 
+cycle. Hvis vi bare trykker skift og så tabbe, så hopper vi mellom de
+
+172
+00:31:53,929 --> 00:32:05,792
+forskjellige modusene. Plan mode, det betyr at en planlegger, men en 
+endrer ingen filer.
+
+173
+00:32:05,972 --> 00:32:14,735
+Lag en skikkelig plan for et godt
+
+174
+00:32:17,416 --> 00:32:18,356
+teorikapittel.
+
+175
+00:32:21,331 --> 00:32:22,372
+Tilpasset som er ...
+
+176
+00:32:26,476 --> 00:32:40,490
+Til teori. Til ... Jeg har ikke tenkt på hva det er nå. CSA-Lima og sånne 
+ting står da i Kompendiet vårt. Burde Ain hatt Kompendiet som grunnlag?
+
+177
+00:32:40,930 --> 00:32:50,254
+Eller skal han være ... Skriver teorien helt uavhengig av kompendiet 
+vårt? Da bruker en jo internett og andre kilder for å finne det, helt
+
+178
+00:32:50,294 --> 00:32:57,378
+uavhengig av kompendiet vårt. Ja. Når det gjelder teori, så skriver 
+ikke vi så mye om teorien i
+
+179
+00:33:00,500 --> 00:33:11,106
+kompendiet. Vi antar der også at man kjenner det. Vi skriver opp 
+hovedligningene og litt sånne ting, men vi skriver ikke noe teori rundt
+
+180
+00:33:11,126 --> 00:33:25,155
+det. Her må Claude hente egen kunnskap, da. Det korte svaret er at vårt 
+kompanium er ikke spesielt viktig som grunnlag for AI i det vi gjør her.
+
+181
+00:33:25,195 --> 00:33:26,396
+Ja, det er riktig.
+
+182
+00:33:33,142 --> 00:33:47,388
+Men det er ikke helt unormalt å ha med referanser inn i et teori... Nei da, 
+det er vanlig.
+
+183
+00:33:47,408 --> 00:33:49,569
+Vi kan egentlig legge ... også til referanser.
+
+184
+00:34:13,702 --> 00:34:24,148
+Der hvor det gir mening. Vi bruker APA7-referanselinjen. OK.
+
+185
+00:34:30,672 --> 00:34:38,136
+Vi skal komme litt hardere tilbake med referansene i neste runde, 
+tenker jeg. Ved slutten av måneden, for vi skal jo ha en sånn pulle da òg.
+
+186
+00:34:39,368 --> 00:34:44,230
+Men jeg vil gjerne bare ta dem med her mens den jobber.
+
+187
+00:34:47,631 --> 00:34:53,674
+Søk på internett. På nettsøk. Etter tradisjonelle
+
+188
+00:34:56,595 --> 00:34:58,396
+gode referanser
+
+189
+00:35:00,777 --> 00:35:02,398
+for teori.
+
+190
+00:35:09,237 --> 00:35:16,222
+Kun hvor det gir mening. Teori ...
+
+191
+00:35:18,844 --> 00:35:21,926
+Etablert
+
+192
+00:35:21,986 --> 00:35:22,386
+teori,
+
+193
+00:35:26,149 --> 00:35:28,230
+som
+
+194
+00:35:30,391 --> 00:35:34,014
+er allment kjent, trenger ikke referanser.
+
+195
+00:35:38,617 --> 00:35:48,925
+Hva mener du? Allmenn teori kan ofte være ... Gjerne ha noen klassiske 
+referanser. Det kan være helt om på det. Men en plass må det stoppe, da. Og
+
+196
+00:35:48,945 --> 00:36:02,575
+det er det jeg prøver å si til annen her. Jeg vil ikke at en skal referere 
+alt mulig rart. Men viktige resultater er greit. Utover det. Så ikke gå
+
+197
+00:36:02,595 --> 00:36:12,149
+for dypt med referansene i et teorikapittel, tenker jeg da. For det fins 
+typiske lærebøker,
+
+198
+00:36:20,973 --> 00:36:32,713
+da. Det er bare en liten kommentar. I reelle forskningsartikler så 
+bruker du sjelden eller aldri lærebøker som referanser. Da er det
+
+199
+00:36:32,773 --> 00:36:43,939
+artikler, tidsskrifter, som brukes. Men det som er litt unntak med den 
+forskningsartikkelen som vi skriver, er at det er en bachelorlignende
+
+200
+00:36:43,979 --> 00:36:53,823
+oppgave. Derfor har vi teori, noe vi ikke i samme grad har i 
+forskningsartikler, som regel. Og vi kan gjerne referere til
+
+201
+00:36:53,903 --> 00:37:03,794
+lærebøker her, og det gjør vi ikke i samme grad i reelle 
+forskningsartikler. Så vi kan ha det i bakhodet. Her er det litt avvikt
+
+202
+00:37:04,314 --> 00:37:11,596
+sammenligna med ei ordentlig forskningsrapport. Akkurat det vi gjør 
+her. Men det er greit for oss.
+
+203
+00:37:15,458 --> 00:37:28,908
+Så skal jeg gjøre noe viktig. Hvis vi nå ser under 005 report her, da. Så 
+har vi bare rapporten. Men nå vil jeg egentlig også at AE ... Det er et
+
+204
+00:37:28,968 --> 00:37:39,874
+velkjent problem, eller diskusjonsområde, for AE, dette her med 
+referanser. Vi hører jo gang på gang at folk gjør narr av AE og sier at AE
+
+205
+00:37:39,934 --> 00:37:50,921
+ikke klarer eller gjør feil med referansene. Refererer til bullshit, 
+ting som ikke eksisterer, osv. Det er jo ekte. Altså, AE hallusinerer.
+
+206
+00:37:51,561 --> 00:38:04,503
+Så vi må på en eller annen måte prøve å ... En av tingene jeg bruker å gjøre, 
+er å be om at A-en laster ned referansene.
+
+207
+00:38:04,643 --> 00:38:05,664
+Og lagrer dem
+
+208
+00:38:08,665 --> 00:38:12,868
+på maskinen vår, slik at vi kan sjekke referansene litt bedre.
+
+209
+00:38:42,335 --> 00:38:56,921
+Laster ned eller skriver en oppsummering av referansen i en egen fil og 
+... Helst kanskje laster ned, ja. Ja. Og ...
+
+210
+00:39:04,563 --> 00:39:14,480
+Under ... Og lagrer den. Under folderen ... 005
+
+211
+00:39:19,784 --> 00:39:24,067
+report ...
+
+212
+00:39:25,928 --> 00:39:34,275
+referanser. Nei, vi har en egen referanse. Det har vi, ja. 003 heter den 
+der oppe. Det er referanser bare, ja? Ja. 003 references.
+
+213
+00:39:38,748 --> 00:39:49,894
+La oss si at i beste fall er det vi ønsker, er at vi finner de reelle 
+titlene, gjerne i PRF-format. Men når de laster ned det på git og vi
+
+214
+00:39:49,934 --> 00:39:59,679
+pusher og puller ... Vil det pushe og pulle PRF-filler, eller er det gitt 
+i knall PRF? Det bestemmer jo vi, da, om vi vil ha dem med eller ikke. Men
+
+215
+00:40:00,159 --> 00:40:16,381
+per i dag så har vi ingen restriksjoner på PDF, så vi vil da ... Det er bra. 
+Vi vil gjerne ha med PDF-ene. Jeg vet hvorfor du tenker sånn, men av og til
+
+216
+00:40:16,461 --> 00:40:26,484
+når jeg og PK skriver bøker, så kan disse PDF-filene bli enormt store, 
+sånn 100 megabyte. Og da får du ikke lov til å laste opp på Github. Men
+
+217
+00:40:26,524 --> 00:40:39,910
+disse filene her, de er knøttsmå, og da er det ikke noe problem. Her ville 
+jeg også faktisk ha lagd en mal for hvordan den referansen skal se ut. Det
+
+218
+00:40:39,930 --> 00:40:48,091
+orker jeg ikke bruke tid på her og nå, for det skal vi bruke mer tid på neste 
+runde. Så dette blir en litt sånn referanse-light-versjon. Så kan vi
+
+219
+00:40:48,111 --> 00:40:56,012
+heller gå over disse referansene neste gang igjen, tenker jeg. Det som 
+er poenget nå, er at jeg ønsker å ta med referansene.
+
+220
+00:41:01,300 --> 00:41:04,202
+Som et eget punkt
+
+221
+00:41:07,445 --> 00:41:11,368
+under akt 3-7
+
+222
+00:41:15,151 --> 00:41:16,772
+i status.emne.
+
+223
+00:41:19,975 --> 00:41:29,122
+Legg merke til at jeg begynner ikke å dragge og droppe nå. Hvis jeg gjør 
+sånn som det her ... Gjør jeg en feil, da? Så dere hva jeg gjorde? Ja, jeg sa
+
+224
+00:41:29,142 --> 00:41:41,882
+hva jeg gjorde. Hvis de gjør det, gjør de en feil, de tar status den her, og 
+så drag inn der. Hva skjer nå hvis jeg gjør dette? Noen som ser problemet?
+
+225
+00:41:44,603 --> 00:41:52,705
+Jeg ser ikke problemet med det. Noen på nettet som ser hvorfor dette her 
+er et problem, hvis jeg gjør det sånn?
+
+226
+00:41:55,807 --> 00:42:08,131
+Vel, husk at vi jobber nå under en egen folder som heter worktreetheory. 
+Og jeg dro nettopp status MD fra ... Ja, vi gjorde det. Ja, ja, ja. Hvis de
+
+227
+00:42:08,151 --> 00:42:21,215
+skulle gjort det nå, så skulle jeg vært litt mer spesifikk. Og så har jeg 
+gått inn under Claude worktrees theory, og det er egentlig denne
+
+228
+00:42:21,275 --> 00:42:33,037
+statusfyllen jeg vil ha. Nå er det ikke statusfyll. Ja. Men vi trenger 
+ikke noen referanse her. For dette vil Claude Code skjønne sjøl. For vi
+
+229
+00:42:33,157 --> 00:42:43,404
+står i work-free theory. Og hvis vi bare skriver status.md da og sier de 
+skal gjøre endringer under 1.37, så er det den statusfila i det
+
+230
+00:42:43,444 --> 00:42:56,965
+work-free-et. Da skjønner Claude konteksten. Ja, så Claude finner den 
+riktige fila her. Så vi trenger egentlig ikke å skrive hele stien.
+
+231
+00:42:57,025 --> 00:43:08,007
+Poenget er at hvis vi er veldig spesifikke, så kan vi gjøre feil og 
+kommandere Claude til å gjøre feil hvis vi er feil spesifikasjon. Men
+
+232
+00:43:08,027 --> 00:43:19,030
+hvis vi er litt runde, sånn som vi er her, så skjønner Claude det og gjør 
+det riktige. Så der er det en erfaring vi må gjøre på balansen mellom våre
+
+233
+00:43:19,287 --> 00:43:23,948
+... Og det å være helt spesifikk. Så ...
+
+234
+00:43:26,569 --> 00:43:38,212
+Du har veldig rett i det, PK. Hvis du er for detaljert, og når du skal 
+beskrive hva A1 gjør, så restrikterer du A1 på en sånn måte at resultatet
+
+235
+00:43:38,252 --> 00:43:44,333
+kan bli dårligere enn dersom du var litt rundere i beskrivelsen.
+
+236
+00:43:44,413 --> 00:43:58,759
+Ikke helt veldig tydelig, da. Dette er et typisk eksempel på det. Her vil 
+Claude finne den rette fila i sin egen worktree. Mens hadde jeg tatt inn
+
+237
+00:43:59,079 --> 00:44:09,906
+feil sti, så hadde han begynt å rote. Han er nå over ett, så vi kan ta over 
+resten sammen. Så får han jobbe i pausen. Ja. Da setter vi plankjørplan
+
+238
+00:44:09,946 --> 00:44:23,542
+på den, og så forbereder vi den andre i mellomtida. Så tar vi pause der. 
+Ja. Men hvis du forbereder det, så vil vi gjerne ha med det. Ikke forbered
+
+239
+00:44:23,562 --> 00:44:35,054
+det i friminuttet, da. Jeg vil bare skrive prompten, men jeg sender den 
+ikke av gårde. OK. Ja. Jeg bare gjør klar skrivinga.
+
+240
+00:44:35,134 --> 00:44:47,305
+OK? Ja. For nå jobber han teoritreet, og så bytter du Åi oppe til høyre 
+der, ikke sant? Der, ja. Og så begynner vi på discussion-saken. Riktig.
+
+241
+00:44:47,546 --> 00:44:56,580
+Jeg vil bare skrive ferdig prompten. Men jeg vil ikke sende den av gårde. 
+Nei, jeg skjønner. Det var bra. Ok. Da tar vi pause der, da.
+

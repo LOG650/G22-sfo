@@ -1,0 +1,1196 @@
+1
+00:00:02,616 --> 00:00:03,216
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Da 
+er vi i gang.
+
+2
+00:00:07,917 --> 00:00:17,740
+Vi har generert fine figurer med forskjellige grafer og sånne ting.
+
+3
+00:00:20,000 --> 00:00:25,241
+Ganske greie tabeller og sånne ting. Vi er nok fornøyd med disse 
+datagenererte tingene her.
+
+4
+00:00:29,528 --> 00:00:43,018
+Igjen ser dere styrken i det å bruke AM. Så lenge vi kjenner de overordna 
+strukturene, vi vet vi skal bruke Python, så klarer vi å styre AM til å
+
+5
+00:00:43,058 --> 00:00:55,526
+produsere ganske kompliserte grafer som tar oss lang tid, som vi nå kan 
+produsere ganske kjapt. En utfordring med dette her er jo at ...
+
+6
+00:01:01,473 --> 00:01:16,726
+Er jo at vi får en ... Den er 006 analyzes her. Den kan fort bli ekstremt 
+stor med masse filer og veldig rotete. Og det er ikke bra for verken oss,
+
+7
+00:01:16,927 --> 00:01:26,619
+som skal ha hodet på plass, men heller ikke så bra for A1, som har mange 
+filer de må forholde seg til. Det jeg har gjort, er at de har spurt A1 om å
+
+8
+00:01:26,699 --> 00:01:37,262
+komme opp med et forslag til å strukturere disse analysefolderne slik 
+at de er samsvarende med prosjektplanen.
+
+9
+00:01:40,002 --> 00:01:41,743
+Det kjørte jeg mens vi var på pause.
+
+10
+00:01:45,601 --> 00:01:53,483
+Så har jeg kommet med følgende. Jeg har nå den faktiske fase 
+tre-strukturen. Det viktigste designvalget er om 006 skal styres av
+
+11
+00:01:53,563 --> 00:02:04,085
+aktiviteten i plan eller av milepælene, siden det avgjør hvor lett det 
+blir å jobbe i mappa til daglig. Hvordan vil da toppnivået i 006 Analyzes
+
+12
+00:02:04,105 --> 00:02:08,846
+skal speile prosjektplanen? Aktiviteter først, og det Recommender, 
+gir en arbeidsmappe per
+
+13
+00:02:11,723 --> 00:02:25,508
+Med tydelig skript, figurer og resultater i hver aktivitet. Jeg tror 
+milepælen blir for stor, og så får du veldig rotete filstruktur. Så jeg
+
+14
+00:02:25,688 --> 00:02:27,329
+kjører på på ".
+
+15
+00:02:31,590 --> 00:02:41,192
+Foreløpig ser jo alt veldig bra ut, med figurer og resultat og sånne 
+ting. Det kommer til å bli masse, folkens. Og når det blir så mye, da blir
+
+16
+00:02:41,212 --> 00:02:50,583
+det veldig viktig å strukturere godt, slik at man har kontrollen på hva 
+som lages når og hva som tilhører hvor.
+
+17
+00:02:54,620 --> 00:03:09,667
+Så kan vi be A1 opprette mapper og undermapper og putte de rette filene 
+nedi de rette mappene. Så vi kan bare si i promten hva vi ønsker, og
+
+18
+00:03:09,687 --> 00:03:16,690
+opprette de mappene og sånne ting. Så det er innmari bra at vi gir A1 
+tillatelse til å gjøre slike endringer i filstrukturen vår.
+
+19
+00:03:23,375 --> 00:03:32,482
+Her har han kjempemessig. Her har vi planen. Jeg gidder ikke lese den 
+engang. Jeg ser det blir bra. Så nå har han liksom delt opp i aktivitetene
+
+20
+00:03:32,502 --> 00:03:39,727
+i stedet for. Slik at vi får subfoldere og hula midten. Da kjører jeg på 
+med. Yes!
+
+21
+00:03:42,269 --> 00:03:44,991
+Og nå vil han gjøre ganske kraftige endringer.
+
+22
+00:03:54,155 --> 00:04:02,477
+Og dette mener jeg er viktig å gjøre fra starten av, slik at hver fil 
+havner der den tilhører.
+
+23
+00:04:05,418 --> 00:04:16,440
+Ryddig filstruktur blir et ryddig hue som blir en ryddig rapport. Og ja, 
+det er veldig enkelt at det går over stokk og stein. Jeg har nettopp en
+
+24
+00:04:16,500 --> 00:04:31,185
+masterstudent som jeg hadde veiledning med i dag, jeg og en annen 
+kollega. Han er flink, han jobber knallhardt. Men hver gang vi kommer på
+
+25
+00:04:31,245 --> 00:04:41,114
+møte, så blir han sittende i 15 minutter bare og lete etter sine egne 
+filer. Det er lite effektivt. Da kaster han bort tida, verdifull tid,
+
+26
+00:04:41,134 --> 00:04:50,803
+som han kunne ha brukt med oss på praktisk veiledning. I stedet så står 
+han der og klør seg i hodet for han veit ikke hvilken fil hvor, osv. når vi
+
+27
+00:04:50,863 --> 00:05:00,447
+spør spørsmåla. Så det er et klassisk eksempel på at han har rot i 
+systemet. Og det er duplikater av filer, og resultat havner her og der.
+
+28
+00:05:00,487 --> 00:05:14,516
+Og nei, det er bare kaos. Så det er liksom minus, da, kan du si. Sjøl om det 
+ikke nødvendigvis er noen karakter på det, da. Så lenge resultatet blir
+
+29
+00:05:14,556 --> 00:05:27,371
+bra, så blir det jo bra. Men han taper noe på det, i den forstand at Både vi 
+som skal hjelpe han, og både han sjøl bruker mye tid på å finne fram ting.
+
+30
+00:05:27,411 --> 00:05:39,296
+Og usikkerhet om du brukte rett fil osv. Det er så fort å havne i den 
+verdenen. Vær ryddig fra første stund av. Få Ain på å lage en plan, sånn
+
+31
+00:05:39,316 --> 00:05:50,859
+som vi gjør nå. For vi har jo allerede lagd en prosjektplan. Bruk den til å 
+strukturere dette analyseprogrammet. Jeg har opplevd så mange ganger
+
+32
+00:05:51,399 --> 00:06:07,228
+at det blir et sant kaos ut av alt sammen. Så det er jo et hjertelig råd til 
+dere når dere begynner med disse analysene her. Dere må huske på at dette
+
+33
+00:06:07,509 --> 00:06:18,496
+keiset vi ser på her, er et forenkla keis i forhold til virkelige data. 
+Det må ofte gjøres mye, da. Mer. Så det kan dere tenke på. At det er viktig,
+
+34
+00:06:18,516 --> 00:06:18,576
+da.
+
+35
+00:06:48,862 --> 00:06:57,909
+Her har vi aktiviteter med rense og strukturere data. Det er der vi 
+holder på nå. Og her er disse grafene de har allerede generert. Så det er
+
+36
+00:06:57,929 --> 00:07:08,597
+helt supert. Det er litt mer filstruktur, men samtidig er det litt mer 
+ryddig. Resultater og figurer er bare gamle foldere som en egentlig
+
+37
+00:07:08,637 --> 00:07:23,403
+burde fjerne. Så er det litt om milepælene, ja. Det er bra. Første 
+analyseutkast. Hovedutkast Peer review. Ja, ser bra ut. Der fjerna han
+
+38
+00:07:23,423 --> 00:07:27,584
+de gamle båndene. Det ble automatisk, det var imponerende.
+
+39
+00:07:30,525 --> 00:07:42,769
+Han har rydda opp, så det er innmari bra. Han ser litt totaliteten i det. 
+Så det imponerer. Ja, det er ganske bra, dette her. Nå ser jeg det at
+
+40
+00:07:45,550 --> 00:08:00,858
+jeg ikke har en gitt ... Det er viktig å ha med. Hvis ikke, så begynner dere 
+òg ... Ja, nå er ikke den med likevel, men jeg vil legge inn en get ignore.
+
+41
+00:08:00,958 --> 00:08:01,519
+Få se om det ...
+
+42
+00:08:06,323 --> 00:08:13,369
+Antar heldigvis ikke med, da. Men jeg vil likevel ha det med, da. Legge 
+inn.
+
+43
+00:08:25,538 --> 00:08:38,389
+Jeg ber ham legge inn en klassisk Python git-ignore-file for 
+006-analyses, slik at han ikke tar med sånne Python-filer som vi ikke
+
+44
+00:08:38,429 --> 00:08:50,759
+skal ha med opp til Git. Sånn som PyeCash og alle disse kjørefolderne som 
+vi ikke trenger å lagre i skyen.
+
+45
+00:08:56,032 --> 00:09:07,557
+Da har vi ... Skal vi nå se på fasen, da. Skal vi se. Det er report. Det var 
+det ikke. Det var plan. Status.
+
+46
+00:09:10,038 --> 00:09:10,538
+Status.
+
+47
+00:09:15,060 --> 00:09:19,982
+Så oppdatert status. Det kan jeg nå gjøre sjøl, jeg. Jeg kan bare si sånn, 
+så er det oppdatert.
+
+48
+00:09:29,360 --> 00:09:30,480
+Det er én ting vi mangler.
+
+49
+00:09:33,942 --> 00:09:34,622
+Og det er ...
+
+50
+00:09:38,124 --> 00:09:39,404
+Det er ...
+
+51
+00:09:43,306 --> 00:09:44,526
+testdata.
+
+52
+00:09:46,507 --> 00:09:59,610
+For når man skal lage en prognose, så skal du lage prognosen av noen data, 
+men så skal du teste for andre data. Og det har vi ikke. Så det betyr i
+
+53
+00:09:59,690 --> 00:10:12,482
+prinsippet at dette datasettet som dere ser her, da. Én del av 
+datasettet må gå til estimering, en annen del må gå til testing. For å se
+
+54
+00:10:12,542 --> 00:10:26,089
+hvor god prognosen fungerer på data som den ikke har blitt lagd basert 
+på, da. Ga det mening? Ja, jeg tror det. Skjønte dere hva jeg skulle si?
+
+55
+00:10:26,529 --> 00:10:32,412
+Prinsippet er å dele opp dataene i to deler.
+
+56
+00:10:32,472 --> 00:10:50,982
+Her kan vi skrive. Én ting til før testinga. Vi gjør en test på data som vi 
+vet svaret på. Så vi kan sjekke om det fungerer. Ja, riktig. Så vi bruker
+
+57
+00:10:52,790 --> 00:10:58,992
+... Vi bruker prognosen for å se hvor god den er på fremtidige data.
+
+58
+00:11:01,952 --> 00:11:12,755
+Der vi vet svaret for å teste hvor god den er? Der vi vet svaret, men vi har 
+ikke brukt de dataene til å lage prognosen. Nei. Men da kan vi ikke bruke
+
+59
+00:11:12,775 --> 00:11:21,918
+den dataen vi har her, for dem har vi da bruk for å ... Da må vi da bruke dem. 
+Det du typisk må gjøre, er å ta datasettet ditt og dele dem opp i to deler.
+
+60
+00:11:22,578 --> 00:11:37,881
+Én estimeringsdel og én testdel. Dette er ganske standard, da. Her har 
+vi 211 ... Blir det en reell test hvis vi tar over dataene vi brukte på å
+
+61
+00:11:37,901 --> 00:11:49,622
+lage grafene til å splitte dem i to? Må vi ta helt andre data uavhengig av 
+dette? Nei, det må jo være saksdata. Ja, det må det være. Vi tar aldri
+
+62
+00:11:49,642 --> 00:11:52,686
+salgsdata som ikke har noe med de dataene vi har her å gjøre.
+
+63
+00:11:55,987 --> 00:12:04,749
+Ja, det er litt sånn som Erik sier ... Jeg skjønner ikke helt hvor William 
+fikk hen, men Erik sier splitter data før trening, og det er det han
+
+64
+00:12:04,789 --> 00:12:16,791
+retter til. OK, greit. Du må trene på ene settet, og så må du teste på andre 
+settet. OK, greit. Jeg skjønner. For å se om inferensen fra min tid er
+
+65
+00:12:16,851 --> 00:12:22,832
+korrekt, da. Det er ikke uvanlig, da. Nei, OK, greit. Greit.
+
+66
+00:12:27,070 --> 00:12:30,913
+Legge inn. Jeg har nå ... Må vi flytte ...
+
+67
+00:13:02,187 --> 00:13:07,491
+OK. Jeg skjønner. 80 % kan gå til trening, og resten brukes til test. OK.
+
+68
+00:13:10,374 --> 00:13:20,201
+Ja, men da kan vi si det sånn at vi tar 80 % til trening og 20 % til test. Det 
+kan vi nå gjøre, da. Så vi kan jo følge Eriks forslag.
+
+69
+00:14:39,303 --> 00:14:52,306
+Når dere gjør sånne ting, er det viktig å ikke ødelegge rådataene deres. 
+Den filen der er rådata. Den skal dere i prinsippet aldri gjøre noe som
+
+70
+00:14:52,346 --> 00:15:03,009
+helst med. Hvis dere må transformere dataene i en eller annen form eller 
+farge, som vi f.eks. nå skal lage to nye filer fra den. Vi skal ha ett
+
+71
+00:15:03,049 --> 00:15:16,518
+treningssett og ett testsett. Så må dere lage nye filer. Aldri gjør noe 
+med sales.csv. Hvis vi skulle gjort transformasjoner eller rydding av
+
+72
+00:15:16,578 --> 00:15:27,966
+data, og datakvalitet og sånne ting, så må dere ha gjort det i en ny fil. 
+Det
+
+73
+00:15:28,006 --> 00:15:37,633
+er veldig viktig å ... Viktige kommentarer. Det skjønner jeg. Det 
+stemmer med intuisjonen, så det forstår vi. Ja. Det er bare greit å nevne
+
+74
+00:15:37,673 --> 00:15:43,551
+det, da. Ja.
+
+75
+00:15:43,571 --> 00:15:44,672
+Da gjør den den jobben også.
+
+76
+00:15:51,773 --> 00:16:04,836
+Og da kan vi bruke måltall som f.eks. MSC og MADE eller hva vi skal bruke, 
+til å måle hvor god den blir på det testsettet. Hvor mye bommer vi
+
+77
+00:16:04,916 --> 00:16:09,595
+gjennom? Da har vi måledata i tillegg. I
+
+78
+00:16:14,159 --> 00:16:23,586
+prinsippet bør du ikke måle en metode på de samme dataene du trente 
+metoden på. Du ønsker å teste inferansen på hvor god han er til å gjøre nye
+
+79
+00:16:23,626 --> 00:16:32,313
+ting. Ikke det samme som han alltid har gjort. OK. Da heter det sales test 
+og sales train. Bra.
+
+80
+00:16:56,193 --> 00:17:06,878
+Jeg vil gjerne dokumentere at jeg gjorde det. For den her var ikke med i 
+prosjektplanen min i utgangspunktet. Statusplanen den var ... Hadde
+
+81
+00:17:06,898 --> 00:17:15,603
+ikke akkurat det steget der i seg. Så jeg vil helst at en skal prøve å 
+skvise inn et lite punkt her, da. Samt også inn i hele ...
+
+82
+00:17:18,644 --> 00:17:20,385
+Inn i prosjektsystemet, da.
+
+83
+00:17:25,437 --> 00:17:42,382
+Så han gjør en smal oppdatering, legger inn et avhuget punkt i status MD. 
+Midt i blinken. Så AR begynner å bli så smart, altså. Vi tenker ikke å ha
+
+84
+00:17:42,422 --> 00:17:51,184
+veldig sterke føringer om hva slags navn du skal ha på CSV-kvelden 
+f.eks. For da kom man på veldig gode navn sjøl. Seilstest, seilstrain.
+
+85
+00:17:53,568 --> 00:18:05,535
+Det er det ... Vi må sjøl trene oss på å bli god på hva vi eksplisitt skal si 
+og gjøre, og hva vi ikke skal gi veldig sterke føringer på. For da kommer
+
+86
+00:18:05,555 --> 00:18:18,816
+man kanskje opp med gode forslag, f.eks. filnavn og sånne ting. Det du 
+sier der, PK, er veldig viktig. Den balansen mellom hvor detaljert skal
+
+87
+00:18:18,856 --> 00:18:30,663
+du skrive prompten din, og hvor mye skal du bare overlate til A1, det er en 
+klassisk sånn ... Det må du bare lære ... Altså, du må prøve å lære. Da må du
+
+88
+00:18:30,684 --> 00:18:44,195
+prøve og feile, og det er mye mer erfaring vi gjør. Og du må bare bruke AI 
+for å finne den find-tuningen, altså. Og det er superviktig. Over tid så
+
+89
+00:18:44,235 --> 00:18:54,060
+sparer du mye tid og krefter på dette ved at du ikke står og detaljstyrer 
+for mye. For da kan faktisk resultatet bli dårligere enn dersom du bare
+
+90
+00:18:54,080 --> 00:19:03,985
+hadde latt Ain få gjøre det Ain kan. Det er et veldig godt poeng der, 
+Pekevald.
+
+91
+00:19:04,025 --> 00:19:15,473
+Nå får det litt bråk her. Jeg sitter og jobber, gutta. Yes. Og da er vi 
+ferdig med å lage grunnleggende ... Vi har gjort en del ting. Nå er det på
+
+92
+00:19:15,533 --> 00:19:29,438
+tide å ta en ... Egentlig burde jeg ha lagt inn github for hvert steg her, 
+da. Så jeg har ikke vært helt flink, da. Får bare ... Kan ikke bruke for mye
+
+93
+00:19:29,498 --> 00:19:30,078
+tid på sånn.
+
+94
+00:19:34,666 --> 00:19:45,369
+Har du tenkt på at du oppdaterer og pusher? Ja. Egentlig ville jeg gjort 
+det for hvert avhukingssteg her. Nå tok du litt mange slenger og sånne
+
+95
+00:19:45,389 --> 00:19:49,330
+ting, men
+
+96
+00:19:49,690 --> 00:19:55,272
+det tar litt tid i en forelesning. Så jeg gjør litt snarveier. Pusher du 
+nå? Nei, men det kan jeg gjøre.
+
+97
+00:20:03,151 --> 00:20:14,582
+Det tar litt snarveier, folkens, så husk å bare bruke sunt vett når det 
+gjelder gitt og sånne ting. Og for hver gang dere huker av noe, så ber dere
+
+98
+00:20:14,622 --> 00:20:26,054
+bare Aino om å formidle det. Og pushe det, f.eks. Ja, har du gjort det? Ja. 
+Right. Da er det neste. Dokumentere datakvaliteten.
+
+99
+00:20:39,854 --> 00:20:41,115
+Det finnes ...
+
+100
+00:20:46,357 --> 00:20:47,258
+ingen direkte.
+
+101
+00:20:56,522 --> 00:21:02,145
+Ja, da har vi fått en del puller her, så har vi fått det siste.
+
+102
+00:21:37,263 --> 00:21:46,146
+Datakvalitet kan være et stort punkt for mange. Men her finnes det ingen 
+direkte kilde som sier noe om hvor god kvaliteten er. Og da må du bare
+
+103
+00:21:46,186 --> 00:21:59,750
+sette inn det som en antagelse i rapporten din. At du antar at dataene er 
+gode, og at de er kvalitetssjekkere. Men ofte her så må du kanskje skrive
+
+104
+00:22:01,210 --> 00:22:04,631
+masse tekst for å beskrive kvaliteten på dataene.
+
+105
+00:22:30,402 --> 00:22:35,885
+Jeg
+
+106
+00:22:35,925 --> 00:22:39,047
+bare skyndte meg, for jeg har lyst til å komme til neste punkt, som er at 
+...
+
+107
+00:23:12,235 --> 00:23:13,936
+Ja, vi ser litt her.
+
+108
+00:23:25,040 --> 00:23:30,082
+Nå kan vi se hvilke filer som kom. Status der, det er greit.
+
+109
+00:23:33,084 --> 00:23:38,666
+Bare la inn det som et eget punkt der, ja. Det jeg vil derimot gjøre nå, da.
+
+110
+00:23:42,273 --> 00:23:46,995
+Legg merke til at denne planen
+
+111
+00:23:47,155 --> 00:23:56,079
+skal først gjøre grunnlaget, så begynner vi å skrive senere. Det kommer 
+igjen senere. Skrive rapportutkast her. Den vil jeg avvike litt fra. Vi
+
+112
+00:23:56,119 --> 00:24:04,002
+vil skrive litt nå underveis. Vi vil begynne å få litt mat inn i 
+rapporten. Så jeg vil få Anne til å legge inn det.
+
+113
+00:24:07,624 --> 00:24:08,464
+En ny aktivitet.
+
+114
+00:24:14,048 --> 00:24:16,490
+Kan ta den første først.
+
+115
+00:24:22,535 --> 00:24:27,018
+Jeg bare huker av den for den har jeg gjort. Det er bare en manuell sak.
+
+116
+00:24:49,942 --> 00:24:51,476
+Det heter egentlig gjerne arbeidspakke.
+
+117
+00:25:33,580 --> 00:25:46,708
+Slik at vi ser utviklingen av rapporten underveis. Og en god ting med det 
+er at nå husker jo A1 også hva vi har gjort. Slik at vi ikke trenger å
+
+118
+00:25:46,748 --> 00:25:59,415
+begynne på nytt igjen når vi skal generere rapporten. A1 har jo hele 
+historikken vår nå. Så derfor er det fint å ta den her og nå. Og ikke vente
+
+119
+00:25:59,455 --> 00:26:10,216
+med å skrive rapporten. De sier at en først skal legge inn en aktivitet. 
+Som sier at vi skal legge det inn i rapporten.
+
+120
+00:26:10,296 --> 00:26:21,466
+Litt fram og tilbake med aktiviteter. Det er ofte vanskelig å 
+preplanlegge absolutt alle aktiviteter inn. Så da må dere bare gå inn og
+
+121
+00:26:21,566 --> 00:26:25,650
+utvide prosjektplanen etter hvert som dere går.
+
+122
+00:26:28,981 --> 00:26:38,393
+Når man gjør sånne utvidelser, så skal man alltid sjekke om ... I 
+prinsippet så skal du sjekke at kritisk sti er fremdeles innenfor
+
+123
+00:26:38,553 --> 00:26:49,296
+leveransen og sånne ting. Men som dere sikkert skjønner, så går dette 
+lynende fort hvis vi skal være manuelt. A-en gjør mange oppdateringer
+
+124
+00:26:49,336 --> 00:27:02,062
+både på status.md og på aktiviteter og sånne ting. Han gjør alle 
+endringer på alle plassene som er nødvendige. Ja, spot on. Utrolig bra.
+
+125
+00:27:02,262 --> 00:27:13,863
+Slik at de slipper å begynne inn i prosjektfiler òg. Det skal 
+dokumentere hvordan du gjorde hele analysen, og det er viktig å ha med
+
+126
+00:27:13,903 --> 00:27:23,186
+deg. Men her dokumenterer vi den litt underveis, for det kom en endring. 
+Men hadde dette vært et byggeprosjekt f.eks. og det kom inn en sånn
+
+127
+00:27:23,226 --> 00:27:34,690
+endring, da vil kritisk sti kunne endre seg. Og du må ha godkjenning for å 
+legge inn endringer. Nå gjorde jeg alt sjøl. Jeg sa OK, jeg vil gjøre den
+
+128
+00:27:34,750 --> 00:27:43,471
+endringa, og jeg godkjente den. Og den vil ha lite å si på ... Dere ser 
+forskjellen
+
+129
+00:27:44,511 --> 00:27:45,592
+her, da.
+
+130
+00:27:52,436 --> 00:28:08,627
+Der ser dere at den endra både schedulen, altså Jason-fila, status-MD, 
+sånn som PK sa. Og vi får da et nytt punkt her. Sett inn tekst og figurer på
+
+131
+00:28:09,708 --> 00:28:10,448
+... Ballestein.
+
+132
+00:28:15,950 --> 00:28:25,454
+På rett plass. For irriterende. Jeg må prøve å finne ut det etter hvert. I 
+report-rapport. Hvis du gjør det manuelt, greier det. Hva skal stå der?
+
+133
+00:28:25,474 --> 00:28:25,874
+Pågående.
+
+134
+00:28:35,493 --> 00:28:39,894
+Hvis du endrer det, om en da greier å skjønne
+
+135
+00:28:43,515 --> 00:28:53,017
+tegninga? Det er den hvite her som gjør et eller annet gærent. Jeg kan jo 
+sjekke hva som står der pågående, men jeg tipper det bare står en vanlig
+
+136
+00:28:53,057 --> 00:28:57,618
+'Å' der. Skal vi se. Pågående.
+
+137
+00:29:01,558 --> 00:29:09,428
+Pågående. Ser du? Den burde nå vært ... Ja.
+
+138
+00:29:14,635 --> 00:29:28,752
+Det burde være fiksbart, dette her, da. Jeg burde klare det, da. Men se 
+hva han har gjort der på H3. Der er det korrekt. Gjør tilsvarende
+
+139
+00:29:28,832 --> 00:29:33,940
+andreplasser der det er ulovlig. Men vi skal ikke bruke altfor mye tid på 
+dette nå.
+
+140
+00:29:51,177 --> 00:29:57,502
+I H3 f.eks.
+
+141
+00:29:59,203 --> 00:30:01,505
+Det er irriterende, da. Det kan vi være enige om.
+
+142
+00:30:18,515 --> 00:30:27,698
+Jeg veit ikke helt. Ofte så får han det der til, så det er litt nytt for meg. 
+Men det som er vanlig i en sånn ting som det der, er faktisk å legge det inn.
+
+143
+00:30:35,581 --> 00:30:38,202
+Det er viktig å få annet til å huske sånne ting. Ja.
+
+144
+00:30:47,033 --> 00:30:56,775
+Det som skaper problemer, er måten han får ... Han kjører sånne 
+kommandoer, og da endres det på veien, da. Jeg tror ikke han vet helt
+
+145
+00:30:56,795 --> 00:31:08,897
+hvordan han skal gjøre det. Nei. Vi bruker ikke mer tid på å ta nå. Nei, vi 
+gjør ikke det. Jeg må forske litt på den, da. Det må jeg gjøre. All right.
+
+146
+00:31:09,937 --> 00:31:14,838
+Jeg må jo bli ferdig nå, da. Jeg kan jobbe lenge med denne greia der, ser 
+du.
+
+147
+00:31:20,918 --> 00:31:22,299
+Han lager lenge med det
+
+148
+00:31:27,082 --> 00:31:38,330
+der. Hva var det han jobba med nå? Det var å sette inn i rapporten figurer 
+og litt sånn? Nei, nå prøvde han å fikse jeg òg. Men han pleier det ikke,
+
+149
+00:31:38,350 --> 00:31:44,775
+ser du. Så vi driter i det, men jeg må forske litt på det. For det skal være 
+viktig for de fleste.
+
+150
+00:31:49,555 --> 00:31:53,876
+Greit. Får bare
+
+151
+00:31:57,916 --> 00:32:08,718
+ta den. Jeg liker å endre den nå, for nå vil jeg se hva den gjør. OK. Da er det 
+på planen igjen, folkens. Veldig viktig å bruke planmodus når du skal
+
+152
+00:32:09,438 --> 00:32:24,510
+generere nye ting inn i planen. Hvordan endrer du modus for å endre 
+modus? Du bare togler, da. Switch. Nei,
+
+153
+00:32:24,530 --> 00:32:33,993
+det er det ikke. Hvordan det går ut av planen vår, det vet jeg ikke 
+egentlig. Hvordan får du inn i planløsninga? Er det slash, og så
+
+154
+00:32:34,033 --> 00:32:38,295
+begynner du med planen, og så kommer forslaget, og så bare tabber du og 
+fullfører?
+
+155
+00:32:48,010 --> 00:32:53,875
+Nei, nå gjorde vi sikkert dumme ting.
+
+156
+00:32:56,217 --> 00:33:06,785
+Ja. Det må jeg også sjekke ut, faktisk. Jeg bruker aldri å gå ut av 
+planmodus sånn med vilje, hvis du skjønner. Så det må jeg nesten sjekke
+
+157
+00:33:06,805 --> 00:33:19,812
+ut. Det fins helt sikkert en måte å gjøre det på. Jeg må bare spørre ... Jeg 
+må søke på det. Men nå er vi i planmodus, det er viktig. Vi skal nå gjøre
+
+158
+00:33:20,012 --> 00:33:28,298
+neste task. Sette inn tekst og figurer.
+
+159
+00:33:31,480 --> 00:33:35,764
+Det blir spennende. Ja, det blir spennende?
+
+160
+00:33:41,946 --> 00:33:49,099
+Ja, når du trykker på krøllene for rapport, så kommer du opp med forslag 
+som du bare kan tabbe. Ja, veldig. Og da trenger du ikke skrive stien,
+
+161
+00:33:49,139 --> 00:33:51,322
+bare skriv et eller annet, så finner han den.
+
+162
+00:34:05,618 --> 00:34:15,483
+Nå kommer det forslag om hvor i reporten jeg skal skrive. Jeg vet jo 
+allerede hvor ting skal hen. Men det er ikke sikkert dere vet det. Og da
+
+163
+00:34:15,563 --> 00:34:30,051
+spør AIN og prøver å komme i en dialog, da. Men er dere usikre på disse 
+tingene her, så les i sjølve report. Eller les også ... Åg, mener jeg. Les
+
+164
+00:34:30,131 --> 00:34:34,193
+også den blekka som vi la ut på vitenskapelig skriving, da.
+
+165
+00:34:40,735 --> 00:34:45,437
+Så nå er vi på report der. Og den rapporten ser jo sånn ut.
+
+166
+00:35:11,724 --> 00:35:13,084
+La oss se hva planen innebærer.
+
+167
+00:35:17,645 --> 00:35:28,267
+For Aktivitet 3.1 bør dere skrive inn innhold i tre deler av rapporten. 
+Antagelse. Datakvalitetsantagelsen. Det syns jeg høres bra ut, syns
+
+168
+00:35:28,287 --> 00:35:40,950
+du ikke? At vi legger til grunn at dataene er kvalitetssjekka. Så den 
+antagelsen er det bare å få inn så fort som mulig. Hva dere gjorde med
+
+169
+00:35:41,010 --> 00:35:54,239
+datasettet. Det er riktig. Men sju analyse, det er ikke helt riktig. For 
+dette er egentlig ikke en analyse. Dette er en beskrivelse. Og hvor i
+
+170
+00:35:54,299 --> 00:36:04,786
+rapporten er det vi har beskrivelse hen? Det står kapittel fire 
+case-beskrivelse. Her skal problemstillingen utproduseres for den
+
+171
+00:36:04,806 --> 00:36:15,676
+bedriften du samarbeider med. Hva med all relevant informasjon som er 
+nødvendig? Så her skal vi på en måte presentere caset, og hvordan
+
+172
+00:36:18,357 --> 00:36:29,222
+ting ser ut i dag, på en måte. Salgsdata er klassiske ting som ... Her er as 
+is, da. Ikke sant? Så vi har ikke gjort noen analyse. Vi har bare
+
+173
+00:36:29,262 --> 00:36:36,322
+visualisert de rådataene som var med. Vi har vaska dem riktig natt. 
+Eller ikke gjort det, for de var så gode. Så her har vi ikke gjort noen
+
+174
+00:36:36,342 --> 00:36:48,167
+analyse og manipulasjoner eller transformasjoner. Vi har bare ren 
+plott av det. Og dette er Keiser, og dette er visualiseringa. Så dette
+
+175
+00:36:48,207 --> 00:36:58,479
+tilhører Keiser, da. Der de skal presentere bedriften, hva som har 
+skjedd og hvordan den ser ut, og problemstillinga de har da. Typiskvis
+
+176
+00:36:58,499 --> 00:37:05,983
+vil casebeskrivelsen være ganske stor, egentlig. Her er det masse info 
+som kan komme. Men vi kjenner jo ikke til så mye, så dette blir et kort
+
+177
+00:37:06,023 --> 00:37:18,010
+kapittel for oss. Men jo mer ... Jo, det er naturlig, og alt som har med 
+bedriften å gjøre, som er spesifikt for det caset dere ser på, skal inn
+
+178
+00:37:18,031 --> 00:37:28,493
+der. Bl.a. den type data som dere så nå. Så her må vi si fra til A1. At, 
+nyhet,
+
+179
+00:37:32,314 --> 00:37:35,295
+dette er ikke ... Vi har ikke gjort
+
+180
+00:37:46,658 --> 00:37:53,180
+bedriftens
+
+181
+00:37:53,260 --> 00:37:58,339
+faktiske ... Så
+
+182
+00:38:00,420 --> 00:38:05,203
+analysen vil handle om prognosene.
+
+183
+00:38:27,282 --> 00:38:32,704
+Jeg vet jo det, men jeg har lyst til å se om han skjønner at han skal putte 
+det inn i kapittel 4. Ja, det er litt spennende.
+
+184
+00:38:57,320 --> 00:39:12,583
+Når man skal beskrive en hel rapport, som dette her, så må AIN ha hjelp av 
+oss til å strukturere ting. Vi er sjefen over strukturen. Og her ser du at
+
+185
+00:39:12,643 --> 00:39:16,204
+en trenger hjelp.
+
+186
+00:39:16,344 --> 00:39:19,145
+Da foreslår jeg i 5.2, men dette her er feil. Det er ikke riktig.
+
+187
+00:39:25,180 --> 00:39:38,688
+I papirer 5-1 og 5-2 er det bare metodikk og hvor dataene blir henta fra. 
+Integriteten i dataene. Hva slags data er det?
+
+188
+00:40:56,643 --> 00:40:59,746
+Så jeg vil gjerne at han skal være enig da. Så
+
+189
+00:41:02,328 --> 00:41:03,469
+skal vi se om han blir enig.
+
+190
+00:41:07,372 --> 00:41:18,502
+Ja, hva er case fire? Jeg var den fire, egentlig. Ja, jeg skrev feil. Jeg 
+skrev feil. It's been a long day. Ja, det kan hende at han greier å forstå
+
+191
+00:41:18,542 --> 00:41:30,514
+det? Ja, han skjønte det. Ja, jeg er enig, ja. Se der, ja. Det var ikke 
+verst. Dette er jo kjempebra. Legger også inn.
+
+192
+00:42:34,265 --> 00:42:45,468
+Det er ofte viktig å begrunne hvorfor vi gjør det vi gjør. Denne 
+bedriften har noen utfordringer, da. Ikke sant? Dette datasettet gir
+
+193
+00:42:45,608 --> 00:42:52,771
+utfordringer til bedriften og ... utfordringer.
+
+194
+00:43:01,130 --> 00:43:10,476
+Jeg tror de la inn et siste avsnitt under case-beskrivelse, hvilke 
+utfordringer de møter. Som er med å bygge opp under hvorfor vi gjør
+
+195
+00:43:10,496 --> 00:43:23,564
+dette. Hva er oppsida og nedsida? Implement is plan. Yes, go for it. Nå 
+kjører vi på. Her får vi generert en del av teksten i rapporten. Lovlig,
+
+196
+00:43:23,624 --> 00:43:23,884
+er det ikke?
+
+197
+00:43:31,505 --> 00:43:39,835
+Og med litt figurer og sånn, syns jeg det er spennende å se hvor bra eller 
+dårlig de blir implementert i rapporten.
+
+198
+00:43:44,320 --> 00:43:53,566
+Han skjønner at han skal fjerne den generiske malteksten med 
+prosjektspesifikt innhold. Setter inn figurene og tabellen der de
+
+199
+00:43:53,586 --> 00:44:06,269
+hører hjemme. Typisk nå så gjør de litt feil når de skal linke opp til 
+figurene. Så det må jeg sannsynligvis jokke litt til før vi blir
+
+200
+00:44:06,309 --> 00:44:14,051
+ferdige. Vi er litt på overtid, men jeg har lyst til å bare konkludere den 
+siste biten her før vi tar kveld. Ja, det har vært innmari bra. For nå får
+
+201
+00:44:14,071 --> 00:44:28,456
+vi en naturlig slutt som vi kan fortsette med på mandag. Her har det 
+plutselig dukket opp ting. Oi, så fint. Her ser det bra ut, ja. Der er det
+
+202
+00:44:28,516 --> 00:44:38,143
+en liten ting jeg har lyst til å kommentere, folkens. Se på figur 4. Her 
+ser vi at en nå har føringer og veit hvordan figurtekster som skal være.
+
+203
+00:44:38,223 --> 00:44:48,650
+Standardene for det er jo inne i Word-malen vår, som vi nå har tatt inn i 
+MD-fila. For det er viktig at det er god figurtekst og beskrivende. Så en
+
+204
+00:44:48,690 --> 00:44:57,157
+figur skal være standalone. Det betyr at en person ... Skal greie å 
+forstå det som er i figuren, bare ved å lese figurteksten og se på
+
+205
+00:44:57,198 --> 00:45:04,904
+figuren, uten å være tvunget til å gå til hovedteksten for å forstå 
+innholdet i figuren. Det er liksom regelen. Og da har du ei setning eller
+
+206
+00:45:04,964 --> 00:45:15,234
+to i figurteksten. Så nå ser vi allerede at rapporten begynner å ta litt 
+form, sjøl om vi ikke har begynt på mange ting ennå, som analyse og sånne
+
+207
+00:45:15,274 --> 00:45:24,746
+ting, som vi skal se på seinere. Så et par ting jeg har lyst til å gjøre her. 
+Jeg vil gjøre bildene litt mindre, slik at de ikke tar hele ... Det blir
+
+208
+00:45:24,786 --> 00:45:27,127
+litt sånn ... Det er vanlig at bildene er litt mindre.
+
+209
+00:45:31,887 --> 00:45:32,007
+Ja.
+
+210
+00:45:44,470 --> 00:45:52,689
+Rett. 70 %, skal vi si det? Ja, du kan bare prøve på det. Og så en ting til som 
+vi ikke skal bruke for mye tid på nå, men vi bare nevner det. Jeg syns det
+
+211
+00:45:52,709 --> 00:46:04,734
+ble bra når du holdt på å oppdatere kompaniet vårt i log 650, at vi tok litt 
+mindre tekst på figurteksten sammenlignet med hovedteksten. Det så
+
+212
+00:46:04,774 --> 00:46:10,597
+litt mer proft og bedre ut, men det skal vi ikke bruke for mye tid på nå. Men 
+det kan jo være ...
+
+213
+00:46:18,027 --> 00:46:22,012
+Det er et forbedringspotensial. Ja. Så da bare ga jeg den litt sånn ...
+
+214
+00:46:25,736 --> 00:46:35,167
+Litt sånn byte. OK. Nesten. Og så må vi kanskje si at en må sentrere, da. 
+Det blir neste.
+
+215
+00:46:46,580 --> 00:46:52,801
+Kanskje litt lenger å ha litt lengre figurer, men det kan vi komme 
+tilbake til på mandag.
+
+216
+00:46:59,462 --> 00:47:03,663
+På avissatela settes det etter 80 %? Ja. Det kan være greit. Sånn. Skal vi 
+se om vi klarer det.
+
+217
+00:47:21,342 --> 00:47:29,848
+Ja. Han klarte bildet, men klarte ikke helt teksten. Det er ofte å si at 
+'du fikk det ikke helt til', prøv en gang til. Så ofte er det ofte en greie.
+
+218
+00:47:30,348 --> 00:47:35,952
+For når han gjør det en gang nummer to, så skjønner han at han må ha en annen 
+innfallsvinkel, og prøver å gå litt andre veier.
+
+219
+00:47:54,451 --> 00:47:58,153
+Så han går ut med figurteksten, vil at den skal være sentrert og 
+slentret.
+
+220
+00:48:04,735 --> 00:48:14,792
+Der, ja. Fikk han nå det? Kjempemessig, altså. Supert. Da må du ta vekk 
+den gamle figurteksten, ser du. Han deler hovedteksten, ja. Ja, dette
+
+221
+00:48:14,832 --> 00:48:25,155
+er hovedteksten, ja. Ja. Jeg gjorde figurteksten litt mindre nå, da. Og 
+sentrert, for da ser du hva som er enklere å skille hovedtekst fra
+
+222
+00:48:25,335 --> 00:48:25,876
+figurtekst.
+
+223
+00:48:28,376 --> 00:48:35,879
+Ja. Da kunne jeg jokka litt på tabellene og gjort dem litt finere òg. Men 
+dere må huske på at dette markdown er ikke det endelige som dere skal
+
+224
+00:48:35,919 --> 00:48:45,621
+levere inn. Så dere trenger ikke bruke altfor mye tid på sånn form og 
+farge, sjøl om det er greit å gjøre sånn som jeg gjorde her. Og nå har vi
+
+225
+00:48:45,941 --> 00:48:56,068
+lagd en del ting. Så jeg har lyst til å gjøre én siste ting, som er veldig 
+viktig før vi tar kvelden. Det er at de skal lage en spesifikk fil. Den
+
+226
+00:48:56,108 --> 00:48:58,069
+heter Agents, med store bokstaver.
+
+227
+00:49:01,251 --> 00:49:09,817
+Og den pila leser codex, leser den alltid når den starter. Altså legge 
+inn.
+
+228
+00:49:47,665 --> 00:49:59,436
+Det jeg gjør nå, er at vi får A1 til å huske det. Vi har jo rettleda A1 på 
+flere områder nå. Og nå gir i A1 hukommelsen, slik at en leser agents'
+
+229
+00:49:59,576 --> 00:50:10,550
+MD-filer hver gang i starter codex på nytt igjen, så vil en da ikke gjøre 
+de samme feilene. Så nå vil en ... Nå vil den skrive at heretter skal
+
+230
+00:50:10,610 --> 00:50:22,418
+bildene sentreres, og du skal bruke mindre font, og det skal være 
+italic, vi skal bruke pass på æ òg, osv. Du kaller også den fyren for
+
+231
+00:50:22,518 --> 00:50:34,927
+agent, og ikke skills, f.eks.? Ja, skills har vi en annen plass. Det er 
+oppe her i Kodeks. Det er en relativt ny sak, men det kommer vi til etter
+
+232
+00:50:34,947 --> 00:50:45,118
+hvert, da. Ja, men det vi ønsker nå, slik han har hukommelse til neste 
+gang vi restarter,
+
+233
+00:50:45,218 --> 00:50:56,678
+det er mer naturlig, mener du, å ha i en egen separat field, som du kaller 
+agent, og ikke naturlig å ha det i skills? Ja, for at skills er jo en ny
+
+234
+00:50:57,179 --> 00:51:06,450
+folderstruktur til disse agentene. Men den er sånn at den leses on 
+demand, da. Det er ikke sånn at en nødvendigvis har lest det som står i en
+
+235
+00:51:06,470 --> 00:51:16,532
+skills. Men agents.md, det er en field en alltid leser. Så det er en 
+standard, det altså? Det er noe jeg vil at Ain alltid skal huske. Er det en
+
+236
+00:51:16,552 --> 00:51:29,460
+standard globalt eller noe bare vi lobalt har hodet på? Det er globalt, 
+ja. Agents er en standard for Codex. Claude har tilsvarende. Da heter
+
+237
+00:51:29,480 --> 00:51:47,807
+den claude.md. Og Gemini har gemini.md. OK. Og Codex har agents, altså? 
+OK. Nå er jeg ferdig, så nå tar jeg og sier OK. Dere må selvfølgelig lese
+
+238
+00:51:47,827 --> 00:51:55,272
+over det Aina har gjort. Og innmari lurt å bare se på diff-en. Hadde jeg nå 
+bare hatt ...
+
+239
+00:52:01,816 --> 00:52:15,242
+Ja, det var synd, da. Han bruker denne nall... Hadde vi kunnet se på Diffe 
+nå, skulle det vært fint. Men det klarte vi ikke.
+
+240
+00:52:20,726 --> 00:52:25,829
+Jeg skulle gjerne hatt tekstformatet nå, da. Anyway.
+
+241
+00:52:29,432 --> 00:52:46,403
+Om ikke ... Nå er vi ferdig. Så nå, da. La oss si at nå er jeg ferdig, så nå går 
+jeg ut av Kodek. La oss si at neste gang, på mandag, så starter jeg igjen.
+
+242
+00:52:48,145 --> 00:53:02,988
+Nå har Kodeks lest denne fila her allerede. Så nå vet Kodeks hvordan 
+bildene skal sentreres og alines. Slik at en ikke gjør den feilen på nytt
+
+243
+00:53:03,008 --> 00:53:12,935
+igjen. Hvis ikke så måtte vi gjort dette på nytt igjen og nytt igjen. Om 
+igjen og om igjen. Og det er litt ... Da gir vi bare mer arbeid til oss sjøl.
+
+244
+00:53:13,436 --> 00:53:23,159
+Nå så vil AN huske at ja, jeg skal lage bilder med kursiv bildetekst på 
+denne måten. Very good. Sant.
+
+245
+00:53:51,205 --> 00:53:58,850
+Og så går vi til log 650, 'repositories',
+
+246
+00:53:58,930 --> 00:54:12,217
+og der er jo mitt case. Og dette er jo åpent for alle. Så hvis dere har lyst 
+til å se hva jeg har gjort her og nå i dag, så er det bare å trykke på den, ta
+
+247
+00:54:12,238 --> 00:54:21,100
+med HTPS, spille den og klone prosjektet hos dere. Ja. Da må du passe på å 
+si at du skal ha det i en riktig folder.
+
+248
+00:54:48,547 --> 00:54:57,673
+Så da tenker jeg at vi er ferdige for i dag, og så får vi fortsette på 
+mandag. Sett opp klokka tolv til tre. Jeg har allerede sendt en
+
+249
+00:54:57,733 --> 00:55:05,618
+ombestilling. Jeg kan gjerne sende ut en kunngjøring før du tar helg 
+hvis du har mulighet, og si at vi starter også på mandag, har tre timer da,
+
+250
+00:55:06,319 --> 00:55:15,802
+og ønsker en god helg da, slik at han vet at han er psykisk forberedt på at 
+det er snø på mandag. Ja. Og nå har vi gjort unna mye av infrastrukturen,
+
+251
+00:55:15,842 --> 00:55:27,950
+folkens. Så på mandag kan vi nesten gå i gang direkte på neste steg. Og 
+bare begynne å generere modellene og resultatene. Og vi skal få det
+
+252
+00:55:28,050 --> 00:55:39,477
+banka inn i rapporten. Herlig, Rune. Takk for i dag og god helg. Det var 
+bra at det ble bra. Håper at dette skal hjelpe på videre. Og så kjører vi på
+
+253
+00:55:39,577 --> 00:55:40,217
+på mandag også.
+
+254
+00:55:43,103 --> 00:55:45,213
+God morgen, folkens. Takk for i dag.
+

@@ -1,0 +1,936 @@
+1
+00:00:02,056 --> 00:00:12,223
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Dagens 
+første time. Vi setter litt ekstra krutt inn nå, fordi vi ønsker å bli
+
+2
+00:00:12,283 --> 00:00:26,674
+ferdig med den viktige fasen. Som er sjølve rapportskriving og data, 
+som vi gjorde på fredag. Og vi ser at den store fasen vår tar litt lengre
+
+3
+00:00:26,694 --> 00:00:29,796
+tid, så vi er fortsatt også på i dag, onsdag.
+
+4
+00:00:32,431 --> 00:00:47,461
+Så da rigger jeg på og rigger. Det er også det å kunne hente opp igjen den 
+informasjonen og der vi slutta sist gang. Vi hadde et statusark,
+
+5
+00:00:47,481 --> 00:00:55,947
+status.md-fil, som vi tikka av arbeidsoppgavene og to do-lista vi 
+hadde. Og vi har kommet et stykke på den lista.
+
+6
+00:01:07,244 --> 00:01:12,986
+Vi er kommet så
+
+7
+00:01:13,026 --> 00:01:14,927
+langt. Vi skal ta en titt på rapporten også. Nice.
+
+8
+00:01:45,753 --> 00:01:53,156
+Vi skulle sendt trerålaget i tellekskriften også på tabellteksten, 
+ikke bare figurteksten. Men det er en sånn bagatell vi kan ta etter
+
+9
+00:01:53,176 --> 00:01:53,476
+hvert. Ja.
+
+10
+00:01:56,877 --> 00:02:06,780
+Syns du at det skal være det? Du syns det skal være det? Ja, hvis vi har det 
+på figurteksten, så syns jeg vi skal ha det på tabellteksten. Slik at den
+
+11
+00:02:06,840 --> 00:02:25,264
+er konsistent. Jeg syns det er bra, for da skiller figurteksten seg ut 
+fra meinteksten. Herlig.
+
+12
+00:02:26,945 --> 00:02:38,769
+Bra. Da har jeg gjort noen sånne småting, som er ofte litt kjekt å ha. 
+Tenker jeg skal vise til dere, men da må jeg først starte. I dag kommer jeg
+
+13
+00:02:38,789 --> 00:02:40,090
+til å kjøre med Claude.
+
+14
+00:02:47,498 --> 00:02:57,426
+Og kan også ... Vi holder på å jobbe hardt med å få på plass disse brukerne 
+til noe, da. Selvfølgelig. Ja. Jeg sendte en mail til DKH-en, har ikke
+
+15
+00:02:57,446 --> 00:03:02,190
+fått svarene. Venstre prøver å følge opp. Så det skal jeg jo la ...
+
+16
+00:03:18,700 --> 00:03:28,005
+Vi er i en situasjon hvor vi har gjort et arbeid, og så har vi lagt det fra 
+oss. Og så kommer vi neste dag, og vi skal begynne på igjen. Og så må vi
+
+17
+00:03:28,365 --> 00:03:29,606
+gjennom denne
+
+18
+00:03:32,007 --> 00:03:40,392
+samme repetisjonen, hvor vi prøver å fortelle til Ain og til oss sjøl hva 
+har blitt gjort, hva skal gjøres.
+
+19
+00:03:50,037 --> 00:04:03,789
+Når du jobber med A1, så er det umiddelbart en kandidat for en såkalt 
+slash command. Slik at du slipper å stå der og skrive de samme prompene
+
+20
+00:04:03,829 --> 00:04:17,850
+dag ut og dag inn. For nå skal vi jo ha en sånn promp der vi sier at les siste 
+story og liksom get up to speed. Det er en klassiker. Det er en typisk
+
+21
+00:04:17,890 --> 00:04:27,635
+kandidat for en såkalt slash-kommand. Slash-kommand er når du tar en 
+slash, og så får du disse kommandoene her, sant.
+
+22
+00:04:30,756 --> 00:04:39,661
+Så jeg har ikke lyst til å stå der og skrive opp om igjen den samme 
+prompten. Om igjen og om igjen og om igjen. Dette jobber vi jo med ...
+
+23
+00:04:46,079 --> 00:04:49,621
+Derfor
+
+24
+00:04:49,641 --> 00:05:01,489
+har jeg lagd to slash-commands. Én heter prime, og én heter handoff. Det 
+prime gjør, er en klassisk get up to speed-kommando. Der står det
+
+25
+00:05:01,569 --> 00:05:11,902
+arbeidsmåte, kartlegg prosjektstrukturen, les prosjektets 
+nåværende status. For å forstå faktisk progresjon i repo-e. Les bare
+
+26
+00:05:11,942 --> 00:05:22,412
+relevante detaljer fra oppgaven du får. Faglig kontekst som skal ligge 
+fast. Vi kjører en sånn, da. Så da kan vi skrive prime. Og neste kommer
+
+27
+00:05:22,472 --> 00:05:30,659
+prime. Og så kan vi kjøre den kommandoen. Så i stedet for å måtte skrive 
+samme prompten om igjen og om igjen, så kan vi kjøre prime, da. Trykker på
+
+28
+00:05:30,719 --> 00:05:44,162
+prime. Så vil de da lage et sammendrag av hva som har skjedd så langt. Det 
+er altså ikke en kommando vi har laga, men en global kommando? Nei, det er
+
+29
+00:05:44,262 --> 00:05:55,166
+en kommando vi har laga. Vi har putta den inn under Claude Commands prime 
+over Carlton. Dette er typisk use case for Claude Code, hvor du lager en
+
+30
+00:05:55,206 --> 00:06:00,248
+slash-kommand for noe som du føler at du gjentar det sjøl.
+
+31
+00:06:03,215 --> 00:06:07,277
+Ja,
+
+32
+00:06:10,599 --> 00:06:15,062
+OK. Det er ikke riktig.
+
+33
+00:06:52,122 --> 00:06:54,324
+Her burde vi egentlig rett og slett ... ...
+
+34
+00:07:02,371 --> 00:07:03,972
+her burde vi rett og slett
+
+35
+00:07:09,497 --> 00:07:10,217
+forbedre,
+
+36
+00:07:12,879 --> 00:07:13,460
+skrive om.
+
+37
+00:07:28,315 --> 00:07:40,319
+Litt større tekst. Ja. Ja,
+
+38
+00:07:40,399 --> 00:07:43,641
+nå er det bra. Greit.
+
+39
+00:07:48,583 --> 00:07:51,464
+For bruk av kommandolinjen CMD i stedet for PowerShell og ...
+
+40
+00:08:00,817 --> 00:08:19,465
+Sånn.
+
+41
+00:08:20,806 --> 00:08:22,947
+Hvis jeg tar Claude Code-komme.
+
+42
+00:08:26,045 --> 00:08:35,669
+Her er den oppsummeringa. Status ... Prosjekt. Fullført så langt. 
+Gjenstående aktivitet 3.2. Nøkkelfiller. Klar til å jobbe videre. Så
+
+43
+00:08:36,089 --> 00:08:46,214
+hensikten her er å gi oss sjøl en liten oppkvikker på hva som ble gjort, 
+men også selvfølgelig hva som var blitt gjort, og hva som gjenstår, ser
+
+44
+00:08:46,234 --> 00:08:46,314
+vi.
+
+45
+00:08:49,755 --> 00:09:08,044
+Klar til å jobbe videre. La oss ... Se på den. Bare sjekke hva ... Right. Så 
+nå fikser jeg primen. Yes. Greit, da. Tenker ikke å skrive om den på nytt
+
+46
+00:09:08,165 --> 00:09:12,589
+ennå.
+
+47
+00:09:12,629 --> 00:09:12,969
+Skal vi se.
+
+48
+00:09:34,895 --> 00:09:40,783
+Legg merke til det at dette er en del av analysen.
+
+49
+00:09:45,971 --> 00:09:47,132
+Setter på planmodus.
+
+50
+00:10:04,409 --> 00:10:14,612
+Ja. For når vi begynner å behandle dataene og manipulere dataene, og ta 
+logg av dataene og ta differensiering, da er vi usikre på om det er
+
+51
+00:10:14,672 --> 00:10:26,606
+analyse eller om det er en del av dataen. Så da kan vi faktisk spørre AIN om 
+det. Ja. Vi har jo en modellbeskrivelse. Men så har vi også en analyse.
+
+52
+00:10:27,106 --> 00:10:38,895
+Modellen beskriver hva vi skal prøve å løse. Mens analysen, da begynner 
+vi å jobbe med å komme med en spesifisering og løsning. Jeg innbiller meg
+
+53
+00:10:38,955 --> 00:10:44,359
+at 6-4 kanskje burde vært på analyse. Vi kan se.
+
+54
+00:11:03,944 --> 00:11:13,970
+Han anbefaler faktisk å holde det. Men da fikk vi landa det, da. Supert. 
+Hvis du ikke på enter, så er det gjort. Herlig.
+
+55
+00:11:18,093 --> 00:11:27,077
+Men denne tida ... Kan vi utfordre andre på intuisjonen vår, og bare 
+spørre, da? Så kommer den med en anbefaling. Er du usikker, så bare spør
+
+56
+00:11:27,097 --> 00:11:35,246
+du. Så får du ha en diskusjon med Ain, og så lander vi som vi gjorde. Det er 
+sånn vi ønsker at dere skal jobbe med Ain. At dere skal ikke ta alt på god
+
+57
+00:11:35,286 --> 00:11:45,505
+fisk. Dere må jobbe kritisk. Og være litt kritisk til både seg sjøl og hva 
+en møter opp til. Her var jeg litt kritisk til meg sjøl også. Vi var ikke
+
+58
+00:11:45,525 --> 00:11:54,453
+helt enige med meg sjøl om det burde være en del av analysen eller en del av 
+modellbeskrivelsen. Og her ble det argumentert for at det er en del av
+
+59
+00:11:54,833 --> 00:11:57,495
+modellbeskrivelsen, da. Supert.
+
+60
+00:12:14,228 --> 00:12:19,351
+Neste
+
+61
+00:12:19,411 --> 00:12:24,994
+steg er å velge Sarima-spesifikasjon.
+
+62
+00:12:26,575 --> 00:12:30,537
+Det å velge Sarima-spesifikasjon, betyr i prinsippet å finne ut
+
+63
+00:12:37,401 --> 00:12:47,011
+hvor lang skal den glidende gjennomsnittet være, og hvor langt skal 
+legget være. Det er mange parametere som må bestemme, som er i den
+
+64
+00:12:47,031 --> 00:12:57,678
+modellen. Ikke bare variablene, men også parameterne. Og de 
+parameterne må vi da bestemme for vårt spesifikke tilfelle. Ja. Så det
+
+65
+00:12:57,718 --> 00:13:05,804
+vi skal bestemme her, er jo sånn som den D-en der og den D-en der. Altså 
+disse
+
+66
+00:13:06,765 --> 00:13:20,786
+horisontene i modellen. Ikke sjølve parametrene, men den P-en der skal 
+vi bestemme. Og kuen der. Hvor lang er disse avhengighetene der. Og den
+
+67
+00:13:20,846 --> 00:13:28,468
+store P-en der og den store kuen der. Det er det vi skal bestemme først. 
+Når vi veit det, så skal vi bestemme alle fiaene. Så det skjer i to steg,
+
+68
+00:13:28,488 --> 00:13:33,049
+da. Dette er også beskrevet i Jenkins-modellen. Skal vi se om vi finner 
+den fila.
+
+69
+00:13:40,527 --> 00:13:40,847
+Her
+
+70
+00:13:48,832 --> 00:14:02,519
+er den. Steg tre er vi på nå. Det er ACF, autokorrelasjonsfunksjon, og 
+partial autokorrelasjonsfunksjon. Den bestemmer hvordan dataene er
+
+71
+00:14:02,579 --> 00:14:17,664
+avhengig av historikken, hvor lange horisontene er. Det er det steget 
+her vi skal gjøre nå, da. Steg tre. Det svarteste, da. Det er neppe at vi
+
+72
+00:14:17,704 --> 00:14:28,409
+blir ferdig i dag. Ja, vi får så bare prøve så godt vi kan. Vi får prøve å bli 
+ferdig med tre og fire i dag, og så kanskje vi tar noe på mandag igjen, da.
+
+73
+00:14:29,009 --> 00:14:45,551
+Så får det være slutten, da. Men som PK sa, vi tar i litt akkurat nå for å gi 
+dere nok ... Kjøtt på beinet til å gjøre analysene sjøl. Det
+
+74
+00:14:45,591 --> 00:14:49,714
+er nå vi kjører den store biten her.
+
+75
+00:14:55,298 --> 00:15:08,637
+Jeg kan nevne det mens ... Bare husk at Toad Cove bruker litt lengre tid. 
+Den er litt tregere. Så imens, mens A1 sitter og planlegger her, da. Så
+
+76
+00:15:08,697 --> 00:15:23,062
+ser dere denne prosessen her. Dette er en såkalt Box-Jenkins-prosess. 
+Men i alle sånne analyser og uavhengig av hvor casene er, vil det være noe
+
+77
+00:15:23,462 --> 00:15:36,507
+à la dette. Man vil ha som regel data, sjekke antakelser, bestemme 
+modellparametere og variabler, validere modellen og bruke modellen.
+
+78
+00:15:37,623 --> 00:15:46,350
+Det vil selvfølgelig variere fra case til case, men prosessen er 
+rimelig den samme. Det er bare innholdet i disse boksene som er
+
+79
+00:15:46,410 --> 00:15:53,256
+forskjellig. Det var det vi tenkte vi skulle få fram tydelig også
+
+80
+00:15:55,037 --> 00:16:08,424
+når det gjelder disse videre kapitlene vi skal generere. Så vil dere se 
+at denne prosessen her, den vil være så å si lik. Det er bare innmaten som
+
+81
+00:16:08,444 --> 00:16:11,966
+har endra seg.
+
+82
+00:16:16,567 --> 00:16:28,451
+Det er noe vi ønsker at dere skal kunne, fordi dette setter rammene rundt 
+hva A1 skal gjøre. Vi kan alltids lene oss på at A1 også kan denne
+
+83
+00:16:28,471 --> 00:16:39,935
+prosessen her. Men det er veldig bra input til Ain. Så denne prosessen 
+her burde vært spesifisert godt i prosjektbeskrivelsen. Dere
+
+84
+00:16:39,955 --> 00:16:50,365
+beskriver hvordan dere har tenkt å løse problemet ved hjelp av denne 
+prosessen. Og så vil da Ain ta den prosessen og planlegge for den.
+
+85
+00:16:50,725 --> 00:17:03,774
+Snakker vi om steg én til seks? Eller hører du innholdet med Box Jenkins? 
+Steg én til seks. Og så sier vi det at vi skal bruke den prosessen, men med
+
+86
+00:17:04,655 --> 00:17:17,565
+caset for Box Jenkins og Sarima. Slik at innmaten i den prosessen her 
+blir jo da spesifikt for prognosisering og Sarima. Og så tar du ... Du kan
+
+87
+00:17:17,785 --> 00:17:28,367
+bytte ut alt som er inni disse boksene med f.eks. ruteplanlegging, da. 
+Og det vil se ganske likt ut. Det er bare at du har andre formler, du har
+
+88
+00:17:28,427 --> 00:17:41,010
+andre tester, du har andre variabler du skal bestemme, og du har en annen 
+form for validering osv. Så ... Og det er viktig å ta med seg at dere må ha
+
+89
+00:17:41,070 --> 00:17:51,709
+kontroll på prosessen. Dere må fortelle og hjelpe A1 at det er sånn vi 
+skal gjøre det. La oss ta et eksempel som ruteplanlegging. Steg én er
+
+90
+00:17:51,729 --> 00:17:59,694
+naturlig, da har vi datainnsamling. Det skjønner vi generelt. Steg to, 
+stasjonalitet og sesonganalyse. Hvis vi har ruteplanlegging, så er
+
+91
+00:17:59,714 --> 00:18:10,321
+det steg to. Hva er da det analoge til steg to, f.eks. i ruteplanlegging? 
+Det kan f.eks. være antagelser rundt dataene dine som må være oppfylt,
+
+92
+00:18:10,601 --> 00:18:25,713
+eller variablene. Det som egentlig er steg to, er antagelser, 
+egentlig. Hva er steg tre hvis vi har ruteplanlegging? Det vil være å
+
+93
+00:18:25,753 --> 00:18:38,241
+bestemme variablene, da. Altså løse modellen. Steg fire er 
+modellestimering, og det vil være likt ruteplanlegging. Da vil det
+
+94
+00:18:38,261 --> 00:18:51,471
+være tilsvarende. I ruteplanlegging vil steg tre og steg fire være ett 
+steg, egentlig. Man får sånne nyanser, men skjelettet vil ca. være det
+
+95
+00:18:51,511 --> 00:19:00,478
+samme. Steg 5 vil også være i ruteplanlegging for modellvalidering. 
+Altså det å gjøre en stresstest og sjekke at modellen faktisk er
+
+96
+00:19:00,538 --> 00:19:10,766
+rimelig. Det gjelder også for ruteplanlegging. Når det gjelder 
+modellvalidering, det er da du bruker testdataene dine for å sjekke opp
+
+97
+00:19:10,806 --> 00:19:22,506
+hvordan. Da vil du se ... Sånn som steg 5 i ruteplanlegging ville vært 
+sånn som dette her. I fjor hadde vi de og de rutene. Det kosta så og så mye.
+
+98
+00:19:23,746 --> 00:19:35,069
+Hvis vi nå kjører modellen på det året, hvor stor forbedring får vi? Hvis 
+vi får nesten 0 % forbedring, dårlig. Da er modellen kanskje dårlig.
+
+99
+00:19:35,649 --> 00:19:47,701
+Hvis vi får en god forbedring, supert. Gir også svarene noe ... Sånne 
+syke resultater som kanskje ikke er gjennomførbare, dårlig. Den type
+
+100
+00:19:47,881 --> 00:19:49,722
+vurdering, da. Så skal vi se her.
+
+101
+00:19:55,065 --> 00:20:04,031
+Ja. Lage en ny Python-file. Samme kodemønster. Plotte. Bra. Manuell 
+grid.
+
+102
+00:20:07,253 --> 00:20:14,318
+Kandidater, ja. Produserer noen bilder. Pluss en resultatfil.
+
+103
+00:20:17,883 --> 00:20:32,291
+Bruk av Statsmodel, det er jo da et bibliotek i Python. Hva var det du 
+satte i gang Claude med nå som vi har en mørkelig tid? Planlegging. Hva
+
+104
+00:20:32,331 --> 00:20:34,031
+var det du skrev, jeg bare husker ikke
+
+105
+00:20:36,833 --> 00:20:38,534
+det. Hva kommanderte du ham til å gjøre, på A-fronten?
+
+106
+00:20:45,389 --> 00:20:57,236
+Supert. Da kan vi gå videre til neste steg, lage en god plan for dette. 
+Husker vi hadde den primen, sant? Ja.
+
+107
+00:21:01,258 --> 00:21:09,563
+Men det jeg lurte på, var litt dette med manuell grid, en mer pedagogisk 
+transparent enn autoarima.
+
+108
+00:21:18,008 --> 00:21:26,688
+Så har vi maks. Det skal ikke være i det. Skal vi se. Prøver å spørre noen 
+spørsmål her.
+
+109
+00:22:25,154 --> 00:22:27,056
+Og så lurer vi på hva han mener med akkurat dette. Sånn.
+
+110
+00:22:34,241 --> 00:22:47,332
+Det er viktig at dere er litt sånn at dere jobber når du er i planmodus, at 
+det er viktig å jobbe med A1 da. Slik at dere ikke bommer for mye på første
+
+111
+00:22:47,492 --> 00:23:03,435
+forsøk. For da er det ofte ... Da bruker du mer tid enn ikke rakk. Vi har jo 
+allerede etablert fra Proposal at vi skal bruke Sarima og ikke
+
+112
+00:23:03,495 --> 00:23:12,657
+Sarimach, X-en, som er da external variables. Så vi har ingen eksterne 
+variabler her som prøver å forklare dette her.
+
+113
+00:23:19,745 --> 00:23:27,149
+At når det får tenkes om, når du konfronterer med det, så går han en ekstra 
+runde. Og kanskje kommer til en annen konklusjon, da. Det er kanskje
+
+114
+00:23:27,169 --> 00:23:36,714
+fordi vi ikke har vært tydelige nok til å spesifisere det tidligere. Vi 
+veit ikke heller at han har tatt feil konklusjon, så vi må bare våkne. Du
+
+115
+00:23:36,734 --> 00:23:38,474
+har lyst til å se hva han mener med den der nå?
+
+116
+00:23:48,398 --> 00:23:55,621
+Det jeg mener, er en manuell grid-search der vi eksplisitt definerer 
+kandidatmodellene, tilpasser hver enkelt og sammenligner. Gjør at
+
+117
+00:23:55,641 --> 00:24:05,725
+hvert steg i modellveien er synlig og forklarbart i rapporten. Ja, bra! 
+Kan du lese fra meg, for jeg så ikke hvor du var. Jeg leser dette her. Ja, nå
+
+118
+00:24:05,745 --> 00:24:18,709
+ser jeg det. Det som skjer, er at en tester ut flere kandidater for hva 
+disse horisontene skal være. P, Q, stor P, stor Q. Om det skal være én
+
+119
+00:24:18,749 --> 00:24:33,742
+eller tre eller tolv osv. Da tester man ut en del kandidater og velger den 
+beste. Man skal teste ut noen kandidater hvor vi ser forskjellen og
+
+120
+00:24:33,822 --> 00:24:42,533
+velger den som er best. Det er det man tror man mener med manuell grid 
+source, der vi eksplisitt definerer kandidatmodellen. For han kunne
+
+121
+00:24:42,553 --> 00:24:51,937
+ha regna ut dette automatisk med noe som heter autoarimaer i 
+biblioteket. Det er sånn han sier det. Men han ønsker at vi skal gjøre det
+
+122
+00:24:51,957 --> 00:24:52,977
+manuelt. Og det er jeg enig i.
+
+123
+00:25:07,222 --> 00:25:25,389
+Dette er veldig bra, for at det å fjerne konteksten her, det er en god 
+ting. For da starter den fra scratch, og vi får mindre sånn
+
+124
+00:25:25,429 --> 00:25:37,712
+kontekst-rotta. Eller at kontekstvinduet vil blåse av. De sier ja her, 
+og det de vil, er at de husker planen sin. Han vil starte med et nytt
+
+125
+00:25:37,752 --> 00:25:47,401
+kontekstvindu. Det bruker jeg å si ja til når det er store ting. Ja, så nå 
+er han clear of memory, men han husker planen sin, da. Dette er en ny
+
+126
+00:25:47,601 --> 00:26:00,286
+funksjonalitet, så jeg syns det er veldig bra. Planen husker han. Men 
+context-vinduet er nå på nytt igjen. Så vi får bare bruke 4 %. Når vi har
+
+127
+00:26:00,666 --> 00:26:12,911
+brukt opp alle prosenter, greier ikke hjørna å komme her. Så vi må lage en 
+ny AI-sesjon når den blir rundt 100 %. Men når vi vet at vi skal ha en stor og
+
+128
+00:26:12,951 --> 00:26:22,637
+lang prosess, da er det bra at AI-en tar med seg det den trenger. Og lage en 
+ny seksjon, ta med det som er over, slik at en får starte på null. Slik at du
+
+129
+00:26:22,657 --> 00:26:32,543
+ikke begynner på en stor prosess og så er du på 95 %, for da veit du at du må 
+hoppe over til en ny en. Det er en kjent ting som heter 'context what',
+
+130
+00:26:32,643 --> 00:26:34,304
+altså at konteksten din råtner.
+
+131
+00:26:38,363 --> 00:26:50,749
+A1 har plass til flere tokens. Selv om A1 har plass til flere tokens, 
+betyr ikke det at du skal bruke det. Dette er en veldig kjent analyse som
+
+132
+00:26:50,769 --> 00:26:55,051
+blir gjort. Her ser dere kanskje den viktigste grafen.
+
+133
+00:26:57,032 --> 00:27:09,198
+Her er jo én megabyte. Det er det cloud og ... Altså veldig stor 
+input-lengde. Altså at du har mye historikk, da. Her ser dere at den
+
+134
+00:27:09,338 --> 00:27:19,948
+synker lenge før den tid, da. Hva er det som synker, da? Hva er det som er på 
+I-aksen her? Det er average normalized Levenstein score. Altså det ...
+
+135
+00:27:20,088 --> 00:27:34,317
+Det er en test, da. Jeg skjønner hvor god han er til å håndtere det. Ja, 
+hvor god han er til å håndtere mye kontekst, da. Den stuper, den går
+
+136
+00:27:34,377 --> 00:27:42,479
+nedover, den. Hvis dere vil lese om dette, kan dere legge det inn. Det er 
+veldig nyttig, veldig god lesning.
+
+137
+00:27:44,280 --> 00:27:55,024
+Fortell noe om hvorfor dere starter kontekstvinduet på nytt igjen. 
+Selv om jeg ikke har kommet fullt kontekstvindu, så er det lurt å ha det
+
+138
+00:27:55,064 --> 00:28:05,864
+sånn. Så sparsommelig som mye. Fordi Context Rot det starter allerede 
+tidlig.
+
+139
+00:28:07,544 --> 00:28:20,689
+Egenskapen til Ayen blir dårlig på en kontinuerlig måte her. Det er ikke 
+sånn at han plutselig blir dårlig. Han blir jevnt og trutt dårlig. Etter
+
+140
+00:28:20,709 --> 00:28:32,747
+hvert som du fyller opp med informasjon til Ayen. Det er kjent som 
+'context rotta'. Eller 'råtten context', som de sier. Veldig
+
+141
+00:28:32,767 --> 00:28:45,070
+interessant tekst. Her ser dere eksempler. Det kalles 'Needle in the 
+haystack test'. Hvor du legger inn en spesifikk setning inn i en stor
+
+142
+00:28:45,130 --> 00:28:52,032
+mengde med data. Og så får du et spørsmål. 'What was the best writing 
+advice I got from a colleague classmate?' Og så står det en eller annen
+
+143
+00:28:52,052 --> 00:29:00,702
+plass i teksten. Blanda inn med masse anna tekst. Du kan tenke at du har en 
+bibel. Og så står den setninga der en og annen plass midt i bibelen. Og så
+
+144
+00:29:00,742 --> 00:29:11,454
+får han et spørsmål. Og jo større bibelen blir, jo vanskeligere blir det 
+for Ain å finne akkurat den infoen. Sånn fungerer denne testen. Og da ser
+
+145
+00:29:11,494 --> 00:29:23,981
+dere at de legger inn ... Dette er på en måte nåla i høystakken. Og så måler 
+de, da. Og da kan man gjøre det verre for A1. For man kan legge inn på
+
+146
+00:29:24,021 --> 00:29:33,809
+forskjellige plasser i teksten en distraktor, da. Hvor du har en 
+setning som A1 plutselig kan velge den setninga istedenfor den
+
+147
+00:29:33,829 --> 00:29:45,538
+korrekte. Og på den måten måler vi hvor god A1 er til å håndtere store 
+datasetter. Veldig
+
+148
+00:29:45,578 --> 00:29:57,282
+interessant artikkel, som jeg anbefaler alle å lese tvers igjennom. 
+Den gir veldig mye god innsikt i akkurat dette. Så bottom line er, sørg
+
+149
+00:29:57,362 --> 00:30:13,049
+for å ha så lite bruk av konteksten som mulig. Til enhver tid. Da får du 
+best resultater. Derfor starta jeg på nytt med et kontekstvindu som er
+
+150
+00:30:13,349 --> 00:30:23,033
+blankt, selv om jeg ikke hadde brukt så veldig mye av det 
+kontekstvinduet som jeg allerede hadde. Jeg var vel på 8 % da jeg begynte
+
+151
+00:30:23,793 --> 00:30:33,777
+på nytt igjen. Og nå er jeg bare på 6 %. Alle steg i planen er gjennomført, 
+ja, her er sammendraget. Og dette opplever vi jo egentlig fordi at ...
+
+152
+00:30:40,688 --> 00:30:49,674
+Når vi planlegger godt, så vil sjølve gjennomføringa gå fortere. Da vil 
+Claude være ganske god på å gjennomføre det han har planlagt.
+
+153
+00:30:58,340 --> 00:30:59,981
+Skal vi se, da. Det blir spennende.
+
+154
+00:31:12,228 --> 00:31:13,408
+Men dette er vel ...
+
+155
+00:31:22,330 --> 00:31:24,030
+Her, ja. Dette er vel analyser òg.
+
+156
+00:31:28,031 --> 00:31:33,412
+For nå har han utvida og skrevet rapporten? Ja. Kommet til et nytt 
+kapittel 6-5 og 6-6.
+
+157
+00:31:41,793 --> 00:31:49,583
+Men så må vi spørre om det faktisk er naturlig å ha det i kapittel seks. 
+Eller i kapittel sju?
+
+158
+00:33:10,201 --> 00:33:18,611
+Ja. Jeg er litt enig i at det er den samme tvilen som vi hadde i sted. Nå ser 
+vi at en plasserer dette under modell.
+
+159
+00:33:21,715 --> 00:33:24,619
+Men da blir det litt tvil om hva analyse skal egentlig være.
+
+160
+00:33:40,323 --> 00:33:53,457
+Det er ennå litt tvil om 6-4 burde ligge under modellen. Dette er jo 
+konseptuelt, ikke sant. Tanken vår er jo det at du beskriver modellen.
+
+161
+00:33:53,597 --> 00:33:57,361
+Det er hva du skal løse. Hva skal du bestemme, sant?
+
+162
+00:34:00,927 --> 00:34:09,931
+Da løser du modellen. Så du har liksom to adskilte kapitler.
+
+163
+00:34:10,371 --> 00:34:24,417
+Én med generell modellbeskrivelse. En annen med selve løsninga. Siden 
+det er parameterne vi nå skal bare bestemme, så er det under modell. Og vi
+
+164
+00:34:24,438 --> 00:34:27,239
+har ikke begynt å løse det ennå. Så det er det som kommer inn i analysen.
+
+165
+00:34:31,015 --> 00:34:42,381
+Vi har begynt å løse det nå, ser du. Vi har testa ut parametere og regna på 
+data og sånn. Det har vi gjort bare. Her kommer jo ... Det å løse er vel å
+
+166
+00:34:42,461 --> 00:34:47,343
+finne variablene, mens det å beskrive modellen er å finne parametrene, 
+eller?
+
+167
+00:34:51,965 --> 00:35:05,678
+Ja, riktig. Så beskrive modellen betyr å beskrive den generelle 
+modellen som vi skal løse. Mens analysere betyr å finne de ukjente. Ja,
+
+168
+00:35:05,858 --> 00:35:15,622
+man sa at man må finne mellom parametere og variabler. Så det å løse 
+modellen er å finne en løsning for variablene. Mens det å spesifisere
+
+169
+00:35:15,662 --> 00:35:25,166
+modellen, det er å finne parameterne. Og det å finne parameterne er da i 
+kapittel seks-modell. Man sier at å finne variablene er i kapittel
+
+170
+00:35:25,206 --> 00:35:39,254
+sju-analyse. Er det rett tenkt? Det blir litt feil for meg. Ja, det 
+kalles parametere, men hvis du ser på modellen som står her, da. Da har du
+
+171
+00:35:39,374 --> 00:35:54,745
+fi 1 og fi 2. Det er jo ukjente koeffisienter. Ja, det er det. Sjøl om det er 
+én. Og p-en er ukjent horisont. Ja, én er det. Alt dette er ukjente
+
+172
+00:35:54,785 --> 00:35:55,226
+størrelser.
+
+173
+00:35:58,208 --> 00:36:09,719
+Det blir veldig ryddig. Egentlig er det kapittel seks. Det blir 
+relativt kort. Så blir det kapittel sju analyse, der vi ikke bare finner
+
+174
+00:36:09,799 --> 00:36:18,828
+variabler og løser dem, men også de spesifikke parametrene for vårt 
+spesifikke case. Hvis ikke Awayen er enig med oss der, så må vi bare
+
+175
+00:36:18,848 --> 00:36:19,309
+overstyre den.
+
+176
+00:36:29,056 --> 00:36:39,802
+Og da ser vi spørsmål om 6-4 skulle ha vært med eller ikke. Men 6-4 har noe 
+med å validere at modellen er riktig modell. Og det er ikke helt det samme
+
+177
+00:36:39,842 --> 00:36:54,770
+som å finne de ukjente, sant? Så jeg syns at 6-4 kan være der det er. For det 
+argumenterer for ... Ja, men det har jo med differensiering å gjøre, da.
+
+178
+00:36:59,549 --> 00:37:08,666
+Differensiering er jo i Niarima. Så den burde være på analyse, den òg. 
+Skal vi være tro mot dette her?
+
+179
+00:37:31,392 --> 00:37:47,165
+Med
+
+180
+00:37:47,225 --> 00:37:57,944
+nok persistens, så klarer du alltid å overtale en A1 til å gjøre akkurat 
+det du vil. Men vi prøver jo å ha en sunn dialog med A1 her, da. Men jeg mener
+
+181
+00:37:57,984 --> 00:38:04,887
+at det er empirisk arbeid, og da tilhører det et analysebit av.
+
+182
+00:38:14,971 --> 00:38:17,732
+Sånn, ja. Dette syns jeg er bra. Og nå får de ... Ja!
+
+183
+00:38:21,612 --> 00:38:33,082
+Da begynner vi på nytt igjen med en frisk kontekst. Så selv om 8 % er lavt, 
+så vet vi at det er lurt å starte med null, for da er den helt fersk og veldig
+
+184
+00:38:33,142 --> 00:38:43,491
+fokusert på at den skal gjøre på best resultat. Og husk at dette er én 
+megabyte, så det er jo ... Hvor stort vinduet ... Hvor mye har vi brukt
+
+185
+00:38:43,511 --> 00:38:45,813
+allerede? Det er jo 80 000 tokens da allerede.
+
+186
+00:38:50,198 --> 00:38:53,841
+Nå står det null her, og nå er vi på 20 000
+
+187
+00:38:56,424 --> 00:39:09,736
+K. Hvor brukes de 20 000 K-ene hen? Jo, det er system prompten, da. Som 
+Claude Code har bak i panseret sitt. System prompt tar jo alltid et visst
+
+188
+00:39:09,816 --> 00:39:11,318
+antall tokens, uansett, da.
+
+189
+00:39:15,865 --> 00:39:27,797
+Slik at vi forsto hva vi gjorde nå ... Ble Aien enig med oss? At vi flytta en 
+del av kapittel seks til sju, eller var vi så tvunget til å gjøre det? Han
+
+190
+00:39:27,817 --> 00:39:38,908
+ble enig om at vi flytta kapittel seks-fire også til kapittel sju. Ja, 
+jeg ser det. Ble han enig med oss der, eller tvang han til å gjøre det? Han
+
+191
+00:39:38,928 --> 00:39:51,350
+ble enig, da. Om vi tvang den? Ja, vi overtar den. Ja, kanskje. Ja. Men det 
+jeg ofte ser når vi diskuterer, er nye argumenter. Mer input til
+
+192
+00:39:51,670 --> 00:40:00,813
+situasjonen. Så ofte at en da kanskje får mer input, og derfor skal 
+trekke andre konklusjoner. Og derfor blir enig med oss der. Noen ganger
+
+193
+00:40:01,013 --> 00:40:08,556
+må jeg ta en sjefsavgjørelse, selvfølgelig. Men ofte så prøver jeg å 
+være spørrende, da. Jeg prøver liksom å la ... Jeg prøver å være ...
+
+194
+00:40:09,292 --> 00:40:23,984
+Altså, hvis det blir mellom meg og Ayn, så er jeg sjefen, det er viktig. Du 
+må være sjefen. Men jeg prøver ikke å tvinge Ayn. Jeg prøver å
+
+195
+00:40:24,905 --> 00:40:39,712
+argumentere for noe. Slik at Ayn har muligheten til å si nei, det er dumt, 
+liksom. Jeg vil gjerne ha den dialogen, da. Det er viktig. Så da må du
+
+196
+00:40:39,772 --> 00:40:49,157
+passe på hvor ledende du egentlig er når du skriver sånne ting. Og noen 
+ganger bare trumfer jeg det gjennom. Så det er litt avhengig av ...
+
+197
+00:40:53,560 --> 00:40:54,600
+Litt avhengig av ...
+
+198
+00:40:58,820 --> 00:41:12,373
+Nå er klokka en time, så nå kan vi ta pause mens Claude sitter og fikser på 
+dette her. Og så tar vi en titt på resultatet i neste. Skal vi gjøre det?
+
+199
+00:41:12,393 --> 00:41:13,814
+Yes. Da har vi pause til kvart over ett.
+

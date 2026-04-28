@@ -1,0 +1,446 @@
+1
+00:00:02,056 --> 00:00:12,220
+[Automatisk tekstet av Autotekst med NB Whisper. Kan inneholde feil.]
+Ja, 
+og så har jeg allerede juksa litt, for å snakke litt om den. Så så jeg at han
+
+2
+00:00:12,280 --> 00:00:16,962
+ville ha validering mot testdata i kapittel 7-5.
+
+3
+00:00:21,124 --> 00:00:36,335
+Da spurte han om det egentlig ikke burde være i kapittel 8 om resultater, 
+for da tester vi prognoser. Kapittel 7 har kun med analyse og estimering
+
+4
+00:00:36,375 --> 00:00:46,282
+av parametere og ukjente. Kapittel 8, resultat, er kortere, men har med 
+hvordan prognosen fungerer.
+
+5
+00:00:46,342 --> 00:00:49,245
+Da fikk vi spørsmål, så svaret på spørsmålet er ja.
+
+6
+00:00:55,600 --> 00:01:03,564
+Den strukturen blir kapittel 7, mens kapittel 8 svarer på hvor godt den 
+traff modellen på testsettet. Hva ble den egentlige prognosen? Jeg
+
+7
+00:01:03,584 --> 00:01:10,608
+synes dette er en sterkere struktur enn forrige forslag, nettopp fordi 
+det fjerner tvilen om hvor testprognosen hører hjemme. Det synes jeg
+
+8
+00:01:10,628 --> 00:01:11,088
+gir mening.
+
+9
+00:01:13,870 --> 00:01:21,754
+Da blir aktiviteten for å fullføre kapittel 7 splitte dagens 7-3, rydde 
+7-3 til bare estimering om parameterresultater, opprette 7-4 for å
+
+10
+00:01:21,974 --> 00:01:23,075
+stoppe kapittel der, ja.
+
+11
+00:01:27,308 --> 00:01:33,992
+Så vil jeg komme med en kapittel. Så
+
+12
+00:01:34,012 --> 00:01:35,373
+vil jeg legge til et notat.
+
+13
+00:02:01,244 --> 00:02:10,171
+Jeg bare spør om vi skal ha et lite overgangsavsnitt. Som overgangen fra 
+... For nå stopper en bare brutalt på kapittel 7-4, da.
+
+14
+00:02:36,918 --> 00:02:43,180
+Legg
+
+15
+00:02:43,200 --> 00:02:51,182
+inn et kort overgangsavsnitt fra kapittel 7 til kapittel 8. Nydelig. 
+Dette ser bra ut.
+
+16
+00:02:54,984 --> 00:03:07,283
+Skriver på. Det du gjør nå, er bare å implementere og oppdatere planene. 
+Vi eksekverer ikke foreløpig. Nå eksekverer vi planen, ja. Så nå ender
+
+17
+00:03:07,303 --> 00:03:10,964
+du på rapporten? Ja.
+
+18
+00:03:13,965 --> 00:03:23,107
+Vi kan nå se det live her, ved at en gjør ting i kapittel 7-3 og 7-4. Det er 
+litt kult å se det live, hvis du har opp der igjen. Da skal det komme ting i
+
+19
+00:03:23,127 --> 00:03:29,788
+kapittel 8, hvis du ser på kapittel 8. Det er enkelt å se. Nei, ikke så mye i 
+kapittel 8, men det kommer nytt kapittel 7-4 her, da.
+
+20
+00:03:33,736 --> 00:03:42,760
+Dette kapitlet, 7-3, hva er egentlig et avsnitt som inneholder to ting 
+samtidig? Jeg har lyst til å splitte det til 7-3 og 7-4.
+
+21
+00:04:10,473 --> 00:04:25,925
+Der la han inn del ... Der så det skjedde litt ting. Her er sju-fire, ja. 
+Ja, der ser jeg. Der ser jeg. Ja, mye bedre. Ja, det ble bedre, ja. Det er
+
+22
+00:04:25,985 --> 00:04:34,392
+enklere når det er korte, konkrete avsnitt. Slik at du ikke sauser 
+sammen ting, da. Enig. Dette ble bra. Der ser du resultatet. Åtte her
+
+23
+00:04:34,412 --> 00:04:43,493
+kommer, ser du det? Dette er bare skjelettet. Men det gir oss en liten 
+pekepinn på hvordan retningen går, da.
+
+24
+00:04:47,035 --> 00:04:52,557
+Her skal vi bruke testdatasettet, sant. For vi delte opp i 80-20 eller 
+noe sånt, gjorde vi ikke?
+
+25
+00:05:10,632 --> 00:05:16,074
+Ja.
+
+26
+00:05:16,094 --> 00:05:18,714
+Skal vi bare prøve oss og bare gjøre ...
+
+27
+00:05:32,958 --> 00:05:42,929
+Jeg ville gjort noen sånne ... Men vi skal ha en sånn review til slutt her, 
+da. Og det er vel nå, da, sikkert ...
+
+28
+00:05:46,910 --> 00:05:56,614
+Vi skal etter hvert gjøre en review, og da tenker jeg at vi skal få inn litt 
+flere effekter.
+
+29
+00:05:56,654 --> 00:05:58,354
+Fordi at, ja ...
+
+30
+00:06:01,175 --> 00:06:05,897
+Ville vel hatt med litt grann ... Ja. Greit. Ser bra ut.
+
+31
+00:06:25,743 --> 00:06:39,498
+Jeg syns den binder litt rett på her. Oi. Syns ikke jeg det fikk gå? Ja, jeg 
+forstår. Binder setninga med figuren, det er ikke så bra. Nei, sånne
+
+32
+00:06:39,538 --> 00:06:46,926
+ting kan vi kanskje investere litt på findinga til slutt, skal vi bare ta 
+den nå? Ja, jeg syns den var litt brutal, da. Ja, OK.
+
+33
+00:07:41,123 --> 00:07:46,085
+Jeg liker ikke helt den kittelen. Jeg ville kalt det bare validering. 
+74?
+
+34
+00:07:52,047 --> 00:08:00,129
+Hæ? 74, tenker du på? Ja. Jeg ville kalt det validering. For det er liksom 
+det som står i planen.
+
+35
+00:08:20,189 --> 00:08:29,952
+Der,
+
+36
+00:08:31,893 --> 00:08:32,253
+ja.
+
+37
+00:08:35,994 --> 00:08:46,871
+Ja, det ble litt bedre nå. Det er sånne småting som man kan gjøre. Det var 
+litt poengtuning, jeg er enig i det. Sånne åpenbare ting liker jeg å ta
+
+38
+00:08:46,891 --> 00:08:58,621
+der og da. Ja, det er helt greit. Vi skal gjøre en sånn uavhengig ... 
+Claude skal jo da få lov til å gjøre en sånn uavhengig review av hele
+
+39
+00:08:58,641 --> 00:09:01,744
+kapittelet. Så det er greit, da.
+
+40
+00:09:05,167 --> 00:09:18,472
+Skal vi påkoste oss åtte, eller tenker du at vi stopper der? Vi skal 
+gjerne fortsette litt hvis du har tida, men vi må også huske på at vi skal
+
+41
+00:09:18,712 --> 00:09:22,673
+få ei god avslutning, så vi vet hvor vi skal fortsette på mandag. Og så må 
+vi også pushe.
+
+42
+00:09:41,375 --> 00:09:42,491
+Men da vil jeg avslutte.
+
+43
+00:10:08,712 --> 00:10:17,761
+Jeg vil bare at den oppdaterer statusfiler og prosjektfiler for det vi 
+nå har gjort. Hvis vi skal begynne på åtte, så bør vi gjøre noe nytt, da.
+
+44
+00:10:20,624 --> 00:10:24,248
+Det bør bety at en i hvert fall huker av den ... den der òg, da.
+
+45
+00:10:51,895 --> 00:10:55,017
+Den der har vi gjort også. Å dokumentere kapittel 7-4 har vi gjort.
+
+46
+00:11:20,600 --> 00:11:29,967
+Jeg syns det er viktig å gjøre sånne ting først, så det ikke blir 
+hengende. Selv om man alltid kan vurdere om det er nødvendig. Men jeg
+
+47
+00:11:30,007 --> 00:11:42,862
+liker å ha den ryddigheten. Å gjøre hva først, tenker du på? Dette er litt 
+bookkeeping. Passe på at huka er korrekt og sånne ting. Her står det et
+
+48
+00:11:42,902 --> 00:11:50,299
+punkt. Kjøre eventuelle supplerende diagnostiske tester. Hvis vi 
+ikke har gjort det, må jeg spørre om det er vits å gjøre det.
+
+49
+00:12:29,720 --> 00:12:32,829
+Så jeg bare spør ham om dette er noe vi burde høre.
+
+50
+00:13:09,005 --> 00:13:14,768
+Ja. Why not?
+
+51
+00:13:14,808 --> 00:13:18,089
+Vi utvider valideringsbiten litt.
+
+52
+00:13:24,132 --> 00:13:32,656
+Ja. Det har litt med det vi oppdaga, å gjøre. Vi ser at det er en sånn 
+heteroskedastiskitet.
+
+53
+00:13:32,916 --> 00:13:34,657
+Kvitt støyen, forsvinn.
+
+54
+00:13:40,477 --> 00:13:42,118
+Vi
+
+55
+00:13:49,784 --> 00:13:52,226
+tenker at det kan være bra, men vi vil bare nevne dette annet.
+
+56
+00:14:43,403 --> 00:14:52,850
+Jeg tenker at det kan vente til diskusjonen, men ... Ja. Det er veldig bra 
+å spørre, slik at vi ikke gir for sterke føringer om hva vi mener, slik at
+
+57
+00:14:54,231 --> 00:14:56,934
+vi får en reell test om hva AIL mener.
+
+58
+00:15:11,365 --> 00:15:14,621
+Men på rytmenivå, ja? Enig.
+
+59
+00:15:17,327 --> 00:15:23,119
+Ja, så sju-fire svarer på finnesethero og ni svarer på hva det betyr.
+
+60
+00:15:43,495 --> 00:15:56,897
+Nå begynner vi å nærme oss det som kalles for context-rotta. Du ser at vi 
+er på 77 % nå. Dette er én megabyte-context, så det er ganske mye. Vi er på
+
+61
+00:15:56,997 --> 00:16:12,040
+250 000 tokens nå. Så A1 begynner å bli mettet eller noe. Vi sender inn en 
+bibel for hver gang vi sender data, sant? Og så forventer vi at en skal
+
+62
+00:16:12,320 --> 00:16:26,839
+skjønne hver en linje. Det er på tide å cleare her. Når vi begynner på 
+åtte, er det viktig å cleare først. Vi tar det i kveld og fortsetter på
+
+63
+00:16:26,859 --> 00:16:27,060
+mandag.
+
+64
+00:17:06,031 --> 00:17:06,872
+Der endra den litt, ja.
+
+65
+00:17:50,294 --> 00:17:53,497
+Nå
+
+66
+00:17:53,577 --> 00:18:00,863
+ønsker vi å gjennomføre de to tingene, for det tror jeg har med kapittel 
+sju å gjøre. Kapittel sju blir litt mer omfattende. Nå
+
+67
+00:18:05,667 --> 00:18:14,354
+er det på planen ennå, men alltid lurt å planlegge slik at vi får noen 
+spørsmål her. Når vi er ferdig med det, så kjører vi på.
+
+68
+00:18:37,628 --> 00:18:52,436
+Jeg er litt redd for konteksten nå. Ja, jeg skjønner. Det betyr at man 
+leser mye data nå, sant? Ja. Så dette blir det siste vi gjør, og så får vi la
+
+69
+00:18:52,516 --> 00:18:55,158
+Claude Colt kjøre en vurdering neste gang.
+
+70
+00:19:05,759 --> 00:19:08,260
+Da kjører vi på. Det blir siste implementasjon vi gjør.
+
+71
+00:19:43,036 --> 00:19:44,497
+Jeg er ikke sikker på, men der
+
+72
+00:19:50,502 --> 00:19:56,986
+kom den, sant? Ja. Men
+
+73
+00:19:57,026 --> 00:20:11,217
+vi kunne tenkt oss en tabell for selve testene her, da. Ja, det er det. For 
+det er jo viktige data, det. Ja. Det er en tabell som dette, med p-verdier
+
+74
+00:20:11,277 --> 00:20:16,728
+og z-verdier. Ja,
+
+75
+00:20:16,748 --> 00:20:20,889
+det står det, ja. Kanskje det kommer nå.
+
+76
+00:20:49,388 --> 00:20:58,271
+Her har vi gjort en test om homoskedastisitet, som er det motsatte av 
+hetero. Det betyr at da finnes det hetero.
+
+77
+00:21:06,895 --> 00:21:12,157
+LM-testen gir sterk støtte til heteroskedastisitet i residualene. 
+Supert!
+
+78
+00:21:16,928 --> 00:21:29,598
+Men nå brukte vi en test for å lande det på en måte. Det er ikke noen tvil 
+her. Dataene sier akkurat dette. Veldig god vitenskapelig tilnærming
+
+79
+00:21:29,658 --> 00:21:40,366
+til dette. Dette er ikke verken følelser eller øyemål av noe som helst. 
+Men nå har vi dokumentert det på en måte som er i tråd med
+
+80
+00:21:48,974 --> 00:21:55,276
+Dette ble
+
+81
+00:21:55,296 --> 00:22:02,359
+bra, syns jeg. Vi følte at det ble litt lett eller tynt. Her fikk vi inn 
+dataene for testene.
+
+82
+00:22:06,761 --> 00:22:10,562
+Og også for denne hetero-skedastisiteten.
+
+83
+00:22:12,703 --> 00:22:27,577
+Det er som du sier, dette er en mer vitenskapelig ... Bevis, kall det det, 
+for det vi ser. Og det forventes i en vitenskapelig rapport.
+
+84
+00:22:31,319 --> 00:22:38,423
+Hvis ikke, så kan du bli utfordra på det. Det jeg gjør nå, er bare 
+bookclipping.
+
+85
+00:22:48,779 --> 00:22:57,222
+Du syntes at den ikke fikk committe? Ja, det gjorde den. Supert.
+
+86
+00:22:58,723 --> 00:23:09,027
+Ja. Da skal han ha oppdatert statusen også. Der er den, ser du. Da har vi 
+igjen dette her. Men det blir jo kapittel åtte, da.
+
+87
+00:23:13,909 --> 00:23:22,437
+Men skal vi ta og pushe, da? Ja, da kan vi pushe. Push.
+
+88
+00:23:22,737 --> 00:23:33,025
+Så er endringene der oppe. Ja. Hvis du gjør noe fantastisk, skal jeg gå på 
+min side og skrive av hullet for å se om vi har fått alt det her på lav 6.50 og
+
+89
+00:23:33,786 --> 00:23:39,690
+eksempel 0-0-eksempel. For å se om det har kommet. Skal vi se om en er 
+ferdig å pushe. Er
+
+90
+00:23:42,712 --> 00:23:51,459
+en ferdig nå, eller hører en på? Ferdig. OK, da ser vi om vi kan pushe. Jeg 
+følger politiet og ser om de kommer ned der.
+
+91
+00:23:56,243 --> 00:24:15,594
+Får AN til å gjøre det, da. Sånn, altså. I know. Yes. Vi bruker å klå når han 
+responderer. Yes. Få se. Yes. Yes! Det får vi si. Herlig. Da har de det òg,
+
+92
+00:24:15,634 --> 00:24:26,343
+da. Og da har noen andre det. Så på mandag begynner vi på åtte resultat og 
+ni diskusjon, og konklusjonen er ofte kort. Og så har vi også en del ting
+
+93
+00:24:26,363 --> 00:24:34,930
+vi skal gjøre på bibliografien, men det tror jeg vi må ta en ny dag igjen 
+på. Ikke før etter påske? Ja, det tror jeg vi kan trygt vente til etter
+
+94
+00:24:34,970 --> 00:24:46,434
+påske med, for det er sånn vi vil at folk skal gjøre i etterkant og bare 
+passe på at alle referanser er i orden. Men mandag får vi gjort åtte og ni i
+
+95
+00:24:46,454 --> 00:24:56,138
+hvert fall. Og kanskje ti også. Da har vi kommet bortreist. Da har vi gått 
+i gang, ja. Og da kan vi ta påskeferie med god samvittighet etter det. Ja,
+
+96
+00:24:56,198 --> 00:25:06,683
+absolutt. Etter neste uke. Supert. Men da tenker jeg vi sier takk for nå. 
+Takk for i dag, ja. Så snakkes vi på mandag.
+
+97
+00:25:10,462 --> 00:25:20,212
+Vi har noen som kommer, da. Så vi slipper å prate med hverandre. Vi gjør 
+det nok i løpet av dagen. Ja. OK. Takk for i dag.
+
