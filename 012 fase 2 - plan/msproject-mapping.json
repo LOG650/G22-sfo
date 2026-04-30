@@ -4,7 +4,7 @@
         "version": "1.0.0",
         "description": "Stabil mapping fra JSON-ID-er til MS Project UIDs. Oppdateres av generate_msproject_from_json.py."
     },
-    "lastSync": "2026-04-28T19:15:01Z",
+    "lastSync": "2026-04-30T18:45:36Z",
     "nextUid": 57,
     "stats": {
         "total": 56,
@@ -73,27 +73,6 @@
     "orphans": [],
     "history": [
         {
-            "syncedAt": "2026-04-24T17:33:24Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-24T19:17:22Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-24T19:17:32Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
             "syncedAt": "2026-04-24T19:17:56Z",
             "reused": 56,
             "new": 0,
@@ -137,6 +116,27 @@
         },
         {
             "syncedAt": "2026-04-28T19:15:01Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-30T18:44:55Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-30T18:44:55Z",
+            "reused": 56,
+            "new": 0,
+            "orphans": 0,
+            "newKeys": []
+        },
+        {
+            "syncedAt": "2026-04-30T18:45:36Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
