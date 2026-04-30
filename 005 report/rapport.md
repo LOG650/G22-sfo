@@ -137,6 +137,8 @@ Forskjellen mellom leverandørens hylleplan og det faktiske salget — *mismatch
 
 *Hvordan kan en dagligvareleverandør bruke ukentlige sell-out-data fra en kjede-butikk som beslutningsstøtte i forhandlinger om hylleplass, og hvilket salgspotensial kan dokumenteres ved reallokering innenfor leverandørens egen portefølje hos Coop Extra X?*
 
+**Forskningsmål.** Studien har to sammenkoblede mål: (i) å demonstrere at en deterministisk lineær programmerings-modell, matet med den datatypen en leverandør realistisk disponerer (sell-out, egen hylleallokering og bruttomargin per enhet), kan kvantifisere reallokerings­gevinsten innenfor leverandørens kontraktuelle hylle, og (ii) å vurdere om gevinsten er robust nok mot rimelige variasjoner i modellantagelsene til å utgjøre et brukbart forhandlings­argument i kategori-dialogen mellom leverandør og kjede. Studiens betydning ligger i at den tilbyr en lavterskel, reproduserbar metode for å erstatte erfarings­basert skjønn med tallfestet underlag i en dialogform der leverandøren i dag typisk argumenterer uten kvantitativ støtte.
+
 ### 1.2 Avgrensinger
 
 - **Én butikk.** Analysen er gjort på sell-out-data fra én konkret Coop Extra-enhet og representerer denne butikkens situasjon i observasjonsperioden.
@@ -154,7 +156,7 @@ Analysen hviler på fire hovedantagelser som drøftes kritisk i §8:
 2. **Hvert ekstra enhet hylleplass gir samme produktivitet (lineær space-elastisitet).** Reell elastisitet er sannsynligvis avtakende, noe som gjør modellens gevinst­anslag til et øvre estimat.
 3. **Leverandørens minstekrav til hylleplass per SKU er ett kolli (3 frontfacings) i hovedscenariene og 50 % av dagens allokering i det konservative scenariet.** Eksplisitte kontraktsgulv per SKU er ikke tilgjengelige i dette prosjektet; ett kolli er valgt som operasjonelt minimum i tråd med kjedens påfyllingslogikk.
 4. **Ingen kryssalgseffekter eller kannibalisering innen porteføljen.** Modellen behandler hvert produkt uavhengig. Mulige interaksjoner diskuteres i §8.
-5. **Sekundæreksponering har høyere salgsproduktivitet enn primærhylle.** I hovedanbefalingen gis et lite antall ekstra plasser i kampanjeendene/skiveplasser med produktivitetsfaktor $k = 1{,}5$ relativt til primær­hyllen, i tråd med Chevalier (1975) og Nordfält & Ahlbom (2018). Effekten av å variere $k$ drøftes i §8.
+5. **Sekundæreksponering har høyere salgsproduktivitet enn primærhylle.** I hovedanbefalingen gis et lite antall ekstra plasser i kampanjeendene/skiveplasser med produktivitetsfaktor $k = 1{,}5$ relativt til primær­hyllen, i tråd med @chevalier1975 og @nordfalt2018. Effekten av å variere $k$ drøftes i §8.
 
 ---
 
@@ -166,35 +168,35 @@ Litteraturen som støtter opp om dette prosjektet dekker tre sammenkoblede felt:
 
 ### 2.1 SSAP — operasjonsforskningstradisjonen
 
-Det formelle SSAP ble etablert som et lineær- og heltallsprogrammeringsproblem på 1970-tallet (Curhan, 1972) og er siden videreutviklet for å håndtere heterogene hyllestørrelser, stokastisk etterspørsel, sortimentsbeslutninger og tverrsortiments-effekter. Bouzembrak m.fl. (2025) gir den ferskeste oversikten over feltet og plasserer de ulike modellfamiliene i forhold til hverandre; deres syntese brukes som strukturelt rammeverk for dette litteraturkapitlet.
+Det formelle SSAP ble etablert som et lineær- og heltallsprogrammeringsproblem på 1970-tallet [@curhan1972] og er siden videreutviklet for å håndtere heterogene hyllestørrelser, stokastisk etterspørsel, sortimentsbeslutninger og tverrsortiments-effekter. @bouzembrak2025 gir den ferskeste oversikten over feltet og plasserer de ulike modellfamiliene i forhold til hverandre; deres syntese brukes som strukturelt rammeverk for dette litteraturkapitlet.
 
-Düsterhöft, Hübner & Schaal (2021) presenterer en eksakt optimaliseringsformulering med dekomponeringsheuristikk som håndterer realistiske hyllekonfigurasjoner. Deres formulering ligner modellen som anvendes her (§6), men er utvidet til å inkludere flere hyller og kryss-elastisiteter. Hübner, Schäfer & Schaal (2020) går videre og integrerer sortiments- og hylleplassvalg med stokastisk etterspørsel og eksplisitt space-elastisitet. Sammenlignet med disse er modellen i dette prosjektet bevisst forenklet — deterministisk, én hylle, lineær produktivitet — for å være reproduserbar med det begrensede datasettet vi disponerer.
+@dusterhoft2021 presenterer en eksakt optimaliseringsformulering med dekomponeringsheuristikk som håndterer realistiske hyllekonfigurasjoner. Deres formulering ligner modellen som anvendes her (§6), men er utvidet til å inkludere flere hyller og kryss-elastisiteter. @hubner2020 går videre og integrerer sortiments- og hylleplassvalg med stokastisk etterspørsel og eksplisitt space-elastisitet. Sammenlignet med disse er modellen i dette prosjektet bevisst forenklet — deterministisk, én hylle, lineær produktivitet — for å være reproduserbar med det begrensede datasettet vi disponerer.
 
-Mishra (2023) går den heuristiske veien og foreslår seks enkle allokeringsregler (proporsjonal til salg, proporsjonal til margin, ABC-basert osv.). Disse er ikke optimalitetsgarantert men lette å forklare til praktikere. Vår LP-tilnærming kan betraktes som et steg opp i kompleksitet sammenlignet med disse heuristikkene, men et steg ned sammenlignet med Düsterhöft m.fl. og Hübner m.fl.
+@mishra2023 går den heuristiske veien og foreslår seks enkle allokeringsregler (proporsjonal til salg, proporsjonal til margin, ABC-basert osv.). Disse er ikke optimalitetsgarantert men lette å forklare til praktikere. Vår LP-tilnærming kan betraktes som et steg opp i kompleksitet sammenlignet med disse heuristikkene, men et steg ned sammenlignet med @dusterhoft2021 og @hubner2020
 
 ### 2.2 Etterspørsel og out-of-stock
 
-Gholami & Bhakoo (2025) dokumenterer hvor store stockout-problemene kan være i praksis og viser at maskinlæringsbasert prediksjon reduserer problemet betydelig. Deres empiri (1.6M+ SKUer fra en stor retailer) bekrefter at utnyttelsesgrad rundt eller over 1 ikke er uvanlig for A-produkter og representerer en reell tapt omsetning. Dette er premisset for etterspørselsantakelsen (overserve_factor > 1) vi bruker i §6.
+@gholami2025 dokumenterer hvor store stockout-problemene kan være i praksis og viser at maskinlæringsbasert prediksjon reduserer problemet betydelig. Deres empiri (1.6M+ SKUer fra en stor retailer) bekrefter at utnyttelsesgrad rundt eller over 1 ikke er uvanlig for A-produkter og representerer en reell tapt omsetning. Dette er premisset for etterspørselsantakelsen (overserve_factor > 1) vi bruker i §6.
 
-Gustriansyah m.fl. (2022) sammenligner prognose-modeller for salgsdata og finner at hybride maskinlæringsmodeller (kombinasjoner av XGBoost, Random Forest og lineær regresjon) overgår enkeltmodeller. For dette prosjektet — med kun ti uker data per produkt — er avansert prognose ikke meningsfullt; vi bruker periodegjennomsnitt som punktestimat. Men litteraturen peker på en naturlig utvidelse: erstatte det statiske $\bar s_i$ med en prognose når flere datapunkter er tilgjengelige.
+@gustriansyah2022 sammenligner prognose-modeller for salgsdata og finner at hybride maskinlæringsmodeller (kombinasjoner av XGBoost, Random Forest og lineær regresjon) overgår enkeltmodeller. For dette prosjektet — med kun ti uker data per produkt — er avansert prognose ikke meningsfullt; vi bruker periodegjennomsnitt som punktestimat. Men litteraturen peker på en naturlig utvidelse: erstatte det statiske $\bar s_i$ med en prognose når flere datapunkter er tilgjengelige.
 
-Usama m.fl. (2024) rapporterer konkrete effekttall fra AI-basert etterspørselsprognose i dagligvare — 23,7 % bedre prognose og 24,3 % færre stockouts — og gir dermed et grovt sammenligningsgrunnlag for omfanget av forbedringer som er oppnåelige med datadrevne tilnærminger i sektoren.
+@usama2024 rapporterer konkrete effekttall fra AI-basert etterspørselsprognose i dagligvare — 23,7 % bedre prognose og 24,3 % færre stockouts — og gir dermed et grovt sammenligningsgrunnlag for omfanget av forbedringer som er oppnåelige med datadrevne tilnærminger i sektoren.
 
 ### 2.3 Category management og leverandør-kjede-forhandlinger
 
-Utover den rene optimaliseringslitteraturen finnes et omfattende arbeidsfelt rundt *category management* og samarbeidsmønstre mellom kjede og leverandør. Klement & Hübner (2023) påpeker at sortiments-, hylle- og påfyllings­beslutninger i praksis fattes i dialog mellom kategori­ansvarlige hos kjeden og såkalte *category captains* på leverandørsiden — leverandører som får forsterket rolle i å foreslå og begrunne planogram-endringer basert på data de selv eier. Bouzembrak m.fl. (2025) nevner i sin oversikt at modellbaserte forslag i slike forhandlinger typisk er underutnyttet sammenlignet med hva tilgjengelig litteratur muliggjør, og løfter frem beslutningsstøtte for leverandør-sidens posisjonering som et område hvor praksis henger etter teori.
+Utover den rene optimaliseringslitteraturen finnes et omfattende arbeidsfelt rundt *category management* og samarbeidsmønstre mellom kjede og leverandør. @klement2023 påpeker at sortiments-, hylle- og påfyllings­beslutninger i praksis fattes i dialog mellom kategori­ansvarlige hos kjeden og såkalte *category captains* på leverandørsiden — leverandører som får forsterket rolle i å foreslå og begrunne planogram-endringer basert på data de selv eier. @bouzembrak2025 nevner i sin oversikt at modellbaserte forslag i slike forhandlinger typisk er underutnyttet sammenlignet med hva tilgjengelig litteratur muliggjør, og løfter frem beslutningsstøtte for leverandør-sidens posisjonering som et område hvor praksis henger etter teori.
 
 Dette prosjektet plasserer seg tydelig i dette gapet: i stedet for å optimalisere butikkens totale kategorihylle (en kjede-beslutning som krever kryssleverandør-data), optimaliserer det *leverandørens egen portefølje innenfor den kontraktuelle hyllen leverandøren allerede disponerer*. Perspektivet matcher den realistiske informasjons­situasjonen for en leverandør og gir et verktøy som kan brukes i forhandlings- og kategorimøter.
 
 ### 2.4 AI og automatisert planogramovervåking
 
-Klement & Hübner (2023) gir et helhetlig rammeverk som kobler sortimentsvalg, hylleallokering og påfylling som tre samhørige beslutningslag. Rammeverket er nyttig for å plassere dette prosjektet — som opererer rent på hylleallokerings-laget — innenfor en større beslutningsarkitektur. Det underbygger også §8-diskusjonen om fasering: hvis påfyllingen ikke henger med, kan selv en optimal allokering føre til mer out-of-stock.
+@klement2023 gir et helhetlig rammeverk som kobler sortimentsvalg, hylleallokering og påfylling som tre samhørige beslutningslag. Rammeverket er nyttig for å plassere dette prosjektet — som opererer rent på hylleallokerings-laget — innenfor en større beslutningsarkitektur. Det underbygger også §8-diskusjonen om fasering: hvis påfyllingen ikke henger med, kan selv en optimal allokering føre til mer out-of-stock.
 
-Santos m.fl. (2024) og Hsu m.fl. (2025) beskriver henholdsvis deep learning- og computer vision-systemer for automatisert planogramovervåking i hele butikkjeder. Disse arbeidene representerer fremtiden for datainnhenting i feltet: istedenfor statiske planogrammer rapportert fra kjedekontor, får man sanntidsvisninger av hvordan hyllen faktisk ser ut. For dette prosjektet gir dette en metodisk forventning: den typen analyse vi gjør her, vil om noen år kunne kjøres på kontinuerlig oppdaterte data snarere enn tiukers eksport.
+@santos2024 og @hsu2025 beskriver henholdsvis deep learning- og computer vision-systemer for automatisert planogramovervåking i hele butikkjeder. Disse arbeidene representerer fremtiden for datainnhenting i feltet: istedenfor statiske planogrammer rapportert fra kjedekontor, får man sanntidsvisninger av hvordan hyllen faktisk ser ut. For dette prosjektet gir dette en metodisk forventning: den typen analyse vi gjør her, vil om noen år kunne kjøres på kontinuerlig oppdaterte data snarere enn tiukers eksport.
 
 ### 2.5 Syntese mot problemstilling
 
-Litteraturen understøtter fire premisser som problemstillingen hviler på: (1) mismatch mellom hyllekapasitet og etterspørsel er et veldokumentert fenomen i dagligvare; (2) LP-baserte modeller er anerkjent som et adekvat verktøy for å adressere det; (3) gevinstanslagene på 20–60 % som rapporteres i den nyere empiriske litteraturen er i størrelses­orden sammenlignbare med dem prosjektets egne resultater peker på; og (4) leverandørens rolle som category captain er et veletablert, men i dette prosjektets bruk­tilfelle underutnyttet, beslutnings­miljø. Samtidig viser metastudiene (særlig Bouzembrak m.fl., 2025) at de mest sofistikerte modellene krever data — kryss-elastisitet, margin per enhet, fleruker­svariasjon — som i praksis sjelden er tilgjengelig for et avgrenset studentprosjekt. Dette legitimerer vårt valg av en enklere, men fullstendig dokumentert og reproduserbar LP-tilnærming anvendt på *den datatypen en leverandør realistisk disponerer*.
+Litteraturen understøtter fire premisser som problemstillingen hviler på: (1) mismatch mellom hyllekapasitet og etterspørsel er et veldokumentert fenomen i dagligvare; (2) LP-baserte modeller er anerkjent som et adekvat verktøy for å adressere det; (3) gevinstanslagene på 20–60 % som rapporteres i den nyere empiriske litteraturen er i størrelses­orden sammenlignbare med dem prosjektets egne resultater peker på; og (4) leverandørens rolle som category captain er et veletablert, men i dette prosjektets bruk­tilfelle underutnyttet, beslutnings­miljø. Samtidig viser metastudiene [@bouzembrak2025] at de mest sofistikerte modellene krever data — kryss-elastisitet, margin per enhet, fleruker­svariasjon — som i praksis sjelden er tilgjengelig for et avgrenset studentprosjekt. Dette legitimerer vårt valg av en enklere, men fullstendig dokumentert og reproduserbar LP-tilnærming anvendt på *den datatypen en leverandør realistisk disponerer*.
 
 ---
 
@@ -204,7 +206,7 @@ Teorikapitlet etablerer de tre byggesteinene som modellen og analysen hviler på
 
 ### 3.1 Space elasticity
 
-*Space elasticity* (hylleelastisitet) er den marginale endringen i salg som følger av en endring i antall frontfacings. Begrepet ble tidlig formalisert av Curhan (1972) som en produktspesifikk elastisitetskoeffisient $\beta_i$, slik at salg per uke tilnærmet følger en potensfunksjon:
+*Space elasticity* (hylleelastisitet) er den marginale endringen i salg som følger av en endring i antall frontfacings. Begrepet ble tidlig formalisert av @curhan1972 som en produktspesifikk elastisitetskoeffisient $\beta_i$, slik at salg per uke tilnærmet følger en potensfunksjon:
 
 $$
 s_i(x_i) = \alpha_i \cdot x_i^{\beta_i}, \quad \beta_i \in (0, 1]
@@ -228,7 +230,7 @@ $$
 \max \; \mathbf{c}^\top \mathbf{z} \quad \text{under} \quad \mathbf{A}\mathbf{z} \le \mathbf{b}, \quad \mathbf{z} \ge \mathbf{0}
 $$
 
-der målfunksjonen og alle restriksjoner er lineære i beslutningsvariablene. Simplex-algoritmen (Dantzig, 1947) og senere interior-point-metoder løser slike problemer effektivt opp til store dimensjoner. Når heltalls-restriksjoner pålegges (som her: frontfacings må være heltall), får man *heltalls lineær programmering* (ILP), som generelt er NP-hardt men i praksis håndterlig for små dimensjoner med branch-and-bound-solvere som CBC.
+der målfunksjonen og alle restriksjoner er lineære i beslutningsvariablene. Simplex-algoritmen [@dantzig1947] og senere interior-point-metoder løser slike problemer effektivt opp til store dimensjoner. Når heltalls-restriksjoner pålegges (som her: frontfacings må være heltall), får man *heltalls lineær programmering* (ILP), som generelt er NP-hardt men i praksis håndterlig for små dimensjoner med branch-and-bound-solvere som CBC.
 
 Tre egenskaper gjør LP/ILP særlig egnet for hylleallokeringsproblemet i denne studien:
 
@@ -242,7 +244,7 @@ Begrensningene er omvendte: LP kan ikke uttrykke ikke-lineære sammenhenger (som
 
 *Out-of-stock* (OOS) oppstår når hyllen tømmes før neste etterfylling. For en vare med utnyttelsesgrad $u_i = \bar s_i / c_i > 1$ (gjennomsnittlig ukesalg overstiger hyllekapasitet) er OOS forventet å forekomme i perioder av uken. Konsekvensen er *tapt salg*: kunder som kommer i butikken mens hyllen er tom kjøper enten et substitutt eller handler ikke den kategorien.
 
-Gholami & Bhakoo (2025) dokumenterer at den faktiske etterspørselen for OOS-rammede produkter kan være 1,5 til 3 ganger observert salg, avhengig av etterfyllingshyppighet og kundeatferd. Dette tallet er opprinnelsen til prosjektets `overserve_factor`-parameter (§6.4): for produkter med $u_i \ge 1$ antas den sanne etterspørselen å være en multippel av observert salg, der 2,0 brukes i hovedscenariene (S1, S2) og 1,5 i det konservative (S3). Sensitivitets­analysen (§7.3) varierer multiplikatoren fra 1,25 til 3,0 og viser at gevinsten holder seg positiv i hele intervallet.
+@gholami2025 dokumenterer at den faktiske etterspørselen for OOS-rammede produkter kan være 1,5 til 3 ganger observert salg, avhengig av etterfyllingshyppighet og kundeatferd. Dette tallet er opprinnelsen til prosjektets `overserve_factor`-parameter (§6.4): for produkter med $u_i \ge 1$ antas den sanne etterspørselen å være en multippel av observert salg, der 2,0 brukes i hovedscenariene (S1, S2) og 1,5 i det konservative (S3). Sensitivitets­analysen (§7.3) varierer multiplikatoren fra 1,25 til 3,0 og viser at gevinsten holder seg positiv i hele intervallet.
 
 Motstykket til OOS er *overkapasitet*: et produkt med $u_i < 1$ beslaglegger facings som aldri blir fylt før de etterfylles. Dette er "død hylle" som kunne vært omplassert til et produkt med høyere produktivitet per facing. Prosjektets utgangshypotese er at *begge fenomenene opptrer samtidig* i den observerte kategorien, og at reallokering fra overkapasiterte til underkapasiterte SKUer derfor gir netto gevinst.
 
@@ -310,9 +312,13 @@ Prosjektet følger en *kvantitativ case-studie* som forskningsdesign: én levera
 
 **Implementering og reproduserbarhet.** All analyse er implementert i Python 3.12. Modellene bruker biblioteket PuLP med CBC-solver for lineær programmering, pandas for datamanipulasjon, og matplotlib/seaborn/plotly for visualisering. Kode og genererte figurer/tabeller versjoneres i prosjektets Git-repository; pseudonymiserte versjoner av resultatene inngår i repoet, mens filer med ekte produktnavn holdes lokalt i en `intern/`-underfolder som er ekskludert fra versjonering. Hele kjøringen (datarensing → deskriptiv analyse → LP → sensitivitet → figurer) kan reproduseres med kommandoene som dokumenteres i `006 analysis/README.md`. Anonymiseringsmodulen `anonymisering.py` sikrer at produkter i alle genererte artefakter har samme pseudonymer på tvers av scripts.
 
-**Figur 5.1.1** (`006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/analyse_pipeline.png`) gir en oversikt over hele pipelinen: rådata + planogram + margin-mapping inn til venstre, datarensing og deskriptiv analyse, LP-modell og sensitivitets­analyse, og figurer/rapport ut til høyre.
+Figur 5.1.1 gir en oversikt over hele pipelinen: rådata + planogram + margin-mapping inn til venstre, datarensing og deskriptiv analyse, LP-modell og sensitivitets­analyse, og figurer/rapport ut til høyre.
 
-**Kvalitetssikring.** Intern kvalitetssikring skjer i henhold til prosjektplanen: hver analyse-artefakt genereres deterministisk fra rådata og sanity-sjekkes mot intuisjon (f.eks. at ABC-summen blir 100 %, at LP-status er "Optimal", og at summen av allokerte facings tilsvarer total kapasitet). Peer-to-peer review planlegges i henhold til slagplanen for fase 3. Formelle akademiske krav følger SKRIVING-kompendiet (Kap. 3), herunder APA 7-referansestil for bibliografien i §10.
+![](../006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/analyse_pipeline.png){width=100%}
+
+*Figur 5.1.1 Analyse-pipeline fra rådata til rapport.*
+
+**Validitet, reliabilitet og kvalitetssikring.** *Reliabiliteten* sikres ved at hver analyse-artefakt genereres deterministisk fra rådata via versjonerte Python-scripts; samme inputfil gir samme output ved gjentatt kjøring, og hele pipelinen kan reproduseres av tredjepart med kommandoene i `006 analysis/README.md`. *Konstruktvaliditeten* — at modellen faktisk måler det den skal måle (reallokerings­potensial under realistiske leverandør-data­begrensninger) — drøftes systematisk i §8.2 gjennom sju eksplisitte begrensninger (B1–B7) som dekker etterspørsels­antakelse, lineær produktivitet, skjult etterspørsel, geografisk og temporal generaliserbarhet, margin­begrep, kryssalgseffekter og sekundær­eksponerings­faktor. *Intern validering* skjer ved at hver pipeline-kjøring sanity-sjekkes mot kjente invarianter: ABC-andelen summerer til 100 %, LP-status fra solveren er "Optimal", og summen av allokerte facings tilsvarer total kapasitet. *Ekstern validering* mot uavhengige data inngår ikke i dette prosjektet (én butikk, ti uker) og er flagget som retning for videre arbeid (§9). Peer-to-peer review planlegges i henhold til slagplanen for fase 3. Formelle akademiske krav følger SKRIVING-kompendiet (Kap. 3), herunder APA 7-referansestil for bibliografien i §10.
 
 **Etiske hensyn.** Studien behandler ikke personopplysninger og faller utenfor personopplysningsloven og helseforskningsloven (se egenerklæringen foran i rapporten). Konfidensialitet overfor Coop Extra X er ivaretatt gjennom taushetserklæring og pseudonymisering av produktnavn i alle offentlig tilgjengelige artefakter.
 
@@ -384,7 +390,19 @@ Tabellen er sortert etter utnyttelsesgrad (synkende). Verdier > 1 indikerer at u
 
 **ABC-klassifisering.** Produkter er klassifisert i A/B/C basert på akkumulert andel av totalsalg over perioden, med de konvensjonelle tersklene 80 % og 95 %. Klassifiseringen gir 14 A-produkter (78,5 % av totalsalg, 826 av 1 079 frontfacings = 76,6 %), 9 B-produkter (16,0 % av salg) og 11 C-produkter (5,5 % av salg). 24 av 34 SKUer har utnyttelses­grad over 1,0 — den observerte mismatchen er gjennomgripende, ikke begrenset til enkeltprodukter. Denne fordelingen danner utgangspunktet for reallokerings­analysen i §7.
 
-**Figur 5.2.1** (`006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/salg_vs_kapasitet_tidsserie.png`) viser ukentlig salg mot kapasitet per SKU. **Figur 5.2.2** (`utnyttelse_mismatch.png`) viser gjennomsnittlig utnyttelsesgrad, og **Figur 5.2.3** (`abc_pareto.png`) viser Pareto-fordelingen av totalsalget.
+Figur 5.2.1 viser ukentlig salg mot kapasitet per SKU, Figur 5.2.2 viser gjennomsnittlig utnyttelsesgrad, og Figur 5.2.3 viser Pareto-fordelingen av totalsalget.
+
+![](../006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/salg_vs_kapasitet_tidsserie.png){width=100%}
+
+*Figur 5.2.1 Ukentlig salg mot hyllekapasitet per SKU, uke 06–15 2026.*
+
+![](../006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/utnyttelse_mismatch.png){width=100%}
+
+*Figur 5.2.2 Gjennomsnittlig utnyttelsesgrad per SKU. Verdier > 1 indikerer at hyllen tømmes mer enn én gang per uke.*
+
+![](../006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/abc_pareto.png){width=100%}
+
+*Figur 5.2.3 ABC-klassifisering basert på akkumulert andel av totalsalg over perioden.*
 
 ---
 
@@ -490,7 +508,11 @@ Tre scenarier ble kjørt mot samme LP-formulering, men med ulike verdier for sek
 | **S2 Primær + sekundær** | **3 facings** | **$2\bar s_i$** | **3** | **1 268,4** | **+421,5** | **+49,8 %** | **3 206** | **+54,1 %** |
 | S3 Konservativ | 50 % av $c_i$ | $1{,}5\bar s_i$ | 0 | 1 060,0 | +213,0 | +25,2 % | 2 636 | +26,7 % |
 
-Figur 7.1 (`006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/lp_scenario_compare.png`) viser allokeringen per produkt på tvers av de tre scenariene sammen med nåværende allokering.
+Figur 7.1 viser allokeringen per produkt på tvers av de tre scenariene sammen med nåværende allokering.
+
+![](../006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/lp_scenario_compare.png){width=100%}
+
+*Figur 7.1 Allokering per produkt i de tre scenariene S1, S2 og S3 sammenlignet med observert baseline.*
 
 Tre observasjoner er sentrale:
 
@@ -500,7 +522,11 @@ Tre observasjoner er sentrale:
 
 ### 7.2 S2 Primær + sekundær — hovedanbefaling
 
-Hovedanbefalingen omfordeler de 1 079 primær frontfacings og fordeler 3 sekundærplasser slik det fremgår av Tabell 7.2. Per-produkt-allokeringen er også vist i Figur 7.2 (`lp_allokering_S2_primaer_sek.png`).
+Hovedanbefalingen omfordeler de 1 079 primær frontfacings og fordeler 3 sekundærplasser slik det fremgår av Tabell 7.2. Per-produkt-allokeringen er også vist i Figur 7.2.
+
+![](../006 analysis/aktiviteter/3_4_data_metode_og_modellering/figurer/lp_allokering_S2_primaer_sek.png){width=100%}
+
+*Figur 7.2 Per-produkt allokering for hovedanbefalingen S2: primær frontfacings + 3 sekundær­plasser.*
 
 **Tabell 7.2 S2 Primær + sekundær — allokering per produkt**
 
@@ -544,7 +570,11 @@ Omfordelingen følger fire mønstre:
 
 **Sekundær­plassene** tildeles A2 (2 plasser) og A3 (1 plass). Begge ligger på øvre del av margin­spennet, og A2 er den mest underdimensjonerte SKUen i porteføljen (utnyttelses­grad 9,10). Sekundær­plassene flytter A2-salget videre opp utover hva primær­hyllen alene tillater i scenariet. Forhandlings­messig betyr dette at leverandøren kan be om sekundær­eksponering for de samme to SKUene som modellen anbefaler — et tallfestet underlag for hvor sekundær­plassen faktisk gir marginal lønnsomhet.
 
-**Figur 7.2b** (`006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sankey_omfordeling_S2.png`) visualiserer omfordelingen som et Sankey-diagram: 466 frontfacings flyttes fra 14 *over­dimensjonerte* SKUer (venstre) til 19 *underdimensjonerte* SKUer (høyre). Båndtykkelsen er proporsjonal med antall facings, og fargene markerer ABC-klasse (blå A, grønn B, oransje C). Diagrammet gjør det visuelt tydelig at gevinsten kommer fra omfordeling, ikke fra eliminering, og at hovedstrømmen går fra to A-volum-SKUer (A3, A4) til den brede A-klasse­fronten.
+Figur 7.2b visualiserer omfordelingen som et Sankey-diagram: 466 frontfacings flyttes fra 14 *over­dimensjonerte* SKUer (venstre) til 19 *underdimensjonerte* SKUer (høyre). Båndtykkelsen er proporsjonal med antall facings, og fargene markerer ABC-klasse (blå A, grønn B, oransje C). Diagrammet gjør det visuelt tydelig at gevinsten kommer fra omfordeling, ikke fra eliminering, og at hovedstrømmen går fra to A-volum-SKUer (A3, A4) til den brede A-klasse­fronten.
+
+![](../006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sankey_omfordeling_S2.png){width=100%}
+
+*Figur 7.2b Sankey-diagram av omfordelingen i S2: 466 frontfacings flyttes fra over­dimensjonerte til underdimensjonerte SKUer.*
 
 Det må bemerkes at A4-reduksjonen — fra 168 til 3 facings — er en *mekanisk* løsning gitt observert lav utnyttelses­grad. I praksis ville dette krevd egen dialog med kjeden om sortiments­bredden i den aktuelle produktundergruppen; punktet diskuteres i §8.
 
@@ -579,10 +609,22 @@ LP-resultatet hviler på to antakelser som er vanskelige å verifisere direkte: 
 
 Resultatene gir to tydelige innsikter:
 
-1. **Gevinsten er monotont økende i `overserve_factor`** (Figur 7.4a, `sensitivitet_overserve.png`), fordi høyere antatt etterspørsel hever taket $d_i$ for de underdimensjonerte A-produktene. Selv ved konservativ antakelse (1,25×) ligger volum­gevinsten på +17 %. Selv om den sanne etterspørselen er betydelig lavere enn antakelsen i hovedscenariet, kvalifiserer reallokering fortsatt som en forbedring.
-2. **Gevinsten er nærmest flat i `x_min_fraction`** opp til omtrent 0,40, og faller deretter gradvis (Figur 7.4b, `sensitivitet_xmin.png`). Praktisk betyr dette at kjeden har betydelig operasjonelt spillerom: de kan binde minimums-sortimentet strammere enn S2 (3-facings-gulv) opp mot 40 % av nåværende allokering uten å miste vesentlig av gevinsten.
+1. **Gevinsten er monotont økende i `overserve_factor`** (Figur 7.4a), fordi høyere antatt etterspørsel hever taket $d_i$ for de underdimensjonerte A-produktene. Selv ved konservativ antakelse (1,25×) ligger volum­gevinsten på +17 %. Selv om den sanne etterspørselen er betydelig lavere enn antakelsen i hovedscenariet, kvalifiserer reallokering fortsatt som en forbedring.
+2. **Gevinsten er nærmest flat i `x_min_fraction`** opp til omtrent 0,40, og faller deretter gradvis (Figur 7.4b). Praktisk betyr dette at kjeden har betydelig operasjonelt spillerom: de kan binde minimums-sortimentet strammere enn S2 (3-facings-gulv) opp mot 40 % av nåværende allokering uten å miste vesentlig av gevinsten.
 
-**Figur 7.5** (`006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sensitivitet_2d_heatmap.png`) viser de to dimensjonene samlet i ett to-dimensjonalt rutenett — venstre panel for margin-vektet gevinst, høyre panel for volum­gevinst, begge i prosent over baseline. S2-punktet (overserve_factor = 2,0, x_min_fraction = 0,25) er markert med rød ring. Heatmappen synliggjør at gevinsten er positiv over hele det realistiske parameter­rommet og at de to parameterne påvirker resultatet i ulik retning og styrke: overserve_factor flytter gevinsten oppover (kolonner), mens et strengere x_min_fraction trekker gevinsten ned (rader nedover) først merkbart fra 0,40.
+![](../006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sensitivitet_overserve.png){width=100%}
+
+*Figur 7.4a Sensitivitet av margin-vektet og volum-gevinst som funksjon av overserve_factor.*
+
+![](../006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sensitivitet_xmin.png){width=100%}
+
+*Figur 7.4b Sensitivitet av margin-vektet og volum-gevinst som funksjon av x_min_fraction.*
+
+Figur 7.5 viser de to dimensjonene samlet i ett to-dimensjonalt rutenett — venstre panel for margin-vektet gevinst, høyre panel for volum­gevinst, begge i prosent over baseline. S2-punktet (overserve_factor = 2,0, x_min_fraction = 0,25) er markert med rød ring. Heatmappen synliggjør at gevinsten er positiv over hele det realistiske parameter­rommet og at de to parameterne påvirker resultatet i ulik retning og styrke: overserve_factor flytter gevinsten oppover (kolonner), mens et strengere x_min_fraction trekker gevinsten ned (rader nedover) først merkbart fra 0,40.
+
+![](../006 analysis/aktiviteter/3_5_analyse_og_resultater/figurer/sensitivitet_2d_heatmap.png){width=100%}
+
+*Figur 7.5 To-dimensjonalt sensitivitets-heatmap: margin-vektet gevinst (venstre) og volum-gevinst (høyre) som funksjon av overserve_factor og x_min_fraction.*
 
 ### 7.4 Sentrale funn
 
@@ -622,7 +664,7 @@ Dette kapitlet tolker funnene fra §7 mot det teoretiske rammeverket som introdu
 
 **B6. Ingen kryssalgseffekter eller kannibaliserings-modellering.** Modellen behandler hvert produkt uavhengig. I praksis kan en kraftig reduksjon av A4 flytte salg over til A3 (samme produktundergruppe) — kannibalisering som ikke er modellert. Tilsvarende kan en kraftig økning i A1 fortrenge salg i andre SKUer i samme drikke­kategori. Kvantifisering av slike effekter krever paneldata med eksponert kapasitets­variasjon og utgår for dette prosjektet.
 
-**B7. Sekundær­eksponerings­faktoren $k = 1{,}5$ er hentet fra litteraturen, ikke estimert i caset.** Chevalier (1975) og Nordfält & Ahlbom (2018) finner sekundær­plassers løft i størrelses­orden 1,3–2,0× primær­produktivitet, men variasjonen mellom kategorier og butikk­typer er stor. I S2 dominerer primær­omfordelingen uansett, så $k$ påvirker resultatet bare marginalt. Ved utvidede sekundær­budsjett (for eksempel 10–15 plasser) ville $k$-valget hatt større betydning og burde estimeres empirisk gjennom et kontrollert forsøk.
+**B7. Sekundær­eksponerings­faktoren $k = 1{,}5$ er hentet fra litteraturen, ikke estimert i caset.** @chevalier1975 og @nordfalt2018 finner sekundær­plassers løft i størrelses­orden 1,3–2,0× primær­produktivitet, men variasjonen mellom kategorier og butikk­typer er stor. I S2 dominerer primær­omfordelingen uansett, så $k$ påvirker resultatet bare marginalt. Ved utvidede sekundær­budsjett (for eksempel 10–15 plasser) ville $k$-valget hatt større betydning og burde estimeres empirisk gjennom et kontrollert forsøk.
 
 ### 8.3 Implikasjoner for leverandørens forhandlings­posisjon
 
@@ -662,6 +704,8 @@ Svaret, basert på analyse av leverandørens samlede 34-SKU-portefølje hos Coop
 
 **Praktiske implikasjoner.** Metoden gir leverandøren et kvantitativt argument som kan brukes direkte i JBP- og kategori­besøk. I stedet for å argumentere for "mer plass" generelt, dokumenterer leverandøren et konkret reallokerings­forslag innenfor eksisterende hylleramme. Siden forslaget ikke krever utvidet plass, senker det forhandlings­friksjonen og øker sannsynligheten for at kjeden aksepterer endringen — i det minste som en delvis utrulling med oppfølgende måling.
 
+**Teoretisk bidrag.** Studien plasserer seg i krysset mellom SSAP-litteraturen og *category management*-praksis. Etablerte SSAP-modeller [@curhan1972; @dusterhoft2021; @hubner2020] forutsetter typisk kjededata på tvers av leverandører og full informasjon om kategoriens etterspørsel og kapasitet. Studien demonstrerer at en informasjons­asymmetrisk variant — der bare leverandørens egen del av planogrammet og egen sell-out modelleres — gir kvantifiserbare og operativt meningsfulle resultater. Dette er en konkret operasjonalisering av @klement2023 rammeverk for *category captain*-rollen, anvendt på den realistiske informasjons­situasjonen en leverandør faktisk står i. Den metodiske observasjonen — at deterministisk LP med margin-vekting og lineær produktivitet er tilstrekkelig for å identifisere robuste reallokerings­potensialer i et begrenset datagrunnlag — utvider den anvendte litteraturen om hvor lite data som kreves for å gi leverandøren et tallfestet forhandlings­argument.
+
 **Forslag til videre forskning.** Tre naturlige utvidelser er identifisert: (i) *stokastisk reformulering* som eksplisitt håndterer variasjon i sell-out og gir service-level-garantier i stedet for harde kapasitets­grenser; (ii) *økonomisk vekting* der målfunksjonen maksimerer dekningsbidrag fremfor enheter, betinget av at margintall kan innhentes fra leverandørens egne systemer; (iii) *empirisk estimering av space-elastisitet* gjennom et kontrollert forsøk hos leverandørens butikker, der forslag fra modellen implementeres på noen butikker og sell-out-responsen måles mot kontrollbutikker. Replikasjon på tvers av butikker og kategorier vil også styrke grunnlaget for generalisering.
 
 Studien demonstrerer at en konseptuelt enkel margin-vektet LP-modell, matet med den datatypen en leverandør realistisk disponerer (sell-out, egen hylleallokering og bruttomargin per enhet), er tilstrekkelig for å identifisere kvantifiserbare reallokerings­potensialer. Modellens verdi ligger ikke i presisjonen av det estimerte prosent­løftet, men i at den gjør leverandørens kontraktuelle hylle­situasjon målbar mot egen sell-out og margin — et utgangspunkt for kategori­dialog som i dag ofte mangler tallfestet underlag.
@@ -670,36 +714,8 @@ Studien demonstrerer at en konseptuelt enkel margin-vektet LP-modell, matet med 
 
 ## 10 Bibliografi
 
-*Referansestil: APA 7. Alle DOI-er og tidsskriftsnavn er basert på prosjektgruppens litteratursøk og bør verifiseres mot primærkilde før innlevering.*
-
-Bouzembrak, Y., m.fl. (2025). Literature review on shelf space allocation in retailing. *RAIRO — Operations Research*.
-
-Curhan, R. C. (1972). The relationship between shelf space and unit sales in supermarkets. *Journal of Marketing Research*, *9*(4), 406–412.
-
-Dantzig, G. B. (1947). *Maximization of a linear function of variables subject to linear inequalities*. I T. C. Koopmans (Red.), *Activity Analysis of Production and Allocation* (ss. 339–347). Wiley.
-
-Düsterhöft, T., Hübner, A., & Schaal, K. (2021). Exact optimization and decomposition approaches for shelf space allocation. *European Journal of Operational Research*.
-
-Gholami, M., & Bhakoo, V. (2025). A machine learning approach to inventory stockout prediction. *Supply Chain Analytics*.
-
-Gustriansyah, R., m.fl. (2022). A comparative study of demand forecasting models. *Mathematics*, *10*(19).
-
-Hsu, Y.-H., m.fl. (2025). Real-time retail planogram compliance using computer vision. *Scientific Reports*.
-
-Hübner, A., Schäfer, F., & Schaal, K. (2020). Maximizing profit via assortment and shelf-space optimization for two-dimensional shelves. *Production and Operations Management*.
-
-Klement, N., & Hübner, A. (2023). Decision support for managing assortments, shelf space, and replenishment in retail. *Flexible Services and Manufacturing Journal*.
-
-Koch, R. (1997). *The 80/20 principle: The secret to achieving more with less*. Nicholas Brealey.
-
-Mishra, A. (2023). Heuristics for the shelf space allocation problem. *OPSEARCH*.
-
-Pareto, V. (1896). *Cours d'économie politique*. F. Rouge.
-
-Santos, F., m.fl. (2024). Shelf management: A deep learning-based system for shelf visual monitoring. *Expert Systems with Applications*.
-
-Usama, M., m.fl. (2024). AI-driven demand forecasting: Enhancing inventory management. *World Journal of Advanced Research and Reviews*.
-
+::: {#refs}
+:::
 ---
 
 ## 11 Vedlegg
