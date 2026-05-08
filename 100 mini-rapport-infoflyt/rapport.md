@@ -125,8 +125,60 @@ teknologier de må bruke.
 
 # 4. Diagnose — operativ og relasjonell pris {#sec:diagnose}
 
-<!-- Skrives i Task 11 -->
-*[Plassholder — kostnadsmodell + tillitskurve.]*
+Kostnaden av treg informasjonsflyt har to ansikter: en operativ pris
+som er enkel å regne på, og en relasjonell pris som er vanskeligere å
+måle, men sannsynligvis større.
+
+**Den operative prisen.** Når selger får ny informasjon etter at
+kunden er besøkt, finnes det to handlingsalternativer: besøke kunden
+på nytt, eller la være. Begge koster.
+
+En enkel modell — *illustrativ, ikke empirisk* — gjør størrelsesorden
+synlig. Anta:
+
+- 50 selgere i salgsstyrken
+- 2 ekstra kundebesøk per selger per uke som direkte konsekvens av
+  forsinket informasjon
+- 1,5 time per ekstra besøk inkludert reise og forberedelse
+
+Det gir 50 × 2 × 1,5 = **150 timer per uke**, som tilsvarer omtrent
+fire fulltids-årsverk. Med en realistisk timekost havner man fort i
+millionklassen i året — for én organisasjon. Tallene er illustrative og
+varierer med rutestørrelse og informasjonstetthet, men poenget står:
+selv en moderat informasjonsforsinkelse summerer seg raskt når den
+gjentas på tvers av en hel salgsstyrke i en hel uke.
+
+**Den relasjonelle prisen.** Selger forvalter ikke en transaksjonskø,
+men en portefølje av kunder som besøkes 4–8 ganger i året. Hver gang
+samme A-kunde møter en selger som ikke vet om kampanjen kunden allerede
+har lest om, eroderer relasjonens kvalitet litt. Effekten er
+*compound*: tap i tidlig periode forsterker tapet i neste periode.
+
+![*Figur 3. Konseptuell modell av tillitserosjon ved gjentatte
+uoppdaterte kundebesøk. Den røde kurven illustrerer compound-effekten
+når selger gjentatte ganger møter samme kunde uten oppdatert
+informasjon. Figuren er illustrativ — ikke empirisk.*](figurer/fig3_tillitskurve.png){ width=80% }
+
+Morgan og Hunt [-@morgan_hunt1994] sin *commitment-trust*-teori
+forklarer mekanismen: tillit produseres av oppfattet kompetanse og
+pålitelighet, og brytes ned av det motsatte. En selger som tre ganger
+på rad ikke kjente til en kampanjepris kunden allerede hadde sett,
+oppfattes ikke som en strategisk samarbeidspartner — men som
+"ordretaker fra leverandøren". Dixon og Adamson [-@dixon_adamson2011]
+sin Challenger-undersøkelse viser at 53 % av kundens lojalitet driver
+fra hvilken type interaksjon selger leverer. En relasjon basert på
+utdatert informasjon er per definisjon *anti-Challenger*.
+
+**Symptom eller årsak?** Det er fristende å lese disse kostnadene som
+"selger jobber ikke effektivt nok" eller "ledere må kommunisere
+bedre". Men diagnosen er strukturell. Galbraith [-@galbraith1974]
+formulerer det presist: når oppgave-usikkerheten øker uten at
+informasjonsbehandlingskapasiteten øker tilsvarende, faller ytelsen.
+FMCG-hverdagen i 2026 er ikke roligere enn den var i 1995 da
+fire-leddskaskaden ble innført — den er hektigere. Tiltaket er ikke å
+løpe raskere i samme system, men å bygge ut selve kapasiteten.
+
+Det leder til neste kapittel: hvordan kapasiteten kan bygges ut.
 
 # 5. Alternativ modell — porteføljebevisst informasjonsflyt {#sec:to-be}
 
