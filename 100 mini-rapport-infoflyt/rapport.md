@@ -266,8 +266,33 @@ koordinatorer.
 
 # 6. Implementasjon og risiko {#sec:implementasjon}
 
-<!-- Skrives i Task 13 -->
-*[Plassholder — tre skritt + det vi ikke foreslår.]*
+Forslaget kan tas i tre skritt.
+
+**Skritt 1 — pilot på A-kunder.** Definer porteføljematrisen (figur 4)
+for ett distrikt eller én kategori. Etabler en direkte kanal mellom
+KAM og selger for kundespesifikk og pris-relatert informasjon for
+A-kunder. Mål: tid fra KAM-beslutning til selger-mottak på A-kunde-
+informasjon (target: under 24 timer). Tidsramme: 6–8 uker.
+
+**Skritt 2 — utvid med shared feed.** Utvid den direkte kanalen til en
+felles feed med rolle- og porteføljebasert filtrering. Ledere får
+parallell tilgang. Verktøy: enten eksisterende salgsplattform med
+utvidelse, eller et lett retail execution-tilskudd (figur 5). Mål:
+redusere "intern e-post"-tid for selger fra ~1,9 t/uke
+[@forrester_salescomms] til under 1 t/uke.
+
+**Skritt 3 — institusjonaliser KPI-er og målinger.** Shah med flere
+[-@shah2006] er klar på at kundesentrisitet svikter når målingene ikke
+følger med. Mål tid-til-felt for ny KAM-informasjon, andel besøk med
+oppdatert informasjon, og A-kunde-tillit (NPS eller tilsvarende) i
+ledelsesdashbord.
+
+**Det forslaget *ikke* gjør.** Det rør ikke linjeorganisasjonen,
+fjerner ikke lederlag, og innfører ikke nye rapporteringskrav nedover.
+Det legger heller ikke opp til å erstatte mellommenneskelig
+koordinering med teknologi — verktøyene er hjelp, ikke svar. Risikoen
+ligger ikke i å innføre dette stegvis; den ligger i å la status quo
+fortsette i en hverdag som blir hektigere år for år.
 
 # 7. Kilder
 
