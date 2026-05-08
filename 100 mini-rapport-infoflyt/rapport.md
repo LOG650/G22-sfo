@@ -13,8 +13,56 @@ lang: nb-NO
 
 # 2. Dagens modell — slik fungerer informasjonsflyten i dag {#sec:as-is}
 
-<!-- Skrives i Task 10 -->
-*[Plassholder — beskrivelse av kaskaden + figur 1 swimlane.]*
+I en typisk FMCG-salgsorganisasjon fungerer informasjonsflyten ned mot
+selger som en **firetrinns kaskade**:
+
+> KAM → Direktør → Regionssjef → Salgssjef → Selger
+
+Omtrent 90 % av selgerens inngående arbeidsinformasjon — pris,
+kampanjer, listinger, lager, kundespesifikke beslutninger — har
+opprinnelsen sin i KAM-teamet. Et execution-team opererer på siden av
+linjeorganisasjonen og bidrar med operative koordineringsoppgaver. KAM
+sitter sentralt og avtaler kategori- og kundebeslutninger med kjeden;
+direktør, regionssjef og salgssjef har hver sin koordinerende rolle.
+Selger er nederst — og samtidig den som besøker kunden hver dag.
+
+![*Figur 1. Dagens informasjonsflyt: kaskade fra KAM til selger med
+typiske tidsforsinkelser. Røde trekanter markerer kundebesøk som ofte
+skjer før selger har mottatt den nye informasjonen.*](figurer/fig1_swimlane.png){ width=80% }
+
+I praksis ser det ut omtrent som figur 1. KAM beslutter en ny
+kampanjepris dag null. Direktør videresender e-post dag én. Regionssjef
+diskuterer det i ukesmøtet dag to-tre. Salgssjef videresender til felt
+dag fire. Selger leser e-posten dag fem-seks — to dager etter at samme
+selger var hos en A-kunde og presenterte forrige ukes priser.
+
+Tre strukturelle trekk forsterker dette mønsteret:
+
+**Mange kokker.** Informasjon kommer ikke bare fra KAM. Kategori,
+marketing, supply, brand management, finans og execution-team genererer
+også beskjeder mot felt — alle gjennom sine egne kanaler. Selger må
+selv filtrere hva som er relevant, hva som er duplisert, og hva som er
+utdatert. Forrester [-@forrester_salescomms] dokumenterer at selgere i
+snitt bruker 1,9 timer per uke på å behandle interne kommunikasjons-
+meldinger — uten at det nødvendigvis betyr at de er informert.
+
+**Hver leder filtrerer.** Hvert ledd i kaskaden gjør en
+nytte-vurdering: er dette relevant for mine selgere akkurat nå?
+Resultatet er at lederen ofte holder informasjon tilbake til neste
+fellesmøte, eller pakker den om i egne ord. Dette er ikke uflaks — det
+er en rasjonell respons på begrensede møtearenaer og overvåking-
+kapasitet. Men effekten er forsinkelse og forvrengning.
+
+**Selgerens kalender venter ikke.** En selger med 60–80 kunder i en
+rute besøker hver kunde 4–8 ganger i året. Dagen er strukturert rundt
+kundebesøk, ikke rundt e-postlesing eller møter. Det betyr at
+informasjon som ankommer dag fem ofte havner *etter* at selgeren
+allerede har vært hos kunden i henhold til sin rute — og kunden får
+informasjonen fra et annet hold før selgeren får mulighet til å bringe
+den.
+
+Resultatet av disse tre trekkene oppsummeres enkelt: selger får riktig
+informasjon, men på feil tidspunkt.
 
 # 3. Litteraturramme — hvorfor kaskaden svikter {#sec:litteratur}
 
