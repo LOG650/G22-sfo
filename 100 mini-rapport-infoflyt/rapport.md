@@ -182,8 +182,87 @@ Det leder til neste kapittel: hvordan kapasiteten kan bygges ut.
 
 # 5. Alternativ modell — porteføljebevisst informasjonsflyt {#sec:to-be}
 
-<!-- Skrives i Task 12 -->
-*[Plassholder — porteføljematrise + hub-and-spoke.]*
+Den foreslåtte modellen bygger på tre prinsipper hentet fra
+litteraturen: differensier informasjonen etter porteføljesegment, kort
+ned avstanden mellom kilde (KAM) og bruker (selger), og bevar ledernes
+sin koordinerende rolle uten å la dem være flaskehalsen for
+hastighetskritisk informasjon.
+
+## 5.1 Differensier etter porteføljesegment
+
+Ikke all informasjon er like haste-kritisk, og ikke alle kunder krever
+samme tempo. Fiocca [-@fiocca1982] og Zolkiewski og Turnbull
+[-@zolkiewski2002] tilbyr et språk for dette: kundene segmenteres etter
+strategisk verdi og kompleksitet, og ressursene differensieres
+deretter. Samme prinsipp gjelder informasjonsflyt.
+
+![*Figur 4. Differensiert informasjonshastighet per porteføljesegment.
+Strategiske A-kunder krever umiddelbar varsling for kundespesifikk og
+prisrelatert informasjon, mens C-kunder kan håndteres i ukentlige
+batcher.*](figurer/fig4_portefoljematrise.png){ width=80% }
+
+For en strategisk A-kunde må kundespesifikk informasjon, prisendringer
+og kampanjebeslutninger nå selger umiddelbart — i praksis innen samme
+arbeidsdag som beslutningen tas. For en C-kunde i volumsegmentet er en
+ukentlig batch tilstrekkelig. Mellomsegmentet B faller imellom: samme
+dag for kritisk info, innen uken for normal driftsinformasjon.
+
+Dette er ikke en organisatorisk omveltning — det er en
+prioriteringsregel som kan implementeres uten at man rør selve
+linjeorganisasjonen.
+
+## 5.2 Direkte KAM ↔ selger via et delt info-lag
+
+I dag flyter informasjonen fra KAM gjennom fire ledelsesledd før den
+når selger. To av disse leddene legger til reell beslutnings-verdi
+(direktør og regionssjef vurderer strategiske implikasjoner). De to
+andre fungerer i praksis som en ren videresending av e-post — med
+forsinkelse og tap.
+
+Den foreslåtte arkitekturen erstatter videresending med direkte tilgang
+gjennom et delt informasjons-lag. KAM publiserer informasjonen ett
+sted; selger leser den der. Lederne får parallell tilgang for
+koordinering og oversikt — men de er ikke lenger en flaskehals i
+kjeden.
+
+![*Figur 5. Foreslått hub-and-spoke-arkitektur. KAM eier kilden, selger
+har direkte pull-tilgang via et delt info-lag (mobil + dashboard).
+Lederne har parallell strøm for koordinering og strategi, ikke for
+videresending.*](figurer/fig5_to_be_hub.png){ width=80% }
+
+Dette korresponderer med Galbraith [-@galbraith1974] sin anbefaling om
+*lateral relations* og *vertikale informasjonssystemer* — ikke som
+erstatning for hierarkiet, men som utvidelse av dets kapasitet.
+Praktikerlitteraturen viser at modne verktøy for nettopp dette
+eksisterer i FMCG-segmentet: TELUS [-@telus2024] og lignende
+leverandører dokumenterer **18–25 % økt selgerproduktivitet** ved
+overgang til real-time retail execution-plattformer.
+
+McKinsey [-@mckinsey2022_hybrid] viser at to tredeler av B2B-vinnerne
+har konto-nivå informasjons-tilgang for selgere; bare halvparten av
+de tregere har det samme. Forskjellen er ikke flere e-poster — det er
+en annen arkitektur.
+
+## 5.3 Tre rutings-prinsipper
+
+Tre konkrete rutinger oversetter prinsippene til hverdag:
+
+1. **Kundespesifikk og hastekritisk informasjon for A-/B-kunder
+   ruter direkte fra KAM til selger** via push-varsling i et delt
+   verktøy. Direktør og regionssjef ser samme informasjon i sitt
+   dashbord, men trenger ikke å videresende den.
+2. **Generell kampanje- og prisinformasjon publiseres i et felles
+   feed** med rolle- og porteføljebasert filtrering, slik Forrester
+   [-@forrester_salescomms] anbefaler. Selger ser bare det som er
+   relevant for sin rute og sitt kundesegment.
+3. **Strategisk og taktisk koordinering forblir i ledergruppene** —
+   regionssjef og salgssjef bruker informasjonen til å prioritere,
+   coache og beslutte ressursfordeling, men de er ikke
+   informasjonens transportlag.
+
+Resultatet er en arkitektur som *legger til* hastighet og
+porteføljedifferensiering uten å ta bort lederrollene som
+koordinatorer.
 
 # 6. Implementasjon og risiko {#sec:implementasjon}
 
