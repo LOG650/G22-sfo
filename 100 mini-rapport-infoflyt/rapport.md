@@ -8,8 +8,40 @@ lang: nb-NO
 
 # 1. Innledning {#sec:innledning}
 
-<!-- Skrives i Task 14 -->
-*[Plassholder — innledning skrives sist når kapittel 2–6 er ferdige.]*
+Som selger i en FMCG-organisasjon kjenner jeg dette mønsteret godt.
+Jeg besøker en strategisk viktig kunde mandag morgen — gjennomgår
+sortimentet, snakker om neste kampanje, planlegger plassering i
+butikken. Onsdag ettermiddag treffer en e-post innboksen min: KAM har
+forhandlet en ny kampanjepris som gjelder fra denne uken. Den
+informasjonen burde jeg hatt mandag.
+
+Konsekvensen er enkel: enten reiser jeg tilbake til kunden — som
+koster en halv dag og bryter kundens egen ruteplanlegging — eller jeg
+lar være. Begge alternativene er dårlige. Det første er ineffektivt;
+det andre eroderer kundens oppfatning av at jeg er en oppdatert
+samarbeidspartner.
+
+Jeg skriver dette dokumentet fordi mønsteret ikke er en personlig
+uflaks, og fordi det ikke skyldes at noen i kjeden gjør jobben sin
+dårlig. KAM tar gode beslutninger. Direktør, regionssjef og salgssjef
+gjør sin del. Selve modellen — informasjon som flyter gjennom fire
+ledd før den når feltet — er den som ikke holder takten i en hverdag
+preget av ukentlige kampanjer, raskt skiftende kundekrav og en
+voksende kundeportefølje per selger.
+
+Dette dokumentet har tre formål. Først å beskrive dagens modell og
+tidsforsinkelsene den produserer. Deretter å vise — gjennom etablert
+litteratur — hvorfor problemet er strukturelt og forutsigbart. Til
+slutt å foreslå en alternativ informasjonsflyt-modell som er
+porteføljebevisst, kort på avstand mellom KAM og selger, og som
+bevarer lederlagene som koordinatorer uten å la dem være
+flaskehalser.
+
+Hovedbudskapet kan formuleres slik: dagens kaskade ble bygget for en
+roligere hverdag enn den vi har. Resultatet er ikke bare ekstra
+besøk — det er compound erosjon av tilliten i en kundeportefølje som
+er beholdningsverdien vår. Løsningen finnes i etablert litteratur og
+i modne verktøy, og kan innføres stegvis.
 
 # 2. Dagens modell — slik fungerer informasjonsflyten i dag {#sec:as-is}
 
