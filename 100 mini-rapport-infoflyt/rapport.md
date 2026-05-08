@@ -75,15 +75,15 @@ marketing, supply, brand management, finans og execution-team genererer
 også beskjeder mot felt — alle gjennom sine egne kanaler. Selger må
 selv filtrere hva som er relevant, hva som er duplisert, og hva som er
 utdatert. Forrester [-@forrester_salescomms] dokumenterer at selgere i
-snitt bruker 1,9 timer per uke på å behandle interne kommunikasjons-
-meldinger — uten at det nødvendigvis betyr at de er informert.
+snitt bruker 1,9 timer per uke på å behandle interne
+kommunikasjonsmeldinger — uten at det nødvendigvis betyr at de er informert.
 
 **Hver leder filtrerer.** Hvert ledd i kaskaden gjør en
 nytte-vurdering: er dette relevant for mine selgere akkurat nå?
 Resultatet er at lederen ofte holder informasjon tilbake til neste
 fellesmøte, eller pakker den om i egne ord. Dette er ikke uflaks — det
-er en rasjonell respons på begrensede møtearenaer og overvåking-
-kapasitet. Men effekten er forsinkelse og forvrengning.
+er en rasjonell respons på begrensede møtearenaer og
+overvåkingskapasitet. Men effekten er forsinkelse og forvrengning.
 
 **Selgerens kalender venter ikke.** En selger med 60–80 kunder i en
 rute besøker hver kunde 4–8 ganger i året. Dagen er strukturert rundt
@@ -303,8 +303,8 @@ Forslaget kan tas i tre skritt.
 **Skritt 1 — pilot på A-kunder.** Definer porteføljematrisen (figur 4)
 for ett distrikt eller én kategori. Etabler en direkte kanal mellom
 KAM og selger for kundespesifikk og pris-relatert informasjon for
-A-kunder. Mål: tid fra KAM-beslutning til selger-mottak på A-kunde-
-informasjon (target: under 24 timer). Tidsramme: 6–8 uker.
+A-kunder. Mål: tid fra KAM-beslutning til selger-mottak på
+A-kundeinformasjon (mål: under 24 timer). Tidsramme: 6–8 uker.
 
 **Skritt 2 — utvid med shared feed.** Utvid den direkte kanalen til en
 felles feed med rolle- og porteføljebasert filtrering. Ledere får
