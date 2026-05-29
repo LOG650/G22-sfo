@@ -2,8 +2,11 @@
 """
 ACT-3.5 Sankey-diagram av omfordelingen i S2 (hovedanbefaling).
 
-Viser hylleplass-flyten fra «Nåværende allokering» til «LP S2 allokering».
-Hver SKU er kilde og destinasjon; båndtykkelsen tilsvarer antall facings flyttet.
+Genererer to versjoner:
+  - sankey_omfordeling_S2_aggregert.png/html  — ABC-aggregert (5 noder), egnet for hovedtekst
+  - sankey_omfordeling_S2.png/html            — full per-SKU-versjon (vedlegg)
+
+Begge viser hylleplass-flyten fra «Nåværende allokering» til «LP S2 allokering».
 """
 
 from __future__ import annotations
@@ -98,6 +101,65 @@ def main() -> None:
     fig.write_html(html_out, include_plotlyjs="cdn")
     print(f"Lagret: {png_out}")
     print(f"Lagret: {html_out}")
+
+    # ----- Aggregert ABC-versjon (for hovedtekst) -----
+    klasse_color = {"A": "#1976D2", "B": "#388E3C", "C": "#F57C00"}
+    src_nodes = []   # (label, klasse, total_loss)
+    dst_nodes = []   # (label, klasse, total_gain)
+    for k in ("A", "B", "C"):
+        loss_k = -losers.loc[losers["klasse"] == k, "delta"].sum()
+        gain_k = winners.loc[winners["klasse"] == k, "delta"].sum()
+        if loss_k > 0:
+            src_nodes.append((f"Over-allokerte {k}-SKUer", k, loss_k))
+        if gain_k > 0:
+            dst_nodes.append((f"Under-allokerte {k}-SKUer", k, gain_k))
+
+    agg_node_labels = [n[0] for n in src_nodes] + [n[0] for n in dst_nodes]
+    agg_node_colors = [klasse_color[n[1]] for n in src_nodes] + [klasse_color[n[1]] for n in dst_nodes]
+
+    total_gain_agg = sum(n[2] for n in dst_nodes)
+    agg_sources, agg_targets, agg_values = [], [], []
+    for i, src in enumerate(src_nodes):
+        for j, dst in enumerate(dst_nodes):
+            share = dst[2] / total_gain_agg
+            flow = src[2] * share
+            if flow >= 0.5:
+                agg_sources.append(i)
+                agg_targets.append(len(src_nodes) + j)
+                agg_values.append(round(flow, 1))
+
+    fig_agg = go.Figure(data=[go.Sankey(
+        arrangement="snap",
+        node=dict(
+            pad=30,
+            thickness=22,
+            line=dict(color="#37474F", width=0.8),
+            label=agg_node_labels,
+            color=agg_node_colors,
+        ),
+        link=dict(
+            source=agg_sources,
+            target=agg_targets,
+            value=agg_values,
+            color="rgba(120,144,156,0.45)",
+        ),
+    )])
+    fig_agg.update_layout(
+        title=dict(
+            text=("S2 — omfordeling av hylleenheter aggregert per ABC-klasse "
+                  "(blå = A, grønn = B, oransje = C)"),
+            font=dict(size=14),
+        ),
+        font=dict(family="Helvetica", size=13),
+        margin=dict(l=20, r=20, t=70, b=20),
+        height=420,
+    )
+    agg_png = FIG_DIR / "sankey_omfordeling_S2_aggregert.png"
+    agg_html = FIG_DIR / "sankey_omfordeling_S2_aggregert.html"
+    fig_agg.write_image(agg_png, width=1100, height=420, scale=2)
+    fig_agg.write_html(agg_html, include_plotlyjs="cdn")
+    print(f"Lagret: {agg_png}")
+    print(f"Lagret: {agg_html}")
 
 
 if __name__ == "__main__":
