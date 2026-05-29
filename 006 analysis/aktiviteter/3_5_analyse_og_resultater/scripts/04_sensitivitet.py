@@ -58,6 +58,7 @@ def aggregate(df: pd.DataFrame) -> pd.DataFrame:
     g = df.groupby("Produkt").agg(
         mean_sales=("Ant_solgt", "mean"),
         facings=("Kapasitet", "first"),
+        dybde=("Dybde", "first"),
     )
     g["productivity"] = g["mean_sales"] / g["facings"]
     g["utilization"] = g["mean_sales"] / g["facings"]
@@ -72,10 +73,11 @@ def compute_demand_cap(stats: pd.DataFrame, overserve_factor: float) -> pd.Serie
 
 
 def compute_x_min(stats: pd.DataFrame, x_min_fraction: float,
-                  x_min_floor: int = 1) -> pd.Series:
+                  x_min_facings: int = 3) -> pd.Series:
+    """x_min = max(x_min_fraction × c_i, x_min_facings × Dybde_i = 1 kolli per SKU)."""
     frac = (stats["facings"] * x_min_fraction).apply(math.floor)
-    floor = pd.Series(x_min_floor, index=stats.index)
-    return pd.concat([floor, frac], axis=1).max(axis=1).astype(int)
+    kolli = (stats["dybde"] * x_min_facings).astype(int)
+    return pd.concat([kolli, frac], axis=1).max(axis=1).astype(int)
 
 
 def solve(stats: pd.DataFrame, demand: pd.Series, x_min: pd.Series,
