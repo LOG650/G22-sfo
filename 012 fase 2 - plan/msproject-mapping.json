@@ -4,11 +4,11 @@
         "version": "1.0.0",
         "description": "Stabil mapping fra JSON-ID-er til MS Project UIDs. Oppdateres av generate_msproject_from_json.py."
     },
-    "lastSync": "2026-04-30T18:45:36Z",
-    "nextUid": 57,
+    "lastSync": "2026-05-29T00:26:40Z",
+    "nextUid": 59,
     "stats": {
-        "total": 56,
-        "reused": 56,
+        "total": 58,
+        "reused": 58,
         "new": 0,
         "orphans": 0
     },
@@ -35,9 +35,11 @@
         "activity:ACT-3.4.6": 35,
         "activity:ACT-3.5.1": 37,
         "activity:ACT-3.5.2": 38,
+        "activity:ACT-3.5.3": 57,
         "activity:ACT-3.5.4": 39,
         "activity:ACT-3.6": 41,
         "activity:ACT-3.7": 43,
+        "activity:ACT-3.7.2": 58,
         "activity:ACT-3.8": 44,
         "activity:ACT-4.1": 48,
         "activity:ACT-4.2": 49,
@@ -73,71 +75,74 @@
     "orphans": [],
     "history": [
         {
-            "syncedAt": "2026-04-24T19:17:56Z",
+            "syncedAt": "2026-05-09T18:04:35Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-24T19:20:10Z",
+            "syncedAt": "2026-05-09T18:46:40Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-24T19:28:34Z",
+            "syncedAt": "2026-05-09T18:47:54Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-25T17:00:50Z",
+            "syncedAt": "2026-05-09T18:51:33Z",
             "reused": 56,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-25T17:01:59Z",
+            "syncedAt": "2026-05-12T18:22:21Z",
             "reused": 56,
+            "new": 2,
+            "orphans": 0,
+            "newKeys": [
+                "activity:ACT-3.5.3",
+                "activity:ACT-3.7.2"
+            ]
+        },
+        {
+            "syncedAt": "2026-05-22T22:05:01Z",
+            "reused": 58,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-25T17:07:06Z",
-            "reused": 56,
+            "syncedAt": "2026-05-23T18:37:49Z",
+            "reused": 58,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-28T19:15:01Z",
-            "reused": 56,
+            "syncedAt": "2026-05-23T18:40:52Z",
+            "reused": 58,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-30T18:44:55Z",
-            "reused": 56,
+            "syncedAt": "2026-05-23T18:40:52Z",
+            "reused": 58,
             "new": 0,
             "orphans": 0,
             "newKeys": []
         },
         {
-            "syncedAt": "2026-04-30T18:44:55Z",
-            "reused": 56,
-            "new": 0,
-            "orphans": 0,
-            "newKeys": []
-        },
-        {
-            "syncedAt": "2026-04-30T18:45:36Z",
-            "reused": 56,
+            "syncedAt": "2026-05-29T00:26:40Z",
+            "reused": 58,
             "new": 0,
             "orphans": 0,
             "newKeys": []

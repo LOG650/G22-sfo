@@ -270,14 +270,14 @@
                 "parentId": "WBS-1.3",
                 "name": "Analyse og resultater",
                 "type": "work-package",
-                "description": "Presentere resultater, sensitivitetsanalyse, sammenligning nåværende vs. foreslått allokering.",
+                "description": "Presentere resultater, sensitivitetsanalyse, sammenligning nåværende vs. foreslått allokering, samt supplerende analyser (robusthet, heuristikk-benchmark, bootstrap) etter peer review.",
                 "owner": "Sebastian Vambheim Thunestvedt, Frida Berge-Robertson",
-                "status": "not-started",
+                "status": "completed",
                 "audit": {
                     "createdAt": "2026-03-09T12:00:00Z",
-                    "updatedAt": "2026-03-14T12:00:00Z"
+                    "updatedAt": "2026-05-12T00:00:00Z"
                 },
-                "activityIds": ["ACT-3.5.1", "ACT-3.5.2", "ACT-3.5.4"]
+                "activityIds": ["ACT-3.5.1", "ACT-3.5.2", "ACT-3.5.3", "ACT-3.5.4"]
             },
             {
                 "wbsItemId": "WBS-1.3.6",
@@ -300,16 +300,16 @@
                 "code": "1.3.7",
                 "level": 3,
                 "parentId": "WBS-1.3",
-                "name": "Hovedutkast og peer review",
+                "name": "Hovedutkast, peer review og revisjon",
                 "type": "work-package",
-                "description": "Samle alle kapitler til hovedutkast og gjennomføre peer-to-peer review.",
+                "description": "Samle alle kapitler til hovedutkast, gjennomføre peer-to-peer review, og revidere rapporten til v2 basert på supplerende analyser og ekstern kvalitetsvurdering.",
                 "owner": "Alle",
-                "status": "not-started",
+                "status": "completed",
                 "audit": {
                     "createdAt": "2026-03-09T12:00:00Z",
-                    "updatedAt": "2026-03-14T12:00:00Z"
+                    "updatedAt": "2026-05-12T00:00:00Z"
                 },
-                "activityIds": ["ACT-3.7", "ACT-3.8"]
+                "activityIds": ["ACT-3.7", "ACT-3.8", "ACT-3.7.2"]
             },
             {
                 "wbsItemId": "WBS-1.4",

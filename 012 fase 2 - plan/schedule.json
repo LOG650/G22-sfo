@@ -18,8 +18,8 @@
         "audit": {
             "createdAt": "2026-03-09T12:00:00Z",
             "createdBy": "sebastian",
-            "updatedAt": "2026-04-28T17:14:52Z",
-            "updatedBy": "/handoff backfill — synk mot status.md, jevn fordeling"
+            "updatedAt": "2026-05-22T00:00:00Z",
+            "updatedBy": "ACT-4.3 startet: korrektur + kildesjekk (Frida) i gang etter rapport iterasjon v1-v4. Intern-versjon (usensurert PDF/DOCX/MD) generert til gruppa. Bibliografi-pipeline patchet i Makefile."
         },
         "calendars": [
             {
@@ -57,8 +57,8 @@
                 "milestoneId": "M2",
                 "name": "Godkjent hovedutkast + peer review",
                 "date": "2026-04-27",
-                "status": "not-reached",
-                "description": "Alle rapportkapitler samlet i hovedutkast. Peer-to-peer review gjennomført."
+                "status": "reached",
+                "description": "Hovedutkast samlet 2026-04-27. Peer review levert til motpart og mottatt tilbake; M2 oppnådd 2026-05-08."
             },
             {
                 "milestoneId": "M3",
@@ -975,6 +975,57 @@
                 }
             },
             {
+                "activityId": "ACT-3.5.3",
+                "taskId": "3.5.3",
+                "wbsItemId": "WBS-1.3.5",
+                "name": "Supplerende analyser etter peer review (Bolk 1-3)",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": false,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.8",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Tre supplerende analyser utformet i respons på peer-review og intern kvalitetsgjennomgang. Bolk 1 (robusthet og forhandlingsverdier): A2-uke-15 drop-test, volum-vs-margin sammenligning, numerisk skyggepris på R1. Bolk 2 (empirisk forankring): OOS-tap ex post per uke, heuristikk-benchmark mot fire enkle allokeringsregler. Bolk 3 (statistisk legitimitet): bootstrap over 10-ukers vinduet med B=1000 iterasjoner og 95%-konfidensbånd på S2-gevinsten.",
+                "plannedStart": "2026-05-09",
+                "plannedFinish": "2026-05-12",
+                "steps": [
+                    "Bolk 1: utvide 03_lp_modell.py med A2-uke-15 robustness, volum-vs-margin, shadow price R1",
+                    "Bolk 2: implementere 08_oos_tap.py og 09_heuristikker.py",
+                    "Bolk 3: implementere 10_bootstrap.py og kjøre B=1000 iterasjoner",
+                    "Generere alle output (MD-rapporter, CSV-er, histogram-figur)",
+                    "Backup eksisterende artefakter i _backups/"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.5.3-C01",
+                        "description": "Alle tre bolker kjørt og output verifisert",
+                        "status": "passed",
+                        "result": "Alle 6 nye output-filer generert (bolk1_robustness.md, oos_tap_rapport.md, heuristikker_rapport.md, bootstrap_rapport.md + CSV-er + histogram). Eksisterende S1-S4-tall bekreftet uendret.",
+                        "error": ""
+                    },
+                    {
+                        "criteriaId": "ACT-3.5.3-C02",
+                        "description": "Funn dokumentert og klart for integrasjon i rapport",
+                        "status": "passed",
+                        "result": "Sentrale tall: A2-drop -0,96 pp; volum-vs-margin +0,20 %; shadow price 0,69; OOS-tap 367-734 enh/uke; LP-gap mot heuristikk +14,8 pp; bootstrap 95%-bånd [+38,7 %, +44,4 %].",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian",
+                    "permissionMode": "samarbeid",
+                    "sessionId": "bolk1-3-2026-05-11",
+                    "startedAt": "2026-05-11",
+                    "completedAt": "2026-05-12",
+                    "lastEvent": "Bolk 1-3 ferdig kjørt og dokumentert; klart for rapport-integrasjon."
+                }
+            },
+            {
                 "activityId": "ACT-3.5.4",
                 "taskId": "3.5.4",
                 "wbsItemId": "WBS-1.3.5",
@@ -1105,8 +1156,8 @@
                 "taskId": "3.8",
                 "wbsItemId": "WBS-1.3.7",
                 "name": "Peer-to-peer review",
-                "status": "in-progress",
-                "percentComplete": 10,
+                "status": "completed",
+                "percentComplete": 100,
                 "isCriticalPath": true,
                 "predecessors": [
                     {
@@ -1128,8 +1179,8 @@
                     {
                         "criteriaId": "ACT-3.8-C01",
                         "description": "Peer review er gjennomført",
-                        "status": "not-passed",
-                        "result": "",
+                        "status": "passed",
+                        "result": "Peer review levert til motpart, mottatt tilbake og vurdert.",
                         "error": ""
                     }
                 ],
@@ -1138,8 +1189,61 @@
                     "permissionMode": "samarbeid",
                     "sessionId": "backfill-2026-04-28",
                     "startedAt": "2026-04-28",
-                    "completedAt": null,
-                    "lastEvent": "Peer-review startet 2026-04-28; tilbakemelding ventes innen 2026-05-04."
+                    "completedAt": "2026-05-08",
+                    "lastEvent": "Peer review begge veier ferdig; M2 oppnådd; Fase 4 starter."
+                }
+            },
+            {
+                "activityId": "ACT-3.7.2",
+                "taskId": "3.7.2",
+                "wbsItemId": "WBS-1.3.7",
+                "name": "Rapport-revisjon: integrasjon av Bolk 1-3 + ekstern kvalitetsvurdering (v1 → v2)",
+                "status": "completed",
+                "percentComplete": 100,
+                "isCriticalPath": true,
+                "predecessors": [
+                    {
+                        "activityId": "ACT-3.5.3",
+                        "type": "finish-to-start",
+                        "lagDays": 0
+                    }
+                ],
+                "milestoneId": null,
+                "description": "Integrere de tre supplerende analysene (ACT-3.5.3) i rapportens hovedtekst, bygge ny PDF (v2), og innhente ekstern komparativ vurdering av v1 vs v2 før innlevering. Inkluderer redaksjonelle justeringer basert på ekstern review (demping av OOS-headline-tall fra punktestimat til bånd).",
+                "plannedStart": "2026-05-11",
+                "plannedFinish": "2026-05-12",
+                "steps": [
+                    "Sammendrag og abstract: legge inn bootstrap-bånd, heuristikk-gap og OOS-tap-perspektiv",
+                    "Ny §7.1.1 (heuristikk-benchmark) og §7.3.1 (bootstrap-konfidensbånd)",
+                    "Oppdatere §7.5 E1/E2 og §8.1/§8.2 B4/§8.3 med nye tall",
+                    "Oppdatere §9 E1/E2/E3 og konklusjons-narrativet",
+                    "Regenerere rapport.pdf via pandoc + Eisvogel",
+                    "Pakke materiale for ekstern kvalitetsvurdering (v1 + v2 + analyser + prompt)",
+                    "Implementere ekstern reviews anbefaling: dempe OOS-tall til 367-734 (43-87 %)"
+                ],
+                "criteria": [
+                    {
+                        "criteriaId": "ACT-3.7.2-C01",
+                        "description": "v2 av rapport.pdf bygget og innholdsmessig konsistent",
+                        "status": "passed",
+                        "result": "rapport.pdf v2 (53 sider, 2,13 MB) bygget 2026-05-12. v1-backup beholdt i _backups/pre_bolk1_2026-05-11/.",
+                        "error": ""
+                    },
+                    {
+                        "criteriaId": "ACT-3.7.2-C02",
+                        "description": "Ekstern vurdering levert og redaksjonelt fulgt opp",
+                        "status": "passed",
+                        "result": "Ekstern vurderer konkluderte at v2 bør leveres (~1 karaktertrinn). Anbefaling om å dempe OOS-headline implementert.",
+                        "error": ""
+                    }
+                ],
+                "execution": {
+                    "runBy": "Sebastian",
+                    "permissionMode": "samarbeid",
+                    "sessionId": "v1-v2-revisjon-2026-05-11",
+                    "startedAt": "2026-05-11",
+                    "completedAt": "2026-05-12",
+                    "lastEvent": "v2 ferdig revidert; OOS-tall dempet til bånd 367-734 (43-87 %) per ekstern anbefaling."
                 }
             },
             {
@@ -1147,8 +1251,8 @@
                 "taskId": "4.1",
                 "wbsItemId": "WBS-1.4.1",
                 "name": "Skrive konklusjon",
-                "status": "not-started",
-                "percentComplete": 0,
+                "status": "in-progress",
+                "percentComplete": 80,
                 "isCriticalPath": true,
                 "predecessors": [
                     {
@@ -1171,17 +1275,17 @@
                         "criteriaId": "ACT-4.1-C01",
                         "description": "Konklusjon er skrevet",
                         "status": "not-passed",
-                        "result": "",
+                        "result": "Konklusjon §9 skrevet og oppdatert med Bolk 1-3-funn (E1/E2/E3 + shadow price + bootstrap-bånd). Gjenstår: endelig korrekturlesning og evt. justering basert på muntlig forberedelse.",
                         "error": ""
                     }
                 ],
                 "execution": {
                     "runBy": "Sebastian, Frida",
                     "permissionMode": "samarbeid",
-                    "sessionId": null,
-                    "startedAt": null,
+                    "sessionId": "v1-v2-revisjon-2026-05-11",
+                    "startedAt": "2026-04-28",
                     "completedAt": null,
-                    "lastEvent": null
+                    "lastEvent": "§9 oppdatert med OOS-tap-bånd, bootstrap-bånd, heuristikk-gap og shadow price. Trolig stabilt fram til endelig korrektur."
                 }
             },
             {
@@ -1189,8 +1293,8 @@
                 "taskId": "4.2",
                 "wbsItemId": "WBS-1.4.1",
                 "name": "Ferdigstille innledning",
-                "status": "not-started",
-                "percentComplete": 0,
+                "status": "completed",
+                "percentComplete": 100,
                 "isCriticalPath": false,
                 "predecessors": [
                     {
@@ -1211,18 +1315,18 @@
                     {
                         "criteriaId": "ACT-4.2-C01",
                         "description": "Innledning er ferdigstilt",
-                        "status": "not-passed",
-                        "result": "",
+                        "status": "passed",
+                        "result": "§1 Innledning ferdigstilt med problemstilling, evalueringsspørsmål E1-E3, avgrensninger og antagelser. Konsistent med oppdatert §9 etter v2-revisjon.",
                         "error": ""
                     }
                 ],
                 "execution": {
                     "runBy": "Frida",
                     "permissionMode": "samarbeid",
-                    "sessionId": null,
-                    "startedAt": null,
-                    "completedAt": null,
-                    "lastEvent": null
+                    "sessionId": "v1-v2-revisjon-2026-05-11",
+                    "startedAt": "2026-04-28",
+                    "completedAt": "2026-05-11",
+                    "lastEvent": "§1 Innledning ferdig; konsistent med v2-konklusjonen."
                 }
             },
             {
@@ -1230,8 +1334,8 @@
                 "taskId": "4.3",
                 "wbsItemId": "WBS-1.4.2",
                 "name": "Kvalitetssikring, korrektur, referanser",
-                "status": "not-started",
-                "percentComplete": 0,
+                "status": "in-progress",
+                "percentComplete": 40,
                 "isCriticalPath": true,
                 "predecessors": [
                     {
@@ -1246,31 +1350,32 @@
                     }
                 ],
                 "milestoneId": null,
-                "description": "Grovredigering, språk, finjustering, korrektur, APA 7 referanseliste, figursjekk.",
+                "description": "Grovredigering, språk, finjustering, korrektur, APA 7 referanseliste, figursjekk. Inkluderer iterative rapportrunder (v1-v4) og kildesjekk mot references.bib.",
                 "plannedStart": "2026-05-05",
-                "plannedFinish": "2026-05-18",
+                "plannedFinish": "2026-05-26",
                 "steps": [
                     "Grovredigering: struktur og argumentasjon",
                     "Språkforbedring: klarhet og faglig presisjon",
                     "Finjustering: tabeller, figurer, begreper",
-                    "Korrektur og referansesjekk (APA 7)"
+                    "Korrektur og referansesjekk (APA 7)",
+                    "Anonymiseringssjekk (pseudonymer A/B/C konsistent, intern-versjon med reelle SKU-navn produsert til gruppa)"
                 ],
                 "criteria": [
                     {
                         "criteriaId": "ACT-4.3-C01",
                         "description": "Rapport er kvalitetssikret",
                         "status": "not-passed",
-                        "result": "",
+                        "result": "Rapport iterert v1-v4. Frida driver korrektur og kildesjekk (oppstart 2026-05-22). Bibliografi-pipeline (Makefile --citeproc) verifisert: PDF og DOCX rendrer nå alle 16 referanser i APA 7. Intern-versjon (usensurert PDF/DOCX/MD) bygget for gruppe-bruk under NDA.",
                         "error": ""
                     }
                 ],
                 "execution": {
                     "runBy": "Sebastian, Frida",
                     "permissionMode": "samarbeid",
-                    "sessionId": null,
-                    "startedAt": null,
+                    "sessionId": "korrektur-kildesjekk-2026-05-22",
+                    "startedAt": "2026-05-22",
                     "completedAt": null,
-                    "lastEvent": null
+                    "lastEvent": "2026-05-22: Møte avholdt for korrekturlesning og kildesjekk (Frida). Rapport har gått gjennom fire iterasjoner (v1-v4 = endelig utkast 'Rapport 4'). Intern-versjon med reelle SKU-navn generert (PDF/DOCX/MD) for kontroll i gruppa. Bibliografi-feil i tidlig PDF-build oppdaget og rettet: Makefilens wildcard-guard taklet ikke mellomrom i sti og droppet --citeproc stille; patchet til å bruke shell test -f."
                 }
             },
             {
@@ -1278,8 +1383,8 @@
                 "taskId": "4.4",
                 "wbsItemId": "WBS-1.4.2",
                 "name": "Ferdigstille Python-kode + dokumentasjon",
-                "status": "not-started",
-                "percentComplete": 0,
+                "status": "in-progress",
+                "percentComplete": 80,
                 "isCriticalPath": false,
                 "predecessors": [
                     {
@@ -1289,30 +1394,31 @@
                     }
                 ],
                 "milestoneId": null,
-                "description": "Rydde i kode, legge til kommentarer, klargjøre som vedlegg.",
+                "description": "Rydde i kode, legge til kommentarer, klargjøre som vedlegg. Inkluderer tre nye scripts fra Bolk 1-3 (08_oos_tap.py, 09_heuristikker.py, 10_bootstrap.py) samt utvidelsen av 03_lp_modell.py.",
                 "plannedStart": "2026-05-05",
                 "plannedFinish": "2026-05-11",
                 "steps": [
                     "Rydde og kommentere Python-kode",
                     "Skrive README for kode-vedlegg",
-                    "Verifisere at kode kan kjøres på nytt"
+                    "Verifisere at kode kan kjøres på nytt",
+                    "Dokumentere Bolk 1-3-scripts (08, 09, 10) og utvidelser i 03_lp_modell.py"
                 ],
                 "criteria": [
                     {
                         "criteriaId": "ACT-4.4-C01",
                         "description": "Python-kode er dokumentert og reproduserbar",
                         "status": "not-passed",
-                        "result": "",
+                        "result": "Alle 10 scripts (01-10) kjørbare via uv. Docstrings og kjøringsinstrukser oppdatert. Gjenstår: endelig README-konsolidering for kode-vedlegg + verifikasjon på ren venv.",
                         "error": ""
                     }
                 ],
                 "execution": {
                     "runBy": "Sebastian",
                     "permissionMode": "samarbeid",
-                    "sessionId": null,
-                    "startedAt": null,
+                    "sessionId": "bolk1-3-2026-05-11",
+                    "startedAt": "2026-05-05",
                     "completedAt": null,
-                    "lastEvent": null
+                    "lastEvent": "Bolk 1-3-scripts implementert og kjørt. Eksisterende S1-S4-output verifisert uendret etter utvidelse av 03_lp_modell.py."
                 }
             },
             {

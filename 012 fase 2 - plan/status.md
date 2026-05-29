@@ -1,17 +1,17 @@
 # Status for Space Management G22-prosjektet
 
-Statusdato: 2026-04-27
+Statusdato: 2026-05-09
 
 Denne statusen er basert på planbaseline og aktivitetsstatus i `prosjektplan.md`, `schedule.json`, `wbs.json` og slagplanen for siste fem uker (`/slagplan-fase3.md`).
 
 ## Kort status
 
-- Prosjektet er ved slutten av Fase 3 — gjennomføring.
-- Milepæl M2 (Hovedutkast + peer review) faller på statusdato 2026-04-27. Hovedutkastet er ferdig — alle ti kapitler i `005 report/rapport.md` har innhold, inklusive sammendrag, abstract, figurer og bibliografi.
-- Etter en periode med skippertak i mars/april har gruppen tatt igjen forsinkelsen og leverer hovedutkastet to–tre dager før slagplanens harde frist 2026-04-30.
-- Oliver Matre Hille er ute av prosjektet per 2026-04-24. Sebastian har overtatt analytiske oppgaver; Frida har overtatt mer av skriveoppgavene. Ressursfordelingen i prosjektplanen er foreldet på dette punktet.
-- Kritisk sti går nå gjennom peer-to-peer review (uke 18), revisjon (uke 20) og kvalitetssikring/korrektur (uke 21) frem til M3 2026-05-31.
-- Høyeste gjenværende risiko er tid: 5 uker mellom hovedutkast og innlevering, og en muntlig presentasjon i uke 22.
+- Prosjektet er gått inn i Fase 4 — avslutning. M2 (Hovedutkast + peer review) er oppnådd 2026-05-08.
+- Hovedutkast ble levert til peer-makker 2026-04-28; gruppens egen review av deres rapport er levert; gruppen har mottatt og lest peer-rapporten på vår rapport. Tilbakemeldingene starter vi nå å arbeide gjennom.
+- 22 dager (3 uker + 1 dag) gjenstår til innlevering 2026-05-31.
+- Oliver Matre Hille er fortsatt ute av prosjektet (per 2026-04-24). Sebastian + Frida fortsetter med samme arbeidsdeling som under Fase 3.
+- Kritisk sti for Fase 4 går gjennom: revisjon etter peer review (uke 19) → konklusjon/innledning sluttpolering (uke 19–20) → kvalitetssikring + APA 7 + figursjekk (uke 20–21) → presentasjonsforberedelse (uke 21–22) → M3 2026-05-31.
+- Høyeste gjenværende risiko: tid (3 uker), implementere peer-review-tilbakemeldinger uten å skape nye inkonsistenser, og endelig anonymiseringssjekk før innlevering.
 
 ## Gjennomført
 
@@ -36,19 +36,19 @@ Denne statusen er basert på planbaseline og aktivitetsstatus i `prosjektplan.md
 | Diskusjonskapittel | 2026-04-27 | Ferdig (§8) |
 | Konklusjon + abstract/sammendrag | 2026-04-27 | Ferdig (§9) |
 | Hovedutkast samlet | 2026-04-27 | Ferdig (47 KB rapport.md → 48 KB rapport.docx) |
+| Peer-to-peer review (begge veier) | 2026-04-28 til 2026-05-08 | Ferdig — tilbakemelding mottatt og lest |
 
 ## Pågående / neste aktiviteter
 
 | Prioritet | Aktivitet | Planlagt periode | Ressurs | Avhengighet |
 | --- | --- | --- | --- | --- |
-| 1 | Peer-to-peer review | 2026-04-28 til 2026-05-04 | Frida (mottar/gir review) | M2 |
-| 1 | Revidere etter review | 2026-05-05 til 2026-05-11 | Sebastian + Frida | Review-tilbakemelding |
-| 2 | Ferdigstille innledning og konklusjon (sluttpolering) | 2026-05-12 til 2026-05-18 | Frida | §1, §9 |
-| 2 | Kvalitetssikring + korrektur | 2026-05-12 til 2026-05-25 | Begge | Revidert utkast |
+| 1 | Revidere etter peer review (kategorisere + implementere) | 2026-05-09 til 2026-05-15 | Sebastian + Frida | Peer-rapport |
+| 1 | Sluttpolere innledning og konklusjon | 2026-05-12 til 2026-05-18 | Frida | §1, §9 |
 | 2 | APA 7 referanseliste — endelig pass | 2026-05-12 til 2026-05-18 | Frida | §10 |
+| 2 | Kvalitetssikring + korrektur (konsistens, figurer, anonymisering) | 2026-05-12 til 2026-05-25 | Begge | Revidert utkast |
 | 2 | Rydde Python-kode + README for vedlegg | 2026-05-12 til 2026-05-18 | Sebastian | §11 |
 | 3 | Forberede muntlig presentasjon | 2026-05-19 til 2026-05-30 | Begge | Endelig rapport |
-| 3 | Innlevering + muntlig | 2026-05-31 | Begge | Alt over |
+| 3 | Innlevering + muntlig eksamen | 2026-05-31 | Begge | Alt over |
 
 ## Milepæler
 
@@ -56,14 +56,14 @@ Denne statusen er basert på planbaseline og aktivitetsstatus i `prosjektplan.md
 | --- | --- | --- |
 | M0: Godkjent proposal | 2026-02-09 | Oppnådd |
 | M1: Godkjent prosjektplan + Gantt | 2026-03-09 | Oppnådd |
-| M2: Godkjent hovedutkast + peer review | 2026-04-27 | Hovedutkast levert; peer review starter 28.04 |
-| M3: Rapport + kode innlevert, presentasjon | 2026-05-31 | Planlagt |
+| M2: Godkjent hovedutkast + peer review | 2026-04-27 | Oppnådd (peer review ferdig 2026-05-08) |
+| M3: Rapport + kode innlevert, presentasjon | 2026-05-31 | Planlagt — 22 dager igjen |
 
 ## Gantt-status
 
 ```mermaid
 gantt
-    title Space Management G22 - status per 2026-04-27
+    title Space Management G22 - status per 2026-05-09
     dateFormat  YYYY-MM-DD
     axisFormat  %d.%m
 
@@ -89,8 +89,9 @@ gantt
     M2 Hovedutkast + review             :milestone, m2, 2026-04-27, 0d
 
     section Fase 4 - Avslutning
-    Peer-to-peer review                 :crit, active, a1, 2026-04-28, 2026-05-04
-    Revisjon etter review               :crit, a2, 2026-05-05, 2026-05-11
+    Peer-to-peer review                 :done, a1, 2026-04-28, 2026-05-08
+    Revisjon etter review               :crit, active, a2, 2026-05-09, 2026-05-15
+    Sluttpolering §1 og §9              :a2b, 2026-05-12, 2026-05-18
     Korrektur + APA 7                   :crit, a3, 2026-05-12, 2026-05-25
     Python-kode + README                :a4, 2026-05-12, 2026-05-18
     Forberede presentasjon              :crit, a5, 2026-05-19, 2026-05-30
@@ -137,18 +138,18 @@ gantt
 - [x] §11 Vedlegg (kode, pseudonymregister, taushetserklæring, rådata)
 - [x] Sammendrag (norsk) + Abstract (engelsk)
 
+#### Peer-to-peer review
+- [x] Avtale review-makker og leveringstid
+- [x] Levere `rapport.docx` til peer
+- [x] Gi tilsvarende review tilbake til peer
+- [x] Motta tilbakemelding på vår rapport
+
 ### Pågående / neste
 
-#### Peer-to-peer review
-- [ ] Avtale review-makker og leveringstid
-- [ ] Levere `rapport.docx` til peer
-- [ ] Motta tilbakemelding senest 2026-05-04
-- [ ] Gi tilsvarende review tilbake til peer
-
-#### Revisjon etter review
-- [ ] Logge tilbakemeldinger og prioritere
-- [ ] Implementere endringer
-- [ ] Sluttpolere innledning og konklusjon
+#### Revisjon etter review (uke 19)
+- [ ] Logge tilbakemeldinger og kategorisere (must-fix / should-fix / nice-to-have)
+- [ ] Implementere må-endringer
+- [ ] Sluttpolere innledning (§1) og konklusjon (§9) basert på review
 
 #### Kvalitetssikring og korrektur
 - [ ] Konsistens-sjekk på tvers av kapitler (problemstilling → konklusjon)
@@ -169,12 +170,13 @@ gantt
 
 ## Vurdering
 
-Prosjektet har tatt igjen forsinkelsen som hopet seg opp i mars/tidlig april. Etter at scope ble omdefinert til leverandørperspektiv (slutten av april) og full 34-SKU-portefølje + margindata ble gjort tilgjengelig, har Sebastian gjennomført dataarbeid, modellering og resultatanalyse i et sammenhengende sprint på få dager. Frida har bidratt med litteratur, teori og deler av casebeskrivelsen. Hovedutkastet er nå ferdig og leveres til peer review på M2-dato.
+M2 er passert. Hovedutkastet ble levert til peer-makker 2026-04-28; gruppen har gitt review tilbake og mottatt egen review innenfor avtalt vindu. Fase 4 starter nå med 22 dager igjen til innlevering.
 
-Den realistiske risikoen i den siste fasen er ikke datatilgang eller modellering (begge løst), men:
+Realistiske risikoer i sluttspurten:
 
-- **Tidspress mellom peer review og innlevering.** Med Oliver ute er teamet redusert, og 5 uker er stramt for revisjon + korrektur + presentasjon. Tiltak: tidlig peer review-avtale, daglige mikro-iterasjoner på rapporten.
-- **Konsistens etter scope-skifte.** Rapporten ble omformulert fra butikk- til leverandørperspektiv sent i prosessen. Peer-reviewer kan finne narrative inkonsistenser mellom §1 og §6–§7. Tiltak: full lesegjennom før innsending.
+- **Tidspress.** 3 uker til M3 dekker revisjon, sluttpolering, kvalitetssikring, kode-rydding og presentasjonsforberedelse. Tiltak: kategorisere peer-tilbakemeldingene (must / should / nice) før uke 19, og time-boxe revisjon til 2026-05-15.
+- **Konsistens etter scope-skifte.** Rapporten ble omformulert til leverandørperspektiv sent i prosessen. Peer-reviewer kan ha funnet narrative inkonsistenser mellom §1 og §6–§7 — fanges opp i revisjonsrunden.
 - **Anonymisering.** Alle merkenavn er fjernet fra rapporten, men interne LP-rapport-filer i `intern/` har fortsatt merkenavn. Disse skal ikke følge med i innleveringen — kontrolleres i kvalitetssikringsfasen.
+- **Implementere review-tilbakemeldinger uten regresjon.** Endringer i §6/§7 kan utilsiktet skape inkonsistens med abstract/sammendrag/§1. Tiltak: full lesegjennom etter revisjon, før korrektur.
 
-Anbefalt fokus neste 14 dager: levere peer review-versjon i dag, hente tilbakemeldinger, og bruke uke 19 utelukkende på revisjon.
+Anbefalt fokus neste 7 dager: gå systematisk gjennom peer-tilbakemeldingene, kategorisere, implementere må-endringer i §1–§9, og forberede uke 20–21 for kvalitetssikring og kode.
