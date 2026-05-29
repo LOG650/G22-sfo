@@ -1,0 +1,43 @@
+% Hindre at avsnitt brytes mellom sider på en stygg måte.
+% widow  = siste linje i avsnitt havner alene øverst på neste side
+% club   = første linje i avsnitt havner alene nederst på siden
+% broken = ord brytes med bindestrek midt i sidebytte
+\widowpenalty=10000
+\clubpenalty=10000
+\brokenpenalty=10000
+\raggedbottom
+
+% caption: skjuler LaTeX' auto-prefix "Figure 1:" / "Table 1:" siden vi
+% bruker manuelle "Figur 5.1"-merker i caption-teksten (matcher krysshenvisninger
+% i §X.Y-notasjonen). LOF/LOT viser dermed bare bildeteksten uten dobbel-nummer.
+\usepackage{caption}
+\captionsetup{labelformat=empty,labelsep=none}
+% LOF/LOT: skjul \numberline-prefiks slik at vi ikke får dobbel-nummer
+% (vår manuelle "Figur 5.1"-tekst dekker behovet).
+\makeatletter
+\renewcommand*\l@figure[2]{%
+  \begingroup\let\numberline\@gobble%
+  \@dottedtocline{1}{0em}{0em}{#1}{#2}%
+  \endgroup}
+\let\l@table\l@figure
+\makeatother
+
+% lastpage + refcount: \totalpages gir antall fysiske sider inkl. forside.
+% (\pageref{LastPage} returnerer kun arabiske body-sider; forsiden teller ikke
+%  i pagineringen, så vi legger til 1.)
+\usepackage{lastpage}
+\usepackage{refcount}
+\newcommand{\totalpages}{\the\numexpr\getpagerefnumber{LastPage}+1\relax}
+
+% needspace: reserver plass etter seksjons-/avsnittsoverskrifter slik at
+% overskriftene ikke ender alene nederst på en side.
+\usepackage{needspace}
+\let\oldsection\section
+\renewcommand{\section}{\needspace{10\baselineskip}\oldsection}
+\let\oldsubsection\subsection
+\renewcommand{\subsection}{\needspace{8\baselineskip}\oldsubsection}
+\let\oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\needspace{6\baselineskip}\oldsubsubsection}
+% Manuell bruk i markdown der du ser stygge brudd:
+%   \needspace{6\baselineskip}
+% rett foran avsnittet du vil holde samlet.

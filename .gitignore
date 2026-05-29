@@ -14,6 +14,9 @@ __pycache__/
 # Backup-filer fra apply_diff.py
 *.bak
 
+# Lokale backups før større analyse-utvidelser
+_backups/
+
 # Konfidensielle data fra Coop Extra X (under taushetserklæring)
 004 data/Data 10 uker.csv
 004 data/Salgsdata u6-15 26.csv
@@ -28,3 +31,12 @@ __pycache__/
 003 references/forelesninger/.env
 003 references/forelesninger/cleaned_llm/.chunks/
 005 report/rapport.docx
+
+# Usensorert rapport (NDA — kun lokalt)
+005 report/intern/
+005 report/rapport_intern.*
+
+# Arkiverte rapport-versjoner og generert PDF
+005 report/rapport ARKIVERT.*
+005 report/rapport AKRIVERT.*
+005 report/rapport.pdf
