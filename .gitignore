@@ -36,6 +36,9 @@ _backups/
 005 report/intern/
 005 report/rapport_intern.*
 
+# Intern fase-4-rapport med reelle SKU-navn (NDA — kun lokalt, aldri i git)
+014 fase 4 - report/Rapport*intern*
+
 # Arkiverte rapport-versjoner og generert PDF
 005 report/rapport ARKIVERT.*
 005 report/rapport AKRIVERT.*
