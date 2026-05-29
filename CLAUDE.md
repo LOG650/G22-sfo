@@ -29,7 +29,7 @@ LOG650 26V Forskningsprosjekt: Logistikk og kunstig intelligens (HiMolde). Innle
 
 - **Norsk** i all rapporttekst, planfiler og statusfiler. UTF-8 uten BOM.
 - **APA 7** for referanser. Alle kilder må eksistere fysisk i `003 references/` — KI-foreslåtte kilder verifiseres alltid.
-- **Pseudonymer** i alle versjonerte filer: produkter heter A1–A14, B1–B9, C1–C11. Ekte produktnavn ALDRI i git.
+- **Anonymisering:** butikknavn (Coop Extra X) er det sensitive — produktnavn KAN deles. Pseudonymer (A1–A14, B1–B9, C1–C11) brukes fortsatt som default i rapport/figurer, men `usensorering.py` er OK å committe og merkenavn i analyse-output er ikke per se sperret. Avklart 2026-05-29.
 - **Python 3.12 + uv** for hele `006 analysis/`. Felles `uv.lock` commitet.
 - **LP-modell:** PuLP + CBC-solver. Margin-vektet målfunksjon (max Σ m_i · y_i) med restriksjoner R1–R5.
 - **Figurer:** matplotlib/seaborn/plotly via Python (ikke PowerPoint). HTML-img i rapport.md med 80% bredde, kursiv figurtekst.
