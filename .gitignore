@@ -43,3 +43,26 @@ _backups/
 005 report/rapport ARKIVERT.*
 005 report/rapport AKRIVERT.*
 005 report/rapport.pdf
+
+# Analyse-output med reelle SKU-navn (NDA — fjernet fra git, regenereres pseudonymisert)
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp-rapport_S1_primaer.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp-rapport_S2_primaer_sek.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp-rapport_S3_konservativ.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp-rapport_S4_implementerbar.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp_allokering_S1_primaer.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp_allokering_S2_primaer_sek.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp_allokering_S3_konservativ.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/lp_allokering_S4_implementerbar.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3-rapport_V3_S1_primaer.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3-rapport_V3_S2_primaer_sek.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3-rapport_V3_S3_konservativ.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3-rapport_V3_S4_implementerbar.md
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3_allokering_V3_S1_primaer.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3_allokering_V3_S2_primaer_sek.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3_allokering_V3_S3_konservativ.csv
+006 analysis/aktiviteter/3_4_data_metode_og_modellering/resultat/v3_allokering_V3_S4_implementerbar.csv
+006 analysis/aktiviteter/3_5_analyse_og_resultater/resultat/produktivitet_curhan_rapport.md
+006 analysis/aktiviteter/3_5_analyse_og_resultater/resultat/tab_curhan_lp_allokering.csv
+006 analysis/aktiviteter/3_5_analyse_og_resultater/resultat/tab_curhan_lp_allokering_relaxed.csv
+006 analysis/aktiviteter/3_5_analyse_og_resultater/resultat/tab_curhan_posthoc.csv
+006 analysis/margin_mapping.py
