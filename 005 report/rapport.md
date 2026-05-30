@@ -96,14 +96,6 @@ Rapporten undersøker hvordan en dagligvareleverandør kan bruke ukentlige sell-
 
 ---
 
-## Abstract {-}
-
-This report examines how a grocery supplier can use weekly sell-out data from a chain store as decision support in shelf-space negotiations, and quantifies the reallocation gain that can be documented towards the chain within the supplier's own portfolio at a Coop Extra store. The perspective is the supplier's; competing products are not included in the dataset — mirroring the information asymmetry typical of real supplier–retailer negotiations. Using ten weeks of weekly sell-out data for the supplier's 34 SKUs (weeks 06–15, 2026), a deterministic linear programming model (LP) implemented in Python with PuLP reallocates the supplier's contracted primary shelf space (1,079 shelf units across 154 front-facings × ~7 shelf depth) and assigns a limited number of secondary-display slots with higher sales productivity so as to maximize expected *margin-weighted* sell-out, subject to minimum-floor constraints reflecting assortment commitments. Productivity is modelled with explicit diminishing marginal returns above the current shelf capacity, in line with Curhan's space-elasticity tradition; the technical formulation and parameter choice are discussed in §3 and §6. The analysis surfaces a pervasive mismatch between shelf and demand: 24 of 34 SKUs are under-capacitated while 10 over-capacitated SKUs occupy shelf space that is not depleted before the next replenishment. An ex post calculation of the out-of-stock loss estimates that the supplier currently loses 367–734 margin units per week (43–87 % of baseline). The main recommendation — which preserves all 34 SKUs at a per-SKU floor of one case and assigns 3 secondary slots to the most productive A-class SKU — yields **+24.3 % margin-weighted and +25.7 % volume gain** compared to the observed baseline. A bootstrap analysis over 1,000 resamples of the 10-week window gives 95 % confidence bands of **[+22.1 %, +28.0 %]** on margin gain. A heuristic benchmark against simple allocation rules shows that the LP captures +13.4 percentage points over the best rule (proportional to margin × sales, +10.9 %). *Caveat:* the damping factor controlling how strongly productivity declines above observed capacity is set as a pragmatic mid-calibration between literature estimates — it is not empirically estimated from this dataset. Sensitivity analysis across realistic values gives a wider band of +12 to +32 % margin gain. The finding is operationally meaningful in a negotiation context because it documents a quantified reallocation potential within the supplier's own portfolio — a starting point for category dialogue with the chain that requires neither capital investment nor expansion of the supplier's total shelf allocation.
-
-**Keywords:** shelf allocation, space management, linear programming, retail, grocery, data-driven decision support.
-
----
-
 ## Forkortelser {-}
 
 | Forkortelse | Betydning |
@@ -210,13 +202,15 @@ Teorikapitlet etablerer de tre byggesteinene som modellen og analysen hviler på
 
 ### Space elasticity
 
+En sentral problemstilling innen detaljhandel er hvordan begrenset hylleplass bør fordeles mellom produkter. Tidlig forskning viste at mengden hylleplass et produkt disponerer påvirker salget, blant annet gjennom økt synlighet og tilgjengelighet for kundene (Curhan, 1972; Chevalier, 1975). Denne sammenhengen beskrives ofte ved hjelp av begrepet space elasticity, som uttrykker hvor følsomt salget er for endringer i tildelt hylleplass.
+
 *Space elasticity* (hylleelastisitet) er den marginale endringen i salg som følger av en endring i antall frontfacings. Begrepet ble tidlig formalisert av @curhan1972 som en produktspesifikk elastisitetskoeffisient $\beta_i$, slik at salg per uke tilnærmet følger en potensfunksjon:
 
 $$
 s_i(x_i) = \alpha_i \cdot x_i^{\beta_i}, \quad \beta_i \in (0, 1]
 $$
 
-der $\alpha_i$ er en skaleringsfaktor og $\beta_i < 1$ uttrykker *avtakende* marginalavkastning — den tiende facing gir mindre inkrementelt salg enn den første. Empiriske estimater av $\beta_i$ varierer typisk mellom 0,1 og 0,3 i den eldre litteraturen, men nyere funn [@hubner2020] antyder at elastisiteten kan være tilnærmet lineær ($\beta_i \approx 1$) for produkter som i utgangspunktet er kraftig underdimensjonerte, og tilnærmet null for produkter som allerede mettet etterspørselen.
+der $\alpha_i$ er en skaleringsfaktor og $\beta_i < 1$ uttrykker *avtakende* marginalavkastning — den tiende facing gir mindre inkrementelt salg enn den første. Empiriske estimater av (\beta_i) varierer typisk mellom 0,1 og 0,3 i den klassiske litteraturen (Curhan, 1972). Senere forskning har imidlertid vist at verdien av ekstra hylleplass kan variere betydelig mellom produkter og kategorier, og at modeller som optimaliserer sortiment og hylleplass ofte inkluderer produktspesifikke space-elasticity-effekter (Hübner et al., 2020).
 
 For den LP-modellen som brukes i dette prosjektet (§6) tilnærmes Curhans potensfunksjon med en *stykkevis lineær* produktivitetsfunksjon med knekkpunkt ved produktets nåværende kapasitet $c_i$:
 
@@ -227,7 +221,7 @@ s_i(x_i) = \begin{cases}
 \end{cases}
 $$
 
-opp til et etterspørselstak $d_i$. Her er $\rho_i = \bar s_i / c_i$ den empirisk observerte gjennomsnittsproduktiviteten ved $x_i = c_i$, og $k_\beta \in (0, 1]$ er en *dempingsfaktor* som styrer hvor sterkt produktiviteten avtar over den nåværende kapasiteten. Valget av knekkpunkt ved $c_i$ er begrunnet i at $c_i$ er det eneste produktivitetspunktet vi har empirisk dekning for; det er ikke meningsfullt å ekstrapolere med full slope inn i et område hvor ingen observasjon eksisterer. Hovedscenariet bruker $k_\beta = 0{,}5$ (slope over $c_i$ er halvert), og en sensitivitetsanalyse i §7.3 varierer $k_\beta \in \{0{,}3, 0{,}5, 0{,}7\}$ for å speile usikkerheten i hvor sterkt elastisiteten faktisk avtar i den aktuelle kategorien.
+opp til et etterspørselstak $d_i$. Her er $\rho_i = \bar s_i / c_i$ den empirisk observerte gjennomsnittsproduktiviteten ved $x_i = c_i$, og $k_\beta \in (0, 1]$ er en *dempingsfaktor* som styrer hvor sterkt produktiviteten avtar over den nåværende kapasiteten. I denne oppgaven tilnærmes Curhans potensfunksjon med en stykkevis linær funksjon. Valget av knekkpunkt ved $c_i$ er en modellforenkling basert på at dette er det eneste punktet hvor vi har empiriske observasjoner av produktets produktivitet. Hovedscenariet bruker $k_\beta = 0{,}5$ (slope over $c_i$ er halvert), og en sensitivitetsanalyse i §7.3 varierer $k_\beta \in \{0{,}3, 0{,}5, 0{,}7\}$ for å speile usikkerheten i hvor sterkt elastisiteten faktisk avtar i den aktuelle kategorien. Verdien $k_\beta = 0{,}5$ er ikke estimert fra egne data, men brukes som et nøytralt utgangspunkt som representerer moderat avtakende marginal produktivitet. Sensitivitetsanalysen undersøker hvor robuste resultatene er dersom den faktiske elastisiteten er sterkere eller svakere.
 
 Sammenlignet med Curhan-formuleringen er den stykkevise tilnærmingen ekvivalent med å splitte produktiviteten i to lineære segmenter med ulike slopes. Dette er en form for *piecewise linearization* som er standard teknikk i LP når en konkav funksjon skal håndteres uten å gå til ikke-lineær programmering. Konsekvensene av tilnærmingen — og hva som ville endret seg ved alternative knekkpunkt eller dempingsfaktorer — drøftes i §8.2.
 
