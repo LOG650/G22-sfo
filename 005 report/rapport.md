@@ -210,7 +210,7 @@ $$
 s_i(x_i) = \alpha_i \cdot x_i^{\beta_i}, \quad \beta_i \in (0, 1]
 $$
 
-der $\alpha_i$ er en skaleringsfaktor og $\beta_i < 1$ uttrykker *avtakende* marginalavkastning — den tiende facing gir mindre inkrementelt salg enn den første. Empiriske estimater av (\beta_i) varierer typisk mellom 0,1 og 0,3 i den klassiske litteraturen (Curhan, 1972). Senere forskning har imidlertid vist at verdien av ekstra hylleplass kan variere betydelig mellom produkter og kategorier, og at modeller som optimaliserer sortiment og hylleplass ofte inkluderer produktspesifikke space-elasticity-effekter (Hübner et al., 2020).
+der $\alpha_i$ er en skaleringsfaktor og $\beta_i < 1$ uttrykker *avtakende* marginalavkastning — den tiende facing gir mindre inkrementelt salg enn den første. Empiriske estimater av $\beta_i$ varierer typisk mellom 0,1 og 0,3 i den klassiske litteraturen (Curhan, 1972). Senere forskning har imidlertid vist at verdien av ekstra hylleplass kan variere betydelig mellom produkter og kategorier, og at modeller som optimaliserer sortiment og hylleplass ofte inkluderer produktspesifikke space-elasticity-effekter (Hübner et al., 2020).
 
 For den LP-modellen som brukes i dette prosjektet (§6) tilnærmes Curhans potensfunksjon med en *stykkevis lineær* produktivitetsfunksjon med knekkpunkt ved produktets nåværende kapasitet $c_i$:
 
