@@ -233,15 +233,15 @@ $$
 \max \; \mathbf{c}^\top \mathbf{z} \quad \text{under} \quad \mathbf{A}\mathbf{z} \le \mathbf{b}, \quad \mathbf{z} \ge \mathbf{0}
 $$
 
-der målfunksjonen og alle restriksjoner er lineære i beslutningsvariablene. Simplex-algoritmen [@dantzig1951] og senere interior-point-metoder løser slike problemer effektivt opp til store dimensjoner. Når heltalls-restriksjoner pålegges (som her: hylleenheter må være heltall), får man *heltalls lineær programmering* (ILP), som generelt er NP-hardt men i praksis håndterlig for små dimensjoner med branch-and-bound-solvere som CBC.
+der målfunksjonen og alle restriksjoner er lineære i beslutningsvariablene. Simplex-algoritmen [@dantzig1951] og senere interior-point-metoder løser slike problemer effektivt opp til store dimensjoner. Når heltalls-restriksjoner pålegges (som her: hylleenheter må være heltall), får man et heltalls lineært programmeringsproblem (ILP), som generelt er betydelig vanskeligere å løse enn ordinære LP-problemer og tilhører klassen NP-harde problemer.
 
 Tre egenskaper gjør LP/ILP særlig egnet for hylleallokeringsproblemet i denne studien:
 
 1. **Garantert globalt optimum** for den formulerte målfunksjonen under gitte restriksjoner — i motsetning til heuristikker som gir "gode nok" løsninger uten optimalitetsgaranti.
-2. **Transparent og tolkbar struktur.** Hver restriksjon kan relateres til en forretningsregel (total kapasitet, minimumsallokering, etterspørselsgrense), og dualvariable kan tolkes som skyggepriser.
-3. **Naturlig utgangspunkt for sensitivitetsanalyse.** Endring av én parameter og ny løsning viser direkte hvordan optimum avhenger av antakelsene.
+2. **Transparent og tolkbar struktur.** Hver restriksjon kan relateres til en forretningsregel (total kapasitet, minimumsallokering, etterspørselsgrense). For LP-modeller kan dualvariabler tolkes som skyggepriser, noe som gir ytterligere innsikt i verdien av begrensede ressurser.
+3. **Naturlig utgangspunkt for sensitivitetsanalyse.** Parametere kan varieres systematisk og effekten på optimal løsning observeres direkte.
 
-Begrensningene er omvendte: LP kan ikke uttrykke ikke-lineære sammenhenger (som Curhans potens-elastisitet med $\beta_i < 1$) uten linearisering eller stykkvis-lineær tilnærming, og den deterministiske formuleringen håndterer ikke stokastikk direkte.
+I denne studien brukes ILP til å fordele et begrenset antall hylleenheter mellom produkter slik at forventet dekningsbidrag maksimeres under kapasitets- og etterspørselsbegrensninger.
 
 ### Demand–capacity mismatch og out-of-stock
 
@@ -255,7 +255,7 @@ Begrensningene er omvendte: LP kan ikke uttrykke ikke-lineære sammenhenger (som
 
 *Out-of-stock* (OOS) oppstår når hyllen tømmes før neste etterfylling. Med daglig eller annenhver-dags etterfylling hos Coop Extra X (§4.2) er $u_i > 1$ derfor en *risikoindikator* for OOS innenfor uken — ikke en garanti — og brukes her som proxy for at observert salg kan undervurdere reell etterspørsel. Konsekvensen ved faktisk OOS er *tapt salg*: kunder som kommer i butikken mens hyllen er tom kjøper enten et substitutt eller handler ikke den kategorien.
 
-@liu2025 viser at stockouts kan føre til betydelig skjult etterspørsel og tapt omsetning fordi observert salg ikke nødvendigvis reflekterer faktisk kundebehov når produkter er utsolgt. Studien dokumenterer samtidig at maskinlæringsbasert prediksjon kan forbedre lagerstyringen og redusere slike tap. Med utgangspunkt i dette innfører prosjektet en overserve_factor-parameter (§6.4), der faktisk etterspørsel for produkter med $u_i$ ≥ 1 antas å overstige observert salg. I hovedscenariene (S1, S2) brukes en multiplikator på 2,0, mens scenario S3 benytter en mer konservativ verdi på 1,5. Sensitivitetsanalysen (§7.3) varierer multiplikatoren fra 1,25 til 3,0 og viser at gevinstpotensialet forblir positivt gjennom hele intervallet.
+@liu2025 viser at stockouts medfører tapt salg og at kunder kan bytte til konkurrerende merker, slik at observert salg kan undervurdere reell etterspørsel. Studien dokumenterer samtidig at maskinlæringsbasert prediksjon kan forbedre lagerstyringen og redusere slike tap. Med utgangspunkt i dette innfører prosjektet en overserve_factor-parameter (§6.4), der faktisk etterspørsel for produkter med $u_i$ ≥ 1 antas å overstige observert salg. I hovedscenariene (S1, S2) brukes en multiplikator på 2,0, mens scenario S3 benytter en mer konservativ verdi på 1,5. Sensitivitetsanalysen (§7.3) varierer multiplikatoren fra 1,25 til 3,0 og viser at gevinstpotensialet forblir positivt gjennom hele intervallet.
 
 Motstykket til OOS er overkapasitet: produkter med $u_i$ < 1 beslaglegger hylleplass som ikke utnyttes fullt ut mellom etterfyllinger. Dette representerer “død hylleplass” som alternativt kunne vært allokert til produkter med høyere produktivitet per hylleenhet. Prosjektets utgangshypotese er at begge fenomenene opptrer samtidig i den observerte kategorien, og at reallokering fra overkapasiterte til underkapasiterte SKU-er derfor kan gi netto gevinst.
 
